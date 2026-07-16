@@ -15,8 +15,9 @@ and report changes while keeping qualified humans in control.
 
 ## Current Status
 
-This repository currently contains the initial project structure and the Chinese
-competition solution description. No clinical production use is supported yet.
+This repository currently contains the initial project structure, a concise
+competition proposal, and a detailed Chinese product and technical design. No
+clinical production use is supported yet.
 
 ## Design Principles
 
@@ -46,5 +47,13 @@ src/trialcompiler/       Python implementation
 tests/                   Unit, integration, workflow, and benchmark tests
 ```
 
-The first product proposal is in
-[`docs/competition_solution_zh.md`](docs/competition_solution_zh.md).
+## Documentation
+
+- [`docs/detailed_solution_design_zh.md`](docs/detailed_solution_design_zh.md):
+  detailed Chinese product, architecture, workflow, data-contract, benchmark,
+  safety, MVP, and roadmap design.
+- [`docs/competition_solution_zh.md`](docs/competition_solution_zh.md): concise
+  Chinese competition proposal covering the overall solution, architecture,
+  and core innovations.
+- [`docs/repository_structure_zh.md`](docs/repository_structure_zh.md): repository
+  ownership boundaries, knowledge layers, and data-management rules.
