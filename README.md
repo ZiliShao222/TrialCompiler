@@ -49,3 +49,4 @@ tests/                   Unit, integration, workflow, and benchmark tests
 The first product proposal is in
 [`docs/competition_solution_zh.md`](docs/competition_solution_zh.md).
 
+\n

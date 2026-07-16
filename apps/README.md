@@ -5,3 +5,4 @@
 - Feishu is treated as an integration surface, while reusable domain logic stays
   in `src/trialcompiler/`.
 
+\n

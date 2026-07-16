@@ -11,3 +11,4 @@ system/   shared operating, evidence, safety, and escalation rules
 Each prompt must define structured input and output contracts and must be covered
 by a fixture or benchmark before material changes are accepted.
 
+\n
