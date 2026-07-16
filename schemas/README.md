@@ -11,5 +11,3 @@ Planned schemas include:
 - Decision Capsule;
 - audit event;
 - benchmark case and gold label.
-
-\n

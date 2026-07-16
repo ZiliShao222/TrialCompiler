@@ -10,5 +10,3 @@ metrics, and ablation protocols for:
 
 Large or restricted datasets do not belong here. Store only manifests, schemas,
 small public fixtures, and evaluation specifications in Git.
-
-\n
