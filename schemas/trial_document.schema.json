@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trialcompiler.local/schemas/trial_document.schema.json",
+  "title": "TrialDocument",
+  "type": "object",
+  "required": ["project_id", "document_id", "title", "document_type", "facts", "sections"],
+  "properties": {
+    "project_id": {"type": "string", "minLength": 1},
+    "document_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "document_type": {"type": "string"},
+    "jurisdiction": {"type": "string"},
+    "therapeutic_area": {"type": "string"},
+    "version": {"type": "string"},
+    "sources": {"type": "array", "items": {"type": "object"}},
+    "facts": {"type": "array", "items": {"$ref": "#/$defs/fact"}},
+    "sections": {"type": "array", "items": {"$ref": "#/$defs/section"}}
+  },
+  "$defs": {
+    "fact": {
+      "type": "object",
+      "required": ["fact_id", "name", "value", "status", "source_ids"],
+      "properties": {
+        "fact_id": {"type": "string"},
+        "name": {"type": "string"},
+        "value": {},
+        "unit": {"type": ["string", "null"]},
+        "status": {"enum": ["draft", "requires_human_review", "approved", "rejected", "superseded"]},
+        "source_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "section": {
+      "type": "object",
+      "required": ["section_id", "title", "text"],
+      "properties": {
+        "section_id": {"type": "string"},
+        "title": {"type": "string"},
+        "text": {"type": "string"},
+        "fact_refs": {"type": "array", "items": {"type": "string"}},
+        "source_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

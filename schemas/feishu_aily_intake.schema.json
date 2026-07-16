@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trialcompiler.local/schemas/feishu_aily_intake.schema.json",
+  "title": "FeishuAilyIntakeEnvelope",
+  "type": "object",
+  "required": ["request_id", "project_id", "actor_id", "user_request", "task_intent", "document_type"],
+  "properties": {
+    "request_id": {"type": "string", "minLength": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "actor_id": {"type": "string", "minLength": 1},
+    "user_request": {"type": "string", "minLength": 1},
+    "task_intent": {"enum": ["review_document", "compile_section", "propagate_change", "explain_finding"]},
+    "document_type": {"type": "string"},
+    "locale": {"type": "string"},
+    "file_refs": {"type": "array", "items": {"type": "string"}},
+    "structured_fields": {"type": "object"}
+  }
+}

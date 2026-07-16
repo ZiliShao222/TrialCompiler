@@ -1,0 +1,15 @@
+{
+  "mode": "review_only",
+  "max_repair_rounds": 2,
+  "memory": {
+    "coarse_backend": "sqlite_fts5",
+    "fine_judge": "deterministic_demo",
+    "top_k": 6,
+    "coarse_k": 24,
+    "require_human_approved_experience": true
+  },
+  "release": {
+    "require_qualified_human_approval": true,
+    "allow_automatic_document_write": false
+  }
+}

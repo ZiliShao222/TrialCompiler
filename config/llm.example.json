@@ -1,0 +1,6 @@
+{
+  "base_url": "https://example-openai-compatible-endpoint/v1",
+  "api_key": "replace-with-a-local-secret",
+  "model": "replace-with-model-name",
+  "timeout_seconds": 90
+}

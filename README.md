@@ -15,9 +15,31 @@ and report changes while keeping qualified humans in control.
 
 ## Current Status
 
-This repository currently contains the initial project structure, a concise
-competition proposal, and a detailed Chinese product and technical design. No
-clinical production use is supported yet.
+The repository now contains a runnable, review-only MVP for cross-section
+consistency review. It represents a trial document as canonical facts, source
+references, sections, and dependencies; runs a six-role LangGraph workflow;
+retrieves only approved and in-scope experience; proposes minimal redlines; and
+produces an auditable report for qualified human review.
+
+The MVP includes a CLI, FastAPI service, synthetic fixtures, a Feishu Aily
+intake contract, and automated tests. It does **not** support clinical
+production use or real patient data.
+
+## MVP Workflow
+
+```text
+Feishu Aily intake
+  -> A: context lock
+  -> B: evidence + approved experience
+  -> C: repair proposals
+  -> D: independent quality gate
+       -> C when revision is required
+       -> E when ready
+  -> E: review packet
+  -> F: draft experience candidate
+  -> qualified human approval (separate governance step)
+  -> reusable organizational memory
+```
 
 ## Design Principles
 
@@ -57,3 +79,63 @@ tests/                   Unit, integration, workflow, and benchmark tests
   and core innovations.
 - [`docs/repository_structure_zh.md`](docs/repository_structure_zh.md): repository
   ownership boundaries, knowledge layers, and data-management rules.
+- [`docs/mvp_implementation_zh.md`](docs/mvp_implementation_zh.md): runnable MVP,
+  workflow, demonstration result, and safety boundary.
+- [`docs/memory_retrieval_and_experience_reuse_zh.md`](docs/memory_retrieval_and_experience_reuse_zh.md):
+  Semantic Element storage, coarse-to-fine retrieval, metadata gates, lifecycle,
+  Decision Capsules, and evaluation metrics.
+- [`docs/knowledge_base_collection_plan_zh.md`](docs/knowledge_base_collection_plan_zh.md):
+  concrete two-week collection plan for the AI, medical, and finance/business
+  team members.
+- [`docs/feishu_aily_integration_zh.md`](docs/feishu_aily_integration_zh.md): Aily
+  clarification and field-extraction workflow before TrialCompiler.
+
+## Quick Start
+
+The current development environment is `D:\miniconda\envs\iGEM`.
+
+```powershell
+cd D:\TrialCompiler
+$env:PYTHONPATH = "src"
+
+# Reproducible synthetic review
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler demo
+
+# Validate the Feishu Aily hand-off contract
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler feishu-intake `
+  --payload data/fixtures/feishu_aily_intake.json
+
+# Start the API
+D:\miniconda\envs\iGEM\python.exe -m uvicorn apps.api.app:app `
+  --host 127.0.0.1 --port 8810
+```
+
+Open `http://127.0.0.1:8810/docs` for the generated API console. The main
+endpoints are:
+
+- `GET /health`
+- `POST /api/v1/intake/feishu`
+- `POST /api/v1/review`
+- `POST /api/v1/memory/search`
+
+## Verification
+
+```powershell
+$env:PYTHONPATH = "src"
+D:\miniconda\envs\iGEM\python.exe -m unittest discover -s tests -v
+```
+
+The synthetic case intentionally sets the approved primary-endpoint assessment
+to Week 16 while two dependent sections still say Week 12. The workflow detects
+both conflicts, preserves unrelated participant-count text, admits one approved
+experience card, produces two source-linked redlines, passes the independent
+quality gate, and stores the new experience only as `draft`.
+
+## Safety Boundary
+
+- Every generated repair remains a proposal; no source document is overwritten.
+- A quality-gate pass is not medical, regulatory, or ethical approval.
+- Draft, expired, or wrong-scope memories are rejected before agent context.
+- The current API has no production identity, tenant, or file-access controls.
+- Only synthetic data may be used until RBAC, encryption, audit retention,
+  qualified electronic approval, and data-governance review are implemented.

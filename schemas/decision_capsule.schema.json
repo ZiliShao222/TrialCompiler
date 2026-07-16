@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trialcompiler.local/schemas/decision_capsule.schema.json",
+  "title": "DecisionCapsule",
+  "type": "object",
+  "required": ["capsule_id", "trigger", "conditions", "recommendation", "rationale", "evidence_source_ids", "status"],
+  "properties": {
+    "capsule_id": {"type": "string"},
+    "title": {"type": "string"},
+    "trigger": {"type": "string"},
+    "conditions": {"type": "object"},
+    "recommendation": {"type": "string"},
+    "rationale": {"type": "string"},
+    "evidence_source_ids": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["draft", "requires_human_review", "approved", "rejected", "superseded"]},
+    "authority": {"type": "string"},
+    "approved_by": {"type": ["string", "null"]},
+    "valid_until": {"type": ["string", "null"]}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "project_id": "SYNTH-DEMO-001",
+  "document_id": "PROTOCOL-DEMO-001",
+  "title": "Synthetic protocol consistency demonstration",
+  "document_type": "protocol",
+  "jurisdiction": "CN",
+  "therapeutic_area": "general_medicine_demo",
+  "version": "0.2",
+  "sources": [
+    {
+      "source_id": "SRC-DEMO-AMENDMENT",
+      "title": "Synthetic approved amendment decision",
+      "locator": "demo://amendment/primary-endpoint-week",
+      "authority": "project",
+      "version": "2",
+      "effective_date": "2026-07-01",
+      "access_scope": "demo"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F-PRIMARY-ENDPOINT-WEEK",
+      "name": "primary endpoint assessment week",
+      "value": 16,
+      "unit": "week",
+      "status": "approved",
+      "source_ids": ["SRC-DEMO-AMENDMENT"],
+      "owner_role": "medical_lead",
+      "version": 2
+    },
+    {
+      "fact_id": "F-SAMPLE-SIZE",
+      "name": "planned sample size",
+      "value": 120,
+      "unit": "participants",
+      "status": "approved",
+      "source_ids": ["SRC-DEMO-AMENDMENT"],
+      "owner_role": "statistician",
+      "version": 1
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "S-SYNOPSIS",
+      "title": "Synopsis",
+      "text": "The primary endpoint will be assessed at Week 12 in 120 participants.",
+      "document_type": "protocol",
+      "fact_refs": ["F-PRIMARY-ENDPOINT-WEEK", "F-SAMPLE-SIZE"],
+      "source_ids": ["SRC-DEMO-AMENDMENT"]
+    },
+    {
+      "section_id": "S-OBJECTIVES",
+      "title": "Objectives and endpoints",
+      "text": "The primary endpoint assessment occurs at Week 16.",
+      "document_type": "protocol",
+      "fact_refs": ["F-PRIMARY-ENDPOINT-WEEK"],
+      "source_ids": ["SRC-DEMO-AMENDMENT"]
+    },
+    {
+      "section_id": "S-SCHEDULE",
+      "title": "Schedule of activities",
+      "text": "Primary endpoint procedures are listed for Week 12.",
+      "document_type": "protocol",
+      "fact_refs": ["F-PRIMARY-ENDPOINT-WEEK"],
+      "source_ids": ["SRC-DEMO-AMENDMENT"]
+    }
+  ]
+}

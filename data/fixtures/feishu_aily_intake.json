@@ -1,0 +1,14 @@
+{
+  "request_id": "AILY-DEMO-001",
+  "project_id": "SYNTH-DEMO-001",
+  "actor_id": "demo-reviewer",
+  "user_request": "请检查方案中主要终点评估时间是否一致，并生成待人工审核的修订建议。",
+  "task_intent": "review_document",
+  "document_type": "protocol",
+  "locale": "zh-CN",
+  "file_refs": ["feishu://docx/synthetic-demo-protocol"],
+  "structured_fields": {
+    "requested_scope": ["synopsis", "objectives", "schedule_of_activities"],
+    "human_approval_required": true
+  }
+}
