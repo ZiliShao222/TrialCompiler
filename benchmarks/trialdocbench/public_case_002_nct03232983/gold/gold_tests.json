@@ -1,0 +1,54 @@
+{
+  "case_id": "NCT03232983",
+  "gold_version": "human-reviewed-1.0",
+  "tests": [
+    {
+      "test_id": "C002-T001",
+      "type": "identifier_conflict",
+      "severity": "critical",
+      "expected_action": "requires_human_review",
+      "expected_section_ids": ["PROT-COVER", "REG-ID"],
+      "gold_statement": "The registry identifies NCT03232983, while the uploaded protocol cover displays NCT03233983.",
+      "evidence": [
+        {"source_id": "SRC-REG", "locator": "protocolSection.identificationModule.nctId"},
+        {"source_id": "SRC-PROT", "locator": "PDF page 1"}
+      ]
+    },
+    {
+      "test_id": "C002-T002",
+      "type": "endpoint_definition_drift",
+      "severity": "high",
+      "expected_action": "requires_human_review",
+      "expected_section_ids": ["PROT-ENDPOINT", "REG-ENDPOINT"],
+      "gold_statement": "The protocol defines the primary relative bioavailability comparison using AUC(0-infinity), while the registry primary outcome is AUC(0-10h).",
+      "evidence": [
+        {"source_id": "SRC-PROT", "locator": "PDF pages 9-10 and 18"},
+        {"source_id": "SRC-REG", "locator": "protocolSection.outcomesModule.primaryOutcomes[0]"}
+      ]
+    },
+    {
+      "test_id": "C002-T003",
+      "type": "sampling_frequency_conflict",
+      "severity": "high",
+      "expected_action": "requires_human_review",
+      "expected_section_ids": ["PROT-SAMPLING", "REG-SAMPLING"],
+      "gold_statement": "The protocol specifies glucose sampling every 20 minutes from 480-600 minutes; any registry/result wording that states every 10 minutes for this interval must be flagged rather than silently normalized.",
+      "evidence": [
+        {"source_id": "SRC-PROT", "locator": "PDF page 13"},
+        {"source_id": "SRC-REG", "locator": "results outcome descriptions and time frames"}
+      ]
+    },
+    {
+      "test_id": "C002-T004",
+      "type": "status_semantics",
+      "severity": "medium",
+      "expected_action": "do_not_report_as_conflict",
+      "expected_section_ids": ["ENROLLMENT-STATES"],
+      "gold_statement": "Planned maximum enrollment 28, target completers at least 22, actual enrollment 28, and Period 4 completion counts are distinct facts.",
+      "evidence": [
+        {"source_id": "SRC-PROT", "locator": "PDF pages 10, 20 and 39"},
+        {"source_id": "SRC-REG", "locator": "designModule.enrollmentInfo and results participant flow"}
+      ]
+    }
+  ]
+}

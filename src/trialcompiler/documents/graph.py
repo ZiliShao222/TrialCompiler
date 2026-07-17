@@ -16,6 +16,7 @@ from trialcompiler.models import (
 )
 
 WEEK_PATTERN = re.compile(r"\b(?:week|wk)\s*(\d{1,3})\b", re.IGNORECASE)
+NCT_ID_PATTERN = re.compile(r"\bNCT\d{8}\b", re.IGNORECASE)
 
 
 def atomic_value_changes(old_value: object, new_value: object) -> list[tuple[str, str]]:
@@ -141,6 +142,34 @@ class ClinicalDocumentGraph:
                     )
         return findings
 
+    def find_trial_identifier_inconsistencies(self) -> list[ReviewFinding]:
+        """Detect explicit NCT identifiers that disagree with a canonical fact."""
+        findings: list[ReviewFinding] = []
+        for fact in self.document.facts:
+            if not isinstance(fact.value, str) or not NCT_ID_PATTERN.fullmatch(fact.value):
+                continue
+            canonical = fact.value.upper()
+            for section_id in sorted(self.fact_to_sections.get(fact.fact_id, set())):
+                section = self.sections_by_id[section_id]
+                observed = sorted({match.upper() for match in NCT_ID_PATTERN.findall(section.text)})
+                if observed and canonical not in observed:
+                    findings.append(
+                        ReviewFinding(
+                            finding_id=f"trial-id-conflict-{fact.fact_id}-{section_id}",
+                            finding_type="canonical_trial_identifier_conflict",
+                            severity=Severity.HIGH,
+                            section_ids=[section_id],
+                            message=(
+                                f"{section.title} states trial identifier(s) {observed}, while "
+                                f"canonical fact {fact.fact_id} requires {canonical}."
+                            ),
+                            canonical_fact_id=fact.fact_id,
+                            evidence_source_ids=list(fact.source_ids),
+                            fact_ids=[fact.fact_id],
+                        )
+                    )
+        return findings
+
     def find_proposed_change_inconsistencies(self) -> list[ReviewFinding]:
         """Find impacted sections that still contain an atomic prior fact value."""
         findings: list[ReviewFinding] = []
@@ -176,7 +205,11 @@ class ClinicalDocumentGraph:
         return findings
 
     def review(self) -> list[ReviewFinding]:
-        findings = self.validate_references() + self.find_week_inconsistencies()
+        findings = (
+            self.validate_references()
+            + self.find_trial_identifier_inconsistencies()
+            + self.find_week_inconsistencies()
+        )
         existing = {finding.finding_id for finding in findings}
         findings.extend(
             finding

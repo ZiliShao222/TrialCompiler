@@ -1,0 +1,46 @@
+{
+  "case_id": "NCT03117738",
+  "state_path": "outputs\\public_case_003_runtime\\runs\\run-20260717191922-f40299\\workflow_state.json",
+  "positive_recall": 1.0,
+  "negative_control_accuracy": 1.0,
+  "true_positive": 3,
+  "false_negative": 0,
+  "true_negative": 1,
+  "false_positive": 0,
+  "tests": [
+    {
+      "test_id": "C003-T001",
+      "gold_action": "requires_human_review",
+      "predicted_conflict": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-001"
+      ]
+    },
+    {
+      "test_id": "C003-T002",
+      "gold_action": "requires_human_review",
+      "predicted_conflict": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-003"
+      ]
+    },
+    {
+      "test_id": "C003-T003",
+      "gold_action": "requires_human_review",
+      "predicted_conflict": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-002"
+      ]
+    },
+    {
+      "test_id": "C003-T004",
+      "gold_action": "do_not_report_as_conflict",
+      "predicted_conflict": false,
+      "correct": true,
+      "matching_finding_ids": []
+    }
+  ]
+}

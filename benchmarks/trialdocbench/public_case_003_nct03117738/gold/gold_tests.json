@@ -1,0 +1,56 @@
+{
+  "case_id": "NCT03117738",
+  "gold_version": "human-reviewed-1.0",
+  "tests": [
+    {
+      "test_id": "C003-T001",
+      "type": "cross_version_enrollment_conflict",
+      "severity": "high",
+      "expected_action": "requires_human_review",
+      "expected_section_ids": ["ICF-ENROLLMENT", "PROTOCOL-ENROLLMENT", "REGISTRY-ENROLLMENT"],
+      "gold_statement": "The 2017 ICF says 60 participants, the 2019 protocol and SAP plan approximately 22, and the registry reports actual enrollment 21. Preserve version and status semantics.",
+      "evidence": [
+        {"source_id": "SRC-ICF", "locator": "PDF page 2"},
+        {"source_id": "SRC-PROT", "locator": "PDF pages 6 and 13"},
+        {"source_id": "SRC-SAP", "locator": "PDF page 7"},
+        {"source_id": "SRC-REG", "locator": "designModule.enrollmentInfo"}
+      ]
+    },
+    {
+      "test_id": "C003-T002",
+      "type": "internal_randomization_visit_conflict",
+      "severity": "high",
+      "expected_action": "requires_human_review",
+      "expected_section_ids": ["ICF-RANDOMIZATION-A", "ICF-RANDOMIZATION-B", "SAP-RANDOMIZATION"],
+      "gold_statement": "The ICF says both third visit and second visit for randomization; the SAP specifies Visit 2 at Week -4.",
+      "evidence": [
+        {"source_id": "SRC-ICF", "locator": "PDF pages 2-3"},
+        {"source_id": "SRC-SAP", "locator": "PDF page 8"}
+      ]
+    },
+    {
+      "test_id": "C003-T003",
+      "type": "screening_timeline_drift",
+      "severity": "medium",
+      "expected_action": "requires_human_review",
+      "expected_section_ids": ["ICF-SCREENING", "PROTOCOL-SCREENING"],
+      "gold_statement": "ICF Visit 1 is Week -6, while protocol v6.0 Visit 1 is Week -8; Visit 2 remains Week -4.",
+      "evidence": [
+        {"source_id": "SRC-ICF", "locator": "PDF page 2"},
+        {"source_id": "SRC-PROT", "locator": "PDF pages 6 and 20"}
+      ]
+    },
+    {
+      "test_id": "C003-T004",
+      "type": "planned_actual_status_semantics",
+      "severity": "medium",
+      "expected_action": "do_not_report_as_conflict",
+      "expected_section_ids": ["FLOW-STATES"],
+      "gold_statement": "Planned 11/11 randomization, actual 11/10 starts, and 7/5 completions are distinct plan and result facts.",
+      "evidence": [
+        {"source_id": "SRC-PROT", "locator": "PDF page 6"},
+        {"source_id": "SRC-REG", "locator": "resultsSection participant flow"}
+      ]
+    }
+  ]
+}

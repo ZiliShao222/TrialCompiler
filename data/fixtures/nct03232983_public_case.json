@@ -1,0 +1,31 @@
+{
+  "project_id": "NCT03232983",
+  "document_id": "NCT03232983-PUBLIC-PACKAGE",
+  "title": "NCT03232983 public protocol, SAP, registry and results package",
+  "document_type": "multi_document_clinical_trial_package",
+  "jurisdiction": "United States",
+  "therapeutic_area": "clinical pharmacology / glucose clamp",
+  "version": "public-benchmark-reviewed-1.0",
+  "sources": [
+    {"source_id":"SRC-PROT","title":"Public protocol","locator":"benchmarks/trialdocbench/public_case_002_nct03232983/source_documents/Prot_000.pdf","authority":"ClinicalTrials.gov","version":"public protocol","access_scope":"public"},
+    {"source_id":"SRC-SAP","title":"Public SAP","locator":"benchmarks/trialdocbench/public_case_002_nct03232983/source_documents/SAP_001.pdf","authority":"ClinicalTrials.gov","version":"public SAP","access_scope":"public"},
+    {"source_id":"SRC-REG","title":"Registry and results","locator":"benchmarks/trialdocbench/public_case_002_nct03232983/source_documents/registry.json","authority":"ClinicalTrials.gov API v2","version":"2026-07-18","access_scope":"public"}
+  ],
+  "facts": [
+    {"fact_id":"F-TRIAL-ID","name":"Canonical clinical trial identifier","value":"NCT03232983","unit":null,"status":"approved","source_ids":["SRC-REG"],"owner_role":"Regulatory","version":1},
+    {"fact_id":"F-AUC-ENDPOINT","name":"Protocol primary relative bioavailability endpoint","value":"AUC(0-infinity)","unit":null,"status":"approved","source_ids":["SRC-PROT"],"owner_role":"Clinical Pharmacology","version":1},
+    {"fact_id":"F-LATE-SAMPLING","name":"Glucose sampling from 480 to 600 minutes","value":"every 20 minutes","unit":null,"status":"approved","source_ids":["SRC-PROT"],"owner_role":"Clinical Operations","version":1},
+    {"fact_id":"F-MAX-ENROLLMENT","name":"Planned maximum enrollment","value":28,"unit":"participants","status":"approved","source_ids":["SRC-PROT"],"owner_role":"Biostatistics","version":1},
+    {"fact_id":"F-TARGET-COMPLETERS","name":"Target minimum completers","value":22,"unit":"participants","status":"approved","source_ids":["SRC-PROT"],"owner_role":"Biostatistics","version":1},
+    {"fact_id":"F-ACTUAL-ENROLLMENT","name":"Actual enrollment","value":28,"unit":"participants","status":"approved","source_ids":["SRC-REG"],"owner_role":"Clinical Operations","version":1}
+  ],
+  "sections": [
+    {"section_id":"PROT-COVER","title":"Protocol cover","document_type":"protocol","source_ids":["SRC-PROT"],"fact_refs":["F-TRIAL-ID"],"text":"The protocol cover displays clinical trial identifier NCT03233983."},
+    {"section_id":"REG-ID","title":"Registry identification","document_type":"registry","source_ids":["SRC-REG"],"fact_refs":["F-TRIAL-ID"],"text":"ClinicalTrials.gov identifies this study as NCT03232983."},
+    {"section_id":"PROT-ENDPOINT","title":"Protocol PK endpoint","document_type":"protocol","source_ids":["SRC-PROT"],"fact_refs":["F-AUC-ENDPOINT"],"text":"The primary relative bioavailability comparison uses AUC(0-infinity)."},
+    {"section_id":"REG-ENDPOINT","title":"Registry primary outcome","document_type":"registry","source_ids":["SRC-REG"],"fact_refs":["F-AUC-ENDPOINT"],"text":"The registry primary outcome is AUC(0-10h)."},
+    {"section_id":"PROT-SAMPLING","title":"Protocol glucose sampling","document_type":"protocol","source_ids":["SRC-PROT"],"fact_refs":["F-LATE-SAMPLING"],"text":"Glucose is sampled every 10 minutes from 120 through 480 minutes and every 20 minutes from 480 through 600 minutes."},
+    {"section_id":"REG-SAMPLING","title":"Registry sampling wording","document_type":"registry","source_ids":["SRC-REG"],"fact_refs":["F-LATE-SAMPLING"],"text":"The result wording states that glucose was sampled every 10 minutes through 600 minutes."},
+    {"section_id":"ENROLLMENT-STATES","title":"Planned and actual enrollment states","document_type":"cross_document_summary","source_ids":["SRC-PROT","SRC-REG"],"fact_refs":["F-MAX-ENROLLMENT","F-TARGET-COMPLETERS","F-ACTUAL-ENROLLMENT"],"text":"The protocol permits up to 28 enrolled participants and targets at least 22 completers. The registry reports actual enrollment of 28. These are separate planning and result states."}
+  ]
+}

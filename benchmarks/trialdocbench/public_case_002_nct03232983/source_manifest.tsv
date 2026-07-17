@@ -1,0 +1,4 @@
+source_id	kind	local_path	official_url	sha256	status
+SRC-REG	registry	source_documents/registry.json	https://clinicaltrials.gov/api/v2/studies/NCT03232983	5C9971AAD9C6EC60B09490DCE57FE29AF6FFCD6A831C5ACE5C503730B5300562	public_official
+SRC-PROT	protocol	source_documents/Prot_000.pdf	https://cdn.clinicaltrials.gov/large-docs/83/NCT03232983/Prot_000.pdf	9B707B362884673630EF4000B2A207C671BD3B8378283D97402DB3C9E338768C	public_official
+SRC-SAP	sap	source_documents/SAP_001.pdf	https://cdn.clinicaltrials.gov/large-docs/83/NCT03232983/SAP_001.pdf	4B8F09BF2F2599647586D23D1F5746180B41B2F9C0185C333BE4C805B7F21D1B	public_official

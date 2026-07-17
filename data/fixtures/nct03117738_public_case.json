@@ -1,0 +1,34 @@
+{
+  "project_id": "NCT03117738",
+  "document_id": "NCT03117738-PUBLIC-PACKAGE",
+  "title": "NCT03117738 public protocol, SAP, ICF, registry and results package",
+  "document_type": "multi_document_clinical_trial_package",
+  "jurisdiction": "United States / South Korea",
+  "therapeutic_area": "Alzheimer disease / cell therapy",
+  "version": "public-benchmark-reviewed-1.0",
+  "sources": [
+    {"source_id":"SRC-PROT","title":"Protocol version 6.0","locator":"benchmarks/trialdocbench/public_case_003_nct03117738/source_documents/Prot_000.pdf","authority":"ClinicalTrials.gov","version":"6.0","access_scope":"public"},
+    {"source_id":"SRC-SAP","title":"Public SAP","locator":"benchmarks/trialdocbench/public_case_003_nct03117738/source_documents/SAP_001.pdf","authority":"ClinicalTrials.gov","version":"public SAP","access_scope":"public"},
+    {"source_id":"SRC-ICF","title":"2017 public ICF","locator":"benchmarks/trialdocbench/public_case_003_nct03117738/source_documents/ICF_002.pdf","authority":"ClinicalTrials.gov","version":"2017 ICF","access_scope":"public"},
+    {"source_id":"SRC-REG","title":"Registry and results","locator":"benchmarks/trialdocbench/public_case_003_nct03117738/source_documents/registry.json","authority":"ClinicalTrials.gov API v2","version":"2026-07-18","access_scope":"public"}
+  ],
+  "facts": [
+    {"fact_id":"F-PROTOCOL-ENROLLMENT","name":"Protocol planned enrollment","value":22,"unit":"participants","status":"approved","source_ids":["SRC-PROT","SRC-SAP"],"owner_role":"Biostatistics","version":1},
+    {"fact_id":"F-ICF-ENROLLMENT","name":"Earlier ICF stated enrollment","value":60,"unit":"participants","status":"approved","source_ids":["SRC-ICF"],"owner_role":"Clinical Operations","version":1},
+    {"fact_id":"F-ACTUAL-ENROLLMENT","name":"Actual enrollment","value":21,"unit":"participants","status":"approved","source_ids":["SRC-REG"],"owner_role":"Clinical Operations","version":1},
+    {"fact_id":"F-RANDOMIZATION","name":"Randomization visit","value":"Visit 2 at Week -4","unit":null,"status":"approved","source_ids":["SRC-SAP"],"owner_role":"Clinical Operations","version":1},
+    {"fact_id":"F-PROTOCOL-SCREENING","name":"Protocol Visit 1 timing","value":"Week -8","unit":null,"status":"approved","source_ids":["SRC-PROT"],"owner_role":"Clinical Operations","version":1},
+    {"fact_id":"F-ICF-SCREENING","name":"Earlier ICF Visit 1 timing","value":"Week -6","unit":null,"status":"approved","source_ids":["SRC-ICF"],"owner_role":"Clinical Operations","version":1}
+  ],
+  "sections": [
+    {"section_id":"ICF-ENROLLMENT","title":"Earlier ICF enrollment","document_type":"informed_consent_form","source_ids":["SRC-ICF"],"fact_refs":["F-ICF-ENROLLMENT"],"text":"The 2017 informed consent form states that 60 participants will take part."},
+    {"section_id":"PROTOCOL-ENROLLMENT","title":"Later protocol and SAP enrollment","document_type":"protocol_and_sap","source_ids":["SRC-PROT","SRC-SAP"],"fact_refs":["F-PROTOCOL-ENROLLMENT"],"text":"Protocol version 6.0 and the SAP plan approximately 22 randomized participants."},
+    {"section_id":"REGISTRY-ENROLLMENT","title":"Registry actual enrollment","document_type":"registry","source_ids":["SRC-REG"],"fact_refs":["F-ACTUAL-ENROLLMENT"],"text":"The results record reports actual enrollment of 21 participants."},
+    {"section_id":"ICF-RANDOMIZATION-A","title":"ICF page 2 randomization wording","document_type":"informed_consent_form","source_ids":["SRC-ICF"],"fact_refs":["F-RANDOMIZATION"],"text":"The informed consent form says randomization occurs at the third visit."},
+    {"section_id":"ICF-RANDOMIZATION-B","title":"ICF page 3 randomization wording","document_type":"informed_consent_form","source_ids":["SRC-ICF"],"fact_refs":["F-RANDOMIZATION"],"text":"A later paragraph in the same informed consent form says randomization occurs at the second visit."},
+    {"section_id":"SAP-RANDOMIZATION","title":"SAP randomization schedule","document_type":"statistical_analysis_plan","source_ids":["SRC-SAP"],"fact_refs":["F-RANDOMIZATION"],"text":"The SAP defines Visit 2 at Week -4 as the randomization visit."},
+    {"section_id":"ICF-SCREENING","title":"Earlier ICF screening schedule","document_type":"informed_consent_form","source_ids":["SRC-ICF"],"fact_refs":["F-ICF-SCREENING"],"text":"The ICF labels Visit 1 as Week -6 and Visit 2 as Week -4."},
+    {"section_id":"PROTOCOL-SCREENING","title":"Later protocol screening schedule","document_type":"protocol","source_ids":["SRC-PROT"],"fact_refs":["F-PROTOCOL-SCREENING"],"text":"Protocol version 6.0 labels Visit 1 as Week -8 and Visit 2 as Week -4."},
+    {"section_id":"FLOW-STATES","title":"Planned and actual treatment flow","document_type":"cross_document_summary","source_ids":["SRC-PROT","SRC-REG"],"fact_refs":[],"text":"The protocol planned 11 participants per group. The results report 11 and 10 participants starting treatment, with 7 and 5 completing. These are distinct planned, started, and completed states."}
+  ]
+}

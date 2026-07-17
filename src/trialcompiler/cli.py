@@ -14,12 +14,13 @@ from typing import Any
 
 from trialcompiler.demo import load_document, seed_demo_experience
 from trialcompiler.documents import ClinicalDocumentGraph
+from trialcompiler.generation import GenerativeCasePackage, ProtocolGenerationWorkflow
 from trialcompiler.integrations.feishu import aily_acknowledgement, validate_aily_payload
 from trialcompiler.llm import (
     LLMConfig,
     OpenAICompatibleClient,
-    govern_semantic_review,
     govern_semantic_repairs,
+    govern_semantic_review,
     load_prompt,
 )
 from trialcompiler.memory import RetrievalQuery, SemanticElementStore
@@ -31,6 +32,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_FIXTURE = REPO_ROOT / "data" / "fixtures" / "synthetic_protocol_conflict.json"
 SEMANTIC_REVIEW_PROMPT = REPO_ROOT / "prompts" / "agents" / "semantic_document_reviewer.md"
 SEMANTIC_REPAIR_PROMPT = REPO_ROOT / "prompts" / "agents" / "semantic_repair_builder.md"
+GENERATION_PROMPT_ROOT = REPO_ROOT / "prompts" / "agents"
 
 
 def _json_print(payload: Any) -> None:
@@ -127,11 +129,7 @@ def _compile_workspace_change(
     llm_mode: str = "auto",
     llm_model: str = "qwen-plus",
 ) -> dict[str, Any]:
-    change = (
-        workspace.load_change(change_id)
-        if change_id
-        else workspace.latest_actionable_change()
-    )
+    change = workspace.load_change(change_id) if change_id else workspace.latest_actionable_change()
     document = workspace.candidate_document(change) if change else workspace.load_document()
     store = SemanticElementStore(db)
     try:
@@ -156,8 +154,7 @@ def _compile_workspace_change(
                         "change_context": change_context,
                         "change_reason": change.reason if change else None,
                         "deterministic_findings": [
-                            asdict(item)
-                            for item in ClinicalDocumentGraph(document).review()
+                            asdict(item) for item in ClinicalDocumentGraph(document).review()
                         ],
                         "impact_matrix": impact,
                     },
@@ -194,12 +191,8 @@ def _compile_workspace_change(
                     system_prompt=load_prompt(SEMANTIC_REPAIR_PROMPT),
                     user_payload={
                         "document": document.to_dict(),
-                        "semantic_findings": semantic_review["result"][
-                            "semantic_findings"
-                        ],
-                        "review_questions": semantic_review["result"][
-                            "review_questions"
-                        ],
+                        "semantic_findings": semantic_review["result"]["semantic_findings"],
+                        "review_questions": semantic_review["result"]["review_questions"],
                         "change_context": change_context,
                         "impact_matrix": impact,
                     },
@@ -420,9 +413,7 @@ def run_review(args: argparse.Namespace, *, seed_demo: bool = False) -> int:
             "proposals": len(state.get("proposals", [])),
             "quality": state.get("quality"),
             "experience_cards": len(state.get("experience_cards", [])),
-            "experience_candidate_status": (
-                state.get("experience_candidate") or {}
-            ).get("status"),
+            "experience_candidate_status": (state.get("experience_candidate") or {}).get("status"),
             "artifacts": paths,
             "memory_metrics": store.metrics(),
         }
@@ -461,6 +452,29 @@ def run_memory_search(args: argparse.Namespace) -> int:
         ]
     )
     store.close()
+    return 0
+
+
+def run_package_audit(args: argparse.Namespace) -> int:
+    package = GenerativeCasePackage(args.package)
+    files = package.materialize(args.stage, strict=False)
+    audit = package.audit(args.stage, files=files)
+    _json_print(audit.to_dict())
+    return 0 if audit.passed else 3
+
+
+def run_generate_protocol(args: argparse.Namespace) -> int:
+    package = GenerativeCasePackage(args.package)
+    config = LLMConfig.from_env(
+        model=args.llm_model,
+        timeout_seconds=args.timeout_seconds,
+    )
+    workflow = ProtocolGenerationWorkflow(
+        package=package,
+        client=OpenAICompatibleClient(config),
+        prompt_root=GENERATION_PROMPT_ROOT,
+    )
+    _json_print(workflow.run_phase1(args.output, full=not args.plan_only))
     return 0
 
 
@@ -519,9 +533,7 @@ def build_parser() -> argparse.ArgumentParser:
     compile_change.add_argument("--max-rounds", type=int, default=2)
     compile_change.add_argument("--seed-demo-experience", action="store_true")
     compile_change.add_argument("--actor", default=os.getenv("USERNAME", "trialcompiler"))
-    compile_change.add_argument(
-        "--llm", choices=["auto", "on", "off"], default="auto"
-    )
+    compile_change.add_argument("--llm", choices=["auto", "on", "off"], default="auto")
     compile_change.add_argument("--llm-model", default="qwen-plus")
     compile_change.set_defaults(handler=run_compile)
 
@@ -588,6 +600,29 @@ def build_parser() -> argparse.ArgumentParser:
     search.add_argument("--top-k", type=int, default=5)
     search.add_argument("--approval-status", nargs="+", default=["approved"])
     search.set_defaults(handler=run_memory_search)
+
+    package_audit = subparsers.add_parser(
+        "package-audit",
+        help="Audit stage visibility and hidden-answer leakage in a generative test package",
+    )
+    package_audit.add_argument("--package", required=True)
+    package_audit.add_argument("--stage", choices=["phase1", "phase2"], default="phase1")
+    package_audit.set_defaults(handler=run_package_audit)
+
+    generate = subparsers.add_parser(
+        "generate-protocol",
+        help="Run the controlled Phase 1 protocol-generation workflow",
+    )
+    generate.add_argument("--package", required=True)
+    generate.add_argument("--output", default="outputs/generative_protocol/phase1")
+    generate.add_argument("--llm-model", default="qwen-plus")
+    generate.add_argument("--timeout-seconds", type=int, default=180)
+    generate.add_argument(
+        "--plan-only",
+        action="store_true",
+        help="Generate evidence plan and synopsis without the full section set",
+    )
+    generate.set_defaults(handler=run_generate_protocol)
     return parser
 
 
