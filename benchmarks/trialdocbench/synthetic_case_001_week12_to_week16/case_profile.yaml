@@ -1,0 +1,21 @@
+case_id: synthetic_case_001_week12_to_week16
+title: Week 12 to Week 16 primary endpoint assessment change
+therapeutic_area: metabolic
+trial_phase: phase_ii
+study_design: randomized double-blind parallel-group placebo-controlled
+risk_level: medium
+document_scope:
+  - protocol_synopsis.md
+  - objectives_and_endpoints.md
+  - schedule_of_activities.md
+  - statistical_principles.md
+  - informed_consent_summary.md
+  - sap_excerpt.md
+public_source_basis:
+  - STAND-013
+  - STAND-014
+  - ASSOC-025
+  - ASSOC-026
+  - MED-014
+data_boundary: synthetic public-source-derived structure only; no real patient or enterprise data
+primary_demo_change: primary endpoint assessment time changes from Week 12 to Week 16

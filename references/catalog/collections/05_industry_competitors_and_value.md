@@ -1,0 +1,60 @@
+# 05_industry_competitors_and_value
+
+This is a logical collection. Original files remain at the paths recorded below.
+
+- `BUR-001` Multidisciplinary Approach to Protocol Writing
+- `BUR-002` Controlling complexity for regulator-ready protocol
+- `BUR-003` Shining a Light on the Inefficiencies in Amendment Implementation
+- `BUR-004` Cost of Protocol Amendments How Changes Penalize Learning in Phase 1
+- `BUR-005` What Structured Content Means for Medical Writers
+- `BUR-006` Structured Content Authoring in Pharma
+- `BUR-007` AI and medical writing Unlocking value for life sciences
+- `BUR-008` AI Medical Writing Software Protocol and CSR Automation
+- `BUR-009` Protocol Writing in Clinical Research
+- `BUR-010` Clinical Trial Protocol Development Services
+- `BURDEN-011` Impact of Protocol Amendments, Personnel Experience and Social Support on Clinical Trial Site Performance
+- `BURDEN-012` Assessing Protocol Complexity and its Impact on Trial Outcomes
+- `BURDEN-013` The Amendment Trap: why clinical trials face costly protocol changes
+- `BURDEN-015` The Rising Complexity of Study Design
+- `BUS-001` Veeva Clinical Operations
+- `BUS-002` Veeva Clinical Platform
+- `BUS-003` Veeva Disclosures Creating Registrations and Protocols
+- `BUS-004` Oracle Clinical One overview solution brief
+- `BUS-005` Oracle Clinical Trial Data Collection
+- `BUS-006` Applying Protocol Amendments to Sites and Clinical Subjects
+- `BUS-007` Medidata AI
+- `BUS-008` Medidata Clinical Data Studio
+- `BUS-009` AI in Clinical Study Builds redefining EDC efficiency
+- `BUS-010` Clinical Data Studio press release
+- `BUS-011` Kitsa AI-powered clinical trial documentation
+- `BUS-012` Kitsa Tech Mahindra agentic AI medical writing partnership
+- `BUS-013` Clinical Trial Protocol Optimization with Generative AI
+- `BUS-014` Kitsa Blog Index
+- `BUS-015` Medical Writing Automatic Clinical Protocol Generation
+- `BUS-016` TrialAssure clinical data transparency software leader
+- `BUS-017` TrialAssure ANONYMIZE data anonymization transparency software
+- `BUS-018` Narrativa Clinical Atlas protocol clinical trials automation with AI agents
+- `BUS-019` Paperguide Clinical Trial Design and Protocol Writing
+- `BUS-020` Clinical Trials Protocol Authoring using LLMs
+- `BUS-021` CoAuthor Life Science GenAI Software for Medical Writing
+- `BUS-022` Certara Launches CoAuthor a Regulatory and Medical Writing Tool
+- `BUS-023` CoAuthor Factsheet
+- `BUS-024` Medical Writing Automation
+- `BUS-025` Clinical Document Automation
+- `BUS-026` Welcome to Yseop Copilot
+- `BUS-027` eTMF Features Built for a Better Clinical Trial
+- `BUS-028` Montrium clinical operations platform
+- `BUS-029` eTMF Systems
+- `BUS-030` MasterControl eTMF Manager
+- `COMP-001` HumanTrue clinical trials quality copilot
+- `COMP-002` Cori Clinical AI workspace for clinical trial documents
+- `COMP-003` Cori Clinical ASSIST Word-centered authoring
+- `COMP-004` Cori Clinical REVIEW cross-document coherence
+- `COMP-005` Clinials protocol intelligence platform
+- `COMP-006` Clinials about protocol intelligence
+- `COMP-007` Taimei Wiz-iCTA document management agent
+- `COMP-008` Taimei ICH M11 and AI platform article
+- `COMP-010` Evinova Study Document Assistant
+- `COMP-011` IQVIA Protocol Design Optimization
+- `COMP-012` Medidata Protocol Optimization
+- `COMP-013` Medidata Clinical Trial Analytics and Study Feasibility

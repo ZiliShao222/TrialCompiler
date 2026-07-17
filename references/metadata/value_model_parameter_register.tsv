@@ -1,0 +1,18 @@
+parameter_id	parameter_name	formula_role	current_status	current_value_or_range	evidence_owner	validation_method	competition_use
+VAL-001	年度方案及关联文件任务量	年度工时节省乘数	internal_confirmation		临床医学部	按年度和文档类型统计去重任务数	未确认前仅展示变量
+VAL-002	单任务基线工时	年度工时节省乘数	internal_confirmation		医学写作团队	抽样记录初稿审核修订各阶段人工时	POC必须建立基线
+VAL-003	可自动化或可辅助比例	年度工时节省乘数	poc_required		AI组与试用组	按任务步骤区分自动完成辅助完成和人工完成	不能预设固定百分比
+VAL-004	实际采用率	年度工时节省乘数	poc_required		产品试用组	记录符合条件任务数和实际使用任务数	用于保守基准积极情景
+VAL-005	单位工时价值	年度工时价值换算	internal_confirmation		财务部与人力资源部	使用完全负担成本并记录计算口径	无授权时只报告节省工时
+VAL-006	跨文件错误或返工事件数量	避免返工收益	internal_confirmation		QA与注册部	统一缺陷定义后统计历史基线	无基线时只报告测试缺陷率
+VAL-007	单起返工事件平均成本	避免返工收益	internal_confirmation		临床运营部与财务部	人力延期和整改成本分项估计	采用区间而非单点
+VAL-008	周期提前天数	机会价值	poc_required		临床研发负责人	对照或前后测量方案编制审核周期	不得外推为上市提前天数
+VAL-009	新药提前上市单日机会收益	机会价值	internal_confirmation		战略发展部与财务部	基于经批准销售预测和专利窗口建立情景	高不确定性单独展示
+VAL-010	系统开发与运维成本	净收益扣减项	quotation_required		信息技术部与供应商	拆分开发算力接口运维验证和支持报价	1320万元现为unsupported
+VAL-011	数据治理与验证成本	净收益扣减项	quotation_required		数据治理负责人	按文档量复杂度人工复核和验证要求报价	120万元现为unsupported
+VAL-012	研发费用	企业投入背景	exact_value_pending	12.73亿元待页码核验	公开年报核验人员	定位年报表格页码单位和同比口径	不用作直接ROI分母
+VAL-013	研发人员总数	企业规模背景	exact_value_pending	1561人待页码核验	公开年报核验人员	定位年报人员分类和统计时点	不用替代临床文档岗位人数
+VAL-014	缺陷召回率	POC质量指标	benchmark_ready		AI评测组	TrialDocBench金标准对比	核心技术结果
+VAL-015	错误修订率	POC质量指标	benchmark_ready		AI评测组	统计无缺陷内容被错误修改的比例	核心安全结果
+VAL-016	影响范围召回率	POC质量指标	benchmark_ready		AI评测组	比较预测受影响节点与金标准影响矩阵	核心变更分析结果
+VAL-017	人工审核时间	POC效率指标	poc_required		试用组与对照组	同一任务盲测并记录端到端审核时间	核心价值结果

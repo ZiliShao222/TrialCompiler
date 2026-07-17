@@ -1,0 +1,2214 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="description" content="">
+
+<meta name='zd-site-verification' content='j2dwd75t1wi41p6fxi5qkq'>
+<meta class="swiftype" name="info" data-type="string" content="Veeva Disclosures allows sponsors to centralize and streamline the clinical disclosure management process by accelerating registry submissions and improving ...">
+<meta class="swiftype" name="lang" data-type="enum" content="en">
+
+
+<title>Creating Registrations & Protocols | Veeva Vault Help</title>
+<link rel="alternate" type="text/markdown" href="index.md">
+<link rel="stylesheet" href=/en/lr/assets/css/main.css>
+<link rel="stylesheet" href=/en/lr/assets/css/lightbox.css>
+<link rel="stylesheet" href=/en/lr/assets/css/fontawesome-pro/fontawesome.min.css>
+<link rel="stylesheet" href=/en/lr/assets/css/fontawesome-pro/regular.min.css>
+<link rel="stylesheet" href=/en/lr/assets/css/fontawesome-pro/solid.min.css>
+<link rel="stylesheet" href=/en/lr/assets/css/fontawesome-pro/light.min.css>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/satellite-min.css" integrity="sha256-TehzF/2QvNKhGQrrNpoOb2Ck4iGZ1J/DI4pkd2oUsBc=" crossorigin="anonymous">
+<link rel="shortcut icon" href=https://platform.veevavault.help/assets/images/favicon.png>
+<script src=/en/lr/assets/js/copyCode.js></script>
+<script src=/en/lr/assets/js/matomo.js></script>
+</head>
+<body>
+  
+
+
+
+<nav class="navbar topnav navbar-expand-lg navbar-light navbar-inverse fixed-top"><div class="logo-sticky">
+
+<div class="navbar-brand">
+
+  
+    <a class="home-link home" title="Return to Vault Help Home" href="https://veevavault.help/">
+     
+      
+<img class="logo" src=https://platform.veevavault.help/assets/images/logo.svg alt="Vault" />
+
+    </a>
+    <a class="home-link family" href=/en/lr/index.html>
+      Clinical
+
+    </a>
+  </div></div><button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button><div class="collapse navbar-collapse navbar-container" id="navbar-collapse">
+    <div class="navbar-nav navbar-top">
+      
+
+<div class="navbar-brand">
+
+  
+    <a class="home-link home" title="Return to Vault Help Home" href="https://veevavault.help/">
+     
+      
+<img class="logo" src=https://platform.veevavault.help/assets/images/logo.svg alt="Vault" />
+
+    </a>
+    <a class="home-link family" href=/en/lr/index.html>
+      Clinical
+
+    </a>
+  </div>
+
+      
+      <div class="dropdown-search header-search-container">
+        
+<div class="search-container">
+  <div class="search-input">
+    <form>
+      
+      <input type="text" placeholder="Search" class="st-search-input" id="st-search-input" />
+      
+        <a href="/en/lr/search.html" class="btn search-button advanced" id="advanced-search-button" title="Go to the advanced search page.">
+            <i class="fa fa-search"></i>
+        </a>
+      
+    </form>
+  </div>
+  <a href="/en/lr/search.html" id="advanced-search-link-hidden" style="display: none"></a>
+</div>
+      </div>
+      
+
+      <div class="header-right-container">
+        
+
+        
+
+
+
+
+
+
+<div id="release-switcher" class="dropdown release-switcher" data-elastic-exclude>
+  <a href="#" class="label dropdown-toggle" data-toggle="dropdown">Limited Release 26R1.4<span class="release-label label-lr">LR</span><i class="fas fa-caret-down"></i></a>
+  <ul class="dropdown-menu">
+    <li class="nav-item "><a class="nav-link" href="/en/gr/899718/">General Release 26R1<span class="release-label label-gr">GR</span></a></li>
+    <li class="nav-item active"><a class="nav-link" href="/en/lr/899718/">Limited Release 26R1.4<span class="release-label label-lr">LR</span></a></li>
+  </ul>
+</div>
+      </div>
+    </div><div class="navbar-nav navbar-bottom" data-elastic-exclude>
+      <ul class="navbar-nav">
+      
+        
+          <li class="nav-item dropdown">
+            <button class="btn nav-link dropdown-toggle dropdown-active" data-toggle="dropdown">
+              Applications
+              <i class="fas fa-caret-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/44699/">
+      General
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/40009/">
+      CTMS
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/4660/">
+      eTMF
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/58941/">
+      Payments
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/44697/">
+      Study Startup
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/780439/">
+      Disclosures
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/64231/">
+      Site Connect
+    </a>
+  </li>
+
+
+            
+              
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/en/lr/845620/">
+      OpenData Clinical
+    </a>
+  </li>
+
+
+            
+            </ul>
+          </li>
+      
+        
+          
+  
+  <li class="nav-item">
+    <a class="ext-nav-link" href="https://rn.veevavault.help/" target="_blank" rel="noopener">Veeva Vault Release Notes<i class="fa fa-external-link" aria-hidden="true"></i></a>
+  </li>
+
+
+
+        
+      
+        
+          
+  
+  <li class="nav-item">
+    <a class="ext-nav-link" href="http://limited.veevavault.dev/clinical" target="_blank" rel="noopener">Veeva Vault Developer Portal<i class="fa fa-external-link" aria-hidden="true"></i></a>
+  </li>
+
+
+
+        
+      
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+
+  <div class="layout container-fluid">
+    
+    
+      <div class="sidebar-container navbar navbar-expand-lg fixed-top" id="fixed-sidebar" data-elastic-exclude><button class="btn collapsed navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebar-collapse-mobile" aria-controls="sidebar-collapse-mobile" aria-expanded="false" aria-label="Toggle article list">
+    <span>Clinical Operations</span>
+    <i class="fas fa-caret-down"></i>
+  </button><nav id="sidebar-collapse-mobile" class="nav collapse navbar-collapse sidebar">
+    
+    <ul class="sidebar-list" id="sidebar-list">
+      
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-general">
+        General
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-general">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Clinical Operations Overview" href="/en/lr/44699/">
+      Clinical Operations Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Clinical Operations Application Licensing" href="/en/lr/659849/">
+      Clinical Operations Application Licensing
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Study Selector Filtering" href="/en/lr/4330/">
+      Study Selector Filtering
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About Clinical Email Ingestion" href="/en/lr/78164/">
+      About Clinical Email Ingestion
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About Universal Site Numbers (USNs) in Clinical Operations" href="/en/lr/973499/">
+      About Universal Site Numbers (USNs) in Clinical Operations
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="SiteVault Inviter" href="/en/lr/23438/">
+      SiteVault Inviter
+    </a>
+  </li>
+
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-study-creation-and-reference-data">
+        Study Creation and Reference Data
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-study-creation-and-reference-data">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Studies & Study Related Objects" href="/en/lr/4345/">
+      Managing Studies & Study Related Objects
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Clinical Operations Person & Organization Objects" href="/en/lr/31637/">
+      Managing Clinical Operations Person & Organization Objects
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Locations" href="/en/lr/13951/">
+      Creating Locations
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Study Site Addresses" href="/en/lr/899121/">
+      Creating Study Site Addresses
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Study Site Addresses" href="/en/lr/825395/">
+      Configuring Study Site Addresses
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Responsibilities" href="/en/lr/865483/">
+      Managing Responsibilities
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Working with the Study Person Object" href="/en/lr/61542/">
+      Working with the Study Person Object
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Setting Up the Study Person Object" href="/en/lr/64831/">
+      Setting Up the Study Person Object
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating & Updating Records With Vault Staging Server" href="/en/lr/46280/">
+      Creating & Updating Records With Vault Staging Server
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-milestones-and-expected-documents">
+        Milestones and Expected Documents
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-milestones-and-expected-documents">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Working with Milestones" href="/en/lr/24430/">
+      Working with Milestones
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Milestones" href="/en/lr/37552/">
+      Configuring Milestones
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the Milestone Workspace" href="/en/lr/496924/">
+      Using the Milestone Workspace
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring the Milestone Workspace" href="/en/lr/598164/">
+      Configuring the Milestone Workspace
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Standard Milestone Types" href="/en/lr/37182/">
+      Standard Milestone Types
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Working with Expected Document Lists (EDLs)" href="/en/lr/31833/">
+      Working with Expected Document Lists (EDLs)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Expected Document Lists (EDLs)" href="/en/lr/63271/">
+      Configuring Expected Document Lists (EDLs)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Milestones & Expected Documents" href="/en/lr/63304/">
+      Managing Milestones & Expected Documents
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Expected Document Lists (EDLs) & Milestones" href="/en/lr/37991/">
+      Configuring Expected Document Lists (EDLs) & Milestones
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-document-management">
+        Document Management
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-document-management">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About the Model & Artifact Objects" href="/en/lr/30636/">
+      About the Model & Artifact Objects
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Setting Up Model & Artifact Objects" href="/en/lr/30260/">
+      Setting Up Model & Artifact Objects
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Blinded & Unblinded Documents" href="/en/lr/49807/">
+      Creating Blinded & Unblinded Documents
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Blinded & Unblinded Objects" href="/en/lr/49810/">
+      Managing Blinded & Unblinded Objects
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Working with Quality Issues" href="/en/lr/50384/">
+      Working with Quality Issues
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Quality Issues" href="/en/lr/64444/">
+      Configuring Quality Issues
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Deleting Documents & Selecting Deletion Reasons" href="/en/lr/769621/">
+      Deleting Documents & Selecting Deletion Reasons
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Enabling Document Deletion Logs" href="/en/lr/769620/">
+      Enabling Document Deletion Logs
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Document Reuse Across Studies" href="/en/lr/59930/">
+      Document Reuse Across Studies
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-document-packages">
+        Document Packages
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-document-packages">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Sending Document Packages" href="/en/lr/14290/">
+      Sending Document Packages
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Enabling Document Packages & Setting up Defaults" href="/en/lr/14311/">
+      Enabling Document Packages & Setting up Defaults
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-ctms">
+        CTMS
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-ctms">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="CTMS Overview" href="/en/lr/40009/">
+      CTMS Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="CTMS Transfer" href="/en/lr/738058/">
+      CTMS Transfer
+    </a>
+  </li>
+
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-study-administration">
+        Study Administration
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-study-administration">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the Study Management Homepage" href="/en/lr/39903/">
+      Using the Study Management Homepage
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Visit Definitions & Subject Visits" href="/en/lr/50851/">
+      Creating Visit Definitions & Subject Visits
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Blinded & Unblinded Monitoring Event Data" href="/en/lr/592350/">
+      Creating Blinded & Unblinded Monitoring Event Data
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Blinded & Unblinded Monitoring Event Data" href="/en/lr/514125/">
+      Configuring Blinded & Unblinded Monitoring Event Data
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Tracking Source Data Review (SDR)" href="/en/lr/832622/">
+      Tracking Source Data Review (SDR)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Source Data Review (SDR)" href="/en/lr/832623/">
+      Configuring Source Data Review (SDR)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Subject Groups for Complex Trials" href="/en/lr/80113/">
+      Using Subject Groups for Complex Trials
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Subject Groups for Complex Trials" href="/en/lr/805329/">
+      Configuring Subject Groups for Complex Trials
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-connections">
+        Connections
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-connections">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the EDC FTP Connection in CTMS" href="/en/lr/48808/">
+      Using the EDC FTP Connection in CTMS
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using CTMS Activity Tracking" href="/en/lr/495381/">
+      Using CTMS Activity Tracking
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring CTMS Activity Tracking" href="/en/lr/498912/">
+      Configuring CTMS Activity Tracking
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-enrollment-metrics">
+        Enrollment Metrics
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-enrollment-metrics">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Subject & Enrollment Metrics" href="/en/lr/52876/">
+      Using Subject & Enrollment Metrics
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring & Planning Subject Recruitment" href="/en/lr/55223/">
+      Configuring & Planning Subject Recruitment
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About Subject & Enrollment Metrics Jobs" href="/en/lr/63782/">
+      About Subject & Enrollment Metrics Jobs
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-monitoring">
+        Monitoring
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-monitoring">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the CRA Homepage" href="/en/lr/39905/">
+      Using the CRA Homepage
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Working with Monitoring Events" href="/en/lr/42835/">
+      Working with Monitoring Events
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Monitoring Events" href="/en/lr/42837/">
+      Configuring Monitoring Events
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Monitoring Schedules" href="/en/lr/77616/">
+      Managing Monitoring Schedules
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-issue-management">
+        Issue Management
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-issue-management">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating & Managing Issues" href="/en/lr/68407/">
+      Creating & Managing Issues
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Issue Management Administration in CTMS" href="/en/lr/68403/">
+      Issue Management Administration in CTMS
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-risked-based-study-management-rbsm">
+        Risked Based Study Management (RBSM)
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-risked-based-study-management-rbsm">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Risk Based Study Management (RBSM)" href="/en/lr/62007/">
+      Using Risk Based Study Management (RBSM)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Risk Based Study Management (RBSM)" href="/en/lr/62567/">
+      Configuring Risk Based Study Management (RBSM)
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-investigator-initiated-studies">
+        Investigator Initiated Studies
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-investigator-initiated-studies">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Investigator Initiated Studies (IIS)" href="/en/lr/62358/">
+      Creating Investigator Initiated Studies (IIS)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Investigator Initiated Studies (IIS)" href="/en/lr/62352/">
+      Configuring Investigator Initiated Studies (IIS)
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-japanese-clinical-trial-notifications-ctn">
+        Japanese Clinical Trial Notifications (CTN)
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-japanese-clinical-trial-notifications-ctn">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Japanese Clinical Trial Notifications (CTN)" href="/en/lr/62051/">
+      Using Japanese Clinical Trial Notifications (CTN)
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Japanese Clinical Trial Notifications (CTN)" href="/en/lr/62049/">
+      Configuring Japanese Clinical Trial Notifications (CTN)
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-etmf">
+        eTMF
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-etmf">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="eTMF Overview" href="/en/lr/4660/">
+      eTMF Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Enabling Study, Study Country, & Study Site Lifecycles" href="/en/lr/39215/">
+      Enabling Study, Study Country, & Study Site Lifecycles
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing the TMF Index" href="/en/lr/66019/">
+      Managing the TMF Index
+    </a>
+  </li>
+
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-tmf-homepage-tmf-viewer">
+        TMF Homepage & TMF Viewer
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-tmf-homepage-tmf-viewer">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About the TMF Homepage" href="/en/lr/52759/">
+      About the TMF Homepage
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring the TMF Homepage" href="/en/lr/64378/">
+      Configuring the TMF Homepage
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the TMF Viewer" href="/en/lr/55206/">
+      Using the TMF Viewer
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring the TMF Viewer" href="/en/lr/56263/">
+      Configuring the TMF Viewer
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-document-management">
+        Document Management
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-document-management">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Exporting Study Document Audit Trails" href="/en/lr/870420/">
+      Exporting Study Document Audit Trails
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating TMF Export Packages" href="/en/lr/994733/">
+      Creating TMF Export Packages
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring TMF Export" href="/en/lr/994647/">
+      Configuring TMF Export
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Quality Control (QC) Risk-Assessment" href="/en/lr/871554/">
+      Configuring Quality Control (QC) Risk-Assessment
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-tmf-bot">
+        TMF Bot
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-tmf-bot">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the TMF Bot" href="/en/lr/72766/">
+      Using the TMF Bot
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Training TMF Bot Document Auto-Classification Models" href="/en/lr/72747/">
+      Training TMF Bot Document Auto-Classification Models
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Evaluating TMF Bot Auto-Classification Models" href="/en/lr/72739/">
+      Evaluating TMF Bot Auto-Classification Models
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating & Testing Metadata Extraction Models" href="/en/lr/576479/">
+      Creating & Testing Metadata Extraction Models
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Evaluating Metadata Extraction Models" href="/en/lr/576478/">
+      Evaluating Metadata Extraction Models
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using TMF Bot Document Quality Control" href="/en/lr/487199/">
+      Using TMF Bot Document Quality Control
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="TMF Bot FAQ" href="/en/lr/73297/">
+      TMF Bot FAQ
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-tmf-transfer">
+        TMF Transfer
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-tmf-transfer">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using TMF Transfer" href="/en/lr/53413/">
+      Using TMF Transfer
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring for TMF Transfer" href="/en/lr/63357/">
+      Configuring for TMF Transfer
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-closing-out-studies-in-etmf">
+        Closing Out Studies in eTMF
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-closing-out-studies-in-etmf">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Auto-Filing Documents in TMF Binders" href="/en/lr/4502/">
+      Auto-Filing Documents in TMF Binders
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Bulk Creating Study Binders" href="/en/lr/33694/">
+      Bulk Creating Study Binders
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Archiving Studies" href="/en/lr/66648/">
+      Archiving Studies
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring for Study Archival" href="/en/lr/66651/">
+      Configuring for Study Archival
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using CRF Import" href="/en/lr/18845/">
+      Using CRF Import
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Enabling CRF Import" href="/en/lr/18918/">
+      Enabling CRF Import
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-payments">
+        Payments
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-payments">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Payments Overview" href="/en/lr/58941/">
+      Payments Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Payments" href="/en/lr/58930/">
+      Configuring Payments
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Studies for Site Payments" href="/en/lr/71912/">
+      Managing Studies for Site Payments
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Study Budget Tracking" href="/en/lr/71874/">
+      Using Study Budget Tracking
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Study Budget Tracking" href="/en/lr/71877/">
+      Configuring Study Budget Tracking
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-study-startup">
+        Study Startup
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-study-startup">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Study Startup Overview" href="/en/lr/44697/">
+      Study Startup Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About the Model & Artifact Objects" href="/en/lr/30818/">
+      About the Model & Artifact Objects
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Auto-Filing Documents in Binders" href="/en/lr/30622/">
+      Auto-Filing Documents in Binders
+    </a>
+  </li>
+
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-site-setup">
+        Site Setup
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-site-setup">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Site Candidate Loader" href="/en/lr/524623/">
+      Using Site Candidate Loader
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-site-feasibility">
+        Site Feasibility
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-site-feasibility">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Managing Site Feasibility in Study Startup" href="/en/lr/44296/">
+      Managing Site Feasibility in Study Startup
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating & Using Surveys for External Respondents" href="/en/lr/72698/">
+      Creating & Using Surveys for External Respondents
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Surveys for External Respondents" href="/en/lr/72707/">
+      Configuring Surveys for External Respondents
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Standard Survey Questions" href="/en/lr/76166201/">
+      Using Standard Survey Questions
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-site-activation">
+        Site Activation
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-site-activation">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Working with Clinical Application Management" href="/en/lr/489566/">
+      Working with Clinical Application Management
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the Study Startup Specialist Homepage" href="/en/lr/50259/">
+      Using the Study Startup Specialist Homepage
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring the Study Startup Specialist Homepage" href="/en/lr/63283/">
+      Configuring the Study Startup Specialist Homepage
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using the Site Activation Progress View" href="/en/lr/33827/">
+      Using the Site Activation Progress View
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Enabling the Site Activation Progress View" href="/en/lr/32840/">
+      Enabling the Site Activation Progress View
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-disclosures">
+        Disclosures
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-disclosures">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Disclosures Overview" href="/en/lr/780439/">
+      Disclosures Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Creating Registrations & Protocols" href="/en/lr/899718/">
+      Creating Registrations & Protocols
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Disclosures" href="/en/lr/780440/">
+      Using Disclosures
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Disclosures" href="/en/lr/793399/">
+      Configuring Disclosures
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Disclosure Rules" href="/en/lr/826042/">
+      Using Disclosure Rules
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About Disclosure Data Prepopulation" href="/en/lr/826043/">
+      About Disclosure Data Prepopulation
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-site-connect">
+        Site Connect
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-site-connect">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Site Connect Overview" href="/en/lr/64231/">
+      Site Connect Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Site Connect" href="/en/lr/64233/">
+      Configuring Site Connect
+    </a>
+  </li>
+
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-document-exchange">
+        Document Exchange
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-document-exchange">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Sending Documents & Document Requests" href="/en/lr/70244/">
+      Sending Documents & Document Requests
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Document Reconciliation" href="/en/lr/71268/">
+      Document Reconciliation
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Document Reconciliation" href="/en/lr/71272/">
+      Configuring Document Reconciliation
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-safety-distribution">
+        Safety Distribution
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-safety-distribution">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Distributing Safety Documents" href="/en/lr/65187/">
+      Distributing Safety Documents
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Safety Distributions" href="/en/lr/65185/">
+      Configuring Safety Distributions
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-payment-information">
+        Payment Information
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-payment-information">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Setting Up Payment Information in Site Connect" href="/en/lr/774031/">
+      Setting Up Payment Information in Site Connect
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-contacts-addresses">
+        Contacts & Addresses
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-contacts-addresses">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About Study Contacts" href="/en/lr/743414/">
+      About Study Contacts
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using Site Addresses in Site Connect" href="/en/lr/901861/">
+      Using Site Addresses in Site Connect
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring Study Site Addresses for Site Connect" href="/en/lr/895401/">
+      Configuring Study Site Addresses for Site Connect
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-study-announcements">
+        Study Announcements
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-study-announcements">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="About Study Announcements" href="/en/lr/745659/">
+      About Study Announcements
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-sitevault-interactions">
+        SiteVault Interactions
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-sitevault-interactions">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Document Transfer Behavior with Site Connect" href="/en/lr/70354/">
+      Document Transfer Behavior with Site Connect
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+    <li class="sidebar-collapse">
+      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse-opendata-clinical">
+        OpenData Clinical
+      </button>
+      <ul class="collapse sidebar-item" id="collapse-opendata-clinical">
+      
+      
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="OpenData Clinical Overview" href="/en/lr/845620/">
+      OpenData Clinical Overview
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Using OpenData Clinical" href="/en/lr/845021/">
+      Using OpenData Clinical
+    </a>
+  </li>
+
+  
+
+  
+    
+  
+  <li class="no-dropdown">
+    <a class="title" title="Configuring OpenData Clinical" href="/en/lr/845621/">
+      Configuring OpenData Clinical
+    </a>
+  </li>
+
+  
+
+
+      </ul>
+    </li>
+  
+
+
+    </ul>
+    
+  </nav>
+</div>
+
+      
+    
+
+    <div class="main with-sidebar">
+      
+      <nav id="toc"></nav>
+      
+      <article>
+<header class="page-header">
+<h1 class="page-title-main">Creating Registrations & Protocols</h1>
+</header>
+
+<div class="page-content">
+
+<p>Veeva Disclosures allows sponsors to centralize and streamline the clinical disclosure management process by accelerating registry submissions and improving compliance across global regulations. Each <a href="/en/lr/780440/"><em>Disclosure</em></a> record must have an associated <em>Registration</em> record and, optionally, a <em>Protocol</em> record.</p>
+
+<div class="note-border alert-info">
+<div class="alert alert-info" role="alert">
+<div><i class="far fa-info-circle"></i></div>
+<div class="alert-text">
+      <p><strong>Note</strong>: 
+Veeva Disclosures is an add-on application to <a href="/en/lr/40009/">Veeva CTMS</a> and part of the <a href="/en/lr/44699/">Clinical Operations</a> application family. You must have Veeva CTMS and <a href="/en/lr/4660/">Veeva eTMF</a> to use Veeva Disclosures. Contact your Veeva representative for more information.</p>
+
+    </div>
+</div>
+</div>
+
+<h2 id="creating-registrations">Creating Registrations</h2>
+
+<p>To create <em>Disclosure</em> records for a <em>Study,</em> you must have a <em>Registration</em> record for the registry you will submit the <em>Disclosure</em> to. A <em>Study</em> record can only have one <em>Registration</em> record for a supported registry. While a <em>Study</em> only has one <em>Registration</em> record per registry, each <em>Registration</em> record displays all <em>Disclosures</em> generated for a <em>Study</em> for the specified registry. </p>
+
+<p>To create a <em>Registration</em> record: </p>
+
+<ol>
+  <li>Navigate to the <strong>Registrations</strong> tab.</li>
+  <li>Click <strong>Create</strong>. </li>
+  <li>Select a <strong>Registration Type</strong> from the drop-down and click <strong>Continue</strong>. </li>
+  <li>In the dialog, select a <strong>Study</strong>. </li>
+  <li>Optional: Select a <strong>Study Country</strong>.</li>
+  <li>Optional: Enter the <strong>Registry Trial Identifier</strong>. </li>
+  <li>Select a <strong>Disclosure Scope</strong> from the drop-down menu. <strong>Registration only</strong> allows Vault to automatically generate <em>Registration</em> type <em>Disclosure</em> records. <strong>Registration and Results</strong> allows Vault to automatically generate <em>Registration</em> and <em>Results</em> type <em>Disclosure</em> records. Vault does not automatically generate any type of <em>Disclosure</em> records when you select <strong>Not Disclosed</strong>.</li>
+  <li>Optional: Select a <strong>Reason for Disclosure</strong>. </li>
+  <li>Optional: Enter a <strong>Reason for Disclosure Comment</strong>.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p>Once you create the <em>Registration</em> record, you can <a href="/en/lr/780440/#creating-disclosures">create a <em>Disclosure</em></a>. </p>
+
+<h2 id="protocol">Creating Protocols</h2>
+<p>The <em>Protocol</em> object allows you to save time and improve efficiency by capturing key study protocol details, tracking changes between protocol versions, and populating consistent data into all <em>Disclosure</em> records for a study. </p>
+
+<p>To create a <strong>Protocol</strong> record:</p>
+
+<ol>
+  <li>Navigate to the <strong>Protocols</strong> tab.</li>
+  <li>Click <strong>Create</strong>.</li>
+  <li>Select a <strong>Study</strong> to associate the record to.</li>
+  <li>Enter a <strong>Name</strong>.</li>
+  <li>Optional: Complete any other desired fields.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p>You can view <em>Protocol</em> records in the <em>Protocol</em> tab or in the <em>Protocol</em> section of associated <em>Study</em> records, when configured. </p>
+
+<p>You can fill out several optional fields when creating or editing <em>Protocol</em> records, such as the <em>Protocol Document</em> field. The <em>Protocol Document</em> field allows you to link existing protocol documents in Vault.</p>
+
+<p>Once you create a <em>Protocol</em> record, you can create a new <em>Disclosure</em> record referencing the <em>Protocol</em>. When you select a <em>Protocol</em> record for a new <em>Disclosure</em> record, upon creation, Vault prepopulates the new <em>Disclosure</em> record with data from the <em>Protocol</em> record.</p>
+
+<div class="note-border alert-info">
+<div class="alert alert-info" role="alert">
+<div><i class="far fa-info-circle"></i></div>
+<div class="alert-text">
+      <p><strong>Note</strong>: Data in <em>Protocol</em> records data will only populate into <em>US Protocol Registration</em> disclosures.</p>
+    </div>
+</div>
+</div>
+
+<p>Selecting the <em>Copy Entire Protocol</em> action duplicates an existing <em>Protocol</em> record, including all linked items and translated records. Any fields populated from the selection of records on the <em>Protocol</em> remain the same when the records are updated on a copied <em>Protocol</em>.</p>
+
+
+
+</div>
+</article>
+
+    </div>
+
+    <div class="footer with-sidebar">
+      <footer class="footer">
+  <div class="row">
+    <div class="footer-content">
+      &copy;2026 Veeva Systems Inc. All rights reserved. <br>Page last updated: Dec 17, 2025<br></div>
+  </div>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js"></script>
+  <script type="text/javascript" src="/en/lr/assets/js/search.js"></script>
+  <script type="text/javascript" src="/en/lr/assets/js/autocomplete.js"></script>
+  <script type="text/javascript" src="/en/lr/assets/js/appSearch.js"></script>
+  <script type="text/javascript" src="/en/lr/assets/js/active-sidebar.js"></script>
+  <script type="text/javascript" src="/en/lr/assets/js/main.js"></script>
+  <script type="text/javascript" src="/en/lr/assets/js/lightbox.js"></script>
+</body>
+</html>

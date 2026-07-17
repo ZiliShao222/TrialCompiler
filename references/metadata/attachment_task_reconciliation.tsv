@@ -1,0 +1,15 @@
+task_id	attachment_module	delivery_form	snapshot_status	current_repo_status	current_evidence	remaining_gap	next_action	owner_from_sheet
+ATR-001	企业战略契合度	主报告章节	已有素材	partial	references/inbox/public_sources/company_strategy；docs/competition_01_solution_overview_zh.md	缺少面向健康元的单页战略目标到业务问题到产品能力到指标映射	生成集中式企业战略映射并逐条绑定公开来源	商
+ATR-002	传统流程、痛点与产生原因	主报告章节和流程图	已有素材	complete_pending_final_edit	docs/附件_药物临床试验方案设计流程与协同管理痛点分析_排版修订版.docx；docs/detailed_solution_design_zh.md	需统一图表名称、编号和主报告引用	做一次主报告回链和术语终审	医
+ATR-003	用户声音与真实需求	访谈研究综述和需求映射表	已有素材	partial	references/inbox/public_sources/user_research；references/metadata/public_source_index.tsv	缺少统一的角色、样本、原始结论、局限、需求和产品响应矩阵	建立可机读用户声音需求矩阵	商
+ATR-004	法规标准与TrialCompiler功能映射	独立附件和主报告摘要	已形成附件	complete_pending_citation_review	docs/attachments/20260717/附件_临床研究法规标准与TrialCompiler功能映射表.docx；references/metadata/regulatory_function_mapping.tsv	个人信息保护法权威源未入索引；附件内官方来源仍是文字占位；SPIRIT未在原表单列	补权威链接、source_id和正文引用编号并执行版本终审	医
+ATR-005	竞品能力拆解与空白点分析	独立附件和能力矩阵	已有素材	complete_pending_prototype_backfill	docs/附件_竞品分析.docx；references/metadata/competitor_capability_matrix.tsv；docs/competitor_analysis_integration_zh.md	TrialCompiler能力状态需用原型证据回填	原型测试后逐项绑定截图、测试或代码路径	商+医
+ATR-006	产品技术架构与数据流	独立架构附件和架构图	已有架构附件	complete_pending_implementation_crosscheck	docs/attachments/20260717/附件_TrialCompiler总体架构与受控数据流.docx；docs/competition_02_architecture_modules_zh.md	目标架构与当前代码实现尚未逐模块对照	建立architecture-to-implementation矩阵	医+工
+ATR-007	原型验证	可运行Demo和验证报告	缺成品	partial	benchmarks/trialdocbench/synthetic_case_001_week12_to_week16；references/metadata/trialdocbench_metric_catalog.tsv	缺端到端可运行Demo、模型输出、基线结果、失败案例和录屏	先跑通合成案例的事实抽取、冲突检测和Week 12到16传播	工
+ATR-008	价值测算模型与基线数据表	Excel模型和主报告摘要	已有指标框架	partial	docs/data_processing_internal_plan_zh.md；docs/mathematical_technical_analysis_zh.md	缺可编辑参数、透明公式、三情景、ROI和回收期输出	建立合成基线模型并明确企业数据待验证字段	商
+ATR-009	风险清单与控制措施	风险登记表	已有原则	partial	docs/competition_02_architecture_modules_zh.md；docs/technical_innovations_zh.md	缺统一风险ID、概率、影响、触发条件、控制、责任人、证据和剩余风险	建立机器可读风险登记表	商+工
+ATR-010	实施路线图与发展规划	分阶段路线图	已有思路	partial	docs/detailed_solution_design_zh.md；docs/competition_03_core_innovations_zh.md	缺统一时间、准入条件、指标、资源和责任人	整理原型、POC、试点、集成、规模化五阶段门控路线图	团队共同
+ATR-011	团队成员项目经历梳理	团队能力页和个人简历	一人已完成	partial	docs/attachments/20260717/TrialCompiler_附件资料任务清单.xlsx	仓库未形成全员能力页和证据回链	收集每人教育、经历、可核验成果、职责和贡献	团队共同
+ATR-012	参考资料清单总表	总参考资料表	35项核心证据	complete_pending_backlinks	references/metadata/public_source_index.tsv；references/metadata/medical_teammate_source_index.tsv；references/metadata/public_source_download_status.csv	现有索引已扩展到169条公开来源和46条医学交付，但正文引用回链仍需统一	统一source_id、去重、核验日期和正文回链	团队共同
+ATR-013	数据分析样本	可复核样本包	缺成品	partial	benchmarks/trialdocbench/synthetic_case_001_week12_to_week16	已有7条金标准事实、11条依赖边、3个注入缺陷、1项变更和6条影响结果；缺系统实跑输出与人工复核结果	补模型输出、错误样本、未决样本和统计汇总	团队共同
+ATR-014	GitHub主页	公开仓库主页	暂无链接	partial	README.md；docs；benchmarks；references	仓库已存在且README已建立，但安装运行、Demo结果、许可证和边界展示仍需终审	用一分钟叙事重构README并绑定可复现实验	工

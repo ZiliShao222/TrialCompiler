@@ -1,0 +1,46 @@
+table_name	field_name	required	type	description	example
+case_profile	case_id	yes	string	Stable synthetic case identifier	synthetic_case_001
+case_profile	therapeutic_area	yes	enum	Therapeutic area used only for scenario diversity	oncology
+case_profile	trial_phase	yes	enum	Clinical trial phase	phase_ii
+case_profile	study_design	yes	string	High-level study design	randomized double-blind parallel-group
+case_profile	document_scope	yes	list	Included synthetic document units	protocol_synopsis;soa;sap_excerpt;icf_summary
+case_profile	public_source_basis	yes	list	Public source IDs used as structural basis	STAND-001;ASSOC-003;MED-014
+case_profile	risk_level	yes	enum	Case complexity level	medium
+trial_fact_sheet_gold	fact_id	yes	string	Stable fact identifier	FACT-ENDPOINT-001
+trial_fact_sheet_gold	fact_type	yes	enum	Endpoint, timepoint, sample size, eligibility, dose, visit, statistical population, or safety fact	endpoint
+trial_fact_sheet_gold	current_value	yes	string	Confirmed current value	Primary endpoint is change from baseline in symptom score at Week 12
+trial_fact_sheet_gold	unit_or_format	no	string	Unit or controlled format	Week
+trial_fact_sheet_gold	status	yes	enum	confirmed, candidate, retired, or superseded	confirmed
+trial_fact_sheet_gold	source_unit	yes	string	Document unit where the fact is grounded	objectives_and_endpoints.md
+trial_fact_sheet_gold	source_location	yes	string	Section, table, line, or paragraph marker	Section 2.1
+trial_fact_sheet_gold	owner_role	yes	enum	medical, statistics, regulatory, operation, quality	medical
+trial_fact_sheet_gold	version	yes	string	Fact version	v1
+trial_fact_sheet_gold	scope	yes	string	Applicable scope for this fact	whole protocol package
+document_graph_gold	edge_id	yes	string	Stable dependency edge identifier	EDGE-001
+document_graph_gold	fact_id	yes	string	Linked fact identifier	FACT-ENDPOINT-001
+document_graph_gold	document_unit	yes	string	Document unit containing the dependency	schedule_of_activities.md
+document_graph_gold	location	yes	string	Section, table cell, line, or paragraph marker	Table 1 row endpoint assessment
+document_graph_gold	dependency_type	yes	enum	direct_quote, semantic_dependency, derived_value, downstream_instruction	direct_quote
+document_graph_gold	must_update_on_change	yes	boolean	Whether this unit must be updated if the fact changes	yes
+document_graph_gold	rationale	yes	string	Reason the document unit depends on the fact	SoA lists the exact endpoint assessment week
+injected_defects	defect_id	yes	string	Stable injected defect identifier	DEF-001
+injected_defects	defect_type	yes	enum	numeric_conflict, timepoint_conflict, stale_value, eligibility_conflict, statistical_definition_conflict, downstream_file_unsynced, source_missing, unconfirmed_fact_used	timepoint_conflict
+injected_defects	document_unit	yes	string	Document unit containing the defect	schedule_of_activities.md
+injected_defects	location	yes	string	Exact or approximate defect location	Table 1 Week 16 cell
+injected_defects	related_fact_id	yes	string	Fact involved in the defect	FACT-ENDPOINT-001
+injected_defects	defect_description_zh	yes	string	Human-readable Chinese description	访视表把主要终点评估写为 Week 16，但事实表有效版本为 Week 12。
+injected_defects	expected_detection	yes	string	Expected system output	Report timepoint conflict with evidence from fact sheet and SoA.
+change_requests	change_id	yes	string	Stable change request identifier	CHG-001
+change_requests	fact_id	yes	string	Fact being changed	FACT-ENDPOINT-001
+change_requests	old_value	yes	string	Previous confirmed value	Week 12
+change_requests	new_value	yes	string	Proposed new value	Week 16
+change_requests	requester_role	yes	enum	medical, statistics, regulatory, operation, quality	medical
+change_requests	reason	yes	string	Reason for the change	Clinical discussion changed endpoint assessment window.
+change_requests	expected_affected_units	yes	list	Expected units to be affected	protocol_synopsis;objectives_and_endpoints;schedule_of_activities;statistical_principles;sap_excerpt;icf_summary
+expected_impact_matrix	impact_id	yes	string	Stable impact-row identifier	IMP-001
+expected_impact_matrix	change_id	yes	string	Linked change request	CHG-001
+expected_impact_matrix	document_unit	yes	string	Affected document unit	sap_excerpt.md
+expected_impact_matrix	location	yes	string	Location in affected unit	Section 4.2
+expected_impact_matrix	impact_type	yes	enum	direct_text_update, table_update, semantic_review, statistical_review, downstream_sync	direct_text_update
+expected_impact_matrix	expected_action	yes	string	Expected action after change	Replace Week 12 with Week 16 and check analysis window wording.
+expected_impact_matrix	human_gate_role	yes	enum	medical, statistics, regulatory, operation, quality	statistics

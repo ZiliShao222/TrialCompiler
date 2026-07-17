@@ -14,6 +14,7 @@ def utc_now() -> str:
 
 class ReviewStatus(StrEnum):
     DRAFT = "draft"
+    PROPOSED_CHANGE = "proposed_change"
     REQUIRES_HUMAN_REVIEW = "requires_human_review"
     APPROVED = "approved"
     REJECTED = "rejected"
@@ -49,6 +50,7 @@ class FactRecord:
     owner_role: str = "unassigned"
     version: int = 1
     updated_at: str = field(default_factory=utc_now)
+    previous_value: Any | None = None
 
 
 @dataclass(slots=True)
@@ -111,6 +113,8 @@ class ReviewFinding:
     canonical_fact_id: str | None = None
     evidence_source_ids: list[str] = field(default_factory=list)
     requires_human_review: bool = True
+    fact_ids: list[str] = field(default_factory=list)
+    origin: str = "deterministic"
 
 
 @dataclass(slots=True)
@@ -124,6 +128,36 @@ class RepairProposal:
     fact_ids: list[str] = field(default_factory=list)
     evidence_source_ids: list[str] = field(default_factory=list)
     status: ReviewStatus = ReviewStatus.REQUIRES_HUMAN_REVIEW
+    origin: str = "deterministic"
+    finding_ids: list[str] = field(default_factory=list)
+    edit_operations: list[dict[str, Any]] = field(default_factory=list)
+
+
+@dataclass(slots=True)
+class EditOperation:
+    operation_id: str
+    finding_id: str
+    section_id: str
+    start: int
+    end: int
+    replacement: str
+    before: str
+    rationale: str
+    fact_ids: list[str] = field(default_factory=list)
+    evidence_source_ids: list[str] = field(default_factory=list)
+    origin: str = "deterministic"
+
+
+@dataclass(slots=True)
+class DecisionRequest:
+    request_id: str
+    finding_ids: list[str]
+    section_ids: list[str]
+    question: str
+    reason: str
+    options: list[str] = field(default_factory=list)
+    evidence_source_ids: list[str] = field(default_factory=list)
+    status: str = "pending_qualified_human_decision"
 
 
 @dataclass(slots=True)
@@ -132,6 +166,8 @@ class QualityDecision:
     score: float
     reasons: list[str]
     unresolved_finding_ids: list[str] = field(default_factory=list)
+    decision_request_ids: list[str] = field(default_factory=list)
+    machine_repair_complete: bool = False
 
 
 @dataclass(slots=True)

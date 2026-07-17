@@ -1,0 +1,65 @@
+{
+  "case_id": "SYNTH-AD-016",
+  "expected_cli_summary": {
+    "status": "completed_for_human_review",
+    "findings": 3,
+    "proposals": 3,
+    "quality": {
+      "accepted": true,
+      "score": 1.0,
+      "unresolved_finding_ids": []
+    },
+    "experience_cards": 1,
+    "experience_candidate_status": "draft"
+  },
+  "expected_conflicts": [
+    {
+      "section_id": "S-PROTOCOL-SYNOPSIS",
+      "finding_type": "canonical_fact_conflict",
+      "severity": "high",
+      "observed_value": 12,
+      "canonical_value": 16,
+      "expected_proposed_text": "The primary endpoint, EASI-75 response, will be assessed at Week 16 in 120 participants.",
+      "must_preserve": [
+        "EASI-75",
+        "120 participants"
+      ]
+    },
+    {
+      "section_id": "S-PROTOCOL-SOA",
+      "finding_type": "canonical_fact_conflict",
+      "severity": "high",
+      "observed_value": 12,
+      "canonical_value": 16,
+      "expected_proposed_text": "The primary EASI assessment is scheduled at Week 16."
+    },
+    {
+      "section_id": "S-SAP-PRIMARY",
+      "finding_type": "canonical_fact_conflict",
+      "severity": "high",
+      "observed_value": 12,
+      "canonical_value": 16,
+      "expected_proposed_text": "The primary analysis will compare EASI-75 response at Week 16 between treatment groups."
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "section_id": "S-PROTOCOL-OBJECTIVES",
+      "reason": "Already aligned to approved Week 16 fact."
+    },
+    {
+      "section_id": "S-ICF-PROCEDURES",
+      "reason": "Already aligned to approved Week 16 fact."
+    },
+    {
+      "fact_id": "F-SAMPLE-SIZE",
+      "reason": "The current MVP does not propose a change and the repair must preserve 120 participants."
+    }
+  ],
+  "governance_expectations": {
+    "source_document_overwritten": false,
+    "human_approval_required": true,
+    "experience_candidate_auto_approved": false,
+    "formal_release_performed": false
+  }
+}

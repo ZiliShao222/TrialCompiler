@@ -1,17 +1,22 @@
 # TrialCompiler
 
 TrialCompiler is an early-stage research and product prototype for compiling,
-reviewing, validating, and reusing expert knowledge from long-form clinical
-trial documents.
+reviewing, testing, and incrementally updating clinical trial protocols and
+their related documents.
 
 The project starts from one concrete problem in the 2026 AI for Future Talent
-competition: clinical trial protocols and reports can span hundreds of pages,
-require repeated expert review, and leave valuable review experience scattered
-across documents and messages.
+competition: key design facts such as endpoints, assessment timepoints, sample
+size, eligibility criteria, visit schedules, and statistical principles are
+repeated across protocol sections, tables, and related files. Manual drafting
+and revision therefore create long review cycles, stale values, version drift,
+and missed downstream changes.
 
-The intended system turns static documents into structured, testable clinical
-document graphs. It then uses evidence-grounded agents to draft, review, repair,
-and report changes while keeping qualified humans in control.
+The intended system turns professionally confirmed facts into a versioned Trial
+Fact Sheet and maps them to a testable Clinical Document Graph. It uses that
+graph to support section drafting, consistency review, and change-impact
+analysis while keeping medical, statistical, regulatory, and quality decisions
+under qualified human control. Patient-record screening and clinical-data
+cleaning are outside the current competition scope.
 
 ## Current Status
 
@@ -44,8 +49,8 @@ Feishu Aily intake
 ## Design Principles
 
 - Treat the clinical document as a structured dependency graph, not one prompt.
-- Keep regulatory knowledge, enterprise knowledge, project facts, and learned
-  experience in separate layers.
+- Keep project facts, regulatory and enterprise constraints, and learned expert
+  experience in separate governed layers.
 - Require traceable evidence for high-risk claims and review findings.
 - Preserve every AI action, human decision, and document version in an audit log.
 - Use human approval as the source of truth for reusable organizational memory.
@@ -71,6 +76,83 @@ tests/                   Unit, integration, workflow, and benchmark tests
 
 ## Documentation
 
+- Competition submission set, each document containing a concise form-ready
+  version followed by a detailed proposal-ready version:
+  - [`docs/competition_01_solution_overview_zh.md`](docs/competition_01_solution_overview_zh.md):
+    overall problem, product scope, human workflow, validation boundary, and
+    competition demonstration storyline.
+  - [`docs/competition_02_architecture_modules_zh.md`](docs/competition_02_architecture_modules_zh.md):
+    layered architecture, core modules, A-F active-compilation workflow,
+    human quality gates, audit, and MVP roadmap.
+  - [`docs/competition_03_core_innovations_zh.md`](docs/competition_03_core_innovations_zh.md):
+    technical, operating-model, and process innovations; conventional-solution
+    comparison; hypotheses, metrics, baselines, ablations, and originality
+    boundaries.
+- [`docs/medical_teammate_material_integration_zh.md`](docs/medical_teammate_material_integration_zh.md):
+  summary of the medical teammate's source package and how it strengthens the
+  Trial Fact Sheet, Clinical Document Graph, unit tests, and change-impact
+  analysis.
+- [`docs/medical_source_to_system_mapping_zh.md`](docs/medical_source_to_system_mapping_zh.md):
+  mapping from the medical source package modules M1-M4 to TrialCompiler system
+  modules, plus follow-up questions for medical review.
+- [`docs/competitor_analysis_integration_zh.md`](docs/competitor_analysis_integration_zh.md):
+  integration notes from the teammate competitor-analysis document, including
+  direct competitors, adjacent platforms, realistic substitutes, differentiation
+  points, and measurable validation metrics.
+- [`docs/attachment_package_review_20260717_zh.md`](docs/attachment_package_review_20260717_zh.md):
+  review of the architecture, regulatory-mapping, and attachment-task-list
+  deliverables, including current-repository reconciliation and remaining gaps.
+- [`docs/business_attachment_review_20260717_zh.md`](docs/business_attachment_review_20260717_zh.md):
+  review of the industry analysis, value model, and project risk-control
+  attachments, with explicit separation of verified claims, internal parameters,
+  POC targets, and unsupported assumptions.
+- [`references/metadata/business_claim_validation.tsv`](references/metadata/business_claim_validation.tsv):
+  evidence-status register for market, regulatory, productivity, cost, and
+  company claims appearing in the business attachments.
+- [`references/metadata/value_model_parameter_register.tsv`](references/metadata/value_model_parameter_register.tsv):
+  governed parameter register for labor savings, quality benefit, opportunity
+  value, implementation cost, and benchmark metrics.
+- [`references/metadata/business_risk_control_register.tsv`](references/metadata/business_risk_control_register.tsv):
+  structured risk, control, evidence-artifact, and MVP-status register.
+- [`references/metadata/regulatory_function_mapping.tsv`](references/metadata/regulatory_function_mapping.tsv):
+  machine-readable mapping from clinical standards and governance principles to
+  product controls, output evidence, responsibility boundaries, and prototype status.
+- [`references/metadata/attachment_task_reconciliation.tsv`](references/metadata/attachment_task_reconciliation.tsv):
+  reconciliation of the 14-item attachment plan against the current repository.
+- [`references/metadata/trialdocbench_metric_catalog.tsv`](references/metadata/trialdocbench_metric_catalog.tsv):
+  structured metric catalog for the proposed synthetic benchmark, covering
+  extraction, consistency, change impact, redline quality, task closure, audit,
+  rule scope, memory reuse, and local-adaptation dimensions.
+- [`docs/trialdocbench_synthetic_case_design_zh.md`](docs/trialdocbench_synthetic_case_design_zh.md):
+  synthetic public-source benchmark case-package design for evaluating Trial
+  Fact Sheet extraction, document-graph dependencies, injected defects, change
+  impact analysis, and redline generation without real clinical or enterprise
+  data.
+- [`references/metadata/trialdocbench_synthetic_case_schema.tsv`](references/metadata/trialdocbench_synthetic_case_schema.tsv):
+  machine-readable schema for synthetic benchmark case packages, including
+  case profile, gold facts, document graph, injected defects, change requests,
+  and expected impact matrices.
+- [`docs/teammate_public_research_tasks_zh.md`](docs/teammate_public_research_tasks_zh.md):
+  non-coding public-source verification tasks for medical, business, and Feishu
+  teammates, with explicit boundaries against real clinical data or internal
+  enterprise documents.
+- [`docs/public_source_gap_and_next_steps_zh.md`](docs/public_source_gap_and_next_steps_zh.md):
+  current source coverage, stable conclusions, remaining gaps, and recommended
+  next public-research tasks.
+- [`docs/20260717_evening_handoff_zh.md`](docs/20260717_evening_handoff_zh.md):
+  evening handoff checklist summarizing completed source ingestion, competitor
+  integration, TrialDocBench assets, and next tasks for medical, business, and
+  AI members.
+- [`docs/product_definition_zh.md`](docs/product_definition_zh.md): authoritative
+  Chinese product scope, problem definition, human workflow, functions, and
+  professional responsibility boundary.
+- [`docs/technical_innovations_zh.md`](docs/technical_innovations_zh.md):
+  technical contributions, borrowed-method boundaries, testable hypotheses,
+  implementation status, and evaluation design.
+- [`docs/mathematical_technical_analysis_zh.md`](docs/mathematical_technical_analysis_zh.md):
+  full mathematical formulation of global goal alignment, hard governance
+  constraints, trajectory drift, local module losses, human escalation,
+  preference learning, and TrialDocBench evaluation.
 - [`docs/detailed_solution_design_zh.md`](docs/detailed_solution_design_zh.md):
   detailed Chinese product, architecture, workflow, data-contract, benchmark,
   safety, MVP, and roadmap design.
@@ -85,10 +167,17 @@ tests/                   Unit, integration, workflow, and benchmark tests
   Semantic Element storage, coarse-to-fine retrieval, metadata gates, lifecycle,
   Decision Capsules, and evaluation metrics.
 - [`docs/knowledge_base_collection_plan_zh.md`](docs/knowledge_base_collection_plan_zh.md):
-  concrete two-week collection plan for the AI, medical, and finance/business
-  team members.
+  non-technical, public-source-only literature search checklist for the medical
+  and finance/business team members; real cases and interviews are deferred
+  until an authorized validation phase.
+- [`docs/data_processing_internal_plan_zh.md`](docs/data_processing_internal_plan_zh.md):
+  AI-side plan for deduplication, parsing, normalization, knowledge layering,
+  synthetic benchmark construction, and review-table generation.
 - [`docs/feishu_aily_integration_zh.md`](docs/feishu_aily_integration_zh.md): Aily
   clarification and field-extraction workflow before TrialCompiler.
+- [`references/notes/public_source_collection_20260717.md`](references/notes/public_source_collection_20260717.md):
+  public-source collection record, module mapping, and remaining gaps for the
+  current competition research phase.
 
 ## Quick Start
 
@@ -98,8 +187,33 @@ The current development environment is `D:\miniconda\envs\iGEM`.
 cd D:\TrialCompiler
 $env:PYTHONPATH = "src"
 
-# Reproducible synthetic review
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler demo
+# Build and initialize a reproducible multi-document case
+D:\miniconda\envs\iGEM\python.exe scripts\build_trialdocbench_fixture.py
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler init `
+  --workspace outputs\workspaces\trialdocbench `
+  --document data\fixtures\trialdocbench_case_001.json
+
+# Inspect facts and create a governed candidate change
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler facts `
+  --workspace outputs\workspaces\trialdocbench
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler change `
+  --workspace outputs\workspaces\trialdocbench `
+  --fact-id FACT-TIMEPOINT-001 --value 16 `
+  --reason "Evaluate a proposed Week 16 primary endpoint"
+
+# Compile deterministic checks plus Qwen semantic review
+$env:DASHSCOPE_API_KEY = "<your-key>"
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler compile `
+  --workspace outputs\workspaces\trialdocbench `
+  --llm on --llm-model qwen-plus
+
+# Inspect the audit trail. Applying or rejecting a change remains explicit.
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler audit `
+  --workspace outputs\workspaces\trialdocbench
+
+# Alternatively, use the guided terminal workspace.
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler workspace `
+  --workspace outputs\workspaces\guided-demo
 
 # Validate the Feishu Aily hand-off contract
 D:\miniconda\envs\iGEM\python.exe -m trialcompiler feishu-intake `
@@ -109,6 +223,10 @@ D:\miniconda\envs\iGEM\python.exe -m trialcompiler feishu-intake `
 D:\miniconda\envs\iGEM\python.exe -m uvicorn apps.api.app:app `
   --host 127.0.0.1 --port 8810
 ```
+
+The full CLI command reference and artifact layout are documented in
+[`docs/cli_prototype_guide_zh.md`](docs/cli_prototype_guide_zh.md). The web UI is
+intentionally deferred until the terminal workflow and governance contract are stable.
 
 Open `http://127.0.0.1:8810/docs` for the generated API console. The main
 endpoints are:

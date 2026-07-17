@@ -1,0 +1,2 @@
+change_id	fact_id	old_value	new_value	requester_role	reason	expected_affected_units
+CHG-001	FACT-TIMEPOINT-001	Week 12	Week 16	medical	Medical and statistical discussion decided to extend the primary endpoint assessment window.	protocol_synopsis.md;objectives_and_endpoints.md;schedule_of_activities.md;statistical_principles.md;informed_consent_summary.md;sap_excerpt.md

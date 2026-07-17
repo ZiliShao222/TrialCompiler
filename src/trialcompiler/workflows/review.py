@@ -16,8 +16,21 @@ class ReviewWorkflowState(TypedDict, total=False):
     document: dict[str, Any]
     context_lock: dict[str, Any]
     findings: list[dict[str, Any]]
+    semantic_review: dict[str, Any]
+    semantic_repairs: dict[str, Any]
+    review_coverage: dict[str, Any]
+    change_context: dict[str, Any] | None
+    impact_matrix: list[dict[str, Any]]
     experience_cards: list[dict[str, Any]]
     proposals: list[dict[str, Any]]
+    raw_proposals: list[dict[str, Any]]
+    repair_conflicts: list[dict[str, Any]]
+    repair_feedback: dict[str, Any]
+    deferred_finding_ids: list[str]
+    authorization_blocks: list[dict[str, Any]]
+    decision_requests: list[dict[str, Any]]
+    workflow_status: str
+    verification: dict[str, Any]
     quality: dict[str, Any]
     report_markdown: str
     experience_candidate: dict[str, Any] | None
@@ -69,9 +82,24 @@ class ReviewWorkflow:
             return "report"
         return "repair"
 
-    def run(self, document: TrialDocument, *, max_rounds: int = 2) -> ReviewWorkflowState:
+    def run(
+        self,
+        document: TrialDocument,
+        *,
+        max_rounds: int = 2,
+        semantic_review: dict[str, Any] | None = None,
+        semantic_repairs: dict[str, Any] | None = None,
+        change_context: dict[str, Any] | None = None,
+        impact_matrix: list[dict[str, Any]] | None = None,
+    ) -> ReviewWorkflowState:
         initial: ReviewWorkflowState = {
             "document": document.to_dict(),
+            "semantic_review": semantic_review
+            or {"status": "not_run", "reason": "No semantic reviewer supplied"},
+            "semantic_repairs": semantic_repairs
+            or {"status": "not_run", "reason": "No semantic repair builder supplied"},
+            "change_context": change_context,
+            "impact_matrix": impact_matrix or [],
             "round_index": 0,
             "max_rounds": max_rounds,
             "trace": [],
@@ -85,10 +113,20 @@ class ReviewWorkflow:
         state_path = output / "workflow_state.json"
         report_path = output / "review_report.md"
         trace_path = output / "agent_trace.jsonl"
+        decision_requests_path = output / "decision_requests.json"
         state_path.write_text(
             json.dumps(to_plain(state), ensure_ascii=False, indent=2), encoding="utf-8"
         )
         report_path.write_text(state.get("report_markdown", ""), encoding="utf-8")
+        decision_requests_path.write_text(
+            json.dumps(
+                to_plain(state.get("decision_requests", [])),
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
         trace_path.write_text(
             "\n".join(
                 json.dumps(to_plain(event), ensure_ascii=False) for event in state.get("trace", [])
@@ -100,4 +138,5 @@ class ReviewWorkflow:
             "state": str(state_path),
             "report": str(report_path),
             "trace": str(trace_path),
+            "decision_requests": str(decision_requests_path),
         }

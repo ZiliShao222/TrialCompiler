@@ -1,0 +1,77 @@
+source_id	module	mapping_strength	how_used	next_processing_action
+MED-001	Trial Fact Sheet	high	Defines structured protocol philosophy and supports fact provenance requirements	extract section-level fact candidates
+MED-002	Document Unit Catalog	high	Provides protocol template structure for units and dependencies	map ICH M11 headings to DU ids
+MED-003	Product Story	medium	Short official explainer for why protocol structure matters	quote concept in presentation notes
+ADOC-001	ICF Unit Tests	high	Defines informed consent template units and participant-facing consistency checks	extract ICF section headings
+ADOC-005	SAP Unit Tests	high	Supports SAP dependency mapping and statistical fact checks	extract SAP sections and analysis fact fields
+ADOC-011	SAP Unit Tests	high	Open article on SAP authoring templates and checklist structure	derive checklist-style SAP tests
+ADOC-012	Registry Consistency	high	Defines registry protocol fields that repeat protocol facts	map registry fields to Trial Fact Sheet
+ADOC-013	Registry Consistency	medium	Defines results fields and outcome reporting dependencies	prepare later protocol-to-results trace map
+ADOC-015	CSR Traceability	medium	Defines clinical study report structure for later lifecycle extension	map CSR sections to final protocol facts
+ADOC-016	Protocol Unit Catalog	high	Annotated NIH-FDA template gives protocol sections and SoA context	map protocol section units
+MED-016	Statistical Rules	high	ICH E9(R1) supports estimand and analysis consistency fields	define estimand-related fact schema
+MED-013	Quality Governance	high	ICH E6(R3) supports quality-by-design and role-based oversight	map review roles and quality gates
+BUS-001	Competitor Matrix	high	Clinical content reuse assets for comparison with TrialCompiler	contrast template reuse vs compile-test workflow
+BUS-002	Competitor Matrix	medium	Common protocol template illustrates structured authoring trend	identify non-AI baseline capabilities
+FS-001	Interaction Layer	high	Feishu Aily as user-facing orchestration entry	connect TrialCompiler task initiation to Feishu scenario
+FS-004	Workflow Layer	medium	Feishu Workflow as approval and routing environment	map human confirmation gates
+BUR-001	Pain Evidence	medium	Shows protocol writing complexity and need for systematic writing support	extract burden claim carefully
+BUR-004	Change Impact	high	Protocol amendment burden evidence supports incremental change analysis	use in problem statement and metrics
+BUR-005	Change Impact	high	Protocol complexity/amendment evidence supports missed-update risk	use in evaluation metric design
+ADOC-017	ICF Unit Tests	medium	NIA consent template can support participant-facing text consistency	extract if manual access succeeds
+ADOC-018	ICF Unit Tests	high	Consent template with risk, benefit and procedure structure	extract section headings and wording constraints
+ADOC-019	Registry Consistency	medium	Background on required results reporting and outcome data dependencies	use for registry-to-results traceability
+ADOC-020	Registry Consistency	medium	Practical guide for ClinicalTrials.gov registration and results workflow	extract required-field checklist
+AI-001	AI Baseline	high	RAG clinical-trial document writing baseline for comparing TrialCompiler with generation-only systems	extract pipeline and evaluation claims
+AI-002	AI Baseline	high	Direct protocol-authoring LLM baseline and comparable task framing	extract authoring workflow and limitations
+AI-003	Document Unit Tests	high	LLM protocol/SAP assessment evidence for semantic checks	extract assessment task types
+AI-004	AI Governance	medium	Review of LLM applications and clinical-trial risk boundaries	extract risk and oversight limitations
+AI-005	AI Baseline	medium	Industry intelligent protocol automation reference	extract automation claims for competitor comparison
+AI-006	Semantic Consistency	high	Method reference for consistency checking with LLMs and deterministic evaluation	use in technical analysis and evaluation plan
+AI-007	Competitor Matrix	medium	AI protocol authoring industry narrative	add to competitor comparison
+AI-008	Competitor Matrix	medium	Agent-based protocol automation industry narrative	add to competitor comparison
+BURDEN-011	Change Impact	high	Recent evidence connecting amendments and operational performance	use to justify impact analysis module
+BURDEN-012	Pain Evidence	medium	Recent industry analysis of protocol complexity and trial outcomes	use cautiously as industry pain source
+BURDEN-013	Pain Evidence	medium	Industry article on amendment cost and risk	use as non-primary burden narrative
+BURDEN-014	Change Impact	medium	Industry view of phase 1 amendment cost and learning penalty	use as amendment story support
+BURDEN-015	Pain Evidence	medium	Study design complexity narrative for site burden	use as operational context
+REG-001	ICF Rule Constraints	high	FDA informed consent guidance supports consent document tests and professional boundaries	extract required consent concepts
+REG-002	ICF Rule Constraints	medium	OHRP informed consent checklist supports required-element testing	manual review due access block
+REG-003	Feishu Workflow Boundary	medium	Electronic informed consent guidance informs digital workflow and audit boundaries	map to eConsent discussion only
+REG-004	Global Protocol Constraints	medium	ICH E17 adds multi-region design constraints and population/regional factors	extract region-related fact fields later
+REG-005	Global Protocol Constraints	low	EMA E17 page confirms regulatory context	link to regional guideline adoption
+REG-006	Global Protocol Constraints	low	FDA E17 page confirms US adoption context	link to regional guideline adoption
+ADOC-021	Disclosure and Redaction	medium	Protocol/SAP upload and redaction guide links protocol, SAP, registry and disclosure workflow	extract disclosure-related document units
+ADOC-022	Protocol Unit Catalog	medium	Additional protocol template for validating unit catalog	check against existing DU catalog
+ADOC-023	ICF Unit Tests	medium	NIA consent checklist supports consent unit required elements	manual review due access block
+ADOC-024	ICF Unit Tests	medium	Public ICF example supports synthetic ICF format and phrase examples	use only as public example, not patient data
+SOA-001	Schedule of Activities	high	Canonical SPIRIT schedule table template for enrolment, interventions and assessments	extract table structure and visit labels
+SOA-002	Schedule of Activities	high	Participant timeline rationale supports visit schedule and burden checks	map to SoA and participant burden tests
+SOA-003	Schedule of Activities	medium	Schedule of Events template for site/protocol operations	extract event-table structure
+SOA-004	Schedule of Activities	medium	Practical instructions for Schedule of Events and care-plan mapping	extract operational instructions
+SOA-005	Protocol Unit Catalog	medium	Protocol template with SoA section for validating document units	extract headings and SoA placement
+SOA-006	Template Index	low	Template collection context for protocol and source-document workflows	catalog only
+SOA-007	Schedule of Activities	high	Method evidence for automated protocol template and SoA generation	use in technical narrative for structured generation
+SOA-008	Protocol Unit Catalog	high	Updated SPIRIT 2025 statement and timeline requirements	update checklist references
+SOA-009	Synthetic Benchmark	medium	Public protocol/SAP example for SoA format reference	use only for format inspiration, not as private data
+SOA-010	Schedule of Activities	medium	PRO-specific protocol template for assessment windows and patient-reported outcomes	map PRO assessment dependencies
+COMP-001	Competitor Analysis	high	Supports direct comparison with protocol quality and ambiguity-checking platforms	verify public claims and map overlapping features
+COMP-002	Competitor Analysis	high	Supports direct comparison with clinical document AI workspace positioning	verify claimed drafting, QC and review workflow
+COMP-003	Product Boundary	high	Shows why Word-centered authoring remains important for formal document workflows	define TrialCompiler-Feishu-Word handoff boundary
+COMP-004	Competitor Analysis	medium	Public REVIEW page was blocked; placeholder retained for manual review	manual source review before external claims
+COMP-005	Competitor Analysis	high	Supports comparison with protocol intelligence and structured authoring products	map generation-only versus fact-governance differences
+COMP-006	Competitor Analysis	medium	Provides background for Clinials positioning and protocol extraction claims	verify exact claims before submission
+COMP-007	China Market Fit	high	Supports comparison with local clinical operations/document workflow systems	map China pharma workflow and deployment requirements
+COMP-008	China Market Fit	high	Links ICH M11, AI agents and China clinical data/document workflows	use to refine local adaptation narrative
+COMP-009	Platform Boundary	high	Supports positioning TrialCompiler as semantic governance layer above clinical operations platforms	define integration rather than replacement stance
+COMP-010	Adjacent Product	medium	Supports comparison with study document assistant category	use as adjacent competitor and feature-boundary reference
+COMP-011	Upstream Design Boundary	high	Positions IQVIA as upstream protocol design optimization rather than downstream document compiler	manual verify claims and mark as adjacent competitor
+COMP-012	Upstream Design Boundary	high	Positions Medidata Protocol Optimization as upstream scenario and feasibility optimization	use to separate TrialCompiler from protocol optimization platforms
+COMP-013	Upstream Design Boundary	medium	Supports Medidata platform context for feasibility and analytics rather than document compilation	map platform integration opportunities
+STAND-013	Standards Alignment	high	Supports digital data flow and structured study definition direction	align Trial Fact Sheet and document graph fields with DDF/USDM concepts
+STAND-014	Standards Alignment	high	Supports USDM onboarding and implementation narrative	extract concepts relevant to Trial Fact Sheet schema
+STAND-015	Standards Alignment	high	Provides public implementation reference for USDM structured study definitions	compare schema fields with TrialDocBench case schema
+ASSOC-025	Associated Document Graph	high	Supports clinical content reuse across protocol, SAP and CSR assets	use for document-unit and reusable content mapping
+ASSOC-026	Associated Document Graph	high	Supports clinical content reuse initiative and machine-readable document direction	use in architecture story for content reuse plus active testing
+STAND-016	Standards Alignment	high	Supports document-centric to data-centric clinical trial protocol digitalization	use as standards evidence for compiler metaphor
+STAND-017	Protocol Template Baseline	medium	Supports Common Protocol Template baseline and structured common text	use as baseline for why templates are necessary but insufficient

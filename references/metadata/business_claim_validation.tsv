@@ -1,0 +1,16 @@
+claim_id	attachment	claim_summary	claim_type	evidence_status	evidence_or_gap	recommended_use	source_url
+BC-001	行业分析报告	健康元官网已发布2025年年度报告	company_fact	verified	官网年度报告目录可核验发布日期和报告入口	可在比赛材料中引用报告存在性并补充具体页码	https://www.joincare.com/annual_report.html
+BC-002	价值测算模型	2025年研发费用为12.73亿元	company_metric	source_identified_exact_value_pending	已定位健康元2025年年度报告但尚未核对具体页码单位和口径	补齐页码后再转为verified	https://www.joincare.com/annual_report.html
+BC-003	价值测算模型	2025年末研发人员总数为1561人	company_metric	source_identified_exact_value_pending	已定位健康元2025年年度报告但尚未核对人员定义和具体页码	补齐页码后再转为verified	https://www.joincare.com/annual_report.html
+BC-004	行业分析报告	Medidata调研表明临床AI应用正在产生可观测收益	industry_survey	partially_supported	2026官方新闻稿确认200名高级决策者调查并报告72.9%早期采用者看到周期缩短；不等于所有企业或TrialCompiler收益	仅用于行业趋势并保留样本和早期采用者限定	https://www.3ds.com/newsroom/press-releases/medidatas-second-annual-ai-report-shows-shift-pilots-enterprise-adoption-729-early-adopters-seeing-reduction-study-timelines
+BC-005	行业分析报告	70%企业表示临床AI收益达到或超过预期	industry_survey	needs_primary_question_verification	附件提供Medidata二手解读但未绑定原始题目分母和受访者定义	找到报告原表后再引用	
+BC-006	行业分析报告	临床从业人员60%以上工时用于复制粘贴校对和版本比对	productivity_metric	unsupported	附件未提供可反查的一手研究和测量口径	改为待访谈和POC验证假设	
+BC-007	行业分析报告	同类系统使文档撰写工时下降30%-65%	productivity_metric	unsupported	未提供具体企业案例任务定义基线样本和测量方法	不得作为TrialCompiler效果承诺	
+BC-008	行业分析报告	NMPA明确认可AI辅助撰写且不存在监管合规壁垒	regulatory_claim	overstated	公开资料支持医药工业数字化和AI辅助方案设计探索但不构成具体产品认可或无壁垒结论	改为政策支持探索且仍须满足GCP数据和质量要求	https://www.nmpa.gov.cn/directory/web/nmpa/images/1745571827762023603.pdf
+BC-009	行业分析报告	监管已全面放开AI临床文书工具使用限制	regulatory_claim	unsupported	未找到对应法规或正式监管声明	删除全面放开表述	
+BC-010	行业分析报告	私有化本地部署是大中型药企最优方案	market_positioning	hypothesis	可以由数据敏感性支持其必要性但最优需要成本安全集成和客户需求比较	作为待验证产品定位而非事实	
+BC-011	行业分析报告	2026-2030国内AI医学写作市场增速高于全球平均	market_metric	unsupported	附件引用二手市场文章但缺少可复核研究方法和原始数据	不进入核心市场规模结论	
+BC-012	价值测算模型	三年私有化系统投入为1320万元	cost_baseline	unsupported	所谓2026私有化临床AI造价基准缺少机构作者链接和原文	仅可作为情景假设且必须标注非报价	
+BC-013	价值测算模型	一次性数据治理成本为120万元	cost_baseline	unsupported	所谓2026临床知识库治理收费标准缺少机构作者链接和原文	等待供应商报价或内部预算	
+BC-014	价值测算模型	年度工时价值和项目净收益公式可用于测算	model_structure	methodologically_valid_inputs_pending	公式结构合理但多数输入仍需内部访谈或POC	用于建立参数登记和敏感性分析	
+BC-015	行业分析报告	TrialCompiler可实现EDC回填CSR一键生成和全流程自动化	product_scope	out_of_scope	当前比赛范围只含方案及关联文件编制一致性审核和变更影响分析	从核心承诺中删除并列为远期扩展	

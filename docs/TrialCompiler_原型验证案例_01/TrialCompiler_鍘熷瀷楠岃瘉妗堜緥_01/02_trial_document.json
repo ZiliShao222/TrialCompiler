@@ -1,0 +1,138 @@
+{
+  "project_id": "SYNTH-AD-016",
+  "document_id": "DOCSET-SYNTH-AD-016",
+  "title": "Synthetic Phase II atopic dermatitis document set",
+  "document_type": "protocol",
+  "jurisdiction": "CN",
+  "therapeutic_area": "atopic_dermatitis_demo",
+  "version": "0.3-review",
+  "sources": [
+    {
+      "source_id": "SRC-CR-SYNTH-016",
+      "title": "Synthetic approved endpoint timing change decision",
+      "locator": "demo://change-request/CR-SYNTH-016",
+      "authority": "project",
+      "version": "1",
+      "effective_date": "2026-07-10",
+      "access_scope": "SYNTH-AD-016"
+    },
+    {
+      "source_id": "SRC-PROTOCOL-V03",
+      "title": "Synthetic protocol version 0.3",
+      "locator": "feishu://docx/synth-ad-016-protocol-v0.3",
+      "authority": "project",
+      "version": "0.3",
+      "effective_date": "2026-07-12",
+      "access_scope": "SYNTH-AD-016"
+    },
+    {
+      "source_id": "SRC-SAP-V02",
+      "title": "Synthetic SAP version 0.2",
+      "locator": "feishu://docx/synth-ad-016-sap-v0.2",
+      "authority": "project",
+      "version": "0.2",
+      "effective_date": "2026-07-12",
+      "access_scope": "SYNTH-AD-016"
+    },
+    {
+      "source_id": "SRC-ICF-V02",
+      "title": "Synthetic ICF version 0.2",
+      "locator": "feishu://docx/synth-ad-016-icf-v0.2",
+      "authority": "project",
+      "version": "0.2",
+      "effective_date": "2026-07-12",
+      "access_scope": "SYNTH-AD-016"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F-PRIMARY-ENDPOINT-WEEK",
+      "name": "primary endpoint assessment week",
+      "value": 16,
+      "unit": "week",
+      "status": "approved",
+      "source_ids": [
+        "SRC-CR-SYNTH-016"
+      ],
+      "owner_role": "medical_lead",
+      "version": 2
+    },
+    {
+      "fact_id": "F-SAMPLE-SIZE",
+      "name": "planned sample size",
+      "value": 120,
+      "unit": "participants",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROTOCOL-V03"
+      ],
+      "owner_role": "statistician",
+      "version": 1
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "S-PROTOCOL-SYNOPSIS",
+      "title": "Protocol synopsis",
+      "text": "The primary endpoint, EASI-75 response, will be assessed at Week 12 in 120 participants.",
+      "document_type": "protocol",
+      "fact_refs": [
+        "F-PRIMARY-ENDPOINT-WEEK",
+        "F-SAMPLE-SIZE"
+      ],
+      "source_ids": [
+        "SRC-PROTOCOL-V03"
+      ]
+    },
+    {
+      "section_id": "S-PROTOCOL-OBJECTIVES",
+      "title": "Objectives and endpoints",
+      "text": "The primary efficacy endpoint is the proportion of participants achieving EASI-75 at Week 16.",
+      "document_type": "protocol",
+      "fact_refs": [
+        "F-PRIMARY-ENDPOINT-WEEK"
+      ],
+      "source_ids": [
+        "SRC-PROTOCOL-V03",
+        "SRC-CR-SYNTH-016"
+      ]
+    },
+    {
+      "section_id": "S-PROTOCOL-SOA",
+      "title": "Schedule of activities",
+      "text": "The primary EASI assessment is scheduled at Week 12.",
+      "document_type": "protocol",
+      "fact_refs": [
+        "F-PRIMARY-ENDPOINT-WEEK"
+      ],
+      "source_ids": [
+        "SRC-PROTOCOL-V03"
+      ]
+    },
+    {
+      "section_id": "S-SAP-PRIMARY",
+      "title": "SAP primary efficacy analysis",
+      "text": "The primary analysis will compare EASI-75 response at Week 12 between treatment groups.",
+      "document_type": "sap",
+      "fact_refs": [
+        "F-PRIMARY-ENDPOINT-WEEK"
+      ],
+      "source_ids": [
+        "SRC-SAP-V02"
+      ]
+    },
+    {
+      "section_id": "S-ICF-PROCEDURES",
+      "title": "ICF study procedures",
+      "text": "Your main skin assessment for the study will take place at Week 16.",
+      "document_type": "icf",
+      "fact_refs": [
+        "F-PRIMARY-ENDPOINT-WEEK"
+      ],
+      "source_ids": [
+        "SRC-ICF-V02",
+        "SRC-CR-SYNTH-016"
+      ]
+    }
+  ]
+}

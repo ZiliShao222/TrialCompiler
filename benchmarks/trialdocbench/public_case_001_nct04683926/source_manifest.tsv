@@ -1,0 +1,7 @@
+source_id	document_type	version_date	local_path	official_url	status	allowed_use
+SRC-REG	registry	last update 2023-04-04	public_sources/NCT04683926_registry.json	https://clinicaltrials.gov/study/NCT04683926	verified_public	registration facts, status, and aggregate results
+SRC-PROT	protocol	v1.2 2020-05-11	public_sources/NCT04683926_Protocol_v1.2_2020-05-11.pdf	https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/Prot_SAP_000.pdf	verified_public	design, eligibility, dosing, schedule, and protocol statistics
+SRC-SAP	statistical_analysis_plan	v1.0 2021-02-09	public_sources/NCT04683926_SAP_v1.0_2021-02-09.pdf	https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/SAP_001.pdf	verified_public	analysis populations, safety outputs, and CRF time-axis mapping
+SRC-ICF	informed_consent_form	IRB approved 2020-07-29	public_sources/NCT04683926_ICF_2020-07-29.pdf	https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/ICF_002.pdf	verified_public	participant-facing procedures, duration, and risks
+SRC-MUT	synthetic_change	2026-07-17	synthetic_changes/pk_32h_to_36h.md		synthetic_only	impact-analysis regression test; never describe as a real amendment
+

@@ -1,0 +1,144 @@
+{
+  "case_id": "NCT04683926",
+  "protocol_number": "OMNI-PAIN-103",
+  "case_type": "public_phase_1_drug_development_trial",
+  "data_boundary": "public_documents_and_fully_synthetic_test_assets_only",
+  "critical_facts": {
+    "phase": "Phase 1",
+    "design": "open-label randomized balanced single-dose four-treatment four-period four-sequence Williams square crossover",
+    "planned_max_randomized": 32,
+    "target_pp_or_pk_complete": 24,
+    "actual_enrollment": 24,
+    "treatments": [
+      "10 mg fasted",
+      "20 mg fasted",
+      "30 mg fasted",
+      "30 mg fed"
+    ],
+    "dose_days_protocol": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "pk_nominal_times_hours": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      6,
+      8,
+      12,
+      16,
+      24,
+      32
+    ]
+  },
+  "tests": [
+    {
+      "id": "TC-SD-001",
+      "expected_label": "hard_conflict",
+      "severity": "high",
+      "facts": [
+        "F018"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-SD-002",
+      "expected_label": "boundary_inconsistency",
+      "severity": "medium",
+      "facts": [
+        "F005",
+        "F007"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-SD-003",
+      "expected_label": "population_definition_risk",
+      "severity": "high",
+      "facts": [
+        "F019",
+        "F020",
+        "F021"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-XD-001",
+      "expected_label": "cross_document_conflict",
+      "severity": "high",
+      "facts": [
+        "F009"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-XD-002",
+      "expected_label": "cross_document_difference_expert_judgment",
+      "severity": "medium",
+      "facts": [
+        "F008"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-XD-003",
+      "expected_label": "dual_time_axis_mapping",
+      "severity": "high",
+      "facts": [
+        "F022",
+        "F023"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-XD-004",
+      "expected_label": "analysis_population_mapping_risk",
+      "severity": "high",
+      "facts": [
+        "F020",
+        "F021"
+      ],
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-VS-001",
+      "expected_label": "planned_target_actual_state_difference",
+      "severity": "medium",
+      "facts": [
+        "F010",
+        "F011",
+        "F012"
+      ],
+      "must_not_report_as_conflict": true
+    },
+    {
+      "id": "TC-MUT-001",
+      "expected_label": "synthetic_change_impact",
+      "severity": "high",
+      "changed_fact": "F015",
+      "old_value": "32 h",
+      "new_value": "36 h",
+      "required_edges": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005"
+      ]
+    },
+    {
+      "id": "TC-QA-001",
+      "expected_label": "approval_gate",
+      "severity": "high",
+      "formal_documents_must_not_be_silently_overwritten": true
+    }
+  ]
+}

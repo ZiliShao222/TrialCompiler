@@ -1,0 +1,529 @@
+{
+  "project_id": "NCT04683926",
+  "document_id": "OMNI-PAIN-103-PUBLIC-PACKAGE",
+  "title": "NCT04683926 / OMNI-PAIN-103 public document package",
+  "document_type": "multi_document_clinical_trial_package",
+  "jurisdiction": "United States",
+  "therapeutic_area": "clinical pharmacology / analgesia",
+  "version": "public-benchmark-reviewed-1.0",
+  "sources": [
+    {
+      "source_id": "SRC-REG",
+      "title": "NCT04683926 registry",
+      "locator": "https://clinicaltrials.gov/study/NCT04683926",
+      "authority": "official_public",
+      "version": "last update 2023-04-04",
+      "access_scope": "registration facts, status, and aggregate results"
+    },
+    {
+      "source_id": "SRC-PROT",
+      "title": "NCT04683926 protocol",
+      "locator": "https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/Prot_SAP_000.pdf",
+      "authority": "official_public",
+      "version": "v1.2 2020-05-11",
+      "access_scope": "design, eligibility, dosing, schedule, and protocol statistics"
+    },
+    {
+      "source_id": "SRC-SAP",
+      "title": "NCT04683926 statistical_analysis_plan",
+      "locator": "https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/SAP_001.pdf",
+      "authority": "official_public",
+      "version": "v1.0 2021-02-09",
+      "access_scope": "analysis populations, safety outputs, and CRF time-axis mapping"
+    },
+    {
+      "source_id": "SRC-ICF",
+      "title": "NCT04683926 informed_consent_form",
+      "locator": "https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/ICF_002.pdf",
+      "authority": "official_public",
+      "version": "IRB approved 2020-07-29",
+      "access_scope": "participant-facing procedures, duration, and risks"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F001",
+      "name": "ClinicalTrials.gov ID",
+      "value": "NCT04683926",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-REG"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F002",
+      "name": "protocol number",
+      "value": "OMNI-PAIN-103",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F003",
+      "name": "clinical phase",
+      "value": "Phase 1",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F004",
+      "name": "study population",
+      "value": "healthy men and women aged 19 to 55",
+      "unit": "years",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F005",
+      "name": "study design",
+      "value": "open-label randomized balanced single-dose four-treatment four-period four-sequence Williams-square crossover",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F006",
+      "name": "treatments",
+      "value": "10 mg fasted; 20 mg fasted; 30 mg fasted; 30 mg fed",
+      "unit": "mg",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F007",
+      "name": "protocol dose days",
+      "value": "Day 1; Day 4; Day 7; Day 10",
+      "unit": "day",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F008",
+      "name": "screening window",
+      "value": "Protocol <=30 days; ICF up to 31 days",
+      "unit": "day",
+      "status": "requires_human_review",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-ICF"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F009",
+      "name": "study or confinement duration",
+      "value": "Protocol/SAP 11 days; ICF about 12 days",
+      "unit": "day",
+      "status": "requires_human_review",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-SAP",
+        "SRC-ICF"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F010",
+      "name": "planned maximum randomized",
+      "value": "32",
+      "unit": "participants",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F011",
+      "name": "target PK-complete sample",
+      "value": "24",
+      "unit": "participants",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F012",
+      "name": "actual enrollment",
+      "value": "24",
+      "unit": "participants",
+      "status": "approved",
+      "source_ids": [
+        "SRC-REG"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F013",
+      "name": "study objectives",
+      "value": "dose proportionality; 30 mg food effect; safety and tolerability",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F014",
+      "name": "key PK endpoints",
+      "value": "M1 AUC0-inf; AUC0-t when appropriate; Cmax; T1/2; Tmax; Tlag",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F015",
+      "name": "nominal PK blood sampling times",
+      "value": "0; 0.5; 1; 1.5; 2; 2.5; 3; 3.5; 4; 6; 8; 12; 16; 24; 32",
+      "unit": "hours",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F016",
+      "name": "fasting requirement",
+      "value": "at least 10 h before dose and at least 4 h after dose",
+      "unit": "hours",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F017",
+      "name": "fed treatment meal",
+      "value": "high-fat high-calorie meal started about 30 min before dose and consumed within 20 min",
+      "unit": "minutes",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F018",
+      "name": "water restriction",
+      "value": "Synopsis and SAP: no water 1 h before/after; Protocol body: only water allowed 1 h before/after",
+      "unit": null,
+      "status": "requires_human_review",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F019",
+      "name": "safety population",
+      "value": "all participants receiving at least one dose",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F020",
+      "name": "per-protocol population",
+      "value": "meets eligibility; completes Day 11; receives all four doses; at least 13 of 15 PK samples per dose",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT",
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F021",
+      "name": "evaluable population",
+      "value": "calculable AUC0-inf or AUC0-t and/or Cmax; used for dose proportionality and food effect in Protocol",
+      "unit": null,
+      "status": "requires_human_review",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F022",
+      "name": "Protocol time axis",
+      "value": "continuous study Day -1 through Day 11",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F023",
+      "name": "CRF/SAP time axis",
+      "value": "four periods; each dose represented as Day 1 within its period",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F024",
+      "name": "interim analysis",
+      "value": "no interim analysis",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-SAP"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F025",
+      "name": "power statement",
+      "value": "24 participants; 20% intra-subject CV; 5% significance; about 89.6% power",
+      "unit": "percent",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F026",
+      "name": "participants analyzed by treatment",
+      "value": "10 mg fasted 24; 20 mg fasted 23; 30 mg fasted 23; 30 mg fed 23",
+      "unit": "participants",
+      "status": "approved",
+      "source_ids": [
+        "SRC-REG"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    },
+    {
+      "fact_id": "F027",
+      "name": "study status",
+      "value": "Completed",
+      "unit": null,
+      "status": "approved",
+      "source_ids": [
+        "SRC-REG"
+      ],
+      "owner_role": "qualified_clinical_reviewer",
+      "version": 1
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "PROT-SYNOPSIS",
+      "title": "Protocol Synopsis",
+      "document_type": "protocol",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "fact_refs": [
+        "F005",
+        "F007",
+        "F009",
+        "F010",
+        "F011",
+        "F015",
+        "F018"
+      ],
+      "text": "Participants receive treatments on Study Days 1, 4, 7, and 10 with a washout interval of greater than 3 days. Participants remain in the study for 11 days. No water is allowed one hour before and one hour after dosing. Nominal PK samples are collected at 0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 6, 8, 12, 16, 24, and 32 hours after each dose. Up to 32 participants may be randomized to obtain 24 PK-complete participants."
+    },
+    {
+      "section_id": "PROT-BODY-PROCEDURES",
+      "title": "Protocol Study Design and Procedures",
+      "document_type": "protocol",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "fact_refs": [
+        "F007",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F022"
+      ],
+      "text": "The four doses are administered on continuous Study Days 1, 4, 7, and 10, providing 3 days between doses. During the period from one hour before to one hour after dosing, only water is allowed. The study runs from Day -1 through Day 11. The final nominal PK sample is obtained 32 hours post-dose."
+    },
+    {
+      "section_id": "PROT-SCHEDULE",
+      "title": "Protocol Appendix A Schedule of Procedures",
+      "document_type": "schedule_of_activities",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "fact_refs": [
+        "F007",
+        "F015",
+        "F022"
+      ],
+      "text": "The schedule uses one continuous Day -1 to Day 11 study timeline. PK sampling for each treatment includes a final 32-hour time point."
+    },
+    {
+      "section_id": "PROT-POPULATIONS",
+      "title": "Protocol Analysis Populations",
+      "document_type": "protocol",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "fact_refs": [
+        "F019",
+        "F020",
+        "F021"
+      ],
+      "text": "The Safety Population includes all participants who receive at least one dose. The Per-Protocol Population must meet eligibility, complete Day 11, receive all four doses, and provide at least 13 of 15 PK samples per dose. The Evaluable Population has calculable AUC0-inf or AUC0-t and/or Cmax and is used for dose proportionality and food-effect analyses."
+    },
+    {
+      "section_id": "SAP-DESIGN",
+      "title": "SAP Study Design and Scope",
+      "document_type": "statistical_analysis_plan",
+      "source_ids": [
+        "SRC-SAP"
+      ],
+      "fact_refs": [
+        "F009",
+        "F018",
+        "F019",
+        "F020",
+        "F023",
+        "F024"
+      ],
+      "text": "Participants remain in the study for 11 days. No water is allowed one hour before and one hour after dosing. The SAP is limited to safety analysis. The CRF represents the crossover as four separate periods, with dosing recorded as Day 1 within each period, while the Protocol uses continuous Days 1, 4, 7, and 10."
+    },
+    {
+      "section_id": "SAP-PK-SPEC",
+      "title": "SAP PK Dataset and TFL Specification",
+      "document_type": "statistical_analysis_plan",
+      "source_ids": [
+        "SRC-SAP"
+      ],
+      "fact_refs": [
+        "F015",
+        "F020",
+        "F021",
+        "F023"
+      ],
+      "text": "PK records use period-specific nominal time points through 32 hours. Population mapping and PK completeness rules require statistical review because the SAP's stated scope is safety analysis."
+    },
+    {
+      "section_id": "ICF-PARTICIPATION",
+      "title": "ICF Study Participation and Burden",
+      "document_type": "informed_consent_form",
+      "source_ids": [
+        "SRC-ICF"
+      ],
+      "fact_refs": [
+        "F008",
+        "F009",
+        "F015"
+      ],
+      "text": "Screening may occur up to 31 days before dosing. Participants will stay at the research unit for about 12 days and undergo blood sampling extending through the final 32-hour post-dose collection."
+    },
+    {
+      "section_id": "PROT-SCREENING",
+      "title": "Protocol Screening Window",
+      "document_type": "protocol",
+      "source_ids": [
+        "SRC-PROT"
+      ],
+      "fact_refs": [
+        "F008"
+      ],
+      "text": "Screening is performed no more than 30 days before dosing."
+    },
+    {
+      "section_id": "CRF-PK",
+      "title": "Synthetic CRF Nominal PK Time Field",
+      "document_type": "crf",
+      "source_ids": [
+        "SRC-SAP"
+      ],
+      "fact_refs": [
+        "F015",
+        "F023"
+      ],
+      "text": "For prototype testing, each period has its own Day 1 and allows nominal PK times through 32 hours. This CRF representation is synthetic and is not a real study record."
+    },
+    {
+      "section_id": "REG-RESULTS",
+      "title": "ClinicalTrials.gov Registration and Results",
+      "document_type": "registry_results",
+      "source_ids": [
+        "SRC-REG"
+      ],
+      "fact_refs": [
+        "F001",
+        "F012",
+        "F015",
+        "F026",
+        "F027"
+      ],
+      "text": "NCT04683926 is completed with actual enrollment of 24. Aggregate result time frames and PK descriptions are currently aligned to the public 32-hour sampling schedule."
+    }
+  ]
+}

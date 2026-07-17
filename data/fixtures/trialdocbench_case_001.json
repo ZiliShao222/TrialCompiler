@@ -1,0 +1,239 @@
+{
+  "project_id": "TRIALDOCBENCH-SYNTH-001",
+  "document_id": "PROTOCOL-PACKAGE-SYNTH-001",
+  "title": "Synthetic Phase II protocol package: Week 12 to Week 16",
+  "document_type": "protocol_package",
+  "jurisdiction": "CN-demo",
+  "therapeutic_area": "general_medicine_synthetic",
+  "version": "1.0",
+  "sources": [
+    {
+      "source_id": "SRC-INFORMED-CONSENT-SUMMARY",
+      "title": "Informed Consent Summary",
+      "locator": "trialdocbench://case-001/informed_consent_summary.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    },
+    {
+      "source_id": "SRC-OBJECTIVES-AND-ENDPOINTS",
+      "title": "Objectives And Endpoints",
+      "locator": "trialdocbench://case-001/objectives_and_endpoints.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    },
+    {
+      "source_id": "SRC-POPULATION-CRITERIA",
+      "title": "Population Criteria",
+      "locator": "trialdocbench://case-001/population_criteria.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    },
+    {
+      "source_id": "SRC-PROTOCOL-SYNOPSIS",
+      "title": "Protocol Synopsis",
+      "locator": "trialdocbench://case-001/protocol_synopsis.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    },
+    {
+      "source_id": "SRC-SAP-EXCERPT",
+      "title": "Sap Excerpt",
+      "locator": "trialdocbench://case-001/sap_excerpt.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    },
+    {
+      "source_id": "SRC-SCHEDULE-OF-ACTIVITIES",
+      "title": "Schedule Of Activities",
+      "locator": "trialdocbench://case-001/schedule_of_activities.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    },
+    {
+      "source_id": "SRC-STATISTICAL-PRINCIPLES",
+      "title": "Statistical Principles",
+      "locator": "trialdocbench://case-001/statistical_principles.md",
+      "authority": "synthetic_benchmark",
+      "version": "1",
+      "effective_date": "2026-07-17",
+      "access_scope": "public_synthetic_demo"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "FACT-ENDPOINT-001",
+      "name": "primary endpoint",
+      "value": "Change from baseline in Symptom Severity Score at Week 12",
+      "unit": "Week",
+      "status": "approved",
+      "source_ids": [
+        "SRC-OBJECTIVES-AND-ENDPOINTS"
+      ],
+      "owner_role": "medical",
+      "version": 1
+    },
+    {
+      "fact_id": "FACT-TIMEPOINT-001",
+      "name": "primary endpoint assessment week",
+      "value": 12,
+      "unit": "Week",
+      "status": "approved",
+      "source_ids": [
+        "SRC-OBJECTIVES-AND-ENDPOINTS"
+      ],
+      "owner_role": "medical",
+      "version": 1
+    },
+    {
+      "fact_id": "FACT-SAMPLE-001",
+      "name": "target sample size",
+      "value": "120 participants",
+      "unit": "n",
+      "status": "approved",
+      "source_ids": [
+        "SRC-PROTOCOL-SYNOPSIS"
+      ],
+      "owner_role": "statistics",
+      "version": 1
+    },
+    {
+      "fact_id": "FACT-POP-001",
+      "name": "key inclusion age",
+      "value": "18 to 65 years",
+      "unit": "years",
+      "status": "approved",
+      "source_ids": [
+        "SRC-POPULATION-CRITERIA"
+      ],
+      "owner_role": "medical",
+      "version": 1
+    },
+    {
+      "fact_id": "FACT-VISIT-001",
+      "name": "primary endpoint visit",
+      "value": "Primary endpoint assessment visit occurs at Week 12",
+      "unit": "Week",
+      "status": "approved",
+      "source_ids": [
+        "SRC-SCHEDULE-OF-ACTIVITIES"
+      ],
+      "owner_role": "operation",
+      "version": 1
+    },
+    {
+      "fact_id": "FACT-ANALYSIS-001",
+      "name": "primary analysis population",
+      "value": "Full analysis set includes all randomized participants receiving at least one dose",
+      "unit": "N/A",
+      "status": "approved",
+      "source_ids": [
+        "SRC-STATISTICAL-PRINCIPLES"
+      ],
+      "owner_role": "statistics",
+      "version": 1
+    },
+    {
+      "fact_id": "FACT-STATUS-001",
+      "name": "candidate safety followup",
+      "value": "Safety follow-up may be extended to Week 20",
+      "unit": "Week",
+      "status": "draft",
+      "source_ids": [
+        "SRC-PROTOCOL-SYNOPSIS"
+      ],
+      "owner_role": "medical",
+      "version": 0
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "UNIT-INFORMED-CONSENT-SUMMARY",
+      "title": "Informed Consent Summary",
+      "text": "# Informed Consent Summary\n\nParticipants will be informed that the study includes screening, baseline, Week 4, Week 8, Week 12 and follow-up visits. The main symptom score assessment is expected at Week 12.\n\nParticipants will also be informed about potential risks, safety laboratory tests and their right to withdraw from the study at any time.",
+      "document_type": "informed_consent_summary",
+      "fact_refs": [
+        "FACT-TIMEPOINT-001"
+      ],
+      "source_ids": [
+        "SRC-INFORMED-CONSENT-SUMMARY"
+      ]
+    },
+    {
+      "section_id": "UNIT-OBJECTIVES-AND-ENDPOINTS",
+      "title": "Objectives and Endpoints",
+      "text": "# Objectives and Endpoints\n\n## 2.1 Primary Objective\n\nTo assess the effect of TC-001 compared with placebo on symptom improvement.\n\n## 2.2 Primary Endpoint\n\nThe primary endpoint is the change from baseline in Symptom Severity Score at Week 12.\n\n## 2.3 Secondary Endpoints\n\nSecondary endpoints include change from baseline in quality-of-life score at Week 12 and responder rate at Week 12.",
+      "document_type": "objectives_and_endpoints",
+      "fact_refs": [
+        "FACT-ENDPOINT-001",
+        "FACT-TIMEPOINT-001"
+      ],
+      "source_ids": [
+        "SRC-OBJECTIVES-AND-ENDPOINTS"
+      ]
+    },
+    {
+      "section_id": "UNIT-PROTOCOL-SYNOPSIS",
+      "title": "Protocol Synopsis",
+      "text": "# Protocol Synopsis\n\nThis synthetic Phase II study evaluates investigational product TC-001 in adults aged 18 to 65 years. Approximately 120 participants will be randomized in a 1:1 ratio to TC-001 or placebo.\n\nThe primary objective is to evaluate whether TC-001 improves the Symptom Severity Score compared with placebo. The primary endpoint is the change from baseline in Symptom Severity Score at Week 12.\n\nParticipants will attend screening, baseline, Week 4, Week 8, Week 12 and follow-up visits. The Week 12 visit is the main efficacy assessment visit for the primary endpoint.\n\nSafety assessments include adverse events, laboratory tests and vital signs throughout the study.",
+      "document_type": "protocol_synopsis",
+      "fact_refs": [
+        "FACT-ENDPOINT-001",
+        "FACT-SAMPLE-001",
+        "FACT-TIMEPOINT-001"
+      ],
+      "source_ids": [
+        "SRC-PROTOCOL-SYNOPSIS"
+      ]
+    },
+    {
+      "section_id": "UNIT-SAP-EXCERPT",
+      "title": "SAP Excerpt",
+      "text": "# SAP Excerpt\n\nThe primary analysis will use the full analysis set. The primary endpoint is the change from baseline in Symptom Severity Score at Week 12.\n\nSensitivity analyses may include alternative handling of missing data. The analysis model will include treatment group and baseline score.",
+      "document_type": "sap_excerpt",
+      "fact_refs": [
+        "FACT-ANALYSIS-001",
+        "FACT-TIMEPOINT-001"
+      ],
+      "source_ids": [
+        "SRC-SAP-EXCERPT"
+      ]
+    },
+    {
+      "section_id": "UNIT-SCHEDULE-OF-ACTIVITIES",
+      "title": "Schedule of Activities",
+      "text": "# Schedule of Activities\n\n| Activity | Screening | Baseline | Week 4 | Week 8 | Week 12 | Week 16 | Follow-up |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Informed consent | X |  |  |  |  |  |  |\n| Eligibility review | X | X |  |  |  |  |  |\n| Study treatment |  | X | X | X | X |  |  |\n| Symptom Severity Score |  | X | X | X |  | X |  |\n| Safety laboratory tests | X | X | X | X | X | X | X |\n\nNote: This table intentionally contains an injected defect. The primary endpoint assessment is shown at Week 16 although the confirmed fact sheet currently states Week 12.",
+      "document_type": "schedule_of_activities",
+      "fact_refs": [
+        "FACT-VISIT-001"
+      ],
+      "source_ids": [
+        "SRC-SCHEDULE-OF-ACTIVITIES"
+      ]
+    },
+    {
+      "section_id": "UNIT-STATISTICAL-PRINCIPLES",
+      "title": "Statistical Principles",
+      "text": "# Statistical Principles\n\nThe primary efficacy analysis will compare the change from baseline in Symptom Severity Score at Week 12 between treatment groups.\n\nThe full analysis set includes all randomized participants who receive at least one dose of study treatment. The safety set includes all participants who receive at least one dose of study treatment and have at least one post-baseline safety assessment.\n\nThe primary endpoint will be analyzed using an analysis of covariance model with treatment group and baseline score as covariates.",
+      "document_type": "statistical_principles",
+      "fact_refs": [
+        "FACT-ANALYSIS-001",
+        "FACT-TIMEPOINT-001"
+      ],
+      "source_ids": [
+        "SRC-STATISTICAL-PRINCIPLES"
+      ]
+    }
+  ]
+}

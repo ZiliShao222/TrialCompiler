@@ -1,0 +1,21 @@
+{
+  "source_id": "S02",
+  "nct_id": "NCT01799057",
+  "record_status_as_of_2016": "Terminated",
+  "reason": "Difficulties with recruitment",
+  "actual_enrollment": 2,
+  "planned_design": {
+    "allocation": "Randomized",
+    "masking": "Quadruple",
+    "model": "Parallel",
+    "duration_weeks": "16-18",
+    "target_enrollment_original": 60,
+    "metformin_max_mg_day": 2000,
+    "titration": "500 mg twice daily for 2 weeks then 1000 mg twice daily if tolerated",
+    "primary_endpoints": [
+      "pain-free walking time",
+      "maximum walking time"
+    ]
+  },
+  "note": "Historical public registry information available before cutoff; not evidence of efficacy."
+}

@@ -1,0 +1,4 @@
+defect_id	defect_type	document_unit	location	related_fact_id	defect_description_zh	expected_detection
+DEF-001	timepoint_conflict	schedule_of_activities.md	Table 1 Symptom Severity Score row	FACT-TIMEPOINT-001	访视流程表把主要终点评估放在 Week 16，但事实表有效版本和其他章节均为 Week 12。	Report Week 16 vs Week 12 conflict with evidence from fact sheet, endpoint section and SoA.
+DEF-002	downstream_file_unsynced	schedule_of_activities.md	Table 1 study treatment row	FACT-VISIT-001	如果主要终点评估确认为 Week 16，给药和评估窗口也可能需要运营角色复核；当前表格没有说明 Week 16 是否为主要疗效访视。	Flag as downstream operational review item rather than automatic medical decision.
+DEF-003	unconfirmed_fact_used	protocol_synopsis.md	Synopsis note	FACT-STATUS-001	候选的 Week 20 safety follow-up 不应进入正式正文或影响其他单元，除非经医学角色确认。	Warn that candidate fact must not be used in final generated content.

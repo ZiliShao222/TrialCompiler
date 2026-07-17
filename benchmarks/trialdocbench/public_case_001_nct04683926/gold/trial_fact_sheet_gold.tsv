@@ -1,0 +1,29 @@
+fact_id	category	name	value	unit	source_ids	source_locator	status	adjudication
+F001	identifier	ClinicalTrials.gov ID	NCT04683926		SRC-REG	Study Overview	confirmed	identity
+F002	identifier	protocol number	OMNI-PAIN-103		SRC-PROT	cover	confirmed	identity
+F003	design	clinical phase	Phase 1		SRC-PROT	Synopsis p.ix	confirmed	direct
+F004	population	study population	healthy men and women aged 19 to 55	years	SRC-PROT	Synopsis p.ix; Sections 3.1 and 4.1	confirmed	direct
+F005	design	study design	open-label randomized balanced single-dose four-treatment four-period four-sequence Williams-square crossover		SRC-PROT	Synopsis p.ix-x; Section 3.1	confirmed	direct
+F006	treatment	treatments	10 mg fasted; 20 mg fasted; 30 mg fasted; 30 mg fed	mg	SRC-PROT	Synopsis p.x; Section 3.1	confirmed	direct
+F007	schedule	protocol dose days	Day 1; Day 4; Day 7; Day 10	day	SRC-PROT	Synopsis p.x; Section 3.1	confirmed	direct
+F008	schedule	screening window	Protocol <=30 days; ICF up to 31 days	day	SRC-PROT|SRC-ICF	Protocol Section 6.1; ICF p.3	requires_human_review	inclusive-boundary and participant-language difference; do not auto-select
+F009	schedule	study or confinement duration	Protocol/SAP 11 days; ICF about 12 days	day	SRC-PROT|SRC-SAP|SRC-ICF	Protocol Synopsis; SAP Section 3; ICF p.3	requires_human_review	definition/counting difference; do not auto-label hard conflict
+F010	enrollment	planned maximum randomized	32	participants	SRC-PROT	Synopsis p.x; Section 3.1	confirmed	planned value
+F011	enrollment	target PK-complete sample	24	participants	SRC-PROT|SRC-SAP	Protocol Synopsis; SAP Section 3	confirmed	target value
+F012	enrollment	actual enrollment	24	participants	SRC-REG	Study Results	confirmed	actual value; must remain distinct from F010 and F011
+F013	objective	study objectives	dose proportionality; 30 mg food effect; safety and tolerability		SRC-PROT|SRC-SAP	Protocol Synopsis; SAP Section 2	confirmed	SAP covers safety objective only
+F014	endpoint	key PK endpoints	M1 AUC0-inf; AUC0-t when appropriate; Cmax; T1/2; Tmax; Tlag		SRC-PROT	Synopsis; Sections 1.3.4 and 9.5.1	confirmed	direct
+F015	schedule	nominal PK blood sampling times	0; 0.5; 1; 1.5; 2; 2.5; 3; 3.5; 4; 6; 8; 12; 16; 24; 32	hours	SRC-PROT	Synopsis p.x; Section 3.1	confirmed	change target for synthetic 32 h to 36 h test
+F016	procedure	fasting requirement	at least 10 h before dose and at least 4 h after dose	hours	SRC-PROT	Synopsis; Sections 3.1 and 6.2-6.5	confirmed	direct
+F017	procedure	fed treatment meal	high-fat high-calorie meal started about 30 min before dose and consumed within 20 min	minutes	SRC-PROT	Synopsis; Section 3.1	confirmed	direct
+F018	procedure	water restriction	Synopsis and SAP: no water 1 h before/after; Protocol body: only water allowed 1 h before/after		SRC-PROT|SRC-SAP	Protocol Synopsis p.x versus Sections 3.1/5.1.3/6.2-6.5; SAP Section 3	requires_human_review	hard operational instruction conflict; block automatic confirmation
+F019	analysis_population	safety population	all participants receiving at least one dose		SRC-PROT|SRC-SAP	Protocol Section 9.2.1; SAP Section 4.1	confirmed	definitions align
+F020	analysis_population	per-protocol population	meets eligibility; completes Day 11; receives all four doses; at least 13 of 15 PK samples per dose		SRC-PROT|SRC-SAP	Protocol Section 9.2.1; SAP Section 4.1	confirmed	definitions align
+F021	analysis_population	evaluable population	calculable AUC0-inf or AUC0-t and/or Cmax; used for dose proportionality and food effect in Protocol		SRC-PROT	Protocol Sections 9.2.1 and 9.5.1	requires_human_review	map against SAP Safety/PP only after accounting for SAP safety-only scope
+F022	time_model	Protocol time axis	continuous study Day -1 through Day 11		SRC-PROT	Section 3.1; Schedule of Procedures	confirmed	valid source-specific model
+F023	time_model	CRF/SAP time axis	four periods; each dose represented as Day 1 within its period		SRC-SAP	SAP Section 3 p.7	confirmed	valid mapping, not a conflict
+F024	statistics	interim analysis	no interim analysis		SRC-SAP	Section 4.2	confirmed	direct
+F025	statistics	power statement	24 participants; 20% intra-subject CV; 5% significance; about 89.6% power	percent	SRC-PROT	Synopsis p.xi; Section 9.7	confirmed	direct
+F026	results	participants analyzed by treatment	10 mg fasted 24; 20 mg fasted 23; 30 mg fasted 23; 30 mg fed 23	participants	SRC-REG	Outcome Measures	confirmed	aggregate result
+F027	status	study status	Completed		SRC-REG	Study Status	confirmed	direct
+

@@ -1,0 +1,106 @@
+{
+  "case_id": "NCT04683926",
+  "gold_version": "reviewed-1.0",
+  "data_boundary": "public study-level documents and explicitly synthetic changes only",
+  "tests": [
+    {
+      "id": "TC-SD-001",
+      "task": "defect_detection",
+      "expected_label": "hard_operational_instruction_conflict",
+      "severity": "high",
+      "fact_ids": ["F018"],
+      "must_escalate_to_human": true,
+      "must_not_auto_resolve": true,
+      "evidence": [
+        "Protocol Synopsis: No water is allowed one hour before and one hour after dosing",
+        "Protocol body: Only water is allowed one hour before and one hour after dosing",
+        "SAP Section 3: No water is allowed one hour before and one hour after dosing"
+      ]
+    },
+    {
+      "id": "TC-SD-002",
+      "task": "defect_detection",
+      "expected_label": "numeric_boundary_inconsistency",
+      "severity": "medium",
+      "fact_ids": ["F005", "F007"],
+      "must_escalate_to_human": true,
+      "must_not_auto_resolve": true,
+      "note": "The Protocol uses >3 days and 3 days while scheduled doses are Day 1/4/7/10."
+    },
+    {
+      "id": "TC-XD-001",
+      "task": "cross_document_consistency",
+      "expected_label": "duration_definition_difference",
+      "severity": "medium",
+      "fact_ids": ["F009"],
+      "must_escalate_to_human": true,
+      "must_not_auto_resolve": true,
+      "must_not_label_as_unambiguous_hard_conflict": true
+    },
+    {
+      "id": "TC-XD-002",
+      "task": "cross_document_consistency",
+      "expected_label": "inclusive_boundary_or_participant_language_difference",
+      "severity": "medium",
+      "fact_ids": ["F008"],
+      "must_escalate_to_human": true,
+      "must_not_auto_resolve": true
+    },
+    {
+      "id": "TC-XD-003",
+      "task": "time_axis_mapping",
+      "expected_label": "valid_dual_time_axis_mapping",
+      "severity": "informational",
+      "fact_ids": ["F022", "F023"],
+      "must_not_report_as_conflict": true,
+      "must_explain_mapping": true
+    },
+    {
+      "id": "TC-XD-004",
+      "task": "analysis_population_mapping",
+      "expected_label": "scope_aware_population_mapping_review",
+      "severity": "medium",
+      "fact_ids": ["F020", "F021"],
+      "must_escalate_to_statistician": true,
+      "must_account_for_sap_safety_only_scope": true,
+      "must_not_auto_merge_populations": true
+    },
+    {
+      "id": "TC-VS-001",
+      "task": "version_and_state_reasoning",
+      "expected_label": "planned_target_actual_state_difference",
+      "severity": "informational",
+      "fact_ids": ["F010", "F011", "F012"],
+      "must_not_report_as_conflict": true
+    },
+    {
+      "id": "TC-TR-001",
+      "task": "traceability",
+      "expected_label": "complete_source_trace",
+      "severity": "high",
+      "fact_ids": ["F001", "F002", "F003", "F004", "F005", "F006", "F007", "F008", "F009", "F010", "F011", "F012", "F013", "F014", "F015", "F016", "F017", "F018", "F019", "F020", "F021", "F022", "F023", "F024", "F025", "F026", "F027"],
+      "required_fields": ["source_ids", "source_locator", "status"]
+    },
+    {
+      "id": "TC-MUT-001",
+      "task": "change_impact_analysis",
+      "expected_label": "synthetic_change_impact",
+      "severity": "high",
+      "fact_ids": ["F015"],
+      "old_value": "32 h",
+      "new_value": "36 h",
+      "minimum_affected_classes": ["protocol", "schedule_of_activities", "sap", "icf", "crf", "registry_results"],
+      "must_preserve_original_version": true,
+      "must_require_human_approval": true
+    },
+    {
+      "id": "TC-QA-001",
+      "task": "governance",
+      "expected_label": "approval_gate",
+      "severity": "high",
+      "formal_documents_must_not_be_silently_overwritten": true,
+      "candidate_repairs_must_include_provenance": true
+    }
+  ]
+}
+

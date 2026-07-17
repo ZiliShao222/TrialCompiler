@@ -1,0 +1,12 @@
+category	count	primary_use
+ai_governance	5	AI governance, human oversight and responsibility boundaries
+ai_protocol_authoring	8	AI protocol authoring, RAG, consistency checking and agent baselines
+associated_documents	26	associated documents such as SAP, ICF, SoA, CSR, CRF/eCRF and content reuse
+burden	15	protocol burden, amendment cost and review workload evidence
+business	43	competitors, substitutes, platforms and business positioning
+china_regulatory	6	China regulatory and local clinical development context
+feishu	10	Feishu Aily, workflow, Base and collaboration implementation boundary
+medical	23	clinical protocol templates, guidance and medical/statistical foundations
+regulatory_constraints	6	regulatory constraints, ethics and informed consent boundaries
+schedule_of_activities	10	Schedule of Activities and participant timeline evidence
+standards	17	structured standards, DDF/USDM and protocol template baselines

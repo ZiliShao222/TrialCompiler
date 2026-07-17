@@ -1,0 +1,46 @@
+# 02_templates_and_associated_documents
+
+This is a logical collection. Original files remain at the paths recorded below.
+
+- `ADOC-001` WHO informed consent form template for clinical studies
+- `ADOC-002` NIH consent templates
+- `ADOC-003` NIAID protocols and informed consent
+- `ADOC-004` FDA informed consent template for individual patient expanded access
+- `ADOC-005` TransCelerate Common Statistical Analysis Plan template
+- `ADOC-008` EU-PEARL Statistical Analysis Plan template
+- `ADOC-009` Duke Statistical Analysis Plan template
+- `ADOC-010` DAC Trials Statistical Analysis Plan template
+- `ADOC-011` A template for the authoring of statistical analysis plans
+- `ADOC-013` ClinicalTrials.gov results data element definitions
+- `ADOC-014` ClinicalTrials.gov glossary terms
+- `ADOC-015` ICH E3 Structure and Content of Clinical Study Reports
+- `ADOC-016` NIH-FDA Phase 2 and 3 IND IDE Clinical Trial Protocol Template annotated by MRCT
+- `ADOC-017` NIA informed consent document template and guidelines
+- `ADOC-018` NYU standard consent template for clinical trials and biomedical research
+- `ADOC-019` ClinicalTrials.gov reporting basic results article
+- `ADOC-020` University of Buffalo ClinicalTrials.gov registration and results guide
+- `ADOC-021` ClinicalTrials.gov Protocol and SAP Upload and Redaction Guidance
+- `ADOC-022` ISCB Clinical Trial Protocol Template
+- `ADOC-023` NIA Informed Consent Checklist
+- `ADOC-024` ClinicalTrials.gov sample informed consent document
+- `M4-01` CTIMPs Protocol Development Tool
+- `M4-02` Model Consent Template when NIH is the Lead Site
+- `M4-03` NIMH Documentation of Informed Consent Template
+- `M4-04` Statistical Analysis Plan Policy
+- `M4-05` Qualitative Protocol Development Tool
+- `MED-002` ICH M11 Clinical electronic Structured Harmonised Protocol CeSHarP final template
+- `MED-012` Clinical Trial Protocol Template
+- `SOA-001` SPIRIT schedule of enrolment, interventions, and assessments template
+- `SOA-002` CONSORT-SPIRIT participant timeline explanation
+- `SOA-003` BU Schedule of Events tool
+- `SOA-004` Allina Health instructions for the Schedule of Events
+- `SOA-005` UAB simplified clinical trial protocol template
+- `SOA-006` UAB all clinical trial templates and tools
+- `SOA-007` Automated protocol templates with efficient schedule of activities
+- `SOA-008` SPIRIT 2025 statement updated guideline for protocols
+- `SOA-009` ClinicalTrials.gov public protocol with schedule of activities
+- `SOA-010` SPIRIT-PRO protocol template
+- `STD-001` Clinical Content and Reuse Assets Clinical Studies
+- `STD-009` Protocol Templates for Clinical Trials
+- `STD-010` Protocol Templates
+- `STD-011` Diversity Inclusion and Equity Overlay for TransCelerate Common Protocol Template

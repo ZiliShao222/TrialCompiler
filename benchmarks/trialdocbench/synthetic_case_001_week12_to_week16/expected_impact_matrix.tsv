@@ -1,0 +1,7 @@
+impact_id	change_id	document_unit	location	impact_type	expected_action	human_gate_role
+IMP-001	CHG-001	protocol_synopsis.md	Paragraph 2 and 3	direct_text_update	Replace Week 12 with Week 16 and confirm visit list wording.	medical
+IMP-002	CHG-001	objectives_and_endpoints.md	Section 2.2 and 2.3	direct_text_update	Update primary endpoint and review secondary endpoint timepoints.	medical
+IMP-003	CHG-001	schedule_of_activities.md	Table 1	table_update	Confirm Symptom Severity Score row, treatment row and visit labels.	operation
+IMP-004	CHG-001	statistical_principles.md	Paragraph 1	statistical_review	Update primary analysis endpoint timepoint and confirm analysis window.	statistics
+IMP-005	CHG-001	informed_consent_summary.md	Paragraph 1	downstream_sync	Update participant-facing visit and assessment description.	regulatory
+IMP-006	CHG-001	sap_excerpt.md	Paragraph 1	statistical_review	Update SAP endpoint wording and confirm consistency with protocol.	statistics

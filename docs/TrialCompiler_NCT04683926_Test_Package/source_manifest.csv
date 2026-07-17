@@ -1,0 +1,6 @@
+Source_ID,Document_Type,File_or_Page,Version_Date,Official_URL,Use
+SRC-REG,Registry,ClinicalTrials.gov Study Details,Last update 2023-04-04,https://clinicaltrials.gov/study/NCT04683926,Structured registration facts and study status
+SRC-RES,Results,ClinicalTrials.gov Results,Results first posted 2023-04-04,https://clinicaltrials.gov/study/NCT04683926?tab=results,Actual enrollment and outcome results
+SRC-PROT,Protocol,Prot_SAP_000.pdf,Version 1.2 2020-05-11,https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/Prot_SAP_000.pdf,Design eligibility dosing SoA and statistical principles
+SRC-SAP,SAP,SAP_001.pdf,Final v1.0 2021-02-09,https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/SAP_001.pdf,Analysis populations TFL and CRF time-axis mapping
+SRC-ICF,ICF,ICF_002.pdf,IRB approved 2020-07-29,https://cdn.clinicaltrials.gov/large-docs/26/NCT04683926/ICF_002.pdf,Participant-facing purpose procedures duration and risks

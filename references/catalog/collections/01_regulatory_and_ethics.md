@@ -1,0 +1,66 @@
+# 01_regulatory_and_ethics
+
+This is a logical collection. Original files remain at the paths recorded below.
+
+- `CN-001` 药物临床试验质量管理规范 2020
+- `CN-002` 药物临床试验质量管理规范 2026年修订
+- `CN-003` 药物临床试验数据管理与统计分析计划指导原则
+- `CN-004` 药物临床试验期间方案变更技术指导原则试行
+- `CN-005` CDE发布药物临床试验期间方案变更技术指导原则试行
+- `CN-006` CDE发布药物临床试验数据管理与统计分析计划指导原则
+- `GOV-004` Artificial Intelligence for Drug Development
+- `M1-01` ICH E6(R3) Principles and Annex 1
+- `M1-02` ICH E6(R3) Annex 2
+- `M1-03` ICH E8(R1) General Considerations for Clinical Studies
+- `M1-06` ICH E2A Clinical Safety Data Management
+- `M1-11` Guidance for Best Practices for Clinical Trials
+- `M1-12` Declaration of Helsinki 2024
+- `M1-13` International Ethical Guidelines for Health-related Research Involving Humans
+- `M1-14` 药物临床试验质量管理规范
+- `M1-15` 药物临床试验质量管理规范政策问答
+- `M1-16` SPIRIT 2025 Statement
+- `M1-17` SPIRIT 2025 Explanation and Elaboration
+- `M1-18` CONSORT 2025 Statement
+- `M1-19` CONSORT 2025 Explanation and Elaboration
+- `M2-01` Adaptive Designs for Clinical Trials of Drugs and Biologics
+- `M2-02` Enrichment Strategies for Clinical Trials
+- `M2-03` Adjusting for Covariates in Randomized Clinical Trials
+- `M2-04` Conducting Clinical Trials With Decentralized Elements
+- `M2-05` Protocol Deviations for Clinical Investigations
+- `M2-06` Use of Bayesian Methodology in Clinical Trials
+- `M2-07` ICH E10 Choice of Control Group and Related Issues
+- `M2-09` ICH E4 Dose-Response Information to Support Drug Registration
+- `M2-10` ICH E5(R1) Ethnic Factors in Acceptability of Foreign Clinical Data
+- `M2-11` ICH E7 Studies in Support of Special Populations: Geriatrics
+- `M2-12` ICH E11(R1) Clinical Investigation in the Pediatric Population
+- `M2-13` ICH E11A Pediatric Extrapolation
+- `M2-14` ICH E18 Genomic Sampling and Management of Genomic Data
+- `M2-15` ICH E19 Selective Safety Data Collection
+- `M2-16` ICH E2D(R1) Post-Approval Safety Data
+- `MED-001` ICH M11 Clinical electronic Structured Harmonised Protocol CeSHarP final guideline
+- `MED-003` ICH M11 Explainer
+- `MED-004` M11 Clinical Electronic Structured Harmonised Protocol
+- `MED-005` ICH M11 guideline clinical study protocol template and technical specifications scientific guideline
+- `MED-006` SPIRIT 2013 Checklist recommended items to address in a clinical trial protocol and related documents
+- `MED-007` SPIRIT 2013 Statement defining standard protocol items for clinical trials
+- `MED-008` SPIRIT electronic protocol tool and resource SEPTRE overview
+- `MED-009` SPIRIT-AI extension for clinical trial protocols involving AI interventions
+- `MED-010` CONSORT 2010 Statement updated guidelines for reporting parallel group randomised trials
+- `MED-011` ClinicalTrials.gov Protocol Registration Data Element Definitions for Interventional and Observational Studies
+- `MED-013` ICH E6(R3) Good Clinical Practice guideline
+- `MED-014` ICH E8(R1) General Considerations for Clinical Studies
+- `MED-015` ICH E9 Statistical Principles for Clinical Trials
+- `MED-016` ICH E9(R1) Addendum on Estimands and Sensitivity Analysis
+- `MED-017` When and how can endpoints be changed after initiation of a randomized clinical trial
+- `MED-018` Common Clinical Trial Amendments why they are submitted and why they are not
+- `MED-019` The Impact of Protocol Amendments on Clinical Trial Performance and Cost
+- `MED-020` The Impact of Protocol Amendments on Clinical Trial Performance and Cost
+- `MED-021` New Benchmarks on Protocol Amendment Practices Trends and their Impact on Clinical Trial Performance
+- `MED-022` Development of a protocol complexity tool a framework designed to simplify clinical trials
+- `MED-023` ICH Guidance Documents
+- `REG-001` FDA Informed Consent Guidance for IRBs, Clinical Investigators, and Sponsors
+- `REG-002` HHS OHRP Informed Consent Checklist
+- `REG-003` FDA and HHS Use of Electronic Informed Consent in Clinical Investigations
+- `REG-004` ICH E17 General Principles for Planning and Design of Multi-Regional Clinical Trials
+- `REG-005` EMA ICH E17 scientific guideline page
+- `REG-006` FDA E17 General Principles for Planning and Design of Multi-Regional Clinical Trials

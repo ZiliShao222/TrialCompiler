@@ -1,0 +1,5 @@
+source_id	access_status	lifecycle_status	review_note
+ADOC-013	local_snapshot_mismatch	metadata_only	人工复核确认：本地 HTML 与 MED-011 完全相同，并非 results-definitions 页面；知识库不得读取该本地文件，重新下载前仅保留官方 URL 与元数据。
+ADOC-014	local_snapshot_mismatch	metadata_only	人工复核确认：本地 HTML 与 MED-011 完全相同，并非 glossary 页面；知识库不得读取该本地文件，重新下载前仅保留官方 URL 与元数据。
+M3-01	local_snapshot_mismatch	metadata_only	人工复核确认：本地 PDF 实际为 M1-11 的 WHO Clinical Trials Best Practices 文件，并非 2021 WHO AI for Health ethics guidance；重新下载前不得用于知识库全文检索。
+M3-02	local_snapshot_mismatch	metadata_only	人工复核确认：本地 PDF 实际为 M1-11 的 WHO Clinical Trials Best Practices 文件，并非 2024 WHO large multi-modal models guidance；重新下载前不得用于知识库全文检索。

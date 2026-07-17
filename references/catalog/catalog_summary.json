@@ -1,0 +1,23 @@
+{
+  "canonical_sources": 208,
+  "aliases_reconciled": 17,
+  "duplicate_files_to_review": 4,
+  "local_paths": 225,
+  "missing_local_paths": 0,
+  "collections": {
+    "01_regulatory_and_ethics": 62,
+    "02_templates_and_associated_documents": 42,
+    "03_data_standards_and_structured_protocols": 12,
+    "04_ai_methods_and_governance": 16,
+    "05_industry_competitors_and_value": 56,
+    "06_platform_and_integration": 10,
+    "08_internal_project_materials": 10
+  },
+  "evidence_tiers": {
+    "A": 61,
+    "B": 55,
+    "C": 17,
+    "D": 65,
+    "INTERNAL": 10
+  }
+}

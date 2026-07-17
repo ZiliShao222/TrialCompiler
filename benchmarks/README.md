@@ -10,3 +10,18 @@ metrics, and ablation protocols for:
 
 Large or restricted datasets do not belong here. Store only manifests, schemas,
 small public fixtures, and evaluation specifications in Git.
+
+## Synthetic Cases
+
+- [`trialdocbench/synthetic_case_001_week12_to_week16`](trialdocbench/synthetic_case_001_week12_to_week16):
+  first minimal synthetic package for the `Week 12 -> Week 16` endpoint
+  assessment change demo. It includes a gold Trial Fact Sheet, document units,
+  document graph, injected defects, change request, expected impact matrix, and
+  evaluation notes.
+
+## Public-document Cases
+
+- [`trialdocbench/public_case_001_nct04683926`](trialdocbench/public_case_001_nct04683926):
+  official Protocol, SAP, ICF, and registry data for `NCT04683926 / OMNI-PAIN-103`,
+  with a reviewed 27-fact gold sheet and scope-aware consistency labels. Public
+  documents are study-level; the case contains no participant-level records.

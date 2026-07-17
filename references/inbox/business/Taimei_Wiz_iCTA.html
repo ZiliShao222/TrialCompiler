@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiz - iCTA-太美医疗科技</title>
+    <link rel="stylesheet" href="/static/layui/css/layui.css">
+    <link rel="stylesheet" href="/skin/v1/css/public.css">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <style>
+    /*头部*/
+    #g_header {
+        height: 85px;
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 999999;
+        display: flex;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+
+
+
+    }
+
+
+    .header_menu {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .logo_top {
+        display: inline-block;
+        width: 110px;
+        height: 45px;
+        margin-right: 100px;
+    }
+
+    .menu .m_ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu .m_ul .btn {
+        height: 85px;
+        line-height: 85px;
+    }
+
+    .menu .m_ul li a {
+        color: #97999B;
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+
+    .menu .m_ul li a:hover {
+        color: #0A47ED;
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 35px;
+    }
+
+
+
+    .menu .last {
+        margin-right: 0;
+    }
+
+    .menu .search {
+        width: 27px;
+        height: 27px;
+        display: inline;
+    }
+
+    .about_btn {
+        position: relative;
+    }
+
+    .menu_sub {
+        border-top: 0px solid #0A47ED;
+        position: absolute;
+        top: 85px;
+        left: -70px;
+        width: 200px;
+        height: 0px;
+        overflow: hidden;
+        background-color: #fff;
+        transition: height 0.5s ease;
+        height: 0px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+
+
+    }
+
+    .about_btn:hover .menu_sub {
+        border-top: 2px solid #0A47ED;
+        height: 335px;
+        transition: height 0.5s ease;
+    }
+
+    .menu_sub ul {}
+
+    .menu_sub ul li {
+        height: 30px;
+        line-height: 30px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+
+
+    .product_menu {
+        position: relative;
+    }
+
+    .product_sub {
+        border-top: 0px solid #0A47ED;
+        position: absolute;
+        top: 85px;
+        left: -595px;
+        width: 1555px;
+
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.95);
+        transition: height 0.5s ease;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+        height: 0;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+
+
+
+    }
+
+    .product_menu:hover .product_sub {
+        border-top: 2px solid #0A47ED;
+        height: 552px;
+        transition: height 0.5s ease;
+    }
+
+    .product_sub h1 {
+
+        font-size: 18px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 15px;
+
+
+    }
+
+    .product_sub h2 {
+
+        font-size: 14px;
+        margin-top: 25px;
+        height: 25px;
+        line-height: 25px;
+
+
+    }
+
+    .product_sub a {
+
+        display: block;
+        height: 25px;
+        line-height: 25px;
+
+
+
+    }
+
+
+
+    /*脚步*/
+
+    #g_footer {
+        background-color: #333;
+        color: #fff;
+    }
+
+    #g_footer .footer_title {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 17px;
+        letter-spacing: 0em;
+        margin-bottom: 25px;
+    }
+
+    #g_footer .footer_title_desc {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        margin-bottom: 13px;
+    }
+
+    .about_box {}
+
+    .about_box ul li {
+        margin-top: 10px;
+    }
+
+    .about_box ul li a {
+        color: #979797;
+        font-size: 14px;
+
+    }
+
+    .product_box ul li {
+        margin-top: 10px;
+        display: inline-block;
+        width: 25%;
+    }
+
+    .product_box ul li a {
+        color: #979797;
+        font-size: 14px;
+
+    }
+
+    .h85 {
+        height: 85px;
+    }
+
+    .g_bg {
+        background: rgba(0, 0, 0, .85);
+        backdrop-filter: blur(6px);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+
+        z-index: 10000;
+        color: #fff;
+        box-sizing: border-box;
+        overflow: auto;
+        filter: blur(0px);
+
+        z-index: 9999999;
+        display: none;
+        top: 80px;
+
+    }
+
+    .menu1 {
+        width: 300px;
+        padding: 0 20px;
+    }
+
+    .menu2 {
+        width: 700px;
+        padding: 0 20px;
+    }
+
+    .menu3 {
+        width: 317px;
+        padding: 0 20px;
+    }
+
+    .menu1 a,
+    .menu2 a,
+    .menu3 a {
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 0px;
+        margin-top: 10px;
+
+        /* 纯白 */
+        color: #FFFFFF;
+        display: block;
+
+
+    }
+
+    .menu1 h2 {
+        font-size: 24px;
+    }
+
+    .menu2 h2 {
+        font-size: 24px;
+    }
+
+    .menu3 h2 {
+        font-size: 24px;
+    }
+
+    .menu1 h3 {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0px;
+
+        /* 纯白 */
+        color: #FFFFFF;
+    }
+
+    .menu3 h3 {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0px;
+
+        /* 纯白 */
+        color: #FFFFFF;
+    }
+
+    .menu2 h3 {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0px;
+
+        /* 纯白 */
+        color: #FFFFFF;
+    }
+
+    .menu2 .sub {
+        margin-bottom: 18px;
+    }
+
+    .m2lf {
+        width: 360px;
+        display: inline-block;
+        vertical-align: top
+    }
+
+    .m2rf {
+        width: 305px;
+        display: inline-block;
+        vertical-align: top
+    }
+
+    .m_main {
+        max-width: 1430px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        margin: 25px auto 0 auto;
+
+    }
+
+    @keyframes myfirst {
+        from {
+            height: 0;
+        }
+
+        to {
+            height: 100%;
+        }
+    }
+
+    @-webkit-keyframes myfirst
+
+    /* Safari 与 Chrome */
+        {
+        from {
+            height: 0;
+        }
+
+        to {
+            height: 100%;
+        }
+    }
+
+    .close_btn {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: 100px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    .layui-icon-triangle-d {
+        margin-left: 8px;
+    }
+
+    .so {
+
+        height: 0px;
+        width: 100%;
+        display: block;
+        background-color: #fff;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 1000012;
+        transition: height 0.5s ease;
+        overflow: hidden;
+
+    }
+
+    .so_on {
+        height: 85px;
+        transition: height 0.5s ease;
+    }
+
+    .so_main {
+        width: 750px;
+        margin: 0 auto;
+        display: flex;
+        height: 85px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .so_ico {
+        width: 30px;
+        margin: 0 15px;
+        cursor: pointer;
+    }
+
+    .close_ico {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .so_input {
+        width: 600px;
+        border: none;
+        border-bottom: 1px solid #E3E3E3;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+</style>
+
+
+<div class="so">
+    <div class="so_main">
+        <form action="/index/so">
+            <input type="text" class="so_input" value="" name="key" placeholder="请输入关键词">
+            <img class="so_ico" src="/skin/v1/pic/so_ico.png" alt="">
+            <img class="close_ico" src="/skin/v1/pic/close_ico.png" onclick="so_off()" alt="">
+
+        </form>
+
+
+    </div>
+</div>
+<script>
+    function menu_off() {
+        $(".g_bg").hide(500);
+    }
+    function menu_on() {
+        $(".g_bg").show(500);
+    }
+    function so_on() {
+        $(".so").addClass('so_on');
+    }
+
+    function so_off() {
+        $(".so").removeClass('so_on');
+    }
+
+</script>
+<style>
+    .menu_logo_k {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .menu_logo {
+        display: block;
+        width: 100px;
+    }
+
+    .menu2 {
+        width: 580px;
+    }
+
+    .m2lf {
+        width: 400px;
+    }
+
+    .m2rf {
+        width: 490px;
+    }
+
+    .menu2 .sub {
+        margin-bottom: 18px;
+    }
+
+    .menu_1 {
+        margin-top: 0px;
+    }
+
+    .h2t_title {
+        margin-top: 80px;
+    }
+
+    .new_m2_menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .new_m2_menu a {
+        width: 50%;
+    }
+</style>
+<div class="g_bg" onclick="menu_off()">
+
+    <img src="/skin/v1/pic/close.png" class="close_btn" alt="">
+    <div class="m_main">
+
+
+
+        <div class="menu2">
+            <div class="menu_logo_k">
+                <img src="/skin/v7/tm_b.png" class="menu_logo" alt="">
+            </div>
+            <h2>医药研发·数智化解决方案</h2>
+            <hr>
+            <div class="m2lf">
+
+
+
+                <div class="sub menu_1">
+                    <h3>临床研究—药企端<i class="layui-icon layui-icon-triangle-d"></i></h3>
+
+                    <a href="/index/product/id/3"> ·&nbsp eCooperate 临床试验项目管理系统</a>
+                    <a href="/index/product/id/4"> ·&nbsp eArchives 临床试验文档管理系统</a>
+                    <a href="/index/product/id/5"> ·&nbsp eCollect 临床试验数据采集系统</a>
+                    <a href="/index/product/id/6"> ·&nbsp eBalance 随机和药物管理系统</a>
+                    <a href="/index/product/id/10"> ·&nbsp eCollege 培训管理系统</a>
+                    <a href="/index/product/id/10"> ·&nbsp iMAP 智能医学分析平台</a>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="m2rf">
+
+                <div class="sub">
+                    <h3>临床研究—医院端<i class="layui-icon layui-icon-triangle-d"></i></h3>
+
+                    <a href="/index/product/id/15"> ·&nbsp eSite 临床试验机构管理系统</a>
+                    <a href="/index/product/id/16"> ·&nbsp eTrial 研究型病房管理系统</a>
+                    <a href="/index/product/id/19"> ·&nbsp eScreening 受试者筛选数据平台</a>
+                    <a href="/index/product/id/20"> ·&nbsp eMonitor 智能远程监查系统</a>
+
+                </div>
+
+                <div class="sub">
+                    <h3>药物安全<i class="layui-icon layui-icon-triangle-d"></i></h3>
+                    <a href="/index/product/id/28"> ·&nbsp eSafety 药物警戒系统</a>
+                    <a href="/index/product/id/29"> ·&nbsp eSAE 临床试验安全性信息管理系统</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="menu2">
+            <div class="menu_logo_k">
+                <img src="/skin/v7/tm_b.png" class="menu_logo" alt="">
+            </div>
+
+            <h2>医药研发·创新解决方案</h2>
+            <hr>
+            <div class="m2lf">
+                
+                <div class="sub">
+                    <h3>临床研究 — 创新解决方案<i class="layui-icon layui-icon-triangle-d"></i></h3>
+                    <div class="m2_menu">
+
+                        <a href="/index/product/id/11"> ·&nbsp iSMO数智化解决方案</a>
+                        <a href="/index/product/id/12"> ·&nbsp IRV多学科影像评估解决方案</a>
+                        <a href="/index/product/id/40"> ·&nbsp iMAP智能医学分析解决方案 </a>                       
+
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="sub">
+                    <h3>临床研究 — 智能体<i class="layui-icon layui-icon-triangle-d"></i></h3>
+                    <div class="m2_menu">
+
+                        <a href="/index/product/id/42"> ·&nbsp iDM 数据管理助手</a>
+                        <a href="/index/product/id/41"> ·&nbsp iCTA 文件管理助手</a>
+                                          
+
+                        
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <h2 class="h2t_title" style="margin-top: 10px;">医药营销·数智化解决方案</h2>
+            <hr>
+
+            <div class="m2rf" style="margin-top: 5px;">
+
+                <div class="sub">
+                    <h3>无界—全域数智化营销平台<i class="layui-icon layui-icon-triangle-d"></i></h3>
+                    <div class="new_m2_menu">
+
+                        <a href="/index/product/id/32"> ·&nbsp CRM客户关系管理系统</a>
+                        <a href="/index/product/id/37"> ·&nbsp AI-陪练</a>
+                        <a href="/index/product/id/31"> ·&nbsp SFE销售效率管理系统 </a>
+                        <a href="/index/product/id/38"> ·&nbsp 知海-内容生成</a>
+                         <a href="/index/product/id/33"> ·&nbsp EVENT活动管理系统</a>
+
+                        <a href="/index/product/id/39"> ·&nbsp 星图-HCP360</a>
+                        <a href="/index/product/id/36"> ·&nbsp Partner渠道分销管理系统</a>
+                          <a href="/index/product/id/34"> ·&nbsp Insight数据服务解决方案</a>
+                        
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            
+
+
+
+        </div>
+        <div class="menu3">
+            <div class="menu_logo_k">
+                <img src="/skin/v7/tmzy_b.png" class="menu_logo" alt="">
+            </div>
+
+            <h2>医药研发·创新服务</h2>
+            <hr>
+            <div class="m2lf">
+                <div class="sub">
+
+                    <a href="http://intelligence.taimei.com/solution/index.html" target="_blank" style="margin-top: 0;">
+                        <h3>智慧临床运营 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+                    <a href="http://intelligence.taimei.com/solution/medical.html" target="_blank">
+                        <h3>医学科学 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+                    <a href="http://intelligence.taimei.com/solution/datascience.html" target="_blank">
+                        <h3>数据科学 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+                    <a href="http://intelligence.taimei.com/solution/register.html" target="_blank">
+                        <h3>注册事务 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+                    <a href="http://intelligence.taimei.com/solution/pharmacovigilance.html" target="_blank">
+                        <h3>药物安全监测 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+                    <a href="http://intelligence.taimei.com/solution/world.html" target="_blank">
+                        <h3>真实世界洞察 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+                    <a href="http://intelligence.taimei.com/solution/secure.html" target="_blank">
+                        <h3>独立评估中心 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+                    <a href="http://intelligence.taimei.com/service/intelligence.html" target="_blank">
+                        <h3>患者智护平台 <i class="layui-icon layui-icon-triangle-r"></i></h3>
+                    </a>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+<div id="g_header">
+    <div class="header_menu">
+
+
+        <a href="/"><img src="/skin/v1/pic/logo.png" class="logo_top" alt=""></a>
+        <div class="menu">
+            <ul class="m_ul">
+                <li class="about_btn"><a href="javascript:void(0);" class="btn btn_nos">关于我们</a>
+                    <div class="menu_sub">
+                        <ul class="" style="">
+
+                            <li><a href="/index/about">太美医疗科技</a></li>
+                            <li><a href="http://intelligence.taimei.com/" target="_blank">太美智研医药</a></li>
+                            <li><a href="/index/newslist"> 公司新闻</a></li>
+                            <li><a href="/index/cases"> 客户案例</a></li>
+                            <li><a href="/index/perspective"> 太美专家说</a></li>
+                            <li><a href="/index/market"> 市场活动</a></li>
+                            <li><a href="/index/contact"> 联系我们</a></li>
+                            <li><a href="/index/join"> 加入我们</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="product_menu"> <a href="javascript:void(0);" class="btn btn1s">产品和解决方案</a>
+                </li>
+                <li> <a href="/index/cases" class="btn btn_nos">客户案例</a></li>
+                <li> <a href="/index/newslist" class="btn btn_nos">新闻中心</a></li>
+                <li> <a href="https://ir.taimei.com/cn/" target="_blank"  class="btn btn_nos">投资者关系</a></li>
+                <li> <a href="/index/approval" class="btn btn_nos">申请试用</a></li>
+                <li> <a onclick="so_on()" class="btn " style="cursor: pointer;">
+                        <img src="/skin/v1/pic/search.png" class="search" alt="">
+                    </a></li>
+                <li> <a href="https://www.trialos.com.cn/index/" class="btn">TrialOS登录</a></li>
+                <li> <a href="https://en.taimei.com/" class="btn last">English</a></li>
+
+            </ul>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+<div class="h85"></div>
+
+
+
+    <div class="" id="product_banner" style="background-image: url(/skin/v8/41banner.png);">
+        <img src="/skin/v8/41logo.png" class="logo" alt="">
+        <div class="title">Wiz - iCTA</div>
+        <div class="desc">
+            iCTA开创了TMF全生命周期的智能化管理iCTA作为&ldquo;数字员工&rdquo;，帮助项目运营人员高效高质量的完成海量重复性的TMF管理工作。        </div>
+
+    </div>
+    
+
+
+     <style>
+        body {
+            background-color: #fff;
+        }
+
+        .w1220 {
+            width: 1220px;
+            margin: 0 auto;
+        }
+
+        .product_body {
+            width: 100%;
+            background-color: transparent;
+            margin-top: 0;
+        }
+
+        #product_banner .title {
+            font-size: 52px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        #product_banner .desc {
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 25px;
+            text-align: center;
+            line-height: 38px;
+        }
+
+        .k1 {
+            width: 100%;
+            height: 700px;
+            background-image: url('/skin/v1/pic/122.png');
+            background-size: 1920px 700px;
+            overflow: hidden;
+            background-position: center;
+        }
+
+        .k2 {
+            width: 100%;
+            height: 700px;
+            background-image: url('/skin/v1/pic/123.png');
+            background-size: 1920px 700px;
+            overflow: hidden;
+            background-position: center;
+        }
+
+        .k5 {
+            background-image: url('/skin/v8/41_bg.png');
+            background-position: right top;
+        }
+
+        .k1_main,
+        .k2_main {
+            width: 1220px;
+            margin: 0 auto;
+            margin-top: 125px;
+        }
+
+        .k1_body,
+        .k2_body {
+            width: 550px;
+        }
+
+        .k2_main {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .product_li {
+            margin-top: 50px;
+        }
+
+        .k3 {
+            width: 1220px;
+            height: 700px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .k0 {
+            width: 1220px;
+            height: 700px;
+            overflow: hidden;
+            margin: 0 auto;
+            position: relative;
+
+
+        }
+
+        .k0 .product_li {
+            width: 440px;
+            padding-left: 20px;
+        }
+
+        .k0 .product_title {
+            margin-top: 125px;
+        }
+
+        .k0 img {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 125px;
+            width: 600px;
+            z-index: -1;
+        }
+
+        .k8 {
+            width: 85%;
+            height: 400px;
+            overflow: hidden;
+            background-color: #f3f3f3;
+            border-radius: 20px;
+            margin: 126px auto 50px auto;
+        }
+
+        .k8_box {
+            position: relative;
+            width: 280px;
+            height: 180px;
+            border-radius: 30px;
+            opacity: 1;
+
+            /* 纯白 */
+            background: #FFFFFF;
+
+            /* 外阴影（下） */
+            box-shadow: 0px 15px 10px 0px #F3F3F6;
+            overflow: hidden;
+        }
+
+        .k8_box h2 {
+            font-size: 36px;
+            font-weight: 500;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            /* 太美蓝 */
+            /* 样式描述：主要色 */
+            color: #0A47ED;
+            margin: 46px auto 10px auto;
+        }
+
+        .k8_box p {
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+            letter-spacing: 0px;
+
+            /* 灰+2-重点文字和标题 */
+            /* 样式描述：重点 */
+            color: #333333;
+        }
+
+        .k8_box img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            z-index: 1;
+        }
+        .k8s {
+            height: 400px;
+            display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+        }
+        .k41 {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+
+
+    <div class="product_body">
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        <div class="k1 k5" style="height: 1600px;">
+            <div class="k1_main">
+                 <img src="/skin/v8/41.png"  class="k41" alt="iCTA基于文思智能平台技术，整合临床研究行业和项目信息，运用大语言模型，以对话形式，让项目运营人员和iCTA数字员工协同工作，创造新型工作模式，高效，便捷！
+">
+            </div>
+        </div>
+
+
+        
+
+    
+
+
+
+
+    <div id="g_footer">
+    <div style="width:1200px; margin: 0 auto;color: #fff; text-align: left; padding-top: 57px;position: relative;">
+        <a href="javascript:window.scrollTo(0,0)"><img src="/skin/v1/pic/back_top.png"
+                style="display:block; position: absolute; top:30px;right: 0;z-index: 1;" alt=""></a>
+        <div class="layui-row" style="margin-bottom: 50px;">
+
+
+            <div class="layui-col-xs6">
+                <div class="layui-col-xs12 footer_title"> 联系方式</div>
+                <div class="layui-row">
+                    <div class="layui-col-xs6 footer_title_desc">产品支持热线：400-699-1906</div>
+                    <div class="layui-col-xs6 footer_title_desc">业务咨询：bd@taimei.com</div>
+                    <div class="layui-col-xs6 footer_title_desc">公司总机：021-68825798</div>
+                    <div class="layui-col-xs6 footer_title_desc">媒体合作：pr@taimei.com</div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="layui-col-xs6">
+
+                <div class="layui-col-xs12 footer_title" style="position: relative;">
+                    <div class="about_box" style="position: absolute;right: 85px;width: 20%;">
+                        <!-- <div class="" style="margin-bottom: 24px;">加入我们</div> -->
+
+
+                        <img src="/skin/v1/pic/mpcode.png?v=1"
+                            style="margin: 0px auto 8px auto; display: block;width: 100%;" alt="">
+                        <p style="font-size: 12px;text-align: center; color: #979797">扫码关注公众号</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="layui-row">
+            <div class="layui-col-xs12"
+                style="border-top: 1px solid #979797;margin-bottom:20px;font-size: 12px;color: #979797; ">
+
+                <img src="/skin/v1/pic/footer_logo.png"
+                    style="display: block; width: 110px;margin-top: 24px; margin-bottom: 14px;" alt="">
+
+                <div class="layui-col-xs8">Copyright 2023 浙江太美医疗科技股份有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" href="https://beian.miit.gov.cn" rel="nofollow"  style="color: #979797;">浙ICP备13033914号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33049802000047" rel="nofollow" target="_blank" style="color: #979797;">浙公网安备 33049802000047号</a></div>
+                <div class="layui-col-xs4" style="text-align:right;">
+                    <p> <a href="/index/faq/id/2" target="_blank" style="color: #979797;">服务等级（SLA）</a> |  <a href="/index/faq/id/1" target="_blank" style="color: #979797;">隐私声明</a> - 太美医疗科技 (taimei.com) </p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+</div>
+
+<script type="text/javascript" src="/static/js/jquery-2.2.4.min.js"></script><script>
+
+$(".btn_nos,.about_btn").hover(function () {
+        menu_off();
+})
+    $(".btn1s").hover(function () {
+        menu_on();
+    })
+
+
+
+    var resizeTimer = null;
+
+    $(window).resize(function () {
+        if (resizeTimer) {
+            clearTimeout(resizeTimer);
+        }
+        resizeTimer = setTimeout(function () {
+           
+           autow()
+            
+        }, 100)
+    })
+   
+ 
+ function autow(){
+    var w = $(window).width();
+    if (w < 1300) {
+        $("html").css('zoom', '0.75');
+
+    } else if (w > 1300 && w < 1470) {
+
+        $("html").css('zoom', '0.85');
+
+    } else if (w > 1470) {
+        $("html").css('zoom', '1');
+    }
+
+   
+ }
+     autow() 
+
+
+
+</script>
+<script src="/static/layui/layui.js"></script>
+<style>
+    * {
+        background-repeat: no-repeat;
+    }
+
+    #product_banner {
+        background-size: cover;
+    }
+</style>
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?368ce92036751229e11542a900e9b92e";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+
+
+    <script>
+        setTimeout(function () {
+            var mgs = "";
+            var zoom = $("html").css("zoom");
+            zoom = zoom * 1;
+
+            if (mgs) {
+                // $(window).scrollTop()
+                $("body,html").animate({
+                    scrollTop: $('#mgs').offset().top * zoom - 100 //让body的scrollTop等于pos的top，就实现了滚动 
+                }, 800);
+            }
+        }, 100)
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "request_id": "AILY-SYNTH-AD-016-001",
+  "project_id": "SYNTH-AD-016",
+  "actor_id": "medical-reviewer-demo",
+  "user_request": "主要终点评估时间已批准由 Week 12 调整为 Week 16。请检查方案摘要、研究目的与终点、访视流程表、统计分析计划和知情同意说明是否一致，生成待人工审核的修订建议，不得自动发布。",
+  "task_intent": "review_document",
+  "document_type": "protocol",
+  "locale": "zh-CN",
+  "file_refs": [
+    "feishu://docx/synth-ad-016-protocol-v0.3",
+    "feishu://docx/synth-ad-016-sap-v0.2",
+    "feishu://docx/synth-ad-016-icf-v0.2"
+  ],
+  "structured_fields": {
+    "requested_scope": [
+      "protocol_synopsis",
+      "objectives_and_endpoints",
+      "schedule_of_activities",
+      "sap_primary_analysis",
+      "icf_procedures"
+    ],
+    "change_request_id": "CR-SYNTH-016",
+    "approved_primary_endpoint_week": 16,
+    "human_approval_required": true,
+    "automatic_release_allowed": false
+  }
+}

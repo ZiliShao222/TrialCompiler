@@ -25,7 +25,8 @@
         "name": {"type": "string"},
         "value": {},
         "unit": {"type": ["string", "null"]},
-        "status": {"enum": ["draft", "requires_human_review", "approved", "rejected", "superseded"]},
+        "previous_value": {},
+          "status": {"enum": ["draft", "proposed_change", "requires_human_review", "approved", "rejected", "superseded"]},
         "source_ids": {"type": "array", "items": {"type": "string"}}
       }
     },

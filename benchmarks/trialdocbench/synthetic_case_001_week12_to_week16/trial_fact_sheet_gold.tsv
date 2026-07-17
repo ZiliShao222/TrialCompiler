@@ -1,0 +1,8 @@
+fact_id	fact_type	current_value	unit_or_format	status	source_unit	source_location	owner_role	version	scope
+FACT-ENDPOINT-001	primary_endpoint	Change from baseline in Symptom Severity Score at Week 12	Week	confirmed	objectives_and_endpoints.md	Section 2.1	medical	v1	whole protocol package
+FACT-TIMEPOINT-001	primary_endpoint_timepoint	Week 12	Week	confirmed	objectives_and_endpoints.md	Section 2.1	medical	v1	whole protocol package
+FACT-SAMPLE-001	target_sample_size	120 participants	n	confirmed	protocol_synopsis.md	Synopsis paragraph 4	statistics	v1	protocol and SAP
+FACT-POP-001	key_inclusion_age	18 to 65 years	years	confirmed	population_criteria.md	Section 3.1	medical	v1	protocol and ICF
+FACT-VISIT-001	primary_endpoint_visit	Primary endpoint assessment visit occurs at Week 12	Week	confirmed	schedule_of_activities.md	Table 1	operation	v1	SoA, ICF and SAP
+FACT-ANALYSIS-001	primary_analysis_population	Full analysis set includes all randomized participants receiving at least one dose	N/A	confirmed	statistical_principles.md	Section 5.1	statistics	v1	protocol and SAP
+FACT-STATUS-001	candidate_safety_followup	Safety follow-up may be extended to Week 20	Week	candidate	protocol_synopsis.md	Synopsis note	medical	v0	candidate only
