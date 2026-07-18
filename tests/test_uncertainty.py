@@ -1,6 +1,7 @@
 from trialcompiler.uncertainty import (
     AgentAction,
     AgentUncertaintyDecision,
+    BeliefPolicyDecision,
     CounterfactualReplayResult,
     EvidenceAcquisitionOption,
     FactBeliefState,
@@ -9,6 +10,8 @@ from trialcompiler.uncertainty import (
     UncertaintyKind,
     UncertaintyLocus,
     UncertaintySignal,
+    decide_from_belief,
+    execute_evidence_acquisition,
     select_evidence_action,
 )
 
@@ -104,3 +107,54 @@ def test_counterfactual_replay_does_not_overclaim_mechanistic_causality():
     payload = replay.to_dict()
     assert payload["necessary_for_outcome"] is True
     assert payload["claim_scope"] == "behavioral_counterfactual_not_mechanistic_causality"
+
+
+def test_evidence_acquisition_closes_the_belief_update_loop():
+    prior = FactBeliefState({"protocol": 0.5, "sap": 0.5})
+    option = EvidenceAcquisitionOption(
+        action_id="fetch-signed-amendment",
+        evidence_target="signed amendment",
+        observation_probabilities={"protocol": 0.6, "sap": 0.4},
+        posterior_by_observation={
+            "protocol": FactBeliefState({"protocol": 0.9, "sap": 0.1}),
+            "sap": FactBeliefState({"protocol": 0.1, "sap": 0.9}),
+        },
+        acquisition_cost=0.2,
+    )
+    step = execute_evidence_acquisition(prior, option, observation="protocol")
+    assert step.posterior.hypothesis_probabilities["protocol"] == 0.9
+    assert step.observed_information_gain > 0
+    assert step.to_dict()["observation"] == "protocol"
+
+
+def test_belief_policy_acquires_then_commits_or_defers():
+    uncertain = FactBeliefState({"protocol": 0.55, "sap": 0.45})
+    assert decide_from_belief(
+        uncertain, commit_threshold=0.85, evidence_available=True
+    ).action == AgentAction.ACQUIRE_EVIDENCE
+    assert decide_from_belief(
+        uncertain, commit_threshold=0.85, evidence_available=False
+    ).action == AgentAction.DEFER_TO_HUMAN
+    resolved = decide_from_belief(
+        FactBeliefState({"protocol": 0.9, "sap": 0.1}),
+        commit_threshold=0.85,
+        evidence_available=False,
+    )
+    assert isinstance(resolved, BeliefPolicyDecision)
+    assert resolved.action == AgentAction.COMMIT_CANDIDATE
+
+
+def test_unknown_observation_cannot_silently_update_belief():
+    prior = FactBeliefState({"a": 0.5, "b": 0.5})
+    option = EvidenceAcquisitionOption(
+        action_id="fetch",
+        evidence_target="source",
+        observation_probabilities={"known": 1.0},
+        posterior_by_observation={"known": prior},
+    )
+    try:
+        execute_evidence_acquisition(prior, option, observation="invented")
+    except ValueError as exc:
+        assert str(exc) == "unknown_observation: invented"
+    else:
+        raise AssertionError("unknown observations must fail closed")

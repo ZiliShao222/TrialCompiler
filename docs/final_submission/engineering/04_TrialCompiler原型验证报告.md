@@ -10,7 +10,9 @@
 
 解释评价也不再以“是否写出合理理由”为标准。来源追踪、轨迹可观察性和解释忠实性分别评价；对解释忠实性的最低实验要求是 evidence-removal/replacement replay，检验被声称关键的证据发生干预时，finding、取证动作或 patch 选择是否按解释发生变化。该结果属于行为层反事实证据，不宣称揭示模型内部因果机制。
 
-后续消融实验分为纯规则、普通 LLM/RAG、带被动 UQ 的 LLM、以及不确定性驱动主动取证 Agent。除 Precision/Recall/F1 外，评价 ECE/Brier/rank-calibration、risk–coverage/AURC、轨迹最弱步骤校准、单位证据成本带来的熵下降、取证后任务成功增益、拒答质量、负对照保护率，以及证据移除/替换后的解释忠实性。当前公开案例只验证了确定性检测、来源追踪、重放底座与携证阻断；尚未完成校准和主动取证实验，因此不能把现有 reviewer confidence 或审计日志当成 UQ/XAI 结果。
+后续消融实验分为纯规则、普通 LLM/RAG、带被动 UQ 的 LLM、以及不确定性驱动主动取证 Agent。除 Precision/Recall/F1 外，评价 ECE/Brier/rank-calibration、risk–coverage/AURC、轨迹最弱步骤校准、单位证据成本带来的熵下降、取证后任务成功增益、拒答质量、负对照保护率，以及证据移除/替换后的解释忠实性。当前公开案例只验证了确定性检测、来源追踪、重放底座与携证阻断；尚未完成真实模型校准和真实主动取证实验，因此不能把现有 reviewer confidence 或审计日志当成 UQ/XAI 结果。
+
+2026-07-18 新增的不确定性实验底座已经打通一个可执行的最小闭环：有限假设 belief state → 成本感知预期信息增益选证 → 接收显式 observation → posterior 更新与实际熵下降记录 → commit/acquire/defer 决策。独立评估器可输出 Brier、ECE、risk–coverage/AURC、成对排序准确率，以及证据移除/替换的 necessity flip rate 与 contrastive sensitivity；混用 calibration/test split 时禁止给出校准声明，未知 observation 则失败关闭。仓库示例数据只用于验证计算与报告链路，不构成模型效果证据。真实结论仍需冻结数据集、真实模型轨迹、独立 calibration/test 划分和专业标注。
 
 > 报告状态：研究原型阶段性验收；评测快照日期：2026-07-18；代码基线：`main` 分支；当前公开案例结果以 `run-deterministic-v2_score.json` 为准。本文中的历史低分仅用于展示改进前基线，不代表当前性能。
 

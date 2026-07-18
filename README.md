@@ -61,6 +61,18 @@ The MVP includes a CLI, FastAPI service, synthetic fixtures, a Feishu Aily
 intake contract, and automated tests. It does **not** support clinical
 production use or real patient data.
 
+The uncertainty research harness now executes finite-belief evidence updates,
+cost-aware expected-information-gain selection, and explicit commit/acquire/defer
+stopping decisions. A separate evaluator reports Brier score, ECE,
+risk--coverage/AURC, pairwise ranking accuracy, and behavioral counterfactual
+faithfulness metrics. The included fixture demonstrates the protocol only; it
+is not empirical evidence that a model is calibrated. Run it with:
+
+```powershell
+python scripts/evaluate_uncertainty_experiment.py `
+  data/fixtures/uncertainty_experiment_demo.json --bins 2
+```
+
 ## MVP Workflow
 
 ```text

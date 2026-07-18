@@ -176,6 +176,16 @@ class EvidenceAcquisitionOption:
     def utility(self, prior: FactBeliefState, cost_weight: float) -> float:
         return self.expected_information_gain(prior) - cost_weight * self.acquisition_cost
 
+    def posterior_for(self, observation: str) -> FactBeliefState:
+        """Return the declared posterior for an actually observed outcome."""
+        if observation not in self.posterior_by_observation:
+            raise ValueError(f"unknown_observation: {observation}")
+        posterior = self.posterior_by_observation[observation]
+        failures = posterior.validate()
+        if failures:
+            raise ValueError(", ".join(failures))
+        return posterior
+
 
 def select_evidence_action(
     prior: FactBeliefState,
@@ -191,6 +201,87 @@ def select_evidence_action(
         key=lambda option: (-option.utility(prior, cost_weight), option.action_id),
     )
     return ranked[0] if ranked[0].utility(prior, cost_weight) > 0 else None
+
+
+@dataclass(slots=True)
+class EvidenceAcquisitionStep:
+    """One auditable belief update produced by an evidence observation."""
+
+    action_id: str
+    evidence_target: str
+    observation: str
+    prior: FactBeliefState
+    posterior: FactBeliefState
+    expected_information_gain: float
+    observed_information_gain: float
+    acquisition_cost: float
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+def execute_evidence_acquisition(
+    prior: FactBeliefState,
+    option: EvidenceAcquisitionOption,
+    *,
+    observation: str,
+) -> EvidenceAcquisitionStep:
+    """Apply an observation model and record expected versus realized entropy change.
+
+    The observation is supplied by a tool or experiment harness. This function never
+    invents a probability or observation from an LLM response.
+    """
+    prior_failures = prior.validate()
+    if prior_failures:
+        raise ValueError(", ".join(prior_failures))
+    posterior = option.posterior_for(observation)
+    return EvidenceAcquisitionStep(
+        action_id=option.action_id,
+        evidence_target=option.evidence_target,
+        observation=observation,
+        prior=prior,
+        posterior=posterior,
+        expected_information_gain=option.expected_information_gain(prior),
+        observed_information_gain=prior.entropy() - posterior.entropy(),
+        acquisition_cost=option.acquisition_cost,
+    )
+
+
+@dataclass(slots=True)
+class BeliefPolicyDecision:
+    """Explicit stopping policy over a canonical-fact belief state."""
+
+    action: AgentAction
+    leading_hypothesis: str
+    leading_probability: float
+    reason: str
+
+
+def decide_from_belief(
+    belief: FactBeliefState,
+    *,
+    commit_threshold: float,
+    evidence_available: bool,
+) -> BeliefPolicyDecision:
+    """Commit only above threshold; otherwise acquire evidence or defer."""
+    failures = belief.validate()
+    if failures:
+        raise ValueError(", ".join(failures))
+    if not 0.5 <= commit_threshold <= 1.0:
+        raise ValueError("commit_threshold_out_of_range")
+    leading_hypothesis, leading_probability = max(
+        belief.hypothesis_probabilities.items(), key=lambda item: (item[1], item[0])
+    )
+    if leading_probability >= commit_threshold:
+        action = AgentAction.COMMIT_CANDIDATE
+        reason = "belief_exceeds_commit_threshold"
+    elif evidence_available:
+        action = AgentAction.ACQUIRE_EVIDENCE
+        reason = "belief_below_threshold_and_evidence_available"
+    else:
+        action = AgentAction.DEFER_TO_HUMAN
+        reason = "belief_below_threshold_and_no_evidence_available"
+    return BeliefPolicyDecision(action, leading_hypothesis, leading_probability, reason)
 
 
 @dataclass(slots=True)

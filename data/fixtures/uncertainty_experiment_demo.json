@@ -1,0 +1,13 @@
+{
+  "experiment_id": "uncertainty-faithfulness-demo-v1",
+  "predictions": [
+    {"prediction_id": "P1", "probability": 0.9, "outcome": true, "split": "test", "trajectory_id": "T1"},
+    {"prediction_id": "P2", "probability": 0.8, "outcome": true, "split": "test", "trajectory_id": "T2"},
+    {"prediction_id": "P3", "probability": 0.4, "outcome": false, "split": "test", "trajectory_id": "T3"},
+    {"prediction_id": "P4", "probability": 0.1, "outcome": false, "split": "test", "trajectory_id": "T4"}
+  ],
+  "replays": [
+    {"source_id": "protocol-v2", "original_outcome": "defer", "removal_outcome": "patch", "replacement_outcome": "no_finding"},
+    {"source_id": "sap-v1", "original_outcome": "defer", "removal_outcome": "defer", "replacement_outcome": "defer"}
+  ]
+}
