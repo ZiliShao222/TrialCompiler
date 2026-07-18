@@ -1,5 +1,16 @@
 # TrialCompiler GitHub 与 Demo 运行说明
 
+项目的一句话定位：**把 AI 的跨文档不确定性推理编译成可解释、可机器核验的临床变更证明。** 图、规则、状态机和审计是安全底座；AI 研究对象是竞争假设、主动取证、不确定性校准及可解释拒答。
+
+携证证明命令：
+
+```powershell
+$env:PYTHONPATH='src'
+python scripts/build_assurance_case.py --state <run>/workflow_state.json --summary <run>/run_summary.json --score <score.json> --output <assurance.json>
+```
+
+证明中的 `release_authorized=false` 是固定安全设计，机器结论不能代替医学、统计、注册或质量批准。
+
 ## 1. GitHub 提交入口
 
 项目仓库：

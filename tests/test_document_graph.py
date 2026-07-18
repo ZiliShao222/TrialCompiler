@@ -11,9 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class DocumentGraphTests(unittest.TestCase):
     def setUp(self) -> None:
         payload = json.loads(
-            (ROOT / "data/fixtures/synthetic_protocol_conflict.json").read_text(
-                encoding="utf-8"
-            )
+            (ROOT / "data/fixtures/synthetic_protocol_conflict.json").read_text(encoding="utf-8")
         )
         self.graph = ClinicalDocumentGraph(TrialDocument.from_dict(payload))
 
@@ -39,9 +37,7 @@ class DocumentGraphTests(unittest.TestCase):
 
     def test_proposed_change_repairs_only_primary_endpoint_context(self) -> None:
         payload = json.loads(
-            (ROOT / "data/fixtures/trialdocbench_case_001.json").read_text(
-                encoding="utf-8"
-            )
+            (ROOT / "data/fixtures/trialdocbench_case_001.json").read_text(encoding="utf-8")
         )
         for fact in payload["facts"]:
             if fact["fact_id"] == "FACT-TIMEPOINT-001":
@@ -50,16 +46,12 @@ class DocumentGraphTests(unittest.TestCase):
                 fact["status"] = "proposed_change"
         graph = ClinicalDocumentGraph(TrialDocument.from_dict(payload))
         proposals = graph.propose_repairs(graph.review())
-        synopsis = next(
-            item for item in proposals if item.section_id == "UNIT-PROTOCOL-SYNOPSIS"
-        )
+        synopsis = next(item for item in proposals if item.section_id == "UNIT-PROTOCOL-SYNOPSIS")
         self.assertIn("primary endpoint is the change", synopsis.proposed_text)
         self.assertIn("at Week 16", synopsis.proposed_text)
         self.assertIn("Week 4, Week 8, Week 12", synopsis.proposed_text)
         objectives = next(
-            item
-            for item in proposals
-            if item.section_id == "UNIT-OBJECTIVES-AND-ENDPOINTS"
+            item for item in proposals if item.section_id == "UNIT-OBJECTIVES-AND-ENDPOINTS"
         )
         self.assertIn("primary endpoint is the change", objectives.proposed_text)
         self.assertIn("Secondary endpoints include", objectives.proposed_text)

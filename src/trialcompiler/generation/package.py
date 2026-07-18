@@ -230,11 +230,7 @@ def _xlsx_text(path: Path) -> str:
             root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
             for item in root:
                 shared.append(
-                    "".join(
-                        node.text or ""
-                        for node in item.iter()
-                        if node.tag.endswith("}t")
-                    )
+                    "".join(node.text or "" for node in item.iter() if node.tag.endswith("}t"))
                 )
         workbook = ET.fromstring(archive.read("xl/workbook.xml"))
         rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))

@@ -91,9 +91,7 @@ def test_critical_hard_fail_overrides_high_weighted_score(tmp_path: Path) -> Non
         / "G8_blind_benchmark_evaluator.md",
     )
 
-    result = evaluator.evaluate(
-        tmp_path / "evaluation", phase1_run=phase1, phase2_run=phase2
-    )
+    result = evaluator.evaluate(tmp_path / "evaluation", phase1_run=phase1, phase2_run=phase2)
 
     assert result["weighted_score"] == 95
     assert result["critical_hard_fail"] is True
@@ -104,9 +102,7 @@ def test_generation_payload_excludes_audit_log_hidden_identifiers() -> None:
     run = {
         "run_type": "generative_protocol_phase2_revision",
         "protocol_sections": [{"section_id": "1", "content": "clean"}],
-        "package_audit": {
-            "sanitization_events": ["Redacted hidden reference NCT05132439"]
-        },
+        "package_audit": {"sanitization_events": ["Redacted hidden reference NCT05132439"]},
         "input_lineage": {"private_path": "03_EVALUATOR_ONLY"},
     }
 

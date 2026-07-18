@@ -84,23 +84,21 @@ def test_phase2_revision_excludes_evaluator_material_and_writes_all_artifacts(
     (package_root / "02_AI_VISIBLE_PHASE2" / "decision.txt").write_text(
         "Synthetic sponsor decision", encoding="utf-8"
     )
-    (package_root / "03_EVALUATOR_ONLY" / "gold.txt").write_text(
-        "MOBILE IC", encoding="utf-8"
-    )
+    (package_root / "03_EVALUATOR_ONLY" / "gold.txt").write_text("MOBILE IC", encoding="utf-8")
     phase1_dir = tmp_path / "phase1"
     phase1_dir.mkdir()
     (phase1_dir / "run.json").write_text(
         json.dumps(
-                {
-                    "run_type": "generative_protocol_phase1",
-                    "planner": {},
+            {
+                "run_type": "generative_protocol_phase1",
+                "planner": {},
                 "quality_gate": {},
                 "protocol_sections": [
                     {"title": spec, "content": "Prior"} for spec in SECTION_SPECS
                 ],
-                    "evaluator_materials_used": False,
-                    "phase2_materials_used": False,
-                }
+                "evaluator_materials_used": False,
+                "phase2_materials_used": False,
+            }
         ),
         encoding="utf-8",
     )

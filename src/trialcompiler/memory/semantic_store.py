@@ -193,7 +193,7 @@ class SemanticElementStore:
         )
         placeholders = ", ".join(f":{name}" for name in columns)
         self.connection.execute(
-            f"""INSERT INTO semantic_elements ({', '.join(columns)})
+            f"""INSERT INTO semantic_elements ({", ".join(columns)})
             VALUES ({placeholders}) ON CONFLICT(element_id) DO UPDATE SET {assignments}""",
             values,
         )
@@ -288,9 +288,7 @@ class SemanticElementStore:
         ranked: list[tuple[SemanticElement, float]] = []
         for row in rows:
             element = self._row_to_element(row)
-            candidate_tokens = lexical_tokens(
-                element.semantic_key + " " + " ".join(element.tags)
-            )
+            candidate_tokens = lexical_tokens(element.semantic_key + " " + " ".join(element.tags))
             overlap = len(query_tokens & candidate_tokens) / max(
                 1, len(query_tokens | candidate_tokens)
             )
@@ -373,10 +371,10 @@ class SemanticElementStore:
                 - age_days / 30.0
                 - element.size_tokens / 20000.0
             )
-            if (
-                element.approval_status == "approved"
-                and element.authority in {"regulatory", "enterprise"}
-            ):
+            if element.approval_status == "approved" and element.authority in {
+                "regulatory",
+                "enterprise",
+            }:
                 utility += 10.0
             scored.append((utility, element.element_id))
         scored.sort()

@@ -16,9 +16,7 @@ class ReviewWorkflowTests(unittest.TestCase):
             store = SemanticElementStore(Path(temp) / "memory.sqlite3")
             try:
                 workflow = ReviewWorkflow(store)
-                document = load_document(
-                    ROOT / "data/fixtures/synthetic_protocol_conflict.json"
-                )
+                document = load_document(ROOT / "data/fixtures/synthetic_protocol_conflict.json")
                 fact = document.facts[0]
                 fact.status = ReviewStatus.REQUIRES_HUMAN_REVIEW
                 section = document.sections[0]
@@ -88,9 +86,7 @@ class ReviewWorkflowTests(unittest.TestCase):
             store = SemanticElementStore(Path(temp) / "memory.sqlite3")
             try:
                 workflow = ReviewWorkflow(store)
-                document = load_document(
-                    ROOT / "data/fixtures/synthetic_protocol_conflict.json"
-                )
+                document = load_document(ROOT / "data/fixtures/synthetic_protocol_conflict.json")
                 semantic_review = {
                     "status": "completed",
                     "model": "test-model",
@@ -132,9 +128,7 @@ class ReviewWorkflowTests(unittest.TestCase):
             store = SemanticElementStore(Path(temp) / "memory.sqlite3")
             workflow = ReviewWorkflow(store)
             seed_demo_experience(workflow.experience_repository)
-            document = load_document(
-                ROOT / "data/fixtures/synthetic_protocol_conflict.json"
-            )
+            document = load_document(ROOT / "data/fixtures/synthetic_protocol_conflict.json")
             state = workflow.run(document)
             self.assertEqual(2, len(state["findings"]))
             self.assertEqual(2, len(state["proposals"]))
@@ -150,9 +144,7 @@ class ReviewWorkflowTests(unittest.TestCase):
             store = SemanticElementStore(Path(temp) / "memory.sqlite3")
             try:
                 workflow = ReviewWorkflow(store)
-                document = load_document(
-                    ROOT / "data/fixtures/synthetic_protocol_conflict.json"
-                )
+                document = load_document(ROOT / "data/fixtures/synthetic_protocol_conflict.json")
                 original = document.sections[0].text
                 semantic_review = {
                     "status": "completed",

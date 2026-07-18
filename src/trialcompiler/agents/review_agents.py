@@ -93,9 +93,7 @@ class ReviewAgents:
                     "section_ids": [str(value) for value in item.get("section_ids", [])],
                     "message": str(item.get("message", "Semantic review issue.")),
                     "canonical_fact_id": None,
-                    "evidence_source_ids": [
-                        str(value) for value in item.get("source_ids", [])
-                    ],
+                    "evidence_source_ids": [str(value) for value in item.get("source_ids", [])],
                     "requires_human_review": True,
                     "fact_ids": fact_ids,
                     "origin": "llm_semantic_review",
@@ -164,13 +162,9 @@ class ReviewAgents:
             payload["origin"] = "llm_semantic_repair"
             proposal_payloads.append(payload)
         approved_fact_ids = {
-            fact.fact_id
-            for fact in document.facts
-            if fact.status is ReviewStatus.APPROVED
+            fact.fact_id for fact in document.facts if fact.status is ReviewStatus.APPROVED
         }
-        active_change_fact_id = str(
-            (state.get("change_context") or {}).get("fact_id", "")
-        )
+        active_change_fact_id = str((state.get("change_context") or {}).get("fact_id", ""))
         if active_change_fact_id:
             approved_fact_ids.add(active_change_fact_id)
         eligible_proposals: list[dict[str, Any]] = []
@@ -199,9 +193,7 @@ class ReviewAgents:
             eligible_proposals.append(payload)
         round_index = int(state.get("round_index", 0)) + 1
         feedback = state.get("repair_feedback", {})
-        deferred = {
-            str(value) for value in feedback.get("defer_to_human_finding_ids", [])
-        }
+        deferred = {str(value) for value in feedback.get("defer_to_human_finding_ids", [])}
         composed_proposals, conflicts = compose_repair_proposals(
             eligible_proposals,
             defer_conflict_finding_ids=deferred,
@@ -239,9 +231,7 @@ class ReviewAgents:
         decision_requests = list(state.get("decision_requests", []))
         deferred = {str(value) for value in state.get("deferred_finding_ids", [])}
         authorization_blocks = state.get("authorization_blocks", [])
-        authorization_blocked = {
-            str(item["finding_id"]) for item in authorization_blocks
-        }
+        authorization_blocked = {str(item["finding_id"]) for item in authorization_blocks}
 
         def add_decision_request(finding: dict[str, Any], reason: str) -> None:
             request_id = f"decision-{finding['finding_id']}"
@@ -327,9 +317,7 @@ class ReviewAgents:
                     if fact.previous_value is not None:
                         required_values = [
                             new
-                            for old, new in atomic_value_changes(
-                                fact.previous_value, fact.value
-                            )
+                            for old, new in atomic_value_changes(fact.previous_value, fact.value)
                             if value_present(proposal["original_text"], old, fact.unit)
                         ]
                     missing_values = [
@@ -419,6 +407,15 @@ class ReviewAgents:
 
         unresolved = sorted(set(unresolved))
         findings = state.get("findings", [])
+        findings_by_id = {str(finding["finding_id"]): finding for finding in findings}
+        for finding_id in unresolved:
+            finding = findings_by_id.get(finding_id)
+            if finding is not None:
+                add_decision_request(
+                    finding,
+                    "Sandbox verification could not prove a unique, regression-free machine "
+                    "repair. Qualified disposition or additional evidence is required.",
+                )
         coverage = state.get("review_coverage", {})
         if not findings and coverage.get("semantic") != "completed":
             accepted = False
@@ -435,9 +432,7 @@ class ReviewAgents:
             score=score,
             reasons=reasons or ["All proposed changes preserve fact and evidence provenance."],
             unresolved_finding_ids=unresolved,
-            decision_request_ids=[
-                str(item["request_id"]) for item in decision_requests
-            ],
+            decision_request_ids=[str(item["request_id"]) for item in decision_requests],
             machine_repair_complete=not unresolved,
         )
         workflow_status = (

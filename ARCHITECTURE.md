@@ -1,5 +1,29 @@
 # TrialCompiler Architecture
 
+## Architectural thesis: proof-carrying, uncertainty-aware reasoning
+
+The primary abstraction is not “multiple agents in a document workflow.” It is
+an uncertainty-aware reasoning protocol:
+
+`observe -> form competing hypotheses -> acquire evidence -> estimate typed
+uncertainty -> propose minimal patch -> sandbox falsification -> emit assurance
+case or qualified decision debt`.
+
+The probabilistic layer handles semantic equivalence, implicit conflicts,
+relevance-directed evidence acquisition and competing interpretations. The
+deterministic layer compiles those claims against source authority, provenance,
+document-graph impact, negative controls and release policy. Each uncertainty
+explanation is operational: it states what is unknown, why it is unknown, which
+evidence supports or opposes each hypothesis, what observation would resolve
+it, and why the system repaired, searched, abstained or escalated.
+
+Every run can emit `trialcompiler.assurance/v1`, binding exact state by digest
+and checking cross-artifact consistency, patch provenance, unresolved-finding
+disposition, sandbox regression, negative-control protection, metric/gate
+separation, human release authority and rollback identity. A proof may certify
+a safe block; lack of a unique repair is converted into visible decision debt
+rather than hidden by fluent output.
+
 TrialCompiler is an evidence-grounded, human-governed compiler for clinical
 trial documents. Its architecture separates deterministic document controls
 from model-assisted review so that an unavailable or unreliable model cannot

@@ -225,9 +225,7 @@ class SimulatedReviewer:
 
         allowed = set(
             _strings(
-                role_policy.get(
-                    "allowed_decisions", [item.value for item in SimulatedOutcome]
-                )
+                role_policy.get("allowed_decisions", [item.value for item in SimulatedOutcome])
             )
         )
         if outcome.value not in allowed:
@@ -335,8 +333,7 @@ def write_audit_json(
     if "approvals" in {part.casefold() for part in target.parts}:
         raise ValueError("Simulation audit must not be written to a real approvals directory")
     plain_decisions = [
-        item.to_dict() if isinstance(item, SimulatedDecision) else dict(item)
-        for item in decisions
+        item.to_dict() if isinstance(item, SimulatedDecision) else dict(item) for item in decisions
     ]
     required_fields = {
         "decision",
@@ -364,9 +361,7 @@ def write_audit_json(
     }
     target.parent.mkdir(parents=True, exist_ok=True)
     temporary = target.with_name(f".{target.name}.{uuid.uuid4().hex}.tmp")
-    temporary.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     os.replace(temporary, target)
     return target
 

@@ -1,5 +1,30 @@
 # TrialCompiler
 
+## Research thesis: explainable uncertainty compilation
+
+TrialCompiler is not a workflow product with an LLM attached. Its central AI
+question is: **how can a probabilistic model reason actively over incomplete and
+conflicting clinical documents while making its uncertainty inspectable and
+preventing fluency from becoming authority?**
+
+The system separates an AI hypothesis plane from a proof-carrying compilation
+plane. The AI plane performs cross-document semantic hypothesis formation,
+evidence acquisition, competing-interpretation comparison, and uncertainty
+estimation. Uncertainty is not reduced to one confidence number: it is typed as
+missing evidence, source conflict, semantic ambiguity, model disagreement,
+unknown impact scope, or insufficient authority. Its explanation must include
+supporting and opposing evidence, affected sections, counterfactual tests, and
+the reason for escalating to a qualified human.
+
+The compilation plane checks provenance, minimum edit scope, cross-artifact
+invariants, sandbox regressions, negative controls, unresolved decision debt,
+and qualified-human release gates. An AI result is useful only when it arrives
+as a falsifiable claim with evidence and a testable patch. If it cannot prove a
+unique safe revision, the uncertainty becomes an explicit decision request.
+Thus the graph, rules, state machine and audit trail are the safety substrate;
+the research contribution is compiling probabilistic reasoning into an
+explainable, machine-verifiable assurance case.
+
 TrialCompiler is an early-stage research and product prototype for compiling,
 reviewing, testing, and incrementally updating clinical trial protocols and
 their related documents.

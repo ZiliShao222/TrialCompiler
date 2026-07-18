@@ -24,8 +24,7 @@ class ProjectWorkspaceTests(unittest.TestCase):
             fact.unit = "hours"
             document.sections[0].fact_refs = [fact.fact_id]
             document.sections[0].text = (
-                "Up to 32 participants may enroll. "
-                "PK samples are collected at 0, 12, and 32 hours."
+                "Up to 32 participants may enroll. PK samples are collected at 0, 12, and 32 hours."
             )
             for section in document.sections[1:]:
                 section.fact_refs = []
@@ -121,14 +120,10 @@ class ProjectWorkspaceTests(unittest.TestCase):
             self.assertEqual(20, changed_fact.value)
             self.assertTrue(all("Week 20" in section.text for section in updated.sections))
             run_summary = json.loads(
-                (root / "runs" / "run-test" / "run_summary.json").read_text(
-                    encoding="utf-8"
-                )
+                (root / "runs" / "run-test" / "run_summary.json").read_text(encoding="utf-8")
             )
             self.assertEqual("approve", run_summary["human_decision"])
-            self.assertEqual(
-                "human_approved_change_applied", run_summary["release_status"]
-            )
+            self.assertEqual("human_approved_change_applied", run_summary["release_status"])
             lines = workspace.audit_path.read_text(encoding="utf-8").splitlines()
             events = [json.loads(line) for line in lines]
             self.assertEqual(
@@ -228,9 +223,7 @@ class ProjectWorkspaceTests(unittest.TestCase):
             )
             self.assertEqual("approve", approval["decision"])
             resolved = json.loads(
-                (root / "runs" / run_id / "decision_requests.json").read_text(
-                    encoding="utf-8"
-                )
+                (root / "runs" / run_id / "decision_requests.json").read_text(encoding="utf-8")
             )
             self.assertEqual("resolved_accepted", resolved[0]["status"])
 

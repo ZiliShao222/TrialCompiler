@@ -13,9 +13,7 @@ def _write_case(tmp_path: Path, tests: list[dict], findings: list[dict]) -> tupl
         json.dumps({"case_id": "NCT04683926", "gold_version": "test", "tests": tests}),
         encoding="utf-8",
     )
-    (run / "workflow_state.json").write_text(
-        json.dumps({"findings": findings}), encoding="utf-8"
-    )
+    (run / "workflow_state.json").write_text(json.dumps({"findings": findings}), encoding="utf-8")
     (run / "run_summary.json").write_text(
         json.dumps({"release_status": "requires_qualified_human_review"}),
         encoding="utf-8",
@@ -35,10 +33,12 @@ def _water_finding(message: str) -> dict:
 
 def test_correct_semantic_match_is_true_positive(tmp_path: Path) -> None:
     tests = [{"id": "TC-SD-001", "expected_label": "hard_operational_instruction_conflict"}]
-    findings = [_water_finding(
-        "Synopsis says no water is allowed, while the protocol body says only water is allowed; "
-        "these instructions are logically contradictory."
-    )]
+    findings = [
+        _water_finding(
+            "Synopsis prohibits water, while the protocol body says only water is allowed; "
+            "these instructions are logically contradictory."
+        )
+    ]
 
     result = score_benchmark(*_write_case(tmp_path, tests, findings))
 
@@ -66,10 +66,12 @@ def test_keyword_only_claim_is_false_positive_and_miss(tmp_path: Path) -> None:
 
 
 def test_missing_finding_is_false_negative_without_false_positive(tmp_path: Path) -> None:
-    tests = [{
-        "id": "TC-XD-002",
-        "expected_label": "inclusive_boundary_or_participant_language_difference",
-    }]
+    tests = [
+        {
+            "id": "TC-XD-002",
+            "expected_label": "inclusive_boundary_or_participant_language_difference",
+        }
+    ]
 
     result = score_benchmark(*_write_case(tmp_path, tests, []))
 
@@ -79,11 +81,13 @@ def test_missing_finding_is_false_negative_without_false_positive(tmp_path: Path
 
 
 def test_negative_control_scores_absence_and_semantic_false_alarm(tmp_path: Path) -> None:
-    tests = [{
-        "id": "TC-XD-003",
-        "expected_label": "valid_dual_time_axis_mapping",
-        "must_not_report_as_conflict": True,
-    }]
+    tests = [
+        {
+            "id": "TC-XD-003",
+            "expected_label": "valid_dual_time_axis_mapping",
+            "must_not_report_as_conflict": True,
+        }
+    ]
     benchmark, clean_run = _write_case(tmp_path / "clean", tests, [])
     clean = score_benchmark(benchmark, clean_run)
     assert clean["negative_control_accuracy"] == 1.0

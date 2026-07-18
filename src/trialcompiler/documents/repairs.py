@@ -28,9 +28,7 @@ def proposal_to_operations(proposal: dict[str, Any]) -> list[dict[str, Any]]:
             before=original[i1:i2],
             rationale=str(proposal.get("rationale", "")),
             fact_ids=[str(value) for value in proposal.get("fact_ids", [])],
-            evidence_source_ids=[
-                str(value) for value in proposal.get("evidence_source_ids", [])
-            ],
+            evidence_source_ids=[str(value) for value in proposal.get("evidence_source_ids", [])],
             origin=str(proposal.get("origin", "unknown")),
         )
         operations.append(asdict(operation))
@@ -72,9 +70,7 @@ def compose_repair_proposals(
                 {
                     "conflict_id": f"conflict-{section_id}-base",
                     "section_id": section_id,
-                    "finding_ids": sorted(
-                        {str(item["finding_id"]) for item in section_proposals}
-                    ),
+                    "finding_ids": sorted({str(item["finding_id"]) for item in section_proposals}),
                     "reason": "Repair proposals do not share the same base section text.",
                     "operations": [],
                 }
@@ -92,9 +88,11 @@ def compose_repair_proposals(
                 right = operations[right_index]
                 if not _overlap(left, right):
                     continue
-                identical = (
-                    left["start"], left["end"], left["replacement"]
-                ) == (right["start"], right["end"], right["replacement"])
+                identical = (left["start"], left["end"], left["replacement"]) == (
+                    right["start"],
+                    right["end"],
+                    right["replacement"],
+                )
                 if identical:
                     continue
                 conflicting_indexes.update({left_index, right_index})
@@ -106,9 +104,7 @@ def compose_repair_proposals(
                 {
                     "conflict_id": f"conflict-{section_id}-001",
                     "section_id": section_id,
-                    "finding_ids": sorted(
-                        {str(item["finding_id"]) for item in conflict_ops}
-                    ),
+                    "finding_ids": sorted({str(item["finding_id"]) for item in conflict_ops}),
                     "reason": "Two evidence-backed edits overlap and propose different text.",
                     "operations": conflict_ops,
                 }

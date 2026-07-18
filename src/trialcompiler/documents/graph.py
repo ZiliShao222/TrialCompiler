@@ -33,9 +33,7 @@ def atomic_value_changes(old_value: object, new_value: object) -> list[tuple[str
         new_parts = [part.strip() for part in re.split(separators, new_value) if part.strip()]
         if len(old_parts) == len(new_parts) and len(old_parts) > 1:
             return [
-                (old, new)
-                for old, new in zip(old_parts, new_parts, strict=False)
-                if old != new
+                (old, new) for old, new in zip(old_parts, new_parts, strict=False) if old != new
             ]
     return [] if old_value == new_value else [(str(old_value), str(new_value))]
 
@@ -71,9 +69,7 @@ class ClinicalDocumentGraph:
 
     def __post_init__(self) -> None:
         self.facts_by_id = {fact.fact_id: fact for fact in self.document.facts}
-        self.sections_by_id = {
-            section.section_id: section for section in self.document.sections
-        }
+        self.sections_by_id = {section.section_id: section for section in self.document.sections}
         self.fact_to_sections = {fact_id: set() for fact_id in self.facts_by_id}
         for section in self.document.sections:
             for fact_id in section.fact_refs:
@@ -219,11 +215,7 @@ class ClinicalDocumentGraph:
         if len(fact_ids) != 2:
             return []
         sources = sorted(
-            {
-                source
-                for fact_id in fact_ids
-                for source in self.facts_by_id[fact_id].source_ids
-            }
+            {source for fact_id in fact_ids for source in self.facts_by_id[fact_id].source_ids}
         )
         return [
             ReviewFinding(

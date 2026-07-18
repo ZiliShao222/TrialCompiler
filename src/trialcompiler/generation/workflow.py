@@ -438,8 +438,7 @@ class ProtocolGenerationWorkflow:
             tbd["issues"] = [str(item) for item in issues]
             governed["tbd_compliance"] = tbd
         if governed["gate_status"] == "pass_for_qualified_human_review" and (
-            governed["unsupported_claims"]
-            or not governed["tbd_compliance"].get("compliant", False)
+            governed["unsupported_claims"] or not governed["tbd_compliance"].get("compliant", False)
         ):
             governed["gate_status"] = "revise_before_human_review"
             governed["limitations"].append(

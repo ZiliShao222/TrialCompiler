@@ -1,0 +1,79 @@
+{
+  "schema": "trialcompiler.assurance/v1",
+  "case_id": "sha256:832ccdad8a76cd07dfb62fd9e4a2dab7724fa9334294059a4f3d40e5dff321c5",
+  "outcome": "safely_blocked_pending_qualified_resolution",
+  "release_authorized": false,
+  "failed_check_ids": [],
+  "checks": [
+    {
+      "check_id": "artifact_consistency",
+      "passed": true,
+      "detail": "State and summary must agree.",
+      "evidence": []
+    },
+    {
+      "check_id": "proposal_provenance",
+      "passed": true,
+      "detail": "Every patch must name facts and evidence sources.",
+      "evidence": []
+    },
+    {
+      "check_id": "unresolved_disposition",
+      "passed": true,
+      "detail": "Every unresolved finding must enter a qualified decision queue.",
+      "evidence": []
+    },
+    {
+      "check_id": "sandbox_regression",
+      "passed": true,
+      "detail": "Sandbox verification must report no new finding.",
+      "evidence": {
+        "sandbox_applied": true,
+        "candidate_section_count": 7,
+        "remaining_deterministic_finding_ids": [
+          "cross-source-review-F008",
+          "cross-source-review-F009",
+          "numeric-boundary-dose-interval-F005-F007",
+          "traceability-complete-fact-register"
+        ],
+        "new_deterministic_finding_ids": [],
+        "regression_free": true
+      }
+    },
+    {
+      "check_id": "qualified_release_gate",
+      "passed": true,
+      "detail": "Only a qualified human can authorize release.",
+      "evidence": "requires_qualified_human_review"
+    },
+    {
+      "check_id": "negative_control_protection",
+      "passed": true,
+      "detail": "Declared negative controls must all be protected.",
+      "evidence": 1.0
+    },
+    {
+      "check_id": "metric_gate_separation",
+      "passed": true,
+      "detail": "Detection metrics cannot override workflow gates.",
+      "evidence": {
+        "f1": 0.9411764705882353,
+        "quality_accepted": false
+      }
+    },
+    {
+      "check_id": "rollback_identity",
+      "passed": true,
+      "detail": "Digests bind the proof to exact artifacts.",
+      "evidence": {
+        "workflow_state": "sha256:5678f71e7ba83a3735778460835f5c9bf990b000894643b856714414f0ab08cd",
+        "run_summary": "sha256:b43058a8df1e4fd76019cec2b1469188fa0ae79cc576f1ba6cb00f2af38fa42c"
+      }
+    }
+  ],
+  "artifact_bindings": {
+    "workflow_state": "sha256:5678f71e7ba83a3735778460835f5c9bf990b000894643b856714414f0ab08cd",
+    "run_summary": "sha256:b43058a8df1e4fd76019cec2b1469188fa0ae79cc576f1ba6cb00f2af38fa42c"
+  },
+  "interpretation": "This proof never constitutes clinical approval."
+}

@@ -4,9 +4,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CASE_ROOT = (
-    ROOT / "benchmarks" / "trialdocbench" / "public_case_001_nct04683926"
-)
+CASE_ROOT = ROOT / "benchmarks" / "trialdocbench" / "public_case_001_nct04683926"
 
 
 class NCT04683926BenchmarkIntegrityTests(unittest.TestCase):
@@ -37,9 +35,7 @@ class NCT04683926BenchmarkIntegrityTests(unittest.TestCase):
             self.assertTrue(row["status"])
 
     def test_gold_distinguishes_conflicts_from_valid_mappings(self) -> None:
-        payload = json.loads(
-            (CASE_ROOT / "gold" / "gold_tests.json").read_text(encoding="utf-8")
-        )
+        payload = json.loads((CASE_ROOT / "gold" / "gold_tests.json").read_text(encoding="utf-8"))
         tests = {item["id"]: item for item in payload["tests"]}
 
         self.assertEqual(
@@ -59,9 +55,7 @@ class NCT04683926BenchmarkIntegrityTests(unittest.TestCase):
         self.assertTrue(tests["TC-VS-001"]["must_not_report_as_conflict"])
 
     def test_synthetic_change_is_never_presented_as_real_amendment(self) -> None:
-        payload = json.loads(
-            (CASE_ROOT / "gold" / "gold_tests.json").read_text(encoding="utf-8")
-        )
+        payload = json.loads((CASE_ROOT / "gold" / "gold_tests.json").read_text(encoding="utf-8"))
         change = next(item for item in payload["tests"] if item["id"] == "TC-MUT-001")
 
         self.assertEqual("32 h", change["old_value"])

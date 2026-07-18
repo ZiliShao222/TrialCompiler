@@ -41,10 +41,7 @@ def test_public_benchmark_gold_is_traceable_and_has_negative_controls() -> None:
             )
         }
         assert gold["tests"]
-        assert any(
-            test["expected_action"] == "do_not_report_as_conflict"
-            for test in gold["tests"]
-        )
+        assert any(test["expected_action"] == "do_not_report_as_conflict" for test in gold["tests"])
         for test in gold["tests"]:
             assert test["gold_statement"]
             assert test["evidence"]
@@ -71,10 +68,7 @@ def test_nct_identifier_conflict_is_deterministic() -> None:
     from trialcompiler.documents import ClinicalDocumentGraph
 
     fixture = (
-        Path(__file__).resolve().parents[1]
-        / "data"
-        / "fixtures"
-        / "nct03232983_public_case.json"
+        Path(__file__).resolve().parents[1] / "data" / "fixtures" / "nct03232983_public_case.json"
     )
     findings = ClinicalDocumentGraph(load_document(fixture)).review()
     assert any(
@@ -89,10 +83,7 @@ def test_nct04683926_boundary_trace_and_valid_time_axis_are_deterministic() -> N
     from trialcompiler.documents import ClinicalDocumentGraph
 
     fixture = (
-        Path(__file__).resolve().parents[1]
-        / "data"
-        / "fixtures"
-        / "nct04683926_public_case.json"
+        Path(__file__).resolve().parents[1] / "data" / "fixtures" / "nct04683926_public_case.json"
     )
     document = load_document(fixture)
     findings = ClinicalDocumentGraph(document).review()

@@ -153,15 +153,9 @@ class BlindProtocolEvaluator:
         if missing:
             raise RuntimeError(f"Evaluator output missing keys: {', '.join(sorted(missing))}")
         result = dict(raw)
-        result["rubric_scores"] = BlindProtocolEvaluator._list_of_dicts(
-            result.get("rubric_scores")
-        )
-        result["hard_fails"] = BlindProtocolEvaluator._list_of_dicts(
-            result.get("hard_fails")
-        )
-        result["fact_checks"] = BlindProtocolEvaluator._list_of_dicts(
-            result.get("fact_checks")
-        )
+        result["rubric_scores"] = BlindProtocolEvaluator._list_of_dicts(result.get("rubric_scores"))
+        result["hard_fails"] = BlindProtocolEvaluator._list_of_dicts(result.get("hard_fails"))
+        result["fact_checks"] = BlindProtocolEvaluator._list_of_dicts(result.get("fact_checks"))
         differences = BlindProtocolEvaluator._list_of_dicts(
             result.get("difference_classifications")
         )
@@ -175,9 +169,7 @@ class BlindProtocolEvaluator:
             model_reported_score = float(result.get("weighted_score", 0))
         except (TypeError, ValueError):
             model_reported_score = 0.0
-        result["model_reported_weighted_score"] = max(
-            0.0, min(100.0, model_reported_score)
-        )
+        result["model_reported_weighted_score"] = max(0.0, min(100.0, model_reported_score))
         weighted_numerator = 0.0
         total_weight = 0.0
         for item in result["rubric_scores"]:
@@ -199,8 +191,7 @@ class BlindProtocolEvaluator:
         result["weighted_score"] = round(max(0.0, min(100.0, score)), 2)
         result["score_recomputed_from_rubric"] = total_weight > 0
         critical = bool(deterministic_leaks) or any(
-            bool(item.get("triggered"))
-            and str(item.get("severity", "")).lower() == "critical"
+            bool(item.get("triggered")) and str(item.get("severity", "")).lower() == "critical"
             for item in result["hard_fails"]
         )
         result["critical_hard_fail"] = critical
@@ -224,9 +215,7 @@ class BlindProtocolEvaluator:
 
     @staticmethod
     def _write_json(path: Path, payload: dict[str, Any]) -> None:
-        path.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     @staticmethod
     def _render_report(result: dict[str, Any]) -> str:

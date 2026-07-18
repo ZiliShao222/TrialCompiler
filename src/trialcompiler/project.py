@@ -11,6 +11,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from trialcompiler.assurance import materialize_run_summary
 from trialcompiler.documents import ClinicalDocumentGraph
 from trialcompiler.documents.graph import atomic_value_changes, value_present
 from trialcompiler.models import ReviewStatus, TrialDocument, to_plain
@@ -107,9 +108,7 @@ class ProjectWorkspace:
 
     def load_document(self) -> TrialDocument:
         self.require()
-        return TrialDocument.from_dict(
-            json.loads(self.document_path.read_text(encoding="utf-8"))
-        )
+        return TrialDocument.from_dict(json.loads(self.document_path.read_text(encoding="utf-8")))
 
     def save_document(self, document: TrialDocument) -> None:
         _write_json(self.document_path, document.to_dict())
@@ -279,9 +278,7 @@ class ProjectWorkspace:
         rows: list[dict[str, Any]] = []
         for section_id in graph.impact_set(change.fact_id):
             section = graph.sections_by_id[section_id]
-            observed_values = self._observed_values(
-                section.text, change, unit=fact.unit
-            )
+            observed_values = self._observed_values(section.text, change, unit=fact.unit)
             changes = atomic_value_changes(change.old_value, change.proposed_value)
             aligned = bool(changes) and all(
                 not value_present(section.text, old, fact.unit)
@@ -308,9 +305,7 @@ class ProjectWorkspace:
         return rows
 
     @staticmethod
-    def _observed_values(
-        text: str, change: ChangeRequest, *, unit: str | None = None
-    ) -> list[str]:
+    def _observed_values(text: str, change: ChangeRequest, *, unit: str | None = None) -> list[str]:
         if "week" in text.lower():
             values = re.findall(r"\b(?:week|wk)\s*(\d{1,3})\b", text, re.IGNORECASE)
             if values:
@@ -349,41 +344,13 @@ class ProjectWorkspace:
         _write_json(run_dir / "decision_requests.json", state.get("decision_requests", []))
         _write_json(
             run_dir / "run_summary.json",
-            {
-                "run_id": run_id,
-                "change_id": change.change_id if change else None,
-                "created_at": _now(),
-                "quality": state.get("quality", {}),
-                "finding_count": len(state.get("findings", [])),
-                "proposal_count": len(state.get("proposals", [])),
-                "decision_request_count": len(state.get("decision_requests", [])),
-                "workflow_status": state.get("workflow_status", "unknown"),
-                "verification": state.get("verification", {}),
-                "semantic_review": {
-                    "status": semantic_review.get("status", "not_run"),
-                    "model": semantic_review.get("model"),
-                    "finding_count": len(
-                        semantic_review.get("result", {}).get("semantic_findings", [])
-                    ),
-                    "review_question_count": len(
-                        semantic_review.get("result", {}).get("review_questions", [])
-                    ),
-                    "governance_warning_count": len(
-                        semantic_review.get("governance_warnings", [])
-                    ),
-                },
-                "semantic_repairs": {
-                    "status": semantic_repairs.get("status", "not_run"),
-                    "model": semantic_repairs.get("model"),
-                    "proposal_count": len(semantic_repairs.get("proposals", [])),
-                    "governance_warning_count": len(
-                        semantic_repairs.get("governance_warnings", [])
-                    ),
-                },
-                "human_decision": "pending",
-                "artifacts": workflow_paths,
-                "release_status": "requires_qualified_human_review",
-            },
+            materialize_run_summary(
+                run_id=run_id,
+                change_id=change.change_id if change else None,
+                created_at=_now(),
+                state=state,
+                artifacts=workflow_paths,
+            ),
         )
         return run_dir
 
@@ -421,12 +388,10 @@ class ProjectWorkspace:
             ]
             if pending_requests:
                 request_ids = ", ".join(
-                    str(request.get("request_id", "unknown"))
-                    for request in pending_requests
+                    str(request.get("request_id", "unknown")) for request in pending_requests
                 )
                 raise ValueError(
-                    "Qualified decision requests must be resolved before approval: "
-                    + request_ids
+                    "Qualified decision requests must be resolved before approval: " + request_ids
                 )
             document = self.load_document()
             facts = {fact.fact_id: fact for fact in document.facts}
@@ -522,9 +487,7 @@ class ProjectWorkspace:
         request.update(
             {
                 "status": (
-                    "resolved_accepted"
-                    if decision == "accept_documented"
-                    else "requires_recompile"
+                    "resolved_accepted" if decision == "accept_documented" else "requires_recompile"
                 ),
                 "decision": decision,
                 "reviewer": reviewer,
@@ -532,23 +495,21 @@ class ProjectWorkspace:
                 "review_note": note,
             }
         )
-        pending = [
-            item
-            for item in requests
-            if item.get("status") != "resolved_accepted"
-        ]
+        pending = [item for item in requests if item.get("status") != "resolved_accepted"]
         state["workflow_status"] = (
-            "ready_for_qualified_approval"
-            if not pending
-            else "awaiting_qualified_decisions"
+            "ready_for_qualified_approval" if not pending else "awaiting_qualified_decisions"
         )
         _write_json(state_path, state)
         _write_json(run_dir / "decision_requests.json", requests)
         summary_path = run_dir / "run_summary.json"
         if summary_path.exists():
             summary = json.loads(summary_path.read_text(encoding="utf-8"))
-            summary["pending_decision_request_count"] = len(pending)
-            summary["workflow_status"] = state["workflow_status"]
+            summary = materialize_run_summary(
+                run_id=str(summary.get("run_id", change.compiled_run_id)),
+                change_id=summary.get("change_id", change_id),
+                state=state,
+                existing=summary,
+            )
             _write_json(summary_path, summary)
         record = {
             "change_id": change_id,
