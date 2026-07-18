@@ -408,7 +408,7 @@ qualified decision
 - 两个补充公开案例已完成小规模正例与负例检查；
 - Metformin-PAD 两阶段生成能够产出九个章节和十类关联产物；
 - 机器门能够识别样本量、estimand、终末事件和模拟监管权威化问题，并保持阻断状态；
-- 当前自动化测试为 88 passed；其中新增主动取证 belief 更新、停止策略、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断测试。
+- 当前自动化测试为 95 passed；其中覆盖主动取证 belief 更新、允许列表与预算边界、未知 observation 失败关闭、取证后强制重审、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断。
 
 ### 8.3 尚未完成
 
@@ -446,9 +446,11 @@ TrialCompiler 当前最有价值的技术贡献，是建立了一个诚实的控
 - NCT04683926 独立评分器：`scripts/score_nct04683926_benchmark.py`
 - Phase 2 整改包生成器：`scripts/build_phase2_remediation_plan.py`
 - 主动取证与 belief 更新：`src/trialcompiler/uncertainty.py`
+- 受治理证据提供器与预算执行：`src/trialcompiler/evidence/acquisition.py`
 - UQ/XAI 实验评价：`src/trialcompiler/evaluation/uncertainty.py`
 - 可复现实验入口：`scripts/evaluate_uncertainty_experiment.py`
 - 演示实验数据：`data/fixtures/uncertainty_experiment_demo.json`
+- API 取证演示配置：`data/fixtures/evidence_acquisition_demo.json`
 - 双工作流验收报告：`docs/two_workflow_closure_report_zh.md`
 - 自动化测试：`tests/`
 

@@ -73,6 +73,17 @@ python scripts/evaluate_uncertainty_experiment.py `
   data/fixtures/uncertainty_experiment_demo.json --bins 2
 ```
 
+The review API also accepts an optional governed `evidence_acquisition` object.
+Only allowlisted action IDs can be fetched; each observation records a source ID,
+source version, content SHA-256, cost, posterior, and realized information gain.
+Budget exhaustion, duplicate access, and unknown observations fail closed. Even
+when the updated belief exceeds its threshold, acquired evidence must re-enter
+the B/C/D verification loop before a candidate can be submitted. A synthetic
+request fixture is provided at
+`data/fixtures/evidence_acquisition_demo.json`.
+Raw evidence content is discarded from the final workflow state after its digest
+and governed observation record are created.
+
 ## MVP Workflow
 
 ```text

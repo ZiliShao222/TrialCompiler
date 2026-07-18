@@ -6,9 +6,16 @@ import hashlib
 import json
 from typing import Any
 
+from trialcompiler.evidence import (
+    GovernedEvidenceObservation,
+    GovernedEvidenceProvider,
+    run_acquisition_loop,
+)
 from trialcompiler.uncertainty import (
     AgentAction,
     AgentUncertaintyDecision,
+    EvidenceAcquisitionOption,
+    FactBeliefState,
     TraceEvidence,
     UncertaintyEstimate,
     UncertaintyKind,
@@ -146,4 +153,51 @@ def build_workflow_uncertainty_artifact(state: dict[str, Any]) -> dict[str, Any]
     artifact["numeric_probability_available"] = False
     artifact["calibration_claim_allowed"] = False
     artifact["claim_note"] = "diagnostic_signals_only_no_fitted_calibrator"
+    acquisition = state.get("evidence_acquisition")
+    if acquisition and action is AgentAction.ACQUIRE_EVIDENCE:
+        prior = FactBeliefState(acquisition["prior"])
+        options = [
+            EvidenceAcquisitionOption(
+                action_id=item["action_id"],
+                evidence_target=item["evidence_target"],
+                observation_probabilities=item["observation_probabilities"],
+                posterior_by_observation={
+                    name: FactBeliefState(probabilities)
+                    for name, probabilities in item["posterior_by_observation"].items()
+                },
+                acquisition_cost=float(item.get("acquisition_cost", 0.0)),
+            )
+            for item in acquisition.get("options", [])
+        ]
+        provider = GovernedEvidenceProvider(
+            [GovernedEvidenceObservation(**item) for item in acquisition.get("observations", [])]
+        )
+        policy = acquisition.get("policy", {})
+        loop = run_acquisition_loop(
+            prior,
+            options,
+            provider,
+            commit_threshold=float(policy.get("commit_threshold", 0.9)),
+            max_steps=int(policy.get("max_steps", 1)),
+            max_cost=float(policy.get("max_cost", 1.0)),
+            cost_weight=float(policy.get("cost_weight", 1.0)),
+        ).to_dict()
+        artifact["acquisition_loop"] = loop
+        if loop["steps"] and loop["status"] not in {
+            "blocked_invalid_observation",
+            "deferred_no_positive_affordable_action",
+        }:
+            artifact["selected_action"] = AgentAction.DELIBERATE.value
+            artifact["action_target"] = (
+                "rerun evidence review, repair, and quality gate with acquired evidence"
+            )
+        else:
+            artifact["selected_action"] = AgentAction.DEFER_TO_HUMAN.value
+            artifact["action_target"] = "resolve failed or exhausted evidence acquisition"
+        artifact["observed_information_gain_bits"] = sum(
+            step["observed_information_gain"] for step in loop["steps"]
+        )
+        artifact["governance_note"] = (
+            "Belief threshold cannot bypass B/C/D reverification or qualified review."
+        )
     return artifact

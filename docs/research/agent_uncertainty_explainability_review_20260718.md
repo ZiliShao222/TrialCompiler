@@ -97,9 +97,9 @@ TrialCompiler 处理的是临床研究文档，而不是患者诊断，因此不
 
 已具备：来源绑定、文档图、确定性 finding、负对照、候选 patch 沙箱、决策请求、完整 trace、携证阻断与重放基础。
 
-已新增研究底座：有限假设 belief state、显式 observation-to-posterior 模型、成本感知 EIG 选证、实际 observation 后的熵变化记录、commit/acquire/defer 停止策略，以及 Brier、ECE、risk–coverage/AURC、成对排序准确率、necessity flip rate 和 contrastive sensitivity 的可复现实验评估器。评估器会在混合或非 test split 上拒绝允许校准声明，未知 observation 也不能静默更新 belief。
+已新增研究底座：有限假设 belief state、显式 observation-to-posterior 模型、成本感知 EIG 选证、实际 observation 后的熵变化记录、commit/acquire/defer 停止策略，以及 Brier、ECE、risk–coverage/AURC、成对排序准确率、necessity flip rate 和 contrastive sensitivity 的可复现实验评估器。受治理取证执行器限制允许 action、最大步骤和最大成本，记录来源 ID、版本、内容 SHA-256 与实际信息增益；重复访问、未知 observation 和预算耗尽均失败关闭。评估器会在混合或非 test split 上拒绝允许校准声明。
 
-尚未具备：真实多采样 UQ、冻结的独立 calibration/test 数据集、learned trajectory calibrator、由真实工具或专家标注估计的 observation model、多轮真实主动取证实验，以及具有统计功效的解释 faithfulness benchmark。当前主动取证闭环是 deterministic experiment harness，不等于真实世界策略已验证。
+尚未具备：真实多采样 UQ、冻结的独立 calibration/test 数据集、learned trajectory calibrator、由外部真实工具或专家标注估计的 observation model、多轮真实来源主动取证实验，以及具有统计功效的解释 faithfulness benchmark。当前 API 闭环使用显式允许列表与合成 observation；它验证了治理和计算链路，不等于真实世界策略已验证。取证后即使 belief 越过阈值，也必须重新进入 B/C/D 验证，不能直接绕过质量门提交。
 
 因此当前代码已经能够执行和评价 deterministic UQ/XAI 实验协议，但不能宣称已经完成真实模型或真实世界 UQ/XAI 验证。`simulated reviewer confidence` 是规则分数，必须从 calibration 结果中排除。
 

@@ -40,6 +40,7 @@ class ReviewWorkflowState(TypedDict, total=False):
     max_rounds: int
     trace: list[dict[str, Any]]
     uncertainty_artifact: dict[str, Any]
+    evidence_acquisition: dict[str, Any]
 
 
 class ReviewWorkflow:
@@ -84,6 +85,10 @@ class ReviewWorkflow:
         artifact = build_workflow_uncertainty_artifact(state)
         return {
             "uncertainty_artifact": artifact,
+            "evidence_acquisition": {
+                "provided": bool(state.get("evidence_acquisition")),
+                "raw_content_retained": False,
+            },
             "trace": state.get("trace", [])
             + [
                 asdict(
@@ -117,6 +122,7 @@ class ReviewWorkflow:
         semantic_repairs: dict[str, Any] | None = None,
         change_context: dict[str, Any] | None = None,
         impact_matrix: list[dict[str, Any]] | None = None,
+        evidence_acquisition: dict[str, Any] | None = None,
     ) -> ReviewWorkflowState:
         initial: ReviewWorkflowState = {
             "document": document.to_dict(),
@@ -126,6 +132,7 @@ class ReviewWorkflow:
             or {"status": "not_run", "reason": "No semantic repair builder supplied"},
             "change_context": change_context,
             "impact_matrix": impact_matrix or [],
+            "evidence_acquisition": evidence_acquisition or {},
             "round_index": 0,
             "max_rounds": max_rounds,
             "trace": [],

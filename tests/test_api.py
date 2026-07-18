@@ -52,6 +52,41 @@ class ApiTests(unittest.TestCase):
                 self.assertEqual(response.status_code, 200)
                 self.assertTrue(response.json()["accepted"])
 
+    def test_review_api_executes_governed_acquisition_without_bypassing_recheck(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            app = create_app(Path(temp_dir) / "memory.sqlite3")
+            document = json.loads(
+                (ROOT / "data/fixtures/synthetic_protocol_conflict.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            acquisition = json.loads(
+                (ROOT / "data/fixtures/evidence_acquisition_demo.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            with TestClient(app) as client:
+                response = client.post(
+                    "/api/v1/review",
+                    json={"document": document, "evidence_acquisition": acquisition},
+                )
+                self.assertEqual(response.status_code, 200)
+                artifact = response.json()["uncertainty_artifact"]
+                self.assertEqual(artifact["selected_action"], "deliberate")
+                self.assertEqual(
+                    artifact["acquisition_loop"]["final_decision"]["action"],
+                    "commit_candidate",
+                )
+                self.assertIn("cannot bypass", artifact["governance_note"])
+                self.assertEqual(
+                    response.json()["evidence_acquisition"],
+                    {"provided": True, "raw_content_retained": False},
+                )
+                self.assertNotIn(
+                    "Synthetic demonstration evidence",
+                    json.dumps(response.json(), ensure_ascii=False),
+                )
+
 
 if __name__ == "__main__":
     unittest.main()

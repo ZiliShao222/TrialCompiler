@@ -1,0 +1,42 @@
+{
+  "prior": {
+    "protocol_governs": 0.5,
+    "sap_governs": 0.5
+  },
+  "options": [
+    {
+      "action_id": "fetch-signed-amendment",
+      "evidence_target": "signed amendment",
+      "observation_probabilities": {
+        "protocol": 0.5,
+        "sap": 0.5
+      },
+      "posterior_by_observation": {
+        "protocol": {
+          "protocol_governs": 0.95,
+          "sap_governs": 0.05
+        },
+        "sap": {
+          "protocol_governs": 0.05,
+          "sap_governs": 0.95
+        }
+      },
+      "acquisition_cost": 0.2
+    }
+  ],
+  "observations": [
+    {
+      "action_id": "fetch-signed-amendment",
+      "source_id": "SRC-DEMO-AMENDMENT",
+      "source_version": "signed-v2",
+      "observation": "protocol",
+      "content": "Synthetic demonstration evidence: the signed amendment selects the protocol hypothesis."
+    }
+  ],
+  "policy": {
+    "commit_threshold": 0.9,
+    "max_steps": 1,
+    "max_cost": 0.5,
+    "cost_weight": 1.0
+  }
+}

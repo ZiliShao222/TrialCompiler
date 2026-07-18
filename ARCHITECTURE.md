@@ -82,6 +82,7 @@ than untracked free-form conversation.
 
 - A-G review orchestration: `src/trialcompiler/workflows/review.py`
 - Workflow uncertainty translation: `src/trialcompiler/workflows/uncertainty.py`
+- Allowlisted, budgeted evidence acquisition: `src/trialcompiler/evidence/acquisition.py`
 - Role implementations: `src/trialcompiler/agents/review_agents.py`
 - Generative protocol workflow: `src/trialcompiler/generation/workflow.py`
 - Phase-specific validators: `src/trialcompiler/generation/validators.py`

@@ -54,7 +54,11 @@ def create_app(db_path: str | Path | None = None) -> FastAPI:
         try:
             document_payload = payload.get("document", payload)
             document = TrialDocument.from_dict(document_payload)
-            state = workflow.run(document, max_rounds=int(payload.get("max_rounds", 2)))
+            state = workflow.run(
+                document,
+                max_rounds=int(payload.get("max_rounds", 2)),
+                evidence_acquisition=payload.get("evidence_acquisition"),
+            )
             return to_plain(state)
         except (KeyError, TypeError, ValueError) as exc:
             raise HTTPException(status_code=422, detail=str(exc)) from exc
