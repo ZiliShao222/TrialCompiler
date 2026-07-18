@@ -1,20 +1,24 @@
 # TrialCompiler
 
-## Research thesis: explainable uncertainty compilation
+## Research thesis: uncertainty-guided evidence acquisition
 
 TrialCompiler is not a workflow product with an LLM attached. Its central AI
 question is: **how can a probabilistic model reason actively over incomplete and
 conflicting clinical documents while making its uncertainty inspectable and
 preventing fluency from becoming authority?**
 
-The system separates an AI hypothesis plane from a proof-carrying compilation
-plane. The AI plane performs cross-document semantic hypothesis formation,
-evidence acquisition, competing-interpretation comparison, and uncertainty
-estimation. Uncertainty is not reduced to one confidence number: it is typed as
-missing evidence, source conflict, semantic ambiguity, model disagreement,
-unknown impact scope, or insufficient authority. Its explanation must include
-supporting and opposing evidence, affected sections, counterfactual tests, and
-the reason for escalating to a qualified human.
+The research target is not a free-form confidence label. TrialCompiler models a
+document-review run as an action-observation trajectory: the latent state is the
+canonical fact that should govern a document set; protocols, SAPs, consent
+forms, registries, tools and reviewers provide heterogeneous observations. The
+agent must decide whether to acquire another observation, deliberate, abstain,
+defer, or submit a candidate patch. We distinguish reducible epistemic
+uncertainty from irreducible environmental stochasticity, and distinguish where
+uncertainty resides: observation, belief state, action, or trajectory outcome.
+
+Missing evidence and source disagreement are treated as diagnostic signals,
+not as canonical uncertainty classes. A numeric score is never called
+calibrated unless it names a calibrator, target event and calibration dataset.
 
 The compilation plane checks provenance, minimum edit scope, cross-artifact
 invariants, sandbox regressions, negative controls, unresolved decision debt,
@@ -22,8 +26,10 @@ and qualified-human release gates. An AI result is useful only when it arrives
 as a falsifiable claim with evidence and a testable patch. If it cannot prove a
 unique safe revision, the uncertainty becomes an explicit decision request.
 Thus the graph, rules, state machine and audit trail are the safety substrate;
-the research contribution is compiling probabilistic reasoning into an
-explainable, machine-verifiable assurance case.
+the research question is whether uncertainty-guided evidence acquisition can
+improve selective patch accuracy per unit review cost. Explanations are tested
+behaviorally by removing or replacing cited evidence and replaying the decision;
+the model's own rationale is not presumed faithful.
 
 TrialCompiler is an early-stage research and product prototype for compiling,
 reviewing, testing, and incrementally updating clinical trial protocols and

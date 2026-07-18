@@ -9,13 +9,19 @@ an uncertainty-aware reasoning protocol:
 uncertainty -> propose minimal patch -> sandbox falsification -> emit assurance
 case or qualified decision debt`.
 
-The probabilistic layer handles semantic equivalence, implicit conflicts,
-relevance-directed evidence acquisition and competing interpretations. The
-deterministic layer compiles those claims against source authority, provenance,
-document-graph impact, negative controls and release policy. Each uncertainty
-explanation is operational: it states what is unknown, why it is unknown, which
-evidence supports or opposes each hypothesis, what observation would resolve
-it, and why the system repaired, searched, abstained or escalated.
+The probabilistic layer maintains a finite approximation to a belief over
+candidate canonical facts. Evidence-acquisition actions are ranked by expected
+entropy reduction minus acquisition cost. Estimates explicitly name their
+target event and locus; raw answer instability, source disagreement and
+verifier disagreement remain signals rather than probabilities of correctness.
+The deterministic layer compiles candidate actions against source authority,
+provenance, document-graph impact, negative controls and release policy.
+
+Explainability has three deliberately separate meanings here: provenance says
+which evidence was present; observability records the trajectory; behavioral
+faithfulness is tested by evidence-removal/replacement replay. None of these
+claims access to the model's internal causal mechanism, and free-form chain of
+thought is not treated as a faithful explanation.
 
 Every run can emit `trialcompiler.assurance/v1`, binding exact state by digest
 and checking cross-artifact consistency, patch provenance, unresolved-finding
