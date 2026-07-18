@@ -9,3 +9,6 @@
 *.toml text eol=lf
 *.sh text eol=lf
 *.ps1 text eol=crlf
+
+# Research artifacts are binary; never generate misleading line diffs.
+*.pdf binary
