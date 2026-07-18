@@ -1,10 +1,10 @@
 {
   "case_id": "NCT04683926",
   "gold_version": "reviewed-1.0",
-  "gold_path": "D:\\TrialCompiler\\benchmarks\\trialdocbench\\public_case_001_nct04683926\\gold\\gold_tests.json",
-  "run_path": "D:\\TrialCompiler\\outputs\\nct04683926_rule_breakthrough_20260718\\run-deterministic-v2",
-  "workflow_state_path": "D:\\TrialCompiler\\outputs\\nct04683926_rule_breakthrough_20260718\\run-deterministic-v2\\workflow_state.json",
-  "run_summary_path": "D:\\TrialCompiler\\outputs\\nct04683926_rule_breakthrough_20260718\\run-deterministic-v2\\run_summary.json",
+  "gold_path": "benchmarks/trialdocbench/public_case_001_nct04683926/gold/gold_tests.json",
+  "run_path": "outputs/nct04683926_rule_breakthrough_20260718/run-deterministic-v2",
+  "workflow_state_path": "outputs/nct04683926_rule_breakthrough_20260718/run-deterministic-v2/workflow_state.json",
+  "run_summary_path": "outputs/nct04683926_rule_breakthrough_20260718/run-deterministic-v2/run_summary.json",
   "metric_basis": {
     "true_positive": "positive gold tests with a complete case-specific semantic match",
     "false_positive": "negative-control violations plus reportable findings not semantically matched to any positive gold test",

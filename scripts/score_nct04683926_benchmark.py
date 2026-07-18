@@ -401,6 +401,16 @@ def _gold_path(benchmark: Path) -> Path:
     return path
 
 
+def _portable_path(path: Path) -> str:
+    """Prefer repository-relative POSIX paths while preserving external paths."""
+
+    resolved = path.resolve()
+    try:
+        return resolved.relative_to(Path.cwd().resolve()).as_posix()
+    except ValueError:
+        return str(resolved)
+
+
 def score_benchmark(benchmark: Path, run: Path) -> dict[str, Any]:
     gold_path = _gold_path(benchmark)
     gold = json.loads(gold_path.read_text(encoding="utf-8"))
@@ -522,10 +532,10 @@ def score_benchmark(benchmark: Path, run: Path) -> dict[str, Any]:
     return {
         "case_id": gold.get("case_id"),
         "gold_version": gold.get("gold_version"),
-        "gold_path": str(gold_path),
-        "run_path": str(run_dir),
-        "workflow_state_path": str(run_dir / "workflow_state.json"),
-        "run_summary_path": str(run_dir / "run_summary.json"),
+        "gold_path": _portable_path(gold_path),
+        "run_path": _portable_path(run_dir),
+        "workflow_state_path": _portable_path(run_dir / "workflow_state.json"),
+        "run_summary_path": _portable_path(run_dir / "run_summary.json"),
         "metric_basis": {
             "true_positive": "positive gold tests with a complete case-specific semantic match",
             "false_positive": (
