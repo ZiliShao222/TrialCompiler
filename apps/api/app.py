@@ -9,6 +9,7 @@ from typing import Any
 
 from fastapi import FastAPI, HTTPException
 
+from trialcompiler import __version__
 from trialcompiler.integrations.feishu import aily_acknowledgement, validate_aily_payload
 from trialcompiler.memory import RetrievalQuery, SemanticElementStore
 from trialcompiler.models import TrialDocument, to_plain
@@ -31,7 +32,7 @@ def create_app(db_path: str | Path | None = None) -> FastAPI:
 
     api = FastAPI(
         title="TrialCompiler MVP API",
-        version="0.1.0",
+        version=__version__,
         description="Review-only prototype. Every proposal requires qualified human approval.",
         lifespan=lifespan,
     )

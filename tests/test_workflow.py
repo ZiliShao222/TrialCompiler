@@ -204,7 +204,10 @@ class ReviewWorkflowTests(unittest.TestCase):
                     for finding_id in request["finding_ids"]
                 }
                 self.assertIn("semantic-001", decision_finding_ids)
-                self.assertIn("week-conflict-F-PRIMARY-ENDPOINT-WEEK-S-SYNOPSIS", decision_finding_ids)
+                self.assertIn(
+                    "week-conflict-F-PRIMARY-ENDPOINT-WEEK-S-SYNOPSIS",
+                    decision_finding_ids,
+                )
                 self.assertFalse(state["repair_conflicts"])
                 self.assertEqual("awaiting_qualified_decisions", state["workflow_status"])
                 self.assertIsNone(state["experience_candidate"])

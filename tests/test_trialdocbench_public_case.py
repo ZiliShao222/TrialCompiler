@@ -3,7 +3,6 @@ import json
 import unittest
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 CASE_ROOT = (
     ROOT / "benchmarks" / "trialdocbench" / "public_case_001_nct04683926"

@@ -31,7 +31,9 @@ outputs/*
 logs/
 tmp/
 .tmp/
+.tmp_*/
 .tmp_attachment_review/
+*.xps
 
 # Local or sensitive data
 data/raw/

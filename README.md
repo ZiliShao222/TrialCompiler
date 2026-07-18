@@ -74,6 +74,13 @@ src/trialcompiler/       Python implementation
 tests/                   Unit, integration, workflow, and benchmark tests
 ```
 
+For component boundaries, dependency direction, governed data flows, and the
+mapping from architecture concepts to implementation modules, see
+[`ARCHITECTURE.md`](ARCHITECTURE.md).
+
+Repository contribution and security guidance are documented in
+[`CONTRIBUTING.md`](CONTRIBUTING.md) and [`SECURITY.md`](SECURITY.md).
+
 ## Documentation
 
 - Competition submission set, each document containing a concise form-ready
@@ -181,46 +188,51 @@ tests/                   Unit, integration, workflow, and benchmark tests
 
 ## Quick Start
 
-The current development environment is `D:\miniconda\envs\iGEM`.
+TrialCompiler requires Python 3.11 or later. Create an isolated environment and
+install the package with its development dependencies:
 
 ```powershell
-cd D:\TrialCompiler
-$env:PYTHONPATH = "src"
+git clone https://github.com/ZiliShao222/TrialCompiler.git
+cd TrialCompiler
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
 
 # Build and initialize a reproducible multi-document case
-D:\miniconda\envs\iGEM\python.exe scripts\build_trialdocbench_fixture.py
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler init `
+python scripts\build_trialdocbench_fixture.py
+python -m trialcompiler init `
   --workspace outputs\workspaces\trialdocbench `
   --document data\fixtures\trialdocbench_case_001.json
 
 # Inspect facts and create a governed candidate change
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler facts `
+python -m trialcompiler facts `
   --workspace outputs\workspaces\trialdocbench
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler change `
+python -m trialcompiler change `
   --workspace outputs\workspaces\trialdocbench `
   --fact-id FACT-TIMEPOINT-001 --value 16 `
   --reason "Evaluate a proposed Week 16 primary endpoint"
 
 # Compile deterministic checks plus Qwen semantic review
 $env:DASHSCOPE_API_KEY = "<your-key>"
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler compile `
+python -m trialcompiler compile `
   --workspace outputs\workspaces\trialdocbench `
   --llm on --llm-model qwen-plus
 
 # Inspect the audit trail. Applying or rejecting a change remains explicit.
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler audit `
+python -m trialcompiler audit `
   --workspace outputs\workspaces\trialdocbench
 
 # Alternatively, use the guided terminal workspace.
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler workspace `
+python -m trialcompiler workspace `
   --workspace outputs\workspaces\guided-demo
 
 # Validate the Feishu Aily hand-off contract
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler feishu-intake `
+python -m trialcompiler feishu-intake `
   --payload data/fixtures/feishu_aily_intake.json
 
 # Start the API
-D:\miniconda\envs\iGEM\python.exe -m uvicorn apps.api.app:app `
+python -m uvicorn apps.api.app:app `
   --host 127.0.0.1 --port 8810
 ```
 
@@ -241,20 +253,20 @@ $env:PYTHONPATH = "src"
 $package = "docs\TrialCompiler_Generative_Protocol_Test_Metformin_PAD_v1.0\TrialCompiler_Generative_Protocol_Test_Metformin_PAD"
 
 # Phase 1: evidence matrix, synopsis, questions, and candidate facts
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler generate-protocol `
+python -m trialcompiler generate-protocol `
   --phase phase1 --package $package `
   --output outputs\metformin_pad_phase1 `
   --llm-model qwen-plus --env-file D:\path\outside-repo\.env.local
 
 # Phase 2: reconcile sponsor/regulatory/site feedback and revise the full package
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler generate-protocol `
+python -m trialcompiler generate-protocol `
   --phase phase2 --package $package `
   --phase1-run outputs\metformin_pad_phase1\run.json `
   --output outputs\metformin_pad_phase2 `
   --llm-model qwen-plus --env-file D:\path\outside-repo\.env.local
 
 # Blind evaluation: evaluator-only references become visible only here
-D:\miniconda\envs\iGEM\python.exe -m trialcompiler evaluate-protocol `
+python -m trialcompiler evaluate-protocol `
   --package $package `
   --phase1-run outputs\metformin_pad_phase1\run.json `
   --phase2-run outputs\metformin_pad_phase2\run.json `
@@ -282,7 +294,8 @@ endpoints are:
 
 ```powershell
 $env:PYTHONPATH = "src"
-D:\miniconda\envs\iGEM\python.exe -m unittest discover -s tests -v
+python -m pytest -q
+python -m ruff check src tests
 ```
 
 The synthetic case intentionally sets the approved primary-endpoint assessment
