@@ -14,7 +14,11 @@ from typing import Any
 
 from trialcompiler.demo import load_document, seed_demo_experience
 from trialcompiler.documents import ClinicalDocumentGraph
-from trialcompiler.generation import GenerativeCasePackage, ProtocolGenerationWorkflow
+from trialcompiler.generation import (
+    BlindProtocolEvaluator,
+    GenerativeCasePackage,
+    ProtocolGenerationWorkflow,
+)
 from trialcompiler.integrations.feishu import aily_acknowledgement, validate_aily_payload
 from trialcompiler.llm import (
     LLMConfig,
@@ -465,16 +469,68 @@ def run_package_audit(args: argparse.Namespace) -> int:
 
 def run_generate_protocol(args: argparse.Namespace) -> int:
     package = GenerativeCasePackage(args.package)
-    config = LLMConfig.from_env(
-        model=args.llm_model,
-        timeout_seconds=args.timeout_seconds,
+    config = (
+        LLMConfig.from_env_file(
+            args.env_file,
+            model=args.llm_model,
+            timeout_seconds=args.timeout_seconds,
+        )
+        if args.env_file
+        else LLMConfig.from_env(
+            model=args.llm_model,
+            timeout_seconds=args.timeout_seconds,
+        )
     )
     workflow = ProtocolGenerationWorkflow(
         package=package,
         client=OpenAICompatibleClient(config),
         prompt_root=GENERATION_PROMPT_ROOT,
     )
-    _json_print(workflow.run_phase1(args.output, full=not args.plan_only))
+    if args.phase == "phase2":
+        if args.plan_only:
+            raise ValueError(
+                "--plan-only is only supported for Phase 1; Phase 2 must run the "
+                "complete reconciliation, revision, artifact, and quality-gate chain"
+            )
+        if not args.phase1_run:
+            raise ValueError("--phase1-run is required when --phase phase2")
+        result = workflow.run_phase2(
+            args.output,
+            phase1_run=args.phase1_run,
+            full=not args.plan_only,
+        )
+    else:
+        result = workflow.run_phase1(args.output, full=not args.plan_only)
+    _json_print(result)
+    return 0
+
+
+def run_evaluate_protocol(args: argparse.Namespace) -> int:
+    package = GenerativeCasePackage(args.package)
+    config = (
+        LLMConfig.from_env_file(
+            args.env_file,
+            model=args.llm_model,
+            timeout_seconds=args.timeout_seconds,
+        )
+        if args.env_file
+        else LLMConfig.from_env(
+            model=args.llm_model,
+            timeout_seconds=args.timeout_seconds,
+        )
+    )
+    evaluator = BlindProtocolEvaluator(
+        package=package,
+        client=OpenAICompatibleClient(config),
+        prompt_path=GENERATION_PROMPT_ROOT / "G8_blind_benchmark_evaluator.md",
+    )
+    _json_print(
+        evaluator.evaluate(
+            args.output,
+            phase1_run=args.phase1_run,
+            phase2_run=args.phase2_run,
+        )
+    )
     return 0
 
 
@@ -611,18 +667,43 @@ def build_parser() -> argparse.ArgumentParser:
 
     generate = subparsers.add_parser(
         "generate-protocol",
-        help="Run the controlled Phase 1 protocol-generation workflow",
+        help="Run a controlled Phase 1 generation or Phase 2 incremental revision",
     )
     generate.add_argument("--package", required=True)
     generate.add_argument("--output", default="outputs/generative_protocol/phase1")
     generate.add_argument("--llm-model", default="qwen-plus")
+    generate.add_argument(
+        "--env-file",
+        help="External dotenv file containing DASHSCOPE_API_KEY; never copied to outputs",
+    )
     generate.add_argument("--timeout-seconds", type=int, default=180)
+    generate.add_argument("--phase", choices=["phase1", "phase2"], default="phase1")
+    generate.add_argument(
+        "--phase1-run",
+        help="Phase 1 output directory or run.json; required for Phase 2",
+    )
     generate.add_argument(
         "--plan-only",
         action="store_true",
         help="Generate evidence plan and synopsis without the full section set",
     )
     generate.set_defaults(handler=run_generate_protocol)
+
+    evaluate = subparsers.add_parser(
+        "evaluate-protocol",
+        help="Blind-score frozen Phase 1/2 outputs with evaluator-only benchmark material",
+    )
+    evaluate.add_argument("--package", required=True)
+    evaluate.add_argument("--phase1-run", required=True)
+    evaluate.add_argument("--phase2-run", required=True)
+    evaluate.add_argument("--output", default="outputs/generative_protocol/evaluation")
+    evaluate.add_argument("--llm-model", default="qwen-plus")
+    evaluate.add_argument(
+        "--env-file",
+        help="External dotenv file containing DASHSCOPE_API_KEY; never copied to outputs",
+    )
+    evaluate.add_argument("--timeout-seconds", type=int, default=180)
+    evaluate.set_defaults(handler=run_evaluate_protocol)
     return parser
 
 

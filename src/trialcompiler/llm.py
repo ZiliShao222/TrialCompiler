@@ -45,6 +45,38 @@ class LLMConfig:
             timeout_seconds=timeout_seconds,
         )
 
+    @classmethod
+    def from_env_file(
+        cls,
+        path: str | Path,
+        *,
+        model: str = "qwen-plus",
+        base_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        api_key_env: str = "DASHSCOPE_API_KEY",
+        timeout_seconds: int = 90,
+    ) -> LLMConfig:
+        """Load one API credential from an external dotenv file without logging it."""
+        env_path = Path(path)
+        if not env_path.is_file():
+            raise ValueError(f"LLM environment file does not exist: {env_path}")
+        api_key = ""
+        for raw_line in env_path.read_text(encoding="utf-8-sig").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            name, value = line.split("=", 1)
+            if name.strip() == api_key_env:
+                api_key = value.strip().strip("\"'")
+                break
+        if not api_key:
+            raise ValueError(f"{api_key_env} is not configured in {env_path}")
+        return cls(
+            base_url=base_url,
+            api_key=api_key,
+            model=model,
+            timeout_seconds=timeout_seconds,
+        )
+
 
 class OpenAICompatibleClient:
     def __init__(self, config: LLMConfig) -> None:

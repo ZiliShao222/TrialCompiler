@@ -1,0 +1,346 @@
+{
+  "case_id": "NCT04683926",
+  "gold_version": "reviewed-1.0",
+  "gold_path": "D:\\TrialCompiler\\benchmarks\\trialdocbench\\public_case_001_nct04683926\\gold\\gold_tests.json",
+  "run_path": "D:\\TrialCompiler\\outputs\\nct04683926_adjusted_v2_20260718\\runs\\run-20260717180303-10544e",
+  "workflow_state_path": "D:\\TrialCompiler\\outputs\\nct04683926_adjusted_v2_20260718\\runs\\run-20260717180303-10544e\\workflow_state.json",
+  "run_summary_path": "D:\\TrialCompiler\\outputs\\nct04683926_adjusted_v2_20260718\\runs\\run-20260717180303-10544e\\run_summary.json",
+  "metric_basis": {
+    "true_positive": "positive gold tests with a complete case-specific semantic match",
+    "false_positive": "negative-control violations plus reportable findings not semantically matched to any positive gold test",
+    "false_negative": "positive gold tests without a complete semantic match"
+  },
+  "counts": {
+    "true_positive": 4,
+    "false_positive": 2,
+    "false_negative": 4,
+    "true_negative": 1,
+    "negative_control_false_positive": 1
+  },
+  "precision": 0.6666666666666666,
+  "recall": 0.5,
+  "f1": 0.5714285714285715,
+  "negative_control_accuracy": 0.5,
+  "unmatched_reportable_findings": [
+    "semantic-004"
+  ],
+  "tests": [
+    {
+      "gold_id": "TC-SD-001",
+      "control_type": "positive",
+      "expected": "hard_operational_instruction_conflict",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-002"
+      ],
+      "evidence": [
+        {
+          "finding_id": "semantic-002",
+          "checks": [
+            {
+              "name": "fact_anchor",
+              "passed": true,
+              "detail": "finding references water-restriction fact F018"
+            },
+            {
+              "name": "both_instructions",
+              "passed": true,
+              "detail": "finding states both 'no water' and 'only water/water allowed' instructions"
+            },
+            {
+              "name": "logical_relation",
+              "passed": true,
+              "detail": "finding identifies the two instructions as contradictory"
+            },
+            {
+              "name": "human_gate",
+              "passed": true,
+              "detail": "finding requires human review"
+            }
+          ],
+          "message": "Water restriction is described inconsistently: Protocol Synopsis and SAP state 'no water is allowed one hour before and one hour after dosing' (F018), while Protocol Body states 'only water allowed one hour before and one hour after dosing' (F018). These are logically contradictory — one prohibits water, the other mandates it. The conflict affects participant burden description (ICF-PARTICIPATION) and safety interpretation."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-SD-002",
+      "control_type": "positive",
+      "expected": "numeric_boundary_inconsistency",
+      "matched": false,
+      "correct": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding with the required structured anchor was present"
+        }
+      ],
+      "checks": [
+        {
+          "name": "semantic_match",
+          "passed": false,
+          "detail": "no finding passed every case-specific semantic condition"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-XD-001",
+      "control_type": "positive",
+      "expected": "duration_definition_difference",
+      "matched": false,
+      "correct": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding with the required structured anchor was present"
+        }
+      ],
+      "checks": [
+        {
+          "name": "semantic_match",
+          "passed": false,
+          "detail": "no finding passed every case-specific semantic condition"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-XD-002",
+      "control_type": "positive",
+      "expected": "inclusive_boundary_or_participant_language_difference",
+      "matched": false,
+      "correct": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding with the required structured anchor was present"
+        }
+      ],
+      "checks": [
+        {
+          "name": "semantic_match",
+          "passed": false,
+          "detail": "no finding passed every case-specific semantic condition"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-XD-003",
+      "control_type": "negative_control",
+      "expected": "do_not_report_as_conflict",
+      "matched": false,
+      "correct": false,
+      "violation_detected": true,
+      "matching_finding_ids": [
+        "semantic-001"
+      ],
+      "evidence": [
+        {
+          "finding_id": "semantic-001",
+          "checks": [
+            {
+              "name": "fact_anchor",
+              "passed": true,
+              "detail": "finding references a time-axis fact"
+            },
+            {
+              "name": "dual_axes",
+              "passed": true,
+              "detail": "finding discusses continuous and period-specific axes"
+            },
+            {
+              "name": "reported_as_problem",
+              "passed": true,
+              "detail": "finding reports the valid mapping as a conflict/ambiguity requiring review"
+            }
+          ],
+          "message": "Protocol uses continuous Day -1 to Day 11 timeline (F022), while SAP and CRF represent the crossover as four separate periods with dosing on 'Day 1' per period (F023). This creates semantic ambiguity in interpreting PK sampling times: '32 hours post-dose' (F015 prior value) is unambiguously anchored to dose time in continuous timeline, but becomes ambiguous when mapped to period-specific 'Day 1' without explicit time-zero anchoring in CRF or SAP. No section resolves whether '32 hours' (or proposed '36 hours') is measured from actual dose time or from nominal 'Day 1, 00:00'."
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-XD-004",
+      "control_type": "positive",
+      "expected": "scope_aware_population_mapping_review",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-003"
+      ],
+      "evidence": [
+        {
+          "finding_id": "semantic-003",
+          "checks": [
+            {
+              "name": "population_anchor",
+              "passed": true,
+              "detail": "finding references the PP/evaluable population facts"
+            },
+            {
+              "name": "population_concepts",
+              "passed": true,
+              "detail": "finding relates population mapping to the SAP safety-only scope"
+            },
+            {
+              "name": "expert_review",
+              "passed": true,
+              "detail": "finding defers mapping/merge to qualified review"
+            }
+          ],
+          "message": "SAP-DESIGN states 'The SAP is limited to safety analysis' (F024), yet SAP-PK-SPEC and PROT-POPULATIONS define and rely on Evaluable Population (F021) for dose proportionality and food-effect analyses — primary objectives (F013). No section reconciles how PK analyses (core to study objectives) are accommodated within a safety-limited SAP, nor clarifies whether PK analysis rules originate from SAP or Protocol."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-VS-001",
+      "control_type": "negative_control",
+      "expected": "do_not_report_as_conflict",
+      "matched": true,
+      "correct": true,
+      "violation_detected": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding semantically reports this valid distinction as a conflict"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-TR-001",
+      "control_type": "positive",
+      "expected": "complete_source_trace",
+      "matched": false,
+      "correct": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding with the required structured anchor was present"
+        }
+      ],
+      "checks": [
+        {
+          "name": "semantic_match",
+          "passed": false,
+          "detail": "no finding passed every case-specific semantic condition"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-MUT-001",
+      "control_type": "positive",
+      "expected": "synthetic_change_impact",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "change-impact-F015-CRF-PK",
+        "change-impact-F015-ICF-PARTICIPATION",
+        "change-impact-F015-PROT-BODY-PROCEDURES",
+        "change-impact-F015-PROT-SCHEDULE",
+        "change-impact-F015-PROT-SYNOPSIS",
+        "change-impact-F015-REG-RESULTS",
+        "change-impact-F015-SAP-PK-SPEC"
+      ],
+      "evidence": [
+        {
+          "finding_id": "change-impact-F015-CRF-PK",
+          "section_ids": [
+            "CRF-PK"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-ICF-PARTICIPATION",
+          "section_ids": [
+            "ICF-PARTICIPATION"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-PROT-BODY-PROCEDURES",
+          "section_ids": [
+            "PROT-BODY-PROCEDURES"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-PROT-SCHEDULE",
+          "section_ids": [
+            "PROT-SCHEDULE"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-PROT-SYNOPSIS",
+          "section_ids": [
+            "PROT-SYNOPSIS"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-REG-RESULTS",
+          "section_ids": [
+            "REG-RESULTS"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-SAP-PK-SPEC",
+          "section_ids": [
+            "SAP-PK-SPEC"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        }
+      ],
+      "checks": [
+        {
+          "name": "old_new_relation",
+          "passed": true,
+          "detail": "one or more F015 findings explicitly relate 32 to 36 hours"
+        },
+        {
+          "name": "affected_classes",
+          "passed": true,
+          "detail": "covered=['crf', 'icf', 'protocol', 'registry_results', 'sap', 'schedule_of_activities']; required=['crf', 'icf', 'protocol', 'registry_results', 'sap', 'schedule_of_activities']"
+        },
+        {
+          "name": "original_preserved",
+          "passed": true,
+          "detail": "F015 keeps 32-hour previous_value and proposes 36 hours in version 2+"
+        },
+        {
+          "name": "human_approval",
+          "passed": true,
+          "detail": "F015 proposals remain gated for qualified human approval"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-QA-001",
+      "control_type": "positive",
+      "expected": "approval_gate",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "source": "workflow_state/run_summary",
+          "workflow_status": "awaiting_qualified_decisions",
+          "release_status": "requires_qualified_human_review"
+        }
+      ],
+      "checks": [
+        {
+          "name": "formal_document_gate",
+          "passed": true,
+          "detail": "run requires qualified decisions/review before formal release"
+        },
+        {
+          "name": "proposal_provenance",
+          "passed": true,
+          "detail": "every candidate proposal carries fact_ids and evidence_source_ids"
+        }
+      ]
+    }
+  ]
+}

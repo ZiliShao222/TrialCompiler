@@ -228,6 +228,48 @@ The full CLI command reference and artifact layout are documented in
 [`docs/cli_prototype_guide_zh.md`](docs/cli_prototype_guide_zh.md). The web UI is
 intentionally deferred until the terminal workflow and governance contract are stable.
 
+### Governed Protocol Generation Benchmark
+
+The generative benchmark uses a strict visibility boundary: Phase 1 and Phase 2
+can read only their designated AI-visible folders, while evaluator-only files
+are withheld until the generated outputs have been frozen. Keep API credentials
+in an external dotenv file; TrialCompiler reads the key without copying the file
+or its contents into run artifacts.
+
+```powershell
+$env:PYTHONPATH = "src"
+$package = "docs\TrialCompiler_Generative_Protocol_Test_Metformin_PAD_v1.0\TrialCompiler_Generative_Protocol_Test_Metformin_PAD"
+
+# Phase 1: evidence matrix, synopsis, questions, and candidate facts
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler generate-protocol `
+  --phase phase1 --package $package `
+  --output outputs\metformin_pad_phase1 `
+  --llm-model qwen-plus --env-file D:\path\outside-repo\.env.local
+
+# Phase 2: reconcile sponsor/regulatory/site feedback and revise the full package
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler generate-protocol `
+  --phase phase2 --package $package `
+  --phase1-run outputs\metformin_pad_phase1\run.json `
+  --output outputs\metformin_pad_phase2 `
+  --llm-model qwen-plus --env-file D:\path\outside-repo\.env.local
+
+# Blind evaluation: evaluator-only references become visible only here
+D:\miniconda\envs\iGEM\python.exe -m trialcompiler evaluate-protocol `
+  --package $package `
+  --phase1-run outputs\metformin_pad_phase1\run.json `
+  --phase2-run outputs\metformin_pad_phase2\run.json `
+  --output outputs\metformin_pad_evaluation `
+  --llm-model qwen-plus --env-file D:\path\outside-repo\.env.local
+```
+
+`--plan-only` is intentionally unavailable for Phase 2 because an incremental
+revision without actual generated sections would create a misleading completed
+run. Benchmark scores are simulation results, not clinical, statistical,
+regulatory, or quality approval. The current end-to-end validation results,
+known failures, simulated-reviewer findings, and machine-gate status are
+documented in
+[`docs/two_workflow_closure_report_zh.md`](docs/two_workflow_closure_report_zh.md).
+
 Open `http://127.0.0.1:8810/docs` for the generated API console. The main
 endpoints are:
 
