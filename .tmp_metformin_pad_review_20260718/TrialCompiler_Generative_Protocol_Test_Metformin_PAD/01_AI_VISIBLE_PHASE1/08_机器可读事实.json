@@ -1,0 +1,82 @@
+{
+  "case_id": "TC-GEN-MET-PAD-001",
+  "scientific_cutoff": "2021-11-11",
+  "regulatory_reference_date": "2026-07-18",
+  "drug": {
+    "inn": "metformin hydrochloride",
+    "formulation": "extended release",
+    "marketed_indication": "type 2 diabetes mellitus",
+    "proposed_indication": "walking impairment in non-diabetic symptomatic lower-extremity PAD"
+  },
+  "sponsor_constraints": {
+    "randomized_budget_range": [
+      180,
+      260
+    ],
+    "max_sites": 24,
+    "planned_regions": [
+      "United States",
+      "China"
+    ],
+    "recruitment_months": 18,
+    "max_treatment_weeks": 26,
+    "max_on_site_visits": 8
+  },
+  "must_decide": [
+    "phase",
+    "population",
+    "dose",
+    "comparator",
+    "primary_endpoint",
+    "timepoint",
+    "estimand",
+    "sample_size",
+    "randomization",
+    "safety_monitoring",
+    "NMPA_strategy",
+    "FDA_strategy",
+    "operations"
+  ],
+  "forbidden_hidden_terms": [
+    "NCT05132439",
+    "MOBILE IC",
+    "PMC9862509",
+    "CARB-012-20F",
+    "I01CX002150",
+    "PERMET 2026 results"
+  ],
+  "evidence_source_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12"
+  ],
+  "phase2_confirmed_decisions": {
+    "treatment_weeks": 24,
+    "followup_weeks": 52,
+    "target_dose_mg_day": 1000,
+    "titration_weeks": 2,
+    "randomized_cap": 220,
+    "china_target_min": 80,
+    "us_target_min": 100,
+    "egfr_min": 45,
+    "primary_endpoint": "change in 6-minute walk distance at Week 24"
+  }
+}

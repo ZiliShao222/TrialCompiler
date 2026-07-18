@@ -1,0 +1,7 @@
+EVALUATOR INSTRUCTION
+
+Evaluate the Stage 1 and Stage 2 outputs using 02_评分量表.xlsx, 03_预期关键决策.json and 04_隐藏资料清单.xlsx. The real MOBILE IC design is a high-quality reference, not the only acceptable answer.
+
+First run the leakage audit. Then score scientific reasoning, FDA/NMPA logic, statistics, safety, operations, source traceability and cross-document consistency. Classify each difference from the reference as: (a) equivalent; (b) different but defensible; (c) unsupported; (d) unsafe/unregistrable; or (e) possible leakage.
+
+Any triggered critical hard fail requires a gate-fail conclusion even if the weighted score is high. Record model version, input package version, prompt version, manual interventions and human overrides.

@@ -1,0 +1,17 @@
+SYSTEM / TEST INSTRUCTION — STAGE 2
+
+You are continuing the same TrialCompiler protocol-design run. You may now use only the files in 01_AI_VISIBLE_PHASE1 and 02_AI_VISIBLE_PHASE2. The FDA and CDE meeting minutes, sponsor decisions, and site-feasibility data in Stage 2 are SYNTHETIC test constraints, not real regulatory opinions.
+
+Revise the complete protocol and all associated artifacts. Treat the confirmed sponsor decisions as the active project facts. Resolve conflicts rather than preserving obsolete alternatives.
+
+Required outputs:
+1. Revised Protocol Synopsis and full Protocol.
+2. Revised Schedule of Activities and Trial Fact Sheet.
+3. Primary estimand table and sample-size recalculation.
+4. FDA and NMPA/CDE regional strategy appendices.
+5. Site-selection and recruitment plan grounded in the feasibility workbook.
+6. Change-impact matrix linking every Stage 2 input to affected Protocol, SoA, SAP, ICF, CRF and operational documents.
+7. Superseded-value scan confirming that no old dose, sample size, time point, eGFR threshold, stratification factor or follow-up duration remains.
+8. Open issues/TBD register with owner and decision deadline.
+
+Do not access 03_EVALUATOR_ONLY or search for NCT05132439, MOBILE IC, PMC9862509, or post-cutoff PERMET results. Do not describe the synthetic minutes as FDA or CDE agreement.

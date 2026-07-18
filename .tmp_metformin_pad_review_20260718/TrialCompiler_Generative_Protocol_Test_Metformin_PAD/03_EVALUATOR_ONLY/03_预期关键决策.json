@@ -1,0 +1,21 @@
+{
+  "source_id": "H01",
+  "nct_id": "NCT05132439",
+  "visibility": "EVALUATOR_ONLY",
+  "first_submitted": "2021-11-12",
+  "first_posted": "2021-11-24",
+  "reference_design": {
+    "randomized_n": 200,
+    "treatment": "metformin ER 1000 mg/day",
+    "comparator": "placebo",
+    "treatment_days": 180,
+    "primary_endpoint": "maximal walking distance on 6MWT at 6 months",
+    "followup_months": 12,
+    "stratification": [
+      "baseline maximum walking distance",
+      "smoking status"
+    ],
+    "egfr_exclusion_below": 45
+  },
+  "warning": "Do not expose to the generative model."
+}

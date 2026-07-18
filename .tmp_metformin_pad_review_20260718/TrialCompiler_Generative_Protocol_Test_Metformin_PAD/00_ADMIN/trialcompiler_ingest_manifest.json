@@ -1,0 +1,201 @@
+{
+  "case_id": "TC-GEN-MET-PAD-001",
+  "package_version": "1.0",
+  "scientific_cutoff": "2021-11-11",
+  "regulatory_reference_date": "2026-07-18",
+  "created_for": "TrialCompiler generative protocol test",
+  "files": [
+    {
+      "path": "00_ADMIN/00_README_测试说明.docx",
+      "visibility": "admin_or_source",
+      "extension": ".docx",
+      "synthetic": false,
+      "sha256": "2d6f8193e9682acc1e30a43fde5958f97d3bc8a4f16c0e84b817b3fa3ffcd644",
+      "size_bytes": 40803
+    },
+    {
+      "path": "00_ADMIN/00_包索引.xlsx",
+      "visibility": "admin_or_source",
+      "extension": ".xlsx",
+      "synthetic": false,
+      "sha256": "4852f89bddaeb400dee33a8f39a3e9809e7e469d323e89b0633434688dc57b6f",
+      "size_bytes": 8848
+    },
+    {
+      "path": "00_ADMIN/01_历史截断与泄漏控制规则.docx",
+      "visibility": "admin_or_source",
+      "extension": ".docx",
+      "synthetic": false,
+      "sha256": "c1f19ebc572a5a380115854d7d434483231c1db6321b2c10e14b2d55365068d8",
+      "size_bytes": 39986
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/01_任务书与项目简报.docx",
+      "visibility": "ai_visible_stage1",
+      "extension": ".docx",
+      "synthetic": true,
+      "sha256": "0cc44d71d174ad49dbd48470b51f717f9eb58b0e26d900b16950fd8d8e32891b",
+      "size_bytes": 41119
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/02_合成研究者手册摘要_Metformin_ER.docx",
+      "visibility": "ai_visible_stage1",
+      "extension": ".docx",
+      "synthetic": true,
+      "sha256": "668c663a38f152936805c11dec847d450964b72c7120567eca31db5d00539463",
+      "size_bytes": 41363
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/03_疾病_终点_既往证据包.docx",
+      "visibility": "ai_visible_stage1",
+      "extension": ".docx",
+      "synthetic": false,
+      "sha256": "2ccd6180fddf43d5efa508dc21fde08cd9c61c99dab9a0d9548af9b1a442e9d7",
+      "size_bytes": 42759
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/04_NMPA_FDA注册与临床运营约束.docx",
+      "visibility": "ai_visible_stage1",
+      "extension": ".docx",
+      "synthetic": false,
+      "sha256": "6e6757e27ef6cb58e9d73e520bd5f4443d39f9959caca31d2b7e90095669854d",
+      "size_bytes": 42299
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/05_Protocol结构模板_ICH_M11.docx",
+      "visibility": "ai_visible_stage1",
+      "extension": ".docx",
+      "synthetic": false,
+      "sha256": "3e6d56184b7c583a8fc515ceaea78409b953ec54b023b0d7ff4cf9a9c381ba94",
+      "size_bytes": 40430
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/06_资料清单与证据矩阵.xlsx",
+      "visibility": "ai_visible_stage1",
+      "extension": ".xlsx",
+      "synthetic": false,
+      "sha256": "75908d6cbd699d42abf618295ea14f4b05c3bce2052adfbbb8c3361e6964c30f",
+      "size_bytes": 18645
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/07_AI输入提示词.txt",
+      "visibility": "ai_visible_stage1",
+      "extension": ".txt",
+      "synthetic": false,
+      "sha256": "4bf619c239e5d7920447cbb8cd853dd460b77af131be094af0a60be1c57abcb7",
+      "size_bytes": 1621
+    },
+    {
+      "path": "01_AI_VISIBLE_PHASE1/08_机器可读事实.json",
+      "visibility": "ai_visible_stage1",
+      "extension": ".json",
+      "synthetic": false,
+      "sha256": "acf4bacee8d5e02581f4f61a37f4697831b17249b469b9dd4f286f55f97acd9e",
+      "size_bytes": 1638
+    },
+    {
+      "path": "02_AI_VISIBLE_PHASE2/01_模拟FDA_Type_B沟通纪要.docx",
+      "visibility": "ai_visible_stage2",
+      "extension": ".docx",
+      "synthetic": true,
+      "sha256": "edabf3091c9a249d86f019fb4255c8a1db2bf03ed2187cbdda8eb558ba47f4cd",
+      "size_bytes": 40027
+    },
+    {
+      "path": "02_AI_VISIBLE_PHASE2/02_模拟CDE沟通纪要.docx",
+      "visibility": "ai_visible_stage2",
+      "extension": ".docx",
+      "synthetic": true,
+      "sha256": "e00a0ed9cfb96e7b092670e4f31e47dd1a1f458d33d297a558312de161caabd6",
+      "size_bytes": 39866
+    },
+    {
+      "path": "02_AI_VISIBLE_PHASE2/03_中心可行性调查.xlsx",
+      "visibility": "ai_visible_stage2",
+      "extension": ".xlsx",
+      "synthetic": true,
+      "sha256": "b700a64ec46620e2938663088238911ce01ea0f580cbb7777143e93796a1bfa8",
+      "size_bytes": 12221
+    },
+    {
+      "path": "02_AI_VISIBLE_PHASE2/04_申办方阶段2决策记录.docx",
+      "visibility": "ai_visible_stage2",
+      "extension": ".docx",
+      "synthetic": true,
+      "sha256": "a09f116f8fe0305e5d90851688122acdf58f7581f2a59d4aa1041c15dea00f41",
+      "size_bytes": 39972
+    },
+    {
+      "path": "02_AI_VISIBLE_PHASE2/05_Phase2_AI输入提示词.txt",
+      "visibility": "ai_visible_stage2",
+      "extension": ".txt",
+      "synthetic": false,
+      "sha256": "817774e56c04f74a25bc4dc2fc34bd8c29b288512a7fb4dd146870a0cb58c774",
+      "size_bytes": 1339
+    },
+    {
+      "path": "03_EVALUATOR_ONLY/01_隐藏金标准与参考设计.docx",
+      "visibility": "evaluator_only",
+      "extension": ".docx",
+      "synthetic": false,
+      "sha256": "f77c0b2cadf4de5ea309ee810acd7ad580f58a9a6a11dbc23baed0ba7030eb33",
+      "size_bytes": 40504
+    },
+    {
+      "path": "03_EVALUATOR_ONLY/02_评分量表.xlsx",
+      "visibility": "evaluator_only",
+      "extension": ".xlsx",
+      "synthetic": false,
+      "sha256": "688340fb98325e3eef2651430beb3afa95a053c1510700246679aaec403ae5d4",
+      "size_bytes": 16264
+    },
+    {
+      "path": "03_EVALUATOR_ONLY/03_预期关键决策.json",
+      "visibility": "evaluator_only",
+      "extension": ".json",
+      "synthetic": false,
+      "sha256": "c9e808df8c5a964218fa15766bc0302ea724eb6579406dd6630847637882ee6d",
+      "size_bytes": 589
+    },
+    {
+      "path": "03_EVALUATOR_ONLY/04_隐藏资料清单.xlsx",
+      "visibility": "evaluator_only",
+      "extension": ".xlsx",
+      "synthetic": false,
+      "sha256": "7d8f71d3967e943c608978d96563009ca1fc8ea6f0dd35a3ec0eba8a492a2206",
+      "size_bytes": 8653
+    },
+    {
+      "path": "03_EVALUATOR_ONLY/05_评估提示词.txt",
+      "visibility": "evaluator_only",
+      "extension": ".txt",
+      "synthetic": false,
+      "sha256": "273671b02da81449106f31fb2c128134321cf2a2a743d628e6aa0935cff27c17",
+      "size_bytes": 768
+    },
+    {
+      "path": "04_SOURCE_LINKS/NCT01799057_historical_snapshot.json",
+      "visibility": "admin_or_source",
+      "extension": ".json",
+      "synthetic": false,
+      "sha256": "3c9c5c47f357ddc059b90ac679f2edcdc0ce90281ad66971ce07c5fdd439dae9",
+      "size_bytes": 667
+    },
+    {
+      "path": "04_SOURCE_LINKS/NCT03054519_historical_reconstruction_2021-11-11.json",
+      "visibility": "admin_or_source",
+      "extension": ".json",
+      "synthetic": false,
+      "sha256": "996406ddb427a71d2a1508cca02407cd434af64fb10443b4fa1560f625e2c628",
+      "size_bytes": 632
+    },
+    {
+      "path": "04_SOURCE_LINKS/source_links.md",
+      "visibility": "admin_or_source",
+      "extension": ".md",
+      "synthetic": false,
+      "sha256": "418e319c0e7e383be1813745e0c305e34f5c0bd7b20b750f7137ed296ce22360",
+      "size_bytes": 6945
+    }
+  ]
+}

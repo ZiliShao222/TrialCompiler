@@ -1,0 +1,32 @@
+﻿{
+  "package_root": "D:\\TrialCompiler\\docs\\TrialCompiler_Generative_Protocol_Test_Metformin_PAD_v1.0\\TrialCompiler_Generative_Protocol_Test_Metformin_PAD",
+  "stage": "phase1",
+  "passed": true,
+  "visible_files": [
+    "01_AI_VISIBLE_PHASE1/01_任务书与项目简报.docx",
+    "01_AI_VISIBLE_PHASE1/02_合成研究者手册摘要_Metformin_ER.docx",
+    "01_AI_VISIBLE_PHASE1/03_疾病_终点_既往证据包.docx",
+    "01_AI_VISIBLE_PHASE1/04_NMPA_FDA注册与临床运营约束.docx",
+    "01_AI_VISIBLE_PHASE1/05_Protocol结构模板_ICH_M11.docx",
+    "01_AI_VISIBLE_PHASE1/06_资料清单与证据矩阵.xlsx",
+    "01_AI_VISIBLE_PHASE1/07_AI输入提示词.txt",
+    "01_AI_VISIBLE_PHASE1/08_机器可读事实.json"
+  ],
+  "findings": [],
+  "sanitization_events": [
+    "Redacted hidden reference NCT05132439 (1 occurrence(s))",
+    "Redacted hidden reference MOBILE IC (1 occurrence(s))",
+    "Redacted hidden reference PMC9862509 (1 occurrence(s))",
+    "Redacted hidden reference NCT05132439 (3 occurrence(s))",
+    "Redacted hidden reference MOBILE IC (2 occurrence(s))",
+    "Redacted hidden reference 03_EVALUATOR_ONLY (1 occurrence(s))",
+    "Redacted hidden reference NCT05132439 (1 occurrence(s))",
+    "Redacted hidden reference MOBILE IC (1 occurrence(s))",
+    "Redacted hidden reference PMC9862509 (1 occurrence(s))",
+    "Removed hidden key $.phase2_confirmed_decisions",
+    "Redacted hidden reference NCT05132439 (1 occurrence(s))",
+    "Redacted hidden reference MOBILE IC (1 occurrence(s))",
+    "Redacted hidden reference PMC9862509 (1 occurrence(s))"
+  ],
+  "hidden_directory_present": true
+}
