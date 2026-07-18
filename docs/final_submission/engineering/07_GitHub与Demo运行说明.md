@@ -251,7 +251,7 @@ python -m ruff check src tests
 python -m pytest -q
 ```
 
-确认 GitHub `main` 已包含目标 commit，GitHub Actions 对该提交完成验证，并使用 `docs/final_submission_20260718_verified.zip` 作为线下附件包。
+确认 GitHub `main` 已包含目标 commit，GitHub Actions 对该提交完成验证，并使用 `docs/final_submission_20260719_verified.zip` 作为线下附件包。
 
 ## 11. 50 例真实公开语料复现
 
