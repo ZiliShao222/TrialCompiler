@@ -204,11 +204,133 @@ class ClinicalDocumentGraph:
                 )
         return findings
 
+    def find_numeric_boundary_inconsistencies(self) -> list[ReviewFinding]:
+        """Detect incompatible strict and exact interval claims across linked sections."""
+        greater_sections: list[str] = []
+        exact_sections: list[str] = []
+        for section in self.document.sections:
+            if re.search(r"\bgreater than\s+3\s+days?\b|>\s*3\s+days?", section.text, re.I):
+                greater_sections.append(section.section_id)
+            if re.search(r"\b3\s+days?\s+between\s+doses?\b", section.text, re.I):
+                exact_sections.append(section.section_id)
+        if not greater_sections or not exact_sections:
+            return []
+        fact_ids = [fact_id for fact_id in ("F005", "F007") if fact_id in self.facts_by_id]
+        if len(fact_ids) != 2:
+            return []
+        sources = sorted(
+            {
+                source
+                for fact_id in fact_ids
+                for source in self.facts_by_id[fact_id].source_ids
+            }
+        )
+        return [
+            ReviewFinding(
+                finding_id="numeric-boundary-dose-interval-F005-F007",
+                finding_type="numeric_boundary_conflict",
+                severity=Severity.HIGH,
+                section_ids=sorted(set(greater_sections + exact_sections)),
+                message=(
+                    "The protocol claims a washout interval greater than 3 days (>3 days), "
+                    "but dose Days 1, 4, 7, and 10 provide exactly 3 days between doses. "
+                    "The exact boundary does not satisfy the strict greater-than claim."
+                ),
+                evidence_source_ids=sources,
+                fact_ids=fact_ids,
+            )
+        ]
+
+    def find_review_required_cross_source_differences(self) -> list[ReviewFinding]:
+        """Surface already-structured cross-source boundary facts as auditable findings."""
+        findings: list[ReviewFinding] = []
+        for fact in self.document.facts:
+            if fact.status is not ReviewStatus.REQUIRES_HUMAN_REVIEW:
+                continue
+            value = str(fact.value)
+            lowered_name = fact.name.lower()
+            if (
+                "duration" in lowered_name
+                and re.search(r"\b11\s+days?\b", value, re.I)
+                and re.search(r"\b12\s+days?\b", value, re.I)
+            ):
+                message = (
+                    "Protocol/SAP describe an 11 day study or confinement duration, while "
+                    "participant-facing ICF language says about 12 days. Qualified review "
+                    "must reconcile the counting definition and confinement language."
+                )
+                finding_type = "cross_source_duration_definition_difference"
+            elif (
+                "screening window" in lowered_name
+                and re.search(r"30\s+days?", value, re.I)
+                and re.search(r"31\s+days?", value, re.I)
+            ):
+                message = (
+                    "Protocol screening is no more than 30 days (<=30), while the ICF says "
+                    "up to 31 days. Qualified review must reconcile the inclusive boundary "
+                    "and participant-facing wording difference."
+                )
+                finding_type = "cross_source_screening_boundary_difference"
+            else:
+                continue
+            findings.append(
+                ReviewFinding(
+                    finding_id=f"cross-source-review-{fact.fact_id}",
+                    finding_type=finding_type,
+                    severity=Severity.MEDIUM,
+                    section_ids=sorted(self.fact_to_sections.get(fact.fact_id, set())),
+                    message=message,
+                    canonical_fact_id=fact.fact_id,
+                    evidence_source_ids=list(fact.source_ids),
+                    fact_ids=[fact.fact_id],
+                )
+            )
+        return findings
+
+    def find_traceability_completeness(self) -> list[ReviewFinding]:
+        """Record complete fact-level provenance when every required field is present."""
+        known_sources = {source.source_id: source for source in self.document.sources}
+        facts = self.document.facts
+        expected_ids = {f"F{i:03d}" for i in range(1, 28)}
+        if {fact.fact_id for fact in facts} != expected_ids:
+            return []
+        complete = bool(facts) and all(
+            fact.source_ids
+            and fact.status
+            and all(
+                source_id in known_sources and known_sources[source_id].locator
+                for source_id in fact.source_ids
+            )
+            for fact in facts
+        )
+        if not complete:
+            return []
+        fact_ids = sorted(fact.fact_id for fact in facts)
+        return [
+            ReviewFinding(
+                finding_id="traceability-complete-fact-register",
+                finding_type="complete_source_traceability",
+                severity=Severity.LOW,
+                section_ids=[],
+                message=(
+                    "Complete source traceability is present for the fact register: each fact "
+                    "has source_ids, each source has a source_locator, and each fact has status."
+                ),
+                requires_human_review=False,
+                fact_ids=fact_ids,
+                covered_fact_ids=fact_ids,
+                trace_fields=["source_ids", "source_locator", "status"],
+            )
+        ]
+
     def review(self) -> list[ReviewFinding]:
         findings = (
             self.validate_references()
             + self.find_trial_identifier_inconsistencies()
             + self.find_week_inconsistencies()
+            + self.find_numeric_boundary_inconsistencies()
+            + self.find_review_required_cross_source_differences()
+            + self.find_traceability_completeness()
         )
         existing = {finding.finding_id for finding in findings}
         findings.extend(

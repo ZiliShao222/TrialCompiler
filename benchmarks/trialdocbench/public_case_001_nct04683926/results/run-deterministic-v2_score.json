@@ -1,0 +1,392 @@
+{
+  "case_id": "NCT04683926",
+  "gold_version": "reviewed-1.0",
+  "gold_path": "D:\\TrialCompiler\\benchmarks\\trialdocbench\\public_case_001_nct04683926\\gold\\gold_tests.json",
+  "run_path": "D:\\TrialCompiler\\outputs\\nct04683926_rule_breakthrough_20260718\\run-deterministic-v2",
+  "workflow_state_path": "D:\\TrialCompiler\\outputs\\nct04683926_rule_breakthrough_20260718\\run-deterministic-v2\\workflow_state.json",
+  "run_summary_path": "D:\\TrialCompiler\\outputs\\nct04683926_rule_breakthrough_20260718\\run-deterministic-v2\\run_summary.json",
+  "metric_basis": {
+    "true_positive": "positive gold tests with a complete case-specific semantic match",
+    "false_positive": "negative-control violations plus reportable findings not semantically matched to any positive gold test",
+    "false_negative": "positive gold tests without a complete semantic match"
+  },
+  "counts": {
+    "true_positive": 8,
+    "false_positive": 1,
+    "false_negative": 0,
+    "true_negative": 2,
+    "negative_control_false_positive": 0
+  },
+  "precision": 0.8888888888888888,
+  "recall": 1.0,
+  "f1": 0.9411764705882353,
+  "negative_control_accuracy": 1.0,
+  "unmatched_reportable_findings": [
+    "semantic-004"
+  ],
+  "tests": [
+    {
+      "gold_id": "TC-SD-001",
+      "control_type": "positive",
+      "expected": "hard_operational_instruction_conflict",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-002"
+      ],
+      "evidence": [
+        {
+          "finding_id": "semantic-002",
+          "checks": [
+            {
+              "name": "fact_anchor",
+              "passed": true,
+              "detail": "finding references water-restriction fact F018"
+            },
+            {
+              "name": "both_instructions",
+              "passed": true,
+              "detail": "finding states both 'no water' and 'only water/water allowed' instructions"
+            },
+            {
+              "name": "logical_relation",
+              "passed": true,
+              "detail": "finding identifies the two instructions as contradictory"
+            },
+            {
+              "name": "human_gate",
+              "passed": true,
+              "detail": "finding requires human review"
+            }
+          ],
+          "message": "Water restriction is described inconsistently: Protocol Synopsis and SAP state 'no water is allowed one hour before and one hour after dosing' (F018), while Protocol Body states 'only water allowed one hour before and one hour after dosing' (F018). These are logically contradictory — one prohibits water, the other mandates it. The conflict affects participant burden description (ICF-PARTICIPATION) and safety interpretation."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-SD-002",
+      "control_type": "positive",
+      "expected": "numeric_boundary_inconsistency",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "numeric-boundary-dose-interval-F005-F007"
+      ],
+      "evidence": [
+        {
+          "finding_id": "numeric-boundary-dose-interval-F005-F007",
+          "checks": [
+            {
+              "name": "fact_anchor",
+              "passed": true,
+              "detail": "finding references design F005 and dose-day F007"
+            },
+            {
+              "name": "boundary_values",
+              "passed": true,
+              "detail": "finding states both the >3-day claim and exact three-day boundary"
+            },
+            {
+              "name": "numeric_relation",
+              "passed": true,
+              "detail": "finding explains why the numeric claims disagree"
+            },
+            {
+              "name": "human_gate",
+              "passed": true,
+              "detail": "finding requires human review"
+            }
+          ],
+          "message": "The protocol claims a washout interval greater than 3 days (>3 days), but dose Days 1, 4, 7, and 10 provide exactly 3 days between doses. The exact boundary does not satisfy the strict greater-than claim."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-XD-001",
+      "control_type": "positive",
+      "expected": "duration_definition_difference",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "cross-source-review-F009"
+      ],
+      "evidence": [
+        {
+          "finding_id": "cross-source-review-F009",
+          "checks": [
+            {
+              "name": "fact_anchor",
+              "passed": true,
+              "detail": "finding references duration fact F009"
+            },
+            {
+              "name": "duration_values",
+              "passed": true,
+              "detail": "finding states the 11-day and about-12-day descriptions"
+            },
+            {
+              "name": "definition_relation",
+              "passed": true,
+              "detail": "finding treats this as a definition/counting distinction"
+            },
+            {
+              "name": "not_hard_conflict",
+              "passed": true,
+              "detail": "finding does not overstate an unambiguous hard conflict"
+            }
+          ],
+          "message": "Protocol/SAP describe an 11 day study or confinement duration, while participant-facing ICF language says about 12 days. Qualified review must reconcile the counting definition and confinement language."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-XD-002",
+      "control_type": "positive",
+      "expected": "inclusive_boundary_or_participant_language_difference",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "cross-source-review-F008"
+      ],
+      "evidence": [
+        {
+          "finding_id": "cross-source-review-F008",
+          "checks": [
+            {
+              "name": "fact_anchor",
+              "passed": true,
+              "detail": "finding references screening-window fact F008"
+            },
+            {
+              "name": "window_values",
+              "passed": true,
+              "detail": "finding states the protocol 30-day and ICF 31-day boundaries"
+            },
+            {
+              "name": "boundary_relation",
+              "passed": true,
+              "detail": "finding explains the inclusive-boundary or participant-language distinction"
+            }
+          ],
+          "message": "Protocol screening is no more than 30 days (<=30), while the ICF says up to 31 days. Qualified review must reconcile the inclusive boundary and participant-facing wording difference."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-XD-003",
+      "control_type": "negative_control",
+      "expected": "do_not_report_as_conflict",
+      "matched": true,
+      "correct": true,
+      "violation_detected": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding semantically reports this valid distinction as a conflict"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-XD-004",
+      "control_type": "positive",
+      "expected": "scope_aware_population_mapping_review",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "semantic-003"
+      ],
+      "evidence": [
+        {
+          "finding_id": "semantic-003",
+          "checks": [
+            {
+              "name": "population_anchor",
+              "passed": true,
+              "detail": "finding references the PP/evaluable population facts"
+            },
+            {
+              "name": "population_concepts",
+              "passed": true,
+              "detail": "finding relates population mapping to the SAP safety-only scope"
+            },
+            {
+              "name": "expert_review",
+              "passed": true,
+              "detail": "finding defers mapping/merge to qualified review"
+            }
+          ],
+          "message": "SAP-DESIGN states 'The SAP is limited to safety analysis' (F024), yet SAP-PK-SPEC and PROT-POPULATIONS define and rely on Evaluable Population (F021) for dose proportionality and food-effect analyses — primary objectives (F013). No section reconciles how PK analyses (core to study objectives) are accommodated within a safety-limited SAP, nor clarifies whether PK analysis rules originate from SAP or Protocol."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-VS-001",
+      "control_type": "negative_control",
+      "expected": "do_not_report_as_conflict",
+      "matched": true,
+      "correct": true,
+      "violation_detected": false,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "reason": "no finding semantically reports this valid distinction as a conflict"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-TR-001",
+      "control_type": "positive",
+      "expected": "complete_source_trace",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "traceability-complete-fact-register"
+      ],
+      "evidence": [
+        {
+          "finding_id": "traceability-complete-fact-register",
+          "checks": [
+            {
+              "name": "all_facts",
+              "passed": true,
+              "detail": "trace finding covers F001 through F027"
+            },
+            {
+              "name": "trace_fields",
+              "passed": true,
+              "detail": "trace includes source_ids, source_locator, and status"
+            },
+            {
+              "name": "complete_trace",
+              "passed": true,
+              "detail": "finding explicitly asserts complete source traceability"
+            }
+          ],
+          "message": "Complete source traceability is present for the fact register: each fact has source_ids, each source has a source_locator, and each fact has status."
+        }
+      ],
+      "checks": []
+    },
+    {
+      "gold_id": "TC-MUT-001",
+      "control_type": "positive",
+      "expected": "synthetic_change_impact",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [
+        "change-impact-F015-CRF-PK",
+        "change-impact-F015-ICF-PARTICIPATION",
+        "change-impact-F015-PROT-BODY-PROCEDURES",
+        "change-impact-F015-PROT-SCHEDULE",
+        "change-impact-F015-PROT-SYNOPSIS",
+        "change-impact-F015-REG-RESULTS",
+        "change-impact-F015-SAP-PK-SPEC"
+      ],
+      "evidence": [
+        {
+          "finding_id": "change-impact-F015-CRF-PK",
+          "section_ids": [
+            "CRF-PK"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-ICF-PARTICIPATION",
+          "section_ids": [
+            "ICF-PARTICIPATION"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-PROT-BODY-PROCEDURES",
+          "section_ids": [
+            "PROT-BODY-PROCEDURES"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-PROT-SCHEDULE",
+          "section_ids": [
+            "PROT-SCHEDULE"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-PROT-SYNOPSIS",
+          "section_ids": [
+            "PROT-SYNOPSIS"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-REG-RESULTS",
+          "section_ids": [
+            "REG-RESULTS"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        },
+        {
+          "finding_id": "change-impact-F015-SAP-PK-SPEC",
+          "section_ids": [
+            "SAP-PK-SPEC"
+          ],
+          "reason": "F015 finding states 32-to-36 change propagation"
+        }
+      ],
+      "checks": [
+        {
+          "name": "old_new_relation",
+          "passed": true,
+          "detail": "one or more F015 findings explicitly relate 32 to 36 hours"
+        },
+        {
+          "name": "affected_classes",
+          "passed": true,
+          "detail": "covered=['crf', 'icf', 'protocol', 'registry_results', 'sap', 'schedule_of_activities']; required=['crf', 'icf', 'protocol', 'registry_results', 'sap', 'schedule_of_activities']"
+        },
+        {
+          "name": "original_preserved",
+          "passed": true,
+          "detail": "F015 keeps 32-hour previous_value and proposes 36 hours in version 2+"
+        },
+        {
+          "name": "human_approval",
+          "passed": true,
+          "detail": "F015 proposals remain gated for qualified human approval"
+        }
+      ]
+    },
+    {
+      "gold_id": "TC-QA-001",
+      "control_type": "positive",
+      "expected": "approval_gate",
+      "matched": true,
+      "correct": true,
+      "matching_finding_ids": [],
+      "evidence": [
+        {
+          "source": "workflow_state/run_summary",
+          "workflow_status": "machine_repair_incomplete",
+          "release_status": "requires_qualified_human_review"
+        }
+      ],
+      "checks": [
+        {
+          "name": "formal_document_gate",
+          "passed": true,
+          "detail": "run requires qualified decisions/review before formal release"
+        },
+        {
+          "name": "proposal_provenance",
+          "passed": true,
+          "detail": "every candidate proposal carries fact_ids and evidence_source_ids"
+        }
+      ]
+    }
+  ]
+}

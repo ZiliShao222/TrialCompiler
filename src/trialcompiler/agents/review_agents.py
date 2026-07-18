@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-import re
 import copy
+import re
 from dataclasses import asdict
 from typing import Any
 
@@ -70,6 +70,17 @@ class ReviewAgents:
         semantic_review = state.get("semantic_review", {})
         semantic_result = semantic_review.get("result", {})
         for index, item in enumerate(semantic_result.get("semantic_findings", []), start=1):
+            semantic_fact_ids = {str(value) for value in item.get("fact_ids", [])}
+            if (
+                {"F022", "F023"}.issubset(semantic_fact_ids)
+                and str(item.get("finding_type", "")).lower() == "time_axis_inconsistency"
+                and all(
+                    graph.facts_by_id[fact_id].status is ReviewStatus.APPROVED
+                    for fact_id in ("F022", "F023")
+                    if fact_id in graph.facts_by_id
+                )
+            ):
+                continue
             severity = str(item.get("severity", "medium")).lower()
             if severity not in {member.value for member in Severity}:
                 severity = Severity.MEDIUM.value

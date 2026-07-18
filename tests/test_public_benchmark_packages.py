@@ -82,3 +82,23 @@ def test_nct_identifier_conflict_is_deterministic() -> None:
         and finding.section_ids == ["PROT-COVER"]
         for finding in findings
     )
+
+
+def test_nct04683926_boundary_trace_and_valid_time_axis_are_deterministic() -> None:
+    from trialcompiler.demo import load_document
+    from trialcompiler.documents import ClinicalDocumentGraph
+
+    fixture = (
+        Path(__file__).resolve().parents[1]
+        / "data"
+        / "fixtures"
+        / "nct04683926_public_case.json"
+    )
+    document = load_document(fixture)
+    findings = ClinicalDocumentGraph(document).review()
+    finding_ids = {finding.finding_id for finding in findings}
+    assert "numeric-boundary-dose-interval-F005-F007" in finding_ids
+    assert "cross-source-review-F008" in finding_ids
+    assert "cross-source-review-F009" in finding_ids
+    assert "traceability-complete-fact-register" in finding_ids
+    assert not any(finding.finding_type == "time_axis_inconsistency" for finding in findings)

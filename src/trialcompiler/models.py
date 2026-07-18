@@ -115,6 +115,8 @@ class ReviewFinding:
     requires_human_review: bool = True
     fact_ids: list[str] = field(default_factory=list)
     origin: str = "deterministic"
+    covered_fact_ids: list[str] = field(default_factory=list)
+    trace_fields: list[str] = field(default_factory=list)
 
 
 @dataclass(slots=True)
