@@ -1,4 +1,7 @@
-from trialcompiler.generation.validators import validate_phase2_candidate
+from trialcompiler.generation.validators import (
+    build_phase2_remediation_plan,
+    validate_phase2_candidate,
+)
 
 
 def _candidate() -> tuple[dict, list[dict], dict]:
@@ -57,3 +60,19 @@ def test_validator_accepts_reproducible_minimal_statistics() -> None:
     }
     findings = validate_phase2_candidate(reconciliation, sections, artifacts)
     assert findings == []
+
+
+def test_blocking_findings_compile_to_role_gated_remediation_plan() -> None:
+    findings = validate_phase2_candidate(*_candidate())
+    plan = build_phase2_remediation_plan(findings)
+    assert plan["plan_status"] == "blocked_pending_qualified_revision"
+    assert {item["finding_id"] for item in plan["work_items"]} == {
+        "DET-REG-001",
+        "DET-STAT-001",
+        "DET-STAT-002",
+        "DET-STAT-003",
+        "DET-STAT-004",
+    }
+    assert all(not item["automatic_application_allowed"] for item in plan["work_items"])
+    assert all(item["affected_artifacts"] for item in plan["work_items"])
+    assert all(item["exit_criteria"] for item in plan["work_items"])

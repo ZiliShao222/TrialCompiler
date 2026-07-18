@@ -10,7 +10,10 @@ from pathlib import Path
 from typing import Any
 
 from trialcompiler.generation.package import GenerativeCasePackage
-from trialcompiler.generation.validators import validate_phase2_candidate
+from trialcompiler.generation.validators import (
+    build_phase2_remediation_plan,
+    validate_phase2_candidate,
+)
 from trialcompiler.llm import OpenAICompatibleClient, load_prompt
 
 SECTION_SPECS = (
@@ -315,6 +318,7 @@ class ProtocolGenerationWorkflow:
         quality = self._govern_quality_output(quality)
         deterministic_findings = validate_phase2_candidate(reconciliation, sections, artifacts)
         quality["deterministic_findings"] = deterministic_findings
+        quality["remediation_plan"] = build_phase2_remediation_plan(deterministic_findings)
         if deterministic_findings:
             quality["gate_status"] = "blocked_missing_evidence"
             quality["findings"].extend(

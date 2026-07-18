@@ -104,6 +104,14 @@ quality_gate: blocked_missing_evidence
 
 本次冻结产物实际命中 `DET-STAT-001`、`DET-REG-001`、`DET-STAT-002` 和 `DET-STAT-004`。这意味着系统现在会诚实地阻止该方案进入专业人员批准阶段，而不是继续展示误导性的“98.18 分”。
 
+### 3.5 2026-07-18 机器门禁整改闭环
+
+机器门禁现不再只输出错误列表。每条阻断 finding 都会编译成结构化 remediation work item，明确责任角色、必须同步修改的事实与产物、强制修订动作、可机器复核的退出条件，并禁止程序自动代替专业人员批准设计决策。
+
+固定闭环为：`qualified decision → fact reconciliation update → cross-artifact propagation → deterministic revalidation → independent quality review`。冻结运行已生成 4 个整改工单，状态为 `blocked_pending_qualified_revision`；只有所有退出条件满足且确定性重检返回零阻断 finding，才允许进入后续独立质量审核。
+
+可通过 `scripts/build_phase2_remediation_plan.py` 对任意冻结 Phase 2 `run.json` 重建整改包，避免依赖原生成模型的自评结论。
+
 ## 4. 当前工作流成熟度
 
 | 维度 | NCT04683926 审核 | Metformin-PAD 生成 |
@@ -111,7 +119,7 @@ quality_gate: blocked_missing_evidence
 | 工程链路 | 已跑通 | Phase 1、Phase 2、盲评已跑通 |
 | 来源边界 | 已记录 | 分阶段可见性与泄漏审计已建立 |
 | 独立评分 | Gold Scorer 已建立 | 盲评器与确定性门禁已建立 |
-| 当前效果 | F1 0.5714 | 能生成完整产物，但被机器门禁阻断 |
+| 当前效果 | F1 0.9412 | 能生成完整产物，并生成角色化整改工单，但仍被机器门禁阻断 |
 | 专业可用性 | 尚不可直接使用 | 尚不可直接使用 |
 | 人工责任 | 必须人工确认问题 | 必须由医学、统计、注册、质量人员审核 |
 

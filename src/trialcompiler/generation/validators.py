@@ -168,3 +168,137 @@ def validate_phase2_candidate(
         )
 
     return findings
+
+
+REMEDIATION_RULES: dict[str, dict[str, Any]] = {
+    "DET-STAT-001": {
+        "owner_role": "qualified_biostatistician",
+        "affected_artifacts": [
+            "trial_fact_sheet",
+            "sample_size_and_statistics",
+            "protocol_section_07",
+            "schedule_of_activities",
+            "site_and_recruitment_plan",
+        ],
+        "required_actions": [
+            "Choose and document one evidence-supported effect size and variance assumption.",
+            "Either increase target enrollment to the reproducible requirement or attach an "
+            "executable MMRM/simulation derivation supporting a different total.",
+            "Propagate the approved total to recruitment, SoA, synopsis, and statistics outputs.",
+        ],
+        "exit_criteria": [
+            "All six numeric inputs are machine-readable and within valid ranges.",
+            "The target total meets the reproduced requirement, or an executable alternative "
+            "derivation and output are attached.",
+        ],
+    },
+    "DET-REG-001": {
+        "owner_role": "qualified_regulatory_reviewer",
+        "affected_artifacts": [
+            "fact_reconciliation",
+            "fda_regulatory_rationale",
+            "nmpa_regulatory_rationale",
+            "protocol_section_09",
+        ],
+        "required_actions": [
+            "Relabel every simulated FDA/CDE statement as synthetic and non-binding.",
+            "Replace acceptance, endorsement, and requirement language with a sponsor proposal "
+            "that remains subject to agency feedback.",
+        ],
+        "exit_criteria": [
+            "No synthetic source is represented as an actual agency decision.",
+            "Every regional claim cites public guidance or is explicitly marked TBD/proposal.",
+        ],
+    },
+    "DET-STAT-002": {
+        "owner_role": "qualified_biostatistician",
+        "affected_artifacts": [
+            "primary_estimand",
+            "sample_size_and_statistics.analysis_populations",
+            "protocol_section_02",
+            "protocol_section_07",
+        ],
+        "required_actions": [
+            "Choose whether the estimand population is all randomized participants or a "
+            "post-randomization subset.",
+            "Align the FAS definition, intercurrent-event strategy, missing-data rules, and "
+            "sensitivity analyses to that choice.",
+        ],
+        "exit_criteria": [
+            "Estimand population and FAS inclusion rules are logically identical.",
+            "No randomized participant is silently removed by dose or post-baseline criteria.",
+        ],
+    },
+    "DET-STAT-003": {
+        "owner_role": "qualified_biostatistician",
+        "affected_artifacts": [
+            "sample_size_and_statistics",
+            "protocol_section_02",
+            "protocol_section_07",
+        ],
+        "required_actions": [
+            "Select one multiplicity strategy and remove contradictory hierarchy language.",
+            "Define the ordered hypotheses, alpha flow, and handling after a failed test.",
+        ],
+        "exit_criteria": [
+            "All sections prescribe the same multiplicity strategy.",
+        ],
+    },
+    "DET-STAT-004": {
+        "owner_role": "qualified_biostatistician_and_clinician",
+        "affected_artifacts": [
+            "primary_estimand",
+            "sample_size_and_statistics",
+            "protocol_section_02",
+            "protocol_section_06",
+            "protocol_section_07",
+        ],
+        "required_actions": [
+            "Define death, amputation, and revascularization as explicit intercurrent events.",
+            "Specify clinically interpretable composite, while-on-treatment, hypothetical, or "
+            "principal-stratum handling instead of ordinary MAR imputation.",
+            "Add aligned sensitivity analyses for terminal events.",
+        ],
+        "exit_criteria": [
+            "Death is not represented as an ordinary MAR-missing functional outcome.",
+            "Terminal-event handling is consistent across estimand and analysis sections.",
+        ],
+    },
+}
+
+
+def build_phase2_remediation_plan(
+    findings: list[dict[str, str]],
+) -> dict[str, Any]:
+    """Convert blocking findings into an auditable, role-gated revision package."""
+    work_items: list[dict[str, Any]] = []
+    for finding in findings:
+        finding_id = finding["finding_id"]
+        rule = REMEDIATION_RULES.get(finding_id)
+        if rule is None:
+            continue
+        work_items.append(
+            {
+                "work_item_id": f"REMEDIATE-{finding_id}",
+                "finding_id": finding_id,
+                "severity": finding["severity"],
+                **rule,
+                "status": "pending_qualified_revision",
+                "automatic_application_allowed": False,
+            }
+        )
+    return {
+        "plan_status": "blocked_pending_qualified_revision" if work_items else "clear",
+        "work_items": work_items,
+        "required_sequence": [
+            "qualified_decision",
+            "fact_reconciliation_update",
+            "cross_artifact_propagation",
+            "deterministic_revalidation",
+            "independent_quality_review",
+        ],
+        "release_condition": (
+            "All work items must meet exit criteria and deterministic revalidation must return "
+            "zero blocking findings."
+        ),
+    }
