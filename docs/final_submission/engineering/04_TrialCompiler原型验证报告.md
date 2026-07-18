@@ -16,6 +16,8 @@
 
 该底座现已进入主审核链路：D 独立质量门之后由 G 不确定性治理节点生成 `uncertainty_trajectory.json`，API 与审核报告同时返回所选下一动作、证据摘要哈希、诊断估计、反事实重放说明和声明边界。新运行若缺少该产物，或在没有拟合校准器时允许 calibration claim，assurance case 将以 `uncertainty_claim_governance` 失败并阻断机器就绪结论。当前 G 节点执行的是诊断信号到治理动作的编译；真实概率仍待独立数据拟合。
 
+G 选择 `acquire_evidence` 且调用方提供受治理 catalog 时，H 节点现可在硬预算内消费一项 observation，并重新进入 B/C/D/G。准入条件包括 `approved_for_research` 状态、项目与文档 ID 精确匹配、`semantic_review` 类型以及规范化 payload 的 SHA-256 一致；失败项保留机器可读拒绝原因。终态不保留原始 catalog，只记录 evidence/source ID 与 digest。该机制验证了安全回环和防篡改边界，但 catalog 仍由实验调用方准备，尚不是面向外部文献库的自主检索器。
+
 主链路现进一步支持受治理取证执行：API 可接收显式允许列表中的 evidence action 与 observation model，在最大步骤和最大成本内选择正净信息价值动作，记录来源 ID、版本、内容 SHA-256、预期/实际信息增益和 posterior。未在允许列表中的动作、重复取证、未知 observation 与预算耗尽均失败关闭。即使取证后的 belief 超过候选提交阈值，G 也只返回 `deliberate`，要求新证据重新进入 B/C/D；belief 分数不能越过独立质量门或专业决策债务。当前演示 observation 为合成数据，尚不构成真实来源取证效果。
 
 > 报告状态：研究原型阶段性验收；评测快照日期：2026-07-18；代码基线：`main` 分支；当前公开案例结果以 `run-deterministic-v2_score.json` 为准。本文中的历史低分仅用于展示改进前基线，不代表当前性能。

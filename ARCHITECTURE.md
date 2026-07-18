@@ -80,14 +80,15 @@ The workflow layer owns role sequencing, bounded repair loops, quality-gate
 routing, and hand-off state. Agents communicate through explicit state rather
 than untracked free-form conversation.
 
-- A-G review orchestration: `src/trialcompiler/workflows/review.py`
+- A-H review orchestration: `src/trialcompiler/workflows/review.py`
 - Workflow uncertainty translation: `src/trialcompiler/workflows/uncertainty.py`
+- Governed workflow observations: `src/trialcompiler/evidence/workflow_observation.py`
 - Allowlisted, budgeted evidence acquisition: `src/trialcompiler/evidence/acquisition.py`
 - Role implementations: `src/trialcompiler/agents/review_agents.py`
 - Generative protocol workflow: `src/trialcompiler/generation/workflow.py`
 - Phase-specific validators: `src/trialcompiler/generation/validators.py`
 
-The A-G responsibilities are:
+The A-H responsibilities are:
 
 1. A locks task context and scope.
 2. B assembles evidence and admitted experience.
@@ -95,8 +96,10 @@ The A-G responsibilities are:
 4. D independently rechecks the candidate state.
 5. G records diagnostic uncertainty, a governed next action, and a replay intervention
    without inventing a calibrated probability.
-6. E packages approved review artifacts without introducing new facts.
-7. F proposes reusable experience that remains inactive until human approval.
+6. H optionally consumes one approved, scope-matched, digest-verified observation within
+   a hard acquisition budget and returns the run to B/C/D/G.
+7. E packages approved review artifacts without introducing new facts.
+8. F proposes reusable experience that remains inactive until human approval.
 
 ### 3. Document compiler
 

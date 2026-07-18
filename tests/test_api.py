@@ -6,6 +6,7 @@ from pathlib import Path
 from fastapi.testclient import TestClient
 
 from apps.api.app import create_app
+from trialcompiler.evidence import workflow_evidence_digest
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -51,6 +52,49 @@ class ApiTests(unittest.TestCase):
                 response = client.post("/api/v1/intake/feishu", json=intake)
                 self.assertEqual(response.status_code, 200)
                 self.assertTrue(response.json()["accepted"])
+
+    def test_review_api_consumes_governed_workflow_observation_without_echoing_payload(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            app = create_app(Path(temp_dir) / "memory.sqlite3")
+            document = json.loads(
+                (ROOT / "data/fixtures/synthetic_protocol_conflict.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            observation = {
+                "status": "completed",
+                "model": "frozen-api-test",
+                "result": {
+                    "summary": "SENSITIVE OBSERVATION CONTENT",
+                    "semantic_findings": [],
+                    "review_questions": [],
+                    "limitations": [],
+                },
+            }
+            catalog = [
+                {
+                    "evidence_id": "EV-API-1",
+                    "source_id": "SRC-API-1",
+                    "project_id": document["project_id"],
+                    "document_id": document["document_id"],
+                    "observation_type": "semantic_review",
+                    "payload": observation,
+                    "payload_digest": workflow_evidence_digest(observation),
+                }
+            ]
+            with TestClient(app) as client:
+                response = client.post(
+                    "/api/v1/review",
+                    json={
+                        "document": document,
+                        "evidence_catalog": catalog,
+                        "max_acquisitions": 1,
+                    },
+                )
+            self.assertEqual(response.status_code, 200)
+            payload = response.json()
+            self.assertEqual(payload["acquired_evidence"][0]["evidence_id"], "EV-API-1")
+            self.assertEqual(payload["evidence_catalog"], [])
 
     def test_review_api_executes_governed_acquisition_without_bypassing_recheck(self):
         with tempfile.TemporaryDirectory() as temp_dir:

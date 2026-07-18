@@ -153,7 +153,9 @@ def build_workflow_uncertainty_artifact(state: dict[str, Any]) -> dict[str, Any]
     artifact["numeric_probability_available"] = False
     artifact["calibration_claim_allowed"] = False
     artifact["claim_note"] = "diagnostic_signals_only_no_fitted_calibrator"
-    acquisition = state.get("evidence_acquisition")
+    acquisition = state.get("evidence_acquisition_config")
+    if not acquisition and "prior" in state.get("evidence_acquisition", {}):
+        acquisition = state["evidence_acquisition"]
     if acquisition and action is AgentAction.ACQUIRE_EVIDENCE:
         prior = FactBeliefState(acquisition["prior"])
         options = [

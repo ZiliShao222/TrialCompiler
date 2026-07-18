@@ -143,7 +143,7 @@ Repository contribution and security guidance are documented in
     overall problem, product scope, human workflow, validation boundary, and
     competition demonstration storyline.
   - [`docs/competition_02_architecture_modules_zh.md`](docs/competition_02_architecture_modules_zh.md):
-    layered architecture, core modules, A-G active-compilation workflow,
+    layered architecture, core modules, A-H active-compilation workflow,
     human quality gates, audit, and MVP roadmap.
   - [`docs/competition_03_core_innovations_zh.md`](docs/competition_03_core_innovations_zh.md):
     technical, operating-model, and process innovations; conventional-solution

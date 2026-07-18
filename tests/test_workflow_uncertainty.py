@@ -1,4 +1,12 @@
+from pathlib import Path
+
+from trialcompiler.demo import load_document
+from trialcompiler.evidence import workflow_evidence_digest
+from trialcompiler.memory import SemanticElementStore
+from trialcompiler.workflows import ReviewWorkflow
 from trialcompiler.workflows.uncertainty import build_workflow_uncertainty_artifact
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def base_state() -> dict:
@@ -45,6 +53,73 @@ def test_missing_semantic_coverage_requests_more_evidence():
     artifact = build_workflow_uncertainty_artifact(state)
     assert artifact["selected_action"] == "acquire_evidence"
     assert artifact["claim_note"] == "diagnostic_signals_only_no_fitted_calibrator"
+
+
+def test_governed_evidence_reenters_review_loop(tmp_path: Path):
+    document = load_document(ROOT / "data/fixtures/synthetic_protocol_conflict.json")
+    payload = {
+        "status": "completed",
+        "model": "frozen-test-reviewer",
+        "result": {
+            "summary": "No additional semantic findings.",
+            "semantic_findings": [],
+            "review_questions": [],
+            "limitations": [],
+        },
+    }
+    catalog = [
+        {
+            "evidence_id": "EV-SEM-1",
+            "source_id": "SRC-SEMANTIC-REVIEW",
+            "project_id": document.project_id,
+            "document_id": document.document_id,
+            "observation_type": "semantic_review",
+            "payload": payload,
+            "payload_digest": workflow_evidence_digest(payload),
+            "status": "approved_for_research",
+        }
+    ]
+    store = SemanticElementStore(tmp_path / "memory.sqlite3")
+    try:
+        state = ReviewWorkflow(store).run(
+            document, evidence_catalog=catalog, max_acquisitions=1
+        )
+    finally:
+        store.close()
+    assert state["acquisition_count"] == 1
+    assert state["acquired_evidence"][0]["evidence_id"] == "EV-SEM-1"
+    assert state["semantic_review"]["status"] == "completed"
+    agents = [event["agent"] for event in state["trace"]]
+    assert agents.count("G") == 2
+    assert "H" in agents
+    assert state["uncertainty_artifact"]["selected_action"] == "commit_candidate"
+
+
+def test_tampered_evidence_fails_closed_and_stops_at_budget(tmp_path: Path):
+    document = load_document(ROOT / "data/fixtures/synthetic_protocol_conflict.json")
+    payload = {"status": "completed", "result": {}}
+    catalog = [
+        {
+            "evidence_id": "EV-BAD",
+            "source_id": "SRC-BAD",
+            "project_id": document.project_id,
+            "document_id": document.document_id,
+            "observation_type": "semantic_review",
+            "payload": payload,
+            "payload_digest": "sha256:tampered",
+        }
+    ]
+    store = SemanticElementStore(tmp_path / "memory.sqlite3")
+    try:
+        state = ReviewWorkflow(store).run(
+            document, evidence_catalog=catalog, max_acquisitions=1
+        )
+    finally:
+        store.close()
+    assert state["acquired_evidence"] == []
+    assert "evidence_digest_mismatch" in state["evidence_rejections"][0]["failures"]
+    assert state["uncertainty_artifact"]["selected_action"] == "acquire_evidence"
+    assert state["acquisition_count"] == 1
 
 
 def test_allowlisted_acquisition_executes_inside_workflow_artifact():

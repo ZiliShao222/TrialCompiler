@@ -155,9 +155,9 @@ Impact(f) = {所有引用 f 的章节、表格、字段和文件}
 
 ## 三、既有文档审核工作流
 
-### 3.1 A–G 角色与治理节点分离
+### 3.1 A–H 角色与治理节点分离
 
-当前审核工作流将专业角色与不确定性治理分离为七个节点：
+当前审核工作流将专业角色、不确定性治理与受控取证分离为八个节点：
 
 ```text
 A Context Lock
@@ -165,6 +165,8 @@ A Context Lock
 → C Repair Proposal
 → D Independent Quality Gate
 → G Uncertainty Governance
+→ H Governed Evidence Acquisition（仅在 G 选择取证且预算允许时）
+→ B Evidence Review（重新进入 B/C/D/G）
 → E Review Packet
 → F Experience Candidate
 → qualified human approval
@@ -175,6 +177,7 @@ A Context Lock
 - **C：候选修订**。围绕已批准事实或受控候选变更生成最小修订；无事实锚点或依赖未批准事实的语义修订会被阻断。
 - **D：独立质量门**。在沙箱副本中应用候选补丁，重新运行确定性检查，识别未关闭问题和新回归。
 - **G：不确定性治理**。把 B/C/D 的诊断信号、证据来源、质量结果和决策债务编译为标准轨迹产物，选择 commit/acquire/deliberate/defer 下一动作；没有拟合校准器时数值概率保持为空，并禁止校准声明。
+- **H：受控取证**。只消费预先批准、项目与文档范围匹配、类型允许且 SHA-256 摘要一致的 observation；在硬预算内成功获取后重新执行 B/C/D/G。篡改、跨范围、未批准或不支持的 observation 记录拒绝原因并失败关闭，不允许模型自行创造证据。
 - **E：审核包**。输出发现、影响范围、候选修订、来源、未决事项和责任边界。
 - **F：经验候选**。运行经验不会自动进入组织记忆，只有专业人员批准后才可复用。
 
@@ -394,7 +397,7 @@ qualified decision
 
 - Trial Fact Sheet、来源、章节和依赖图数据契约；
 - CLI、FastAPI 与飞书 Aily intake contract；
-- A–G 文档审核与不确定性治理工作流；
+- A–H 文档审核、不确定性治理与受控取证工作流；
 - 确定性规则与 Qwen 语义审核组合；
 - 原子修订、冲突合并、沙箱回归检查和人工决策请求；
 - 分阶段可见性的 Phase 1/Phase 2 方案生成；
@@ -408,7 +411,7 @@ qualified decision
 - 两个补充公开案例已完成小规模正例与负例检查；
 - Metformin-PAD 两阶段生成能够产出九个章节和十类关联产物；
 - 机器门能够识别样本量、estimand、终末事件和模拟监管权威化问题，并保持阻断状态；
-- 当前自动化测试为 95 passed；其中覆盖主动取证 belief 更新、允许列表与预算边界、未知 observation 失败关闭、取证后强制重审、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断。
+- 当前自动化测试为 101 passed；其中覆盖主动取证 belief 更新、允许列表与预算边界、未知 observation 失败关闭、受控工作流 observation 回环、取证后强制重审、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断。
 
 ### 8.3 尚未完成
 
@@ -438,6 +441,7 @@ TrialCompiler 当前最有价值的技术贡献，是建立了一个诚实的控
 - 文档依赖图与确定性检查：`src/trialcompiler/documents/graph.py`
 - A–F 专业审核代理：`src/trialcompiler/agents/review_agents.py`
 - G 不确定性治理与轨迹编译：`src/trialcompiler/workflows/uncertainty.py`
+- H 受控 observation 适配：`src/trialcompiler/evidence/workflow_observation.py`
 - 审核工作流：`src/trialcompiler/workflows/review.py`
 - 生成包可见性隔离：`src/trialcompiler/generation/package.py`
 - Phase 1/Phase 2 生成：`src/trialcompiler/generation/workflow.py`

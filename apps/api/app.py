@@ -58,6 +58,8 @@ def create_app(db_path: str | Path | None = None) -> FastAPI:
                 document,
                 max_rounds=int(payload.get("max_rounds", 2)),
                 evidence_acquisition=payload.get("evidence_acquisition"),
+                evidence_catalog=payload.get("evidence_catalog"),
+                max_acquisitions=int(payload.get("max_acquisitions", 0)),
             )
             return to_plain(state)
         except (KeyError, TypeError, ValueError) as exc:
