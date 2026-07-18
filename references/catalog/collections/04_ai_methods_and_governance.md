@@ -18,3 +18,24 @@ This is a logical collection. Original files remain at the paths recorded below.
 - `M3-04` New Benchmarks on Protocol Amendment Practices, Trends and their Impact
 - `M3-05` 临床试验期间方案变更技术指导原则（试行）
 - `M3-06` Considerations for AI to Support Regulatory Decision-Making for Drug and Biological Products
+
+## Agent uncertainty and explainability research extension
+
+The `AUQ-*`, `XAI-*`, and `MEDXAI-*` research sources are maintained in
+`references/metadata/agent_uncertainty_xai_sources.tsv`. This extension is kept
+separate from regulatory and business evidence: research papers can motivate a
+method or experiment but do not establish regulatory acceptance or validate the
+current TrialCompiler prototype.
+
+- `AUQ-001` Agent UQ foundations and uncertainty dynamics
+- `AUQ-002` Agentic uncertainty propagation/reflection
+- `AUQ-003` Agentic confidence calibration over trajectories
+- `AUQ-004` Semantic entropy
+- `AUQ-005` Rank-calibration
+- `AUQ-006` Conformal factuality
+- `AUQ-007` Structured uncertainty-guided clarification
+- `XAI-001` Faithfulness of LLM self-explanations
+- `XAI-002` Faithful NLP explanation survey
+- `XAI-003` Multi-agent failure attribution
+- `MEDXAI-001` Faithfulness in medical reasoning explanations
+- `MEDXAI-002` Human-centered medical XAI

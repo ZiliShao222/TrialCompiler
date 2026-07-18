@@ -103,6 +103,8 @@ TrialCompiler 处理的是临床研究文档，而不是患者诊断，因此不
 
 ## 10. 主要文献
 
+本综述的可复用文献库位于 `references/inbox/agent_uncertainty_xai/`。正文与后续报告优先使用 `AUQ-*`、`XAI-*`、`MEDXAI-*` 稳定编号；题录、主链接、本地状态与适用边界见 `references/metadata/agent_uncertainty_xai_sources.tsv`，正式参考文献可直接导入 `references/metadata/agent_uncertainty_xai.bib`。本地 PDF 的 SHA-256 与解析页数记录在 `references/metadata/agent_uncertainty_xai_checksums.tsv`。这些论文用于支持研究问题和实验方法，不替代法规、指南或项目自身的验证证据。
+
 - Oh et al. (2026), *Uncertainty Quantification in LLM Agents: Foundations, Emerging Challenges, and Opportunities*, arXiv:2602.05073.
 - Zhang et al. (2026), *Agentic Uncertainty Quantification*, arXiv:2601.15703.
 - Zhang et al. (2026), *Agentic Confidence Calibration*, ICML 2026.

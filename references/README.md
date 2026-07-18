@@ -48,6 +48,23 @@ regulator, or standards-body links. Store full text only when licensing permits.
   public-source evidence notes for competitor positioning and claims that still
   require manual verification.
 
+## Agent Uncertainty and Explainability Collection
+
+- [`metadata/agent_uncertainty_xai_sources.tsv`](metadata/agent_uncertainty_xai_sources.tsv):
+  canonical source IDs, publication metadata, local PDF status, intended use,
+  and claim boundaries for the Agent UQ/XAI literature set.
+- [`metadata/agent_uncertainty_xai.bib`](metadata/agent_uncertainty_xai.bib):
+  BibTeX entries ready for the technical report and research notes.
+- [`metadata/agent_uncertainty_xai_checksums.tsv`](metadata/agent_uncertainty_xai_checksums.tsv):
+  SHA-256 digests and successful PDF page-parse results for every local paper.
+- [`notes/agent_uncertainty_xai_reading_guide_20260718.md`](notes/agent_uncertainty_xai_reading_guide_20260718.md):
+  reading order, safe/unsafe claims, and direct mapping from papers to
+  TrialCompiler experiments.
+- [`inbox/agent_uncertainty_xai/`](inbox/agent_uncertainty_xai/): verified
+  publisher, conference, ACL, PMLR, or arXiv PDF snapshots. A catalog row with
+  `external_link_only` means the canonical URL should be used instead of a
+  local file.
+
 Current collection scope:
 
 - public regulatory guidance and clinical protocol templates;
