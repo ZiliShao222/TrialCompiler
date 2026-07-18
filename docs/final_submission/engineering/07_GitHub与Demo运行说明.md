@@ -101,10 +101,10 @@ python -m pytest -q
 
 ```text
 Ruff: All checks passed
-Pytest: 117 passed
+Pytest: 118 passed
 ```
 
-GitHub Actions 会在推送到 `main` 和 Pull Request 时执行同样的检查。若未来新增测试，以 GitHub Actions 对相应提交的结果为准，不应把“117”视为永久固定数量。
+GitHub Actions 会在推送到 `main` 和 Pull Request 时执行同样的检查。若未来新增测试，以 GitHub Actions 对相应提交的结果为准，不应把“118”视为永久固定数量。
 
 ### 4.2 启动 API
 

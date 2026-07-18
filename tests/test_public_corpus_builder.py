@@ -4,10 +4,17 @@ from pypdf import PdfReader, PdfWriter
 
 from scripts.build_public_protocol_sap_corpus import (
     candidate_documents,
+    canonical_json_sha256,
     document_url,
     pdf_role_signals,
     sha256,
 )
+
+
+def test_canonical_json_digest_ignores_key_order_and_formatting():
+    left = {"b": [2, 3], "a": "trial"}
+    right = {"a": "trial", "b": [2, 3]}
+    assert canonical_json_sha256(left) == canonical_json_sha256(right)
 
 
 def test_candidate_selection_prefers_smallest_protocol_and_sap():

@@ -63,6 +63,13 @@ def sha256(path: Path) -> str:
     return digest.hexdigest().upper()
 
 
+def canonical_json_sha256(payload: Any) -> str:
+    canonical = json.dumps(
+        payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+    ).encode("utf-8")
+    return hashlib.sha256(canonical).hexdigest().upper()
+
+
 def document_url(nct_id: str, filename: str) -> str:
     return f"{CDN}/{nct_id[-2:]}/{nct_id}/{urllib.parse.quote(filename)}"
 
@@ -242,7 +249,7 @@ def write_outputs(
                 json.dumps(registry, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
             )
-        case["registry_sha256"] = sha256(registry_path)
+        case["registry_sha256"] = canonical_json_sha256(registry)
         protocol = registry.get("protocolSection", {})
         design = protocol.get("designModule", {})
         status = protocol.get("statusModule", {})
@@ -279,7 +286,7 @@ def write_outputs(
             encoding="utf-8",
         )
         case["case_contract_path"] = f"case_contracts/{case['nct_id']}.json"
-        case["case_contract_sha256"] = sha256(contract_path)
+        case["case_contract_sha256"] = canonical_json_sha256(case_contract)
         for document in case["documents"]:
             rows.append(
                 {

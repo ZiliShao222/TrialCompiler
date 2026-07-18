@@ -1,15 +1,12 @@
 import csv
-import hashlib
 import json
 from pathlib import Path
 from urllib.parse import urlparse
 
+from scripts.build_public_protocol_sap_corpus import canonical_json_sha256
+
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "benchmarks" / "trialdocbench" / "public_corpus_050"
-
-
-def digest(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest().upper()
 
 
 def load_manifest() -> list[dict[str, str]]:
@@ -54,14 +51,14 @@ def test_frozen_registry_snapshots_match_manifest_and_nct_identity():
     for nct_id, row in first_row_by_case.items():
         registry = CORPUS / row["registry_path"]
         assert registry.exists()
-        assert digest(registry) == row["registry_sha256"]
         payload = json.loads(registry.read_text(encoding="utf-8"))
+        assert canonical_json_sha256(payload) == row["registry_sha256"]
         observed = payload["protocolSection"]["identificationModule"]["nctId"]
         assert observed == nct_id
         contract = CORPUS / row["case_contract_path"]
         assert contract.exists()
-        assert digest(contract) == row["case_contract_sha256"]
         case = json.loads(contract.read_text(encoding="utf-8"))
+        assert canonical_json_sha256(case) == row["case_contract_sha256"]
         assert case["case_id"] == nct_id
         assert case["source_class"] == "real_public_clinicaltrials_gov"
         assert case["gold_status"] == "not_annotated"
