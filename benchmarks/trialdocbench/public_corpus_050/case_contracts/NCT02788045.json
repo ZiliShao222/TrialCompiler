@@ -1,0 +1,171 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02788045",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02788045",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 201,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Percentage of Participants With Solicited Local Adverse Events (AEs) Post First Vaccination",
+        "description": "Solicited local AEs were predefined local events (at the injection site: erythema, induration, swelling, itching and warmth) that were by definition considered as related to the study vaccine and collected within 7 days after vaccination.",
+        "timeFrame": "7 days after first vaccination on Day 1 (Day 8)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Local AEs Post Second Vaccination",
+        "description": "Solicited local AEs were predefined local events (at the injection site: erythema, induration, swelling, itching and warmth) that were by definition considered as related to the study vaccine and collected within 7 days after vaccination.",
+        "timeFrame": "7 days after second vaccination on Day 85 (Day 92)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Local AEs Post Third Vaccination",
+        "description": "Solicited local AEs were predefined local events (at the injection site: erythema, induration, swelling, itching and warmth) that were by definition considered as related to the study vaccine and collected within 7 days after vaccination.",
+        "timeFrame": "7 days after third vaccination on Day 169 (Day 176)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Local AEs Post Fourth Vaccination",
+        "description": "Solicited local AEs were predefined local events (at the injection site: erythema, induration, swelling, itching and warmth) that were by definition considered as related to the study vaccine and collected within 7 days after vaccination.",
+        "timeFrame": "7 days after fourth vaccination on Day 337 (Day 344)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Systemic AEs Post First Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Solicited systemic AEs including pyrexia/fever, headache, fatigue, myalgia, nausea and chills were collected within 7 days after vaccination.",
+        "timeFrame": "7 days after first vaccination on Day 1 (Day 8)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Systemic AEs Post Second Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Solicited systemic AEs including pyrexia/fever, headache, fatigue, myalgia, nausea and chills were collected within 7 days after vaccination.",
+        "timeFrame": "7 days after second vaccination on Day 85 (Day 92)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Systemic AEs Post Third Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Solicited systemic AEs including pyrexia/fever, headache, fatigue, myalgia, nausea and chills were collected within 7 days after vaccination.",
+        "timeFrame": "7 days after third vaccination on Day 169 (Day 176)"
+      },
+      {
+        "measure": "Percentage of Participants With Solicited Systemic AEs Post Fourth Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Solicited systemic AEs including pyrexia/fever, headache, fatigue, myalgia, nausea and chills were collected within 7 days after vaccination.",
+        "timeFrame": "7 days after fourth vaccination on Day 337 (Day 344)"
+      },
+      {
+        "measure": "Percentage of Participants With Unsolicited AEs for 28 Days After First Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Unsolicited AEs were defined as the AEs other than those categorized as \"solicited AEs\" and were required to be collected for any events that occurred from the time of vaccination and through the subsequent 28 days.",
+        "timeFrame": "28 days after first vaccination on Day 1 (Day 29)"
+      },
+      {
+        "measure": "Percentage of Participants With Unsolicited AEs for 28 Days After Second Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Unsolicited AEs were defined as the AEs other than those categorized as \"solicited AEs\" and were required to be collected for any events that occurred from the time of vaccination and through the subsequent 28 days.",
+        "timeFrame": "28 days after second vaccination on Day 85 (Day 113)"
+      },
+      {
+        "measure": "Percentage of Participants With Unsolicited AEs for 28 Days After Third Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Unsolicited AEs were defined as the AEs other than those categorized as \"solicited AEs\" and were required to be collected for any events that occurred from the time of vaccination and through the subsequent 28 days.",
+        "timeFrame": "28 days after third vaccination on Day 169 (Day 197)"
+      },
+      {
+        "measure": "Percentage of Participants With Unsolicited AEs for 28 Days After Fourth Vaccination",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. Unsolicited AEs were defined as the AEs other than those categorized as \"solicited AEs\" and were required to be collected for any events that occurred from the time of vaccination and through the subsequent 28 days.",
+        "timeFrame": "28 days after fourth vaccination on Day 334 (Day 362)"
+      },
+      {
+        "measure": "Percentage of Participants With Discontinuations From Vaccination Due to AEs",
+        "description": "Percentage of participants with discontinuations from vaccination due to AEs were reported.",
+        "timeFrame": "Up to Week 72"
+      },
+      {
+        "measure": "Percentage of Participants With Serious Adverse Events (SAEs) During Main Study",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. SAE was defined as any AE that resulted in: death, persistent or significant disability/incapacity, required inpatient hospitalization or prolongation of existing hospitalization, was life-threatening experience, was a congenital anomaly/birth defect and would jeopardize participant and/or required medical or surgical intervention to prevent one of the outcomes listed above.",
+        "timeFrame": "Up to Week 72"
+      },
+      {
+        "measure": "Percentage of Participants With SAEs During Long Term Extension (LTE) Period",
+        "description": "An AE was defined as any untoward medical event that occurred in a participant administered an investigational product, and it did not necessarily indicated only events with clear causal relationship with the relevant investigational product. SAE was defined as any AE that resulted in: death, persistent or significant disability/incapacity, required inpatient hospitalization or prolongation of existing hospitalization, was life-threatening experience, was a congenital anomaly/birth defect and would jeopardize participant and/or required medical or surgical intervention to prevent one of the outcomes listed above. This outcome measure was planned to be analyzed for specified arm only.",
+        "timeFrame": "From Week 96 to Week 264"
+      },
+      {
+        "measure": "Percentage of Participants With AEs of Special Interest During Main Study",
+        "description": "Percentage of participants with AEs of special interest during main study were reported. HIV infection was considered as an AE of special interest.",
+        "timeFrame": "Up to Week 72"
+      },
+      {
+        "measure": "Percentage of Participants With AEs of Special Interest During LTE Period",
+        "description": "Percentage of participants with AEs of special interest during LTE period were reported. HIV infection was considered as an AE of special interest. This outcome measure was planned to be analyzed for specified arm only.",
+        "timeFrame": "From Week 96 to Week 264"
+      },
+      {
+        "measure": "Percentage of Responders for Envelop (Env) Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012) Specific Binding Antibody Titers at Week 28",
+        "description": "Percentage of responders for envelop (Env) Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012) specific binding antibody titers at Week 28 were reported. Env Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012)-specific binding antibody titers were assessed using enzyme-linked immunosorbent assay (ELISA). The response was defined as post-baseline value greater than (\\>) lower limit of quantification (LLOQ) if baseline value less than (\\<) LLOQ or missing or defined as post-baseline value \\>3-fold increase from baseline if baseline value greater than or equal to (\\>=) LLOQ.",
+        "timeFrame": "Week 28"
+      },
+      {
+        "measure": "Percentage of Responders for Envelop (Env) Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012) Specific Binding Antibody Titers at Week 52",
+        "description": "Percentage of responders for envelop (Env) Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012) specific binding antibody titers at Week 52 were reported. Env Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012)-specific binding antibody titers were assessed using enzyme-linked immunosorbent assay (ELISA). The response was defined as post-baseline value greater than (\\>) lower limit of quantification (LLOQ) if baseline value less than (\\<) LLOQ or missing or defined as post-baseline value \\>3-fold increase from baseline if baseline value greater than or equal to (\\>=) LLOQ.",
+        "timeFrame": "Week 52"
+      },
+      {
+        "measure": "Percentage of Responders for Envelop (Env) Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012) Specific Binding Antibody Titers at Week 72",
+        "description": "Percentage of responders for envelop (Env) Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012) specific binding antibody titers at Week 72 were reported. Env Clade A (92UG037.1), B (1990a), and C (Con C), (C97ZA.012)-specific binding antibody titers were assessed using enzyme-linked immunosorbent assay (ELISA). The response was defined as post-baseline value greater than (\\>) lower limit of quantification (LLOQ) if baseline value less than (\\<) LLOQ or missing or defined as post-baseline value \\>3-fold increase from baseline if baseline value greater than or equal to (\\>=) LLOQ.",
+        "timeFrame": "Week 72"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT02788045/Prot_000.pdf",
+      "sha256": "275EDF5DCCFD961E14D65EDA05DBCBC36934D13BDE31D249C6E3310496F85888",
+      "bytes": 6027053,
+      "pages": 118,
+      "document_date": "2021-10-28",
+      "upload_date": "2023-04-25T06:58",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 98152,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT02788045/SAP_001.pdf",
+      "sha256": "7174814227213BBCC9CFD4C4506DC0380DD033474DB46D96B46CEFCA97B7EE2F",
+      "bytes": 932760,
+      "pages": 27,
+      "document_date": "2022-05-02",
+      "upload_date": "2023-04-25T06:58",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 53395,
+        "sampled_pages": 27
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 118,
+      "content_digest": "275EDF5DCCFD961E14D65EDA05DBCBC36934D13BDE31D249C6E3310496F85888"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 27,
+      "content_digest": "7174814227213BBCC9CFD4C4506DC0380DD033474DB46D96B46CEFCA97B7EE2F"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

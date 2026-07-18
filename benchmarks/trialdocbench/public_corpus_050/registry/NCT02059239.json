@@ -1,0 +1,3736 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02059239",
+      "orgStudyIdInfo": {
+        "id": "1208012875"
+      },
+      "organization": {
+        "fullName": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Bendamustine Bridge to Autologous or Allogeneic Transplant for Relapsed/Refractory Lymphoma",
+      "officialTitle": "A Pilot Study of a Sequential Regimen of Intensive Chemotherapy Followed by Autologous or Allogeneic Transplantation for Refractory Lymphoma (Non-Hodgkin's and Hodgkin's) and Phase 2 Expansion Cohort"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-06-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-12-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-06-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-02-06",
+      "studyFirstSubmitQcDate": "2014-02-06",
+      "studyFirstPostDateStruct": {
+        "date": "2014-02-11",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-12-15",
+      "resultsFirstSubmitQcDate": "2021-02-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-02-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-02-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-02-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial is for men and women with whose lymphoma (non-Hodgkin or Hodgkin) did not respond to treatment or has returned after responding to previous therapy, and who are in need of a stem cell transplant.\n\nThe purpose of this study is to test the safety and effectiveness of giving the drug Bendamustine, followed by high dose chemotherapy, within two weeks prior to a stem cell transplant for lymphoma that has not achieved a complete response to salvage (treatment used for relapsed disease) chemotherapy.",
+      "detailedDescription": "Subjects with Hodgkin's or Non-Hodgkin's lymphoma that did not respond to treatment or have disease that has returned after responding to previous treatment, and are in need of a stem cell transplant will be eligible for this pilot study. Thirty subjects will be enrolled, with 15 subjects assigned to the autologous transplant cohort (according to disease status and eligibility) and 15 subjects to the allogeneic transplant cohort (according to diseases status and eligibility).\n\nSubjects will undergo the following a number of screening procedures to determine eligibility. All eligible subjects will receive bendamustine at a dose of 200 mg/ m2/ day for two days on Days - 24 and Day - 23 followed by a short break of 10 - 14 days. Subjects will then receive the conditioning regimen, BEAM (carmustine, etoposide, cytarabine arabinoside, and Melphalan) and alemtuzumab for 6 days (Day -6 to Day -1) followed by an autologous or allogeneic transplant.\n\nSubjects with pathological confirmed B-cell malignancies will also receive rituximab 375 mg/m2 on Days + 1 and +8 post-transplant. Subjects with T-cell lymphoma will be enrolled in the study but will not receive rituximab.\n\nAfter the transplantation all subjects will receive medication to prevent graft vs host disease and supportive care to prevent infections. To speed up the recovery of stem cells, subjects will receive post-transplant filgrastim (G-CSF).\n\nAfter discharge from the hospital, subjects will be seen regularly in the clinic for an exam and assessments. All these tests are considered standard of care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hodgkin's Lymphoma",
+        "Non-Hodgkin's Lymphoma"
+      ],
+      "keywords": [
+        "Non-Hodgkin's Lymphoma",
+        "Hodgkin's Lymphoma",
+        "Lymphoma",
+        "Transplant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 34,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Chemo plus Autologous Transplantation",
+          "type": "EXPERIMENTAL",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant",
+          "interventionNames": [
+            "Drug: Bendamustine",
+            "Drug: Carmustine",
+            "Drug: Etoposide",
+            "Drug: Melphalan",
+            "Drug: Cytarabine",
+            "Drug: Alemtuzumab",
+            "Biological: Autologous Stem Cell Transplantation",
+            "Drug: Rituximab"
+          ]
+        },
+        {
+          "label": "Chemo plus Allogeneic Transplantation",
+          "type": "EXPERIMENTAL",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant",
+          "interventionNames": [
+            "Drug: Bendamustine",
+            "Drug: Carmustine",
+            "Drug: Etoposide",
+            "Drug: Melphalan",
+            "Drug: Cytarabine",
+            "Drug: Alemtuzumab",
+            "Biological: Allogeneic Stem Cell Transplantation",
+            "Drug: Rituximab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bendamustine",
+          "description": "Days - 24 and Day - 23 followed by a short break of 10 - 14 days.",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Treanda"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carmustine",
+          "description": "300 mg/m2 on Day -6",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Bicnu"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Etoposide",
+          "description": "100 mg/m2 on days -5 to -2",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Etopophos",
+            "Toposar"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Melphalan",
+          "description": "140mg/m2 on Day -1",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Alkeran"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cytarabine",
+          "description": "200 mg/m2 on days -5 to -2",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Ara-C"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Alemtuzumab",
+          "description": "20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Campath"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Autologous Stem Cell Transplantation",
+          "armGroupLabels": [
+            "Chemo plus Autologous Transplantation"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Allogeneic Stem Cell Transplantation",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rituximab",
+          "description": "Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant",
+          "armGroupLabels": [
+            "Chemo plus Allogeneic Transplantation",
+            "Chemo plus Autologous Transplantation"
+          ],
+          "otherNames": [
+            "Rituxan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Patients Able to Proceed to Transplant",
+          "description": "Number of patients in each arm able to proceed to stem cell transplantation within 14 days of receiving bendamustine treatment",
+          "timeFrame": "14 days after bendamustine treatment"
+        },
+        {
+          "measure": "Number of Patients Achieving Neutrophil Engraftment",
+          "description": "Proportion of patients who successfully achieve neutrophil engraftment after stem cell transplant, defined as an absolute neutrophil count of 500/mm3 or for three consecutive days.",
+          "timeFrame": "35 Days Post-Transplant"
+        },
+        {
+          "measure": "Number of Patients Achieving Platelet Engraftment",
+          "description": "Proportion of patients who successfully achieve platelet engraftment after stem cell transplant, defined as a platelet count of \\>20k/microL for three consecutive days without transfusion support for seven consecutive days.",
+          "timeFrame": "74 Days Post-Transplant"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival at Day 100 Post-Transplant",
+          "description": "The time from stem cell infusion (Day 0) to death from any cause.",
+          "timeFrame": "From Day 0 until time of death, assessed up to 100 days post-transplant"
+        },
+        {
+          "measure": "Overall Survival at Day 365 Post-Transplant",
+          "description": "The time from stem cell infusion (Day 0) to death from any cause.",
+          "timeFrame": "From Day 0 until time of death, assessed up to 365 days post-transplant"
+        },
+        {
+          "measure": "Transplant-Related Mortality",
+          "description": "Death due to any cause other than disease progression within first 100 days post-transplant.",
+          "timeFrame": "From Day 0 until time of death, up to 100 days post-transplant."
+        },
+        {
+          "measure": "Disease Response Following Salvage Chemotherapy",
+          "description": "Proportion of patients achieving a complete remission (CR; disappearance of clinically overt disease with no FDG-avid lesions on PET scan), partial remission (PR; reduction in clinical disease buden and \\>50% bi-dimensional decrease in tumor size on imaging), stable disease (SD; failure to meet the criteria for CR, PR or PD with no new areas of disease involvement) or progressive disease (PD; the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size), as per Cheson Criteria, following salvage chemotherapy with Bendamustine.",
+          "timeFrame": "Within 14 days of salvage chemotherapy treatment"
+        },
+        {
+          "measure": "Disease Response 30 Days Post-Transplant",
+          "description": "Proportion of patients achieving a complete remission (CR; disappearance of clinically overt disease with no FDG-avid lesions on PET scan), partial remission (PR; reduction in clinical disease buden and \\>50% bi-dimensional decrease in tumor size on imaging), stable disease (SD; failure to meet the criteria for CR, PR or PD with no new areas of disease involvement) or progressive disease (PD; the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size), as per Cheson Criteria, 30 days following autologous or allogeneic stem cell transplant",
+          "timeFrame": "30 days after stem cell transplant"
+        },
+        {
+          "measure": "Disease Response at 1 Year Post-Transplant",
+          "description": "Proportion of patients achieving a complete remission (CR; disappearance of clinically overt disease with no FDG-avid lesions on PET scan), partial remission (PR; reduction in clinical disease buden and \\>50% bi-dimensional decrease in tumor size on imaging), stable disease (SD; failure to meet the criteria for CR, PR or PD with no new areas of disease involvement) or progressive disease (PD; the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size), as per Cheson Criteria, 1 year following autologous or allogeneic stem cell transplant",
+          "timeFrame": "1 year after stem cell transplant"
+        },
+        {
+          "measure": "Progression-Free Survival After Stem Cell Transplant",
+          "description": "Time elapsed between stem cell transplant (Day 0) and disease progression, as defined by the Cheson Criteria (the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size)",
+          "timeFrame": "Stem cell transplant (Day 0) up to 2 years post-transplant"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* must have histologically or cytologically confirmed relapsed or primary refractory lymphoma (including Hodgkin's Lymphoma) staged with Positron Emission Tomography (PET) scan to have\n\n  * Allogeneic arm:\n\n    * Progressive disease or\n    * No response to salvage therapy or\n    * Partial response to salvage therapy defined as \\> 50% reduction in bidirectional area of masses but standardized uptake value (SUV) remains ≥8 in at least some PET avid areas\n    * Prior autologous transplant\n  * Autologous arm:\n\n    * Partial response of \\>50% reduction in bidirectional area of masses and SUV reduction to \\<8 in PET avid areas Subjects must have evaluable disease.\n* Subjects must have received at least one induction therapy and one line of salvage therapy that each incorporate at least two drugs that are standard of care for lymphoma\n* Age \\>18 years.\n* Karnofsky Performance Score (KPS) ≥ 50%\n* For autologous transplants: Subjects must have an adequate number of CD34+ stem cells collected to allow for transplantation. This number is defined as ≥ 2x106 CD34+ cells / kg body weight. If not previously collected and stored, the subject must be willing to undergo stem cell mobilization and collection as per standard practice. If sufficient cells cannot be collected, subjects will be offered the option to proceed with the allogeneic arm of the study.\n* Male and female subjects must use an effective contraceptive method during the study and for a minimum of 6 months after study treatment. Female subjects of childbearing potential must have a negative serum pregnancy test within 2 weeks prior to enrollment.\n* Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Known to be positive for HIV\n* Subjects may not be receiving any other investigational agents (defined as non FDA-approved agents) at the time of initiating bendamustine regimen. However, the salvage therapy for lymphoma can be part of an ongoing clinical trial with an investigational agent.\n* Women who are pregnant or breast feeding. Women of childbearing age must use adequate contraception and have a negative pregnancy test.\n* The risks to an unborn fetus or potential risks in nursing infants are unknown.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to any medications listed in the protocol.\n* Subject with severely decreased Left Ventricular Ejection Fraction (LVEF) or severely impaired pulmonary function tests (PFT's)\n* Uncontrolled illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tsiporah Shore, MD",
+          "affiliation": "Weill Medical College of Cornell University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Weill Cornell Medical College",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33586581",
+          "type": "DERIVED",
+          "citation": "Orfali N, Jhanwar Y, Koo C, Pasciolla M, Baldo M, Cuvilly E, Furman R, Gergis U, Greenberg J, Guarneri D, Hsu JM, Leonard JP, Mark T, Mayer S, Maignan K, Martin P, Opong A, Pearse R, Phillips A, Rossi A, Ruan J, Rutherford SC, Ryan J, Suhu G, Van Besien K, Shore T. Sequential intensive chemotherapy followed by autologous or allogeneic transplantation for refractory lymphoma. Leuk Lymphoma. 2021 Jul;62(7):1629-1638. doi: 10.1080/10428194.2021.1881516. Epub 2021 Feb 13."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Chemo Plus Autologous Transplantation",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+        },
+        {
+          "id": "FG001",
+          "title": "Chemo Plus Allogeneic Transplantation",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "16"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Progressive Disease after Bendamustine",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Chemo Plus Autologous Transplantation",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+        },
+        {
+          "id": "BG001",
+          "title": "Chemo Plus Allogeneic Transplantation",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "18"
+            },
+            {
+              "groupId": "BG001",
+              "value": "16"
+            },
+            {
+              "groupId": "BG002",
+              "value": "34"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "calculatePct": false,
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Diagnosis",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Diffuse Large B-Cell Lymphoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follicular Lymphoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hodgkin's Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Mantle Cell Lymphoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Transformed Diffuse Large B-Cell Lymphoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Peripheral T-Cell Lymphoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lines of Prior Therapy",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Lines of Therapy",
+          "classes": [
+            {
+              "title": "2 Lines",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3 Lines",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "4 Lines",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "5+ Lines",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Patients Able to Proceed to Transplant",
+          "description": "Number of patients in each arm able to proceed to stem cell transplantation within 14 days of receiving bendamustine treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "14 days after bendamustine treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Proceeded to Transplant",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Did Not Proceed to Transplant - Physician Decision",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Did Not Proceed to Transplant - Progressive Disease",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "88.9",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "65.3",
+              "ciUpperLimit": "98.6"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "81.3",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "54.4",
+              "ciUpperLimit": "95.9"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Patients Achieving Neutrophil Engraftment",
+          "description": "Proportion of patients who successfully achieve neutrophil engraftment after stem cell transplant, defined as an absolute neutrophil count of 500/mm3 or for three consecutive days.",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "35 Days Post-Transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "100.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "79.4",
+              "ciUpperLimit": "100.0"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "100.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "75.3",
+              "ciUpperLimit": "100.0"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Patients Achieving Platelet Engraftment",
+          "description": "Proportion of patients who successfully achieve platelet engraftment after stem cell transplant, defined as a platelet count of \\>20k/microL for three consecutive days without transfusion support for seven consecutive days.",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "74 Days Post-Transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "100.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "79.4",
+              "ciUpperLimit": "100.0"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "92.3",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "64.0",
+              "ciUpperLimit": "99.8"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival at Day 100 Post-Transplant",
+          "description": "The time from stem cell infusion (Day 0) to death from any cause.",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 0 until time of death, assessed up to 100 days post-transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Alive",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Deceased",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "100.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "79.4",
+              "ciUpperLimit": "100.0"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "84.6",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "54.6",
+              "ciUpperLimit": "98.1"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival at Day 365 Post-Transplant",
+          "description": "The time from stem cell infusion (Day 0) to death from any cause.",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 0 until time of death, assessed up to 365 days post-transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Alive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Deceased",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "100.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "79.4",
+              "ciUpperLimit": "100.0"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "46.2",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "19.2",
+              "ciUpperLimit": "74.9"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Transplant-Related Mortality",
+          "description": "Death due to any cause other than disease progression within first 100 days post-transplant.",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 0 until time of death, up to 100 days post-transplant.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "0.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.0",
+              "ciUpperLimit": "20.6"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "15.4",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.9",
+              "ciUpperLimit": "45.4"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Disease Response Following Salvage Chemotherapy",
+          "description": "Proportion of patients achieving a complete remission (CR; disappearance of clinically overt disease with no FDG-avid lesions on PET scan), partial remission (PR; reduction in clinical disease buden and \\>50% bi-dimensional decrease in tumor size on imaging), stable disease (SD; failure to meet the criteria for CR, PR or PD with no new areas of disease involvement) or progressive disease (PD; the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size), as per Cheson Criteria, following salvage chemotherapy with Bendamustine.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 14 days of salvage chemotherapy treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Complete Remission",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Partial Remission",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stable Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Progressive Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not Assessed",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion (objective response: CR+PR) in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "66.7",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "41.0",
+              "ciUpperLimit": "86.7"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion (objective response: CR+PR) in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "43.8",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "19.8",
+              "ciUpperLimit": "70.1"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Disease Response 30 Days Post-Transplant",
+          "description": "Proportion of patients achieving a complete remission (CR; disappearance of clinically overt disease with no FDG-avid lesions on PET scan), partial remission (PR; reduction in clinical disease buden and \\>50% bi-dimensional decrease in tumor size on imaging), stable disease (SD; failure to meet the criteria for CR, PR or PD with no new areas of disease involvement) or progressive disease (PD; the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size), as per Cheson Criteria, 30 days following autologous or allogeneic stem cell transplant",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "30 days after stem cell transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Complete Remission",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Partial Remission",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stable Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Progressive Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not Assessed",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion (objective response: CR+PR) in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "87.5",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "61.7",
+              "ciUpperLimit": "98.4"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion (objective response: CR+PR) in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "76.9",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "46.2",
+              "ciUpperLimit": "95.0"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Disease Response at 1 Year Post-Transplant",
+          "description": "Proportion of patients achieving a complete remission (CR; disappearance of clinically overt disease with no FDG-avid lesions on PET scan), partial remission (PR; reduction in clinical disease buden and \\>50% bi-dimensional decrease in tumor size on imaging), stable disease (SD; failure to meet the criteria for CR, PR or PD with no new areas of disease involvement) or progressive disease (PD; the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size), as per Cheson Criteria, 1 year following autologous or allogeneic stem cell transplant",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "1 year after stem cell transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Complete Remission",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Partial Remission",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stable Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Progressive Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not Assessed",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Patient Deceased",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion (objective response: CR+PR) in autologous group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "81.3",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "54.4",
+              "ciUpperLimit": "96.0"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Simple proportion (objective response: CR+PR) in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Proportion (percent)",
+              "paramValue": "30.8",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "9.1",
+              "ciUpperLimit": "61.4"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Progression-Free Survival After Stem Cell Transplant",
+          "description": "Time elapsed between stem cell transplant (Day 0) and disease progression, as defined by the Cheson Criteria (the appearance of any new lesion \\>1.5cm in size or a greater than 50% increase in the diameter of a previously identified node of over 1cm in size)",
+          "populationDescription": "5 participants (2 from chemo + autologous transplant arm, 3 from chemo + allogeneic transplant arm) were unable to be analyzed for this outcome measure as they did not complete the study and did not receive an autologous or allogeneic transplant.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "Stem cell transplant (Day 0) up to 2 years post-transplant",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chemo Plus Autologous Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            },
+            {
+              "id": "OG001",
+              "title": "Chemo Plus Allogeneic Transplantation",
+              "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Median progression-free survival was not reached in the chemo plus autologous transplantation group. An insufficient number of patients experienced progression/death within the follow-up interval to enable calculation of the median and both the upper and lower limits of the 95% confidence interval."
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8",
+                      "lowerLimit": "5",
+                      "upperLimit": "25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Median PFS in allogeneic group with exact (Clopper-Pearson) 95% confidence interval.",
+              "paramType": "Median (95% CI)",
+              "paramValue": "8",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "5",
+              "ciUpperLimit": "25"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "2",
+      "timeFrame": "Adverse events were assessed Day -24 (start of Bendamustine treatment) through 1 year post-transplant.",
+      "description": "All adverse events were first documented by the study transplant physicians and thereafter collated and graded by two independent reviewed according to CTCAE version 4.0. 5 participants (2 autologous, 3 allogeneic) did not proceed to transplant and were not evaluable for adverse events on the Chemo Plus Autologous Transplant or Chemo Plus Allogeneic Transplant arms.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Bendamustine",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 34,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 34,
+          "otherNumAffected": 9,
+          "otherNumAtRisk": 34
+        },
+        {
+          "id": "EG001",
+          "title": "Bendamustine Plus Autologous Transplantation",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by autologous transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAutologous Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 16,
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 16,
+          "otherNumAffected": 16,
+          "otherNumAtRisk": 16
+        },
+        {
+          "id": "EG002",
+          "title": "Bendamustine Plus Allogeneic Transplantation",
+          "description": "Bendamustine 200 mg/ m2/ day on Days - 24 and Day - 23 followed by a short break of 10 - 14 days, followed by Melphalan, Carmustine, Etoposide, Cytarabine (BEAM) and alemtuzumab, plus rituximab for all b-cell malignancies, followed by allogeneic transplant\n\nBendamustine: Days - 24 and Day - 23 followed by a short break of 10 - 14 days.\n\nCarmustine: 300 mg/m2 on Day -6\n\nEtoposide: 100 mg/m2 on days -5 to -2\n\nMelphalan: 140mg/m2 on Day -1\n\nCytarabine: 200 mg/m2 on days -5 to -2\n\nAlemtuzumab: 20 mg/m2 days -6 to -2 for UNRELATED donors, and 20 mg/m2 days -4 to -2 for RELATED donors\n\nAllogeneic Stem Cell Transplantation\n\nRituximab: Only to be administered in subjects with B-cell malignancies. Dose is 375 mg/m2 on Days 1 and 8 post-transplant",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 13,
+          "seriousNumAffected": 10,
+          "seriousNumAtRisk": 13,
+          "otherNumAffected": 13,
+          "otherNumAtRisk": 13
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Pericardial Effusion",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Heart Failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary Hypertension",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Lower Gastrointestinal Hemorrhage",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Intestinal Necrosis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Disseminated Adenovirus Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Post-Transplant Lymphoproliferative Disorder",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Chronic Graft versus Host Disease",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Acute Respiratory Distress",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Acute Respiratory Failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Myelodysplastic Syndrome",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Acute Myeloid Leukemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Paroxysmal Atrial Tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Febrile Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 11,
+              "numAffected": 11,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Tumor Lysis Syndrome",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Syncope",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hypoxia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Oral Mucositis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hemolysis",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hyperbilirubinemia",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 9,
+              "numAffected": 9,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hyperkalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Hypoalbuminemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Generalized Muscle Weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Intracranial Hemorrhage",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Delirium",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Acute Renal Failure",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary Edema",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Maculopapular Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Cytomegalovirus Viremia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Epstein-Barr Virus Viremia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Urinary Tract Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Soft Tissue Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Lung Infection - Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Lung Infection - Viral Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Lung Infection - Fungal Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Bacteremia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 14,
+              "numAffected": 13,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Clostridium difficile colitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Norovirus Enterocolitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Upper Respiratory Infection - Influenza A",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Upper Respiratory Infection - Rhinovirus",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        },
+        {
+          "term": "Upper Respiratory Infection - Respiratory Syncytial Virus",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 34
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Tsiporah Shore",
+        "organization": "Weill Cornell Medicine",
+        "email": "tbs2001@med.cornell.edu",
+        "phone": "646-962-7950"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-10-05",
+          "uploadDate": "2020-12-15T15:15",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1422684
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006689",
+          "term": "Hodgkin Disease"
+        },
+        {
+          "id": "D008228",
+          "term": "Lymphoma, Non-Hodgkin"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069461",
+          "term": "Bendamustine Hydrochloride"
+        },
+        {
+          "id": "D002330",
+          "term": "Carmustine"
+        },
+        {
+          "id": "D005047",
+          "term": "Etoposide"
+        },
+        {
+          "id": "C061400",
+          "term": "etoposide phosphate"
+        },
+        {
+          "id": "D008558",
+          "term": "Melphalan"
+        },
+        {
+          "id": "D003561",
+          "term": "Cytarabine"
+        },
+        {
+          "id": "D000074323",
+          "term": "Alemtuzumab"
+        },
+        {
+          "id": "D000069283",
+          "term": "Rituximab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002087",
+          "term": "Butyrates"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D001562",
+          "term": "Benzimidazoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009607",
+          "term": "Nitrosourea Compounds"
+        },
+        {
+          "id": "D014508",
+          "term": "Urea"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009603",
+          "term": "Nitroso Compounds"
+        },
+        {
+          "id": "D011034",
+          "term": "Podophyllotoxin"
+        },
+        {
+          "id": "D013764",
+          "term": "Tetrahydronaphthalenes"
+        },
+        {
+          "id": "D009281",
+          "term": "Naphthalenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D005960",
+          "term": "Glucosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010649",
+          "term": "Phenylalanine"
+        },
+        {
+          "id": "D024322",
+          "term": "Amino Acids, Aromatic"
+        },
+        {
+          "id": "D000598",
+          "term": "Amino Acids, Cyclic"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D001087",
+          "term": "Arabinonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D058846",
+          "term": "Antibodies, Monoclonal, Murine-Derived"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

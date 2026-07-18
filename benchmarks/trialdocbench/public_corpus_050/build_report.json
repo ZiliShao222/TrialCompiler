@@ -1,0 +1,29 @@
+{
+  "schema": "trialcompiler.public_corpus_build/v1",
+  "validated_case_count": 50,
+  "document_count": 65,
+  "content_audit": {
+    "extractable_document_count": 65,
+    "protocol_signal_document_count": 59,
+    "sap_signal_document_count": 48,
+    "role_authority": "ClinicalTrials.gov large-document metadata",
+    "keyword_signals_are": "auxiliary_audit_not_role_ground_truth"
+  },
+  "discovery": {
+    "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies?query.term=AREA%5BLargeDocHasProtocol%5Dtrue%20AND%20AREA%5BLargeDocHasSAP%5Dtrue&pageSize=75&format=json&fields=NCTId,BriefTitle,LargeDocTypeAbbrev,LargeDocHasProtocol,LargeDocHasSAP,LargeDocHasICF,LargeDocFilename,LargeDocSize,LargeDocDate,LargeDocUploadDate",
+    "api_total_count": null,
+    "retrieved_candidate_count": 75,
+    "clinicaltrials_gov_version": {
+      "apiVersion": "2.0.5",
+      "dataTimestamp": "2026-07-17T09:00:05"
+    }
+  },
+  "failures": [
+    {
+      "nct_id": "NCT03493282",
+      "error": "ValueError: insufficient_extractable_text:Prot_001.pdf"
+    }
+  ],
+  "claim_boundary": "public_source_integrity_not_model_performance"
+}

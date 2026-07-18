@@ -1,0 +1,1555 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02981082",
+      "orgStudyIdInfo": {
+        "id": "PRO16070614"
+      },
+      "organization": {
+        "fullName": "University of Pittsburgh",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dimethyl Fumarate (DMF) in Systemic Sclerosis-Associated Pulmonary Arterial Hypertension",
+      "officialTitle": "A Double-blinded, Placebo-controlled Pilot Study of Dimethyl Fumarate (DMF) in Pulmonary Arterial Hypertension (PAH) Associated With Systemic Sclerosis (SSc-PAH): The Effect of DMF on Clinical Disease and Biomarkers of Oxidative Stress."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Low recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-02-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-02-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-11-30",
+      "studyFirstSubmitQcDate": "2016-11-30",
+      "studyFirstPostDateStruct": {
+        "date": "2016-12-02",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2021-10-26",
+      "resultsFirstSubmitQcDate": "2022-03-15",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-03-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Robert Lafyatis",
+        "investigatorTitle": "Professor of Medicine and the Thomas Medsger Professor in Arthritis Research",
+        "investigatorAffiliation": "University of Pittsburgh"
+      },
+      "leadSponsor": {
+        "name": "Robert Lafyatis",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Biogen",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "A double-blinded, placebo-controlled study of Dimethyl fumarate (DMF) in 34 Systemic Sclerosis-Pulmonary Hypertension (SSc-PAH) patients. The study will determine safety and the primary outcome variability for DMF in treating SSc-PAH; the primary outcome of clinical efficacy in this pilot trial will be improvement in 6-minute walk distance (6MWD).",
+      "detailedDescription": "A double-blinded, placebo-controlled study of Dimethyl fumarate (DMF) in 34 Systemic Sclerosis-Pulmonary Hypertension (SSc-PAH) patients. The study medication will be added to stable background PAH medication(s). Subjects will be dosed for 24 weeks, will undergo examination every 8 weeks, and will be finally evaluated 12 weeks after completion of treatment. Dosage will begin at once daily oral doses of 120mg for the first 7 days and follow the up-titration schedule to a maintenance dose of 240mg twice a day (or highest tolerated dose of a minimum of 120mg twice a day by the start of Week 8) for the remainder of the study. Participation will be for a total of 40 weeks, including a 4-week screening period, 24 weeks of drug, and a safety follow-up 12 weeks after the last dose. The study will determine the safety and the primary outcome variability for DMF in treating SSc-PAH; the primary outcome of clinical efficacy in this pilot trial will be improvement in 6-minute walk distance (6MWD)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Systemic Sclerosis",
+        "Pulmonary; Hypertension"
+      ],
+      "keywords": [
+        "Systemic Sclerosis, Scleroderma, PAH, Pulmonary Hypertension"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dimethyl Fumarate (DMF)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Twice daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days followed by the maintenance dose of Dimethyl Fumarate (DMF) 240mg twice a day. Subjects will be dosed for 24 weeks",
+          "interventionNames": [
+            "Drug: Dimethyl Fumarate (DMF)"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Twice daily oral doses of placebo for 12 weeks",
+          "interventionNames": [
+            "Drug: Placebo Oral Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dimethyl Fumarate (DMF)",
+          "description": "Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis.",
+          "armGroupLabels": [
+            "Dimethyl Fumarate (DMF)"
+          ],
+          "otherNames": [
+            "Tecfidera"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo Oral Tablet",
+          "description": "Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "6 Minute Walk Distance (6MWD)",
+          "description": "The primary outcome of clinical efficacy in this study is improvement in 6-minute walk distance (6MWD). Data depict the mean change (%) at end-of-study-treatment (Week 24) from baseline in both treatment groups, utilizing the Last Observation Carried Forward of withdrawn subjects.",
+          "timeFrame": "Baseline to Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Worsening",
+          "description": "The change in time to clinical worsening in DMF compared to placebo treated patients.",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "measure": "Borg Dyspnea Index (BDI)",
+          "description": "The change in Borg Dyspnea Index (BDI) at 24 weeks from baseline in DMF compared to placebo treated patients",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "measure": "Serum Markers of Oxidative Stress",
+          "description": "The change from baseline of serum markers of oxidative stress at 24 weeks, comparing DMF to placebo treated patients.",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "measure": "Proteomic Biomarkers",
+          "description": "The change from baseline in proteomic biomarkers, including BNP, at 24 weeks, comparing DMF to placebo treated patients.",
+          "timeFrame": "Baseline to Week 24"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed inform consent prior to any study-mandated procedures\n2. Adult patients 18-80 years of age\n3. World Health Organization Group 1 PAH associated with scleroderma (SSc-PAH)\n4. WHO functional Class II-III\n5. 6MWD 150 to 450 meters\n6. Right heart catheterization demonstrating mPAP≥ 25 mmHg and PCWP or left ventricular end diastolic pressure ≤15mm Hg and pulmonary vascular resistance ≥240 dynes/cm-5 (3 Wood units) within 12 weeks prior to study entry.\n7. ACR defined systemic sclerosis\n\nExclusion Criteria:\n\n1. Pulmonary hypertension associated with\n\n   * PAH of any etiology other than scleroderma\n   * PH of any etiology other than WHO Group I PAH\n   * Pulmonary venous hypertension defined as PCWP or LVEDP \\>15 mHg\n   * Untreated sleep apnea with AHI \\>20 or SaO2 Nadir \\<87%\n   * Chronic thromboembolic disease\n   * Sarcoidosis\n2. Participation in a clinical investigational study within the previous 30 days\n3. Moderate to severe hepatic impairment (e.g., Child-Pugh Class B or C)\n4. Renal failure defined as:\n\n   * estimated creatinine clearance \\<30 m/min\n   * serum creatinine\\>2.5 mg/dl\n5. Serum aspartate aminotransferase (AST) and or alanine aminotransferase (ALT) \\> 1.5 times the upper limit of normal\n6. Systolic blood pressure \\< 90mmHg\n7. Recently started (\\< 8 weeks prior to randomization) or planned cardiopulmonary rehabilitation program based on exercise\n8. Pregnant or lactating women\n9. Need for HAART therapy\n10. Planned treatment or treatment with another investigational drug within 1 month prior to start\n11. Moderate to severe interstitial lung disease, defined by FVC \\< 80% or evidence on HRCT of fibrosis or ground glass changes involving more than 30% of lung parenchyma",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Robert A Lafyatis, MD",
+          "affiliation": "University of Pittsburgh",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Jewish",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80206",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "John Hopkins",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Boston University",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Pittsburgh",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Dimethyl Fumarate (DMF)",
+          "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Met stopping rule of low absolute lymphocyte count (<0.5L) at two visits",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Dimethyl Fumarate (DMF)",
+          "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "4"
+            },
+            {
+              "groupId": "BG001",
+              "value": "2"
+            },
+            {
+              "groupId": "BG002",
+              "value": "6"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66.4",
+                      "lowerLimit": "45",
+                      "upperLimit": "71.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "72.5",
+                      "lowerLimit": "70.6",
+                      "upperLimit": "74.3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "69",
+                      "lowerLimit": "45",
+                      "upperLimit": "74.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6-minute walk distance (6MWD)",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "Mean 6MWD (meters)",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "305.5",
+                      "lowerLimit": "183",
+                      "upperLimit": "400"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "243.5",
+                      "lowerLimit": "183",
+                      "upperLimit": "304"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "284.83",
+                      "lowerLimit": "183",
+                      "upperLimit": "400"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "6 Minute Walk Distance (6MWD)",
+          "description": "The primary outcome of clinical efficacy in this study is improvement in 6-minute walk distance (6MWD). Data depict the mean change (%) at end-of-study-treatment (Week 24) from baseline in both treatment groups, utilizing the Last Observation Carried Forward of withdrawn subjects.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "percent change",
+          "timeFrame": "Baseline to Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Dimethyl Fumarate (DMF)",
+              "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "2"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.07",
+                      "lowerLimit": "-24.69",
+                      "upperLimit": "8.20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-14.97",
+                      "lowerLimit": "-29.93",
+                      "upperLimit": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Worsening",
+          "description": "The change in time to clinical worsening in DMF compared to placebo treated patients.",
+          "populationDescription": "Insufficient data collection due to low recruitment and early termination of study.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline to Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Dimethyl Fumarate (DMF)",
+              "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Borg Dyspnea Index (BDI)",
+          "description": "The change in Borg Dyspnea Index (BDI) at 24 weeks from baseline in DMF compared to placebo treated patients",
+          "populationDescription": "Insufficient data collection due to low recruitment and early termination of study.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline to Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Dimethyl Fumarate (DMF)",
+              "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Serum Markers of Oxidative Stress",
+          "description": "The change from baseline of serum markers of oxidative stress at 24 weeks, comparing DMF to placebo treated patients.",
+          "populationDescription": "Insufficient data collection due to low recruitment and early termination of study.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline to Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Dimethyl Fumarate (DMF)",
+              "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proteomic Biomarkers",
+          "description": "The change from baseline in proteomic biomarkers, including BNP, at 24 weeks, comparing DMF to placebo treated patients.",
+          "populationDescription": "Insufficient data collection due to low recruitment and early termination of study.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline to Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Dimethyl Fumarate (DMF)",
+              "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "36 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Dimethyl Fumarate (DMF)",
+          "description": "Once daily oral doses of Dimethyl Fumarate (DMF) 120mg for the first 7 days, following a titration schedule reaching a minimum of 120mg DMF twice daily, maximum 240mg twice daily, by the start of week 8. Subjects will be dosed for 24 weeks.\n\nDimethyl Fumarate (DMF): Dimethyl Fumarate (DMF) is a prescription medicine used to treat relapsing multiple sclerosis.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 4,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Twice daily oral doses of placebo for 12 weeks.\n\nPlacebo Oral Tablet: Sugar pill manufactured to mimic Dimethyl Fumarate (DMF)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 2,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 2,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 2
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Worsening of heart failure and shortness of breath secondary to anemia",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Bloating",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Blurred vision",
+          "organSystem": "Eye disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Decreased CD4 lymphocytes",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "High cholesterol",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Flatulence",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Small bowel bacteria overgrowth",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Shingles",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Pneumonina",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Joint effusion",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Localized edema",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Ankle swelling at night",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Right rotator cuff tendinopathy",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Non-cardiac chest pain",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Hemoptysis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Early study termination due to low recruitment; not enough participants for statistically reliable analyses."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Robert Lafyatis",
+        "organization": "University of Pittsburgh",
+        "email": "lafyatis@pitt.edu",
+        "phone": "412-648-7040"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2019-05-14",
+          "uploadDate": "2021-10-19T13:53",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 649143
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2019-05-20",
+          "uploadDate": "2021-10-19T13:49",
+          "filename": "ICF_001.pdf",
+          "size": 330182
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012595",
+          "term": "Scleroderma, Systemic"
+        },
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D045743",
+          "term": "Scleroderma, Diffuse"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069462",
+          "term": "Dimethyl Fumarate"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005650",
+          "term": "Fumarates"
+        },
+        {
+          "id": "D003998",
+          "term": "Dicarboxylic Acids"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

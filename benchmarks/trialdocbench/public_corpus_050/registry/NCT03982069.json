@@ -1,0 +1,2664 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03982069",
+      "orgStudyIdInfo": {
+        "id": "STUDY19040242"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1U01|P001035-01",
+          "type": "OTHER_GRANT",
+          "domain": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Pittsburgh",
+        "class": "OTHER"
+      },
+      "briefTitle": "Immunologic Response to FluMist vs. Flucelvax",
+      "officialTitle": "Immunological Response to Influenza Vaccination in Children, Adolescents, and Young Adults: A RCT of FluMist vs. Flucelvax"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-09-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-12-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-12-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-06-06",
+      "studyFirstSubmitQcDate": "2019-06-06",
+      "studyFirstPostDateStruct": {
+        "date": "2019-06-11",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2021-08-18",
+      "resultsFirstSubmitQcDate": "2021-09-17",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-10-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-09-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Richard Zimmerman MD",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Pittsburgh"
+      },
+      "leadSponsor": {
+        "name": "Richard Zimmerman MD",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Centers for Disease Control and Prevention",
+          "class": "FED"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate immunologic response to different types of influenza vaccine among children/adolescents/young adults 4-21 years of age. This is a randomized controlled trial (RCT), that will assess immune response in about 440 participants (about 220 per vaccine arm) pre- and post-vaccination to FluMist (live attenuated influenza vaccine given by nasal administration) and Flucelvax (egg-free cell-culture inactivated influenza vaccine).",
+      "detailedDescription": "This is a non-blinded, randomized controlled trial analyzing influenza vaccine immunogenicity response in children/adolescents/young adults aged 4-21 years given one of two FDA approved and licensed influenza vaccines: FluMist (live attenuated influenza vaccine by nasal administration) and Flucelvax (egg-free cell-culture inactivated influenza vaccine). This study will enroll about 440 healthy participants, about 220 per vaccine arm. Participants will be randomized in blocks of 4 using a 1:1 allocation to receive either FluMist or Flucelvax. Blood work will be conducted on all participants at baseline prior to vaccine receipt and post-vaccination at Day 7 (range 6-9 days) and Day 28 (range 21-35 days). The primary objective of the study is to determine pre- and post-serologic responses to each vaccine type."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Influenza, Human",
+        "Immune Response"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 465,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "FluMist live attenuated influenza vaccine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally",
+          "interventionNames": [
+            "Biological: FluMist live attenuated influenza vaccine"
+          ]
+        },
+        {
+          "label": "Flucelvax inactivated influenza vaccine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly",
+          "interventionNames": [
+            "Biological: Flucelvax inactivated influenza vaccine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "FluMist live attenuated influenza vaccine",
+          "description": "Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete.",
+          "armGroupLabels": [
+            "FluMist live attenuated influenza vaccine"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Flucelvax inactivated influenza vaccine",
+          "description": "Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete.",
+          "armGroupLabels": [
+            "Flucelvax inactivated influenza vaccine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Seroconversion Response In 2019",
+          "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroconversion is defined as a 4-fold or higher rise in HI titer post-vaccination given a pre-vaccination HI titer of \\>=10 and a final HI titer of \\>=40.",
+          "timeFrame": "Post-vaccination (at Day 28 timepoint)"
+        },
+        {
+          "measure": "Number of Participants With Seroconversion Response In 2020",
+          "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroconversion is defined as a 4-fold or higher rise in HI titer post-vaccination given a pre-vaccination HI titer of \\>=10 and a final HI titer of \\>=40.",
+          "timeFrame": "Post-vaccination (at Day 28 timepoint)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Seroprotection Response in 2019",
+          "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroprotection is defined as a HI titer \\>= 1:110 at either time point.",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)"
+        },
+        {
+          "measure": "Geometric Mean Titers (GMTs) at Each Time Point 2019",
+          "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition assay was conducted to assess immunologic outcome. GMTs is defined as the anti-log of the mean of the log2 HI titers",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)"
+        },
+        {
+          "measure": "Number of Participants With Seroprotection Response in 2020",
+          "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroprotection is defined as a HI titer \\>= 1:110 at either time point.",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)"
+        },
+        {
+          "measure": "Geometric Mean Titers (GMTs) at Each Time Point 2020",
+          "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition assay will be conducted to assess immunologic outcome. GMTs is defined as the anti-log of the mean of the log2 HI titers",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* aged 4-21 years;\n* has prior vaccination history available (which can be determined based either on medical record review or through state registry review);\n* plans to receive the current seasonal influenza vaccination at one of the recruiting sites\n\nExclusion Criteria:\n\n* unable or unwilling to completed required study activities, including informed consent, randomization to vaccine, and bloodwork;\n* has already received influenza vaccine for the current season;\n* has a known immunocompromising condition or is on an immunosuppressing medication (e.g., high dose steroids \\>10 days);\n* is known to be pregnant;\n* has a history of severe allergy to eggs or to influenza vaccine or any of its components",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "4 Years",
+      "maximumAge": "21 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Richard K Zimmerman, MD, MPH, MA",
+          "affiliation": "University of Pittsburgh, School of Medicine, Dept. Family Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "General Academic Pediatrics",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "University of Pittsburgh Department of Family Medicine",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37232430",
+          "type": "DERIVED",
+          "citation": "Williams KV, Li ZN, Zhai B, Alcorn JF, Nowalk MP, Levine MZ, Kim SS, Flannery B, Moehling Geffel K, Merranko AJ, Collins M, Susick M, Clarke KS, Zimmerman RK, Martin JM. A Randomized Controlled Trial to Compare Immunogenicity to Cell-Based Versus Live-Attenuated Influenza Vaccines in Children. J Pediatric Infect Dis Soc. 2023 Jun 30;12(6):342-352. doi: 10.1093/jpids/piad033."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual participant data that underlie the results reported in the primary article, after deidentification, will be placed at the site mentioned below.",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "timeFrame": "Beginning 9 months and ending 36 months after article publication.",
+      "accessCriteria": "Researchers who provide a methodologically sound proposal and have appropriate data security and privacy plans in place",
+      "url": "http://github.com/pittvax"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "FluMist Live Attenuated Influenza Vaccine 2019",
+          "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "FG001",
+          "title": "Flucelvax Inactivated Influenza Vaccine 2019",
+          "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "FG002",
+          "title": "FluMist Live Attenuated Influenza Vaccine 2020",
+          "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "FG003",
+          "title": "Flucelvax Inactivated Influenza Vaccine 2020",
+          "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "108"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "110"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "127"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "120"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "98"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "100"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "118"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "112"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Specimen loss",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "FluMist Live Attenuated Influenza Vaccine 2019",
+          "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "BG001",
+          "title": "Flucelvax Inactivated Influenza Vaccine 2019",
+          "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "BG002",
+          "title": "FluMist Live Attenuated Influenza Vaccine 2020",
+          "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "BG003",
+          "title": "Flucelvax Inactivated Influenza Vaccine 2020",
+          "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "108"
+            },
+            {
+              "groupId": "BG001",
+              "value": "110"
+            },
+            {
+              "groupId": "BG002",
+              "value": "127"
+            },
+            {
+              "groupId": "BG003",
+              "value": "120"
+            },
+            {
+              "groupId": "BG004",
+              "value": "465"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "253"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "212"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16.8",
+                      "spread": "4.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16.6",
+                      "spread": "4.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15.6",
+                      "spread": "5.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "15.1",
+                      "spread": "5.2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "16.0",
+                      "spread": "4.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "254"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "70"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "211"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "23"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "104"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "116"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "439"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "138"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "79"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "259"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "34"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "108"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "110"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "127"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "465"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With Seroconversion Response In 2019",
+          "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroconversion is defined as a 4-fold or higher rise in HI titer post-vaccination given a pre-vaccination HI titer of \\>=10 and a final HI titer of \\>=40.",
+          "populationDescription": "2019 Participants",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Post-vaccination (at Day 28 timepoint)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "FluMist Live Attenuated Influenza Vaccine 2019",
+              "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+            },
+            {
+              "id": "OG001",
+              "title": "Flucelvax Inactivated Influenza Vaccine 2019",
+              "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "98"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "100"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A/H1N1-A/Brisbane",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Kansas egg grown virus",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Kansas cell grown virus",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Colorado",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "All listed antigens",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With Seroconversion Response In 2020",
+          "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroconversion is defined as a 4-fold or higher rise in HI titer post-vaccination given a pre-vaccination HI titer of \\>=10 and a final HI titer of \\>=40.",
+          "populationDescription": "2020 Participants",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Post-vaccination (at Day 28 timepoint)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "FluMist Live Attenuated Influenza Vaccine 2020",
+              "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+            },
+            {
+              "id": "OG001",
+              "title": "Flucelvax Inactivated Influenza Vaccine 2020",
+              "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "118"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A/H1N1-A/Hawaii66 egg based antigen",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii70 cell based antigen",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Delaware",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Hong Kong",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Washington",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "All listed antigens",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Seroprotection Response in 2019",
+          "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroprotection is defined as a HI titer \\>= 1:110 at either time point.",
+          "populationDescription": "2019 Participants",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "FluMist Live Attenuated Influenza Vaccine 2019",
+              "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+            },
+            {
+              "id": "OG001",
+              "title": "Flucelvax Inactivated Influenza Vaccine 2019",
+              "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "98"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "100"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A/H1N1-A/Birsbane:Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Birsbane:Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "93"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-AKansas egg grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-AKansas egg grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "77"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-AKansas cell grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-AKansas cell grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "65"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Colorado: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Colorado: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "84"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "Day 28 for all listed antigens",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.40",
+              "pValueComment": "Day 0, A/H1N1-A/Brisbane",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.36",
+              "pValueComment": "Day 0 A/H1N1-A/Kansas egg grown virus",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.08",
+              "pValueComment": "Day 0 A/H1N1-A/Kansas cell grown virus",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.91",
+              "pValueComment": "Day 0 B/Victoria-B/Colorado",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.31",
+              "pValueComment": "Day 0 B/Yamagata-B/Phuket",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Geometric Mean Titers (GMTs) at Each Time Point 2019",
+          "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition assay was conducted to assess immunologic outcome. GMTs is defined as the anti-log of the mean of the log2 HI titers",
+          "populationDescription": "2019 Participants",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "titer",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "FluMist Live Attenuated Influenza Vaccine 2019",
+              "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+            },
+            {
+              "id": "OG001",
+              "title": "Flucelvax Inactivated Influenza Vaccine 2019",
+              "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "98"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "100"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A/H1N1-A/Brisbane: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94",
+                      "lowerLimit": "77",
+                      "upperLimit": "116"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "90",
+                      "lowerLimit": "73",
+                      "upperLimit": "111"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Brisbane: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "108",
+                      "lowerLimit": "89",
+                      "upperLimit": "132"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "269",
+                      "lowerLimit": "228",
+                      "upperLimit": "317"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Kansas egg grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "75",
+                      "lowerLimit": "64",
+                      "upperLimit": "89"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "78",
+                      "lowerLimit": "66",
+                      "upperLimit": "95"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Kansas egg grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96",
+                      "lowerLimit": "83",
+                      "upperLimit": "112"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "205",
+                      "lowerLimit": "178",
+                      "upperLimit": "237"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Kansas cell grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50",
+                      "lowerLimit": "43",
+                      "upperLimit": "58"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46",
+                      "lowerLimit": "38",
+                      "upperLimit": "55"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Kansas cell grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "63",
+                      "lowerLimit": "58",
+                      "upperLimit": "74"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "136",
+                      "lowerLimit": "113",
+                      "upperLimit": "165"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Colorado: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65",
+                      "lowerLimit": "53",
+                      "upperLimit": "81"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "65",
+                      "lowerLimit": "53",
+                      "upperLimit": "79"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Colorado: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "78",
+                      "lowerLimit": "64",
+                      "upperLimit": "94"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "158",
+                      "lowerLimit": "134",
+                      "upperLimit": "186"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "101",
+                      "lowerLimit": "83",
+                      "upperLimit": "122"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "89",
+                      "lowerLimit": "74",
+                      "upperLimit": "107"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "107",
+                      "lowerLimit": "90",
+                      "upperLimit": "128"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "215",
+                      "lowerLimit": "191",
+                      "upperLimit": "241"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.79",
+              "pValueComment": "Day 0 A/H1N1-A/Brisbane",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.79",
+              "pValueComment": "Day 0 A/H3N2-A/Kansas egg grown virus",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.56",
+              "pValueComment": "Day 0 A/H3N2-A/Kansas cell grown virus",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.95",
+              "pValueComment": "Day 0 B/Victoria-B/Colorado",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.44",
+              "pValueComment": "Day 0 B/Yamagata-B/Phuket",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "Day 28 for all listed variables",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Seroprotection Response in 2020",
+          "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroprotection is defined as a HI titer \\>= 1:110 at either time point.",
+          "populationDescription": "2020 Participants",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "FluMist Live Attenuated Influenza Vaccine 2020",
+              "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+            },
+            {
+              "id": "OG001",
+              "title": "Flucelvax Inactivated Influenza Vaccine 2020",
+              "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "118"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A/H1N1-A/Hawaii66 egg: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii66 egg: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "79"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii70 cell grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii70 cell grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Delaware: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Delaware: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "65"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Hong Kong: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "90"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Hong Kong: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "102"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "99"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Washington: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "62"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Washington: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "86"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "66"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "64"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.83",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 0: A/H1N1-A/Hawaii66-egg based antigen"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.79",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 0: A/H1N1-A/Hawaii70-cell based antigen"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.65",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 0: A/H1N1-A/Delaware"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.06",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 0: A/H3N2-A/Hong Kong"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.98",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 0: B/Victoria-B/Washington"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.24",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 0: B/Yamagata-B/Phuket"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "<0.01",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "Day 28: A/H1N1-A/Hawaii66-egg based antigen, A/H1N1-A/Hawaii70-cell based antigen, A/H1N1-A/Delaware, B/Victoria-B/Washington, B/Yamagata-B/Phuket"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.66",
+              "statisticalMethod": "Chi-squared",
+              "statisticalComment": "A/H3N2-A/Hong Kong"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Geometric Mean Titers (GMTs) at Each Time Point 2020",
+          "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition assay will be conducted to assess immunologic outcome. GMTs is defined as the anti-log of the mean of the log2 HI titers",
+          "populationDescription": "2020 Participants",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "titer",
+          "timeFrame": "Pre-vaccination (at Day 0 timepoint) and post-vaccination (at Day 28 timepoint)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "FluMist Live Attenuated Influenza Vaccine 2020",
+              "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete."
+            },
+            {
+              "id": "OG001",
+              "title": "Flucelvax Inactivated Influenza Vaccine 2020",
+              "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "118"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A/H1N1-A/Hawaii66 egg grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "42",
+                      "lowerLimit": "33",
+                      "upperLimit": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34",
+                      "lowerLimit": "27",
+                      "upperLimit": "43"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii66 egg grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51",
+                      "lowerLimit": "41",
+                      "upperLimit": "63"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "171",
+                      "lowerLimit": "139",
+                      "upperLimit": "211"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii70 cell grown virus: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97",
+                      "lowerLimit": "80",
+                      "upperLimit": "118"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "84",
+                      "lowerLimit": "61",
+                      "upperLimit": "103"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Hawaii70 cell grown virus: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "121",
+                      "lowerLimit": "100",
+                      "upperLimit": "145"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "380",
+                      "lowerLimit": "315",
+                      "upperLimit": "458"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Delaware: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58",
+                      "lowerLimit": "47",
+                      "upperLimit": "72"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46",
+                      "lowerLimit": "36",
+                      "upperLimit": "57"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H1N1-A/Delaware: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "62",
+                      "lowerLimit": "50",
+                      "upperLimit": "78"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "120",
+                      "lowerLimit": "100",
+                      "upperLimit": "145"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Hong Kong: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "174",
+                      "lowerLimit": "133",
+                      "upperLimit": "226"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "119",
+                      "lowerLimit": "89",
+                      "upperLimit": "160"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/H3N2-A/Hong Kong: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "234",
+                      "lowerLimit": "190",
+                      "upperLimit": "288"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "370",
+                      "lowerLimit": "282",
+                      "upperLimit": "484"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Washington: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92",
+                      "lowerLimit": "75",
+                      "upperLimit": "114"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "88",
+                      "lowerLimit": "70",
+                      "upperLimit": "111"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Victoria-B/Washington: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "116",
+                      "lowerLimit": "95",
+                      "upperLimit": "142"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "212",
+                      "lowerLimit": "175",
+                      "upperLimit": "258"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98",
+                      "lowerLimit": "83",
+                      "upperLimit": "118"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "87",
+                      "lowerLimit": "71",
+                      "upperLimit": "107"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Yamagata-B/Phuket: Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "114",
+                      "lowerLimit": "96",
+                      "upperLimit": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "214",
+                      "lowerLimit": "184",
+                      "upperLimit": "249"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.22",
+              "pValueComment": "Day 0: A/H1N1-A/Hawaii66 egg based antigen",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.25",
+              "pValueComment": "Day 0: A/H1N1-A/Hawaii70 cell based antigen",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.13",
+              "pValueComment": "Day 0: A/H1N1-A/Delaware",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.06",
+              "pValueComment": "Day 0: A/H3N2-A/Hong Kong",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.78",
+              "pValueComment": "Day 0: B/Victoria-B/Washington",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.36",
+              "pValueComment": "Day 0: B/Yamagata-B/Phuket",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "<0.0001",
+              "pValueComment": "Day 28: A/H1N1-A/Hawaii66 egg based antigen, A/H1N1-A/Hawaii70 cell based antigen, A/H1N1-A/Delaware, B/Victoria-B/Washington, B/Yamagata-B/Phuket",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.01",
+              "pValueComment": "Day 28: A/H3N2-A/Hong Kong",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "5 weeks in relation to baseline",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "FluMist Live Attenuated Influenza Vaccine",
+          "description": "Participants receiving live attenuated FluMist influenza vaccine will receive 0.2 mL given intranasally\n\nFluMist live attenuated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive FluMist live attenuated influenza vaccine at baseline after the baseline blood draw is complete.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 235,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 235,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 235
+        },
+        {
+          "id": "EG001",
+          "title": "Flucelvax Inactivated Influenza Vaccine",
+          "description": "Participants receiving inactivated Flucelvax influenza vaccine will receive 0.5 mL given intramuscularly\n\nFlucelvax inactivated influenza vaccine: Participants randomized to this study influenza vaccine arm will receive Flucelvax cell-culture inactivated influenza vaccine at baseline after the baseline blood draw is complete.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 230,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 230,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 230
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Katherine Williams",
+        "organization": "University of Pittsburgh",
+        "email": "kvw3@pitt.edu",
+        "phone": "412-383-1979"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP_ICF",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": true,
+          "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+          "date": "2020-09-03",
+          "uploadDate": "2021-08-16T14:26",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "size": 813907
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2021-09-16",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007251",
+          "term": "Influenza, Human"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D009976",
+          "term": "Orthomyxoviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

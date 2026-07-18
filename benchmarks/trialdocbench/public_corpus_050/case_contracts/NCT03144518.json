@@ -1,0 +1,53 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03144518",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03144518",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 106,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Mood Outcome Scores [Multiple]",
+        "description": "Affective Slider (Betella \\& Verschure, 2016), consists of two single item visual analogue scales. Scores for each are presented as a value from 0 to 100 with higher scores indicating greater pleasure (VAS-Valence) and arousal (VAS-Arousal).\n\nPositive and Negative Affect Schedule (Watson et al., 1988). Positive and negative affect subscales were created by summing the scores of positive and negative adjectives respectively. For each sub scale, minimum score = 10, maximum score = 50 with higher scores indicating greater positive and negative affect respectively.\n\nPictorial scale of positive affect (unvalidated, internally developed). Participants completed a single-item photo-based measure of positive affect tailored for older adults. Participants were presented with six groups of images depicting varying degrees of positive affect, and indicate which best reflected how they felt at that moment. Minumum score 1, maximum score 6, higher scores indicate greater positive affect.",
+        "timeFrame": "Baseline, Immediately Post Intervention (i.e, 15 minutes post-baseline)."
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03144518/Prot_SAP_000.pdf",
+      "sha256": "A5CB40A18B19490B53B66A9A974B61924FF3AE4DF317183B5AAF60AABC4D839C",
+      "bytes": 663913,
+      "pages": 27,
+      "document_date": "2017-08-21",
+      "upload_date": "2019-01-29T06:15",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 65401,
+        "sampled_pages": 27
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 27,
+      "content_digest": "A5CB40A18B19490B53B66A9A974B61924FF3AE4DF317183B5AAF60AABC4D839C"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

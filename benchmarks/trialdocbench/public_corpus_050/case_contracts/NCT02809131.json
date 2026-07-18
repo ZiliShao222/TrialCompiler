@@ -1,0 +1,53 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02809131",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02809131",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE3"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 1010,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Patients With a Major Cardiac Implantable Electronic Devices (CIED) Infection",
+        "description": "The primary study endpoint will be the number of patients with CIED infection resulting in complete CIED system removal, antibiotic therapy in patients who are not candidates for system removal, or death due to CIED infection.",
+        "timeFrame": "6 months"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02809131/Prot_SAP_000.pdf",
+      "sha256": "052DE2D6E0D3857B09B9DFA700CE5D6CB9AEE6567781BBC237CDFFC1368A6546",
+      "bytes": 656025,
+      "pages": 16,
+      "document_date": "2019-12-06",
+      "upload_date": "2022-04-08T17:06",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 37101,
+        "sampled_pages": 16
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 16,
+      "content_digest": "052DE2D6E0D3857B09B9DFA700CE5D6CB9AEE6567781BBC237CDFFC1368A6546"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

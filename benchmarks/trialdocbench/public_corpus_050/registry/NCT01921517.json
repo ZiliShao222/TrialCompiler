@@ -1,0 +1,905 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01921517",
+      "orgStudyIdInfo": {
+        "id": "3408455"
+      },
+      "organization": {
+        "fullName": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "briefTitle": "Micromechanical Modeling Using Low Magnitude Mechanical Stimulation",
+      "officialTitle": "Osteoporosis Treatment Response Assessed by Micromechanical Modeling of MRI Data",
+      "acronym": "LMMS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-02-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-06-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-08-08",
+      "studyFirstSubmitQcDate": "2013-08-08",
+      "studyFirstPostDateStruct": {
+        "date": "2013-08-13",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2019-10-21",
+      "resultsFirstSubmitQcDate": "2019-11-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-11-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-11-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-11-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Felix Wehrli",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Pennsylvania"
+      },
+      "leadSponsor": {
+        "name": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Children's Hospital of Philadelphia",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The response to a daily 10 minute session of low-magnitude mechanical stimulation (LMMS) on bone in 100 postmenopausal women ages 45-65 years will be evaluated at baseline and 12 months using high-resolution magnetic resonance (MR) imaging. Subjects will be assigned to an active platform that produces vibrations or to a placebo platform that produces no vibrations.\n\nThe investigators propose to evaluate the hypothesis that LMMS applied to postmenopausal women ages 45-65 improves the mechanical integrity of bone while lowering marrow adiposity.\n\n1. The investigators will optimize an integrated imaging protocol for high-resolution structural MR imaging of the distal tibia and spectroscopic imaging-based quantification of bone marrow composition in the lumbar vertebrae.\n2. The investigators will further develop and validate micro-finite-element (FE) analysis for quantitative assessment of trabecular and cortical bone stiffness and failure load from high-resolution MR images of the distal tibia.\n3. The investigators will apply the methodology of Aims 1 and 2 (above) in a double-blinded, randomized, placebo-controlled study to a cohort of 100 healthy postmenopausal women in the age range of 45-65 years, studied at baseline and 12 months after having been subjected to 10 minutes daily of either 30 Hz/0.3g stimulation or placebo treatment, monitored rigorously via electronic feedback.",
+      "detailedDescription": "Weightbearing exercise has an osteogenic effect by reducing bone resorption and enhancing bone formation. During the past several years a number of articles have appeared demonstrating that low-magnitude mechanical stimulation (LMMS) is osteogenic in animals and also in humans. Preclinical studies have also demonstrated an effect of decrease in adiposity. The mechanobiology underlying these phenomena is beginning to emerge in terms of expression of genes stimulated by the action of the vibrations to which osteocytes and adipocytes are subjected.\n\nIf successful, LMMS treatment, a non-pharmacologic intervention, could prevent bone loss and potentially stimulate bone formation and decreased adipocyte production resulting in increased bone strength and reduced fracture susceptibility in subjects at risk of developing osteoporosis. The proposed project focuses directly on measures of strength by evaluating the therapeutic response in terms of magnetic resonance (MR) image-based micro finite-element (FE) assessment of bone stiffness and failure strength, along with quantifying treatment-induced changes in marrow adiposity, as part of a single, integrated examination, conducted at baseline and 12 months of treatment in a double-blinded, randomized, placebo-controlled study of early postmenopausal women."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Bone Alteration"
+      ],
+      "keywords": [
+        "Biomechanics",
+        "Osteogenesis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 117,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Low Magnitude Mechanical Stimulation",
+          "type": "EXPERIMENTAL",
+          "description": "10 minutes daily of 30 Hz/0.3g stimulation using a vibrating platform.",
+          "interventionNames": [
+            "Device: Low Magnitude Mechanical Stimulation"
+          ]
+        },
+        {
+          "label": "Sham Low Magnitude Mechanical Stimulation",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "10 minutes daily of placebo treatment using a sham vibrating platform.",
+          "interventionNames": [
+            "Device: Sham Low Magnitude Mechanical Stimulation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Low Magnitude Mechanical Stimulation",
+          "description": "Mechanical stimulation for 10 minutes daily for 12 months at a frequency of 30 Hz and acceleration of 0.3 g.",
+          "armGroupLabels": [
+            "Low Magnitude Mechanical Stimulation"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham Low Magnitude Mechanical Stimulation",
+          "description": "Mechanical stimulation for 10 minutes daily for 12 months using a sham device.",
+          "armGroupLabels": [
+            "Sham Low Magnitude Mechanical Stimulation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Distal Tibia Bone Quality",
+          "description": "Distal tibial bone quality is measured through MRI by calculating the ratio between bone volume to total volume. A lower value would indicate osteoporotic (weaker) bone; a higher value would indicate healthy (normal) bone.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Females, ages 45-65 years and post menopausal, as defined by a history of amenorrhea for a minimum of 24 months and a serum FSH (follicle-stimulating hormone) concentration of 25 mIU/mL (milli-International unit per milliliter) and negative pregnancy test.\n\nExclusion Criteria:\n\n* Current or prior use of medications known to affect bone (e.g. bisphosphonates, calcitonin, selective estrogen receptor modulators, denosumab, diphenylhydantoin, recent systemic glucocorticoid use), bone mineral density T score of less than -2.5 and greater than +2, Vitamin D level less then 12 ng/ml, BMI (body mass index) of greater than 32, current alcohol or drug abuse: more than 3 alcoholic beverages per day or current abuse of illicit drugs or prescription medication, uncontrolled or untreated cardiac or pulmonary disease liver disease: history of hepatitis or ALT (alanine aminotransferase) or AST (aspartate aminotransferase) greater than 2x ULN (upper limit of normal), renal disease: history of renal disease or serum creatinine greater than 2x ULN diabetes, pacemaker or metallic implants considered a contraindication to MR scanning.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "45 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Felix W Wehrli, Ph.D.",
+          "affiliation": "University of Pennsylvania",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Not all subjects enrolled (consented at screening visit) were randomized (randomized to intervention)",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Low Magnitude Mechanical Stimulation",
+          "description": "10 minutes daily of 30 Hz/0.3g stimulation using a vibrating platform.\n\nLow Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months at a frequency of 30 Hz and acceleration of 0.3 g."
+        },
+        {
+          "id": "FG001",
+          "title": "Sham Low Magnitude Mechanical Stimulation",
+          "description": "10 minutes daily of placebo treatment using a sham vibrating platform.\n\nSham Low Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months using a sham device."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "42"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "38"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "29"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Newly diagnosed health concern",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Subject missed final imaging",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Low Magnitude Mechanical Stimulation",
+          "description": "10 minutes daily of 30 Hz/0.3g stimulation using a vibrating platform.\n\nLow Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months at a frequency of 30 Hz and acceleration of 0.3 g."
+        },
+        {
+          "id": "BG001",
+          "title": "Sham Low Magnitude Mechanical Stimulation",
+          "description": "10 minutes daily of placebo treatment using a sham vibrating platform.\n\nSham Low Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months using a sham device."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "42"
+            },
+            {
+              "groupId": "BG001",
+              "value": "38"
+            },
+            {
+              "groupId": "BG002",
+              "value": "80"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "80"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "80"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "53"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "80"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Distal Tibia Bone Quality",
+          "description": "Distal tibial bone quality is measured through MRI by calculating the ratio between bone volume to total volume. A lower value would indicate osteoporotic (weaker) bone; a higher value would indicate healthy (normal) bone.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "percentage of change",
+          "timeFrame": "Baseline to 12 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low Magnitude Mechanical Stimulation",
+              "description": "10 minutes daily of 30 Hz/0.3g stimulation using a vibrating platform.\n\nLow Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months at a frequency of 30 Hz and acceleration of 0.3 g."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Low Magnitude Mechanical Stimulation",
+              "description": "10 minutes daily of placebo treatment using a sham vibrating platform.\n\nSham Low Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months using a sham device."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "42"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "38"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.121",
+                      "lowerLimit": "-0.35",
+                      "upperLimit": "2.29"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.141",
+                      "lowerLimit": "-4.53",
+                      "upperLimit": "0.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0481",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse event data was collected over five years.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Low Magnitude Mechanical Stimulation",
+          "description": "10 minutes daily of 30 Hz/0.3g stimulation using a vibrating platform.\n\nLow Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months at a frequency of 30 Hz and acceleration of 0.3 g.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 42,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 42,
+          "otherNumAffected": 8,
+          "otherNumAtRisk": 42
+        },
+        {
+          "id": "EG001",
+          "title": "Sham Low Magnitude Mechanical Stimulation",
+          "description": "10 minutes daily of placebo treatment using a sham vibrating platform.\n\nSham Low Magnitude Mechanical Stimulation: Mechanical stimulation for 10 minutes daily for 12 months using a sham device.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 38,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 38,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 38
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Headache",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            }
+          ]
+        },
+        {
+          "term": "Itching/Redness",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 38
+            }
+          ]
+        },
+        {
+          "term": "Heavy Feeling in Bones",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 38
+            }
+          ]
+        },
+        {
+          "term": "Bone Pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Felix W. Wehrli, Principal Investigator",
+        "organization": "University of Pennsylvania Perelman School of Medicine",
+        "email": "felix.wehrli@pennmedicine.upenn.edu",
+        "phone": "215-662-7951"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP_ICF",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": true,
+          "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+          "date": "2018-10-24",
+          "uploadDate": "2019-09-19T11:16",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "size": 378336
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    }
+  },
+  "hasResults": true
+}

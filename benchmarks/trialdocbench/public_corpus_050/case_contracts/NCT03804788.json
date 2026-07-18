@@ -1,0 +1,88 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03804788",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03804788",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 71,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Recruitment",
+        "description": "Number of eligible participants who enrolled in the study",
+        "timeFrame": "Assessed at baseline"
+      },
+      {
+        "measure": "Retention",
+        "description": "Number of participants who complete all treatment sessions",
+        "timeFrame": "Assessed at post-treatment (week 6)"
+      },
+      {
+        "measure": "Drinking Quantity",
+        "description": "Assessed using Daily Drinking Questionnaire. Participants report the number of standard drinks consumed on each day of a typical week in the past month (on Monday, Tuesday, Wednesday, etc). Responses for each day are then summed to calculate a total \"drinks per week\" variable, where higher scores indicate more standard drinks.",
+        "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+      },
+      {
+        "measure": "Alcohol-related Consequences",
+        "description": "Assessed using the Brief Young Adult Alcohol Consequences Questionnaire, which asks participants to indicate (yes/no) which of 24 consequences they have experienced in the past month. Responses range from 0 to 24, with greater scores indicating more consequences.",
+        "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+      },
+      {
+        "measure": "Insomnia Symptoms",
+        "description": "Assessed using Insomnia Severity Index (ISI). ISI scores from 0 to 28, with higher scores indicating more severe insomnia.",
+        "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+      },
+      {
+        "measure": "Sleep Quality",
+        "description": "On daily sleep diaries, participants reported sleep quality on a scale from 0 (very poor) to 4 (very good). Higher scores indicate better sleep quality.",
+        "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+      },
+      {
+        "measure": "Sleep Efficiency",
+        "description": "Daily sleep diaries were used to calculate the amount of time that participants spent sleeping out of all the time they spent in bed. Values from 0 to 100, with higher scores indicating better sleep efficiency. The treatment goal is 85%.",
+        "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+      },
+      {
+        "measure": "Client Satisfaction",
+        "description": "Assessed using the 8-item Client Satisfaction Questionnaire. Participants rate their satisfaction with insomnia treatment on a scale from 1 (poor) to 4 (excellent). Scores were summed and then divided by the number of items to create a meaningful standardized score. Higher scores indicate greater satisfaction.",
+        "timeFrame": "Mean score at post-treatment (week 6)."
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03804788/Prot_SAP_000.pdf",
+      "sha256": "D803B939B03E7BFA4F88490D0A537BF5BBF6465037F26E5846F9C0CC55BFD3F4",
+      "bytes": 318948,
+      "pages": 15,
+      "document_date": "2022-12-29",
+      "upload_date": "2024-08-14T11:51",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 61366,
+        "sampled_pages": 15
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 15,
+      "content_digest": "D803B939B03E7BFA4F88490D0A537BF5BBF6465037F26E5846F9C0CC55BFD3F4"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

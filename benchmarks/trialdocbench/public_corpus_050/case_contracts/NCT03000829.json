@@ -1,0 +1,52 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03000829",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03000829",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 1001,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Fraction of Pulseless Time With no Chest Compressions",
+        "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT03000829/Prot_SAP_000.pdf",
+      "sha256": "D83294E035A7FFEF6000A26BBC773A9B6D9B3937A4BA73144D8BBECCC564FE58",
+      "bytes": 441838,
+      "pages": 11,
+      "document_date": "2017-07-10",
+      "upload_date": "2022-01-27T14:10",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 32092,
+        "sampled_pages": 11
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 11,
+      "content_digest": "D83294E035A7FFEF6000A26BBC773A9B6D9B3937A4BA73144D8BBECCC564FE58"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

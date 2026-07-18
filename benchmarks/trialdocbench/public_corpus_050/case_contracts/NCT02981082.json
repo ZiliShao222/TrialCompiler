@@ -1,0 +1,53 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02981082",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02981082",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "overall_status": "TERMINATED",
+    "enrollment": {
+      "count": 6,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "6 Minute Walk Distance (6MWD)",
+        "description": "The primary outcome of clinical efficacy in this study is improvement in 6-minute walk distance (6MWD). Data depict the mean change (%) at end-of-study-treatment (Week 24) from baseline in both treatment groups, utilizing the Last Observation Carried Forward of withdrawn subjects.",
+        "timeFrame": "Baseline to Week 24"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT02981082/Prot_SAP_000.pdf",
+      "sha256": "1A010888EDA3C85C3F1543452A7B23725CBFEEDB3786DD01E6512871426E1DD8",
+      "bytes": 649143,
+      "pages": 58,
+      "document_date": "2019-05-14",
+      "upload_date": "2021-10-19T13:53",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 89649,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 58,
+      "content_digest": "1A010888EDA3C85C3F1543452A7B23725CBFEEDB3786DD01E6512871426E1DD8"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02296320",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02296320",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 213,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Percentage of Participants With Endpoint Adjudication Committee-Determined (EAC) Staphylococcus Aureus (S Aureus) Pneumonia",
+        "description": "The EAC S aureus pneumonia was based on clinical, radiographic, and microbiologic criteria. Clinical criteria: 1 major criteria (PaO2/FiO2 ratio \\< 240 mmHg maintained for at least 4 hours or decrease in PaO2/FiO2 by \\>= 50 mmHg maintained for at least 4 hrs or a need to initiate non-invasive mechanical ventilation or re-initiate invasive mechanical ventilation because of respiratory failure or worsening of respiratory status); and at least 2 of minor criteria (systemic signs of infection, production of purulent sputum/endotracheal secretions, new onset of cough, physical examination findings consistent with pneumonia/pulmonary consolidation, dyspnea, and/or tachypnea). Radiographic criteria: new or worsening infiltrate consistent with pneumonia on chest X-ray obtained within 24 hrs of event. Microbiologic criteria: at least 1 culture positive for S aureus (respiratory specimen, or blood, or pleural fluid aspirate or lung tissue culture during episode of pneumonia).",
+        "timeFrame": "Day 1 through Day 31"
+      },
+      {
+        "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs) Through 31 Days",
+        "description": "An adverse event (AE) is any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. TEAEs are defined as events present at baseline that worsened in intensity after administration of study drug or events absent at baseline that emerged after administration of study drug.",
+        "timeFrame": "Day 1 through Day 31"
+      },
+      {
+        "measure": "Number of Participants With TEAEs Through 91 Days",
+        "description": "An AE is any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. TEAEs are defined as events present at baseline that worsened in intensity after administration of study drug or events absent at baseline that emerged after administration of study drug.",
+        "timeFrame": "Day 1 through Day 91"
+      },
+      {
+        "measure": "Number of Participants With Treatment Emergent Serious Adverse Events (TESAEs)",
+        "description": "A serious adverse event (SAE) is an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. TEAEs are defined as events present at baseline that worsened in intensity after administration of study drug or events absent at baseline that emerged after administration of study drug.",
+        "timeFrame": "Day 1 through Day 191"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events of Special Interest (AESIs)",
+        "description": "An AESI is one of scientific and medical interest specific to understanding of the study drug and may have required close monitoring and rapid communication by the investigator to the sponsor. An AESI may have been serious or non-serious.",
+        "timeFrame": "Day 1 through Day 191"
+      },
+      {
+        "measure": "Number of Participants With New Onset Chronic Diseases (NOCDs)",
+        "description": "An NOCD defined as a newly diagnosed medical condition that is of a chronic, ongoing nature. It is observed after receiving the study drug and is assessed by the investigator as medically significant.",
+        "timeFrame": "Day 1 through Day 191"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02296320/Prot_000.pdf",
+      "sha256": "FC287055678D1EFC612F4B89E1A756B404680D95EAD3D101D9A31EC54BB4CB5E",
+      "bytes": 2775038,
+      "pages": 105,
+      "document_date": "2018-03-15",
+      "upload_date": "2019-10-01T12:17",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 68207,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02296320/SAP_001.pdf",
+      "sha256": "DE3A6B0756B9AA173637E59DF795CF2BA6E42BD6E8C99BD62E7BE1FFE9DA0882",
+      "bytes": 22708741,
+      "pages": 51,
+      "document_date": "2018-09-07",
+      "upload_date": "2019-10-01T12:17",
+      "content_signals": {
+        "protocol": false,
+        "sap": true,
+        "extracted_chars": 706,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 105,
+      "content_digest": "FC287055678D1EFC612F4B89E1A756B404680D95EAD3D101D9A31EC54BB4CB5E"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 51,
+      "content_digest": "DE3A6B0756B9AA173637E59DF795CF2BA6E42BD6E8C99BD62E7BE1FFE9DA0882"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

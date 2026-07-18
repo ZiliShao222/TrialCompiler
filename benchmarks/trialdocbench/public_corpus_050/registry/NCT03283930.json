@@ -1,0 +1,1820 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03283930",
+      "orgStudyIdInfo": {
+        "id": "0192A"
+      },
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "A Clinical Trial of a Gamified Attention Bias Modification Training in Anxious Youth",
+      "officialTitle": "A Clinical Trial of a Gamified Attention Bias Modification Training in Anxious Youth"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-09-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-09-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-09-13",
+      "studyFirstSubmitQcDate": "2017-09-13",
+      "studyFirstPostDateStruct": {
+        "date": "2017-09-14",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-03-06",
+      "resultsFirstSubmitQcDate": "2024-03-06",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background: Attention bias modification training (ABMT) and cognitive behavioral therapy (CBT) likely target different aspects of aberrant threat responses in anxiety disorders and may be combined to maximize therapeutic benefit. However, studies investigating the effect of ABMT in the context of CBT have yielded mixed results.\n\nObjective: The primary goal of this project is to utilize an enhanced ABMT to target attentional bias towards threat, in addition to classic CBT for anxiety disorders in youth, to determine the efficacy of ABMT in the context of CBT.\n\nStudy Population: 121 youth (8-17 years old) with a primary anxiety disorder diagnosis\n\nMethods: In this sub-study,\n\n* Participants will receive open CBT treatment.\n* Open CBT treatment will be augmented with computer-based attention retraining, delivered in a randomized-controlled design, with random assignment to either active or placebo attention-training regimens.\n* This enhanced ABMT integrates a modified dot-probe task used in previous studies, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus, with a visual search, where the targets are always presented distally of threatening distractors.\n* These two training elements (modified dot-probe and visual search) will be embedded in an engaging game to foster motivation and adherence.\n\nOutcome: Symptom improvement will be compared between the two study arms.",
+      "detailedDescription": "Background: Attention bias modification training (ABMT) and cognitive behavioral therapy (CBT) likely target different aspects of aberrant threat responses in anxiety disorders and may be combined to maximize therapeutic benefit. However, studies investigating the effect of ABMT in the context of CBT have yielded mixed results.\n\nObjective: The primary goal of this project is to utilize an enhanced ABMT to target attentional bias towards threat, in addition to classic CBT for anxiety disorders in youth, to determine the efficacy of ABMT in the context of CBT.\n\nStudy Population: 121 youth (8-17 years old) with a primary anxiety disorder diagnosis who are originally consented on 01-M-0192 will be recruited and randomized to each arm in the sub-study\n\nMethods: In this sub-study,\n\n* Participants will receive open CBT treatment.\n* Open CBT treatment will be augmented with computer-based attention retraining, delivered in a randomized-controlled design, with random assignment to either active or placebo attention-training regimens.\n* This enhanced ABMT integrates a modified dot-probe task used in previous studies, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus, with a visual search, where the targets are always presented distally of threatening distractors.\n* These two training elements (modified dot-probe and visual search) will be embedded in an engaging game to foster motivation and adherence.\n\nOutcome: Symptom improvement will be compared between the two study arms at different times using\n\n* The Pediatric Anxiety Rating Scale (PARS)\n* The Clinical Global Impression of Improvement Scale (CGI-I)\n* The Children's Global Assessment Scale (CGAS)\n* The Screen for Child Anxiety Related Disorders (SCARED)\n* The State-Trait Anxiety Inventory for Children (STAI-C)\n* The Self-Efficacy Questionnaire (SEQ-C)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anxiety Disorders"
+      ],
+      "keywords": [
+        "Cognitive Behavioral Therapy (CBT)",
+        "Attention",
+        "Anxiety",
+        "Children",
+        "Adolescents"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients with anxiety disorders are assessed on a number of mental health and biological variables. Patients who can agree to attend regular psychotherapy sessions are randomized to receive cognitive behavioral therapy with computer-based augmentation. In one study arm, these patients receive cognitive behavioral therapy with an active form of a computer game. In the other treatment arm, subjects receive cognitive behavioral therapy with a control treatment.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The active and control treatment arms differ in the spatial arrangements of figures on a computer screen. Because these figures are presented for very brief periods of time, subjects cannot easily decipher differences in the arrangements across the active and control treatments. All study team members who work with patients remain blind to the treatment conditions as well.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 121,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors.",
+          "interventionNames": [
+            "Behavioral: Active Attention Bias Modification Training"
+          ]
+        },
+        {
+          "label": "Control Intervention",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors.",
+          "interventionNames": [
+            "Behavioral: Placebo Attention Bias Modification Training"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Active Attention Bias Modification Training",
+          "description": "Computer-based attention bias modification training administered at weekly CBT session aimed at re-training attentional biases",
+          "armGroupLabels": [
+            "Active Intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Placebo Attention Bias Modification Training",
+          "armGroupLabels": [
+            "Control Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pediatric Anxiety Rating Scale",
+          "description": "The Pediatric Anxiety Rating Scale (PARS) measures anxiety symptoms and related functional impairment in youth as continuous outcome. It comprises a 50- item checklist asking for seven dimensions of global severity/ impairment: Each item is rated on a 0- 5 scale by a clinician based on parent- and child-report. The sum score is calculated based on 5 of the 7 sub-scales and ranges from 0 to 25 with higher scores reflecting greater levels of anxiety. PARS score was measured at different time points during the study.",
+          "timeFrame": "Weeks 3, 8, and 12"
+        },
+        {
+          "measure": "Clinical Global Impression of Improvement Scale",
+          "description": "The Clinical Global Impression of Improvement (CGI-I) scale is a measure of global symptom improvement rated by clinicians. Scores range from 1-7, with lower scores reflecting greater levels of improvement. This scale provides an ordinal outcome, as participants with CGI-I ratings less than or equal to 3 at week 8 are considered \"responders\" and participants with scores \\>3 at week 8 are considered \"non-responders\".",
+          "timeFrame": "Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Children's Global Assessment Scale",
+          "description": "The Children's Global Assessment Scale (CGAS) is a clinician-rated measure of global functioning, with scores ranging from 1 to 100. Higher score indicates better overall functioning.",
+          "timeFrame": "Weeks 3, 8, and 12"
+        },
+        {
+          "measure": "Screen for Child Anxiety Related Disorders",
+          "description": "The Screen for Child Anxiety Related Disorders (SCARED) is a 41-item, dual-informant measure of pediatric anxiety symptoms; we use the mean of the parent and child ratings. The questionnaire consists of five subscales assessing symptoms of generalized anxiety, social anxiety, separation anxiety, panic, and school refusal. Items are rated on a scale from 0 to 2; the overall score range is 0 to 82. Higher scores reflect greater levels of anxiety.",
+          "timeFrame": "Weeks 3, 8, and 12"
+        },
+        {
+          "measure": "State-Trait Anxiety Inventory for Children",
+          "description": "The level of anxiety was assessed using the State-Trait Anxiety Inventory for Children (STAI-C). STAI-C is a 20-item self-report measure of trait anxiety. Items are rated on a scale from 1 to 3; the overall score range is 20-60. Higher scores reflect greater levels of anxiety. STAI-C score was measured at different time points during the study.",
+          "timeFrame": "Weeks 3, 8, and 12"
+        },
+        {
+          "measure": "Self-Efficacy Questionnaire",
+          "description": "The Self-Efficacy Questionnaire (SEQ-C) is a 24-item self-report measure of self-efficacy in youth. The questionnaire is made up of three subscales assessing social self-efficacy, academic self-efficacy, and emotional self-efficacy. Items are rated on a scale from 1 to 5; the overall score range is 24-120. Higher scores reflect higher levels of self-efficacy.",
+          "timeFrame": "Pre-Treatment Screening, Weeks 3, and 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "INCLUSION CRITERIA:\n\n-ALL JUVENILE SUBJECTS WITH AN ANXIETY DISORDER:\n\n* Diagnosis: Current Diagnosis of Social Phobia, Separation Anxiety, Generalized Anxiety Disorder, or Panic Disorder (Based on K-SADS (juveniles))\n* Symptom Severity: Clinically significant, ongoing anxiety symptoms\n* Clinical Impairment: Clinically significant, ongoing distress or impairment from anxiety\n* Age: 8 - 17 (subjects who consent as 17- year-olds but turn 18 during the course of the study will be eligible to complete all procedures completed by other subjects who consent as 17- year- old but do not turn 18).\n* Consent: can give consent/assent (Parents will provide consent; minors will provide assent)\n* IQ: all subjects will have intelligence quotient (IQ) \\> 70 (Assessment relies on WASI)\n* Language: all subjects will speak English\n\nEXCLUSION CRITERIA:\n\n* Any serious medical condition or condition that interferes with participation\n* Pregnancy\n* Current use of any psychoactive substance; current suicidal ideation; current diagnosis of attention deficit hyperactivity disorder (ADHD) of sufficient severity to require pharmacotherapy.\n* Current diagnoses Tourette's Disorder, obsessive compulsive disorder (OCD), post-traumatic distress disorder, conduct disorder\n* Past or current history of mania, psychosis, or severe pervasive developmental disorder\n* Recent use of an selective serotonin reuptake inhibitor (SSRI); all subjects must have been free of any SSRI-use for at least one month (fluoxetine six months) and must not have been treated with an SSRI for their current depressive episode.\n* National Institute of Mental Health (NIMH) employees and staff and their immediate family members will be excluded from the study per NIMH policy",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "8 Years",
+      "maximumAge": "17 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Daniel Pine, M.D.",
+          "affiliation": "National Institute of Mental Health (NIMH)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NIH Clinical Center",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25344944",
+          "type": "BACKGROUND",
+          "citation": "Britton JC, Suway JG, Clementi MA, Fox NA, Pine DS, Bar-Haim Y. Neural changes with attention bias modification for anxiety: a randomized trial. Soc Cogn Affect Neurosci. 2015 Jul;10(7):913-20. doi: 10.1093/scan/nsu141. Epub 2014 Oct 24."
+        },
+        {
+          "pmid": "28407726",
+          "type": "BACKGROUND",
+          "citation": "White LK, Sequeira S, Britton JC, Brotman MA, Gold AL, Berman E, Towbin K, Abend R, Fox NA, Bar-Haim Y, Leibenluft E, Pine DS. Complementary Features of Attention Bias Modification Therapy and Cognitive-Behavioral Therapy in Pediatric Anxiety Disorders. Am J Psychiatry. 2017 Aug 1;174(8):775-784. doi: 10.1176/appi.ajp.2017.16070847. Epub 2017 Apr 14."
+        },
+        {
+          "pmid": "31391027",
+          "type": "BACKGROUND",
+          "citation": "Linke JO, Jones E, Pagliaccio D, Swetlitz C, Lewis KM, Silverman WK, Bar-Haim Y, Pine DS, Brotman MA. Efficacy and mechanisms underlying a gamified attention bias modification training in anxious youth: protocol for a randomized controlled trial. BMC Psychiatry. 2019 Aug 7;19(1):246. doi: 10.1186/s12888-019-2224-2."
+        },
+        {
+          "pmid": "40850530",
+          "type": "DERIVED",
+          "citation": "Byrne ME, Haller SP, Linke JO, Lewis KM, Berman ED, Henry LM, Pagliaccio D, Quezada D, Meyer M, Abend R, Kircanski K, Silverman WK, Lazarov A, Bar-Haim Y, Brotman MA, Pine DS. Gamified Attention Bias Modification Training to Augment Cognitive-Behavioral Therapy for Youth Anxiety Disorders: A Randomized Controlled Trial. J Am Acad Child Adolesc Psychiatry. 2025 Aug 22:S0890-8567(25)01428-5. doi: 10.1016/j.jaac.2025.08.010. Online ahead of print."
+        },
+        {
+          "pmid": "32167803",
+          "type": "DERIVED",
+          "citation": "Lewis KM, Matsumoto C, Cardinale E, Jones EL, Gold AL, Stringaris A, Leibenluft E, Pine DS, Brotman MA. Self-Efficacy As a Target for Neuroscience Research on Moderators of Treatment Outcomes in Pediatric Anxiety. J Child Adolesc Psychopharmacol. 2020 May;30(4):205-214. doi: 10.1089/cap.2019.0130. Epub 2020 Mar 11."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Active Intervention",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+        },
+        {
+          "id": "FG001",
+          "title": "Control Intervention",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "59"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "62"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "48"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "49"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Scheduling conflict",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "Due to coronavirus disease 2019 (COVID-19) pandemic",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Technical software issue",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Active Intervention",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+        },
+        {
+          "id": "BG001",
+          "title": "Control Intervention",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "59"
+            },
+            {
+              "groupId": "BG001",
+              "value": "62"
+            },
+            {
+              "groupId": "BG002",
+              "value": "121"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "62"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "121"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "73"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "101"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "87"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Pediatric Anxiety Rating Scale",
+          "description": "The Pediatric Anxiety Rating Scale (PARS) measures anxiety symptoms and related functional impairment in youth as continuous outcome. It comprises a 50- item checklist asking for seven dimensions of global severity/ impairment: Each item is rated on a 0- 5 scale by a clinician based on parent- and child-report. The sum score is calculated based on 5 of the 7 sub-scales and ranges from 0 to 25 with higher scores reflecting greater levels of anxiety. PARS score was measured at different time points during the study.",
+          "populationDescription": "The analyses included participants who were randomized to either arm of the study and had data available for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Weeks 3, 8, and 12",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+            },
+            {
+              "id": "OG001",
+              "title": "Control Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "57"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "61"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 3",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.596491",
+                      "spread": "0.5472"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.557377",
+                      "spread": "0.4867"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.50",
+                      "spread": "0.5500"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.206897",
+                      "spread": "0.5146"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.666667",
+                      "spread": "0.66431"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.890909",
+                      "spread": "0.5564"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Clinical Global Impression of Improvement Scale",
+          "description": "The Clinical Global Impression of Improvement (CGI-I) scale is a measure of global symptom improvement rated by clinicians. Scores range from 1-7, with lower scores reflecting greater levels of improvement. This scale provides an ordinal outcome, as participants with CGI-I ratings less than or equal to 3 at week 8 are considered \"responders\" and participants with scores \\>3 at week 8 are considered \"non-responders\".",
+          "populationDescription": "The analyses included participants who were randomized to either arm of the study and had data available for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+            },
+            {
+              "id": "OG001",
+              "title": "Control Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "57"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Responders",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Non-Responders",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Children's Global Assessment Scale",
+          "description": "The Children's Global Assessment Scale (CGAS) is a clinician-rated measure of global functioning, with scores ranging from 1 to 100. Higher score indicates better overall functioning.",
+          "populationDescription": "The analyses included participants who were randomized to either arm of the study and had data available for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Weeks 3, 8, and 12",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+            },
+            {
+              "id": "OG001",
+              "title": "Control Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "57"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "57"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 3",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "57"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54.38596",
+                      "spread": "0.9155282"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54.38596",
+                      "spread": "0.9748576"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "61.03704",
+                      "spread": "0.9076748"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59.75000",
+                      "spread": "0.8083372"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "57"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65.58182",
+                      "spread": "1.2581561"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "67.42105",
+                      "spread": "1.3020967"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Screen for Child Anxiety Related Disorders",
+          "description": "The Screen for Child Anxiety Related Disorders (SCARED) is a 41-item, dual-informant measure of pediatric anxiety symptoms; we use the mean of the parent and child ratings. The questionnaire consists of five subscales assessing symptoms of generalized anxiety, social anxiety, separation anxiety, panic, and school refusal. Items are rated on a scale from 0 to 2; the overall score range is 0 to 82. Higher scores reflect greater levels of anxiety.",
+          "populationDescription": "The analyses included participants who were randomized to either arm of the study and had data available for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Weeks 3, 8, and 12",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+            },
+            {
+              "id": "OG001",
+              "title": "Control Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "59"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "61"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 3",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30.08051",
+                      "spread": "1.288642"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30.28443",
+                      "spread": "1.579966"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.29412",
+                      "spread": "1.402873"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.40000",
+                      "spread": "1.504715"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.49434",
+                      "spread": "1.381877"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25.71429",
+                      "spread": "1.592165"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "State-Trait Anxiety Inventory for Children",
+          "description": "The level of anxiety was assessed using the State-Trait Anxiety Inventory for Children (STAI-C). STAI-C is a 20-item self-report measure of trait anxiety. Items are rated on a scale from 1 to 3; the overall score range is 20-60. Higher scores reflect greater levels of anxiety. STAI-C score was measured at different time points during the study.",
+          "populationDescription": "The analyses included participants who were randomized to either arm of the study and had data available for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Weeks 3, 8, and 12",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+            },
+            {
+              "id": "OG001",
+              "title": "Control Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "56"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "62"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 3",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39.58929",
+                      "spread": "1.029997"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "38.64407",
+                      "spread": "1.222658"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "62"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38.94340",
+                      "spread": "1.090404"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "38.35484",
+                      "spread": "1.089612"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36.92857",
+                      "spread": "1.011254"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36.55357",
+                      "spread": "1.162431"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Self-Efficacy Questionnaire",
+          "description": "The Self-Efficacy Questionnaire (SEQ-C) is a 24-item self-report measure of self-efficacy in youth. The questionnaire is made up of three subscales assessing social self-efficacy, academic self-efficacy, and emotional self-efficacy. Items are rated on a scale from 1 to 5; the overall score range is 24-120. Higher scores reflect higher levels of self-efficacy.",
+          "populationDescription": "The analyses included participants who were randomized to either arm of the study and had data available for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Pre-Treatment Screening, Weeks 3, and 12",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors."
+            },
+            {
+              "id": "OG001",
+              "title": "Control Intervention",
+              "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "56"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "56"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Pre-Treatment",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "39"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "69.65",
+                      "spread": "2.116646"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "77.61538",
+                      "spread": "2.124853"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 3",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.76364",
+                      "spread": "1.770876"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "75.21429",
+                      "spread": "2.024158"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77.57143",
+                      "spread": "1.897342"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "78.07407",
+                      "spread": "1.964011"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Up to 9 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Active Intervention",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the Active Attention Bias Modification Training (ABMT), computer-based attention bias modification training aimed at re-training attentional biases before a CBT session: Part 1. modified dot-probe task, where a target is always presented at the previous location of the neutral and not the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are always presented distally of threatening distractors.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 59,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 59,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 59
+        },
+        {
+          "id": "EG001",
+          "title": "Control Intervention",
+          "description": "Children and adolescent participants with anxiety disorder receive cognitive behavioral therapy (CBT) for a 12-week period. In the final eight weeks of the trial, the subjects complete the control intervention before a CBT session: Part 1. dot-probe task, where a target is equally randomly presented at the previous location of the neutral or the simultaneously presented threatening stimulus. Part 2. visual search, where the targets are equally randomly presented distal of neutral and threatening distractors.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 62,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 62,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 62
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Intentional self-injury",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Self-injurious ideation",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Suicidal ideation",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 62
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Concussion",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Sedation",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Blunted affect",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Dermatillomania",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Emotional distress",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Irritability",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Suicidal behaviour",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 62
+            }
+          ]
+        },
+        {
+          "term": "Suicidal ideation",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 59
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 62
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Daniel Pine",
+        "organization": "National Institute of Mental Health (NIMH)",
+        "email": "daniel.pine@nih.gov",
+        "phone": "+1 301 594 1318"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2023-05-11",
+          "uploadDate": "2024-02-23T11:43",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1208235
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

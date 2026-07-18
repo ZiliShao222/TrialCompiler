@@ -1,0 +1,85 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02839902",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02839902",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE4"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 53,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Percent Changes From Baseline in Concentration of Major 4 Lipid Constituents in Small Dense Low Density Lipoprotein (sdLDL) Fraction",
+        "description": "Major 4 lipid constituents refer to cholesterol, triglycerides, free cholesterol, and phospholipid. The reported data are percent of change from baseline in concentration of the each lipid constituents in sdLDL fraction at Week 4 and Week 8.",
+        "timeFrame": "Baseline, Week 4 and Week 8"
+      },
+      {
+        "measure": "Percent Changes From Baseline in Triglycerides (TG) to Cholesterol Ratio in sdLDL Fraction",
+        "description": "Reported data are percent of change from baseline in in TG to cholesterol ratio in sdLDL fraction at Week 4 and Week 8.",
+        "timeFrame": "Baseline, Week 4, and Week 8"
+      },
+      {
+        "measure": "Percent Change From Baseline in Mean Particle Sizes of Small Dense Low Density Lipoprotein-cholesterol (sdLDL-C) and Low Density Lipoprotein-cholesterol (LDL-C) Monitored by Major 4 Lipid Constituents",
+        "description": "Reported data are percent of change from baseline in mean particle sizes of sdLDL-C and LDL-C monitored by major 4 lipid constituents (cholesterol, triglycerides, free cholesterol, and phospholipid) at Week 4 and Week 8. Here the data were consolidated from results of the two outcome measures (\"Change in mean particle sizes of sdLDL-C\" and \"Change in mean particle sizes of LDL-C\") on initial registration information (see History of Change of registration) because sdLDL-C refers to LDL-C which is smaller particle size and heavier density.",
+        "timeFrame": "Baseline, Week 4, and Week 8"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02839902/Prot_000.pdf",
+      "sha256": "0AACBBC96E3314FA8252C47248102C2A5E7C29AE9A2856A874873B44F1D30877",
+      "bytes": 1417861,
+      "pages": 66,
+      "document_date": "2016-07-07",
+      "upload_date": "2018-08-28T03:07",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 75113,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02839902/SAP_001.pdf",
+      "sha256": "1F877AFC56A49490504DC996B76C3565681C90B73993019B98F78D4C9B8B8002",
+      "bytes": 907883,
+      "pages": 22,
+      "document_date": "2017-10-31",
+      "upload_date": "2018-08-28T03:07",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 29916,
+        "sampled_pages": 22
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 66,
+      "content_digest": "0AACBBC96E3314FA8252C47248102C2A5E7C29AE9A2856A874873B44F1D30877"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 22,
+      "content_digest": "1F877AFC56A49490504DC996B76C3565681C90B73993019B98F78D4C9B8B8002"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

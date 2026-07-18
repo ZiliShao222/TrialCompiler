@@ -1,0 +1,53 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT01921517",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT01921517",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 117,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Change in Distal Tibia Bone Quality",
+        "description": "Distal tibial bone quality is measured through MRI by calculating the ratio between bone volume to total volume. A lower value would indicate osteoporotic (weaker) bone; a higher value would indicate healthy (normal) bone.",
+        "timeFrame": "Baseline to 12 months"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_ICF_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT01921517/Prot_SAP_ICF_000.pdf",
+      "sha256": "378793DEEB0673BB5E130C0428A7E1A3237013902A0BED8E76D2486625498E20",
+      "bytes": 378336,
+      "pages": 21,
+      "document_date": "2018-10-24",
+      "upload_date": "2019-09-19T11:16",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 67284,
+        "sampled_pages": 21
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_ICF_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 21,
+      "content_digest": "378793DEEB0673BB5E130C0428A7E1A3237013902A0BED8E76D2486625498E20"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

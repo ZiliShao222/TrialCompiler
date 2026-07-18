@@ -1,0 +1,130 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03856996",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03856996",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 30,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants Reporting Local Reactogenicity Signs and Symptoms: Pain and/or Tenderness",
+        "description": "Graded according to the Division of AIDS (DAIDS) Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.1 \\[July 2017\\]. The maximum grade observed for each symptom over the time frame is presented.",
+        "timeFrame": "Measured through 7 days after each vaccine dose"
+      },
+      {
+        "measure": "Number of Participants Reporting Local Reactogenicity Signs and Symptoms: Erythema and/or Induration",
+        "description": "Graded according to the Division of AIDS (DAIDS) Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.1 \\[July 2017\\]. The maximum grade observed for each symptom over the time frame is presented.",
+        "timeFrame": "Measured through 7 days after each vaccine dose"
+      },
+      {
+        "measure": "Number of Participants Reporting Systemic Reactogenicity Signs and Symptoms",
+        "description": "Graded according to the Division of AIDS (DAIDS) Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.1 \\[July 2017\\]. The maximum grade observed for each symptom over the time frame is presented.",
+        "timeFrame": "Measured through 7 days after each vaccine dose"
+      },
+      {
+        "measure": "Chemistry and Hematology Laboratory Measures - Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Alkaline Phosphatase (ALP) in U/L",
+        "description": "For each local laboratory measure, summary statistics were presented by treatment group and timepoint for the overall population.",
+        "timeFrame": "Measured during screening, Days 14, 70, 182, 273"
+      },
+      {
+        "measure": "Chemistry and Hematology Laboratory Measures - Creatinine in mg/dL",
+        "description": "For each local laboratory measure, summary statistics were presented by treatment group and timepoint for the overall population.",
+        "timeFrame": "Measured during screening, Days 14, 70, 182, 273"
+      },
+      {
+        "measure": "Chemistry and Hematology Laboratory Measures - Hemoglobin in g/dL",
+        "description": "For each local laboratory measure, summary statistics were presented by treatment group and timepoint for the overall population.",
+        "timeFrame": "Measured during screening, Days 14, 70, 182, 273"
+      },
+      {
+        "measure": "Chemistry and Hematology Laboratory Measures - Lymphocyte Count, Neutrophil Count, Platelets, WBC in 1000 Cells/Cubic mm",
+        "description": "For each local laboratory measure, summary statistics were presented by treatment group and timepoint for the overall population.",
+        "timeFrame": "Measured during screening, Days 14, 70, 182, 273"
+      },
+      {
+        "measure": "The Number (Percentage) of Participants With Lab Grade > 1 for ALT, AST, ALP, Creatinine, Hemoglobin, Lymphocyte Count, Neutrophil Count, Platelets, WBC Was Summarized by Arm",
+        "description": "The number (percentage) of participants with lab grade \\> 1 for alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase (ALP), creatinine, hemoglobin, lymphocyte count, neutrophil count, platelets, white blood cells (WBC) was summarized by arm",
+        "timeFrame": "Measured during screening, Days 14, 70, 182, 273"
+      },
+      {
+        "measure": "Adverse Events of Special Interest (AESIs)",
+        "description": "AEs of special interest (AESI) for this protocol include but are not limited to potential immune-mediated diseases. AESI are reported regardless of relationship to study product(s). All AEs are graded according to the Division of AIDS (DAIDS) Table for Grading the Severity of Adult and Pediatric Adverse Events, Corrected Version 2.1, July 2017.",
+        "timeFrame": "Adverse Events of Special Interest (AESI) health contact is at month 18"
+      },
+      {
+        "measure": "Occurrence of HIV-specific Total IgG Binding Antibody Response Elicited by the CH505TF gp120 Proteins Produced Via Transient and Stable Transfection Methods Against the Homologous Proteins",
+        "description": "Serum HIV-1 specific IgG responses were measured on a BioPlex instrument using a standardized custom HIV1 Luminex assay. The readout was background-subtracted mean fluorescence intensity (MFI). Samples were titrated for IgG to CH505TF gp120 (transient transfection) and CH505TF gp120 (stable transfection) at month 0 (Visit 2) and month 6.5 (Visit 7), with a starting 1:50 dilution followed by a 5-fold dilution series. Net MFI less than 1 is set to 1, and net MFI \\> 22,000 is set to 22,000. Data are excluded if blood draw date was outside the allowable window, a participant was HIV-infected, reference antigen \\> 5,000 MFI, or baseline net MFI \\> 6,500. Samples from post-enrollment visits have positive responses if: (1) the net MFI (MFI minus Blank) values were ≥ antigen-specific cutoff at the 1:50 dilution level for IgG, (2) the net MFI values were greater than 3 times the baseline (day 0) net MFI, and (3) the MFI values were greater than 3 times the baseline MFI values.",
+        "timeFrame": "Measured at Month 6.5"
+      },
+      {
+        "measure": "Levels of HIV-specific Total IgG Binding Antibody Response Elicited by the CH505TF gp120 Proteins Produced Via Transient and Stable Transfection Methods Against the Homologous Proteins (Measured by Net MFI)",
+        "description": "Serum HIV-1 specific IgG responses were measured on a BioPlex instrument using a standardized custom HIV1 Luminex assay. The readout was background-subtracted mean fluorescence intensity (MFI), where background referred to a plate level control (i.e., a blank well run on each plate). Net MFI less than 1 is set to 1, and net MFI \\> 22,000 is set to 22,000. Data are excluded if blood draw date was outside the allowable window, a participant was HIV-infected, reference antigen \\> 5,000 MFI, or baseline net MFI \\> 6,500. Samples from post-enrollment visits have positive responses if: (1) the net MFI (MFI minus Blank) values were ≥ antigen-specific cutoff at the 1:50 dilution level for IgG, (2) the net MFI values were greater than 3 times the baseline (day 0) net MFI, and (3) the MFI values were greater than 3 times the baseline MFI values.",
+        "timeFrame": "Measured at Month 6.5"
+      },
+      {
+        "measure": "Area Under Titration Curve of HIV-specific Total IgG Binding Antibody Response Elicited by the CH505TF gp120 Proteins Produced Via Transient and Stable Transfection Methods Against the Homologous Proteins",
+        "description": "Samples were titrated for IgG to CH505TF gp120 (transient transfection) and CH505TF gp120 (stable transfection) at month 0 (Visit 2) and month 6.5 (Visit 7), with a starting 1:50 dilution followed by a 5-fold dilution series, ending at 1:156250 dilution. The AUC value was calculated using the trapezoidal rule based on the raw MFI values truncated at zero across the log base 10 dilution series. For each combination of individual and antigen, AUC at each time point was the sum of the areas of the trapezoids calculated between any non-excluded data points in the analyte/titration. AUC was not calculated for any samples which were incompletely titrated, or where a dilution was missing due to failing QC criteria. Data are excluded if blood draw date was outside the allowable window, a participant was HIV-infected, reference antigen \\> 5,000 MFI, or baseline net MFI \\> 6,500.",
+        "timeFrame": "Measured at Month 6.5"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_003.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT03856996/Prot_003.pdf",
+      "sha256": "A0B6CB2EC6DECDEAA315C4186823D3059603B9E7864A7809E3923AA6D2283BC5",
+      "bytes": 2800583,
+      "pages": 131,
+      "document_date": "2018-12-12",
+      "upload_date": "2024-04-17T18:55",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 76980,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_002.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT03856996/SAP_002.pdf",
+      "sha256": "B3F3FE333E2C224BCB86E3347DCE928E501A3D19975DDE68DB64EC3F61851099",
+      "bytes": 461263,
+      "pages": 12,
+      "document_date": "2019-07-23",
+      "upload_date": "2022-03-02T19:14",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 19844,
+        "sampled_pages": 12
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_003.pdf",
+      "roles": "protocol",
+      "cost_unit": 131,
+      "content_digest": "A0B6CB2EC6DECDEAA315C4186823D3059603B9E7864A7809E3923AA6D2283BC5"
+    },
+    {
+      "action_id": "read:SAP_002.pdf",
+      "roles": "sap",
+      "cost_unit": 12,
+      "content_digest": "B3F3FE333E2C224BCB86E3347DCE928E501A3D19975DDE68DB64EC3F61851099"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

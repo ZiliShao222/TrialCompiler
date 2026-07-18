@@ -1,0 +1,504 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02651103",
+      "orgStudyIdInfo": {
+        "id": "IRB15-01073"
+      },
+      "organization": {
+        "fullName": "Nationwide Children's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Changes in Cerebral Oxygenation Based on Intraoperative Ventilation Strategy",
+      "officialTitle": "Changes in Cerebral Oxygenation Based on Intraoperative Ventilation Strategy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-01-07",
+      "studyFirstSubmitQcDate": "2016-01-07",
+      "studyFirstPostDateStruct": {
+        "date": "2016-01-08",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2017-09-28",
+      "resultsFirstSubmitQcDate": "2017-12-14",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-10-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-12-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Joseph D. Tobias",
+        "investigatorTitle": "Chairman: Professor of Anesthesiology",
+        "investigatorAffiliation": "Nationwide Children's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Joseph D. Tobias",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The proposed research aims to investigate how different ventilation strategies may affect cerebral tissue oxygenation in the pediatric population. It will contribute to the literature exploring the NIRS monitoring device which is becoming increasingly utilized in a variety of anesthetic and critical care settings. It may help to guide clinical practice regarding optimal ventilation strategies, and how ventilation may be altered to correct suboptimal cerebral tissue oxygenation.\n\nThis prospective study will include 50 patients undergoing posterior spinal fusion that requires placement of an arterial cannulation. There will be no change in the anesthetic or perioperative care of these patients. Tissue and cerebral oxygenation will be monitored using near infrared spectroscopy (NIRS)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Posterior Spinal Fusion"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Posterior spinal fusion",
+          "description": "Patients undergoing spinal fusion surgery",
+          "interventionNames": [
+            "Device: NIRS"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "NIRS",
+          "description": "Cerebral oxygenation monitor which is standard of care for this surgery.",
+          "armGroupLabels": [
+            "Posterior spinal fusion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Cerebral Oxygenation Values Throughout the Procedure",
+          "description": "Measured on the NIRS cerebral oxygenation monitor attached to the patient",
+          "timeFrame": "prior to induction of anesthesia in the awake patient and following four ventilation strategies (average time frame of 15 mins. to 5 hours)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Any patient undergoing spinal surgery\n\nExclusion Criteria:\n\n* None",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients undergoing posterior spinal fusion",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Joseph D Tobias, MD",
+          "affiliation": "Nationwide Children's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Nationwide Children's Hospital",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Posterior Spinal Fusion",
+          "description": "Patients undergoing spinal fusion surgery\n\nNIRS: Cerebral oxygenation monitor which is standard of care for this surgery."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "30"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "30"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Posterior Spinal Fusion",
+          "description": "Patients undergoing spinal fusion surgery\n\nNIRS: Cerebral oxygenation monitor which is standard of care for this surgery."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "30"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Cerebral Oxygenation Values Throughout the Procedure",
+          "description": "Measured on the NIRS cerebral oxygenation monitor attached to the patient",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "rSO2",
+          "timeFrame": "prior to induction of anesthesia in the awake patient and following four ventilation strategies (average time frame of 15 mins. to 5 hours)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Posterior Spinal Fusion",
+              "description": "Patients undergoing spinal fusion surgery\n\nNIRS: Cerebral oxygenation monitor which is standard of care for this surgery."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Phase 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83",
+                      "spread": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Phase 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79",
+                      "spread": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Phase 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81",
+                      "spread": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Phase 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83",
+                      "spread": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "through study completion, an average of 2 years",
+      "description": "All-Cause Mortality, Serious, or Other (non-serious) Adverse Events were monitored/assessed, but none observed",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Posterior Spinal Fusion",
+          "description": "Patients undergoing spinal fusion surgery\n\nNIRS: Cerebral oxygenation monitor which is standard of care for this surgery.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 30
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Clinical Research Coordinator",
+        "organization": "Nationwide Children's Hospital",
+        "email": "heather.dellinger@nationwidechildrens.org",
+        "phone": "6147222997"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-05-15",
+          "uploadDate": "2017-12-14T08:39",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 335434
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    }
+  },
+  "hasResults": true
+}

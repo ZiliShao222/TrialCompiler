@@ -1,0 +1,48 @@
+{
+  "schema": "trialcompiler.public_corpus_profile/v1",
+  "case_count": 50,
+  "study_types": {
+    "INTERVENTIONAL": 48,
+    "OBSERVATIONAL": 2
+  },
+  "phases": {
+    "EARLY_PHASE1": 1,
+    "MISSING": 2,
+    "NA": 18,
+    "PHASE1": 12,
+    "PHASE2": 16,
+    "PHASE3": 7,
+    "PHASE4": 2
+  },
+  "overall_statuses": {
+    "ACTIVE_NOT_RECRUITING": 1,
+    "COMPLETED": 39,
+    "TERMINATED": 7,
+    "UNKNOWN": 2,
+    "WITHDRAWN": 1
+  },
+  "document_layouts": {
+    "combined": 35,
+    "separate": 15
+  },
+  "action_page_cost": {
+    "min": 1,
+    "median": 33,
+    "p90": 99,
+    "max": 241,
+    "total": 3025
+  },
+  "missing_registry_fields": {},
+  "interpretation": {
+    "usable_for": [
+      "source-integrity regression",
+      "document acquisition cost stratification",
+      "future blinded annotation"
+    ],
+    "not_yet_usable_for": [
+      "model accuracy claims",
+      "six-arm effect-size claims"
+    ],
+    "reason": "case-level gold annotations have not yet been independently created"
+  }
+}

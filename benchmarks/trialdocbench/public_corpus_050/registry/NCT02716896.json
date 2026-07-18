@@ -1,0 +1,944 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02716896",
+      "orgStudyIdInfo": {
+        "id": "HSC2015-620H"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UL1TR001120",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UL1TR001120"
+        }
+      ],
+      "organization": {
+        "fullName": "The University of Texas Health Science Center at San Antonio",
+        "class": "OTHER"
+      },
+      "briefTitle": "Radical Cystectomy Compared With Chemoradiation for Muscle Invasive Bladder Cancer",
+      "officialTitle": "Radical Cystectomy Compared With Chemoradiation for Muscle Invasive Bladder Cancer: A Pilot, Randomized-Controlled Non-Inferiority Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-11",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Study ended due to lack of eligible subjects and funding not renewing",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-03-26",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-03-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-10-15",
+      "studyFirstSubmitQcDate": "2016-03-17",
+      "studyFirstPostDateStruct": {
+        "date": "2016-03-23",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2019-09-23",
+      "resultsFirstSubmitQcDate": "2019-11-04",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-11-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-11-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-11-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "The University of Texas Health Science Center at San Antonio",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Currently the standard treatment of muscle invasive bladder cancer is the complete removal of bladder and adjacent organs, such as prostate or ovaries. Radical cystectomy is fraught with complications and risk of death. The researchers hope to learn if chemoradiation (i.e. using chemotherapy and radiation), also an acceptable treatment for muscle invasive bladder cancer, can be used a good alternative therapy option.",
+      "detailedDescription": "Currently the standard treatment of muscle invasive bladder cancer is the complete removal of bladder and adjacent organs, such as prostate or ovaries. Such procedure is highly invasive and undesirable for some patients.\n\nThe researchers hope to learn if chemoradiation, using chemotherapy and radiation, can be a good alternative therapy option. Chemoradiation therapy is also currently considered an acceptable clinical approach but is typically used for treatment in patients with muscle invasive bladder cancer who have other medical issues that might cause complications during or after undergoing surgery. Disease free survival at 5 years is better for those who had their bladder removed, but overall survival rates for chemoradiation therapy patients are comparable between the two approaches."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Muscle Invasive Bladder Cancer"
+      ],
+      "keywords": [
+        "cystectomy",
+        "radiation",
+        "chemotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Surgery (radical cystectomy)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, Glomerular Filtration rate (GFR), participant's preference, and availability of chemotherapeutic regimen.",
+          "interventionNames": [
+            "Procedure: Radical cystectomy"
+          ]
+        },
+        {
+          "label": "Radiation and Chemoradiation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.",
+          "interventionNames": [
+            "Radiation: Radiation and chemoradiation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "Radiation and chemoradiation",
+          "description": "Radiation and chemotherapy will be administered concurrently to those who are randomized to this group.",
+          "armGroupLabels": [
+            "Radiation and Chemoradiation"
+          ],
+          "otherNames": [
+            "Chemoradiation"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Radical cystectomy",
+          "description": "Radical cystectomy will be performed on those who are randomized to this group.",
+          "armGroupLabels": [
+            "Surgery (radical cystectomy)"
+          ],
+          "otherNames": [
+            "Surgery"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Total Number of Participants Adhere to the Assigned Treatment",
+          "description": "Number of randomized participants that progressed to one year on treatment",
+          "timeFrame": "One year"
+        },
+        {
+          "measure": "Total Number of Participants Withdraw From the Study",
+          "description": "Number of randomized participants who were withdrawn from the study by the investigator, or who voluntarily withdrew",
+          "timeFrame": "One year"
+        },
+        {
+          "measure": "Total Number of Participants Completed the Study",
+          "description": "Number of randomized subjects who completed the study to one year",
+          "timeFrame": "One year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change From Baseline and Year 1 in Health Related Quality of Life Measures",
+          "description": "Questionnaires such as FACT-Bl (functional assessment of cancer therapyfor patients with bladder cancer), Katz ADL (Katz Index of Independence in Activities of Daily Living), and EORTC (European Organization for Research and Treatment of Cancer), all surveys used to assess quality of life, will be used to measure the changes.",
+          "timeFrame": "One year"
+        },
+        {
+          "measure": "Total Number of Participants Who Are Able to Keep Their Bladder Within the Time Frame of the Study",
+          "description": "Number of participants that were randomized who did not have bladder cystectomy during the one year study period",
+          "timeFrame": "One year"
+        },
+        {
+          "measure": "Total Number of Participants Who Remained Progression-free Within the Time Frame of the Study",
+          "description": "Number of participants who completed the study whose disease state did not worsen during participation",
+          "timeFrame": "One year"
+        },
+        {
+          "measure": "Change From Baseline Level to Year 1 on Genomic Markers After Chemoradiation",
+          "description": "Genomic markers will be isolated from the research biological samples, and then measured by tissue RNA microarray.",
+          "timeFrame": "One year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pathologically (histologically) proven diagnosis of primary carcinoma of the bladder (transitional cell cancer) within 8 weeks of registration. Operable patients whose tumors are primary carcinomas of the bladder and exhibit histologic evidence of muscularis propria invasion and are AJCC clinical stages T2-T4a, Nx or N0, M0\n* If radiologic evaluation of a lymph node is interpreted as \"positive\", this must be evaluated further either by lymphadenectomy or percutaneous needle biopsy. Patients with histologically or cytologically confirmed node metastases or any other metastases will not be eligible.\n* Patients must have an adequately functioning bladder after thorough evaluation by an urologist and have undergone as thorough a transurethral resection of the bladder tumor as is judged safely possible.\n* Patients must be considered able to tolerate systemic chemotherapy combined with pelvic radiation therapy, and a radical cystectomy by the joint agreement of the participating Urologist, Radiation Oncologist, and Medical Oncologist.\n* History and physical examination including weight, performance status, and body surface area within 8 weeks prior to study registration\n* Zubrod Performance Status 0-2\n* Age ≥ 18;\n* CBC (Complete blood count)/differential obtained no more than 4 weeks prior to registration on study, with adequate bone marrow function defined as follows:\n\n  1. WBC (white bloodcell count) ≥ 4000/ml\n  2. Absolute neutrophil count (ANC) ≥ 1,800 cells/mm3;\n  3. Platelets ≥ 100,000 cells/mm3;\n  4. Hemoglobin ≥ 10.0 mg/dl (Note: The use of transfusion or other intervention to achieve Hgb ≥ 10.0 g/dl is acceptable.);\n* Serum creatinine of 1.5 mg% or less; serum bilirubin of 2.0 mg% or less; creatinine clearance of 60 ml/min or greater no more than 4 weeks prior to registration; Note: Calculated creatinine clearance is permissible. If the creatinine clearance is \\> 60 ml/min, then a serum creatinine of up to 1.8 mg% is allowable at the discretion of the principle investigator;\n* Serum pregnancy test for female patients of childbearing potential, ≤ 72 hours prior to study entry; women of childbearing potential and male participants must practice adequate contraception.\n* Patient must be able to provide study-specific informed consent prior to study entry\n\nExclusion Criteria:\n\n* Unable and unwilling to provide informed consent\n* Evidence of distant metastases or histologically or cytologically proven lymph node metastases\n* Previous systemic chemotherapy (for any cancer) or pelvic radiation therapy\n* A prior or concurrent malignancy of any other site or histology unless the patient has been disease-free for ≥ 5 years except for non-melanoma skin cancer and/or stage T1a prostate cancer or carcinoma in situ of the uterine cervix\n* Patients judged not to be candidates for radical cystectomy; patients with pN (plasma nitrate)+ or T4b disease are considered to have unresectable disease\n* Patients receiving any drugs that have potential nephrotoxicity or ototoxicity (such as an aminoglycoside)\n* Severe, active co-morbidity, defined as follows:\n* Unstable angina and/or congestive heart failure requiring hospitalization within the last 6 months;\n* Transmural myocardial infarction within the last 6 months;\n* Acute bacterial or fungal infection requiring intravenous antibiotics at the time of registration;\n* Chronic Obstructive Pulmonary Disease exacerbation or other respiratory illness requiring hospitalization or precluding study therapy at the time of registration;\n* Hepatic insufficiency resulting in clinical jaundice and/or coagulation defects; note, however, that laboratory tests for liver function and coagulation parameters are not required for entry into this protocol.\n* Acquired Immune Deficiency Syndrome (AIDS) based upon current CDC definition; note,however, that HIV testing is not required for entry into this protocol. The need to exclude patients with AIDS from this protocol is necessary because the treatments involved in this protocol may be significantly immunosuppressive. Protocol-specific requirements may also exclude immuno-compromised patients.\n* Pregnancy or women of childbearing potential and men who are sexually active and not willing/able to use medically acceptable forms of contraception; this exclusion is necessary because the treatment involved in this study may be significantly teratogenic.\n* Is pregnant; women of childbearing potential and male participants unwilling to practice adequate contraception.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "89 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Texas Health Science Center at San Antonio",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78829",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Screening logs from a pilot randomized controlled trial of radical vs chemoradiation therapy for muscle-invasive bladder cancer",
+          "url": "https://www.ncbi.nlm.nih.gov/pubmed/31676280"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Surgery (Radical Cystectomy)",
+          "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+        },
+        {
+          "id": "FG001",
+          "title": "Radiation and Chemoradiation",
+          "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Surgery (Radical Cystectomy)",
+          "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+        },
+        {
+          "id": "BG001",
+          "title": "Radiation and Chemoradiation",
+          "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "1"
+            },
+            {
+              "groupId": "BG001",
+              "value": "1"
+            },
+            {
+              "groupId": "BG002",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Hispanic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "White-non Hispanic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Total Number of Participants Adhere to the Assigned Treatment",
+          "description": "Number of randomized participants that progressed to one year on treatment",
+          "populationDescription": "There were no study completers in either arm of the study at 1 year. The one subject randomized to surgery but disease state worsened and subject did not complete to one year. Since the participant did not progress to one year on treatment, no analysis was possible. Data were not collected.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Total Number of Participants Withdraw From the Study",
+          "description": "Number of randomized participants who were withdrawn from the study by the investigator, or who voluntarily withdrew",
+          "populationDescription": "Subject in the Radiation and Chemoradiation arm was withdrawn by the PI due to progression of disease",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Total Number of Participants Completed the Study",
+          "description": "Number of randomized subjects who completed the study to one year",
+          "populationDescription": "Subject was withdrawn from radiation and chemoradiation arm of the study by PI due to progression of disease",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline and Year 1 in Health Related Quality of Life Measures",
+          "description": "Questionnaires such as FACT-Bl (functional assessment of cancer therapyfor patients with bladder cancer), Katz ADL (Katz Index of Independence in Activities of Daily Living), and EORTC (European Organization for Research and Treatment of Cancer), all surveys used to assess quality of life, will be used to measure the changes.",
+          "populationDescription": "Data collected for this outcome were not analysed due to limited funds and early study termination. Only one subject was randomized to intervention and so insufficient data were collected for analysis.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Total Number of Participants Who Are Able to Keep Their Bladder Within the Time Frame of the Study",
+          "description": "Number of participants that were randomized who did not have bladder cystectomy during the one year study period",
+          "populationDescription": "Only the subject who had radical cystectomy progressed to completion after bladder removal, so zero participants kept their bladder, so no data were collected.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Total Number of Participants Who Remained Progression-free Within the Time Frame of the Study",
+          "description": "Number of participants who completed the study whose disease state did not worsen during participation",
+          "populationDescription": "Only the participant randomized to radical cystectomy progressed to study completion",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline Level to Year 1 on Genomic Markers After Chemoradiation",
+          "description": "Genomic markers will be isolated from the research biological samples, and then measured by tissue RNA microarray.",
+          "populationDescription": "No subjects that were randomized and completed the study had chemoradiation, so no data were collected for this outcome.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "One year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Surgery (Radical Cystectomy)",
+              "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group."
+            },
+            {
+              "id": "OG001",
+              "title": "Radiation and Chemoradiation",
+              "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Baseline to 12 months",
+      "description": "Subjects were randomized to treatment, but only one progressed to the intervention, the other in the radiation/chemoradiation arm was withdrawn from the study by the principal investigator due to disease progression.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Surgery (Radical Cystectomy)",
+          "description": "In brief, radical cystectomy is the removal of the entire bladder, nearby lymph nodes (lymphadenectomy), part of the urethra, and nearby organs that may contain cancer cells. In men the prostate, the seminal vesicles, and part of the vas deferens are also removed. In women the cervix, the uterus, the ovaries, the fallopian tubes, and part of the vagina are also removed. Participants in this group may also undergo neoadjuvant chemotherapy prior to the surgery. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, and availability of chemotherapeutic regimen.\n\nRadical cystectomy: Radical cystectomy will be performed on those who are randomized to this group.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 1,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 1,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 1
+        },
+        {
+          "id": "EG001",
+          "title": "Radiation and Chemoradiation",
+          "description": "Those randomized to this group will undergo systematic chemotherapy and radiation. In brief, participants will receive 33-36 daily fractions of radiation therapy 5 days a week. Concurrently, radiosensitizing chemotherapy involves either cisplatin plus 5-fluorouracil (5-FU) or mitomycin C (MMC) plus 5-FU. Other concurrent chemotherapy regimens utilized include paclitaxel and gemcitabine. The decision for specific chemotherapy regimen is based on numerous variables such as participant's comorbidities, GFR, participant's preference, availability of chemotherapeutic regimen.\n\nRadiation and chemoradiation: Radiation and chemotherapy will be administered concurrently to those who are randomized to this group.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dharam Kaushik",
+        "organization": "University of Texas Health San Antonio",
+        "email": "kaushik@uthscsa.edu",
+        "phone": "210-567-5676"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-09-19",
+          "uploadDate": "2019-05-30T14:54",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 768523
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011827",
+          "term": "Radiation"
+        },
+        {
+          "id": "D059248",
+          "term": "Chemoradiotherapy"
+        },
+        {
+          "id": "D015653",
+          "term": "Cystectomy"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055585",
+          "term": "Physical Phenomena"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D011878",
+          "term": "Radiotherapy"
+        },
+        {
+          "id": "D013520",
+          "term": "Urologic Surgical Procedures"
+        },
+        {
+          "id": "D013519",
+          "term": "Urogenital Surgical Procedures"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

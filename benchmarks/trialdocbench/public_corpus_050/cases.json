@@ -1,0 +1,1645 @@
+{
+  "schema": "trialcompiler.public_corpus/v1",
+  "cases": [
+    {
+      "nct_id": "NCT01921517",
+      "brief_title": "Micromechanical Modeling Using Low Magnitude Mechanical Stimulation",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT01921517",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT01921517",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT01921517/Prot_SAP_ICF_000.pdf",
+          "sha256": "378793DEEB0673BB5E130C0428A7E1A3237013902A0BED8E76D2486625498E20",
+          "bytes": 378336,
+          "pages": 21,
+          "document_date": "2018-10-24",
+          "upload_date": "2019-09-19T11:16",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 67284,
+            "sampled_pages": 21
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "44514F113811C3E4196BCCE5EBEC5B0E13979497D9CCDC6F553C0039CAC8154E",
+      "case_contract_path": "case_contracts/NCT01921517.json",
+      "case_contract_sha256": "6D4900D3CD132BEC992C3484BE22B23ECE7B1D03F0A22C43B1E045AC777C7F64"
+    },
+    {
+      "nct_id": "NCT01970527",
+      "brief_title": "Phase II Trial of Stereotactic Body Radiotherapy Followed by Ipilimumab in Treating Patients With Stage IV Melanoma",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT01970527",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT01970527",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT01970527/Prot_SAP_000.pdf",
+          "sha256": "602A093E5C055C0B2757B8ED7E860D8C220C1B19A00D47CF0CBD4FAFCCD907D6",
+          "bytes": 1422682,
+          "pages": 26,
+          "document_date": "2016-11-15",
+          "upload_date": "2019-12-17T14:02",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 77938,
+            "sampled_pages": 26
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "760368DA7F55245219F340C25213D32CC572C899837725D01A8E3C703A8692A9",
+      "case_contract_path": "case_contracts/NCT01970527.json",
+      "case_contract_sha256": "57CF552D63F675CED73F767E8B2B6CBCD3055CE0382B07C62DE1DCF8781BDAA5"
+    },
+    {
+      "nct_id": "NCT02036970",
+      "brief_title": "Bardoxolone Methyl Evaluation in Patients With Pulmonary Hypertension (PH) - LARIAT",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02036970",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02036970",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02036970/Prot_000.pdf",
+          "sha256": "8AF751F1467C7AFECD5A5E6B384D91372E9DEB9CEAB4920322BA03F4B5CD8432",
+          "bytes": 6688722,
+          "pages": 101,
+          "document_date": "2017-01-26",
+          "upload_date": "2020-12-29T18:29",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 69907,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02036970/SAP_001.pdf",
+          "sha256": "078A80F908D967A9A8D524229136B93B42E60D569B73E302DA601BD8B6551B10",
+          "bytes": 1275826,
+          "pages": 33,
+          "document_date": "2018-06-14",
+          "upload_date": "2020-12-29T18:28",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 52669,
+            "sampled_pages": 33
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "D9CFC01D71C7757CF6233D5D694C61FF41985DA475FDCE01AAD50B2849B4A957",
+      "case_contract_path": "case_contracts/NCT02036970.json",
+      "case_contract_sha256": "10A1F1F3BFD89F7534786E74CAEDBDD1478C269C8018910A571CF4870C598E82"
+    },
+    {
+      "nct_id": "NCT02059239",
+      "brief_title": "Bendamustine Bridge to Autologous or Allogeneic Transplant for Relapsed/Refractory Lymphoma",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02059239",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02059239",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02059239/Prot_SAP_000.pdf",
+          "sha256": "B6C2B221FA99832014C7F12960DBC4AC9C3DBA0C906230DDC19241F51CE3E0BD",
+          "bytes": 1422684,
+          "pages": 58,
+          "document_date": "2017-10-05",
+          "upload_date": "2020-12-15T15:15",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 84789,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "B00FBCF241C36FD7FEDBBABBD8465CB7F157B7321C8ABFE1BAB7A66183AFD8FE",
+      "case_contract_path": "case_contracts/NCT02059239.json",
+      "case_contract_sha256": "C9AFBA83A4B57059952480AEA1DAE2CD7339375B2FBEF9B57E2D313BC485669B"
+    },
+    {
+      "nct_id": "NCT02118012",
+      "brief_title": "Evaluation of Safety, Tolerability, and Antiviral Activity of Chlorcyclizine HCl in Patients With Chronic Hepatitis C",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02118012",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02118012",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/12/NCT02118012/Prot_SAP_000.pdf",
+          "sha256": "9E6B266D44E021ECAA3282EC335B5C9F52DCB76073084F2EDCF14D11F8DC895D",
+          "bytes": 1143034,
+          "pages": 68,
+          "document_date": "2018-08-17",
+          "upload_date": "2020-05-12T11:59",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 68192,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "06240630D87DFEA6DAC7B7141B3573BD58C82603ABDA15CE166FBBB51337B56B",
+      "case_contract_path": "case_contracts/NCT02118012.json",
+      "case_contract_sha256": "175178826B73E51A447F3B1E955F8ECB32397199129E46B71A908A482F1EE585"
+    },
+    {
+      "nct_id": "NCT02296320",
+      "brief_title": "Study of the Efficacy and Safety of MEDI4893",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02296320",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02296320",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02296320/Prot_000.pdf",
+          "sha256": "FC287055678D1EFC612F4B89E1A756B404680D95EAD3D101D9A31EC54BB4CB5E",
+          "bytes": 2775038,
+          "pages": 105,
+          "document_date": "2018-03-15",
+          "upload_date": "2019-10-01T12:17",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 68207,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02296320/SAP_001.pdf",
+          "sha256": "DE3A6B0756B9AA173637E59DF795CF2BA6E42BD6E8C99BD62E7BE1FFE9DA0882",
+          "bytes": 22708741,
+          "pages": 51,
+          "document_date": "2018-09-07",
+          "upload_date": "2019-10-01T12:17",
+          "content_signals": {
+            "protocol": false,
+            "sap": true,
+            "extracted_chars": 706,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "0FE88D5D8CA75F33BE49E9311A7DC275F7CD1A02931D2E3C2F95EC5ACDA10DFA",
+      "case_contract_path": "case_contracts/NCT02296320.json",
+      "case_contract_sha256": "0E5B3C4D9590004A7EBC51BC7DD7D8EE9389C7BAAB21016C7CED252A75663136"
+    },
+    {
+      "nct_id": "NCT02342691",
+      "brief_title": "Safety and Preliminary Efficacy of Lipoxin Analog BLXA4-ME Oral Rinse for the Treatment of Gingivitis",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02342691",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02342691",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02342691/Prot_000.pdf",
+          "sha256": "208A707876398D311E5FBE103E745E3B493819662F45694E5A8026F3F5566C1C",
+          "bytes": 1218642,
+          "pages": 67,
+          "document_date": "2017-06-08",
+          "upload_date": "2021-02-04T12:58",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 78416,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02342691/SAP_001.pdf",
+          "sha256": "FF615401D27E4BA3B576451024FF73FDB0BD12597F166C66457336A13315F593",
+          "bytes": 675455,
+          "pages": 35,
+          "document_date": "2018-05-17",
+          "upload_date": "2021-02-04T13:01",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 60073,
+            "sampled_pages": 35
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "6322487A5884951F09F06F3E5EEF13D5D0B0CFE77FBBA9D46D651084B041416F",
+      "case_contract_path": "case_contracts/NCT02342691.json",
+      "case_contract_sha256": "4FCC0605F698AB21F036BD0BD1A5FBFE2C0136877FAA6DD96E00C1E51F8A1B88"
+    },
+    {
+      "nct_id": "NCT02354118",
+      "brief_title": "Maintaining Patency in Implanted Port Catheters",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02354118",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02354118",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02354118/Prot_SAP_000.pdf",
+          "sha256": "2956C690747BE3337DE63280E5EEC68A73FF54872EF3FE37DA3B2B33BE773A7F",
+          "bytes": 297017,
+          "pages": 16,
+          "document_date": "2020-01-22",
+          "upload_date": "2022-01-24T11:35",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 43961,
+            "sampled_pages": 16
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "8FC434BDD650F1DFC4366154FC3FD5DF1FFDEC567DE20C3BA26020BAC6048876",
+      "case_contract_path": "case_contracts/NCT02354118.json",
+      "case_contract_sha256": "ADE34EE00AD80F4CD5F2E2A8AE97B5B869AB81917BB7DDC8A5097F3EB096AB2E"
+    },
+    {
+      "nct_id": "NCT02489903",
+      "brief_title": "RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02489903",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02489903",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02489903/Prot_SAP_000.pdf",
+          "sha256": "FCF94A6D4D0D9655B6B82BB37647685C382CE7CF4E5DC55BCC2557452CA81046",
+          "bytes": 2537941,
+          "pages": 99,
+          "document_date": "2018-07-20",
+          "upload_date": "2024-08-23T13:24",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 103368,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "E9027625B6B5E6DAF08369F652EFB4047A0DDCC69C0DEC9C12401107004882D6",
+      "case_contract_path": "case_contracts/NCT02489903.json",
+      "case_contract_sha256": "670283BBE36B9BDAB33528FCCCDB77DA58370DD86B275D7EA21308474E0CB14E"
+    },
+    {
+      "nct_id": "NCT02510560",
+      "brief_title": "Study to Assess the Efficacy and Safety of NTRA-2112 on Intestinal Malabsorption in Preterm Infants",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02510560",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02510560",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02510560/Prot_000.pdf",
+          "sha256": "3FC57FADC91B748C9DC287013C21DD25BCFF480664D1C7FB700964DA5C659FF1",
+          "bytes": 10883780,
+          "pages": 69,
+          "document_date": "2017-05-10",
+          "upload_date": "2025-05-22T09:16",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 80786,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02510560/SAP_001.pdf",
+          "sha256": "7796DA32EF06B4446C815FF9AA3373AF3B49AE819ED017C5391EAED972011F87",
+          "bytes": 995184,
+          "pages": 40,
+          "document_date": "2017-05-10",
+          "upload_date": "2025-05-22T09:12",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 81087,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "D7D9A7E9A06E40EB020CA95CB496C7AF2B8FAD270996A8557A98CE0207D7C82D",
+      "case_contract_path": "case_contracts/NCT02510560.json",
+      "case_contract_sha256": "7B2ACEA2055CA4FD77C4CDE36F7EBDE6FEB43754339F7B02787514E6A26BD709"
+    },
+    {
+      "nct_id": "NCT02605668",
+      "brief_title": "Providing Tools for Effective Care and Treatment of Anxiety Disorders",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02605668",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02605668",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT02605668/Prot_SAP_000.pdf",
+          "sha256": "D80F9CDFCABD811840D29875C1026437636C19B79342C357EFF5981166FF2700",
+          "bytes": 586254,
+          "pages": 26,
+          "document_date": "2014-06-01",
+          "upload_date": "2019-09-10T09:14",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 84806,
+            "sampled_pages": 26
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "FD4E65BF24CF00BB2751D5D9BB29F94057C387E89084319DABD972FDCF955B43",
+      "case_contract_path": "case_contracts/NCT02605668.json",
+      "case_contract_sha256": "90E3805078656795E061F6DEE83EDFD30CAA01670F9AF950B6C788C10351F4A7"
+    },
+    {
+      "nct_id": "NCT02626182",
+      "brief_title": "Evaluation and Treatment of Pulmonary Vascular Disease in Moderate to Severe CF",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02626182",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02626182",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT02626182/Prot_SAP_000.pdf",
+          "sha256": "779ED1C337E56C7890E944DB377010B94219A54628C3BB3875D33549D1C46019",
+          "bytes": 828518,
+          "pages": 19,
+          "document_date": "2018-10-31",
+          "upload_date": "2019-06-17T16:39",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 63384,
+            "sampled_pages": 19
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "3901713E3DF17B55AD603E8B5F4623066AEB0AC0C976EE4B2D3433CA2A67C6FB",
+      "case_contract_path": "case_contracts/NCT02626182.json",
+      "case_contract_sha256": "52F8C6BC8348CE4EF0DF077326C08FB5356ED540E4A6C35ACB1755F27C2AF1C3"
+    },
+    {
+      "nct_id": "NCT02651103",
+      "brief_title": "Changes in Cerebral Oxygenation Based on Intraoperative Ventilation Strategy",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02651103",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02651103",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02651103/Prot_SAP_000.pdf",
+          "sha256": "4A9DF773594E1FB13CE512F8E60B5CB545FAA67F39035C7BE096E81422ECB8BE",
+          "bytes": 335434,
+          "pages": 13,
+          "document_date": "2017-05-15",
+          "upload_date": "2017-12-14T08:39",
+          "content_signals": {
+            "protocol": false,
+            "sap": false,
+            "extracted_chars": 19383,
+            "sampled_pages": 13
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "94BB78D5C024854C5F2D88D3EB740BA86302CF6AF0EB6864D829CB0ADB3FCB4D",
+      "case_contract_path": "case_contracts/NCT02651103.json",
+      "case_contract_sha256": "4D3670634CC10AD5A8A055C2FD567533E2806B1C31C0704A6DF947B3843F1C73"
+    },
+    {
+      "nct_id": "NCT02692560",
+      "brief_title": "I-STAND R21: Reducing Sedentary Time in Older Adults",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02692560",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02692560",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_002.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02692560/Prot_002.pdf",
+          "sha256": "F4B38C68B37280D2E1E410F1BBF1E7321ED8C29E03831DFCB2D1EF55343E947A",
+          "bytes": 156688,
+          "pages": 9,
+          "document_date": "2018-02-12",
+          "upload_date": "2018-05-29T17:23",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 25645,
+            "sampled_pages": 9
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_003.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02692560/SAP_003.pdf",
+          "sha256": "D1F147939459BAE1A98AFFE7F755C95BFE6B82357946E72098F5A60D57518778",
+          "bytes": 90383,
+          "pages": 1,
+          "document_date": "2018-02-12",
+          "upload_date": "2018-05-29T17:23",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 2285,
+            "sampled_pages": 1
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "3B791A58C71C66838B96A1207C73FCBEAC9FB63503D5B6B2B82AB2FD085339FA",
+      "case_contract_path": "case_contracts/NCT02692560.json",
+      "case_contract_sha256": "94F93872BBF3D82E6713762B1073F44CB65D075D3C4BE94D3B653FB857ADEB8A"
+    },
+    {
+      "nct_id": "NCT02710890",
+      "brief_title": "Study to Investigate Safety and Tolerability of Intravenous Lacosamide in Children.",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02710890",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02710890",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT02710890/Prot_001.pdf",
+          "sha256": "27E39485A4D0129147190256738DE3303A7277D0A373BA38059A249DA6E2B62C",
+          "bytes": 9575533,
+          "pages": 241,
+          "document_date": "2018-04-30",
+          "upload_date": "2020-06-15T06:19",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 105998,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT02710890/SAP_000.pdf",
+          "sha256": "14EADAEBEAE511C6078772FC7EA2679FBE87570B5BD4E54F2AD034FBD76CE698",
+          "bytes": 2527903,
+          "pages": 66,
+          "document_date": "2019-06-21",
+          "upload_date": "2020-06-11T06:13",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 100677,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "95B86C9F738B09A6C2D157EC5DF5203FEFC1B935583030FB0648EBCC58CDDD32",
+      "case_contract_path": "case_contracts/NCT02710890.json",
+      "case_contract_sha256": "B418092FE977BA9EFCE254B94773E9EE13297ABEE64AD97B4BD97E73F9543504"
+    },
+    {
+      "nct_id": "NCT02716896",
+      "brief_title": "Radical Cystectomy Compared With Chemoradiation for Muscle Invasive Bladder Cancer",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02716896",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02716896",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT02716896/Prot_SAP_000.pdf",
+          "sha256": "6F302472013B86CD3697A7B175A81286D0B2DE5A58B9BC82CFE4DA6C950B7A6B",
+          "bytes": 768523,
+          "pages": 30,
+          "document_date": "2017-09-19",
+          "upload_date": "2019-05-30T14:54",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 62153,
+            "sampled_pages": 30
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "B530555683F07D071FF064463DBC69919A555B0DD963C4DCFFA121938307E369",
+      "case_contract_path": "case_contracts/NCT02716896.json",
+      "case_contract_sha256": "69AAD2CA2CFED791F92BB170AFCEA53A6D06E00C3747E9DD4C3D76FAD5E13BE5"
+    },
+    {
+      "nct_id": "NCT02749968",
+      "brief_title": "Intercostal Liposomal Bupivacaine for the Management of Blunt Chest Wall Trauma",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02749968",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02749968",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT02749968/Prot_SAP_000.pdf",
+          "sha256": "BD640C69121480A12274D834EC9A4F23CCA935E456949108210D6A799003D0F8",
+          "bytes": 1165817,
+          "pages": 27,
+          "document_date": "2016-10-24",
+          "upload_date": "2022-02-14T17:44",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 51007,
+            "sampled_pages": 27
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "6AE850EA52D253F038DFCE6CAE66F70578A056A51A8568D5E9D7831F17AABD93",
+      "case_contract_path": "case_contracts/NCT02749968.json",
+      "case_contract_sha256": "9ACA9FC6C6A6C62AD9606C47569E028548FA2C9933781A9296353DC3725C6102"
+    },
+    {
+      "nct_id": "NCT02771366",
+      "brief_title": "The Efficient Brain Study",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02771366",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02771366",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02771366/Prot_SAP_000.pdf",
+          "sha256": "11304E36AFF8FA6E6FEF43436FF3F1C5588E6F22B5B0F34E89D7C1D3D998BFC1",
+          "bytes": 3911791,
+          "pages": 16,
+          "document_date": "2017-01-24",
+          "upload_date": "2019-09-04T08:51",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 43980,
+            "sampled_pages": 16
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "95C32C01908C69CE90746670D36A3C081F3DA33DC7F2B68115BD5913403F3490",
+      "case_contract_path": "case_contracts/NCT02771366.json",
+      "case_contract_sha256": "8079919087BBFEF89AC45433C009D5879B24DCD3515F1666F5E484DE2C76B57B"
+    },
+    {
+      "nct_id": "NCT02788045",
+      "brief_title": "Safety, Tolerability and Immunogenicity Study of Different Vaccine Regimens of Trivalent Ad26.Mos.HIV or Tetravalent Ad26.Mos4.HIV Along With Clade C Glycoprotein (gp)140 in Healthy Human Immunodeficiency Virus (HIV)-Uninfected Adults",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02788045",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02788045",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT02788045/Prot_000.pdf",
+          "sha256": "275EDF5DCCFD961E14D65EDA05DBCBC36934D13BDE31D249C6E3310496F85888",
+          "bytes": 6027053,
+          "pages": 118,
+          "document_date": "2021-10-28",
+          "upload_date": "2023-04-25T06:58",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 98152,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT02788045/SAP_001.pdf",
+          "sha256": "7174814227213BBCC9CFD4C4506DC0380DD033474DB46D96B46CEFCA97B7EE2F",
+          "bytes": 932760,
+          "pages": 27,
+          "document_date": "2022-05-02",
+          "upload_date": "2023-04-25T06:58",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 53395,
+            "sampled_pages": 27
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "D0DDB96E41A4828B6A6013E3306C26678E5E6C546DAB607A3BB3244A90414089",
+      "case_contract_path": "case_contracts/NCT02788045.json",
+      "case_contract_sha256": "FCC40A7C5A629124A75EC1A7C428C683AE4115BF7A39535624A4EF1405A1C193"
+    },
+    {
+      "nct_id": "NCT02809131",
+      "brief_title": "Perioperative Antibiotic Therapy to Prevent Cardiac Implantable Electronic Device Infections.",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02809131",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02809131",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02809131/Prot_SAP_000.pdf",
+          "sha256": "052DE2D6E0D3857B09B9DFA700CE5D6CB9AEE6567781BBC237CDFFC1368A6546",
+          "bytes": 656025,
+          "pages": 16,
+          "document_date": "2019-12-06",
+          "upload_date": "2022-04-08T17:06",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 37101,
+            "sampled_pages": 16
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "CBE261DAF6F2B313C8039AEE200C7026C48845E3180763EFDADE29D6C5D3A78D",
+      "case_contract_path": "case_contracts/NCT02809131.json",
+      "case_contract_sha256": "A14CF517E513EE82530C8837DB9BE9221A6FE12CBE684FC6D007F4134EB5E47E"
+    },
+    {
+      "nct_id": "NCT02839902",
+      "brief_title": "Exploratory Study of the Effects of Omega-3-acid Ethyl Esters on the Lipid and Lipoprotein Profile in the Blood",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02839902",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02839902",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02839902/Prot_000.pdf",
+          "sha256": "0AACBBC96E3314FA8252C47248102C2A5E7C29AE9A2856A874873B44F1D30877",
+          "bytes": 1417861,
+          "pages": 66,
+          "document_date": "2016-07-07",
+          "upload_date": "2018-08-28T03:07",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 75113,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02839902/SAP_001.pdf",
+          "sha256": "1F877AFC56A49490504DC996B76C3565681C90B73993019B98F78D4C9B8B8002",
+          "bytes": 907883,
+          "pages": 22,
+          "document_date": "2017-10-31",
+          "upload_date": "2018-08-28T03:07",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 29916,
+            "sampled_pages": 22
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "50AF81D8E8212B68399C9F92DA3AE133A47EC616F8CB14F947467C8E9BFC1B61",
+      "case_contract_path": "case_contracts/NCT02839902.json",
+      "case_contract_sha256": "1B6E1FF59FFEE0669DB1EA2054679E413B1E88C01A2F18B3AA1588079D29CE00"
+    },
+    {
+      "nct_id": "NCT02840253",
+      "brief_title": "Changes in Tissue and Cerebral Oxygenation Following Spinal Anesthesia in Neonates, Infants, and Children",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02840253",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02840253",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02840253/Prot_SAP_000.pdf",
+          "sha256": "BB581D849DFB34E85FE001E6A1E9707D3BC518B60D309177DB052F2FACA9AE49",
+          "bytes": 221754,
+          "pages": 4,
+          "document_date": "2016-06-14",
+          "upload_date": "2018-08-14T13:14",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 6697,
+            "sampled_pages": 4
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "9F11D25823DB28E4EEE554C2F8BF2C2673779DD01BFEBC2ED49EB50D2BED2D79",
+      "case_contract_path": "case_contracts/NCT02840253.json",
+      "case_contract_sha256": "4596C1AE267C0660986FC53F64295B5C80B5223DBA51BD4138D2771988D7C512"
+    },
+    {
+      "nct_id": "NCT02911142",
+      "brief_title": "Lenalidomide Combined With Modified DA-EPOCH and Rituximab (EPOCH-R2) in Primary Effusion Lymphoma or KSHV-associated Large Cell Lymphoma",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02911142",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02911142",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT02911142/Prot_SAP_000.pdf",
+          "sha256": "E7CE519A8C907D52AC55AE60F13847C4DA0900EC291A969E1A135C4E535852D2",
+          "bytes": 1420770,
+          "pages": 126,
+          "document_date": "2023-06-06",
+          "upload_date": "2025-05-07T12:55",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 93305,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "0F25025E947DC6BC1312489DBBED3DC4E85922BA070AB04D608FDF4E5AF6C144",
+      "case_contract_path": "case_contracts/NCT02911142.json",
+      "case_contract_sha256": "AB72B58117D6319BC17BA8EA1CA38CFD814034C9F4D33AD551D80B729BA3AE36"
+    },
+    {
+      "nct_id": "NCT02950467",
+      "brief_title": "Psilocybin-assisted Group Therapy for Demoralization in Long-term AIDS Survivors",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02950467",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02950467",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02950467/Prot_SAP_000.pdf",
+          "sha256": "0657DC221DD91C2D77CE3682E95BC776CCA51A49570B9D6D2F855681CDB3AE43",
+          "bytes": 913691,
+          "pages": 60,
+          "document_date": "2019-02-20",
+          "upload_date": "2019-10-31T23:29",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 114114,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "8172FDA22152B38D1D6AF448C2CC7C62871F894744F21D58738A20D0669049BC",
+      "case_contract_path": "case_contracts/NCT02950467.json",
+      "case_contract_sha256": "332BBAF819F404BEA2B052C639D4D20FF4DCA6B2B2F39CB4927B144B7759F15C"
+    },
+    {
+      "nct_id": "NCT02966223",
+      "brief_title": "A Study to Assess the Effect of Y-90 Therapy on Non-target/Background Liver",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02966223",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02966223",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02966223/Prot_SAP_001.pdf",
+          "sha256": "B558C2F58123E7C24941B3EB586128F92EC022C603DEBB6BF5E7C483ECD2C1A5",
+          "bytes": 348903,
+          "pages": 17,
+          "document_date": "2019-02-04",
+          "upload_date": "2020-09-11T15:06",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 36947,
+            "sampled_pages": 17
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "F1225B36B5527CC4957CA2DD821F73FDCEFB79C95FF4DCE46DF77AFE1E071F2C",
+      "case_contract_path": "case_contracts/NCT02966223.json",
+      "case_contract_sha256": "8C17A4F9C9785F0DD4A0647ACE6F85D900FE767D4D28C320BCF834883A4555E1"
+    },
+    {
+      "nct_id": "NCT02981082",
+      "brief_title": "Dimethyl Fumarate (DMF) in Systemic Sclerosis-Associated Pulmonary Arterial Hypertension",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT02981082",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT02981082",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT02981082/Prot_SAP_000.pdf",
+          "sha256": "1A010888EDA3C85C3F1543452A7B23725CBFEEDB3786DD01E6512871426E1DD8",
+          "bytes": 649143,
+          "pages": 58,
+          "document_date": "2019-05-14",
+          "upload_date": "2021-10-19T13:53",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 89649,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "6535FF6025E8167E3A8B9CEBFD0F3ECE6F676B3D79C789B7C52E6DF63A562443",
+      "case_contract_path": "case_contracts/NCT02981082.json",
+      "case_contract_sha256": "1A620E6522926127B9614A640180E42EE30DE1D2CA08CA9C3D60A39D6BDE6168"
+    },
+    {
+      "nct_id": "NCT03000829",
+      "brief_title": "Code Blue Outcomes & Process Improvement Through Leadership Optimization Using Teleintensivists-Simulation",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03000829",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03000829",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT03000829/Prot_SAP_000.pdf",
+          "sha256": "D83294E035A7FFEF6000A26BBC773A9B6D9B3937A4BA73144D8BBECCC564FE58",
+          "bytes": 441838,
+          "pages": 11,
+          "document_date": "2017-07-10",
+          "upload_date": "2022-01-27T14:10",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 32092,
+            "sampled_pages": 11
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "249022445F8306930D1A60EA63106923EC58D065D45DD0DBEAEC965DFEB42BC8",
+      "case_contract_path": "case_contracts/NCT03000829.json",
+      "case_contract_sha256": "165D3698AA449553F32A7329E7C5B99C9FDDDD58F60A17828FA64F03175ED76C"
+    },
+    {
+      "nct_id": "NCT03068130",
+      "brief_title": "Extended Access Program to Assess Long-term Safety of Bardoxolone Methyl in Patients With Pulmonary Hypertension RANGER",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03068130",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03068130",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03068130/Prot_001.pdf",
+          "sha256": "2C5B4C4A1E8DFA198708F2EAA9844066535B9FDFB3340A23FDDDD64B4D3BFB17",
+          "bytes": 778238,
+          "pages": 63,
+          "document_date": "2018-07-25",
+          "upload_date": "2023-09-15T16:34",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 100284,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_004.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03068130/SAP_004.pdf",
+          "sha256": "D8A164EA9E59AFBD094193ED46B7D554261769A779B76A419C4561F40545454F",
+          "bytes": 501132,
+          "pages": 36,
+          "document_date": "2020-06-05",
+          "upload_date": "2023-09-15T16:03",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 57586,
+            "sampled_pages": 36
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "CFA4EAEE94FE66DE23777816C9B7C0B283388647D8759DC10D05B80B06C92838",
+      "case_contract_path": "case_contracts/NCT03068130.json",
+      "case_contract_sha256": "034C9D1E6A33A2C632B506F6F365588AFB3912C37B771A8196868831B39BE9EA"
+    },
+    {
+      "nct_id": "NCT03092453",
+      "brief_title": "Dendritic Cell Vaccination in Patients With Advanced Melanoma",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03092453",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03092453",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03092453/Prot_SAP_000.pdf",
+          "sha256": "159264390686DFF4C8391E05ACC5D2235B9ECF825DFE7129F8A37AD54733064A",
+          "bytes": 728807,
+          "pages": 38,
+          "document_date": "2021-08-10",
+          "upload_date": "2024-03-11T14:10",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 114300,
+            "sampled_pages": 38
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "F8AEBC38D4B479915EEE9AEFB9447A3E82436FCF08A4C4E59466454C37A3A87C",
+      "case_contract_path": "case_contracts/NCT03092453.json",
+      "case_contract_sha256": "E256F61003BEB1D570F403DEE55A4FC1EE88B6F5BDF68E82A621FC4EFEB020D9"
+    },
+    {
+      "nct_id": "NCT03095118",
+      "brief_title": "Daratumumab in Treatment of PGNMID and C3 GN",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03095118",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03095118",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03095118/Prot_SAP_000.pdf",
+          "sha256": "5F2D6EA38085CCE2D013958FBC3A805128A8E5A2FC42ED9685983A47CEAE4EA6",
+          "bytes": 678709,
+          "pages": 41,
+          "document_date": "2019-07-18",
+          "upload_date": "2021-06-23T10:05",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 82862,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "0E339A4D2561C8BD32972E2347EBDC3CED910753E39436F604ABB870849DE705",
+      "case_contract_path": "case_contracts/NCT03095118.json",
+      "case_contract_sha256": "58660CEDA2D4F930EE0F52017AF43EAD8B8AE3B84BE3DF104319D7BAFA67C2A4"
+    },
+    {
+      "nct_id": "NCT03122860",
+      "brief_title": "A Study Evaluating the Safety and Efficacy of SM04690 for the Treatment of Moderately to Severely Symptomatic Knee Osteoarthritis",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03122860",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03122860",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03122860/Prot_000.pdf",
+          "sha256": "ED65862E166E0B9DC10B457011E7ED28350E42186CDAC649E85F77054C5E7966",
+          "bytes": 5499398,
+          "pages": 82,
+          "document_date": "2018-04-23",
+          "upload_date": "2021-03-19T03:05",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 97506,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03122860/SAP_001.pdf",
+          "sha256": "B09C1C5A79C7D08AC63D02FCCBAC3D63A9A0D9DF5C3CE6384ADECC0935D4806B",
+          "bytes": 1583677,
+          "pages": 18,
+          "document_date": "2018-09-13",
+          "upload_date": "2021-03-19T02:29",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 39729,
+            "sampled_pages": 18
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "7EEA360D75BBC865FE228930A57123CC6D7D656037DB5B5A8640B42DE82E0A43",
+      "case_contract_path": "case_contracts/NCT03122860.json",
+      "case_contract_sha256": "836E6FA509E87BC9F465AD7E3A989050C41041A8D6F42D5D1C69F481A9A5C18F"
+    },
+    {
+      "nct_id": "NCT03144518",
+      "brief_title": "Mood and Influenza Vaccine Response: A Feasibility Trial",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03144518",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03144518",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03144518/Prot_SAP_000.pdf",
+          "sha256": "A5CB40A18B19490B53B66A9A974B61924FF3AE4DF317183B5AAF60AABC4D839C",
+          "bytes": 663913,
+          "pages": 27,
+          "document_date": "2017-08-21",
+          "upload_date": "2019-01-29T06:15",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 65401,
+            "sampled_pages": 27
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "7DB882CDB0549407B0CE3F770DDC7F1BC6CD432F855A73007FB3DFF6AABE1800",
+      "case_contract_path": "case_contracts/NCT03144518.json",
+      "case_contract_sha256": "FC95A3CDD4D90EDC59691C52A9E4C61C1D5994049EF79E68F71E60FC33AA94CD"
+    },
+    {
+      "nct_id": "NCT03205553",
+      "brief_title": "Direct Peritoneal Resuscitation in Gastroschisis",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03205553",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03205553",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03205553/Prot_SAP_000.pdf",
+          "sha256": "BBFF51E5AE917FDACE85297D76AEC7863B5040E4A4C3CF820A30964F09683D2F",
+          "bytes": 707941,
+          "pages": 31,
+          "document_date": "2018-12-20",
+          "upload_date": "2021-07-20T17:43",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 74361,
+            "sampled_pages": 31
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "D18DEBBB86CEB11B7B97F29AB8647F19FA1A7274969982E45CC167412BDDB574",
+      "case_contract_path": "case_contracts/NCT03205553.json",
+      "case_contract_sha256": "2A90F225A4D103B58BFEA8BFA6CD4A0354C2F31ED511F126CEE2F2925C28AD0B"
+    },
+    {
+      "nct_id": "NCT03283930",
+      "brief_title": "A Clinical Trial of a Gamified Attention Bias Modification Training in Anxious Youth",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03283930",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03283930",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03283930/Prot_SAP_000.pdf",
+          "sha256": "A217F43D512C3E9DC3E218A76AAC04C966A0BBC3136C2599A77053B4192B0702",
+          "bytes": 1208235,
+          "pages": 84,
+          "document_date": "2023-05-11",
+          "upload_date": "2024-02-23T11:43",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 169050,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "A1F092ACF250BCFB8555D26C670BB94A33F316D1AE40731454023CC23870593C",
+      "case_contract_path": "case_contracts/NCT03283930.json",
+      "case_contract_sha256": "13806A8C70404AF0F7294B788BF528735BFE9C57FEBE101EDAF75FC5D276C692"
+    },
+    {
+      "nct_id": "NCT03360110",
+      "brief_title": "Comparison of New Contact Lens With Current Marketed Lens",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03360110",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03360110",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03360110/Prot_SAP_000.pdf",
+          "sha256": "1A3988F67C7758473A78EE1AA84675A9BBABD65F55CB67B1997117EDC9AA7B8D",
+          "bytes": 1227658,
+          "pages": 44,
+          "document_date": "2017-09-28",
+          "upload_date": "2019-05-09T15:33",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 38239,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "E1A7F179F66687FF84174D033F64B2559CDB2C026DB1DF1A8F014714590FC206",
+      "case_contract_path": "case_contracts/NCT03360110.json",
+      "case_contract_sha256": "025297C2DBEF1D2990134E92E66C01380E335224C7354BD1282A99A08FB81DF5"
+    },
+    {
+      "nct_id": "NCT03361345",
+      "brief_title": "Topical 5% Tranexamic Acid as a Treatment for Postinflammatory Hyperpigmentation Due to Acne Vulgaris",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03361345",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03361345",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03361345/Prot_SAP_000.pdf",
+          "sha256": "4D80CA804EAD80DEC6195AB44E0D0D9EE741287454E2030787DD959A0806A415",
+          "bytes": 183349,
+          "pages": 6,
+          "document_date": "2017-12-01",
+          "upload_date": "2017-12-01T15:23",
+          "content_signals": {
+            "protocol": false,
+            "sap": false,
+            "extracted_chars": 8864,
+            "sampled_pages": 6
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "E81C847002DF165AE12F2E51321CC70403C96863FACF62085496D0FC56DE3F7A",
+      "case_contract_path": "case_contracts/NCT03361345.json",
+      "case_contract_sha256": "9DDB4B9F1C651BB2B5CE2B6B4C4E260EB1165C39BF3603C3D5B3CF0D891465D2"
+    },
+    {
+      "nct_id": "NCT03379727",
+      "brief_title": "Study to Assess the Safety and Efficacy of Midostaurin (PKC412) in Combination With Standard Chemotherapy During Induction and Consolidation Followed by 12 Months of Maintenance Monotherapy in Patients With Newly-diagnosed FMS-like Tyrosine 3 (FLT3) Kinase Receptor-mutated Acute Myeloid Leukemia.",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03379727",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03379727",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03379727/Prot_000.pdf",
+          "sha256": "FCFB59DF76E499146E03487D3085E555AA85C14786145FE407EB27C8D6FC6B0D",
+          "bytes": 1312086,
+          "pages": 80,
+          "document_date": "2018-03-26",
+          "upload_date": "2022-07-08T11:39",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 95870,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03379727/SAP_001.pdf",
+          "sha256": "935B8C33A79330B67793C7760A05134A575CD49867559D16E3C5A03A68728332",
+          "bytes": 566060,
+          "pages": 30,
+          "document_date": "2021-11-09",
+          "upload_date": "2022-07-08T11:39",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 55820,
+            "sampled_pages": 30
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "DB94C04BEE93F616D17F1CE18262A194503B8F4E56771413F3EDD69599DA909D",
+      "case_contract_path": "case_contracts/NCT03379727.json",
+      "case_contract_sha256": "AE27F98E8E83D9749642DB36CF43E983D3D3AA9E545D141B9C6777C7DCEC7416"
+    },
+    {
+      "nct_id": "NCT03466346",
+      "brief_title": "SMART-DAPPER: Leveraging the Depression And Primary-care Partnership for Effectiveness-implementation Research Project",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03466346",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03466346",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03466346/Prot_000.pdf",
+          "sha256": "99F22C5C251F8343298D15CC1B377273DD484B4075C65B770B57C826D25CEE38",
+          "bytes": 1159408,
+          "pages": 82,
+          "document_date": "2021-10-27",
+          "upload_date": "2025-08-18T17:55",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 68125,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03466346/SAP_001.pdf",
+          "sha256": "2997C59362C5C4D39FA4AEB3928DEBBC29550A09527B9A82A43E60FA285AE3E4",
+          "bytes": 75794,
+          "pages": 2,
+          "document_date": "2021-10-27",
+          "upload_date": "2025-11-18T14:37",
+          "content_signals": {
+            "protocol": false,
+            "sap": true,
+            "extracted_chars": 2194,
+            "sampled_pages": 2
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "14B36EF350A4F14FC56E3C5405D581FB27004509DC1414C038A005E4DE3F5154",
+      "case_contract_path": "case_contracts/NCT03466346.json",
+      "case_contract_sha256": "471D6D6F574FBDB528BEC7C5ADB864B321A62B41683761086D837515A1685D67"
+    },
+    {
+      "nct_id": "NCT03523390",
+      "brief_title": "Phase I/Ib Multiple Ascending Dose Study in China",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03523390",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03523390",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT03523390/Prot_000.pdf",
+          "sha256": "2781EF14F30FBD5188BC46E3A8415CD87E4C998462398FC4D9F3B5A5F8C1584F",
+          "bytes": 1115032,
+          "pages": 139,
+          "document_date": "2019-05-17",
+          "upload_date": "2023-07-06T04:29",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 71049,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT03523390/SAP_001.pdf",
+          "sha256": "543F0079542626FDF214C39AAC8E5E2AA07D638EB574153FB3C4341F2448C4AD",
+          "bytes": 2170965,
+          "pages": 56,
+          "document_date": "2019-08-13",
+          "upload_date": "2023-07-04T07:08",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 68841,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "5B9793ED619968B16207AECEA3C5AFB64199B15189725E9E08310B0826FEB988",
+      "case_contract_path": "case_contracts/NCT03523390.json",
+      "case_contract_sha256": "10A0066E003FE6CC0AF6EB0416A3C4BD2410DBF45724EE0E03BBE50CCB6807C8"
+    },
+    {
+      "nct_id": "NCT03552575",
+      "brief_title": "The Effects of Sacubitril/Valsartan Compared to Valsartan on LV Remodelling in Asymptomatic LV Systolic Dysfunction After MI",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03552575",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03552575",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03552575/Prot_000.pdf",
+          "sha256": "33C1AC73AA4EB3C06F9342B2AA533E261AE8EC6AA20CACC7B3CE826FE93118E5",
+          "bytes": 1145722,
+          "pages": 51,
+          "document_date": "2020-08-24",
+          "upload_date": "2021-08-24T12:05",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 90134,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03552575/SAP_001.pdf",
+          "sha256": "3D6BCE2DF8F71FB362B8C6F56C1439A0859063801497E78527B7C423C7B46C0F",
+          "bytes": 186400,
+          "pages": 11,
+          "document_date": "2020-08-25",
+          "upload_date": "2021-08-24T11:58",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 21662,
+            "sampled_pages": 11
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "79CBD69AE5601F474A0C92B62935B96318B710456D1CF99AB340347EBF38E7F2",
+      "case_contract_path": "case_contracts/NCT03552575.json",
+      "case_contract_sha256": "2DC0696B3703549EF91124E85394A5B4DC66F5CCEAF1738476A3AAEF6B2B759A"
+    },
+    {
+      "nct_id": "NCT03650088",
+      "brief_title": "Adaptation of a Digital Weight Loss Intervention Promoting Self-regulation for Use in Type 2 Diabetes",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03650088",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03650088",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03650088/Prot_SAP_ICF_000.pdf",
+          "sha256": "004CC121157030BFCEB8EC55C4688D4BA0A78C604A9E6112F71A02FEB4AF78BA",
+          "bytes": 792227,
+          "pages": 67,
+          "document_date": "2020-05-28",
+          "upload_date": "2022-01-04T09:14",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 95830,
+            "sampled_pages": 40
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "0465BCFE47CFBDFFF92F458190B28E63C5BE7015B384709143A0AA65DF9DA28E",
+      "case_contract_path": "case_contracts/NCT03650088.json",
+      "case_contract_sha256": "65640B53A7D0D7A094094A8A7EF24392DA2DB22E279818E6B4B209F05744394F"
+    },
+    {
+      "nct_id": "NCT03658980",
+      "brief_title": "Integrating DR Into Mainstream Health System in Bangladesh",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03658980",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03658980",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03658980/Prot_SAP_000.pdf",
+          "sha256": "3C52CE4E86F8DC48611D5A1A1939A3302FDDD3A1EBA85F6437E2E920B3E14910",
+          "bytes": 1625403,
+          "pages": 13,
+          "document_date": "2018-12-09",
+          "upload_date": "2021-02-21T01:42",
+          "content_signals": {
+            "protocol": false,
+            "sap": true,
+            "extracted_chars": 29324,
+            "sampled_pages": 13
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "CF34E5B8925F6EA1B7A1490B47C392923804830EE83258AD935A08CA0AC9D47A",
+      "case_contract_path": "case_contracts/NCT03658980.json",
+      "case_contract_sha256": "0D2883866092EA2F212D02AFC02475B685C7CA7580FA2B239F05310E13CAC9DB"
+    },
+    {
+      "nct_id": "NCT03804788",
+      "brief_title": "The iTAP Study for Veterans",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03804788",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03804788",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03804788/Prot_SAP_000.pdf",
+          "sha256": "D803B939B03E7BFA4F88490D0A537BF5BBF6465037F26E5846F9C0CC55BFD3F4",
+          "bytes": 318948,
+          "pages": 15,
+          "document_date": "2022-12-29",
+          "upload_date": "2024-08-14T11:51",
+          "content_signals": {
+            "protocol": true,
+            "sap": false,
+            "extracted_chars": 61366,
+            "sampled_pages": 15
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "5D3832E066EBF73E38EE4996A73912CF06C53DCBB93824E9E0093753940CFAC6",
+      "case_contract_path": "case_contracts/NCT03804788.json",
+      "case_contract_sha256": "62AC10A96401333455770B03088ABE56F1B9EA70B758D588B9B3AC82FA12F0CD"
+    },
+    {
+      "nct_id": "NCT03834350",
+      "brief_title": "At Home Spirometry and Video Module Education for COPD Patients",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03834350",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03834350",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_001.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03834350/Prot_SAP_001.pdf",
+          "sha256": "DC293BD941F9533987801D4ABE33940C4B79519C646FB24FB0ACD357849F4871",
+          "bytes": 295727,
+          "pages": 8,
+          "document_date": "2019-09-27",
+          "upload_date": "2019-10-22T17:17",
+          "content_signals": {
+            "protocol": false,
+            "sap": false,
+            "extracted_chars": 27529,
+            "sampled_pages": 8
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "03A9C79E09A8A3A02697C9F5B587EF1541BE883904214B93EA857D1059E21818",
+      "case_contract_path": "case_contracts/NCT03834350.json",
+      "case_contract_sha256": "F3D066653AF6DD1254D0CE73D3C3C44649D7DB582AFFEF28C1E3E22A07B3A0EA"
+    },
+    {
+      "nct_id": "NCT03856996",
+      "brief_title": "A Clinical Trial in Healthy, HIV-1-Uninfected Adult Participants to Compare the Safety, Tolerability and Immunogenicity of CH505TF gp120 Produced From Stably Transfected Cells to CH505TF gp120 Produced From Transiently Transfected Cells",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03856996",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03856996",
+      "documents": [
+        {
+          "roles": "protocol",
+          "filename": "Prot_003.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT03856996/Prot_003.pdf",
+          "sha256": "A0B6CB2EC6DECDEAA315C4186823D3059603B9E7864A7809E3923AA6D2283BC5",
+          "bytes": 2800583,
+          "pages": 131,
+          "document_date": "2018-12-12",
+          "upload_date": "2024-04-17T18:55",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 76980,
+            "sampled_pages": 40
+          }
+        },
+        {
+          "roles": "sap",
+          "filename": "SAP_002.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT03856996/SAP_002.pdf",
+          "sha256": "B3F3FE333E2C224BCB86E3347DCE928E501A3D19975DDE68DB64EC3F61851099",
+          "bytes": 461263,
+          "pages": 12,
+          "document_date": "2019-07-23",
+          "upload_date": "2022-03-02T19:14",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 19844,
+            "sampled_pages": 12
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "0BAEE05AD5A9E799330F1AA62544389250F43515EDFA99CCB1F4E7692CCFA215",
+      "case_contract_path": "case_contracts/NCT03856996.json",
+      "case_contract_sha256": "3C5BCFFC1B4EF53DD735F4136C248D24B51B6D3278F1D4963721EB1B448C71A8"
+    },
+    {
+      "nct_id": "NCT03982069",
+      "brief_title": "Immunologic Response to FluMist vs. Flucelvax",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT03982069",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT03982069",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT03982069/Prot_SAP_ICF_000.pdf",
+          "sha256": "9E212EF5E2E6BB1DFAF46DA5116AA11F760B3D72B9DA9468E41EDB6F2864D955",
+          "bytes": 813907,
+          "pages": 25,
+          "document_date": "2020-09-03",
+          "upload_date": "2021-08-16T14:26",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 55820,
+            "sampled_pages": 25
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "D285EA88C23269B9F2D368F385C649B7A2EA4AA6E8CC8AF42911AC1847C4D6C6",
+      "case_contract_path": "case_contracts/NCT03982069.json",
+      "case_contract_sha256": "DCECF6F5465C0B2EE653E1344438B77B8AB7BB0419EEF4311A5F516DBF73B353"
+    },
+    {
+      "nct_id": "NCT04018001",
+      "brief_title": "Comparative Analysis of Adherence and Effectiveness Outcomes Between Rheumatoid Arthritis (RA) Patients Treated With Tofacitinib Modified Release (MR)",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT04018001",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04018001",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04018001/Prot_SAP_000.pdf",
+          "sha256": "B6A65C4E5B06D80B482DAD997AFC171C1F84BF6968042E0F9E4BEE3A062B1C20",
+          "bytes": 1982959,
+          "pages": 33,
+          "document_date": "2019-03-27",
+          "upload_date": "2020-03-26T17:19",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 54368,
+            "sampled_pages": 33
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "6889FCDFACC4B6FB6E692AC197A0584D680F3B405CC86C1D5A87C56596BC3D7E",
+      "case_contract_path": "case_contracts/NCT04018001.json",
+      "case_contract_sha256": "2968AD4CC8C4587C468498B555BD28D64629007FFC636B567D1D729FB6E32940"
+    },
+    {
+      "nct_id": "NCT04050397",
+      "brief_title": "Exercise and Quality of Life During Androgen Deprivation Therapy",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT04050397",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04050397",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT04050397/Prot_SAP_000.pdf",
+          "sha256": "049A64FB943F791172DF8A8FBAA32479418440200371C8DD52C9431DEA7CA4E6",
+          "bytes": 1013152,
+          "pages": 22,
+          "document_date": "2019-07-29",
+          "upload_date": "2019-07-29T03:19",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 22371,
+            "sampled_pages": 22
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "63D523813476A9E66A3381A258E5922C833FFD02B8C706E0FE03F77A871D35B9",
+      "case_contract_path": "case_contracts/NCT04050397.json",
+      "case_contract_sha256": "97F3BEFD8076BB3BA82942B868088BF417865CCBC6D3025DC60C5E5D4AB922AB"
+    },
+    {
+      "nct_id": "NCT04130061",
+      "brief_title": "Human Amniotic Membrane to Decrease Post Operative Atrial Fibrillation",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT04130061",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04130061",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_000.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04130061/Prot_SAP_000.pdf",
+          "sha256": "468D9FEC669CAD7CB4212AADAC1D3389BF9540B6955C686DF1E4C5EF510C27FB",
+          "bytes": 165139,
+          "pages": 8,
+          "document_date": "2021-03-01",
+          "upload_date": "2022-05-09T14:44",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 29232,
+            "sampled_pages": 8
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "05B14826BD57624D15C2683DF8D5F174B0ABB07F167E73097D2EF3368E2FC729",
+      "case_contract_path": "case_contracts/NCT04130061.json",
+      "case_contract_sha256": "7B935DCCE334616C70E264FDCBD6A11220B2374A0D3C4FFC2D51C979CCC47331"
+    },
+    {
+      "nct_id": "NCT04404101",
+      "brief_title": "Evaluation of Pancreatic Cystic Lesions Via EUS-guided Fine Needle Aspiration With and Without Micro Forceps Biopsies",
+      "official_study_url": "https://clinicaltrials.gov/study/NCT04404101",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04404101",
+      "documents": [
+        {
+          "roles": "protocol;sap",
+          "filename": "Prot_SAP_002.pdf",
+          "official_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04404101/Prot_SAP_002.pdf",
+          "sha256": "F789C31E5BBFDF672AA8992578E9CF1BA6578CE53E239FE049ED2EEDAA98BBAD",
+          "bytes": 218533,
+          "pages": 8,
+          "document_date": "2021-02-05",
+          "upload_date": "2021-03-24T13:41",
+          "content_signals": {
+            "protocol": true,
+            "sap": true,
+            "extracted_chars": 18220,
+            "sampled_pages": 8
+          }
+        }
+      ],
+      "tier": "T1_protocol_and_sap",
+      "registry_sha256": "55BF5E699316757955EADB26E2F8F2E6DFE0F48C325DB79839BC1D12FE5DD489",
+      "case_contract_path": "case_contracts/NCT04404101.json",
+      "case_contract_sha256": "B232BCA0562655CBCC78DEB2B77AAF19038E42AC3C0780DA40F1F646E0444E65"
+    }
+  ]
+}

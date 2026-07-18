@@ -1,0 +1,75 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02036970",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02036970",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 166,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Change From Baseline Though Week 16 in 6-Minute Walk Distance (6MWD) for Bardoxolone Methyl Compared to Placebo",
+        "description": "Overall treatment effect in exercise capacity, as measured by the total distance walked in 6 minutes (6MWD) mean change from baseline though Week 16. A lower 6MWD reflects greater severity thus, a positive change from baseline suggests an improvement.",
+        "timeFrame": "Baseline through Week 16"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02036970/Prot_000.pdf",
+      "sha256": "8AF751F1467C7AFECD5A5E6B384D91372E9DEB9CEAB4920322BA03F4B5CD8432",
+      "bytes": 6688722,
+      "pages": 101,
+      "document_date": "2017-01-26",
+      "upload_date": "2020-12-29T18:29",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 69907,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02036970/SAP_001.pdf",
+      "sha256": "078A80F908D967A9A8D524229136B93B42E60D569B73E302DA601BD8B6551B10",
+      "bytes": 1275826,
+      "pages": 33,
+      "document_date": "2018-06-14",
+      "upload_date": "2020-12-29T18:28",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 52669,
+        "sampled_pages": 33
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 101,
+      "content_digest": "8AF751F1467C7AFECD5A5E6B384D91372E9DEB9CEAB4920322BA03F4B5CD8432"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 33,
+      "content_digest": "078A80F908D967A9A8D524229136B93B42E60D569B73E302DA601BD8B6551B10"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

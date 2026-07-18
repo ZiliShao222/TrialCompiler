@@ -1,0 +1,58 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02950467",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02950467",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 30,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants Who Experienced Treatment-related Adverse Events as Assessed by NIH Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.0",
+        "description": "Full details of adverse event data are in the Adverse Events module of this ClinicalTrials.gov entry.\n\nAdverse events were assessed at every study visit by patient interview. During medication visits, adverse events were also assess by vitals sign monitoring, patient self-report, and adverse events observed by clinicians.",
+        "timeFrame": "Enrollment to 3-month follow up, about 5 months"
+      },
+      {
+        "measure": "Subject Recruitment and Retention",
+        "description": "Two therapy groups of at least 4 subjects each will complete the study",
+        "timeFrame": "Duration of study, about 24 months"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02950467/Prot_SAP_000.pdf",
+      "sha256": "0657DC221DD91C2D77CE3682E95BC776CCA51A49570B9D6D2F855681CDB3AE43",
+      "bytes": 913691,
+      "pages": 60,
+      "document_date": "2019-02-20",
+      "upload_date": "2019-10-31T23:29",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 114114,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 60,
+      "content_digest": "0657DC221DD91C2D77CE3682E95BC776CCA51A49570B9D6D2F855681CDB3AE43"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

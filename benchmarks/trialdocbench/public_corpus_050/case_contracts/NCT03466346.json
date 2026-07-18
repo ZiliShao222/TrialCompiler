@@ -1,0 +1,80 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03466346",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03466346",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 2162,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants With Major Depression at End of Treatment",
+        "description": "Number of Participants with Major Depression. The Beck Depression Inventory-Second Edition (BDI-II) was used and a score of 19 or greater was defined as positive for major depression. BDI-II score below 19 is defined as negative for major depression. Scores range from 0 to 63 with higher total scores indicating more severe depressive symptoms.",
+        "timeFrame": "End of 1st line Treatment (up to month 6) and end of 2nd line Treatment (up to month 12)"
+      },
+      {
+        "measure": "Number of Participants With PTSD",
+        "description": "Number of Participants with PTSD. The PTSD Checklist for DSM-5 (PCL-5) was used and score of 23 or greater is defined as positive for PTSD. PCL-5 score below 23 is defined as negative for PTSD. Score range from 0 to 80 with higher total scores indicating more severe PTSD symptoms.",
+        "timeFrame": "End of 1st line Treatment (up to month 6) and end of 2nd line Treatment (up to month 12)"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03466346/Prot_000.pdf",
+      "sha256": "99F22C5C251F8343298D15CC1B377273DD484B4075C65B770B57C826D25CEE38",
+      "bytes": 1159408,
+      "pages": 82,
+      "document_date": "2021-10-27",
+      "upload_date": "2025-08-18T17:55",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 68125,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03466346/SAP_001.pdf",
+      "sha256": "2997C59362C5C4D39FA4AEB3928DEBBC29550A09527B9A82A43E60FA285AE3E4",
+      "bytes": 75794,
+      "pages": 2,
+      "document_date": "2021-10-27",
+      "upload_date": "2025-11-18T14:37",
+      "content_signals": {
+        "protocol": false,
+        "sap": true,
+        "extracted_chars": 2194,
+        "sampled_pages": 2
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 82,
+      "content_digest": "99F22C5C251F8343298D15CC1B377273DD484B4075C65B770B57C826D25CEE38"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 2,
+      "content_digest": "2997C59362C5C4D39FA4AEB3928DEBBC29550A09527B9A82A43E60FA285AE3E4"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

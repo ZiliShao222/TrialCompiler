@@ -1,0 +1,75 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02692560",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02692560",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 60,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Change in Hours of Sitting Time",
+        "description": "Average hours of sitting time over the last 7 days measured at baseline and 12 weeks later",
+        "timeFrame": "12 weeks"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_002.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02692560/Prot_002.pdf",
+      "sha256": "F4B38C68B37280D2E1E410F1BBF1E7321ED8C29E03831DFCB2D1EF55343E947A",
+      "bytes": 156688,
+      "pages": 9,
+      "document_date": "2018-02-12",
+      "upload_date": "2018-05-29T17:23",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 25645,
+        "sampled_pages": 9
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_003.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02692560/SAP_003.pdf",
+      "sha256": "D1F147939459BAE1A98AFFE7F755C95BFE6B82357946E72098F5A60D57518778",
+      "bytes": 90383,
+      "pages": 1,
+      "document_date": "2018-02-12",
+      "upload_date": "2018-05-29T17:23",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 2285,
+        "sampled_pages": 1
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_002.pdf",
+      "roles": "protocol",
+      "cost_unit": 9,
+      "content_digest": "F4B38C68B37280D2E1E410F1BBF1E7321ED8C29E03831DFCB2D1EF55343E947A"
+    },
+    {
+      "action_id": "read:SAP_003.pdf",
+      "roles": "sap",
+      "cost_unit": 1,
+      "content_digest": "D1F147939459BAE1A98AFFE7F755C95BFE6B82357946E72098F5A60D57518778"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

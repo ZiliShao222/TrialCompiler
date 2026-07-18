@@ -1,0 +1,135 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03523390",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03523390",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 24,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants With of Dose-limiting Toxicities (DLTs) According to National Cancer Institute Common Toxicity Criteria for Adverse Events (NCI-CTCAE) Version 4.03",
+        "description": "DLT is defined as greater than or equal to \\[\\>=\\] Grade (Gr)3 Adverse drug reaction (ADR) according to NCI-CTCAE v4.03, occurring during DLT observation period of dose escalation cohorts. ADR: any AE suspected to be related to avelumab by Investigator and/Sponsor. Following events were not considered as DLT: Gr3 infusion-related reaction resolving within 6 hours and controlled with medical management. Transient (less than or equal to \\[\\<=\\] 6 hours) Gr3 flu-like symptoms/fever, controlled with medical management. Transient (\\<=24 hours) Gr3 fatigue, local reactions, headache, nausea, emesis, resolves to \\<= Gr1. Gr3 skin toxicity/Gr3 Liver function test increase that resolves to \\<= Grade 1 in \\< 7 days after medical management. Gr3 diarrhea, out-of-range laboratory values without any clinical correlate that resolves to \\<= Grade 1 within 7 days with adequate medical management; Tumor flare phenomenon defined as local pain, irritation, rash localized at sites of known or suspected tumor.",
+        "timeFrame": "Day 1 to Day 21"
+      },
+      {
+        "measure": "Area Under the Serum Concentration Time Curve From Time Zero to the Time of the Last Quantifiable Concentration (AUC0-t) of Avelumab",
+        "description": "Area under the serum concentration-time curve from time zero to the last sampling time at which the concentration is at or above lower limit of quantification (LLOQ). AUC0-t was calculated according to the mixed log linear trapezoidal rule.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Area Under the Serum Concentration-Time Curve During a Dosing Interval (AUCtau) of Avelumab",
+        "description": "AUCtau was defined as area under the serum concentration-time curve from time zero to the end of the dosing interval (tau). AUCtau was calculated using the mixed log linear trapezoidal rule.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Area Under the Serum Concentration-Time Curve From Time Zero Extrapolated to Infinity (AUC0-inf) of Avelumab",
+        "description": "AUC0-inf was calculated by combining AUC0-t and AUCextra. AUCextra represents an extrapolated value obtained by Clast pred/Lambda z, where Clast pred was the calculated serum concentration at the last sampling time point at which the measured serum concentration is at or above the Lower Limit of quantification (LLOQ) and Lambda z was the apparent terminal rate constant determined by log-linear regression analysis of the measured serum concentrations of the terminal log-linear phase.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Terminal Elimination Rate Constant (Lambda z) of Avelumab",
+        "description": "Lambda z was determined from the terminal slope of the log-transformed serum concentration curve using linear regression method.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Maximum Observed Serum Concentration (Cmax) of Avelumab",
+        "description": "Cmax was obtained directly from the serum concentration versus time curve.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Last Quantifiable Serum Concentration (Clast) of Avelumab",
+        "description": "Clast is the last measurable serum concentration of Avelumab.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Serum Trough Concentration Levels (Ctrough) of Avelumab",
+        "description": "Ctrough is defined as the concentration observed immediately before next dosing.",
+        "timeFrame": "Day 1: within 2 hours prior to 1 hour infusion"
+      },
+      {
+        "measure": "Time to Reach Maximum Observed Serum Concentration (Tmax) of Avelumab",
+        "description": "The time to reach the maximum observed serum concentration (tmax) was obtained directly from the concentration versus time curve.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Apparent Terminal Half Life (t1/2) of Avelumab",
+        "description": "Apparent terminal half-life was defined as the time required for the serum concentration of drug to decrease 50 percent in the final stage of its elimination. t1/2 was calculated as log2/ lambda z. Lambda z was determined from the terminal slope of the log-transformed serum concentration curve using linear regression method.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Dose Normalized Area Under the Serum Concentration-Time Curve From Time Zero to the Last Sampling Time (AUC0-t/Dose) of Avelumab",
+        "description": "AUC0-t/Dose was defined as area under the serum concentration versus time curve from time of dosing to the time of the last measurable concentration divided by dose. AUC0-t/Dose was measured in (microgram\\*hour per milliliter)/(milligram per kilogram) (mcg\\*h/mL)/(mg/kg).",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Dose Normalized Area Under the Concentration-Time Curve Over the Dosing Interval (AUCtau/Dose) of Avelumab",
+        "description": "AUCtau/Dose was calculated by as dose normalized area under the serum concentration-time curve from time zero to the end of the dosing interval (tau). AUCtau was calculated using the mixed log linear trapezoidal rule.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      },
+      {
+        "measure": "Dose Normalized Maximum Observed Serum Concentration (Cmax/Dose) of Avelumab",
+        "description": "Cmax/Dose was defined as maximum observed serum concentration divided by dose.",
+        "timeFrame": "Day 1: within 2 hours prior to and at the end of the 1-hour infusion, and at 0.5, 1, 2, 4, 6, and 12 hours after the end of the infusion"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT03523390/Prot_000.pdf",
+      "sha256": "2781EF14F30FBD5188BC46E3A8415CD87E4C998462398FC4D9F3B5A5F8C1584F",
+      "bytes": 1115032,
+      "pages": 139,
+      "document_date": "2019-05-17",
+      "upload_date": "2023-07-06T04:29",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 71049,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT03523390/SAP_001.pdf",
+      "sha256": "543F0079542626FDF214C39AAC8E5E2AA07D638EB574153FB3C4341F2448C4AD",
+      "bytes": 2170965,
+      "pages": 56,
+      "document_date": "2019-08-13",
+      "upload_date": "2023-07-04T07:08",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 68841,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 139,
+      "content_digest": "2781EF14F30FBD5188BC46E3A8415CD87E4C998462398FC4D9F3B5A5F8C1584F"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 56,
+      "content_digest": "543F0079542626FDF214C39AAC8E5E2AA07D638EB574153FB3C4341F2448C4AD"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

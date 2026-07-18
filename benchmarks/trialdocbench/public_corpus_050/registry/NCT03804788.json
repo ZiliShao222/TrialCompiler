@@ -1,0 +1,2533 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03804788",
+      "orgStudyIdInfo": {
+        "id": "2014239"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "K23AA026895",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/K23AA026895"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Missouri-Columbia",
+        "class": "OTHER"
+      },
+      "briefTitle": "The iTAP Study for Veterans",
+      "officialTitle": "The Impact of Insomnia Treatment on Heavy Alcohol Use Among Returning Veterans",
+      "acronym": "iTAP-V"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-09-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-01-09",
+      "studyFirstSubmitQcDate": "2019-01-11",
+      "studyFirstPostDateStruct": {
+        "date": "2019-01-15",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-08-14",
+      "resultsFirstSubmitQcDate": "2024-12-23",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-01-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mary E Miller",
+        "investigatorTitle": "Professor, Psychiatry",
+        "investigatorAffiliation": "University of Missouri-Columbia"
+      },
+      "leadSponsor": {
+        "name": "University of Missouri-Columbia",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project aims to evaluate improvement of insomnia as a mechanism of improvement in alcohol use outcomes.",
+      "detailedDescription": "More than half of returning Veterans who screen positive for hazardous drinking report clinically significant symptoms of insomnia. In turn, insomnia symptoms have been associated with increased risk of alcohol-related problems, perhaps due to insomnia-related impairments in executive functioning, negative emotionality, and craving. The proposed project aims to examine improvements in insomnia as a mechanism for improvement in alcohol use among heavy-drinking Veterans with insomnia. Forty-four returning Veterans who report heavy drinking (≥4/5 drinks per occasion for women/men) and have insomnia based on DSM-5 and research diagnostic criteria will participate in a randomized pilot trial. Participants will be randomly assigned to receive personalized normative alcohol feedback in the context of one of two treatment conditions: CBT-I (n = 22) or a sleep hygiene education control (SH; n = 22). Outcomes will be assessed at the end of the active intervention period (6 weeks), mid-treatment (after 3 sessions), and at 3 months post-intervention. Outcomes of interest include insomnia severity, total wake time, sleep quality, drinking quantity/frequency, alcohol-related consequences, executive functioning, negative affect, emotion regulation, craving for alcohol, and use of alcohol as a sleep aid."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Insomnia",
+        "Alcohol; Harmful Use"
+      ],
+      "keywords": [
+        "alcohol",
+        "drinking",
+        "sleep",
+        "insomnia",
+        "veteran"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Subjects will be randomized to receive sleep hygiene or to participate in sessions of individual Cognitive Behavioral Therapy for Insomnia (CBT-I).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "PI Miller will be blind to participant assignment because the project manager will inform study therapists of participant assignment to conditions. PI Miller and study therapists will be blinded to assessment outcomes, and assessment RAs will be blinded to participant condition. All participants will be told that they are receiving treatment for insomnia in order to blind them to condition assignment (sleep hygiene will be described as \"brief\" insomnia treatment, and CBT-I will be described as the \"most intense\" treatment).",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 71,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CBT-I",
+          "type": "EXPERIMENTAL",
+          "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.",
+          "interventionNames": [
+            "Behavioral: Cognitive Behavioral Therapy for Insomnia",
+            "Behavioral: Sleep Hygeine"
+          ]
+        },
+        {
+          "label": "Sleep Hygiene",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Sleep hygiene handout delivered once to all participants.",
+          "interventionNames": [
+            "Behavioral: Sleep Hygeine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Cognitive Behavioral Therapy for Insomnia",
+          "description": "Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.",
+          "armGroupLabels": [
+            "CBT-I"
+          ],
+          "otherNames": [
+            "(CBT-I)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Sleep Hygeine",
+          "description": "All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician.",
+          "armGroupLabels": [
+            "CBT-I",
+            "Sleep Hygiene"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment",
+          "description": "Number of eligible participants who enrolled in the study",
+          "timeFrame": "Assessed at baseline"
+        },
+        {
+          "measure": "Retention",
+          "description": "Number of participants who complete all treatment sessions",
+          "timeFrame": "Assessed at post-treatment (week 6)"
+        },
+        {
+          "measure": "Drinking Quantity",
+          "description": "Assessed using Daily Drinking Questionnaire. Participants report the number of standard drinks consumed on each day of a typical week in the past month (on Monday, Tuesday, Wednesday, etc). Responses for each day are then summed to calculate a total \"drinks per week\" variable, where higher scores indicate more standard drinks.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Alcohol-related Consequences",
+          "description": "Assessed using the Brief Young Adult Alcohol Consequences Questionnaire, which asks participants to indicate (yes/no) which of 24 consequences they have experienced in the past month. Responses range from 0 to 24, with greater scores indicating more consequences.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Insomnia Symptoms",
+          "description": "Assessed using Insomnia Severity Index (ISI). ISI scores from 0 to 28, with higher scores indicating more severe insomnia.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Sleep Quality",
+          "description": "On daily sleep diaries, participants reported sleep quality on a scale from 0 (very poor) to 4 (very good). Higher scores indicate better sleep quality.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Sleep Efficiency",
+          "description": "Daily sleep diaries were used to calculate the amount of time that participants spent sleeping out of all the time they spent in bed. Values from 0 to 100, with higher scores indicating better sleep efficiency. The treatment goal is 85%.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Client Satisfaction",
+          "description": "Assessed using the 8-item Client Satisfaction Questionnaire. Participants rate their satisfaction with insomnia treatment on a scale from 1 (poor) to 4 (excellent). Scores were summed and then divided by the number of items to create a meaningful standardized score. Higher scores indicate greater satisfaction.",
+          "timeFrame": "Mean score at post-treatment (week 6)."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Delay Discounting",
+          "description": "Assessed using the Monetary Choice Questionnaire (MCQ). Participants indicate if they would rather receive a smaller amount of money now or a greater amount of money in a specified amount of time (e.g., 100 days, 2 days). The MCQ is scored using a logarithmic subject-specific discount rate (k variable). K values typically fall between 0.0 and 0.5, with higher values indicating a preference for smaller, immediate rewards over larger, delayed reward (\"delay discounting\").",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Negative Affect",
+          "description": "Assessed using the Positive and Negative Affect Schedule. Participants indicate using a 1 (not at all) - 5 (extremely) scale to indicate to what extent they feel negative emotions. The final score is the sum of the ten negative emotions/feelings. Higher scores indicate more negative affect.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Emotion Regulation",
+          "description": "Assessed using the Difficulties in Emotion Regulation Scale (DERS-16). Scores range from 0 to 64, with higher scores indicating more difficulties with emotion regulation.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Alcohol Craving",
+          "description": "Assessed using the Penn Alcohol Craving Scale (PACS). Scores range from 0 to 30, with higher scores indicating more craving.",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Percentage of Days Using Alcohol to Help With Sleep",
+          "description": "Participants completed 2 weeks of sleep diaries assessing use of alcohol to help with sleep. Number of days reporting use of alcohol as a sleep aid was divided by the number of diaries completed to indicate the percentage of diary days they used alcohol as a sleep aid. Higher scores indicate more frequent use of alcohol as a sleep aid.",
+          "timeFrame": "Primary analyses will measure between-group change at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        },
+        {
+          "measure": "Percentage of Days Using Sleep Medication",
+          "description": "Participants completed 2 weeks of sleep diaries assessing use of sleep medication. Number of days reporting use of sleep medication was divided by the number of diaries completed to indicate the percentage of diary days they used a sleep medication. Higher scores indicate more frequent use of sleep medication.",
+          "timeFrame": "Primary analyses will measure between-group change at post (week 6) and follow-up (week 20). Mean values at each time point are presented below."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Veteran deployed for military service after September 11, 2001\n* 1+ heavy drinking episode (4/5+ drinks in 2 hours for women/men) in past 30 days\n* DSM-5 and research diagnostic criteria for Insomnia Disorder\n\nExclusion Criteria:\n\n* Inability to provide informed consent\n* Cognitive impairment\n* Contraindications for CBT-I (mania or seizure disorder)\n* Untreated sleep disorder requiring more than behavioral treatment for insomnia\n* Engagement in overnight shift work at baseline\n* Care of a child under 1 year of age\n* Severe or untreated psychiatric disorder that requires immediate clinical attention\n* Current behavioral treatment for insomnia or alcohol use\n* Initiation of sleep medication in the past 6 weeks",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Missouri-Columbia",
+          "city": "Columbia",
+          "state": "Missouri",
+          "zip": "65212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.95171,
+            "lon": -92.33407
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40575624",
+          "type": "DERIVED",
+          "citation": "Miller MB, Carpenter RW, Shoemaker SD, Moskal KR, Borsari B, Pedersen ER, Bartholow BD, Steinley D, McCrae CS. Cognitive behavioral therapy for insomnia among heavy-drinking veterans: a randomized pilot trial. Sleep Adv. 2025 Jun 10;6(2):zpaf037. doi: 10.1093/sleepadvances/zpaf037. eCollection 2025 Apr."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Heavy-drinking Veterans were recruited via online digital marketing between April 2019 and August 2023.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "CBT-I",
+          "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+        },
+        {
+          "id": "FG001",
+          "title": "Sleep Hygiene",
+          "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "38"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "33"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "38"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "33"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "CBT-I",
+          "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+        },
+        {
+          "id": "BG001",
+          "title": "Sleep Hygiene",
+          "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "38"
+            },
+            {
+              "groupId": "BG001",
+              "value": "33"
+            },
+            {
+              "groupId": "BG002",
+              "value": "71"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37.1",
+                      "spread": "7.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38.3",
+                      "spread": "11.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "37.7",
+                      "spread": "9.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "68"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Recruitment",
+          "description": "Number of eligible participants who enrolled in the study",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed at baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Eligible Participants",
+              "description": "Individuals who met all inclusion/exclusion criteria and were invited to participate in the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "92"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Retention",
+          "description": "Number of participants who complete all treatment sessions",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed at post-treatment (week 6)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Drinking Quantity",
+          "description": "Assessed using Daily Drinking Questionnaire. Participants report the number of standard drinks consumed on each day of a typical week in the past month (on Monday, Tuesday, Wednesday, etc). Responses for each day are then summed to calculate a total \"drinks per week\" variable, where higher scores indicate more standard drinks.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "drinks per week",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18.63",
+                      "spread": "15.76"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17.94",
+                      "spread": "15.26"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.29",
+                      "spread": "14.73"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.00",
+                      "spread": "9.84"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.12",
+                      "spread": "21.96"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15.73",
+                      "spread": "15.89"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Alcohol-related Consequences",
+          "description": "Assessed using the Brief Young Adult Alcohol Consequences Questionnaire, which asks participants to indicate (yes/no) which of 24 consequences they have experienced in the past month. Responses range from 0 to 24, with greater scores indicating more consequences.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "number of alcohol-related consequences",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.92",
+                      "spread": "5.34"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.45",
+                      "spread": "6.49"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.45",
+                      "spread": "3.25"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.46",
+                      "spread": "4.76"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.31",
+                      "spread": "4.20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.28",
+                      "spread": "4.35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Insomnia Symptoms",
+          "description": "Assessed using Insomnia Severity Index (ISI). ISI scores from 0 to 28, with higher scores indicating more severe insomnia.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.29",
+                      "spread": "4.39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.88",
+                      "spread": "4.15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.24",
+                      "spread": "4.83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.27",
+                      "spread": "4.57"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.97",
+                      "spread": "5.84"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.30",
+                      "spread": "5.14"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Sleep Quality",
+          "description": "On daily sleep diaries, participants reported sleep quality on a scale from 0 (very poor) to 4 (very good). Higher scores indicate better sleep quality.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.92",
+                      "spread": "0.60"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.73",
+                      "spread": "0.65"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.49",
+                      "spread": "0.52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.13",
+                      "spread": "0.87"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.53",
+                      "spread": "0.63"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.14",
+                      "spread": "0.93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Sleep Efficiency",
+          "description": "Daily sleep diaries were used to calculate the amount of time that participants spent sleeping out of all the time they spent in bed. Values from 0 to 100, with higher scores indicating better sleep efficiency. The treatment goal is 85%.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "percentage of time asleep",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baselin",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.94",
+                      "spread": "11.84"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "68.82",
+                      "spread": "12.07"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "87.89",
+                      "spread": "6.39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "77.89",
+                      "spread": "8.84"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "87.10",
+                      "spread": "9.57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "79.90",
+                      "spread": "10.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Client Satisfaction",
+          "description": "Assessed using the 8-item Client Satisfaction Questionnaire. Participants rate their satisfaction with insomnia treatment on a scale from 1 (poor) to 4 (excellent). Scores were summed and then divided by the number of items to create a meaningful standardized score. Higher scores indicate greater satisfaction.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Mean score at post-treatment (week 6).",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.59",
+                      "spread": "0.40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.72",
+                      "spread": "0.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Delay Discounting",
+          "description": "Assessed using the Monetary Choice Questionnaire (MCQ). Participants indicate if they would rather receive a smaller amount of money now or a greater amount of money in a specified amount of time (e.g., 100 days, 2 days). The MCQ is scored using a logarithmic subject-specific discount rate (k variable). K values typically fall between 0.0 and 0.5, with higher values indicating a preference for smaller, immediate rewards over larger, delayed reward (\"delay discounting\").",
+          "populationDescription": "Some participants were lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "log (k)",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "36"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".028",
+                      "spread": ".062"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".022",
+                      "spread": ".046"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".037",
+                      "spread": ".062"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".009",
+                      "spread": ".009"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".033",
+                      "spread": ".062"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".011",
+                      "spread": ".014"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Negative Affect",
+          "description": "Assessed using the Positive and Negative Affect Schedule. Participants indicate using a 1 (not at all) - 5 (extremely) scale to indicate to what extent they feel negative emotions. The final score is the sum of the ten negative emotions/feelings. Higher scores indicate more negative affect.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.82",
+                      "spread": "7.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.39",
+                      "spread": "6.82"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.18",
+                      "spread": "5.19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.29",
+                      "spread": "8.48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.77",
+                      "spread": "7.55"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.48",
+                      "spread": "5.67"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Emotion Regulation",
+          "description": "Assessed using the Difficulties in Emotion Regulation Scale (DERS-16). Scores range from 0 to 64, with higher scores indicating more difficulties with emotion regulation.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.53",
+                      "spread": "13.22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32.85",
+                      "spread": "12.17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.14",
+                      "spread": "7.07"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35.79",
+                      "spread": "12.54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30.00",
+                      "spread": "11.49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34.88",
+                      "spread": "11.79"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Alcohol Craving",
+          "description": "Assessed using the Penn Alcohol Craving Scale (PACS). Scores range from 0 to 30, with higher scores indicating more craving.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Primary analyses will measure between-group change in at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.29",
+                      "spread": "5.63"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.70",
+                      "spread": "6.82"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.46",
+                      "spread": "5.91"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.62",
+                      "spread": "6.74"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.30",
+                      "spread": "7.18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.04",
+                      "spread": "5.96"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Days Using Alcohol to Help With Sleep",
+          "description": "Participants completed 2 weeks of sleep diaries assessing use of alcohol to help with sleep. Number of days reporting use of alcohol as a sleep aid was divided by the number of diaries completed to indicate the percentage of diary days they used alcohol as a sleep aid. Higher scores indicate more frequent use of alcohol as a sleep aid.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "% of diary days using alcohol for sleep",
+          "timeFrame": "Primary analyses will measure between-group change at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.71",
+                      "spread": "27.86"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.73",
+                      "spread": "16.56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.22",
+                      "spread": "8.60"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.89",
+                      "spread": "22.94"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.24",
+                      "spread": "4.88"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.12",
+                      "spread": "26.17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Days Using Sleep Medication",
+          "description": "Participants completed 2 weeks of sleep diaries assessing use of sleep medication. Number of days reporting use of sleep medication was divided by the number of diaries completed to indicate the percentage of diary days they used a sleep medication. Higher scores indicate more frequent use of sleep medication.",
+          "populationDescription": "Some participants lost to follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "% of diary days using a sleep medication",
+          "timeFrame": "Primary analyses will measure between-group change at post (week 6) and follow-up (week 20). Mean values at each time point are presented below.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "CBT-I",
+              "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            },
+            {
+              "id": "OG001",
+              "title": "Sleep Hygiene",
+              "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30.92",
+                      "spread": "36.23"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23.15",
+                      "spread": "35.49"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post (week 6)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.04",
+                      "spread": "30.71"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.44",
+                      "spread": "41.56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Follow-up (week 20)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.55",
+                      "spread": "28.18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20.36",
+                      "spread": "38.35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "1",
+      "timeFrame": "Adverse event data were collected through study completion, up to 22 weeks.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "CBT-I",
+          "description": "Individual Cognitive Behavioral Therapy for Insomnia (CBT-I) delivered once a week for six (6) weeks.\n\nCognitive Behavioral Therapy for Insomnia: Cognitive Behavioral Therapy for Insomnia (CBT-I). Participants assigned to the CBT-I condition will attend 1-hour individual sessions of CBT-I once a week for five weeks. A sixth week of treatment will be included - and scheduled for the same date as the post-treatment assessment - if the participant and research team agree that it would be beneficial (e.g., if a participant has difficulty grasping cognitive therapy concepts). Consistent with clinical guidelines (Schutte-Rodin, Broch, Buysse, Dorsey, \\& Sateia, 2008), treatment will include stimulus control (e.g., limit use of bed to sleep or sexual activity, get out of bed if lying awake for more than 20 minutes), sleep restriction (limit time in bed to amount of time spent sleeping on a typical night), sleep hygiene (e.g., avoid exercise within 2 hours of bedtime, create cool and dark sleep environment), relaxation training, and cognitive restructuring.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 38,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 38,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 38
+        },
+        {
+          "id": "EG001",
+          "title": "Sleep Hygiene",
+          "description": "Sleep hygiene handout delivered once to all participants.\n\nSleep Hygeine: All participants will receive a one-page handout on sleep hygiene that includes personalized normative feedback on their alcohol use. This is the only intervention that participants assigned to the Sleep Hygiene condition will receive and is consistent with what may be expected as standard care in a doctor's visit with a primary care physician.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 33,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 33,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 33
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Unanticipated Problem Involving Risk",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Emotional distress in response to questionnaires",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The COVID-19 pandemic changed the way people drink and required modifications to the protocol. Most treatment sessions were conducted via telehealth. As a result, all data were collected via self-report. Finally, data were collected from a relatively small, homogeneous sample of heavy-drinking Veterans. The control condition was not matched with CBT-I for time and content, so we cannot determine from this trial whether improvements are due to CBT-I or non-specific therapy effects."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Mary Beth Miller",
+        "organization": "University of Missouri",
+        "email": "millmary@health.missouri.edu",
+        "phone": "573-882-1813"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2022-12-29",
+          "uploadDate": "2024-08-14T11:51",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 318948
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007319",
+          "term": "Sleep Initiation and Maintenance Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015928",
+          "term": "Cognitive Behavioral Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001521",
+          "term": "Behavior Therapy"
+        },
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

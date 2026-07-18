@@ -1,0 +1,361 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02605668",
+      "orgStudyIdInfo": {
+        "id": "01EE1402A"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "DRKS00008743",
+          "type": "REGISTRY",
+          "domain": "German Clinical Trials Register"
+        }
+      ],
+      "organization": {
+        "fullName": "Technische Universität Dresden",
+        "class": "OTHER"
+      },
+      "briefTitle": "Providing Tools for Effective Care and Treatment of Anxiety Disorders",
+      "officialTitle": "Providing Tools for Effective Care and Treatment of Anxiety Disorders (AD): Outcomes, Mediators and Moderators of Enhanced Extinction",
+      "acronym": "PROTECT-AD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-12-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-07-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-07-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-08-24",
+      "studyFirstSubmitQcDate": "2015-11-13",
+      "studyFirstPostDateStruct": {
+        "date": "2015-11-16",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-09-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-09-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Technische Universität Dresden",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ruhr University of Bochum",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Medicine Greifswald",
+          "class": "OTHER"
+        },
+        {
+          "name": "Charite University, Berlin, Germany",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Wuerzburg",
+          "class": "OTHER"
+        },
+        {
+          "name": "Philipps University Marburg",
+          "class": "OTHER"
+        },
+        {
+          "name": "Wuerzburg University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Universität Münster",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "PROTECT-AD is a cognitive behavioral treatment study involving highly qualified psychotherapeutic centers at seven German universities.\n\nIt is our goal to further investigate and optimize existing effective treatments of anxiety disorders. In order to achieve this, the investigators want to investigate the effect of extinction learning in an \"intensified\" psychological intervention on treatment outcome in adults and children with anxiety disorders.\n\nThe intensified psychological intervention is characterized by a higher number of exposure trials over a short time period. In the control condition the exposure trials take place in a weekly interval, analog to standard care.",
+      "detailedDescription": "Novel preclinical research evidence suggests extinction learning as the core mechanism of action of exposure-based therapies and provides according strategies to improve the effectiveness of treatment by optimized extinction. A translational research agenda is suggested to examine whether enhanced extinction learning components derived from preclinical research, applied within an \"intensified\" exposure-based treatment, improves outcomes. In a multicenter randomized clinical trial, linked to mechanistic subprojects, the investigators test in n=620 patients with primary AD allowing for comorbidity whether intensified psychological interventions based on augmented extinction learning (IPI) result in faster, stronger and more persistent outcomes on subjective, clinical, behavioral, physiological and neural indices as compared to an, otherwise identical, standard research treatment without explicit enhanced extinction (TAU). The investigators hypothesize that (a) enhanced extinction elements (IPI) will result in higher effect sizes, faster recovery, (b) more pronounced changes in an array of systems, including elements of extinction learning and in objective behavioral measures assessed in intersession exposure trials. The investigators also examine moderators of outcome (i.e. type of diagnosis, comorbidity) and explore whether IPI is associated with lower health care costs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Panic Disorder",
+        "Agoraphobia",
+        "Specific Phobias",
+        "Social Anxiety Disorder"
+      ],
+      "keywords": [
+        "Anxiety Disorders",
+        "Extinction Learning",
+        "Optimized Extinction",
+        "Behavioral Therapy",
+        "Massed Confrontation",
+        "Social Anxiety Disorder",
+        "Specific Phobia",
+        "Panic Disorder",
+        "Agoraphobia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 726,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intensified Psychological Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Intensified psychological intervention (Cognitive Behavioral Therapy), based on optimized extinction learning",
+          "interventionNames": [
+            "Behavioral: Intensified psychological intervention"
+          ]
+        },
+        {
+          "label": "Treatment As Usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard intervention (Cognitive Behavioral Therapy) without optimized extinction learning",
+          "interventionNames": [
+            "Behavioral: Standard intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Intensified psychological intervention",
+          "description": "12 sessions of Cognitive Behavioral Therapy a 100 minutes, over the course of 6 weeks (2 sessions per week/week 1 and 2, 3 sessions per week/week 3 und 4, 1 session per week/week 5 and 6)",
+          "armGroupLabels": [
+            "Intensified Psychological Intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard intervention",
+          "description": "12 sessions of Cognitive Behavioral Therapy a 100 minutes, over the course of 10 weeks (2 sessions per week/week 1 and 2, 1 session per week/week 3 to 10)",
+          "armGroupLabels": [
+            "Treatment As Usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "change in somatic and psychic anxiety symptoms",
+          "description": "Anxiety symptoms are assessed using the clinician-rated Structured Interview Guide for the Hamilton Anxiety Scale (SIGH-A for the HAMA). Stronger, faster and more persistent reduction of anxiety symptoms in the IPI group than in the TAU group is expected.",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow up (6 months after end of therapy)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "change in severity of the anxiety disorder",
+          "description": "Severity of the anxiety disorder is assessed by the clinician-rated Clinical Global Impression Scale (CGI). It is anchored for anxiety disorders.",
+          "timeFrame": "assessed five times: Baseline, therapy session 4 (week 2 of therapy), therapy session 11 (week 5 to week 9 of therapy), Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in categorial diagnosis according to the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV/5)",
+          "description": "categorical diagnoses are assessed using a German version of the Composite International Diagnostic Interview (CIDI).",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in screened anxiety symptoms",
+          "description": "The DSM-5 cross-cutting symptom measure for anxiety disorders (\"Cross-D\") is used as a brief screener for anxiety symptoms.",
+          "timeFrame": "assessed fivetimes: Baseline, therapy session 4 (week 2 of therapy), therapy session 11 (week 5 to week 9 of therapy), Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in depressive symptoms",
+          "description": "depressive symptoms are assessed using the Beck Depression Inventory (BDI-II)",
+          "timeFrame": "assessed fivetimes: Baseline, therapy session 4 (week 2 of therapy), therapy session 11 (week 5 to week 9 of therapy), Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in anxiety sensitivity",
+          "description": "anxiety sensitivity is assessed using the Anxiety sensitivity inventory (ASI)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in panic and agoraphobic symptoms",
+          "description": "panic and agoraphobic symptoms are assessed using the Panic and agoraphobia scale (PAS)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in agoraphobic avoidance",
+          "description": "agoraphobic avoidance is assessed using the Mobility Inventory (MI)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in symptoms of Generalized Anxiety Disorder",
+          "description": "symptoms of generalized anxiety disorder (GAD)are assessed using the GAD-7",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in social anxiety",
+          "description": "social anxiety is assessed using the Liebowitz Social Anxiety Scale (LSAS)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in Specific Phobia symptoms",
+          "description": "symptoms of specific phobia are assessed using an adapted version of the DSM-5 dimensional scale for specific phobias",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in disability",
+          "description": "Disability is assessed using the 12-item version of the World Health Organization Disability Schedule (WHODAS 2.0)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in quality of life",
+          "description": "Quality of life is assessed using the EuroQol five-dimensional measure for quality of life (EQ5D)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in psychopathological symptoms",
+          "description": "psychopathological symptoms are assessed using the Brief Symptom Inventory (BSI), a short form of the Symptom Checklist 90 (SCL-90). At Baseline, Post and Follow Up, the 53 item Version is used, during therapy the 18 item version is used",
+          "timeFrame": "assessed seven times: Baseline, therapy sessions 2 (week 1 of therapy), 4 (week 2), 7 (week 3 to 5), 10 (week 4 to 8), 11 (week 5 to 9), 12 (week 6 to 10) Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "change in agoraphobic cognitions",
+          "description": "agoraphobic cognitions are assessed using the Agoraphobic Cognitions Questionnaire (ACQ)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        },
+        {
+          "measure": "fear of body sensations",
+          "description": "fear of body sensations is assessed using the Body Sensations Questionnaire (BSQ)",
+          "timeFrame": "assessed three times: Baseline, Post (1 week after end of therapy) and Follow Up (6 months after end of therapy)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age 15 - 70 years\n* one or more of the following DSM-IV/5 anxiety disorders: Panic Disorder, Agoraphobia, Social Anxiety Disorder, Specific Phobia\n* HAMA - Score \\> 18\n* CGI - Score \\> 3\n* Can attend therapy regularly (with or without support)\n* Informed Consent\n\nExclusion Criteria:\n\n* Every reason the protocol may not be upheld (e.g. planned hospitalization within study time frame, planning to move away, etc.)\n* Current suicidal tendency\n* DSM-5 Bipolar Disorder\n* DSM-5 Psychotic Disorder\n* DSM-5 Borderline Personality Disorder\n* Current treatment of other mental disorder (drugs, psychotherapy)\n* Current Alcohol, Benzodiazepine or other Substance Use Disorders\n* Severe medical illness/condition (every serious physical illness, including cardiovascular, kidney, endocrinological and neurological conditions, Hepatitis or other clinical findings that suggest a severe illness and may affect participation in the study)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "15 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hans-Ulrich Wittchen, Ph.D.",
+          "affiliation": "Technische Universität Dresden",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Technische Universität Dresden, Institute of Clinical Psychology and Psychotherapy",
+          "city": "Dresden",
+          "state": "Saxony",
+          "zip": "01187",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28322476",
+          "type": "BACKGROUND",
+          "citation": "Heinig I, Pittig A, Richter J, Hummel K, Alt I, Dickhover K, Gamer J, Hollandt M, Koelkebeck K, Maenz A, Tennie S, Totzeck C, Yang Y, Arolt V, Deckert J, Domschke K, Fydrich T, Hamm A, Hoyer J, Kircher T, Lueken U, Margraf J, Neudeck P, Pauli P, Rief W, Schneider S, Straube B, Strohle A, Wittchen HU. Optimizing exposure-based CBT for anxiety disorders via enhanced extinction: Design and methods of a multicentre randomized clinical trial. Int J Methods Psychiatr Res. 2017 Jun;26(2):e1560. doi: 10.1002/mpr.1560. Epub 2017 Mar 21."
+        }
+      ]
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2014-06-01",
+          "uploadDate": "2019-09-10T09:14",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 586254
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016584",
+          "term": "Panic Disorder"
+        },
+        {
+          "id": "D000379",
+          "term": "Agoraphobia"
+        },
+        {
+          "id": "C562465",
+          "term": "Phobia, Specific"
+        },
+        {
+          "id": "D000072861",
+          "term": "Phobia, Social"
+        },
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D010698",
+          "term": "Phobic Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

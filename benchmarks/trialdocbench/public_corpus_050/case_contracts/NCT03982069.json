@@ -1,0 +1,58 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03982069",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03982069",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE4"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 465,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants With Seroconversion Response In 2019",
+        "description": "Rows in data tables represent different influenza antigens measured in 2019. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroconversion is defined as a 4-fold or higher rise in HI titer post-vaccination given a pre-vaccination HI titer of \\>=10 and a final HI titer of \\>=40.",
+        "timeFrame": "Post-vaccination (at Day 28 timepoint)"
+      },
+      {
+        "measure": "Number of Participants With Seroconversion Response In 2020",
+        "description": "Rows in data tables represent different influenza antigens measured in 2020. Hemagglutination inhibition (HI) assay was conducted to assess immunologic outcome. Seroconversion is defined as a 4-fold or higher rise in HI titer post-vaccination given a pre-vaccination HI titer of \\>=10 and a final HI titer of \\>=40.",
+        "timeFrame": "Post-vaccination (at Day 28 timepoint)"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_ICF_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT03982069/Prot_SAP_ICF_000.pdf",
+      "sha256": "9E212EF5E2E6BB1DFAF46DA5116AA11F760B3D72B9DA9468E41EDB6F2864D955",
+      "bytes": 813907,
+      "pages": 25,
+      "document_date": "2020-09-03",
+      "upload_date": "2021-08-16T14:26",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 55820,
+        "sampled_pages": 25
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_ICF_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 25,
+      "content_digest": "9E212EF5E2E6BB1DFAF46DA5116AA11F760B3D72B9DA9468E41EDB6F2864D955"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

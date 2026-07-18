@@ -1,0 +1,90 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03122860",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03122860",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 700,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Change From Baseline Osteoarthritis (OA) Pain in the Target Knee as Assessed by the Weekly Average of Daily Pain Numeric Rating Scale (NRS)",
+        "description": "Change from baseline OA pain in the target knee as assessed by the weekly average of daily pain NRS at Week 24. The pain NRS is an 11-point scale \\[0-10\\] for subject self-reporting of average knee pain in the last 24 hours; 0 indicates no pain, and 10 represents the worst possible pain (pain as bad as one can imagine).",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Change From Baseline OA Pain in the Target Knee as Assessed by Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) Pain Subscore (WOMAC Pain)",
+        "description": "Change from baseline OA pain in the target knee as assessed by WOMAC Numeric Rating Scale (NRS 3.1) pain subscore (WOMAC Pain) at Week 24. The WOMAC is a widely-used, proprietary outcome measurement tool used by health professionals to evaluate the condition of subjects with OA of the knee and hip, including pain (5 questions), stiffness (2 questions), and physical functioning (17 questions) of the joints. Each question is measured on a scale from 0 (lowest pain/lowest stiffness/highest function) to 10 (highest pain/highest stiffness/lowest function). The WOMAC Pain subscore is standardized and reported ranging from 0 to 100 \\[0 = no pain; 100 = pain as bad as it can be\\].",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Change From Baseline OA Function in the Target Knee as Assessed by WOMAC Physical Function Subscore (WOMAC Function)",
+        "description": "Change from baseline OA function in the target knee as assessed by WOMAC Numeric Rating Scale (NRS 3.1) physical functioning subscore (WOMAC Function) at Week 24. The WOMAC is a widely-used, proprietary outcome measurement tool used by health professionals to evaluate the condition of subjects with OA of the knee and hip, including pain (5 questions), stiffness (2 questions), and physical functioning (17 questions) of the joints. Each question is measured on a scale from 0 (lowest pain/lowest stiffness/highest function) to 10 (highest pain/highest stiffness/lowest function). The WOMAC Function subscore is standardized and reported ranging from 0 to 100 \\[0 = no functional disability, 100 = unable to function\\].",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Change From Baseline in Medial Joint Space Width (mJSW) of the Target Knee",
+        "description": "Change from baseline in mJSW as documented by radiograph of the target knee.",
+        "timeFrame": "Baseline and Week 24"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03122860/Prot_000.pdf",
+      "sha256": "ED65862E166E0B9DC10B457011E7ED28350E42186CDAC649E85F77054C5E7966",
+      "bytes": 5499398,
+      "pages": 82,
+      "document_date": "2018-04-23",
+      "upload_date": "2021-03-19T03:05",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 97506,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03122860/SAP_001.pdf",
+      "sha256": "B09C1C5A79C7D08AC63D02FCCBAC3D63A9A0D9DF5C3CE6384ADECC0935D4806B",
+      "bytes": 1583677,
+      "pages": 18,
+      "document_date": "2018-09-13",
+      "upload_date": "2021-03-19T02:29",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 39729,
+        "sampled_pages": 18
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 82,
+      "content_digest": "ED65862E166E0B9DC10B457011E7ED28350E42186CDAC649E85F77054C5E7966"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 18,
+      "content_digest": "B09C1C5A79C7D08AC63D02FCCBAC3D63A9A0D9DF5C3CE6384ADECC0935D4806B"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

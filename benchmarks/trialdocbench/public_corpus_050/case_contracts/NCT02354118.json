@@ -1,0 +1,63 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02354118",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02354118",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 436,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants With First Complete Occlusion Within 1 Year",
+        "description": "Number of participants who had a first complete occlusion (Blockage) within 1 year",
+        "timeFrame": "baseline to 1 year"
+      },
+      {
+        "measure": "Number of Participants With First Partial Occlusion Within 1 Year",
+        "description": "Number of Participants with First Partial Occlusion (Blockage) within 1 year",
+        "timeFrame": "baseline to 1 year"
+      },
+      {
+        "measure": "Number of Participants With First Cathflo Administration for Occlusion (Blockage) Within 1 Year",
+        "description": "Number of Participants with First Cathflo administration for Occlusion (Blockage) within 1 year",
+        "timeFrame": "baseline to 1 year"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02354118/Prot_SAP_000.pdf",
+      "sha256": "2956C690747BE3337DE63280E5EEC68A73FF54872EF3FE37DA3B2B33BE773A7F",
+      "bytes": 297017,
+      "pages": 16,
+      "document_date": "2020-01-22",
+      "upload_date": "2022-01-24T11:35",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 43961,
+        "sampled_pages": 16
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 16,
+      "content_digest": "2956C690747BE3337DE63280E5EEC68A73FF54872EF3FE37DA3B2B33BE773A7F"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

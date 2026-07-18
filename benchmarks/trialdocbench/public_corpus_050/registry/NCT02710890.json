@@ -1,0 +1,1123 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02710890",
+      "orgStudyIdInfo": {
+        "id": "EP0060"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2014-003294-42",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "UCB Pharma",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Investigate Safety and Tolerability of Intravenous Lacosamide in Children.",
+      "officialTitle": "A Multicenter, Open-Label Study to Investigate the Safety and Tolerability of Intravenous Lacosamide in Children (>= 1 Month to < 17 Years of Age) With Epilepsy",
+      "acronym": "ASPIRE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": true,
+        "nctId": "NCT03559673",
+        "statusForNctId": "NO_LONGER_AVAILABLE"
+      },
+      "startDateStruct": {
+        "date": "2017-05-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-06-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-06-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-03-09",
+      "studyFirstSubmitQcDate": "2016-03-14",
+      "studyFirstPostDateStruct": {
+        "date": "2016-03-17",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-06-26",
+      "resultsFirstSubmitQcDate": "2020-06-26",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-07-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-02-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-02-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "UCB BIOSCIENCES, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "EP0060 is a multicenter, open-label study to evaluate the safety and tolerability of intravenous (iv) Lacosamide (LCM) in pediatric subjects \\>= 1 month to \\< 17 years of age with epilepsy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epilepsy"
+      ],
+      "keywords": [
+        "Epilepsy",
+        "pediatric",
+        "intravenous",
+        "children",
+        "Lacosamide",
+        "VIMPAT®",
+        "seizure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 103,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lacosamide",
+          "type": "EXPERIMENTAL",
+          "description": "Up to 2 age-based Cohorts with Cohort 1 including at least 40 subjects who are \\>=8 to \\<17 years. For Cohort 2 every attempt will be made to enroll 20 subjects \\>= 4 to \\< 8 years of age, 12 subjects \\>= 2 to \\< 4 years of age and 12 subjects \\>= 1 month to \\< 2 years of age. A Data Monitoring Committee (DMC) will review the safety and tolerability data for each Cohort to make the following recommendations: the progression of the current Cohort, including intravenous (iv) infusion durations to be evaluated, and progression to initiate enrollment in the next Cohort (Cohort 2).",
+          "interventionNames": [
+            "Drug: Lacosamide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Lacosamide",
+          "description": "Pharmaceutical form: solution for infusion\n\nConcentration: 10 mg/ml\n\nRoute of Administration: intravenous",
+          "armGroupLabels": [
+            "Lacosamide"
+          ],
+          "otherNames": [
+            "Vimpat"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With at Least One Adverse Event Reported Spontaneously by the Participant/or Caregiver (Including Parent/Legal Guardian) or Observed by the Investigator During the Study",
+          "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product, which does not necessarily have a causal relationship with this treatment. An AE could therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.\n\n26 adverse events are reported splitting into at least 19 occurrences of individual pre-treatment emergent adverse events and 7 treatment emergent adverse events (TEAEs).",
+          "timeFrame": "From Screening Period (Day -7 to Day -1) up to the End-of-Study Period (up to Day 37)"
+        },
+        {
+          "measure": "Percentage of Participants That Withdrew Due to Adverse Events During the Study",
+          "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product, which does not necessarily have a causal relationship with this treatment and led to the withdrawal of the participants from the study. An AE could therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.",
+          "timeFrame": "From Screening Period (Day -7 to Day -1) up to the End-of-Study Period (up to Day 37)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female from \\>=1 month to \\<17 years of age\n* Subject has a diagnosis of epilepsy with partial-onset seizures or primary generalized tonic-clonic seizures\n* Subject meets 1 of the following criteria:\n\n  1. Open-label lacosmide (OLL) subject: Subject is currently receiving oral lacosmide (LCM) as adjunctive or monotherapy as participants in an open label long-term study (SP848, EP0034, or other pediatric study); OR,\n  2. Prescription lacosamide (RxL) subject: Subject is currently receiving prescribed oral LCM from commercial supply (eg, VIMPAT) as adjunctive or monotherapy; OR,\n  3. Initiating intravenous lacosamide (IIL) subject: Subject is not currently receiving LCM and will receive intravenous (iv) LCM as adjunctive treatment in EP0060. Initiation of LCM monotherapy is not permitted in IIL subjects.\n* Subject is an OLL or RxL subject and meets both of the following criteria:\n\n  1. Subject has been administered LCM for the treatment of epilepsy for at least 2 weeks prior to Screening; AND\n  2. Subject has been administered (OLL) or prescribed (RxL) oral LCM at a dose of 2 mg/kg/day to 12 mg/kg/day (for subjects \\<50 kg) or 100 mg/day to 600 mg/day (for subjects \\>=50 kg). Open-label study drug LCM (OLL) or prescribed oral LCM dose (RxL) must be stable for at least 3 days prior to first LCM infusion; OR,\n* Subject is an ILL subject and is on a stable dosage regimen of at least 1 antiepileptic drug (AED). The daily dosage regimen of concomitant AED therapy must be kept constant for a period of at least 2 weeks prior to Screening.\n* Subject is an acceptable candidate for venipuncture and iv infusion\n* Subject is, in the opinion of the investigator, able to comply with all study requirements. Subject (or parent\\[s\\] or legal representative) is willing to comply with all study requirements\n* Subject weighs \\>=4 kg\n\nExclusion Criteria:\n\n* Subject has previously received intravenous (iv) lacosamide (LCM) in this study\n* Subject has any medical, neurological, or psychiatric condition that, in the opinion of the investigator, could jeopardize the subject's health or compromise the subject's ability to participate in EP0060\n* Subject has clinically significant hypotension or bradycardia in the opinion of the investigator\n* Subject \\>=6 years of age has a lifetime history of suicide attempt (including an actual attempt, interrupted attempt, or aborted attempt), or has suicidal ideation in the past 6 months as indicated by positive responses (\"Yes\") to either Question 4 or Question 5 of the Columbia-Suicide Severity Rating Scale (C-SSRS) at Screening\n\nFor open-label lacosamide (OLL) subjects, enrollment in EP0060 is not permitted if any of the following additional criteria are met:\n\n\\- Subject has any ongoing Adverse Event (AE) in their long-term, open-label study that, in the opinion of the investigator, could jeopardize or would compromise the subject's ability to participate EP0060 or the subject meets any of the criteria for required withdrawal from the long-term open-label study\n\nFor prescription lacosamide (RxL) and initiating intravenous lacosamide (IIL) subjects, enrollment in EP0060 is not permitted if any of the following additional criteria are met:\n\n* Subject has a medical condition that could reasonably be expected to interfere with drug absorption distribution, metabolism, or excretion\n* Subject is a female of childbearing potential and does not practice an acceptable method of contraception for the duration of participation in EP0060\n* Subject has creatinine clearance less than 30 mL/min\n* Subject has a clinically relevant electrocardiogram (ECG) abnormality, in the opinion of the principal investigator (ie, second or third degree heart block at rest or a QT prolongation greater than 450 ms)\n* Subject has hemodynamically significant heart disease (eg, heart failure)\n* Subject has an arrhythmic heart condition requiring medical therapy, known cardiac sodium channelopathy, such as Brugada syndrome\n* Subject has a known history of severe anaphylactic reaction or serious blood dyscrasias\n* Subject has an acute or subacutely progressive central nervous system disease.\n* Subject has epilepsy secondary to a progressing cerebral disease or any other progressive or neurodegenerative disease (malignant brain tumor or Rasmussen syndrome)\n* Lacosamide is intended for treatment of generalized convulsive status epilepticus\n* Subject has diagnosis of Dravet's syndrome\n\nFor IIL subjects, enrollment in EP0060 is not permitted if the following additional criterion is met:\n\n\\- Subject has been treated with LCM within the last 3 months prior to Screening",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "1 Month",
+      "maximumAge": "16 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "UCB Cares",
+          "affiliation": "+1 8445992273 (UCB)",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ep0060 003",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35233",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Ep0060 010",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "Ep0060 008",
+          "city": "Loxahatchee Groves",
+          "state": "Florida",
+          "zip": "33470",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.68368,
+            "lon": -80.27977
+          }
+        },
+        {
+          "facility": "Ep0060 009",
+          "city": "Saint Paul",
+          "state": "Minnesota",
+          "zip": "55101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          }
+        },
+        {
+          "facility": "Ep0060 014",
+          "city": "Henderson",
+          "state": "Nevada",
+          "zip": "89104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.0397,
+            "lon": -114.98194
+          }
+        },
+        {
+          "facility": "Ep0060 002",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "Ep0060 006",
+          "city": "Akron",
+          "state": "Ohio",
+          "zip": "44308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.08144,
+            "lon": -81.51901
+          }
+        },
+        {
+          "facility": "Ep0060 011",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Ep0060 005",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Ep0060 007",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78258",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Ep0060 400",
+          "city": "Budapest",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Ep0060 401",
+          "city": "Debrecen",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Ep0060 503",
+          "city": "Messina",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          }
+        },
+        {
+          "facility": "Ep0060 505",
+          "city": "Roma",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Ep0060 502",
+          "city": "Verona",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.43854,
+            "lon": 10.9938
+          }
+        },
+        {
+          "facility": "Ep0060 701",
+          "city": "Krakow",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Ep0060 224",
+          "city": "Dnipro",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.46664,
+            "lon": 35.04066
+          }
+        },
+        {
+          "facility": "Ep0060 225",
+          "city": "Dnipro",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.46664,
+            "lon": 35.04066
+          }
+        },
+        {
+          "facility": "Ep0060 220",
+          "city": "Ivano-Frankivsk",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.92312,
+            "lon": 24.71248
+          }
+        },
+        {
+          "facility": "Ep0060 221",
+          "city": "Kiev",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Ep0060 222",
+          "city": "Kiev",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Ep0060 226",
+          "city": "Kiev",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Ep0060 223",
+          "city": "Vinnytsia",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.2322,
+            "lon": 28.46871
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36529709",
+          "type": "RESULT",
+          "citation": "Farkas MK, Beller C, Bozorg A, McClung C, Roebling R, Yates T, Yuen N, Makedonska I. Safety and tolerability of short-term infusions of intravenous lacosamide in pediatric patients with epilepsy: An open-label, phase 2/3 trial. Epilepsia Open. 2023 Mar;8(1):146-153. doi: 10.1002/epi4.12682. Epub 2023 Jan 18."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "FDA Safety Alerts and Recalls",
+          "url": "http://www.fda.gov/Safety/MedWatch/SafetyInformation/default.htm"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Participant Flow refers to the Safety Set iv (SS-iv).",
+      "recruitmentDetails": "The study started to enroll participants in May 2017 and concluded in June 2019.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Lacosamide Age Cohort ≥ 1 Month - < 8 Years",
+          "description": "This arm consisted of participants who formed Cohort 2, were greater than or equal to (≥) 1 month to less than (\\<) 8 years of age and received at least 1 dose of intravenous (iv) lacosamide (LCM). For the first 20 participants in Cohort 2, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 2, a Data Monitoring Committee (DMC) reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated."
+        },
+        {
+          "id": "FG001",
+          "title": "Lacosamide Age Cohort ≥ 8 - < 17 Years",
+          "description": "This arm consisted of participants who formed Cohort 1, were ≥ 8 to \\< 17 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 1, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 1, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated, and progression to initiate enrollment in the next Cohort (Cohort 2)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "48"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "55"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "48"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "55"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Baseline characteristics refer to the Safety Set iv (SS-iv) which consisted of study participants in the Safety Set (SS) who received at least 1 dose of EP0060 study medication intravenous (iv) lacosamide (LCM)",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Lacosamide Age Cohort ≥ 1 Month - < 8 Years",
+          "description": "This arm consisted of participants who formed Cohort 2, were greater than or equal to (≥) 1 month to less than (\\<) 8 years of age and received at least 1 dose of intravenous (iv) lacosamide (LCM). For the first 20 participants in Cohort 2, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 2, a Data Monitoring Committee (DMC) reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated."
+        },
+        {
+          "id": "BG001",
+          "title": "Lacosamide Age Cohort ≥ 8 - < 17 Years",
+          "description": "This arm consisted of participants who formed Cohort 1, were ≥ 8 to \\< 17 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 1, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 1, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated, and progression to initiate enrollment in the next Cohort (Cohort 2)."
+        },
+        {
+          "id": "BG002",
+          "title": "Total Title"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "48"
+            },
+            {
+              "groupId": "BG001",
+              "value": "55"
+            },
+            {
+              "groupId": "BG002",
+              "value": "103"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3.840",
+                      "spread": "2.329"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12.662",
+                      "spread": "2.409"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8.551",
+                      "spread": "5.013"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "57"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "96"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other/Mixed",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With at Least One Adverse Event Reported Spontaneously by the Participant/or Caregiver (Including Parent/Legal Guardian) or Observed by the Investigator During the Study",
+          "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product, which does not necessarily have a causal relationship with this treatment. An AE could therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.\n\n26 adverse events are reported splitting into at least 19 occurrences of individual pre-treatment emergent adverse events and 7 treatment emergent adverse events (TEAEs).",
+          "populationDescription": "The Safety Set iv (SS-iv) included study participants in the Safety Set (SS) who received at least 1 dose of EP0060 study medication iv LCM.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "From Screening Period (Day -7 to Day -1) up to the End-of-Study Period (up to Day 37)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lacosamide Age Cohort ≥ 1 Month - < 8 Years (SS-iv)",
+              "description": "This arm consisted of participants who formed Cohort 2, were ≥ 1 month to \\< 8 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 2, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 2, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated. Participants formed the Safety Set iv (SS-iv)."
+            },
+            {
+              "id": "OG001",
+              "title": "Lacosamide Age Cohort ≥ 8 - < 17 Years (SS-iv)",
+              "description": "This arm consisted of participants who formed Cohort 1, were ≥ 8 to \\< 17 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 1, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 1, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated, and progression to initiate enrollment in the next Cohort (Cohort 2). Participants formed the Safety Set iv (SS-iv)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "55"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants That Withdrew Due to Adverse Events During the Study",
+          "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product, which does not necessarily have a causal relationship with this treatment and led to the withdrawal of the participants from the study. An AE could therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.",
+          "populationDescription": "The Safety Set iv (SS-iv) included study participants in the Safety Set (SS) who received at least 1 dose of EP0060 study medication iv LCM.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "From Screening Period (Day -7 to Day -1) up to the End-of-Study Period (up to Day 37)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lacosamide Age Cohort ≥ 1 Month - < 8 Years (SS-iv)",
+              "description": "This arm consisted of participants who formed Cohort 2, were ≥ 1 month to \\< 8 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 2, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 2, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated. Participants formed the Safety Set iv (SS-iv)."
+            },
+            {
+              "id": "OG001",
+              "title": "Lacosamide Age Cohort ≥ 8 - < 17 Years (SS-iv)",
+              "description": "This arm consisted of participants who formed Cohort 1, were ≥ 8 to \\< 17 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 1, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 1, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated, and progression to initiate enrollment in the next Cohort (Cohort 2). Participants formed the Safety Set iv (SS-iv)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "55"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Treatment Emergent Adverse Events were reported from Visit 2/Day 1 until End of Study Period (29 to 37 days after Visit 2/Day 1).",
+      "description": "1 participant could experience multiple adverse events.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Lacosamide Age Cohort ≥ 1 Month - < 8 Years (SS-iv)",
+          "description": "This arm consisted of participants who formed Cohort 2, were ≥ 1 month to \\< 8 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 2, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 2, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated. Participants formed the Safety Set iv (SS-iv).",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 48,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 48,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 48
+        },
+        {
+          "id": "EG001",
+          "title": "Lacosamide Age Cohort ≥ 8 - < 17 Years (SS-iv)",
+          "description": "This arm consisted of participants who formed Cohort 1, were ≥ 8 to \\< 17 years of age and received at least 1 dose of iv LCM. For the first 20 participants in Cohort 1, iv LCM has been infused over a duration of 30 minutes but no longer than 60 minutes whenever possible. After completion of the first 20 participants in Cohort 1, a DMC reviewed the safety and tolerability data for this Cohort and made the following recommendations: the progression of the current Cohort, including iv infusion durations to be evaluated, and progression to initiate enrollment in the next Cohort (Cohort 2). Participants formed the Safety Set iv (SS-iv).",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 55,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 55,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 55
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Functional gastrointestinal disorder",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA16.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 55
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA16.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 55
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA16.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 55
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection viral",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA16.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 55
+            }
+          ]
+        },
+        {
+          "term": "Blood triglycerides increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA16.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 55
+            }
+          ]
+        },
+        {
+          "term": "Blood cholesterol increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA16.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 55
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "GT60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "UCB",
+        "organization": "Cares",
+        "email": "UCBCares@ucb.com",
+        "phone": "+1844 599",
+        "phoneExt": "2273"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2018-04-30",
+          "uploadDate": "2020-06-15T06:19",
+          "filename": "Prot_001.pdf",
+          "size": 9575533
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2019-06-21",
+          "uploadDate": "2020-06-11T06:13",
+          "filename": "SAP_000.pdf",
+          "size": 2527903
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Germany"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D012640",
+          "term": "Seizures"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000078334",
+          "term": "Lacosamide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000081",
+          "term": "Acetamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000085",
+          "term": "Acetates"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

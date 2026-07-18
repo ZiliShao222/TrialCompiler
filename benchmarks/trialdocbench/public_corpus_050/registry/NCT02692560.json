@@ -1,0 +1,1309 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02692560",
+      "orgStudyIdInfo": {
+        "id": "1R21AG043853",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/1R21AG043853"
+      },
+      "organization": {
+        "fullName": "Kaiser Permanente",
+        "class": "OTHER"
+      },
+      "briefTitle": "I-STAND R21: Reducing Sedentary Time in Older Adults",
+      "officialTitle": "Take Active Breaks From Sitting (TABS): Reducing Sedentary Time in Older Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-02-24",
+      "studyFirstSubmitQcDate": "2016-02-25",
+      "studyFirstPostDateStruct": {
+        "date": "2016-02-26",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-02-22",
+      "resultsFirstSubmitQcDate": "2018-04-09",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-05-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-05-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-06-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Kaiser Permanente",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators are doing a study to learn how to support patients aged 60+ in taking more breaks from sitting and reducing total sitting time. The goal of the study is to find out if a sitting time reduction intervention reduces sitting time compared with a control group.",
+      "detailedDescription": "More than one-third of American adults over 60 have a body mass index \\> 30 kg/m2. These older adults have more sedentary time than any other group -- an average of 10-11 hours per day. Reducing the sedentary behavior of older adults with obesity, rather than only promoting more intensive physical activity, could provide a more feasible approach to health promotion.\n\nThis randomized control pilot trial will evaluate a 12-week intervention to decrease sitting time and increase standing time and light physical activity among sedentary older adults a body mass index \\> 30 kg/m2 as compared to control group. Baseline and 12-week measurements include anthropometric measures, blood draw by finger stick, cardiovascular health assessments, physical function tasks, and a survey. The intervention will consist of two in-person visits with a health coach followed by phone-based coaching."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Sedentary Lifestyle"
+      ],
+      "keywords": [
+        "Sedentary time",
+        "Sit-to-stand transitions"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "I-STAND",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.",
+          "interventionNames": [
+            "Behavioral: I-STAND"
+          ]
+        },
+        {
+          "label": "Healthy Living",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.",
+          "interventionNames": [
+            "Other: Healthy Living"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "I-STAND",
+          "description": "Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time.",
+          "armGroupLabels": [
+            "I-STAND"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Healthy Living",
+          "description": "Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees.",
+          "armGroupLabels": [
+            "Healthy Living"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Hours of Sitting Time",
+          "description": "Average hours of sitting time over the last 7 days measured at baseline and 12 weeks later",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Sit-to-stand Transitions",
+          "description": "Change in average daily number of activPAL-measured sit-to-stand transitions, from baseline to 12 weeks",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Periods of Sitting for 30+ Minutes",
+          "description": "Change in average daily number of activPAL-measured periods of sitting for 30+ minutes without standing, from baseline to 12 weeks",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Physical Function",
+          "description": "Change in Short Physical Performance Battery (SPPB) scale score, from baseline to 12 weeks. The range of scores is 0 to 12, higher values represent better physical function.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Blood Pressure (Systolic Blood Pressure)",
+          "description": "Change in average of second and third blood pressure reading (for systolic blood pressure), from baseline to 12 weeks",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Fasting Glucose (mg/dL)",
+          "description": "Change in fasting glucose (mg/dL) from finger stick blood draw, from baseline to 12 weeks",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Total Cholesterol (mg/dL)",
+          "description": "Change in total cholesterol (mg/dL) from finger stick blood draw, from baseline to 12 weeks",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Depressive Symptoms",
+          "description": "Change in Patient Health Questionnaire (PHQ-8) scale score, from baseline to 12 weeks. The scale range is 0 to 24 with higher scores representing higher depressive symptoms. Scores of 10 or more are considered major depression.",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Kaiser Permanente Washington enrollees\n* Men and women\n* Age 60 - 89\n* BMI 30 - 50 (calculated based on most recent height ever and most recent weight taken within previous 18 months)\n* Primary care within Integrated Group Practice\n* Continuously enrolled at Kaiser Permanente Washington for previous 12 months\n* No record of death\n* Not on the No Contact list\n* Speaks and writes English\n* Able to hold a conversation by phone (no hearing or other limitations)\n* Self-reported sitting time of 6 hours/day or more\n* Self-reported ability to stand with or without an assistive device\n* Self-reported ability to walk one block with or without an assistive device\n* Available for the study duration\n* Able to come to Kaiser Permanente Washington Health Research Institute's research clinic for measurement visits\n* Willing to wear study activity monitors\n\nExclusion Criteria:\n\n* Resides in long-term care, hospice care, or skilled nursing facility (previous 12 months)\n* Wheelchair bound\n* Diagnosis of dementia, serious mental health disorder, or substance use disorder (previous 24 months)\n* Use of an assistive device",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "maximumAge": "89 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dori E Rosenberg, PhD, MPH",
+          "affiliation": "Kaiser Permanente",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kaiser Permanente Washington Health Research Institute",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29879948",
+          "type": "DERIVED",
+          "citation": "Matson TE, Renz AD, Takemoto ML, McClure JB, Rosenberg DE. Acceptability of a sitting reduction intervention for older adults with obesity. BMC Public Health. 2018 Jun 7;18(1):706. doi: 10.1186/s12889-018-5616-1."
+        },
+        {
+          "pmid": "29434012",
+          "type": "DERIVED",
+          "citation": "Rosenberg DE, Lee AK, Anderson M, Renz A, Matson TE, Kerr J, Arterburn D, McClure JB. Reducing Sedentary Time for Obese Older Adults: Protocol for a Randomized Controlled Trial. JMIR Res Protoc. 2018 Feb 12;7(2):e23. doi: 10.2196/resprot.8883."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "I-STAND",
+          "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+        },
+        {
+          "id": "FG001",
+          "title": "Healthy Living",
+          "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "31"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "I-STAND",
+          "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+        },
+        {
+          "id": "BG001",
+          "title": "Healthy Living",
+          "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "29"
+            },
+            {
+              "groupId": "BG001",
+              "value": "31"
+            },
+            {
+              "groupId": "BG002",
+              "value": "60"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "69.0",
+                      "spread": "4.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "67.8",
+                      "spread": "5.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "68.4",
+                      "spread": "4.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "57"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "60"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body mass index",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kg/m^2",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36.6",
+                      "spread": "6.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "36.0",
+                      "spread": "3.8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36.3",
+                      "spread": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Hours of Sitting Time",
+          "description": "Average hours of sitting time over the last 7 days measured at baseline and 12 weeks later",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "minutes",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-70.1",
+                      "spread": "104"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "spread": "69"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Sit-to-stand Transitions",
+          "description": "Change in average daily number of activPAL-measured sit-to-stand transitions, from baseline to 12 weeks",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "transitions",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.1",
+                      "spread": "10.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.2",
+                      "spread": "11.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Periods of Sitting for 30+ Minutes",
+          "description": "Change in average daily number of activPAL-measured periods of sitting for 30+ minutes without standing, from baseline to 12 weeks",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "bouts",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.5",
+                      "spread": "3.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.1",
+                      "spread": "2.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Physical Function",
+          "description": "Change in Short Physical Performance Battery (SPPB) scale score, from baseline to 12 weeks. The range of scores is 0 to 12, higher values represent better physical function.",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.5",
+                      "spread": "2.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.2",
+                      "spread": "1.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Blood Pressure (Systolic Blood Pressure)",
+          "description": "Change in average of second and third blood pressure reading (for systolic blood pressure), from baseline to 12 weeks",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mmHg",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.4",
+                      "spread": "15.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.5",
+                      "spread": "13.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Fasting Glucose (mg/dL)",
+          "description": "Change in fasting glucose (mg/dL) from finger stick blood draw, from baseline to 12 weeks",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/dL",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.8",
+                      "spread": "30.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.4",
+                      "spread": "10.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Total Cholesterol (mg/dL)",
+          "description": "Change in total cholesterol (mg/dL) from finger stick blood draw, from baseline to 12 weeks",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/dL",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.0",
+                      "spread": "21.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.4",
+                      "spread": "28.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Depressive Symptoms",
+          "description": "Change in Patient Health Questionnaire (PHQ-8) scale score, from baseline to 12 weeks. The scale range is 0 to 24 with higher scores representing higher depressive symptoms. Scores of 10 or more are considered major depression.",
+          "populationDescription": "6 Healthy Living participants withdrew before completing the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "I-STAND",
+              "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time."
+            },
+            {
+              "id": "OG001",
+              "title": "Healthy Living",
+              "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.0",
+                      "spread": "2.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.6",
+                      "spread": "2.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse event data were collected for the duration of study enrollment (12 months total across all participants).",
+      "description": "We systematically assessed for adverse events by asking for health changes/events at each study contact point.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "I-STAND",
+          "description": "Participants randomly assigned to the I-STAND intervention group will receive 2 in-person health coaching sessions and 4 biweekly phone-based health coaching sessions. They will receive a wristband that gives a mild vibration after 20 minutes of inactivity and will be encouraged to stand if possible after each inactivity alert. Participants may also choose to receive biweekly email reminders in the weeks between coaching calls. They will also receive a workbook with content around reducing sitting time.\n\nI-STAND: Participants receive health coaching, a workbook, an inactivity alert wristband, and feedback charts based on objective measurement of sedentary time.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 29,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 29
+        },
+        {
+          "id": "EG001",
+          "title": "Healthy Living",
+          "description": "Participants randomly assigned to the Healthy Living enhanced usual care control group will receive 1 in-person health coaching session and 5 biweekly check-in letters by mail. They will receive a workbook with general healthy living topics that are not expected to impact sitting time. All content is taken from Kaiser Permanente Washington's website and is available to all members. Participants will select topics of interest and review them on their own with no further health coaching.\n\nHealthy Living: Participants receive enhanced usual care based on general healthy living topics that are available to all Kaiser Permanente Washington enrollees.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 31,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 31,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 31
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Mild irritation from thigh-worn measurement device adhesive",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "1 participant reported mild skin irritation from the adhesive used with the thigh-worn activity monitor during two periods of wear.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Mild irritation from wrist-worn prompting device",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "3 participants reported mild skin irritation from wearing the wrist-worn prompting device. They discontinued using it or wore it differently and no longer experienced issues.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dori Rosenberg, PhD, MPH",
+        "organization": "Kaiser Permanente Washington Health Research Institute",
+        "email": "rosenberg.d@ghc.org",
+        "phone": "206-287-2532"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2018-02-12",
+          "uploadDate": "2018-05-29T17:23",
+          "filename": "Prot_002.pdf",
+          "size": 156688
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2018-02-12",
+          "uploadDate": "2018-05-29T17:23",
+          "filename": "SAP_003.pdf",
+          "size": 90383
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D057185",
+          "term": "Sedentary Behavior"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

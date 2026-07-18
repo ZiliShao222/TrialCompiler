@@ -1,0 +1,64 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02059239",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02059239",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 34,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Patients Able to Proceed to Transplant",
+        "description": "Number of patients in each arm able to proceed to stem cell transplantation within 14 days of receiving bendamustine treatment",
+        "timeFrame": "14 days after bendamustine treatment"
+      },
+      {
+        "measure": "Number of Patients Achieving Neutrophil Engraftment",
+        "description": "Proportion of patients who successfully achieve neutrophil engraftment after stem cell transplant, defined as an absolute neutrophil count of 500/mm3 or for three consecutive days.",
+        "timeFrame": "35 Days Post-Transplant"
+      },
+      {
+        "measure": "Number of Patients Achieving Platelet Engraftment",
+        "description": "Proportion of patients who successfully achieve platelet engraftment after stem cell transplant, defined as a platelet count of \\>20k/microL for three consecutive days without transfusion support for seven consecutive days.",
+        "timeFrame": "74 Days Post-Transplant"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02059239/Prot_SAP_000.pdf",
+      "sha256": "B6C2B221FA99832014C7F12960DBC4AC9C3DBA0C906230DDC19241F51CE3E0BD",
+      "bytes": 1422684,
+      "pages": 58,
+      "document_date": "2017-10-05",
+      "upload_date": "2020-12-15T15:15",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 84789,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 58,
+      "content_digest": "B6C2B221FA99832014C7F12960DBC4AC9C3DBA0C906230DDC19241F51CE3E0BD"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

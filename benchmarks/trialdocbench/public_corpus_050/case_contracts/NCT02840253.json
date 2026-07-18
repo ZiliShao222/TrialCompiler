@@ -1,0 +1,58 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02840253",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02840253",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 23,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Cerebral Non-invasive Near Infrared Spectroscopy (NIRS)",
+        "description": "Change in cerebral oxygen saturation from immediately after spinal anesthesia placement to conclusion of monitoring (30 mins post block).",
+        "timeFrame": "Intraoperative measure"
+      },
+      {
+        "measure": "Tissue Non-invasive Near Infrared Spectroscopy (NIRS)",
+        "description": "Change in tissue oxygen saturation from immediately after spinal anesthesia placement to conclusion of monitoring (30 mins post block).",
+        "timeFrame": "Intraoperative measure"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02840253/Prot_SAP_000.pdf",
+      "sha256": "BB581D849DFB34E85FE001E6A1E9707D3BC518B60D309177DB052F2FACA9AE49",
+      "bytes": 221754,
+      "pages": 4,
+      "document_date": "2016-06-14",
+      "upload_date": "2018-08-14T13:14",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 6697,
+        "sampled_pages": 4
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 4,
+      "content_digest": "BB581D849DFB34E85FE001E6A1E9707D3BC518B60D309177DB052F2FACA9AE49"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

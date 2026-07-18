@@ -1,0 +1,64 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02911142",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02911142",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": {
+      "count": 17,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "(Phase I) Maximum Tolerated Dose (MTD) of Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2)",
+        "description": "The MTD is the dose level at which no more than 1 of up to 6 participants experiences dose-limiting toxicity (DLT) during the first two cycles of DA-EPOCH-R2 treatment. Association of treatment regimen with one-year overall survival.\n\nDLT is defined as any grade 4 adverse event at least possibly related to lenalidomide and not probably or definitely related to human immunodeficiency virus (HIV) or a Kaposi sarcoma-associated herpesvirus KSHV-associated malignancy resulting in a dose delay in etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R) treatment \\>2 weeks due to failure to resolve to grade 3 or lower. Any grade 3 cardiac toxicity that is at least possibly related to lenalidomide and not probably or definitely related to HIV or a Kaposi sarcoma-associated herpesvirus (KSHV)-associated malignancy resulting in a dose delay in DA-EPOCH-R treatment \\>2 weeks due to failure to resolve to grade 2 or lower.",
+        "timeFrame": "First 6 weeks of treatment (2 cycles of treatment)"
+      },
+      {
+        "measure": "(Phase II) Overall Survival in Treatment-naive Participants With Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 90% Confidence Interval",
+        "description": "Median amount of time subject survives post therapy",
+        "timeFrame": "End of follow up period (5 years)"
+      },
+      {
+        "measure": "(Phase II) Overall Survival in Treatment-naive Participants With Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 95% Confidence Interval",
+        "description": "Median amount of time subject survives post therapy.",
+        "timeFrame": "End of follow up period (5 years)"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT02911142/Prot_SAP_000.pdf",
+      "sha256": "E7CE519A8C907D52AC55AE60F13847C4DA0900EC291A969E1A135C4E535852D2",
+      "bytes": 1420770,
+      "pages": 126,
+      "document_date": "2023-06-06",
+      "upload_date": "2025-05-07T12:55",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 93305,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 126,
+      "content_digest": "E7CE519A8C907D52AC55AE60F13847C4DA0900EC291A969E1A135C4E535852D2"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

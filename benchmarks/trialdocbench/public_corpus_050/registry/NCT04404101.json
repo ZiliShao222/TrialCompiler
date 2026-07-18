@@ -1,0 +1,391 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04404101",
+      "orgStudyIdInfo": {
+        "id": "18-1854"
+      },
+      "organization": {
+        "fullName": "University of Colorado, Denver",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of Pancreatic Cystic Lesions Via EUS-guided Fine Needle Aspiration With and Without Micro Forceps Biopsies",
+      "officialTitle": "Evaluation of Pancreatic Cystic Lesions Via EUS-Guided Fine Needle Aspiration With and Without Micro Forceps Biopsies: A Multi-Center Prospective Randomized Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-05-21",
+      "studyFirstSubmitQcDate": "2020-05-21",
+      "studyFirstPostDateStruct": {
+        "date": "2020-05-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Colorado, Denver",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "US Endoscopy",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Pancreatic cystic lesions (PCLs) are a common incidental finding in cross sectional imaging (up to 27% on CT scan and 41% on MRI) and pose a management challenge to physicians. According to society guidelines, PCLs with specific features should prompt additional workup with endoscopic ultrasound (EUS) for cyst characterization as well as cyst sampling. This can help determine if the cyst is mucinous or non-mucinous which has implications for its malignant potential. Cyst fluid has traditionally been sampled using EUS with fine needle aspiration (EUS-FNA) and sent for fluid analysis and cytology. More recently, the adjunctive use of the through-the-scope micro forceps (Moray micro forceps, US Endoscopy, Mentor, OH) biopsy (EUS-MFB) has shown promise for diagnosis of PCLs. This technology utilizes a micro forceps through a 19-gauge needle to biopsy the cyst wall for histology, in addition to collecting cyst fluid for CEA level and cytology. More recently, the adjunctive use of the Moray® through the needle micro forceps biopsy (EUS-MFB) has shown promise for diagnosis of PCLs. This technology utilizes a micro forceps through a 19-gauge needle to biopsy the cyst wall for histology, in addition to collecting cyst fluid for CEA level and cytology. Only a few small retrospective reports have been published regarding the use of MFB. The results of this study will hopefully help increase diagnostic yield by obtaining a histopathologic diagnosis of these PCLs, and potentially affect practice patterns of gastroenterologists and the endoscopic community, specifically those physicians who perform EUS in these patients. Furthermore, the results will help determine whether there is reason to continue this line of research to obtain a definite histologic tissue diagnosis of PCLs.",
+      "detailedDescription": "Pancreatic cystic lesions (PCLs) are a common incidental finding in cross sectional imaging (up to 27% on CT scan and 41% on MRI) and pose a management challenge to physicians. According to society guidelines, PCLs with specific features should prompt additional workup with endoscopic ultrasound (EUS) for cyst characterization as well as cyst sampling. This can help determine if the cyst is mucinous or non-mucinous which has implications for its malignant potential. Cyst fluid has traditionally been sampled using EUS with FNA (Fine-Needle Aspiration) and sent for fluid analysis (CEA and amylase) and cytology. However, despite use of a cyst fluid carcinoembryonic antigen (CEA) level cutoff of 192 ng/mL and cytology, accuracy of diagnosis for PCLs is poor. As the spectrum ranges from benign to high risk for neoplasm, precise diagnosis is critical. More recently, the adjunctive use of the Moray® through the needle micro forceps biopsy (EUS-MFB) has shown promise for diagnosis of PCLs. This technology utilizes a micro forceps through a 19-gauge needle to biopsy the cyst wall for histology, in addition to collecting cyst fluid for CEA level and cytology. Only a few small retrospective reports have been published regarding the use of MFB. Pancreatic cysts continue to pose a management dilemma for practicing clinicians, especially with the increased use of radiologic imaging modalities identifying incidental pancreatic cystic lesions with higher frequency. This leads to patient anxiety and increased costs due to radiologic surveillance and even surgery. The results of this study will hopefully help increase diagnostic yield by obtaining a histopathologic diagnosis of these PCLs, and potentially affect practice patterns of gastroenterologists and the endoscopic community, specifically those physicians who perform EUS in these patients. Furthermore, the results will help determine whether there is reason to continue this line of research to obtain a definite histologic tissue diagnosis of PCLs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pancreatic Cyst"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1). EUS-FNA plus MFB",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "A 19-G needle plus micro-forceps will be used for FNA plus MFB.",
+          "interventionNames": [
+            "Procedure: 1). EUS-FNA plus MFB"
+          ]
+        },
+        {
+          "label": "2). EUS-FNA Alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "A 19-G needle will be used for FNA alone.",
+          "interventionNames": [
+            "Procedure: 2). EUS-FNA Alone"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "1). EUS-FNA plus MFB",
+          "description": "The cyst will be punctured using a 19-G EUS-FNA needle with a stylet. A transgastric approach will be used for PCLs located in body/tail region, and a transduodenal approach for PCLs in the head/neck region, or as determined by the endoscopist. The stylet will be removed and the wall of the cyst biopsied using the micro forceps passed through the 19 G needle under direct EUS visualization. A minimum of 4 cyst wall biopsies will be obtained to procure at least 4 visible tissue fragments. Cyst fluid will be aspirated and sent for CEA and cytology.",
+          "armGroupLabels": [
+            "1). EUS-FNA plus MFB"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "2). EUS-FNA Alone",
+          "description": "The cyst will be punctured using an EUS-FNA needle with a stylet. A transgastric approach will be used for PCLs located in body/tail region, and a transduodenal approach for PCLs in the head/neck region, or as determined by the endoscopist. The stylet will be removed, and cyst fluid will be aspirated and sent for CEA, and cytology.",
+          "armGroupLabels": [
+            "2). EUS-FNA Alone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Technical Success of EUS-FNA plus MFB, with EUS-FNA alone for evaluation of PCLs.",
+          "description": "(1) Technical success will be defined as the ability to puncture the cyst with the FNA needle under EUS guidance, advance the micro forceps into the cyst to perform cyst biopsies and obtain a visible tissue fragment.",
+          "timeFrame": "Intraprocedural"
+        },
+        {
+          "measure": "Clinical Success of EUS-FNA plus MFB, with EUS-FNA alone for evaluation of PCLs.",
+          "description": "(2) Clinical success will be defined as the ability to obtain a pathologic tissue diagnosis (diagnostic yield) of the PCL with MFB. Based on prior experience, expected diagnoses include pseudocyst, serous cystadenoma, mucinous cyst (mucinous cystic neoplasm, intra-ductal papillary mucinous neoplasm), adenocarcinoma, and neuroendocrine tumor, to name a few.",
+          "timeFrame": "0-4 weeks"
+        },
+        {
+          "measure": "Safety of EUS-FNA plus MFB with that of EUS-FNA by recording adverse events per published ASGE (American Society for Gastrointestinal Endoscopy) criteria.",
+          "description": "Intraprocedural and post-procedural adverse events (e.g. bleeding, infection, perforation, pancreatitis, etc.)",
+          "timeFrame": "0-4 Weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Technical ease in performing FNA and MFB",
+          "description": "1. Ease of passage of FNA needle\n2. Ease of passage of Micro Forceps\n3. Ease of EUS visualization of Micro Forceps Technical ease will be scored on a predetermined 5-point Likert scale (1 = best, 5 = worst)",
+          "timeFrame": "Intraprocedural"
+        },
+        {
+          "measure": "Time taken for FNA and time for MFB",
+          "description": "1. Time for FNA will defined as time when FNA needle is introduced into the channel of the echoendoscope to the time cyst fluid is collected in the specimen tube/jar.\n2. Time for MFB will be defined as the time when micro forceps is introduced into the FNA needle for the first pass to the time when last tissue fragment is collected into the specimen jar after the last pass.",
+          "timeFrame": "Intraprocedural"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients \\>18 years old\n* Cysts \\> 20 mm in size deemed appropriate for FNA by the endoscopist, based on clinical presentation, radiologic imaging features, associated solid mass or nodules, and patient anxiety about the diagnosis\n\nExclusion Criteria:\n\n* Age \\<18 years\n* Inability to provide informed consent\n* Thrombocytopenia (Platelets \\< 50,000) or coagulopathy (INR \\> 1.8)\n* Pregnancy\n* Post-surgical anatomy where the cyst is not accessible for FNA\n* EUS findings suggesting that cyst FNA would be unsafe (e.g. intervening blood vessels)\n* EUS appearance suggesting FNA is not indicated (e.g. cyst smaller than prior radiologic imaging, cyst not seen, EUS suggestive of serous cystadenoma)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "89 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anna Duloy, MD",
+          "role": "CONTACT",
+          "phone": "+13037248892",
+          "email": "anna.duloy@cuanschutz.edu"
+        },
+        {
+          "name": "Sandra Boimbo",
+          "role": "CONTACT",
+          "email": "sandra.boimbo@cuanschutz.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Anna Duloy, MD",
+          "affiliation": "University of Colorado, Denver",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of California Irvine",
+          "status": "RECRUITING",
+          "city": "Irvine",
+          "state": "California",
+          "zip": "92697",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jason Samarasena, MD",
+              "role": "CONTACT",
+              "email": "jsamaras@hs.uci.edu"
+            },
+            {
+              "name": "Hailey Maxwell",
+              "role": "CONTACT",
+              "email": "maxwellh@hs.uci.edu"
+            },
+            {
+              "name": "Jason Samarasena, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.66946,
+            "lon": -117.82311
+          }
+        },
+        {
+          "facility": "University of Colorado - Anschutz Medical Campus",
+          "status": "RECRUITING",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sandra Boimbo",
+              "role": "CONTACT",
+              "email": "sandra.boimbo@cuanschutz.edu"
+            },
+            {
+              "name": "Peter Tiley",
+              "role": "CONTACT",
+              "email": "peter.tiley@cuanschutz.edu"
+            },
+            {
+              "name": "Anna Duloy, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "status": "ENROLLING_BY_INVITATION",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26370569",
+          "type": "BACKGROUND",
+          "citation": "Moris M, Bridges MD, Pooley RA, Raimondo M, Woodward TA, Stauffer JA, Asbun HJ, Wallace MB. Association Between Advances in High-Resolution Cross-Section Imaging Technologies and Increase in Prevalence of Pancreatic Cysts From 2005 to 2014. Clin Gastroenterol Hepatol. 2016 Apr;14(4):585-593.e3. doi: 10.1016/j.cgh.2015.08.038. Epub 2015 Sep 11."
+        },
+        {
+          "pmid": "22687371",
+          "type": "BACKGROUND",
+          "citation": "Tanaka M, Fernandez-del Castillo C, Adsay V, Chari S, Falconi M, Jang JY, Kimura W, Levy P, Pitman MB, Schmidt CM, Shimizu M, Wolfgang CL, Yamaguchi K, Yamao K; International Association of Pancreatology. International consensus guidelines 2012 for the management of IPMN and MCN of the pancreas. Pancreatology. 2012 May-Jun;12(3):183-97. doi: 10.1016/j.pan.2012.04.004. Epub 2012 Apr 16."
+        },
+        {
+          "pmid": "25805375",
+          "type": "BACKGROUND",
+          "citation": "Vege SS, Ziring B, Jain R, Moayyedi P; Clinical Guidelines Committee; American Gastroenterology Association. American gastroenterological association institute guideline on the diagnosis and management of asymptomatic neoplastic pancreatic cysts. Gastroenterology. 2015 Apr;148(4):819-22; quize12-3. doi: 10.1053/j.gastro.2015.01.015. No abstract available."
+        },
+        {
+          "pmid": "23415799",
+          "type": "BACKGROUND",
+          "citation": "Del Chiaro M, Verbeke C, Salvia R, Kloppel G, Werner J, McKay C, Friess H, Manfredi R, Van Cutsem E, Lohr M, Segersvard R; European Study Group on Cystic Tumours of the Pancreas. European experts consensus statement on cystic tumours of the pancreas. Dig Liver Dis. 2013 Sep;45(9):703-11. doi: 10.1016/j.dld.2013.01.010. Epub 2013 Feb 14."
+        },
+        {
+          "pmid": "15131794",
+          "type": "BACKGROUND",
+          "citation": "Brugge WR, Lewandrowski K, Lee-Lewandrowski E, Centeno BA, Szydlo T, Regan S, del Castillo CF, Warshaw AL. Diagnosis of pancreatic cystic neoplasms: a report of the cooperative pancreatic cyst study. Gastroenterology. 2004 May;126(5):1330-6. doi: 10.1053/j.gastro.2004.02.013."
+        },
+        {
+          "pmid": "27213974",
+          "type": "BACKGROUND",
+          "citation": "Attili F, Pagliari D, Rimbas M, Inzani F, Brizi MG, Costamagna G, Larghi A. Endoscopic ultrasound-guided histological diagnosis of a mucinous non-neoplastic pancreatic cyst using a specially designed through-the-needle microforceps. Endoscopy. 2016;48 Suppl 1:E188-9. doi: 10.1055/s-0042-108194. Epub 2016 May 23. No abstract available."
+        },
+        {
+          "pmid": "29309781",
+          "type": "BACKGROUND",
+          "citation": "Mittal C, Obuch JC, Hammad H, Edmundowicz SA, Wani S, Shah RJ, Brauer BC, Attwell AR, Kaplan JB, Wagh MS. Technical feasibility, diagnostic yield, and safety of microforceps biopsies during EUS evaluation of pancreatic cystic lesions (with video). Gastrointest Endosc. 2018 May;87(5):1263-1269. doi: 10.1016/j.gie.2017.12.025. Epub 2018 Jan 6."
+        },
+        {
+          "pmid": "29660844",
+          "type": "BACKGROUND",
+          "citation": "Zhang ML, Arpin RN, Brugge WR, Forcione DG, Basar O, Pitman MB. Moray micro forceps biopsy improves the diagnosis of specific pancreatic cysts. Cancer Cytopathol. 2018 Jun;126(6):414-420. doi: 10.1002/cncy.21988. Epub 2018 Apr 16."
+        },
+        {
+          "pmid": "29510146",
+          "type": "BACKGROUND",
+          "citation": "Basar O, Yuksel O, Yang DJ, Samarasena J, Forcione D, DiMaio CJ, Wagh MS, Chang K, Casey B, Fernandez-Del Castillo C, Pitman MB, Brugge WR. Feasibility and safety of microforceps biopsy in the diagnosis of pancreatic cysts. Gastrointest Endosc. 2018 Jul;88(1):79-86. doi: 10.1016/j.gie.2018.02.039. Epub 2018 Mar 3."
+        },
+        {
+          "pmid": "29808529",
+          "type": "BACKGROUND",
+          "citation": "Barresi L, Crino SF, Fabbri C, Attili F, Poley JW, Carrara S, Tarantino I, Bernardoni L, Giovanelli S, Di Leo M, Manfrin E, Tacelli M, Bruno MJ, Traina M, Larghi A. Endoscopic ultrasound-through-the-needle biopsy in pancreatic cystic lesions: A multicenter study. Dig Endosc. 2018 Nov;30(6):760-770. doi: 10.1111/den.13197. Epub 2018 Jul 5."
+        },
+        {
+          "pmid": "20189503",
+          "type": "BACKGROUND",
+          "citation": "Cotton PB, Eisen GM, Aabakken L, Baron TH, Hutter MM, Jacobson BC, Mergener K, Nemcek A Jr, Petersen BT, Petrini JL, Pike IM, Rabeneck L, Romagnuolo J, Vargo JJ. A lexicon for endoscopic adverse events: report of an ASGE workshop. Gastrointest Endosc. 2010 Mar;71(3):446-54. doi: 10.1016/j.gie.2009.10.027. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-02-05",
+          "uploadDate": "2021-03-24T13:41",
+          "filename": "Prot_SAP_002.pdf",
+          "size": 218533
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2021-03-10",
+          "uploadDate": "2021-03-24T13:43",
+          "filename": "ICF_003.pdf",
+          "size": 163476
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010181",
+          "term": "Pancreatic Cyst"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003560",
+          "term": "Cysts"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010182",
+          "term": "Pancreatic Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

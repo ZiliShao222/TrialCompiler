@@ -101,10 +101,10 @@ python -m pytest -q
 
 ```text
 Ruff: All checks passed
-Pytest: 107 passed
+Pytest: 117 passed
 ```
 
-GitHub Actions 会在推送到 `main` 和 Pull Request 时执行同样的检查。若未来新增测试，以 GitHub Actions 对相应提交的结果为准，不应把“107”视为永久固定数量。
+GitHub Actions 会在推送到 `main` 和 Pull Request 时执行同样的检查。若未来新增测试，以 GitHub Actions 对相应提交的结果为准，不应把“117”视为永久固定数量。
 
 ### 4.2 启动 API
 
@@ -252,3 +252,23 @@ python -m pytest -q
 ```
 
 确认 GitHub `main` 已包含目标 commit，GitHub Actions 对该提交完成验证，并使用 `docs/final_submission_20260718_verified.zip` 作为线下附件包。
+
+## 11. 50 例真实公开语料复现
+
+仓库新增入口：
+
+```text
+https://github.com/ZiliShao222/TrialCompiler/tree/main/benchmarks/trialdocbench/public_corpus_050
+```
+
+本地执行：
+
+```powershell
+python scripts/build_public_protocol_sap_corpus.py --limit 50 --workers 8
+python scripts/profile_public_protocol_sap_corpus.py
+python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_builder.py tests/test_public_corpus_profile.py -q
+```
+
+构建器需要网络访问 ClinicalTrials.gov；仓库保存冻结注册快照、官方文档 URL、SHA-256
+与 case contract，不提交约 150 MB 的本地 PDF 下载缓存。冻结语料包含 50 个案例和 65
+份验证文档；`gold_status=not_annotated` 是强制声明边界，不能把完整性测试解释为模型准确率。

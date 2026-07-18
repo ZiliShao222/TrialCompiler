@@ -1,0 +1,1538 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03095118",
+      "orgStudyIdInfo": {
+        "id": "16-004805"
+      },
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "Daratumumab in Treatment of PGNMID and C3 GN",
+      "officialTitle": "Single-center Phase 2 Open-label Trial Evaluating Efficacy and Safety of Daratumumab in Treatment of Patients With Proliferative Glomerulonephritis With Monoclonal Immune Deposits and C3 Glomerulopathy Associated With Monoclonal Gammopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-09-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-10-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-05-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-03-20",
+      "studyFirstSubmitQcDate": "2017-03-23",
+      "studyFirstPostDateStruct": {
+        "date": "2017-03-29",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2021-06-28",
+      "resultsFirstSubmitQcDate": "2021-06-28",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-07-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-08-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Fernando Fervenza",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Fernando Fervenza",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is being done to see if daratumumab is safe and effective in the treatment of proliferative glomerulonephritis with monoclonal immune deposits (PGNMID) and C3 glomerulopathy associated with monoclonal gammopathy (C3GN). This is an inflammatory disease in the kidney due to the production of abnormal proteins. There are no known standard effective treatments for patients with PGNMID and C3GN secondary to monoclonal gammopathy. These diseases are caused by abnormal production of proteins (monoclonals) by abnormal clones. Daratumamb has been shown to be effective in treating patients with multiple myeloma a disease which also caused by over production of monoclonal proteins from abnormal clones. Everyone in this study will receive daratumumab.",
+      "detailedDescription": "This study is an open-label phase 2 trial of the safety and efficacy of daratumumab, in the treatment of PGNMID and C3GN associated with monoclonal gammopathy. Subjects will be screened at outpatient Nephrology Clinic visit appointments and interested qualified subjects will be consented and offered participation in this trial. Once consent has been obtained baseline values will be established and subjects will begin treatment and follow-up for the next 12 months. Daratumumab will be administered once weekly for 8 weeks and then once every 2 weeks for 8 additional doses. Patients will be followed for a total of 12 months (6 months after the last infusion). A final visit for evaluation and collection of lab samples will be conducted at the end of the study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Membranoproliferative Glomerulonephritis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Daratumumab",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses",
+          "interventionNames": [
+            "Drug: Daratumumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Daratumumab",
+          "description": "Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses",
+          "armGroupLabels": [
+            "Daratumumab"
+          ],
+          "otherNames": [
+            "Darzalex"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Treatment-Emergent Adverse Events",
+          "description": "Number of treatment-emergent adverse events as defined as major infection (defined as the development of pneumonia, severe urinary tract infection/pyelonephritis, sepsis, meningitis), grade 3 or 4 anemia, leukopenia, or thrombocytopenia.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Remission Status at 6 Months",
+          "description": "The number of subjects to reach either complete remission or partial remission at 6 months after infusion.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Remission Status at 12 Months",
+          "description": "The number of subjects to reach either complete remission or partial remission at 12 months after infusion.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Proteinuria at Baseline",
+          "description": "Measured using 24 hour urine collection reported in mg/24h",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Proteinuria at 6 Months",
+          "description": "Measured using 24 hour urine collection reported in mg/24 h",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Proteinuria at 12 Months",
+          "description": "Measured using 24 hour urine collection reported in mg/24h",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Serum Creatinine at Baseline",
+          "description": "Blood serum collected and reported in mg/dL",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Serum Creatinine at 6 Months",
+          "description": "Blood serum collected and reported in mg/dL",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Serum Creatinine at 12 Months",
+          "description": "Blood serum collected and reported in mg/dL",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years of age\n* Renal biopsy read at Mayo Clinic confirming the diagnosis of PGNMID or C3 GN\n* In cases of C3GN serum electrophoresis with immunofixation should confirm presence of monoclonal gammopathy\n* Proteinuria ≥ 1000 mg over 24 hours\n* eGFR ≥ 20 mL/min/SA\n* Subjects able and willing to give informed consent\n\nExclusion Criteria:\n\n* Pregnancy\n* Hepatitis B or C, HIV\n* Multiple myeloma\n* Anemia with Hgb \\< 8.5 g/dL\n* Thrombocytopenia with platelet count \\< 100,000\n* Leukopenia with WBC \\< 3.5\n* Any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug or that may affect the interpretation of the results or render the patient at high risk from treatment complication\n* Unable to provide consent\n* Patients receiving therapy with oral prednisone or glucocorticoid equivalent in the last 6 weeks\n* Patients who had received immunosuppressive therapy including cyclophosphamide, MMF, cyclosporine, tacrolimus or azathioprine in the last 3 months\n* Patients who received rituximab previously with CD20 count of zero at the time of enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Fernando C Fervenza, MD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33685975",
+          "type": "DERIVED",
+          "citation": "Zand L, Rajkumar SV, Leung N, Sethi S, El Ters M, Fervenza FC. Safety and Efficacy of Daratumumab in Patients with Proliferative GN with Monoclonal Immunoglobulin Deposits. J Am Soc Nephrol. 2021 May 3;32(5):1163-1173. doi: 10.1681/ASN.2020101541. Epub 2021 Mar 8."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Daratumumab",
+          "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Diagnosis not associated with monoclonal gammopathy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Daratumumab",
+          "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "12"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51.3",
+                      "spread": "20.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Treatment-Emergent Adverse Events",
+          "description": "Number of treatment-emergent adverse events as defined as major infection (defined as the development of pneumonia, severe urinary tract infection/pyelonephritis, sepsis, meningitis), grade 3 or 4 anemia, leukopenia, or thrombocytopenia.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Serious Adverse Events",
+          "timeFrame": "1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Remission Status at 6 Months",
+          "description": "The number of subjects to reach either complete remission or partial remission at 6 months after infusion.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Remission Status at 12 Months",
+          "description": "The number of subjects to reach either complete remission or partial remission at 12 months after infusion.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "12 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proteinuria at Baseline",
+          "description": "Measured using 24 hour urine collection reported in mg/24h",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "mg/24h",
+          "timeFrame": "Baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4346",
+                      "lowerLimit": "3245",
+                      "upperLimit": "7943"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proteinuria at 6 Months",
+          "description": "Measured using 24 hour urine collection reported in mg/24 h",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "mg/24h",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "702",
+                      "lowerLimit": "435",
+                      "upperLimit": "3057"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Proteinuria baseline values compared to 6 month follow up values",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.001",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proteinuria at 12 Months",
+          "description": "Measured using 24 hour urine collection reported in mg/24h",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "mg/24h",
+          "timeFrame": "12 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1264",
+                      "lowerLimit": "463",
+                      "upperLimit": "3645"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Proteinuria baseline values compared to 12 month follow up values",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.004",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Serum Creatinine at Baseline",
+          "description": "Blood serum collected and reported in mg/dL",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/dL",
+          "timeFrame": "Baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.36",
+                      "spread": "0.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Serum Creatinine at 6 Months",
+          "description": "Blood serum collected and reported in mg/dL",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/dL",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.25",
+                      "spread": "0.44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Serum creatinine baseline values compared to 6 month follow up values",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.15",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Serum Creatinine at 12 Months",
+          "description": "Blood serum collected and reported in mg/dL",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/dL",
+          "timeFrame": "12 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Daratumumab",
+              "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.25",
+                      "spread": "0.52"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Serum creatinine baseline values comparted to 12 month follow up values",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.16",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse events were collected from baseline to end of study for a total of approximately 1 year on all participants.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Daratumumab",
+          "description": "Subjects will receive daratumumab intravenously at a dose of 16 mg/kg once weekly for 8 weeks followed by once every 2 weeks for 8 additional doses\n\nDaratumumab: Intravenously (IV) at a dose of 16 mg/kg once weekly for 8 weeks, followed by once every 2 weeks for eight additional doses",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 12,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 12,
+          "otherNumAffected": 12,
+          "otherNumAtRisk": 12
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Eye Chemosis",
+          "organSystem": "Eye disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Acute Glaucoma",
+          "organSystem": "Eye disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "C. difficile infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "UTI",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "URI",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 16,
+              "numAffected": 7,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 7,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Throat Irritation",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 6,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Blurred Vision",
+          "organSystem": "Eye disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Tingling in feet",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Flushed",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Watery eyes",
+          "organSystem": "Eye disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Itching",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Sneezing",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Chest tightness",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Vagal response",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Lip tingling",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Skin itchy at IV site",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hoarse voice",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Sensation of facial swelling",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Night sweats",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Sore throat",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Leg cramps",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Sore scalp",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Restless legs",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Sore in mouth",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Acne",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Rectal bleeding",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Urinary frequency",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Tinnitus",
+          "organSystem": "Ear and labyrinth disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Foot pain",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Low back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Bloating",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Fernando C. Fervenza",
+        "organization": "Mayo Clinic",
+        "email": "Fervenza.Fernando@mayo.edu",
+        "phone": "507-266-1045"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2019-07-18",
+          "uploadDate": "2021-06-23T10:05",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 678709
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015432",
+          "term": "Glomerulonephritis, Membranoproliferative"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005921",
+          "term": "Glomerulonephritis"
+        },
+        {
+          "id": "D009393",
+          "term": "Nephritis"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C556306",
+          "term": "daratumumab"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

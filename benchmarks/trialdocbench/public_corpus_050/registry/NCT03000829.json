@@ -1,0 +1,1800 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03000829",
+      "orgStudyIdInfo": {
+        "id": "COPILOT-SIMULATION"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1050317",
+          "type": "OTHER",
+          "domain": "Intermountain Health IRB"
+        }
+      ],
+      "organization": {
+        "fullName": "Intermountain Health Care, Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Code Blue Outcomes & Process Improvement Through Leadership Optimization Using Teleintensivists-Simulation",
+      "officialTitle": "Code Blue Outcomes & Process Improvement Through Leadership Optimization Using Teleintensivists-Simulation",
+      "acronym": "COPILOT-Sim"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-09-14",
+      "studyFirstSubmitQcDate": "2016-12-19",
+      "studyFirstPostDateStruct": {
+        "date": "2016-12-22",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-01-27",
+      "resultsFirstSubmitQcDate": "2023-12-14",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-05-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Intermountain Health Care, Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This multicenter randomized trial will employ in-situ cardiac arrest simulations (\"mock codes\") to test whether using telemedicine technology to add an intensive care physician as the \"copilot\" for cardiac arrest resuscitation teams influences chest compression quality, resuscitation protocol adherence, team function, and provider experience.",
+      "detailedDescription": "Only 15-30% of patients who suffer in-hospital cardiac arrest (IHCA) survive to hospital discharge. Factors associated with lower mortality and improved function include provision of high-quality, minimally-interrupted chest compressions and swift defibrillation of eligible arrhythmias. Unfortunately, resuscitation teams provide suboptimal care to 25-40% of IHCA victims. A dedicated IHCA team \"copilot\" may improve resuscitation team performance by providing the team leader with parallel analysis, situational awareness augmentation, action checking, protocol verification, and error correction. Critical care physician involvement via a telemedicine link could allow experienced specialists to fill the \"copilot\" role in a cost and resource-efficient manner, particularly in smaller hospitals with fewer available physicians.\n\nThe current study will evaluate how consultation by an off-site intensive care physician via a telemedicine link influences local IHCA teams' quality of care, team function and provider experience during simulated cardiac arrest events (\"mock codes\")."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Arrest"
+      ],
+      "keywords": [
+        "Code blue",
+        "Code team",
+        "Crisis team leadership",
+        "Cardiopulmonary resuscitation",
+        "Telemedicine",
+        "Simulation",
+        "Mock code",
+        "In-hospital cardiac arrest"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1001,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tele-intensivist consultation",
+          "type": "EXPERIMENTAL",
+          "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart",
+          "interventionNames": [
+            "Other: Tele-intensivist consultation"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.",
+          "interventionNames": [
+            "Other: Simulated \"observation\" by ICU physician"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Tele-intensivist consultation",
+          "description": "Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart",
+          "armGroupLabels": [
+            "Tele-intensivist consultation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Simulated \"observation\" by ICU physician",
+          "description": "Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code.",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Fraction of Pulseless Time With no Chest Compressions",
+          "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time From Onset of Shockable Rhythm to Defibrillation",
+          "timeFrame": "From onset of simulated VF or VT until first defibrillation or end of simulation"
+        },
+        {
+          "measure": "Fraction of Chest Compressions With Complete Release",
+          "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)"
+        },
+        {
+          "measure": "Fraction of Chest Compressions at Target Rate",
+          "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)"
+        },
+        {
+          "measure": "Time to First Dose of Epinephrine",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes"
+        },
+        {
+          "measure": "Overall ACLS Protocol Adherence (Using Checklist Adapted From McEvoy ACLS Assessment Tool)",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes"
+        },
+        {
+          "measure": "ACLS Protocol Errors (Using Checklist Adapted From McEvoy ACLS Assessment Tool)",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes"
+        },
+        {
+          "measure": "Team Emergency Assessment Measure Score",
+          "description": "The validated \"Team Emergency Assessment Measure (TEAM)\" evaluates non-technical performance of the on-site resuscitation team. The score (range 0-4) for each simulation was obtained by averaging the mean score for each of 11 component scores (each component item scored 0-4, with higher values representing better performance).",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes"
+        },
+        {
+          "measure": "Types of Input by Telemedical Intensivist Copilot",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes"
+        },
+        {
+          "measure": "Opinions of Study Subjects About Experience Participating in Simulated Cardiac Arrest, Using a Locally-developed and Validated Survey Instrument",
+          "description": "Measured domains: understanding of telemedicine intensivist copilot's role, beliefs about telemedicine intensivist copilot's ability to integrate with on site team, ability to influence on-site team performance, comfort with telemedicine intensivist copilot's role, and function of telemedicine interface",
+          "timeFrame": "Immediately after simulation"
+        },
+        {
+          "measure": "Short-form State-Trait Anxiety Inventory Score",
+          "description": "The short-form State-Trait Anxiety Inventory (STAI) measures acute stress experienced by respondents using 6 questions (scores for each question range from 1 to 4, with higher values indicating more stress). Analyzed respondent-level values use the total score (range 4-24) obtained by summing the score for each of the six questions, with higher values indicating more respondent-reported acute stress.",
+          "timeFrame": "Immediately after simulation"
+        },
+        {
+          "measure": "Presence of Telemedicine Audiovisual Connection Problems for Intervention Group Simulation Event",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria (on-site cardiac arrest team):\n\n* Are 18 years of age or older\n\nInclusion criteria (teleintensivist cardiac arrest team copilot):\n\n* Are 18 years of age or older\n* Are a board-certified or board-eligible critical care physician\n* Provide clinical care through the Intermountain Healthcare Telecritical Care program\n\nExclusion criteria (both groups):\n\n* Are under 18 years of age\n* Are a member of the study research team",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ithan Peltan, MD",
+          "affiliation": "Intermountain Health Care, Inc.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "American Fork Hospital",
+          "city": "American Fork",
+          "state": "Utah",
+          "zip": "84003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.3769,
+            "lon": -111.79576
+          }
+        },
+        {
+          "facility": "Intermountain Medical Center",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "The Orthopedic Specialty Hospital",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "McKay-Dee Hospital",
+          "city": "Ogden",
+          "state": "Utah",
+          "zip": "84403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.223,
+            "lon": -111.97383
+          }
+        },
+        {
+          "facility": "Park City Hospital",
+          "city": "Park City",
+          "state": "Utah",
+          "zip": "84060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.64606,
+            "lon": -111.49797
+          }
+        },
+        {
+          "facility": "Riverton Hospital",
+          "city": "Riverton",
+          "state": "Utah",
+          "zip": "84065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.52189,
+            "lon": -111.9391
+          }
+        },
+        {
+          "facility": "LDS Hospital",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "BACKGROUND",
+          "citation": "Spielberger CD, Gorsuch RL, Lushene R, Vagg PR, Jacobs GA. Manual for the State-Trait Anxiety Inventory. Palo Alto, CA: Consulting Psychologists Press; 1983."
+        },
+        {
+          "pmid": "1393159",
+          "type": "BACKGROUND",
+          "citation": "Marteau TM, Bekker H. The development of a six-item short-form of the state scale of the Spielberger State-Trait Anxiety Inventory (STAI). Br J Clin Psychol. 1992 Sep;31(3):301-6. doi: 10.1111/j.2044-8260.1992.tb00997.x."
+        },
+        {
+          "pmid": "22561464",
+          "type": "BACKGROUND",
+          "citation": "McKay A, Walker ST, Brett SJ, Vincent C, Sevdalis N. Team performance in resuscitation teams: comparison and critique of two recently developed scoring tools. Resuscitation. 2012 Dec;83(12):1478-83. doi: 10.1016/j.resuscitation.2012.04.015. Epub 2012 May 3."
+        },
+        {
+          "pmid": "20117874",
+          "type": "BACKGROUND",
+          "citation": "Cooper S, Cant R, Porter J, Sellick K, Somers G, Kinsman L, Nestel D. Rating medical emergency teamwork performance: development of the Team Emergency Assessment Measure (TEAM). Resuscitation. 2010 Apr;81(4):446-52. doi: 10.1016/j.resuscitation.2009.11.027. Epub 2010 Feb 1."
+        },
+        {
+          "pmid": "35063451",
+          "type": "RESULT",
+          "citation": "Peltan ID, Guidry D, Brown K, Kumar N, Beninati W, Brown SM. Telemedical Intensivist Consultation During In-Hospital Cardiac Arrest Resuscitation: A Simulation-Based, Randomized Controlled Trial. Chest. 2022 Jul;162(1):111-119. doi: 10.1016/j.chest.2022.01.017. Epub 2022 Jan 19."
+        },
+        {
+          "pmid": "36214207",
+          "type": "DERIVED",
+          "citation": "Silva JAM, Mininel VA, Fernandes Agreli H, Peduzzi M, Harrison R, Xyrichis A. Collective leadership to improve professional practice, healthcare outcomes and staff well-being. Cochrane Database Syst Rev. 2022 Oct 10;10(10):CD013850. doi: 10.1002/14651858.CD013850.pub2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Anonymized data will be available, after relevant IRB approval, by application to the principal investigator and Intermountain Office of Research."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "typeUnitsAnalyzed": "Simulation events",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Tele-intensivist Consultation Cardiac Arrest Simulations",
+          "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+        },
+        {
+          "id": "FG001",
+          "title": "Control Cardiac Arrest Simulations",
+          "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+        },
+        {
+          "id": "FG002",
+          "title": "Telemedical Intensivist Consultants",
+          "description": "Critical care physicians serving as consultants during simulation events randomized to tele-intensivist consultation"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "521",
+                  "numUnits": "45"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "466",
+                  "numUnits": "37"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "14",
+                  "numUnits": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "521",
+                  "numUnits": "45"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "466",
+                  "numUnits": "37"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "14",
+                  "numUnits": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0",
+                  "numUnits": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0",
+                  "numUnits": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0",
+                  "numUnits": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Unit of analysis is the \"Simulation event.\" Demographic data was not collected for on-site simulation participants.",
+      "typeUnitsAnalyzed": "Simulation events",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Tele-intensivist Consultation",
+          "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+        },
+        {
+          "id": "BG001",
+          "title": "Control",
+          "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "521"
+            },
+            {
+              "groupId": "BG001",
+              "value": "466"
+            },
+            {
+              "groupId": "BG002",
+              "value": "987"
+            }
+          ]
+        },
+        {
+          "units": "Simulation events",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "45"
+            },
+            {
+              "groupId": "BG001",
+              "value": "37"
+            },
+            {
+              "groupId": "BG002",
+              "value": "82"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "populationDescription": "Age of on-site simulation participants - not collected",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "521"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "466"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "987"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "37"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "82"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Age",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "NA",
+                      "comment": "Age not collected for individual simulation participants and not applicable to unit of analysis (\"simulation events\")"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "NA",
+                      "comment": "Age not collected for individual simulation participants and not applicable to unit of analysis (\"simulation events\")"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "NA",
+                      "comment": "Total not calculated because data are not available (NA) in one or more arms."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "521"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "466"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "987"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "37"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "82"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "NA",
+                      "comment": "Sex not collected for individual simulation participants and not applicable to unit of analysis (\"simulation events\")"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "NA",
+                      "comment": "Sex not collected for individual simulation participants and not applicable to unit of analysis (\"simulation events\")"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "NA",
+                      "comment": "Total not calculated because data are not available (NA) in one or more arms."
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "NA",
+                      "comment": "Sex not collected for individual simulation participants and not applicable to unit of analysis (\"simulation events\")"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "NA",
+                      "comment": "Sex not collected for individual simulation participants and not applicable to unit of analysis (\"simulation events\")"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "NA",
+                      "comment": "Total not calculated because data are not available (NA) in one or more arms."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "denomUnitsSelected": "Participants",
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "37"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "82"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "denomUnitsSelected": "Participants",
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "521"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "466"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "987"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "37"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "82"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "521"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "466"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "987"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Fraction of Pulseless Time With no Chest Compressions",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction precluded measurement of compression quality were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Fraction analysis time CPR not delivered",
+          "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)",
+          "typeUnitsAnalyzed": "simulation events",
+          "denomUnitsSelected": "simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "425"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "439"
+                }
+              ]
+            },
+            {
+              "units": "simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "36"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "35"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.22",
+                      "spread": "0.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.19",
+                      "spread": "0.10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.41",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time From Onset of Shockable Rhythm to Defibrillation",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available and resuscitation team delivered ≥1 shock to the mannequin during the simulation. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of protocol adherence were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "seconds",
+          "timeFrame": "From onset of simulated VF or VT until first defibrillation or end of simulation",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "353"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "394"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37",
+                      "spread": "33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36",
+                      "spread": "25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.86",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Fraction of Chest Compressions With Complete Release",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of compression quality were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Fraction compression in analysis window",
+          "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "425"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "439"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "36"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "35"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.89",
+                      "spread": "0.14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.89",
+                      "spread": "0.15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.97",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Fraction of Chest Compressions at Target Rate",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of compression quality were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Fraction compression in analysis window",
+          "timeFrame": "From initiation of intervention or placebo control until completion of two complete cycles of CPR (an average of 4 minutes)",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            },
+            {
+              "id": "OG001",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "439"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "425"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "35"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.59",
+                      "spread": "0.23"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.58",
+                      "spread": "0.29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.87",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to First Dose of Epinephrine",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available and epinephrine was administered. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of protocol adherence were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "seconds",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            },
+            {
+              "id": "OG001",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "421"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "370"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "33"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "329",
+                      "spread": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "344",
+                      "spread": "124"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.63",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall ACLS Protocol Adherence (Using Checklist Adapted From McEvoy ACLS Assessment Tool)",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of protocol adherence were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Fraction of eligible actions performed",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            },
+            {
+              "id": "OG001",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "430"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "380"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "32"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.77",
+                      "spread": "0.11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.78",
+                      "spread": "0.12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.62",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "ACLS Protocol Errors (Using Checklist Adapted From McEvoy ACLS Assessment Tool)",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of protocol adherence were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Number of protocol errors",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            },
+            {
+              "id": "OG001",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "430"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "380"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "32"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.8",
+                      "spread": "1.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.9",
+                      "spread": "1.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.84",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Team Emergency Assessment Measure Score",
+          "description": "The validated \"Team Emergency Assessment Measure (TEAM)\" evaluates non-technical performance of the on-site resuscitation team. The score (range 0-4) for each simulation was obtained by averaging the mean score for each of 11 component scores (each component item scored 0-4, with higher values representing better performance).",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of team performance were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on composite TEAM scale",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            },
+            {
+              "id": "OG001",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "421"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "370"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "32"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.2",
+                      "spread": "0.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.3",
+                      "spread": "0.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.40",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Types of Input by Telemedical Intensivist Copilot",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of telemedical intensivist input were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Simulation events",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "380"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "32"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Arrest etiology identification",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Arrest etiology treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Medical record review",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Role clarity for on-site team",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "CPR quality",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Opinions of Study Subjects About Experience Participating in Simulated Cardiac Arrest, Using a Locally-developed and Validated Survey Instrument",
+          "description": "Measured domains: understanding of telemedicine intensivist copilot's role, beliefs about telemedicine intensivist copilot's ability to integrate with on site team, ability to influence on-site team performance, comfort with telemedicine intensivist copilot's role, and function of telemedicine interface",
+          "populationDescription": "Pre-specified analysis included complete surveys returned by on-site participants in completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction or simulation error precluded measurement of resuscitation quality were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Immediately after simulation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "275"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Survey participant: \"Telemedical intensivist consultation improved the resuscitation care quality.\"",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "174"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Survey participant: \"Telemedical intensivist consultation helped team function more smoothly.\"",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "176"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Short-form State-Trait Anxiety Inventory Score",
+          "description": "The short-form State-Trait Anxiety Inventory (STAI) measures acute stress experienced by respondents using 6 questions (scores for each question range from 1 to 4, with higher values indicating more stress). Analyzed respondent-level values use the total score (range 4-24) obtained by summing the score for each of the six questions, with higher values indicating more respondent-reported acute stress.",
+          "populationDescription": "Pre-specified analysis included completed surveys by participants completed simulations for which complete compression quality data were available. Per protocol, participants in simulations for which equipment malfunction or simulation error precluded measurement of compression quality were excluded, as were participants in intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Immediately after simulation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control",
+              "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code."
+            },
+            {
+              "id": "OG001",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "259"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "275"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.9",
+                      "spread": "2.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.9",
+                      "spread": "1.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.92",
+              "statisticalMethod": "Mixed Models Analysis"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Presence of Telemedicine Audiovisual Connection Problems for Intervention Group Simulation Event",
+          "populationDescription": "Pre-specified analysis included completed simulations for which complete compression quality data were available. Per protocol, simulations for which equipment malfunction precluded measurement of compression quality were excluded, as were intervention-group simulations classified as \"run-in\" simulations because they occurred before optimization of the telemedicine audio equipment.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Simulation events",
+          "timeFrame": "From initiation of simulation through termination of simulation, an average of 15 minutes",
+          "typeUnitsAnalyzed": "Simulation events",
+          "denomUnitsSelected": "Simulation events",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tele-intensivist Consultation",
+              "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "425"
+                }
+              ]
+            },
+            {
+              "units": "Simulation events",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Through completion of simulated cardiac arrest resuscitation and associated debriefing, an average of 30 minutes",
+      "description": "Study participants were medical personnel participating in simulated cardiac arrest resuscitation. All-cause mortality was not an applicable adverse event or outcome.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Control",
+          "description": "Simulated \"observation\" by ICU physician by displaying a silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site participants will be told that an intensive care physician is observing the mock code.\n\nSimulated \"observation\" by ICU physician: Display of silent, pre-recorded, non-interactive videotape of an ICU physician. The on-site cardiac arrest team will be told that an intensive care physician is observing the mock code.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 466,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 466
+        },
+        {
+          "id": "EG001",
+          "title": "Tele-intensivist Consultation",
+          "description": "Standardized consultation to on-site cardiac arrest response team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart\n\nTele-intensivist consultation: Standardized consultation to on-site cardiac arrest team by off-site intensivist via two-way audiovisual link using a mobile telemedicine cart",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 521,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 521
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Ithan Peltan",
+        "organization": "Intermountain Health",
+        "email": "ithan.peltan@imail.org",
+        "phone": "801-507-6556"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-07-10",
+          "uploadDate": "2022-01-27T14:10",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 441838
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006323",
+          "term": "Heart Arrest"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

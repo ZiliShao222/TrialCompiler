@@ -1,0 +1,76 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT04018001",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT04018001",
+    "study_type": "OBSERVATIONAL",
+    "phases": [],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 1057,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Percentage of Participants Who Met All Effectiveness Criteria up to 12 Months From the Index Date",
+        "description": "Effectiveness criteria: 1) High adherence with proportion of days covered greater than or equal to \\[\\>=\\] 0.8; 2) No increase in index medication dose; 3) No use of an advanced therapy other than index therapy 4) No addition/claims of conventional synthetic disease-modifying antirheumatic drug; 5) If no oral glucocorticoid prescriptions in the 6 months prior to index date, then no more than 30 total days supply of oral glucocorticoids between 3-12 months post index or if at least 1 claim for oral glucocorticoids during 6 months pre-index, then oral glucocorticoid not increased by \\>=20% between 6-12 months post-index compared to 6 months before index date (6) Participants have one or fewer glucocorticoid injections during 3-12 months after index date. Adherence was defined as percentage of time with medication on hand. Participants who met all 6 effectiveness criteria considered as treated effectively.",
+        "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+      },
+      {
+        "measure": "Mean Treatment Persistence Duration for Tofacitinib up to 12 Months From Index Date",
+        "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+        "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+      },
+      {
+        "measure": "Mean Adherence to Tofacitinib by Medication Possession Ratio (MPR) up to 12 Months From the Index Date",
+        "description": "Adherence was defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence and participants with MPR less than (\\<) 0.8 were considered as low adherence. MPR was calculated as the total days supply of tofacitinib between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+        "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+      },
+      {
+        "measure": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Medication Possession Ratio (MPR) up to 12 Months From the Index Date",
+        "description": "Adherence is defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence. MPR was calculated as the total days supply between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+        "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+      },
+      {
+        "measure": "Mean Adherence to Tofacitinib by Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+        "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>= 0.8 were considered to show high adherence and participants with PDC \\<0.8 were considered to show low adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 360 days post-index.",
+        "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+      },
+      {
+        "measure": "Primary: Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+        "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>=0.8 were considered to show high adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 360 days post-index.",
+        "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04018001/Prot_SAP_000.pdf",
+      "sha256": "B6A65C4E5B06D80B482DAD997AFC171C1F84BF6968042E0F9E4BEE3A062B1C20",
+      "bytes": 1982959,
+      "pages": 33,
+      "document_date": "2019-03-27",
+      "upload_date": "2020-03-26T17:19",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 54368,
+        "sampled_pages": 33
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 33,
+      "content_digest": "B6A65C4E5B06D80B482DAD997AFC171C1F84BF6968042E0F9E4BEE3A062B1C20"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

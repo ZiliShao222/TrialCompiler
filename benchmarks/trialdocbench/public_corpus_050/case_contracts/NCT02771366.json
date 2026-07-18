@@ -1,0 +1,53 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02771366",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02771366",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 30,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Magnetic Resonance Spectroscopy (MRS) Will Measure a Change in Cerebral Energy Function in Brain Tissue",
+        "description": "Cerebral energy metabolism will be defined by phosphorus magnetic resonance spectroscopy markers of ATP/mitochondrial function in brain tissue (α-ATP, β-ATP, and γ-ATP).\n\nWithin-subject crossover design; difference between drug and placebo arms. Treatment duration: weeks 0-8 followed by washout then weeks 14 to 22.\n\nData reported in the outcome measures data table represents difference between pre and post measurement values (post-pre) for each arm.",
+        "timeFrame": "Participants received MRS at weeks 0, 8, 14, and 22. Data reported in the outcome measures data table represents difference between pre and post measurement values (post-pre) for each arm."
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02771366/Prot_SAP_000.pdf",
+      "sha256": "11304E36AFF8FA6E6FEF43436FF3F1C5588E6F22B5B0F34E89D7C1D3D998BFC1",
+      "bytes": 3911791,
+      "pages": 16,
+      "document_date": "2017-01-24",
+      "upload_date": "2019-09-04T08:51",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 43980,
+        "sampled_pages": 16
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 16,
+      "content_digest": "11304E36AFF8FA6E6FEF43436FF3F1C5588E6F22B5B0F34E89D7C1D3D998BFC1"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

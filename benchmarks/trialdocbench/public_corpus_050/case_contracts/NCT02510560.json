@@ -1,0 +1,75 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02510560",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02510560",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE3"
+    ],
+    "overall_status": "TERMINATED",
+    "enrollment": {
+      "count": 300,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Numbers of Days to Achieve Complete Enteral Feeding",
+        "description": "Numbers of days to achieve full enteral feeding (NFE) is defined as:\n\nNumber of Days to the first day of achieving enteral feeding of at least 150 ml/kg/day, which must be sustained for at least 3 consecutive days.",
+        "timeFrame": "28 days or discharge from hospital"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02510560/Prot_000.pdf",
+      "sha256": "3FC57FADC91B748C9DC287013C21DD25BCFF480664D1C7FB700964DA5C659FF1",
+      "bytes": 10883780,
+      "pages": 69,
+      "document_date": "2017-05-10",
+      "upload_date": "2025-05-22T09:16",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 80786,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02510560/SAP_001.pdf",
+      "sha256": "7796DA32EF06B4446C815FF9AA3373AF3B49AE819ED017C5391EAED972011F87",
+      "bytes": 995184,
+      "pages": 40,
+      "document_date": "2017-05-10",
+      "upload_date": "2025-05-22T09:12",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 81087,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 69,
+      "content_digest": "3FC57FADC91B748C9DC287013C21DD25BCFF480664D1C7FB700964DA5C659FF1"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 40,
+      "content_digest": "7796DA32EF06B4446C815FF9AA3373AF3B49AE819ED017C5391EAED972011F87"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

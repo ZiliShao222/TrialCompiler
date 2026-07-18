@@ -1,0 +1,59 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02626182",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02626182",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 14,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "6 Minute Walk Distance",
+        "description": "Change in distance walked between week 1 and week 13 were compared. The difference between the two time points is reported.",
+        "timeFrame": "Weeks 1, 13"
+      },
+      {
+        "measure": "Cardiopulmonary Exercise Test Work Rate",
+        "description": "Work rate (the amount of energy being expended to cycle) was assessed at weeks 1 and 13. The change in maximum work measured during CPET between weeks 1 and 13 is reported.",
+        "timeFrame": "Weeks 1 and 13"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT02626182/Prot_SAP_000.pdf",
+      "sha256": "779ED1C337E56C7890E944DB377010B94219A54628C3BB3875D33549D1C46019",
+      "bytes": 828518,
+      "pages": 19,
+      "document_date": "2018-10-31",
+      "upload_date": "2019-06-17T16:39",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 63384,
+        "sampled_pages": 19
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 19,
+      "content_digest": "779ED1C337E56C7890E944DB377010B94219A54628C3BB3875D33549D1C46019"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

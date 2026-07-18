@@ -1,0 +1,64 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03361345",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03361345",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "overall_status": "WITHDRAWN",
+    "enrollment": {
+      "count": 0,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Change from Baseline Pigmentation at 4 Weeks.",
+        "description": "Patients will have their lesion pigmentation scored with the postacne hyperpigmentation index after 4 weeks.\n\nThe postacne hyperpigmentation index (PAHPI) assesses hyperpigmentation lesions after acne based on the median lesion size, the median lesion intensity, and the number of lesions present. The total score can range from 6-22 points. Subscales will measure lesion size, lesion intensity, and number of lesions. Subscales will be assigned a number based on the table in the protocol, and then added together to form the total score. Higher values indicate worse hyperpigmentation. We will measure the total decrease in the PAHPI at the follow-up visit.",
+        "timeFrame": "4 Weeks."
+      },
+      {
+        "measure": "Change from Baseline Pigmentation at 8 Weeks.",
+        "description": "Patients will have their lesion pigmentation scored with the postacne hyperpigmentation index after 8 weeks.\n\nThe postacne hyperpigmentation index (PAHPI) assesses hyperpigmentation lesions after acne based on the median lesion size, the median lesion intensity, and the number of lesions present. The total score can range from 6-22 points. Subscales will measure lesion size, lesion intensity, and number of lesions. Subscales will be assigned a number based on the table in the protocol, and then added together to form the total score. Higher values indicate worse hyperpigmentation. We will measure the total decrease in the PAHPI at the follow-up visit.",
+        "timeFrame": "8 Weeks"
+      },
+      {
+        "measure": "Change from Baseline Pigmentation at 12 Weeks.",
+        "description": "Patients will have their lesion pigmentation scored with the postacne hyperpigmentation index after 12 weeks.\n\nThe postacne hyperpigmentation index (PAHPI) assesses hyperpigmentation lesions after acne based on the median lesion size, the median lesion intensity, and the number of lesions present. The total score can range from 6-22 points. Subscales will measure lesion size, lesion intensity, and number of lesions. Subscales will be assigned a number based on the table in the protocol, and then added together to form the total score. Higher values indicate worse hyperpigmentation. We will measure the total decrease in the PAHPI at the follow-up visit.",
+        "timeFrame": "12 Weeks"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03361345/Prot_SAP_000.pdf",
+      "sha256": "4D80CA804EAD80DEC6195AB44E0D0D9EE741287454E2030787DD959A0806A415",
+      "bytes": 183349,
+      "pages": 6,
+      "document_date": "2017-12-01",
+      "upload_date": "2017-12-01T15:23",
+      "content_signals": {
+        "protocol": false,
+        "sap": false,
+        "extracted_chars": 8864,
+        "sampled_pages": 6
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 6,
+      "content_digest": "4D80CA804EAD80DEC6195AB44E0D0D9EE741287454E2030787DD959A0806A415"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

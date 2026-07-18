@@ -1,0 +1,3085 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04018001",
+      "orgStudyIdInfo": {
+        "id": "A3921349"
+      },
+      "organization": {
+        "fullName": "Pfizer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Comparative Analysis of Adherence and Effectiveness Outcomes Between Rheumatoid Arthritis (RA) Patients Treated With Tofacitinib Modified Release (MR)",
+      "officialTitle": "Comparative Analysis of Adherence and Effectiveness Outcomes Between Rheumatoid Arthritis (RA) Patients Treated With Tofacitinib Modified Release (MR) Formulation 11mg Once Daily (QD) and Tofacitinib Immediate Release (IR) Formulation 5 mg Twice Daily (BID) Within a United States (US) Healthcare Claims Database"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-04-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-04-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-06-11",
+      "studyFirstSubmitQcDate": "2019-07-10",
+      "studyFirstPostDateStruct": {
+        "date": "2019-07-12",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2020-03-26",
+      "resultsFirstSubmitQcDate": "2020-03-26",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-04-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pfizer",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare adherence, persistence, and effectiveness among patients initiating tofacitinib Modified Release (MR) with tofacitinib Immediate Release (IR)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rheumatoid Arthritis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 1057,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Truven Health MarketScan Research Database",
+          "description": "individuals who are privately insured and with Medicare Supplemental insurance"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Who Met All Effectiveness Criteria up to 12 Months From the Index Date",
+          "description": "Effectiveness criteria: 1) High adherence with proportion of days covered greater than or equal to \\[\\>=\\] 0.8; 2) No increase in index medication dose; 3) No use of an advanced therapy other than index therapy 4) No addition/claims of conventional synthetic disease-modifying antirheumatic drug; 5) If no oral glucocorticoid prescriptions in the 6 months prior to index date, then no more than 30 total days supply of oral glucocorticoids between 3-12 months post index or if at least 1 claim for oral glucocorticoids during 6 months pre-index, then oral glucocorticoid not increased by \\>=20% between 6-12 months post-index compared to 6 months before index date (6) Participants have one or fewer glucocorticoid injections during 3-12 months after index date. Adherence was defined as percentage of time with medication on hand. Participants who met all 6 effectiveness criteria considered as treated effectively.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Mean Treatment Persistence Duration for Tofacitinib up to 12 Months From Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Mean Adherence to Tofacitinib by Medication Possession Ratio (MPR) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence and participants with MPR less than (\\<) 0.8 were considered as low adherence. MPR was calculated as the total days supply of tofacitinib between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Medication Possession Ratio (MPR) up to 12 Months From the Index Date",
+          "description": "Adherence is defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence. MPR was calculated as the total days supply between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Mean Adherence to Tofacitinib by Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>= 0.8 were considered to show high adherence and participants with PDC \\<0.8 were considered to show low adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 360 days post-index.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Primary: Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>=0.8 were considered to show high adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 360 days post-index.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mean Treatment Persistence Duration for Tofacitinib up to 6 Months From Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Mean Adherence to Tofacitinib by Medication Possession Ratio (MPR) up to 6 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence and participants with MPR \\<0.8 were considered to show low adherence. MPR was calculated as the total days supply of tofacitinib between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Medication Possession Ratio (MPR) up to 6 Months From the Index Date",
+          "description": "Adherence is defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence. MPR was calculated as the total days supply between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Mean Adherence to Tofacitinib by Proportion of Days Covered (PDC) up to 6 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>= 0.8 were considered to show high adherence and participants with PDC \\<0.8 were considered to show low adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 180 days post-index.",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>=0.8 were considered to show high adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 180 days post-index.",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Percentage of Participants Who Showed Persistence for Tofacitinib up to 12 Months From the Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)"
+        },
+        {
+          "measure": "Percentage of Participants Who Showed Persistence for Tofacitinib up to 6 Months From the Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* At least one claim for tofacitinib between 01 January 2014 and 31 January 2017 (the identification period).\n* Presence of The International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9 CM) code for RA (in any position) during the one-year pre-index period or on the index date. ICD-9 = 714.0x-714.4x \\& 714.81 or ICD10 = M05.\\* \\& M06.0\\*-M06.3\\* or M06.8\\*-M06.9\\*.\n* At least 18 years old as of the index date.\n\nExclusion Criteria:\n\n* Patients with claims for other conditions for which biologics are used during the one-year pre-index period or on the index date: ankylosing spondylitis, Crohn's disease, psoriasis, psoriatic arthritis, or ulcerative colitis will be excluded from the study.\n* Patients with evidence of the index medication during the one-year pre-index period will be removed from the analysis. Patients will be allowed to have been treated with other biologics approved for RA (Tumor-Necrosis Factor-alpha inhibitors (TNFi) \\[adalimumab (Humira), etanercept (Enbrel), certolizumab pegol (Cimzia), golimumab (Simponi), infliximab (Remicade)\\] and non-TNFi's with alternative mechanisms of action \\[abatacept (Orencia), and rituximab (Rituxan), anakinra (Kineret), tocilizumab (Actemra)\\]) during the one-year pre-index period.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Individuals initiating tofacitinib",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pfizer CT.gov Call Center",
+          "affiliation": "Pfizer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pfizer",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33034006",
+          "type": "DERIVED",
+          "citation": "Cohen SB, Greenberg JD, Harnett J, Madsen A, Smith TW, Gruben D, Zhang R, Lukic T, Woolcott J, Dandreo KJ, Litman HJ, Blachley T, Lenihan A, Chen C, Rivas JL, Dougados M. Real-World Evidence to Contextualize Clinical Trial Results and Inform Regulatory Decisions: Tofacitinib Modified-Release Once-Daily vs Immediate-Release Twice-Daily for Rheumatoid Arthritis. Adv Ther. 2021 Jan;38(1):226-248. doi: 10.1007/s12325-020-01501-z. Epub 2020 Oct 9."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "To obtain contact information for a study center near you, click here.",
+          "url": "https://pmiform.com/clinical-trial-info-request?StudyID=A3921349"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical\\_trials/trial\\_data\\_and\\_results/data\\_requests."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "The study was a retrospective follow-up study of participants treated with index medication (tofacitinib) and enrolled in a health insurance plan for a minimum of 24 months.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Tofacitinib Modified Release (MR)",
+          "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+        },
+        {
+          "id": "FG001",
+          "title": "Tofacitinib Immediate Release (IR)",
+          "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "678"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "379"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "678"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "379"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Analysis was performed on all participants included in the study.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Tofacitinib Modified Release (MR)",
+          "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+        },
+        {
+          "id": "BG001",
+          "title": "Tofacitinib Immediate Release (IR)",
+          "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "678"
+            },
+            {
+              "groupId": "BG001",
+              "value": "379"
+            },
+            {
+              "groupId": "BG002",
+              "value": "1057"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54.35",
+                      "spread": "10.20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "53.97",
+                      "spread": "10.91"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "54.22",
+                      "spread": "10.46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "556"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "311"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "867"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "68"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "190"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Combination Therapy",
+          "description": "Combination therapy was defined as first comedication with any Conventional synthetic disease-modifying antirheumatic drug (csDMARD).",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "370"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "214"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "584"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Use of non-steroidal antiinflammatory drug (NSAID)s Pre-Index",
+          "description": "Participants who took NSAIDs before index date were reported.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "297"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "190"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "487"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Number of Advanced Therapies At Index",
+          "description": "Participants who took no advance therapy (0), 1 advance therapy (1) 2 advance therapies (2), and atleast 3 advance therapies (\\>=3) were reported.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "advanced therapies",
+          "classes": [
+            {
+              "title": "0",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "142"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "93"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "235"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "240"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "128"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "368"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "192"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "97"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "289"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=3",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "104"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "165"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Insurance type",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Commercial Claims and Encounters (CCAE)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "596"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "327"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "923"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Medicare (MDCR)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "82"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "134"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "North Central Region",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "110"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "175"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Northeast Region",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "125"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "199"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "South Region",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "371"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "562"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown Region",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "West Region",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "70"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "119"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Year and month of the participant's index date",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "2016-03",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-04",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-05",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "53"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-06",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-07",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-08",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-09",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-10",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-11",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "65"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2016-12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-01",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-02",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-03",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-04",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-05",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "68"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-06",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-07",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-08",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "64"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-09",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-10",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2017-11",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Index Medication",
+          "description": "Participants who took index medication were reported.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "379"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1057"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Met All Effectiveness Criteria up to 12 Months From the Index Date",
+          "description": "Effectiveness criteria: 1) High adherence with proportion of days covered greater than or equal to \\[\\>=\\] 0.8; 2) No increase in index medication dose; 3) No use of an advanced therapy other than index therapy 4) No addition/claims of conventional synthetic disease-modifying antirheumatic drug; 5) If no oral glucocorticoid prescriptions in the 6 months prior to index date, then no more than 30 total days supply of oral glucocorticoids between 3-12 months post index or if at least 1 claim for oral glucocorticoids during 6 months pre-index, then oral glucocorticoid not increased by \\>=20% between 6-12 months post-index compared to 6 months before index date (6) Participants have one or fewer glucocorticoid injections during 3-12 months after index date. Adherence was defined as percentage of time with medication on hand. Participants who met all 6 effectiveness criteria considered as treated effectively.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25.86"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0115",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0227",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.410198",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.0492535",
+              "ciUpperLimit": "1.8953079"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Mean Treatment Persistence Duration for Tofacitinib up to 12 Months From Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "populationDescription": "Analysis was performed on all participants included in the study. Here \"Overall number of participants analyzed\" signifies only those participants who had data available.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "142"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "93"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "243.4",
+                      "spread": "135.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "235.7",
+                      "spread": "129.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3564",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2629",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Cox",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "0.9022",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.7534",
+              "ciUpperLimit": "1.0803"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Mean Adherence to Tofacitinib by Medication Possession Ratio (MPR) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence and participants with MPR less than (\\<) 0.8 were considered as low adherence. MPR was calculated as the total days supply of tofacitinib between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.89",
+                      "spread": "0.15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.86",
+                      "spread": "0.18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0123",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0047",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Generalized linear model",
+              "paramType": "Difference in Least Squares (LS) Means",
+              "paramValue": "0.0300853",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.0092322",
+              "ciUpperLimit": "0.0509385"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Medication Possession Ratio (MPR) up to 12 Months From the Index Date",
+          "description": "Adherence is defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence. MPR was calculated as the total days supply between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80.09"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "69.92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0002",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0002",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.7910474",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.3167136",
+              "ciUpperLimit": "2.4362554"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Mean Adherence to Tofacitinib by Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>= 0.8 were considered to show high adherence and participants with PDC \\<0.8 were considered to show low adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 360 days post-index.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.63",
+                      "spread": "0.33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.62",
+                      "spread": "0.30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4071",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6143",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Generalized linear model",
+              "paramType": "Difference in LS Means",
+              "paramValue": "0.0104065",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.030062",
+              "ciUpperLimit": "0.0508746"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Primary: Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>=0.8 were considered to show high adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 360 days post-index.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "48.23"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "37.73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0010",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0025",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.5211586",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.1594614",
+              "ciUpperLimit": "1.9956882"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Treatment Persistence Duration for Tofacitinib up to 6 Months From Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "143.7",
+                      "spread": "57.7576"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "146.3",
+                      "spread": "55.6362"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4595",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3354",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Cox",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.1225",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.8873",
+              "ciUpperLimit": "1.4201"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Adherence to Tofacitinib by Medication Possession Ratio (MPR) up to 6 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence and participants with MPR \\<0.8 were considered to show low adherence. MPR was calculated as the total days supply of tofacitinib between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.90",
+                      "spread": "0.14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.88",
+                      "spread": "0.16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.1130",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.1194",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Generalized linear model",
+              "paramType": "Difference in LS Means",
+              "paramValue": "0.0151242",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.003908",
+              "ciUpperLimit": "0.0341568"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Medication Possession Ratio (MPR) up to 6 Months From the Index Date",
+          "description": "Adherence is defined as percentage of time with medication on hand. Participants with MPR \\>=0.8 were considered to show high adherence. MPR was calculated as the total days supply between the first and including the last tofacitinib prescription divided by the time between the first through and including last index therapy prescription days supply.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "82.45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "76.52"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0200",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0364",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.4143816",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.0221455",
+              "ciUpperLimit": "1.9571335"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Adherence to Tofacitinib by Proportion of Days Covered (PDC) up to 6 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>= 0.8 were considered to show high adherence and participants with PDC \\<0.8 were considered to show low adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 180 days post-index.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.71",
+                      "spread": "0.28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.71",
+                      "spread": "0.27"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9031",
+              "statisticalMethod": "t-test, 2 sided"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6376",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Generalized linear model",
+              "paramType": "Difference in LS Means",
+              "paramValue": "-0.008587",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.044317",
+              "ciUpperLimit": "0.0271416"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Adherence to Tofacitinib as Assessed by Greater Than or Equal to (>=) 0.8 Proportion of Days Covered (PDC) up to 12 Months From the Index Date",
+          "description": "Adherence was defined as percentage of time with medication on hand. Participants with PDC \\>=0.8 were considered to show high adherence. PDC was defined as number of days covered by arrays for each fill or administration during the denominator periods of 180 days post-index.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56.49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.56"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3584",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4510",
+              "pValueComment": "To better assess true effect of treatment,analysis with participant's baseline characteristic was adjusted to remove influence on the outcome measure.",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.1077385",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.8489444",
+              "ciUpperLimit": "1.4454238"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Percentage of Participants Who Showed Persistence for Tofacitinib up to 12 Months From the Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 12 months from index date (Index date: date of first claim for tofacitinib by participants to insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51.62"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "45.65"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0624",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Percentage of Participants Who Showed Persistence for Tofacitinib up to 6 Months From the Index Date",
+          "description": "Treatment persistence with tofacitinib was defined as participants who did not switch to another advanced therapy or discontinued tofacitinib. Discontinuation of tofacitinib was defined as at least 60 days gap between the run out of prior tofacitinib prescription and subsequent treatment. The run out date was the prescription fill date + day supply -1.",
+          "populationDescription": "Analysis was performed on all participants included in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Up to 6 months from index date (Index date: date of first claim for tofacitinib made by participants to their insurance provider during identification period of 2.6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tofacitinib Modified Release (MR)",
+              "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            },
+            {
+              "id": "OG001",
+              "title": "Tofacitinib Immediate Release (IR)",
+              "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "678"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "379"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "68.14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "70.18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4914",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "description": "Due to the nature of claims data base from which these data where queried, no adverse events were collected in this study.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Tofacitinib Modified Release (MR)",
+          "description": "Participants with Rheumatoid Arthritis (RA) who were treated with Tofacitinib 11 milligram (mg) MR tablet, orally, once daily, between 01 March 2016 and 31 October 2018 (identification period) and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "Tofacitinib Immediate Release (IR)",
+          "description": "Participants with RA who were treated with Tofacitinib 5 mg IR tablet orally, twice daily, between 01 March 2016 and 31 October 2018 and enrolled in a commercial or Medicare insurance plan for 1 year before the index date to at least 1 year after the index date, were included in this study. Index date was the date of first claim for 30-day supply of tofacitinib by participants to their insurance provider during identification period. Data collected retrospectively for participants included in this study.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days. Investigator will postpone single center publications until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results."
+      },
+      "pointOfContact": {
+        "title": "Pfizer ClinicalTrials.gov Call Center",
+        "organization": "Pfizer Inc.",
+        "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+        "phone": "1-800-718-1021"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2019-03-27",
+          "uploadDate": "2020-03-26T17:19",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1982959
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001172",
+          "term": "Arthritis, Rheumatoid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        },
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

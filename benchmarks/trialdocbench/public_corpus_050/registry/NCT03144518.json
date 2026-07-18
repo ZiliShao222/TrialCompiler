@@ -1,0 +1,3206 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03144518",
+      "orgStudyIdInfo": {
+        "id": "17039"
+      },
+      "organization": {
+        "fullName": "University of Nottingham",
+        "class": "OTHER"
+      },
+      "briefTitle": "Mood and Influenza Vaccine Response: A Feasibility Trial",
+      "officialTitle": "A Feasibility Trial of a Brief Positive Affect Intervention to Improve the Effectiveness of Influenza Vaccine Response in Older Adults."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-11-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-05-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-04-28",
+      "studyFirstSubmitQcDate": "2017-05-05",
+      "studyFirstPostDateStruct": {
+        "date": "2017-05-08",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2019-01-31",
+      "resultsFirstSubmitQcDate": "2019-04-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-07-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-04-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-07-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Nottingham",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Northumbria University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a 2-arm, parallel, randomised controlled feasibility trial of a brief video intervention designed to induce positive affect (mood) in older adults in primary care settings prior to the receipt of influenza vaccination. Participants will be randomised into two conditions: experimental and active control. In the experimental condition, participants will view the approximately 15 minute long intervention video immediately prior to vaccination. In the active control condition, participants will view a matched video that is designed to be mood neutral. Pre-and-post positive affect levels will be assessed by self-report questionnaires. Immune response to the intervention and vaccination responses will be assessed in saliva and serum samples respectively.\n\nThe objectives of the study are to assess the impact of the intervention on mood, immune function, and antibody response to influenza vaccination in older adults. This feasibility trial will also allow data collection on exploring recruitment, attrition, intervention engagement, and practicality of collecting clinical data available through electronic records to inform the design of a future definitive trial.",
+      "detailedDescription": "The Centers for Disease Control (CDC) describe vaccinations as among the 10 most significant health achievements ever documented; and for many conditions they have been an unmitigated success (e.g., smallpox). There are, however, several populations in whom vaccine effectiveness is far from optimal. These populations are typically contending with underlying immune impairment by virtue of their advancing age and/or the presence of co-existing diseases (e.g., cancer). As a consequence, vaccines are most likely to fail those whom they most seek to benefit: individuals at the greatest risk of ill health.\n\nThis has prompted research into treatments that enhance immune function prior to vaccination, so called vaccine adjuvants. The aim of such treatments is to optimise the response the immune system makes to the vaccine antigens and, in so doing, increase the likelihood that the vaccine confers protection.\n\nOne area in which there has been interest is in the potential for developing psycho-behavioural vaccine adjuvants. There is considerable evidence that psychological and behavioural factors can modulate immunity; with diet, physical activity, stress, affect, sleep and social support all associated with immune response.\n\nThe investigators recently conducted a longitudinal observational cohort study of multiple psychological (positive affect, negative affect, stress) and behavioural (physical activity, sleep, diet) influences on short and long-term antibody responses to influenza vaccination in older adults. This identified positive affect as the most influential psycho-behavioural factor on influenza-specific antibody responses, independently predicting both short and long-term antibody responses in the weakest immunogenic strain above and beyond known demographic and clinical determinants. Intriguingly, the investigators also observed preliminary evidence that positive affect on the day of vaccination was more predictive of antibody responses following vaccination than mood measured over the longer period surrounding vaccination. As influenza-specific antibodies are a well-established correlate of protection from serologically and clinically diagnosed influenza incidence, these data suggest that increasing positive affect immediately prior to vaccination could be used as a non-pharmacological vaccine adjuvant.\n\nThrough a series of systematic steps, including focus groups and interviews with older adults and health care professionals, the investigators have recently developed a brief, positive affect intervention - designed to improve short-term mood in older adults and be deliverable within primary care. It is hoped this could act as a psycho-behavioural adjuvant to enhance poor responses to influenza vaccination in older adults. Before performing a definitive trial of the intervention's effectiveness, a feasibility trial is needed for number of reasons:\n\n1. To assess whether our intervention can enhance positive affect (mood)\n2. To collect information regarding likely recruitment, effect sizes, and attrition rates for informing the necessary size of a larger definitive trial\n3. To examine the practicality and acceptability of delivering the intervention in routine primary care settings\n4. To explore the feasibility of obtaining outcome data on healthcare usage for a large scale trial (hospitalisation, GP visits for flu-like symptoms from medical records)\n\nIn line with the above, the investigators will be conducting a 2-arm, parallel, randomised controlled feasibility trial of a brief video intervention designed to induce positive affect (mood) in older adults in primary care settings prior to the receipt of influenza vaccination. Participants will be randomised into two conditions: experimental and active control. In the experimental condition, participants will view the approximately 15 minute long intervention video immediately prior to vaccination. In the active control condition, participants will view a matched video that is designed to be mood neutral. Pre-and-post positive affect levels will be assessed by self-report questionnaires. Immune response to the intervention and vaccination responses will be assessed in saliva (pre/post intervention) and serum samples (pre/4 weeks post-vaccination/16weeks post-vaccination) respectively."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Vaccination; Infection"
+      ],
+      "keywords": [
+        "Positive Affect",
+        "Positive Mood",
+        "Influenza Vaccination",
+        "Vaccination",
+        "Randomised Controlled Trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 106,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.",
+          "interventionNames": [
+            "Other: Positive Affect Intervention",
+            "Biological: Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+          ]
+        },
+        {
+          "label": "Active Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.",
+          "interventionNames": [
+            "Other: Neutral Control Intervention",
+            "Biological: Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Positive Affect Intervention",
+          "description": "See Previous Description",
+          "armGroupLabels": [
+            "Experimental"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Neutral Control Intervention",
+          "description": "See Previous Description",
+          "armGroupLabels": [
+            "Active Control"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)",
+          "description": "Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)",
+          "armGroupLabels": [
+            "Active Control",
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mood Outcome Scores [Multiple]",
+          "description": "Affective Slider (Betella \\& Verschure, 2016), consists of two single item visual analogue scales. Scores for each are presented as a value from 0 to 100 with higher scores indicating greater pleasure (VAS-Valence) and arousal (VAS-Arousal).\n\nPositive and Negative Affect Schedule (Watson et al., 1988). Positive and negative affect subscales were created by summing the scores of positive and negative adjectives respectively. For each sub scale, minimum score = 10, maximum score = 50 with higher scores indicating greater positive and negative affect respectively.\n\nPictorial scale of positive affect (unvalidated, internally developed). Participants completed a single-item photo-based measure of positive affect tailored for older adults. Participants were presented with six groups of images depicting varying degrees of positive affect, and indicate which best reflected how they felt at that moment. Minumum score 1, maximum score 6, higher scores indicate greater positive affect.",
+          "timeFrame": "Baseline, Immediately Post Intervention (i.e, 15 minutes post-baseline)."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Recruitment",
+          "description": "Recruitment rates to inform a future definitive trial",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Attrition",
+          "description": "Attrition - to inform a future definitive trial",
+          "timeFrame": "4 weeks (post-vaccination), 16 Weeks (post-vaccination)"
+        },
+        {
+          "measure": "Secretory IgA Response",
+          "description": "Secretory IgA levels measured in saliva samples via ELISA. This is a non-specific measure of immunological response",
+          "timeFrame": "Baseline, Immediately Post Intervention (i.e, 15 minutes post-baseline)."
+        },
+        {
+          "measure": "Vaccine Specific IgG Response",
+          "description": "IgG levels against the 4 vaccine strains measured via ELISA.\n\nValues represent equivalent ug/ml based on diluted sample absorbance value interpolation against a standard IgG curve, multiplied by the serum dilution score (i.e., 4000).",
+          "timeFrame": "4 weeks (post-vaccination), 16 Weeks (post-vaccination)"
+        },
+        {
+          "measure": "Health Care Utilization",
+          "description": "Via medical records, we assessed health care usage potentially attributable to flu-like symptoms (e.g., GP visits, hospitalisation, antibiotic prescription) during the 6 months post-vaccination",
+          "timeFrame": "Baseline to 6 months post-vaccination"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and Females aged 65-85 years (inclusive)\n* Received influenza vaccination for the 2016/17 season\n* Eligible to receive 2017/18 influenza vaccination as part of usual care\n* Ability to give informed consent\n\nExclusion Criteria:\n\n* Males and Females aged less than 65 or over 85 years (exclusive)\n* Did not receive influenza vaccination for the 2016/17 season\n* Ineligible to receive 2017/18 influenza vaccination as part of usual care\n* Unable to provide informed consent\n\nDeemed by health care provider to be:\n\n* Too physically frail to participate\n* Diagnosed with dementia or other cognitive condition which would make participation difficult\n* Insufficient command of English language\n* Influenza vaccination contraindicated\n* Sufficiently impaired of hearing or vision that exposure to the intervention or control video content as intended would be compromised\n* Those for whom the collection of blood samples is contraindicated.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Nottingham",
+          "city": "Nottingham",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.9536,
+            "lon": -1.15047
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18297169",
+          "type": "BACKGROUND",
+          "citation": "Andre FE, Booy R, Bock HL, Clemens J, Datta SK, John TJ, Lee BW, Lolekha S, Peltola H, Ruff TA, Santosham M, Schmitt HJ. Vaccination greatly reduces disease, disability, death and inequity worldwide. Bull World Health Organ. 2008 Feb;86(2):140-6. doi: 10.2471/blt.07.040089."
+        },
+        {
+          "pmid": "15733718",
+          "type": "BACKGROUND",
+          "citation": "Jefferson T, Smith S, Demicheli V, Harnden A, Rivetti A, Di Pietrantonj C. Assessment of the efficacy and effectiveness of influenza vaccines in healthy children: systematic review. Lancet. 2005 Feb 26-Mar 4;365(9461):773-80. doi: 10.1016/S0140-6736(05)17984-7."
+        },
+        {
+          "pmid": "19087431",
+          "type": "BACKGROUND",
+          "citation": "Calder PC, Jackson AA. Undernutrition, infection and immune function. Nutr Res Rev. 2000 Jun;13(1):3-29. doi: 10.1079/095442200108728981."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Simpson R, Spielmann G. Exercise and Immunosenescence. In: Bosch J, Phillips A, Lord J, eds. Immunosenescence. New York: : Springer Science 2013. 159-78."
+        },
+        {
+          "pmid": "21697806",
+          "type": "BACKGROUND",
+          "citation": "Centers for Disease Control and Prevention (CDC). Ten great public health achievements--worldwide, 2001-2010. MMWR Morb Mortal Wkly Rep. 2011 Jun 24;60(24):814-8."
+        },
+        {
+          "pmid": "15250815",
+          "type": "BACKGROUND",
+          "citation": "Segerstrom SC, Miller GE. Psychological stress and the human immune system: a meta-analytic study of 30 years of inquiry. Psychol Bull. 2004 Jul;130(4):601-30. doi: 10.1037/0033-2909.130.4.601."
+        },
+        {
+          "pmid": "16351329",
+          "type": "BACKGROUND",
+          "citation": "Pressman SD, Cohen S. Does positive affect influence health? Psychol Bull. 2005 Nov;131(6):925-971. doi: 10.1037/0033-2909.131.6.925."
+        },
+        {
+          "pmid": "15173834",
+          "type": "BACKGROUND",
+          "citation": "Bryant PA, Trinder J, Curtis N. Sick and tired: Does sleep have a vital role in the immune system? Nat Rev Immunol. 2004 Jun;4(6):457-67. doi: 10.1038/nri1369. No abstract available."
+        },
+        {
+          "pmid": "16758315",
+          "type": "BACKGROUND",
+          "citation": "Uchino BN. Social support and health: a review of physiological processes potentially underlying links to disease outcomes. J Behav Med. 2006 Aug;29(4):377-87. doi: 10.1007/s10865-006-9056-5. Epub 2006 Jun 7."
+        },
+        {
+          "pmid": "20210985",
+          "type": "BACKGROUND",
+          "citation": "Coudeville L, Bailleux F, Riche B, Megas F, Andre P, Ecochard R. Relationship between haemagglutination-inhibiting antibody titres and clinical protection against influenza: development and application of a bayesian random-effects model. BMC Med Res Methodol. 2010 Mar 8;10:18. doi: 10.1186/1471-2288-10-18."
+        },
+        {
+          "pmid": "31380684",
+          "type": "DERIVED",
+          "citation": "Ayling K, Fairclough L, Buchanan H, Wetherell MA, Vedhara K. Mood and influenza vaccination in older adults: A randomized controlled trial. Health Psychol. 2019 Nov;38(11):984-996. doi: 10.1037/hea0000786. Epub 2019 Aug 5."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Note: 3 Participants were not randomised to condition, as they did not attend primary session.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Experimental",
+          "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+        },
+        {
+          "id": "FG001",
+          "title": "Active Control",
+          "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Primary Outcome (Mood)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "51"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "51"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4 Weeks Post-Vaccination",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "51"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "51"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "51"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "16 Week Post-Vaccination",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "51"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "49"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "49"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Experimental",
+          "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+        },
+        {
+          "id": "BG001",
+          "title": "Active Control",
+          "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "52"
+            },
+            {
+              "groupId": "BG001",
+              "value": "51"
+            },
+            {
+              "groupId": "BG002",
+              "value": "103"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "populationDescription": "Missing Data count n=1",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72.6",
+                      "spread": "4.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73.3",
+                      "spread": "5.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "72.95",
+                      "spread": "4.87"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "99"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Asian",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Black",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Did not Respond",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Marital Status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Married",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "63"
+                    }
+                  ]
+                },
+                {
+                  "title": "Single, never married",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Separated/divorced",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Widowed",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Cohabiting",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Did not Respond",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Highest Level of Education",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "School",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "77"
+                    }
+                  ]
+                },
+                {
+                  "title": "Undergraduate",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Postgraduate",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "Did not respond",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Independent Living",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "96"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Highest Ever Total Household Income",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "≤ £14,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "£15,000-£24,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "£25,000-£34,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "£35,000-£49,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "£50,000-£74,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "£75,000-£99,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "≥ £100,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Did Not Respond",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Current Smoker",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Total Health Status",
+          "description": "Health Status Questionnaire 2.0 (Barry, Kaiser, \\& Atwood, 2007). Responses are weighted and summed as per published guidelines in above reference to calculate a total perceived health status score ranging from a minimum of 0 to a maximum of 800, with higher scores indicating greater perceived health.",
+          "populationDescription": "Missing Data Count: n=6",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "97"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "555.7",
+                      "spread": "175.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "555.1",
+                      "spread": "169.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "555.41",
+                      "spread": "171.62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trait Positive Affect",
+          "description": "Trait positive affect was measured using positive affect sub scale from the Positive and Negative Affect Schedule (Watson et al., 1988). Positive subscale (α = .92) was created by summing the scores of positive adjectives. Minimum score 10, Maximum Score 50, with higher scores indicating greater trait positive affect.",
+          "populationDescription": "Missing Data Count: n=8",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "95"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "33.5",
+                      "spread": "8.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33.8",
+                      "spread": "8.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33.65",
+                      "spread": "8.33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trait Optimism",
+          "description": "Trait optimism was measured using the Revised Life Orientation Test (Scheier, Carver, \\& Bridges, 1994). Six items are used to compute a trait optimism score (α = .73) in line with published guidelines. Minimum Score 0, Maximum Score 24 with higher scores indicating with greater optimism.",
+          "populationDescription": "Missing Data Count: n=7",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "96"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16.0",
+                      "spread": "4.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15.3",
+                      "spread": "4.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15.68",
+                      "spread": "4.61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trait Emotional Reactivity",
+          "description": "Trait emotional reactivity was measured using the 21-item Emotional Reactivity Scale (Nock, Wedig, Holmberg, \\& Hooley, 2008). Items scores are summed (α = .96). Minimum score 21, maximum score 105, with greater scores indicating greater trait emotional reactivity.",
+          "populationDescription": "Missing Data Count: n=8",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "95"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "39.9",
+                      "spread": "17.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "41.3",
+                      "spread": "16.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40.59",
+                      "spread": "16.52"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Vaccination IgG",
+          "description": "Values represent equivalent ug/ml based on diluted sample absorbance value interpolation against a standard IgG curve, multiplied by the serum dilution score (i.e., 4000).",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "ug/ml",
+          "classes": [
+            {
+              "title": "A/Michigan",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "187.2",
+                      "spread": "112.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "156.6",
+                      "spread": "103.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "172.05",
+                      "spread": "108.47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A/Hong-Kong",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "238.0",
+                      "spread": "119.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "241.0",
+                      "spread": "158.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "239.50",
+                      "spread": "139.42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Brisbane",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "107.0",
+                      "spread": "54.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "118.9",
+                      "spread": "78.7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "112.90",
+                      "spread": "67.35"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "B/Phuket",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "144.4",
+                      "spread": "85.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "183.2",
+                      "spread": "146.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "163.61",
+                      "spread": "117.93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trait Negative Affect",
+          "description": "Trait negative affect was measured using the negative affect sub scale of Positive and Negative Affect Schedule (Watson et al., 1988). Negative affect subscales (α = .92) was created by summing the scores of negative adjectives. Minimum score 10, maximum score 50 with higher scores indicating greater trait negative affect.",
+          "populationDescription": "Missing Data Count n=11",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15.2",
+                      "spread": "6.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15.5",
+                      "spread": "6.4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15.35",
+                      "spread": "6.52"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Mood Outcome Scores [Multiple]",
+          "description": "Affective Slider (Betella \\& Verschure, 2016), consists of two single item visual analogue scales. Scores for each are presented as a value from 0 to 100 with higher scores indicating greater pleasure (VAS-Valence) and arousal (VAS-Arousal).\n\nPositive and Negative Affect Schedule (Watson et al., 1988). Positive and negative affect subscales were created by summing the scores of positive and negative adjectives respectively. For each sub scale, minimum score = 10, maximum score = 50 with higher scores indicating greater positive and negative affect respectively.\n\nPictorial scale of positive affect (unvalidated, internally developed). Participants completed a single-item photo-based measure of positive affect tailored for older adults. Participants were presented with six groups of images depicting varying degrees of positive affect, and indicate which best reflected how they felt at that moment. Minumum score 1, maximum score 6, higher scores indicate greater positive affect.",
+          "populationDescription": "Missing Data for some outcome measures - i.e., incomplete scale",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, Immediately Post Intervention (i.e, 15 minutes post-baseline).",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control",
+              "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "52"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Post-Intervention VAS-Valence",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "87.4",
+                      "spread": "15.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "79.8",
+                      "spread": "20.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post-Intervention VAS-Arousal",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83.7",
+                      "spread": "16.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "79.8",
+                      "spread": "20.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post-Intervention Pictorial Scale",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.7",
+                      "spread": "1.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.0",
+                      "spread": "1.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post-Intervention PANAS Positive Affect",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.0",
+                      "spread": "8.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35.0",
+                      "spread": "7.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post-Intervention PANAS Negative Affect",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.1",
+                      "spread": "3.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11.4",
+                      "spread": "2.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pre-Intervention VAS-Valence",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.5",
+                      "spread": "19.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "80.5",
+                      "spread": "18.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pre-Intervention VAS-Arousal",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.9",
+                      "spread": "19.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "80.9",
+                      "spread": "20.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pre-Intervention Pictorial",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.7",
+                      "spread": "1.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.0",
+                      "spread": "1.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pre-Intervention PANAS Postive Affect",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.3",
+                      "spread": "7.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34.6",
+                      "spread": "35.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pre-Intervention PANAS Negative Affect",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.3",
+                      "spread": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.3",
+                      "spread": "4.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "VAS-Valence Scores",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".005",
+              "pValueComment": "ANCOVA, controlling for pre-intervention levels",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "ANCOVA, controlling for pre-intervention levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".079",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".014",
+              "ciUpperLimit": ".173"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "VAS-Arousal Scores",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".047",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-intervention scores",
+              "paramType": "Partial Eta-Squared",
+              "paramValue": ".04",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".120"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Pictorial Scale",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".002",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-intervention levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".096",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".022",
+              "ciUpperLimit": ".196"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "PANAS Positive Affect Scores",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".697",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for baseline levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".002",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".036"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "PANAS Negative Affect Scores",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".462",
+              "statisticalMethod": "ANCOVA",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".005",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".053"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Recruitment",
+          "description": "Recruitment rates to inform a future definitive trial",
+          "populationDescription": "Total Population that received study Invitation",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Whole Trial",
+              "description": "Recruitment Details are presented for trial as a whole"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1131"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Expressed Interest, but not consented",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    }
+                  ]
+                },
+                {
+                  "title": "Consented, but not randomised",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Randomised",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                },
+                {
+                  "title": "Did Not Express Interest",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1002"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Attrition",
+          "description": "Attrition - to inform a future definitive trial",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "4 weeks (post-vaccination), 16 Weeks (post-vaccination)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control",
+              "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "52"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Attendance at 4 Week Follow-up",
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Attendance at 16 Week Follow up",
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Secretory IgA Response",
+          "description": "Secretory IgA levels measured in saliva samples via ELISA. This is a non-specific measure of immunological response",
+          "populationDescription": "Missing Data Count n=15",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Flow Rate (ug/min)",
+          "timeFrame": "Baseline, Immediately Post Intervention (i.e, 15 minutes post-baseline).",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control",
+              "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "42"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Pre-Intervention Flow Rate",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81.0",
+                      "spread": "76.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "94.1",
+                      "spread": "94.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post-Intervention Flow Rate",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "116.7",
+                      "spread": "107.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "144.7",
+                      "spread": "142.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".806",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-intervention levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".001",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".031"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Vaccine Specific IgG Response",
+          "description": "IgG levels against the 4 vaccine strains measured via ELISA.\n\nValues represent equivalent ug/ml based on diluted sample absorbance value interpolation against a standard IgG curve, multiplied by the serum dilution score (i.e., 4000).",
+          "populationDescription": "Missing Data Count: n=1 for 4 weeks post-vaccination, n=5 for 16 weeks post-vaccination",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ug/ml",
+          "timeFrame": "4 weeks (post-vaccination), 16 Weeks (post-vaccination)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control",
+              "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "52"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "4 Weeks Post-Vaccination A/Michigan",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "243.28",
+                      "spread": "134.52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "208.81",
+                      "spread": "122.42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "4 Weeks Post-Vaccination A/Hong-Kind",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "301.68",
+                      "spread": "138.88"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "284.96",
+                      "spread": "138.64"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "4 Weeks Post-Vaccination B/Brisbane",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "126.30",
+                      "spread": "56.36"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "127.25",
+                      "spread": "63.93"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "4 Weeks Post-Vaccination B/Phuket",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "210.30",
+                      "spread": "123.96"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "229.57",
+                      "spread": "135.63"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "16 Weeks Post-Vaccination A/Michigan",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "221.69",
+                      "spread": "131.90"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "203.03",
+                      "spread": "119.41"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "16 Weeks Post-Vaccination A/Hong-Kong",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "283.67",
+                      "spread": "126.72"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "288.75",
+                      "spread": "180.18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "16 Weeks Post-Vaccination B/Brisbane",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139.49",
+                      "spread": "56.40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "144.47",
+                      "spread": "76.77"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "16 Weeks Post-Vaccination B/Phuket",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "249.10",
+                      "spread": "124.90"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "271.70",
+                      "spread": "176.16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "4 Weeks A/Hong-Kong",
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".438",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for Pre-Vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".006",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".055"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A/Hong-Kong 16 Weeks Post-Vaccination",
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".516",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".004",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".051"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A/Michigan 4 weeks post-vaccination",
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".671",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".002",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".038"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A/Michigan 16 weeks post-vaccination",
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".980",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".000",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".000"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "B/Brisbane 4 weeks post-vaccination",
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".409",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".007",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".057"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "B/Brisbane 16 weeks post-vaccination",
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".377",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".008",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".062"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "B/Phuket 4 weeks post-vaccination",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": ".892",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".000",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".008"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "nonInferiorityComment": "Note: The study was not powered a priori to detect significant differences in these outcomes.",
+              "pValue": ".426",
+              "statisticalMethod": "ANCOVA",
+              "statisticalComment": "Controlling for pre-vaccination levels",
+              "paramType": "Partial Eta Squared",
+              "paramValue": ".007",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": ".000",
+              "ciUpperLimit": ".058"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Health Care Utilization",
+          "description": "Via medical records, we assessed health care usage potentially attributable to flu-like symptoms (e.g., GP visits, hospitalisation, antibiotic prescription) during the 6 months post-vaccination",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline to 6 months post-vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control",
+              "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "52"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "GP Consultations",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nurse Consultations",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Out of Hours/Telephone Conversations",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Emergency Department Consultations",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Antibiotic Prescriptions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Additional Investigations (e.g., Xray)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "During Primary Study Period - Baseline to 16 weeks post-vaccination.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Experimental",
+          "description": "Participants in the experimental condition will view a video designed to induce positive affect. This includes 3 short comedy clips (fork handles sketch, the two Ronnie's; A room with a view - faulty towers; Tim Vine Live stand-up extract), uplifting music (Jailhouse Rock - Elvis Presley; Happy Together - The Turtles), jokes and positive imagery. The content of the intervention has been informed by patient and public involvement, focus groups with older adults, and pilot testing.\n\nPositive Affect Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 52,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 52,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 52
+        },
+        {
+          "id": "EG001",
+          "title": "Active Control",
+          "description": "Participants in the control condition will view a video of matched length to the experimental condition video, but not designed to induce mood change. This includes short documentary clips (a pride in pencils; model railways, lecture extract on hydration), neutral music and images.\n\nNeutral Control Intervention: See Previous Description\n\nNorthern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care): Northern Hemisphere Influenza Vaccine 2017/18 (Delivered as part of Standard Care)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 51,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 51,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 51
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study did not include a usual care comparator. Blinding potentially compromised by common reactions of participants to the positive mood intervention (e.g., laughter). Demand characteristics. Lack of ethnic diversity within sample"
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr Kieran Ayling",
+        "organization": "University of Nottingham",
+        "email": "kieran.ayling@nottingham.ac.uk",
+        "phone": "+44 1158466908"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-08-21",
+          "uploadDate": "2019-01-29T06:15",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 663913
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D007251",
+          "term": "Influenza, Human"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D009976",
+          "term": "Orthomyxoviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D036801",
+          "term": "Parturition"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011247",
+          "term": "Pregnancy"
+        },
+        {
+          "id": "D012098",
+          "term": "Reproduction"
+        },
+        {
+          "id": "D055703",
+          "term": "Reproductive Physiological Phenomena"
+        },
+        {
+          "id": "D012101",
+          "term": "Reproductive and Urinary Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

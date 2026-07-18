@@ -1,0 +1,2604 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02950467",
+      "orgStudyIdInfo": {
+        "id": "15-17825"
+      },
+      "organization": {
+        "fullName": "University of California, San Francisco",
+        "class": "OTHER"
+      },
+      "briefTitle": "Psilocybin-assisted Group Therapy for Demoralization in Long-term AIDS Survivors",
+      "officialTitle": "Psilocybin-assisted Group Therapy for Demoralization in Long-term AIDS Survivors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-01-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-10-26",
+      "studyFirstSubmitQcDate": "2016-10-27",
+      "studyFirstPostDateStruct": {
+        "date": "2016-11-01",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-09-21",
+      "resultsFirstSubmitQcDate": "2020-12-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-01-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-12-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-01-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Joshua Woolley",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "University of California, San Francisco"
+      },
+      "leadSponsor": {
+        "name": "Joshua Woolley",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Heffter Research Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "RiverStyx Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Usona Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "Stupski Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether psilocybin-assisted group psychotherapy is a safe and feasible treatment for demoralization in long-term AIDS survivors (LTAS).",
+      "detailedDescription": "This study is an open-label mixed-methods pilot study of an individual oral psilocybin drug session combined with ten sessions of an evidence-based, manualized brief group psychotherapy for existential distress in palliative care patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Distress",
+        "Depression",
+        "Grief"
+      ],
+      "keywords": [
+        "HIV/AIDS",
+        "Demoralization",
+        "Psilocybin",
+        "Group therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group therapy plus psilocybin",
+          "type": "EXPERIMENTAL",
+          "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.",
+          "interventionNames": [
+            "Drug: Psilocybin",
+            "Behavioral: Modified brief Supportive Expressive Group Therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Psilocybin",
+          "description": "One individual oral psilocybin treatment session",
+          "armGroupLabels": [
+            "Group therapy plus psilocybin"
+          ],
+          "otherNames": [
+            "4-phosphoryloxy-N,N-dimethyltryptamine",
+            "Indocybin"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Modified brief Supportive Expressive Group Therapy",
+          "description": "Ten sessions of twice-weekly manualized group therapy",
+          "armGroupLabels": [
+            "Group therapy plus psilocybin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants Who Experienced Treatment-related Adverse Events as Assessed by NIH Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.0",
+          "description": "Full details of adverse event data are in the Adverse Events module of this ClinicalTrials.gov entry.\n\nAdverse events were assessed at every study visit by patient interview. During medication visits, adverse events were also assess by vitals sign monitoring, patient self-report, and adverse events observed by clinicians.",
+          "timeFrame": "Enrollment to 3-month follow up, about 5 months"
+        },
+        {
+          "measure": "Subject Recruitment and Retention",
+          "description": "Two therapy groups of at least 4 subjects each will complete the study",
+          "timeFrame": "Duration of study, about 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change From Baseline in Demoralization Scale-II at End-of-treatment",
+          "description": "Demoralization self-report measure. Minimum = 0. Maximum = 32. Higher scores means a worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in Demoralization Scale-II at 3-month Follow-up",
+          "description": "Demoralization self-report measure. Minimum = 0. Maximum = 32. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in Inventory of Complicated Grief-Revised at End-of-treatment",
+          "description": "Complicated Grief self-report measure. Minimum = 0, Maximum = 76. Higher scores mean worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in Inventory of Complicated Grief at 3-month Follow-up",
+          "description": "Complicated Grief self-report measure. Minimum = 0, Maximum = 76. Higher scores mean worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in Center for Epidemiologic Studies Depression Scale-Revised at End-of-treatment",
+          "description": "Depression self-report measure. Minimum = 0. Maximum = 60. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in Center for Epidemiologic Studies Depression Scale-Revised at 3-month Follow-up",
+          "description": "Depression self-report measure. Minimum = 0. Maximum = 60. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change in Average Score on Subscales of Group Questionnaire Pre-drug vs Post-drug",
+          "description": "The Group Questionnaire is a self-report measure with three sub-scales that measure Positive Bonding, Positive Working and Negative Relationship dimensions of the relationships at 3 levels: between group members, between group members and group therapists, and between group members and the group as a whole. Each subscale score is calculated by summation of the ratings across all three levels for each subscale. Positive Bonding scores range from 13 to 91 with higher scores indicating a better outcome. Positive Working scores range 8 to 56 with higher scores indicating a better outcome. Negative Relationship scores range 9 to 63 with higher scores indicating worse outcomes.",
+          "timeFrame": "Mean scores averaged over 2 weeks pre-medication compared to 3 weeks post-medication."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change From Baseline in PTSD Checklist 5 at End-of-treatment",
+          "description": "PTSD self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in PTSD Checklist 5 at 3-month Follow-up",
+          "description": "PTSD self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in State-Trait Anxiety Inventory (State) at End-of-treatment",
+          "description": "State anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in State-Trait Anxiety Inventory (State) at 3-month Follow-up",
+          "description": "State anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in State-Trait Anxiety Inventory (Trait) at End-of-treatment",
+          "description": "Trait anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in State-Trait Anxiety Inventory (Trait) at 3-month Follow-up",
+          "description": "Trait anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in HIV and Abuse Related Shame Inventory at End-of-treatment",
+          "description": "HIV-related shame self-report measure. Minimum = 0. Maximum = 52. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in HIV and Abuse Related Shame Inventory at 3-month Follow-up",
+          "description": "HIV-related shame self-report measure. Minimum = 0. Maximum = 52. Higher scores mean a worse outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in Experiences in Closer Relationships-M16 (Anxiety) at End-of-treatment",
+          "description": "Self-report measure of attachment anxiety. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in Experiences in Closer Relationships-M16 (Anxiety) at 3-month Follow-up",
+          "description": "Self-report measure of attachment anxiety. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in Experiences in Closer Relationships-M16 (Avoidance) at End-of-treatment",
+          "description": "Self-report measure of attachment avoidance. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in Experiences in Closer Relationships-M16 (Avoidance) at 3-month Follow-up",
+          "description": "Self-report measure of attachment avoidance. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in McGill Quality of Life Questionnaired-Revised (Overall) at End-of-treatment",
+          "description": "Self-report quality of life measure. Only item A) Overall quality of life. Minimum = 0 (Very bad). Maximum = 10 (Excellent). Higher scores mean better outcomes.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in McGill Quality of Life Questionnaire-Revised (Overall) at 3-month Follow-up",
+          "description": "Self-report quality of life measure. Only item A) Overall quality of life. Minimum = 0 (Very bad). Maximum = 10 (Excellent). Higher scores mean better outcomes.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        },
+        {
+          "measure": "Change From Baseline in Antiretroviral Medication Adherence Scale at End-of-treatment",
+          "description": "Self-report last-month antiviral medication adherence. Minimum = 0%. Maximum = 100%. Higher scores mean a better outcome.",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)"
+        },
+        {
+          "measure": "Change From Baseline in Antiretroviral Medication Adherence Scale at 3-month Follow-up",
+          "description": "Self-report last-month antiviral medication adherence. Minimum = 0%. Maximum = 100%. Higher scores mean a better outcome.",
+          "timeFrame": "Baseline and 3-month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criterion:\n\n* Older individuals who are long-term AIDS survivors and suffer from moderate-to-severe demoralization.\n\nExclusion Criteria:\n\n* A physical, neurological or cognitive condition that makes participating in the study unsafe or unfeasible.\n* Regular psychotropic medication use.\n* Personal or family history of serious mental illness.\n* Severe depression requiring immediate standard-of-care treatment.\n* Exclusion by the clinical judgment of the study investigators.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Joshua Woolley, MD,PhD",
+          "affiliation": "University of California, San Francisco",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Brian Anderson, MD,MSc",
+          "affiliation": "University of California, San Francisco",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of California, San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33150319",
+          "type": "DERIVED",
+          "citation": "Anderson BT, Danforth A, Daroff PR, Stauffer C, Ekman E, Agin-Liebes G, Trope A, Boden MT, Dilley PJ, Mitchell J, Woolley J. Psilocybin-assisted group therapy for demoralized older long-term AIDS survivor men: An open-label safety and feasibility pilot study. EClinicalMedicine. 2020 Sep 24;27:100538. doi: 10.1016/j.eclinm.2020.100538. eCollection 2020 Oct."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "91 study candidates were screened over the phone, of which 37 were eligible for in-person enrollment evaluations, of which 30 attended an in-person enrollment evaluation and were consented to the study. 18 candidates were found to be eligible for the study, all of whom enrolled in the trial and initiated treatment.",
+      "recruitmentDetails": "Participants were recruited from the community 17 July 2017 to 24 August 2018 in the San Francisco Bay Area.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Group Therapy Plus Psilocybin",
+          "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Open-label Treatment",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "1 participant completed study period but missed some visits due to an adverse event (AE).",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3-month Follow-up",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "All participants completed the safety follow-up assessment, but not all completed outcomes measures.",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Group Therapy Plus Psilocybin",
+          "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "18"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59.2",
+                      "spread": "4.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Year of HIV/AIDS/GRID Diagnosis",
+          "description": "HIV = Human immunodeficiency virus; AIDS = Acquired immunodeficiency syndrome; GRID = Gay-related immunodeficiency",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1988",
+                      "spread": "4.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Palliative Performance Scale v2.0",
+          "description": "This clinician-rated scale reports a total score ranging from 0% (Death) to 100% (Full ambulation, normal activity and work, full self-care, etc). Higher scores indicate better performance.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "92.8",
+                      "spread": "11.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Civil status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Single",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Married/Partnered",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Divorced/Separated",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Less than college",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "College or more",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Annual income",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<$50,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "≥$50,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Patients meeting current SCID-5/SCID-5-PD diagnosis",
+          "description": "These diagnostic categories are not mutually exclusive. Patients may meet criteria for more than one diagnosis at one time.\n\nSCID = Structured Clinical Interview for DSM-5 SCID-PD = Structured Clinical Interview for DSM-5 - Personality Disorders DSM-5 = Diagnostic and Statistical Manual of Mental Disorders",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Generalized anxiety disorder",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Major depressive disorder",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Panic disorder",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Borderline personality disorder",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No SCID-5/SCID-5-PD diagnosis (of those assessed)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PTSD Checklist-5 (PCL-5) >33/80",
+          "description": "PCL-5 is a self-report checklist used to screen for PTSD symptoms. A score \\>33/80 indicates a possible diagnosis of current PTSD. Higher scores indicated worse PTSD severity.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lifetime: People close to you who have died",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "people",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17.5",
+                      "lowerLimit": "7.25",
+                      "upperLimit": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lifetime: Times used a classic psychedelic",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "instances",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5",
+                      "lowerLimit": "3",
+                      "upperLimit": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Years since last used a classic psychedelic",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20",
+                      "lowerLimit": "1",
+                      "upperLimit": "32"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants Who Experienced Treatment-related Adverse Events as Assessed by NIH Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.0",
+          "description": "Full details of adverse event data are in the Adverse Events module of this ClinicalTrials.gov entry.\n\nAdverse events were assessed at every study visit by patient interview. During medication visits, adverse events were also assess by vitals sign monitoring, patient self-report, and adverse events observed by clinicians.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Enrollment to 3-month follow up, about 5 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Subject Recruitment and Retention",
+          "description": "Two therapy groups of at least 4 subjects each will complete the study",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Duration of study, about 24 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Enrolled",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Completed Safety Assessment at End-of-treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Completed Safety Assessment at 3-month follow-up",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Demoralization Scale-II at End-of-treatment",
+          "description": "Demoralization self-report measure. Minimum = 0. Maximum = 32. Higher scores means a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6.67",
+                      "spread": "6.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Demoralization Scale-II at 3-month Follow-up",
+          "description": "Demoralization self-report measure. Minimum = 0. Maximum = 32. Higher scores mean a worse outcome.",
+          "populationDescription": "Intent-to-treat analysis",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.78",
+                      "spread": "6.01"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Inventory of Complicated Grief-Revised at End-of-treatment",
+          "description": "Complicated Grief self-report measure. Minimum = 0, Maximum = 76. Higher scores mean worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6.22",
+                      "spread": "6.74"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Inventory of Complicated Grief at 3-month Follow-up",
+          "description": "Complicated Grief self-report measure. Minimum = 0, Maximum = 76. Higher scores mean worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.06",
+                      "spread": "7.61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Center for Epidemiologic Studies Depression Scale-Revised at End-of-treatment",
+          "description": "Depression self-report measure. Minimum = 0. Maximum = 60. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-8.94",
+                      "spread": "14.73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Center for Epidemiologic Studies Depression Scale-Revised at 3-month Follow-up",
+          "description": "Depression self-report measure. Minimum = 0. Maximum = 60. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-8.89",
+                      "spread": "12.02"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Average Score on Subscales of Group Questionnaire Pre-drug vs Post-drug",
+          "description": "The Group Questionnaire is a self-report measure with three sub-scales that measure Positive Bonding, Positive Working and Negative Relationship dimensions of the relationships at 3 levels: between group members, between group members and group therapists, and between group members and the group as a whole. Each subscale score is calculated by summation of the ratings across all three levels for each subscale. Positive Bonding scores range from 13 to 91 with higher scores indicating a better outcome. Positive Working scores range 8 to 56 with higher scores indicating a better outcome. Negative Relationship scores range 9 to 63 with higher scores indicating worse outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Mean scores averaged over 2 weeks pre-medication compared to 3 weeks post-medication.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Positive Bonding (Overall)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.61",
+                      "spread": "4.77"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Positive Working (Overall)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.87",
+                      "spread": "7.31"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Negative Relationship (Overall)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.69",
+                      "spread": "2.70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in PTSD Checklist 5 at End-of-treatment",
+          "description": "PTSD self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9",
+                      "spread": "11.47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in PTSD Checklist 5 at 3-month Follow-up",
+          "description": "PTSD self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.11",
+                      "spread": "13.81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in State-Trait Anxiety Inventory (State) at End-of-treatment",
+          "description": "State anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.56",
+                      "spread": "9.04"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in State-Trait Anxiety Inventory (State) at 3-month Follow-up",
+          "description": "State anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.06",
+                      "spread": "13.23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in State-Trait Anxiety Inventory (Trait) at End-of-treatment",
+          "description": "Trait anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6.06",
+                      "spread": "5.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in State-Trait Anxiety Inventory (Trait) at 3-month Follow-up",
+          "description": "Trait anxiety self-report measure. Minimum = 0. Maximum = 80. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.39",
+                      "spread": "10.55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in HIV and Abuse Related Shame Inventory at End-of-treatment",
+          "description": "HIV-related shame self-report measure. Minimum = 0. Maximum = 52. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.83",
+                      "spread": "5.23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in HIV and Abuse Related Shame Inventory at 3-month Follow-up",
+          "description": "HIV-related shame self-report measure. Minimum = 0. Maximum = 52. Higher scores mean a worse outcome.",
+          "populationDescription": "intent-to-treat (data capture error for 6 participants)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.25",
+                      "spread": "4.47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in Experiences in Closer Relationships-M16 (Anxiety) at End-of-treatment",
+          "description": "Self-report measure of attachment anxiety. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.78",
+                      "spread": "8.86"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in Experiences in Closer Relationships-M16 (Anxiety) at 3-month Follow-up",
+          "description": "Self-report measure of attachment anxiety. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.33",
+                      "spread": "7.66"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in Experiences in Closer Relationships-M16 (Avoidance) at End-of-treatment",
+          "description": "Self-report measure of attachment avoidance. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.72",
+                      "spread": "6.85"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in Experiences in Closer Relationships-M16 (Avoidance) at 3-month Follow-up",
+          "description": "Self-report measure of attachment avoidance. Minimum = 8. Maximum = 56. Higher scores mean worse outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.06",
+                      "spread": "6.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in McGill Quality of Life Questionnaired-Revised (Overall) at End-of-treatment",
+          "description": "Self-report quality of life measure. Only item A) Overall quality of life. Minimum = 0 (Very bad). Maximum = 10 (Excellent). Higher scores mean better outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.0",
+                      "spread": "1.91"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in McGill Quality of Life Questionnaire-Revised (Overall) at 3-month Follow-up",
+          "description": "Self-report quality of life measure. Only item A) Overall quality of life. Minimum = 0 (Very bad). Maximum = 10 (Excellent). Higher scores mean better outcomes.",
+          "populationDescription": "intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.94",
+                      "spread": "2.44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in Antiretroviral Medication Adherence Scale at End-of-treatment",
+          "description": "Self-report last-month antiviral medication adherence. Minimum = 0%. Maximum = 100%. Higher scores mean a better outcome.",
+          "populationDescription": "intent-to-treat (one participant did not use antiretrovirals)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and end-of-treatment (7 weeks duration)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.71",
+                      "spread": "4.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change From Baseline in Antiretroviral Medication Adherence Scale at 3-month Follow-up",
+          "description": "Self-report last-month antiviral medication adherence. Minimum = 0%. Maximum = 100%. Higher scores mean a better outcome.",
+          "populationDescription": "intent-to-treat (one participant did not use antiretrovirals)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 3-month follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group Therapy Plus Psilocybin",
+              "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.94",
+                      "spread": "2.38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "From Baseline to 3-month follow-up (5-months post-Baseline)",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Group Therapy Plus Psilocybin",
+          "description": "Modified brief Supportive-Expressive Group Therapy will be administered as ten twice-weekly sessions. Oral psilocybin will be administered once in a clinical setting.\n\nPsilocybin: One individual oral psilocybin treatment session\n\nModified brief Supportive Expressive Group Therapy: Ten sessions of twice-weekly manualized group therapy",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 18,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 18,
+          "otherNumAffected": 18,
+          "otherNumAtRisk": 18
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Renal cell carcinoma",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Pneumothorax",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Stimulant-induced psychosis",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Suicide attempt",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Cholecystitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Hypertension (severe, asymptomatic)",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Hypertension (moderate)",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 8,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Anxiety / Anxiety Exacerbation",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "(moderate-severe)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Paranoia / Ideas of Reference",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Motor agitation / Restlessness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Unsteady gait / Ataxia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Thought disorder",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Urinary incontinence",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Visual changes (complaint)",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Headache (post-medication visit)",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Fatigue (post-medication visit)",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Insomnia (post-medication visit)",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Anxiety exacerbation (post-medication visit)",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "with methamphetamine lapse",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Post-traumatic stress flashback (post-medication visit)",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "with tinnitus, nausea, panic and insomnia",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Nausea (post-medication visit)",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NIH DAIDS v2.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Michelle Matvey",
+        "organization": "UCSF",
+        "email": "michelle.matvey@ucsf.edu",
+        "phone": "4152214810",
+        "phoneExt": "24117"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan: Final protocol",
+          "date": "2019-02-20",
+          "uploadDate": "2019-10-31T23:29",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 913691
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form: Final ICF",
+          "date": "2019-02-20",
+          "uploadDate": "2019-10-31T23:33",
+          "filename": "ICF_001.pdf",
+          "size": 9299799
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form: ICF for Cohorts 2 and 3",
+          "date": "2018-04-17",
+          "uploadDate": "2019-10-31T23:58",
+          "filename": "ICF_002.pdf",
+          "size": 7494632
+        },
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan: Pre-modifications related to enrollment exceptions",
+          "date": "2018-04-17",
+          "uploadDate": "2019-11-01T00:01",
+          "filename": "Prot_SAP_003.pdf",
+          "size": 9044758
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D000163",
+          "term": "Acquired Immunodeficiency Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D015658",
+          "term": "HIV Infections"
+        },
+        {
+          "id": "D000086982",
+          "term": "Blood-Borne Infections"
+        },
+        {
+          "id": "D003141",
+          "term": "Communicable Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D015229",
+          "term": "Sexually Transmitted Diseases, Viral"
+        },
+        {
+          "id": "D012749",
+          "term": "Sexually Transmitted Diseases"
+        },
+        {
+          "id": "D016180",
+          "term": "Lentivirus Infections"
+        },
+        {
+          "id": "D012192",
+          "term": "Retroviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D012897",
+          "term": "Slow Virus Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011562",
+          "term": "Psilocybin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D026121",
+          "term": "Indole Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D014363",
+          "term": "Tryptamines"
+        },
+        {
+          "id": "D054836",
+          "term": "Indolizidines"
+        },
+        {
+          "id": "D007212",
+          "term": "Indolizines"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

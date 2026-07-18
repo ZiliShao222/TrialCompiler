@@ -1,0 +1,53 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03658980",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03658980",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 299,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants Who Had Successful Referrals",
+        "description": "Number of Participants Who Had Successful Referrals, resulting from a health education intervention (among non-compliant persons, i.e. those who do not avail appointment with an Eye Consultant at a tertiary hospital after being detected with probable Diabetic Retinopathy at a diabetes hospital) - to be measured using Pre and Post intervention questionnaire based on previously used questionnaires of similar published studies",
+        "timeFrame": "5 months"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03658980/Prot_SAP_000.pdf",
+      "sha256": "3C52CE4E86F8DC48611D5A1A1939A3302FDDD3A1EBA85F6437E2E920B3E14910",
+      "bytes": 1625403,
+      "pages": 13,
+      "document_date": "2018-12-09",
+      "upload_date": "2021-02-21T01:42",
+      "content_signals": {
+        "protocol": false,
+        "sap": true,
+        "extracted_chars": 29324,
+        "sampled_pages": 13
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 13,
+      "content_digest": "3C52CE4E86F8DC48611D5A1A1939A3302FDDD3A1EBA85F6437E2E920B3E14910"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

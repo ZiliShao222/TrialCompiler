@@ -1,0 +1,63 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT04404101",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT04404101",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "UNKNOWN",
+    "enrollment": {
+      "count": 300,
+      "type": "ESTIMATED"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Technical Success of EUS-FNA plus MFB, with EUS-FNA alone for evaluation of PCLs.",
+        "description": "(1) Technical success will be defined as the ability to puncture the cyst with the FNA needle under EUS guidance, advance the micro forceps into the cyst to perform cyst biopsies and obtain a visible tissue fragment.",
+        "timeFrame": "Intraprocedural"
+      },
+      {
+        "measure": "Clinical Success of EUS-FNA plus MFB, with EUS-FNA alone for evaluation of PCLs.",
+        "description": "(2) Clinical success will be defined as the ability to obtain a pathologic tissue diagnosis (diagnostic yield) of the PCL with MFB. Based on prior experience, expected diagnoses include pseudocyst, serous cystadenoma, mucinous cyst (mucinous cystic neoplasm, intra-ductal papillary mucinous neoplasm), adenocarcinoma, and neuroendocrine tumor, to name a few.",
+        "timeFrame": "0-4 weeks"
+      },
+      {
+        "measure": "Safety of EUS-FNA plus MFB with that of EUS-FNA by recording adverse events per published ASGE (American Society for Gastrointestinal Endoscopy) criteria.",
+        "description": "Intraprocedural and post-procedural adverse events (e.g. bleeding, infection, perforation, pancreatitis, etc.)",
+        "timeFrame": "0-4 Weeks"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_002.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04404101/Prot_SAP_002.pdf",
+      "sha256": "F789C31E5BBFDF672AA8992578E9CF1BA6578CE53E239FE049ED2EEDAA98BBAD",
+      "bytes": 218533,
+      "pages": 8,
+      "document_date": "2021-02-05",
+      "upload_date": "2021-03-24T13:41",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 18220,
+        "sampled_pages": 8
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_002.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 8,
+      "content_digest": "F789C31E5BBFDF672AA8992578E9CF1BA6578CE53E239FE049ED2EEDAA98BBAD"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

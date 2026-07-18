@@ -1,0 +1,1994 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03360110",
+      "orgStudyIdInfo": {
+        "id": "CV-17-60"
+      },
+      "organization": {
+        "fullName": "CooperVision International Limited (CVIL)",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Comparison of New Contact Lens With Current Marketed Lens",
+      "officialTitle": "Clinical Validation Study of Phoebe Lens"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-11-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-12-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-12-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-21",
+      "studyFirstSubmitQcDate": "2017-11-27",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-02",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2020-08-04",
+      "resultsFirstSubmitQcDate": "2020-08-18",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-09-02",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2019-06-03",
+      "dispFirstSubmitQcDate": "2020-08-18",
+      "dispFirstPostDateStruct": {
+        "date": "2020-09-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-08-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-09-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "CooperVision, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to validate the clinical performance of a new contact lens design.",
+      "detailedDescription": "Evaluate the clinical performance of its Phoebe contact lenses (Test) compared to the commercially available MyDay contact lenses (Control)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myopia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double masked (participant, investigator)",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 53,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Test lens",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects randomized to wear pair of test lens either first or second",
+          "interventionNames": [
+            "Device: Phoebe test lens",
+            "Device: stenfilcon A lens (control)"
+          ]
+        },
+        {
+          "label": "stenfilcon A lens (control)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects randomized to wear pair of control lens either first or second",
+          "interventionNames": [
+            "Device: Phoebe test lens",
+            "Device: stenfilcon A lens (control)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Phoebe test lens",
+          "description": "Daily disposable contact lens",
+          "armGroupLabels": [
+            "Test lens",
+            "stenfilcon A lens (control)"
+          ],
+          "otherNames": [
+            "Test Lens",
+            "Phoebe Contact Lens"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "stenfilcon A lens (control)",
+          "description": "Daily disposable contact lens",
+          "armGroupLabels": [
+            "Test lens",
+            "stenfilcon A lens (control)"
+          ],
+          "otherNames": [
+            "MyDay daily disposable contact lens"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Corneal Staining Extent",
+          "description": "Measurement of extent of corneal staining using Fluorescein, blue light, yellow filter, full beam, medium magnification on a scale 0-4 (0=no staining, 1 = 1-15% of area, 2= 16-30% of area, 3=31-45% of area, 4=\\>45% of area).",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Corneal Staining Extent",
+          "description": "Measurement of extent of corneal staining using Fluorescein, blue light, yellow filter, full beam, medium magnification on a scale 0-4 (0=no staining, 1 = 1-15% of area, 2= 16-30% of area, 3=31-45% of area, 4=\\>45% of area).",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Conjunctival Staining Score",
+          "description": "Amount of staining observed on the conjunctiva scored 0-4 (0=none, 4=Deep Confluent, in 0.50 steps",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Conjunctival Staining Score",
+          "description": "Amount of staining observed on the conjunctiva scored 0-4 (0=none, 4=Deep Confluent, in 0.50 steps",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Palpebral Hyperemia on Upper Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Palpebral Hyperemia on Upper Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Palpebral Hyperemia on Lower Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Palpebral Hyperemia on Lower Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Palpebral Roughness Grade - Upper Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Palpebral Roughness Grade - Upper Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Palpebral Roughness Grade - Lower Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Palpebral Roughness Grade - Lower Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "timeFrame": "Day 3"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Distance Visual Acuity",
+          "description": "Distance visual acuity recorded in logMAR.",
+          "timeFrame": "Baseline (at lens dispense)"
+        },
+        {
+          "measure": "Distance Visual Acuity",
+          "description": "Distance visual acuity recorded in logMAR.",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Near Visual Acuity",
+          "description": "Near visual acuity recorded in logMAR",
+          "timeFrame": "Baseline (at dispense)"
+        },
+        {
+          "measure": "Near Visual Acuity",
+          "description": "Near visual acuity recorded in logMAR",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Vision Quality Rating",
+          "description": "Subjective vision quality rated on a 0-10 scale (0=extremely poor, 10=excellent)",
+          "timeFrame": "Baseline (at dispense)"
+        },
+        {
+          "measure": "Vision Quality Rating",
+          "description": "Subjective vision quality rated on a 0-10 scale (0=extremely poor, 10=excellent)",
+          "timeFrame": "Day 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria\n\nA person is eligible for inclusion in the study if he/she:\n\n* Between and 18 and 35 years of age and has full legal capacity to volunteer\n* Has had a self-reported oculo-visual examination in the last two years\n* Has read and understood the information consent letter\n* Is willing and able to follow instructions and maintain the appointment schedule\n* Is correctable to a visual acuity of 20/25 or better (in each eye) with their habitual correction or 20/20 best corrected\n* Has a Contact Lens Refraction between -1.00D and -6.00D\n* Cylinder power ≤ -0.75DC in Spherical Cylindrical Refraction\n* Currently wears soft contact lenses\n* Is willing to wear lenses for a minimal of 8 hours a day and everyday during the course of the study\n* Has clear corneas and no active ocular disease\n* Has not worn lenses for at least 12 hours before the first visit\n\nExclusion Criteria\n\nA person will be excluded from the study if he/she:\n\n* Has never worn contact lenses before\n* Is wearing Monovision modality\n* Has any systemic disease affecting ocular health\n* Is using any systemic or topical medications that will affect ocular health\n* Has any ocular pathology or severe insufficiency of lacrimal secretion (moderate to severe dry eyes) that would affect the wearing of contact lenses\n* Has persistent, clinically significant corneal or conjunctival staining using sodium fluorescein dye\n* Has any clinically significant lid or conjunctival abnormalities, active neovascularization or any central corneal scars\n* Is aphakic\n* Has undergone corneal refractive surgery\n* Is participating in any other type of eye related clinical or research study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "35 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Peter S Kolbaum, O.D., Ph.D., FAAO, FBCLA",
+          "affiliation": "Clinical Optics Research Lab (CORL), Indiana University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Clinical Optical Research Lab (CORL)",
+          "city": "Bloomington",
+          "state": "Indiana",
+          "zip": "47405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.16533,
+            "lon": -86.52639
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Test Lens, Then Control Lens",
+          "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+        },
+        {
+          "id": "FG001",
+          "title": "Control Lens, Then Test Lens",
+          "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+        }
+      ],
+      "periods": [
+        {
+          "title": "First Intervention",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "26"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "26"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Second Intervention",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "26"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "26"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "There were six (6) protocol deviations and data was not included in the analyses.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Overall Study",
+          "description": "Subjects randomized to wear pair of test/control lens either first or second, then wear other lens.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "47"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23",
+                      "spread": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Corneal Staining Extent",
+          "description": "Measurement of extent of corneal staining using Fluorescein, blue light, yellow filter, full beam, medium magnification on a scale 0-4 (0=no staining, 1 = 1-15% of area, 2= 16-30% of area, 3=31-45% of area, 4=\\>45% of area).",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.04",
+                      "spread": "0.09"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.04",
+                      "spread": "0.09"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Corneal Staining Extent",
+          "description": "Measurement of extent of corneal staining using Fluorescein, blue light, yellow filter, full beam, medium magnification on a scale 0-4 (0=no staining, 1 = 1-15% of area, 2= 16-30% of area, 3=31-45% of area, 4=\\>45% of area).",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 3",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.07",
+                      "spread": "0.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.07",
+                      "spread": "0.12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Conjunctival Staining Score",
+          "description": "Amount of staining observed on the conjunctiva scored 0-4 (0=none, 4=Deep Confluent, in 0.50 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.18",
+                      "spread": "0.21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.18",
+                      "spread": "0.21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Conjunctival Staining Score",
+          "description": "Amount of staining observed on the conjunctiva scored 0-4 (0=none, 4=Deep Confluent, in 0.50 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Day 3",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.26",
+                      "spread": "0.26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.29",
+                      "spread": "0.28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Hyperemia on Upper Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.96",
+                      "spread": "0.39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.96",
+                      "spread": "0.39"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Hyperemia on Upper Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 3",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.05",
+                      "spread": "0.40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.06",
+                      "spread": "0.38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Hyperemia on Lower Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.96",
+                      "spread": "0.39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.96",
+                      "spread": "0.39"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Hyperemia on Lower Lid",
+          "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 3",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral hyperemia.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.05",
+                      "spread": "0.40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.06",
+                      "spread": "0.38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Roughness Grade - Upper Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.09",
+                      "spread": "0.51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.09",
+                      "spread": "0.51"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Roughness Grade - Upper Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 3",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Upper Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Upper lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.26",
+                      "spread": "0.53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.20",
+                      "spread": "0.46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Roughness Grade - Lower Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.07",
+                      "spread": "0.50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.07",
+                      "spread": "0.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Palpebral Roughness Grade - Lower Lid",
+          "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 3",
+          "typeUnitsAnalyzed": "Eyes",
+          "denomUnitsSelected": "Eyes",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Lower Lid",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule. Lower lid was assessed for palpebral roughness.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            },
+            {
+              "units": "Eyes",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "94"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.23",
+                      "spread": "0.52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.20",
+                      "spread": "0.46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Distance Visual Acuity",
+          "description": "Distance visual acuity recorded in logMAR.",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Log(MAR)",
+          "timeFrame": "Baseline (at lens dispense)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Dispense",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Dispense",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "High Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.23",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.22",
+                      "spread": "0.06"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Low Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.03",
+                      "spread": "0.08"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.03",
+                      "spread": "0.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Distance Visual Acuity",
+          "description": "Distance visual acuity recorded in logMAR.",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Log(MAR)",
+          "timeFrame": "Day 3",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: 3 Days",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: 3 Days",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "High Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.23",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.22",
+                      "spread": "0.06"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Low Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.04",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.04",
+                      "spread": "0.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Near Visual Acuity",
+          "description": "Near visual acuity recorded in logMAR",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Log(MAR)",
+          "timeFrame": "Baseline (at dispense)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: Dispense",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: Dispense",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "High Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.16",
+                      "spread": "0.07"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.16",
+                      "spread": "0.06"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Low Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.09",
+                      "spread": "0.10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.06",
+                      "spread": "0.09"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Near Visual Acuity",
+          "description": "Near visual acuity recorded in logMAR",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Log(MAR)",
+          "timeFrame": "Day 3",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens: 3 Days",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens: 3 Days",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "High Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.17",
+                      "spread": "0.07"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.19",
+                      "spread": "0.07"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Low Illumination High Contrast, Binocular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.06",
+                      "spread": "0.09"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.04",
+                      "spread": "0.09"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Vision Quality Rating",
+          "description": "Subjective vision quality rated on a 0-10 scale (0=extremely poor, 10=excellent)",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (at dispense)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.2",
+                      "spread": "1.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.3",
+                      "spread": "0.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Vision Quality Rating",
+          "description": "Subjective vision quality rated on a 0-10 scale (0=extremely poor, 10=excellent)",
+          "populationDescription": "There were 6 protocol deviations reported in this study and data from the 6 subjects were not used for data analyses.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 3",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Phoebe Test Lens",
+              "description": "Subjects randomized to wear pair of test lens, then control lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            },
+            {
+              "id": "OG001",
+              "title": "Stenfilcon A Control Lens",
+              "description": "Subjects randomized to wear pair of control lens, then test lens. Each lens type was worn for three days using a daily wear / daily replacement schedule.\n\nPhoebe test lens: Daily disposable contact lens\n\nstenfilcon A lens (control): Daily disposable contact lens"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.3",
+                      "spread": "0.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.2",
+                      "spread": "1.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "From dispense up to three days for each intervention.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Test Lens",
+          "description": "Subjects were randomized to wear pair of test lens for 3 days.\n\nPhoebe test lens: Daily disposable contact lens",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 53,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 53,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 53
+        },
+        {
+          "id": "EG001",
+          "title": "Stenfilcon A Lens (Control)",
+          "description": "Subjects were randomized to wear pair of control lens for 3 days.\n\nstenfilcon A lens (control): Daily disposable contact lens",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 53,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 53,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 53
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Myhanh Nguyen, OD, Manager of Clinical Research",
+        "organization": "CooperVision",
+        "email": "MNguyen@coopervision.com",
+        "phone": "19257306716"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-09-28",
+          "uploadDate": "2019-05-09T15:33",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1227658
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2020-08-19",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009216",
+          "term": "Myopia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012030",
+          "term": "Refractive Errors"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

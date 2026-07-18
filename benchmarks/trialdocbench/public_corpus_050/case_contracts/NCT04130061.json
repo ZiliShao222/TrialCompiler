@@ -1,0 +1,238 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT04130061",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT04130061",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "EARLY_PHASE1"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 27,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "The AM applied epicardially will be assessed for signs of hyperacute rejection i.e. membrane changing color; cardiac tamponade or constriction assessed by echocardiogram and transmission of infectious diseases. The incidence of adverse events (AEs) will be reported as percentages, with two-sided 95% confidence intervals. Statistical comparisons of AEs between the AM treatment and the control group will be made using a chi-square, or Fisher's exact test, as appropriate (based on the minimum expected cell frequencies).",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Number of Participants With Post Op Atrial Fibrillation Between Patients Who Receive hAM and Controls",
+        "description": "The number of patients with Post Op Atrial Fibrillation will be compared between the treatment and control group using mobile telemetry. This comparison will be analyzed using chi-square or Fisher's exact test as appropriate.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "proBNP (Serum) Between Groups at Time of Surgery",
+        "description": "Comparison of serum levels of proBNP between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "C-reactive Protein (Serum) Between Groups at Time of Surgery",
+        "description": "Comparison of serum levels of CRP between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "Interleukin-6 (Serum) Between Groups at Time of Surgery",
+        "description": "Comparison of serum measurement of IL-6 between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (TNFa; Serum) Between Groups at Time of Surgery",
+        "description": "Comparison of serum levels of TNFa between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "proBNP (Serum) Between Groups at 24 Hours Post-op",
+        "description": "Comparison of serum proBNP levels between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "C-reactive Protein (Serum) Between Groups at 24-hours Post-op",
+        "description": "Comparison of serum measurements of CRP between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Interleukin-6 (Serum) Between Groups at 24-hours Post-op",
+        "description": "Comparison of IL-6 serum levels between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (TNFa; Serum) Between Groups at 24 Hours Post-op",
+        "description": "Comparison of serum levels of TNFa between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "proBNP (Serum) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of serum levels of proBNP between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "C-reactive Protein (Serum) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of serum CRP levels between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "Interleukin-6 (Serum) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of IL-6 serum results between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (Serum) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of serum TNFa levels between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "proBNP (Serum) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of serum levels of proBNP between groups at 72 hour post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "CRP (Serum) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of serum levels of CRP between groups at 72 hour post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Interleukin-6 (Serum) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of IL-6 serum levels between groups at 72 hours post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "TNFa (Serum) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of TNFa serum levels between groups at 72 hours post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "proBNP (Serum) Between Groups at Follow-up",
+        "description": "Comparison of serum levels of proBNP between groups at follow-up",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "CRP (Serum) Between Groups at Follow-Up",
+        "description": "Comparison of serum CRP levels between groups at follow-up",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Interleukin-6 (Serum) Between Groups at Follow-up",
+        "description": "Comparison of IL-6 serum levels between groups at follow-up",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "TNFa (Serum) Between Groups at Follow-up",
+        "description": "Comparison of TNFa serum levels between groups at follow-up",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "proBNP (Pericardial Fluid) Between Groups at Time of Surgery",
+        "description": "Comparison of proBNP levels in pericardial fluid between groups at time of surgery (baseline)",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "C-reactive Protein (Pericardial Fluid) Between Groups at Time of Surgery",
+        "description": "Comparison of CRP levels in pericardial fluid between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "Interleukin-6 (Pericardial Fluid) Between Groups at Time of Surgery",
+        "description": "Comparison of IL-6 levels in pericardial fluid between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (Pericardial Fluid) Between Groups at Time of Surgery",
+        "description": "Comparison of TNFa in pericardial fluid between groups at the time of surgery (baseline).",
+        "timeFrame": "Surgery"
+      },
+      {
+        "measure": "proBNP (Pericardial Fluid) Between Groups at 24 Hours Post-op",
+        "description": "Comparison of levels of proBNP in pericardial fluid between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "C-reactive Protein (Pericardial Fluid) Between Groups at 24 Hours Post-op",
+        "description": "Comparison of CRP levels in pericardial fluid between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Interleukin-6 (Pericardial Fluid) Between Groups at 24 Hours Post-op",
+        "description": "Comparison of IL-6 levels in pericardial fluid between groups at 24 hours post-op",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (Pericardial Fluid) Between Groups at 24 Hours Post-op",
+        "description": "Comparison of TNFa in pericardial fluid between groups at 24 hours post-op.",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "proBNP (Pericardial Fluid) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of proBNP levels in pericardial fluid between groups at 48 hours post-op.",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "C-reactive Protein (Pericardial Fluid) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of CRP levels in pericardial fluid between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "Interleukin-6 (Pericardial Fluid) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of IL-6 levels in pericardial fluid between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (Pericardial Fluid) Between Groups at 48 Hours Post-op",
+        "description": "Comparison of TNFa levels in pericardial fluid between groups at 48 hours post-op",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "proBNP (Pericardial Fluid) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of proBNP levels in pericardial fluid between groups at 72 hours post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "C-reactive Protein (Pericardial Fluid) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of CRP levels in pericardial fluid between groups at 72 hours post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Interleukin-6 (Pericardial Fluid) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of IL-6 levels in pericardial fluid between groups at 72 hours post-op",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Tumor Necrosis Factor - Alpha (Pericardial Fluid) Between Groups at 72 Hours Post-op",
+        "description": "Comparison of TNFa levels in pericardial fluid between groups at 72 hours post-op",
+        "timeFrame": "72 hours"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04130061/Prot_SAP_000.pdf",
+      "sha256": "468D9FEC669CAD7CB4212AADAC1D3389BF9540B6955C686DF1E4C5EF510C27FB",
+      "bytes": 165139,
+      "pages": 8,
+      "document_date": "2021-03-01",
+      "upload_date": "2022-05-09T14:44",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 29232,
+        "sampled_pages": 8
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 8,
+      "content_digest": "468D9FEC669CAD7CB4212AADAC1D3389BF9540B6955C686DF1E4C5EF510C27FB"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

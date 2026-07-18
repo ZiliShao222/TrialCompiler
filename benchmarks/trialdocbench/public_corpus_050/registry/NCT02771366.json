@@ -1,0 +1,1256 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02771366",
+      "orgStudyIdInfo": {
+        "id": "00005695 -rev. comments"
+      },
+      "organization": {
+        "fullName": "University of Florida",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Efficient Brain Study",
+      "officialTitle": "The Influence of Fermented Papaya Preparation (FPP) on Cerebral Energy Metabolism, Neuroinflammation, and Cognition in Older Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-07-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-07-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-03-11",
+      "studyFirstSubmitQcDate": "2016-05-10",
+      "studyFirstPostDateStruct": {
+        "date": "2016-05-13",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2019-07-23",
+      "resultsFirstSubmitQcDate": "2019-10-15",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-10-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-10-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-10-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Florida",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Osato Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Cerebral energy metabolism declines with advanced aging, and is implicated in age-related cognitive decline, Alzheimer's disease (AD), and other forms of neurodegenerative disease (Parkinson's disease). In addition, age-associated increase in systemic and neuroinflammation is associated with a higher likelihood for development of Alzheimer's disease and neurodegenerative disease in older adults. Furthermore, decreased cerebral energy metabolism and increased neuroinflammation are both associated with deficits in cognitive function, even in the absence of neurodegenerative disease. In older adults, decreased cognition is strongly associated with the development of AD, increased rates of hospitalization, loss of functional independence, and increased mortality rate. Novel methods for preventing cognitive decline and neurodegenerative diseases in older adults are needed the world's aging population.\n\nCurrent research suggests that nutrients in fruits and vegetables produce strong anti-oxidant and anti-proliferative effects. Most Americans are not consuming the minimum recommendations of fruits and vegetables per day to receive these benefits. Whole food-based nutritional products, such as Fermented Papaya Product (FPP), may provide a healthy alternative for individuals. FPP, which is made by bio-fermentation of Carica papaya, has been found to enhance antioxidant protection and to decrease DNA damage in healthy older adults. Furthermore, if FPP increases cerebral energy metabolism and down-regulates neuroinflammation, with resulting effects on cognition, dietary supplementation with FPP may have preventative benefits for age-related cognitive conditions, including MCI, AD, Parkinson's disease and other neurodegenerative diseases.",
+      "detailedDescription": "The design of this research study is to conduct a double-blind, randomized, placebo-controlled pilot study to determine whether FPP improves cerebral energy metabolism, neuroinflammation, systemic inflammation, cognitive function, fatigue, and health-related quality of life in older adults.\n\nPotential participants will participate in a brief 10 minute phone screening that will describe the study. If participants meet initial inclusion/exclusion criteria on the phone screen, they will be scheduled for an in-person screening visit. Participants will attend five (5) in person visits including one Screening Visit performed individually for each potential study participant, and four Assessment Visits (V1-V4). Participants will be asked to provide a fasting blood sample that will be utilized to evaluate clinical laboratory parameters at the Screening visit and all four assessment visits. The participants will complete both a treatment and a placebo condition; therefore, a cross-over design will be used. After eight (8) weeks on each of these regimens, participants will be asked to complete post-treatment outcome assessments at the University of Florida's Institute on Aging - Clinical and Translational Research Building (IOA - CTRB). Following the first post-treatment test day (V2), participants will complete a six (6) week washout period and will then return to the IOA - CTRB to complete the other study arm. The order the participants receive FPP and placebo will be determined through randomization"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metabolism - Cerebral Energy"
+      ],
+      "keywords": [
+        "neuroinflammation",
+        "cognitive function",
+        "aging adults"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Fermented Papaya Preparation, then granulated sugar",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will start taking the Fermented Papaya Preparation (FPP) three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the granulated sugar in the same way as the FPP was taken. In addition, the following test will be performed: Magnetic Resonance Spectroscopy (MRS) of the brain, functional magnetic resonance imaging (fMRI), RAND 36-item Health Survey (SF-36) questionnaire, Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-Fatigue) blood samples,",
+          "interventionNames": [
+            "Drug: Fermented Papaya Preparation",
+            "Other: Granulated Sugar"
+          ]
+        },
+        {
+          "label": "Granulated Sugar, then Fermented Papaya Preparation",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will start taking the granulated sugar three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the Fermented Papaya Preparation (FPP) in the same way as the granulated sugar was taken. In addition, the following test will be performed: Magnetic Resonance Spectroscopy (MRS) of the brain, functional magnetic resonance imaging (fMRI), RAND 36-item Health Survey (SF-36) questionnaire, Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-Fatigue) blood samples,",
+          "interventionNames": [
+            "Drug: Fermented Papaya Preparation",
+            "Other: Granulated Sugar"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fermented Papaya Preparation",
+          "description": "This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.",
+          "armGroupLabels": [
+            "Fermented Papaya Preparation, then granulated sugar",
+            "Granulated Sugar, then Fermented Papaya Preparation"
+          ],
+          "otherNames": [
+            "FPP"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Granulated Sugar",
+          "description": "This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.",
+          "armGroupLabels": [
+            "Fermented Papaya Preparation, then granulated sugar",
+            "Granulated Sugar, then Fermented Papaya Preparation"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Magnetic Resonance Spectroscopy (MRS) Will Measure a Change in Cerebral Energy Function in Brain Tissue",
+          "description": "Cerebral energy metabolism will be defined by phosphorus magnetic resonance spectroscopy markers of ATP/mitochondrial function in brain tissue (α-ATP, β-ATP, and γ-ATP).\n\nWithin-subject crossover design; difference between drug and placebo arms. Treatment duration: weeks 0-8 followed by washout then weeks 14 to 22.\n\nData reported in the outcome measures data table represents difference between pre and post measurement values (post-pre) for each arm.",
+          "timeFrame": "Participants received MRS at weeks 0, 8, 14, and 22. Data reported in the outcome measures data table represents difference between pre and post measurement values (post-pre) for each arm."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing and able to participate in all aspects of the study;\n* Not confined to a wheelchair;\n* Evidence of cognitive aging based on Montreal Cognitive Assessment score less than or equal to 28, but greater than or equal to 23;\n* Presence of elevated levels of systemic inflammation at screening (C-reactive protein levels \\> 1.0)\n* Able to swallow study product as directed.\n\nExclusion Criteria:\n\n* Failure to give consent;\n* Active treatment for cancer (\\< 3 years);\n* Stroke (\\< 6 mo);\n* Serious heart condition, peripheral vascular disease, coronary artery disease (myocardial infarction\\<6 mo), Class III, IV Congestive Heart Failure;\n* Dementia (e.g., Alzheimer's disease)\n* Severe anemia (Hgb \\< 8.0 g/dL);\n* Any blood or bleeding disorders;\n* Liver or renal disease;\n* Diabetes;\n* Severe osteoarthritis;\n* Anticoagulant therapy (aspirin use is permitted);\n* Parkinson's disease;\n* Severe psychiatric disease or psychological disorder (e.g., severe depression, bi-polar disorder, schizophrenia) or current use of antipsychotics;\n* Current use of anabolic medications (e.g., growth hormone or testosterone) or anticholinesterase inhibitor (i.e., Aricept);\n* High amounts of physical activity (i.e., running, bicycling, etc.) \\> 120 min/week;\n* Excessive alcohol use (\\>2 drinks per day);\n* Use of tobacco products;\n* Resting heart rate \\> 120 bpm;\n* History of significant head injury leading to cognitive impairments;\n* Visual or hearing impairments that would interfere with testing;\n* Allergies to papaya or foods with similar compounds (i.e., banana, avocado, kiwi, chestnuts, hazel nuts)\n* Allergy to latex;\n* Participating in another clinical trial or has received an investigational product within 30 days prior to screening/enrollment;\n* Center for Epidemiological Studies - Depression Scale (CES-D) Score \\> 20.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Adam Woods, Ph.D",
+          "affiliation": "University of Flrodia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Florida Institute on Aging",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Within subject design, total N = 30. Participants complete both arms.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Fermented Papaya Preparation Arm",
+          "description": "Participants will start taking the Fermented Papaya Preparation (FPP) three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the granulated sugar in the same way as the FPP was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22."
+        },
+        {
+          "id": "FG001",
+          "title": "Granulated Sugar Arm",
+          "description": "Participants will start taking the granulated sugar three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the Fermented Papaya Preparation (FPP) in the same way as the granulated sugar was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Period 1",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "15"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Period 2 (Crossover)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Within subject design, all participants complete both arms. Order is randomized.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Fermented Papaya Preparation First Arm",
+          "description": "Participants will start taking the Fermented Papaya Preparation (FPP) three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the granulated sugar in the same way as the FPP was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22."
+        },
+        {
+          "id": "BG001",
+          "title": "Granulated Sugar First Arm",
+          "description": "Participants will start taking the granulated sugar three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the Fermented Papaya Preparation (FPP) in the same way as the granulated sugar was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "15"
+            },
+            {
+              "groupId": "BG001",
+              "value": "15"
+            },
+            {
+              "groupId": "BG002",
+              "value": "30"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "74.47",
+                      "spread": "6.33"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71.93",
+                      "spread": "5.30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "73.2",
+                      "spread": "5.88"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Magnetic Resonance Spectroscopy (MRS) Will Measure a Change in Cerebral Energy Function in Brain Tissue",
+          "description": "Cerebral energy metabolism will be defined by phosphorus magnetic resonance spectroscopy markers of ATP/mitochondrial function in brain tissue (α-ATP, β-ATP, and γ-ATP).\n\nWithin-subject crossover design; difference between drug and placebo arms. Treatment duration: weeks 0-8 followed by washout then weeks 14 to 22.\n\nData reported in the outcome measures data table represents difference between pre and post measurement values (post-pre) for each arm.",
+          "populationDescription": "26 completed subjects eligible for analysis. Data acquisition errors in 6 subjects reduced the complete sample to 20 (data from 20 subjects with complete data presented in outcome measures table).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Difference in metabolite amplitude",
+          "timeFrame": "Participants received MRS at weeks 0, 8, 14, and 22. Data reported in the outcome measures data table represents difference between pre and post measurement values (post-pre) for each arm.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Fermented Papaya Preparation Arm",
+              "description": "Participants will start taking the Fermented Papaya Preparation (FPP) three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the granulated sugar in the same way as the FPP was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22."
+            },
+            {
+              "id": "OG001",
+              "title": "Granulated Sugar Arm",
+              "description": "Participants will start taking the granulated sugar three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the Fermented Papaya Preparation (FPP) in the same way as the granulated sugar was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Frontal A-ATP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".011",
+                      "spread": ".055"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".007",
+                      "spread": ".046"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Frontal B-ATP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".009",
+                      "spread": ".056"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".006",
+                      "spread": ".086"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Frontal G-ATP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".020",
+                      "spread": ".065"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".013",
+                      "spread": ".057"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Posterior A-ATP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-.018",
+                      "spread": ".052"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".006",
+                      "spread": ".055"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Posterior B-ATP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-.002",
+                      "spread": ".060"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-.014",
+                      "spread": ".058"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Posterior G-ATP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": ".026",
+                      "spread": ".055"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-.010",
+                      "spread": ".050"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse events were assessed over 8 weeks during the FPP arm. Adverse events were assessed over 8 weeks during the Granulated Sugar arm. Adverse events were assessed over 6 weeks during the washout period.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Fermented Papaya Preparation Arm",
+          "description": "Participants will start taking the Fermented Papaya Preparation (FPP) three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the granulated sugar in the same way as the FPP was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 30
+        },
+        {
+          "id": "EG001",
+          "title": "Granulated Sugar Arm",
+          "description": "Participants will start taking the granulated sugar three times per day, for 8 week. Then there will be a 6 week washout period. After the washout period the participants will start taking the Fermented Papaya Preparation (FPP) in the same way as the granulated sugar was taken.\n\nFermented Papaya Preparation: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nGranulated Sugar: This will be provided in a 3g sachet for use 3 times a day 30-40 minutes before a meal. This will be done for 8 weeks.\n\nMagnetic Resonance Spectroscopy: MRS will be performed during weeks 0, 8, 14, and 22.\n\nMagnetic resonance imaging: MRS will be performed during weeks 0, 8, 14, and 22.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 30
+        },
+        {
+          "id": "EG002",
+          "title": "Washout Period",
+          "description": "This is the 6 week period between the FPP and Placebo arms.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 30
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Bowel blockage",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Fall",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Headaches",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Influenza",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Swelling in legs and feet",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Concussion",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Injury occurred outside of study",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Stage 3 Kidney Failure",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant had previous kidney problems before study began",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Dazedness",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Anger/Hostility",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Stomach ache",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Common cold",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Broken foot",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Adam Woods, Ph.D.",
+        "organization": "University of Florida",
+        "email": "ajwoods@phhp.ufl.edu",
+        "phone": "352-294-5842"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-01-24",
+          "uploadDate": "2019-09-04T08:51",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 3911791
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000090862",
+          "term": "Neuroinflammatory Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000613845",
+          "term": "fermented papaya preparation"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

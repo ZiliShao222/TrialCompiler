@@ -1,0 +1,76 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02342691",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02342691",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 127,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Incidence of Adverse Events",
+        "description": "Adverse events will be recorded throughout the study, and may include events reported by subjects or changes observed in oral cavity examinations or vital signs (assessed at baseline, Days 3, 7, 14, 21 and 28). Blood and urine will be collected for safety labs at Days 14 and 28 after product administration, and subjects will undergo close monitoring for mucosal inflammation and irritancy and development of periodontitis, using standard clinical periodontal measurements. Follow-up will also occur at 90 days to assess for adverse events.",
+        "timeFrame": "up to 90 days"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02342691/Prot_000.pdf",
+      "sha256": "208A707876398D311E5FBE103E745E3B493819662F45694E5A8026F3F5566C1C",
+      "bytes": 1218642,
+      "pages": 67,
+      "document_date": "2017-06-08",
+      "upload_date": "2021-02-04T12:58",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 78416,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02342691/SAP_001.pdf",
+      "sha256": "FF615401D27E4BA3B576451024FF73FDB0BD12597F166C66457336A13315F593",
+      "bytes": 675455,
+      "pages": 35,
+      "document_date": "2018-05-17",
+      "upload_date": "2021-02-04T13:01",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 60073,
+        "sampled_pages": 35
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 67,
+      "content_digest": "208A707876398D311E5FBE103E745E3B493819662F45694E5A8026F3F5566C1C"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 35,
+      "content_digest": "FF615401D27E4BA3B576451024FF73FDB0BD12597F166C66457336A13315F593"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03360110",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03360110",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 53,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Corneal Staining Extent",
+        "description": "Measurement of extent of corneal staining using Fluorescein, blue light, yellow filter, full beam, medium magnification on a scale 0-4 (0=no staining, 1 = 1-15% of area, 2= 16-30% of area, 3=31-45% of area, 4=\\>45% of area).",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Corneal Staining Extent",
+        "description": "Measurement of extent of corneal staining using Fluorescein, blue light, yellow filter, full beam, medium magnification on a scale 0-4 (0=no staining, 1 = 1-15% of area, 2= 16-30% of area, 3=31-45% of area, 4=\\>45% of area).",
+        "timeFrame": "Day 3"
+      },
+      {
+        "measure": "Conjunctival Staining Score",
+        "description": "Amount of staining observed on the conjunctiva scored 0-4 (0=none, 4=Deep Confluent, in 0.50 steps",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Conjunctival Staining Score",
+        "description": "Amount of staining observed on the conjunctiva scored 0-4 (0=none, 4=Deep Confluent, in 0.50 steps",
+        "timeFrame": "Day 3"
+      },
+      {
+        "measure": "Palpebral Hyperemia on Upper Lid",
+        "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Palpebral Hyperemia on Upper Lid",
+        "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+        "timeFrame": "Day 3"
+      },
+      {
+        "measure": "Palpebral Hyperemia on Lower Lid",
+        "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Palpebral Hyperemia on Lower Lid",
+        "description": "Measurement of hyperemia of the palpebral conjunctiva; graded 0-4 (0=none, 4=severe) in 0.25 steps",
+        "timeFrame": "Day 3"
+      },
+      {
+        "measure": "Palpebral Roughness Grade - Upper Lid",
+        "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Palpebral Roughness Grade - Upper Lid",
+        "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+        "timeFrame": "Day 3"
+      },
+      {
+        "measure": "Palpebral Roughness Grade - Lower Lid",
+        "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Palpebral Roughness Grade - Lower Lid",
+        "description": "Measurement of smoothness of palpebral conjunctiva; graded 0-4 (0=smooth, 4=severe) in 0.25 steps",
+        "timeFrame": "Day 3"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03360110/Prot_SAP_000.pdf",
+      "sha256": "1A3988F67C7758473A78EE1AA84675A9BBABD65F55CB67B1997117EDC9AA7B8D",
+      "bytes": 1227658,
+      "pages": 44,
+      "document_date": "2017-09-28",
+      "upload_date": "2019-05-09T15:33",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 38239,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 44,
+      "content_digest": "1A3988F67C7758473A78EE1AA84675A9BBABD65F55CB67B1997117EDC9AA7B8D"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

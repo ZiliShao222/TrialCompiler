@@ -1,0 +1,58 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03283930",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03283930",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 121,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Pediatric Anxiety Rating Scale",
+        "description": "The Pediatric Anxiety Rating Scale (PARS) measures anxiety symptoms and related functional impairment in youth as continuous outcome. It comprises a 50- item checklist asking for seven dimensions of global severity/ impairment: Each item is rated on a 0- 5 scale by a clinician based on parent- and child-report. The sum score is calculated based on 5 of the 7 sub-scales and ranges from 0 to 25 with higher scores reflecting greater levels of anxiety. PARS score was measured at different time points during the study.",
+        "timeFrame": "Weeks 3, 8, and 12"
+      },
+      {
+        "measure": "Clinical Global Impression of Improvement Scale",
+        "description": "The Clinical Global Impression of Improvement (CGI-I) scale is a measure of global symptom improvement rated by clinicians. Scores range from 1-7, with lower scores reflecting greater levels of improvement. This scale provides an ordinal outcome, as participants with CGI-I ratings less than or equal to 3 at week 8 are considered \"responders\" and participants with scores \\>3 at week 8 are considered \"non-responders\".",
+        "timeFrame": "Week 8"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03283930/Prot_SAP_000.pdf",
+      "sha256": "A217F43D512C3E9DC3E218A76AAC04C966A0BBC3136C2599A77053B4192B0702",
+      "bytes": 1208235,
+      "pages": 84,
+      "document_date": "2023-05-11",
+      "upload_date": "2024-02-23T11:43",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 169050,
+        "sampled_pages": 40
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 84,
+      "content_digest": "A217F43D512C3E9DC3E218A76AAC04C966A0BBC3136C2599A77053B4192B0702"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

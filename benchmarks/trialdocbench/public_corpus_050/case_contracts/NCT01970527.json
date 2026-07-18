@@ -1,0 +1,68 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT01970527",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT01970527",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "overall_status": "TERMINATED",
+    "enrollment": {
+      "count": 23,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Immune-related Clinical Response, Defined as Proportion of Patients Treated at the Maximum-tolerated Dose (MTD) Who Achieve Either a Complete or Partial Immune-related Response",
+        "description": "Scored on a non-index lesion using immune-related response criteria according to immune-related Response Evaluation Criteria in Solid Tumors version 1.1. The number of immune-related responses will be tabled by stratum and SBRT fraction dose level. At the MTD, the immune-related response rate and 95% exact confidence interval will be estimated separately for previously untreated and previously treated metastatic patients.",
+        "timeFrame": "Up to 60 days after last ipilimumab injection"
+      },
+      {
+        "measure": "Immune-related Progression-free Survival (irPFS)",
+        "description": "irPFS will be estimated by the Kaplan-Meier method separately for previously untreated and previously treated metastatic patients who were treated at the MTD..\n\nFor some patients no scans were available for irRECIST reads, in which case change of management was determined to be the point of progression.",
+        "timeFrame": "Time from first day of radiotherapy to first documented immune-related progressive disease, death due to any cause or last patient contact alive and progression-free, assessed at 6 months"
+      },
+      {
+        "measure": "Late Toxicities, Graded According to the Radiation Therapy Oncology Group/European Organization for Research, the Treatment of Cancer Late Morbidity Scoring System, and the Common Terminology Criteria for Adverse Events Version 4.0",
+        "description": "Defined generally as an adverse event associated with the treatment which occurs beyond 30 days after last injection (i.e., adverse events which are observed months after treatment are most likely associated with SBRT). All dose-limiting toxicities and late toxicities will be graded and tabled by lesion site stratum and SBRT fraction dose level. Toxicity attribution to either SBRT or ipilimumab will be described if possible.",
+        "timeFrame": "Up to 3 years"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "Will be estimated by the Kaplan-Meier method separately for previously untreated and previously treated metastatic patients who were treated at the MTD.",
+        "timeFrame": "Time from first day of radiotherapy to death due to any cause or last patient contact alive, assessed at 12 months"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT01970527/Prot_SAP_000.pdf",
+      "sha256": "602A093E5C055C0B2757B8ED7E860D8C220C1B19A00D47CF0CBD4FAFCCD907D6",
+      "bytes": 1422682,
+      "pages": 26,
+      "document_date": "2016-11-15",
+      "upload_date": "2019-12-17T14:02",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 77938,
+        "sampled_pages": 26
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 26,
+      "content_digest": "602A093E5C055C0B2757B8ED7E860D8C220C1B19A00D47CF0CBD4FAFCCD907D6"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

@@ -1,0 +1,3863 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03466346",
+      "orgStudyIdInfo": {
+        "id": "1R01MH115512 1R01MH113722-01A1"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01MH115512",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R01MH115512"
+        },
+        {
+          "id": "1R01MH113722-01A1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R01MH113722-01A1"
+        }
+      ],
+      "organization": {
+        "fullName": "University of California, San Francisco",
+        "class": "OTHER"
+      },
+      "briefTitle": "SMART-DAPPER: Leveraging the Depression And Primary-care Partnership for Effectiveness-implementation Research Project",
+      "officialTitle": "A Sequential, Multiple Assignment Randomized Trial (SMART) for Non-specialist Treatment of Common Mental Disorders in Kenya: Leveraging the Depression And Primary-care Partnership for Effectiveness-implementation Research (DAPPER) Project",
+      "acronym": "SMART-DAPPER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-08-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-05-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-05-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-03-02",
+      "studyFirstSubmitQcDate": "2018-03-08",
+      "studyFirstPostDateStruct": {
+        "date": "2018-03-15",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-06-05",
+      "resultsFirstSubmitQcDate": "2025-11-18",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-12-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of California, San Francisco",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Nairobi",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute of Mental Health (NIMH)",
+          "class": "NIH"
+        },
+        {
+          "name": "Kenya Medical Research Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of California, San Diego",
+          "class": "OTHER"
+        },
+        {
+          "name": "Makerere University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Despite carrying the vast majority of the global mental disorder burden, 75% of adults with mental disorders in Low and Middle Income Countries have no access to services. This study will test strategies for integrating first and second line evidence-based depression and trauma-related disorder treatments with primary care services at a large public sector hospital and conduct robust cost and cost-benefit analyses of each treatment to produce a \"menu\" of cost-benefit options for personalized, integrated mental health care with corresponding effectiveness and implementation values.",
+      "detailedDescription": "Mental disorders are a leading cause of global disability, driven by depression and anxiety. Most of the disease burden is in Low and Middle Income Countries (LMICs), where 75% of adults with mental disorders have no service access. Despite nearly 15 years of efficacy research showing that local non-specialists can provide evidence-based care for depression and anxiety in LMICs, few studies have advanced to the critical next step: identifying strategies for sustainable \"real world\" non-specialist treatment including integration with existing healthcare platforms and response to common clinical dilemmas, such as what treatment to start with and how to modify it.\n\nGiven the need to personalize treatment to achieve remission (absence of disease) and the scarcity of mental health specialists in LMICs, successful reduction of population-level disability caused by depression and anxiety requires (1) evidence-based strategies for first-line and second-line (non-remitter) treatment delivered by non-specialists, with (2) confirmation of presumed mechanism of action and (3) patient-level moderators of treatment outcome to inform personalized, non-specialist treatment algorithms.\n\nThe research team has worked in western Kenya for 6 years with a UCSF-Kenya collaboration that supports integrated HIV services at over 70 primary healthcare facilities in Kisumu County (Family AIDS Care and Education Services \\[FACES\\]). Primary care populations in Kenya have high prevalence of Major Depressive Disorder (MDD) (26%) and Posttraumatic Stress Disorder (PTSD) (35%). Kenyan leaders lack an evidence base for two essential treatments - psychotherapy and second generation antidepressants- without which scale-up will fall short of its potential. We conducted a randomized, controlled trial in Kisumu County of Interpersonal Psychotherapy (IPT) delivered by non-specialists for HIV-positive patients with MDD and PTSD. In our study, IPT achieved full remission of MDD and PTSD in the majority of participants.\n\nGiven the high prevalence of MDD-PTSD co-morbidity, we will collaborate with the FACES team providing services to Kisumu County Hospital (KCH) primary care outpatient clinic (\\~10,000 patients/month) to conduct a randomized trial of IPT versus fluoxetine for MDD and/or PTSD. Local non-specialists will be trained in mental health care for the SMART and hired through the Kenyan Ministry of Health to work at KCH. SMART participants will be randomized to: (1) first line treatment with IPT or fluoxetine; (2) second line treatment for non-remitters- treatment \"switch\" (e.g., IPT to fluoxetine) or treatment \"combination\" (e.g., addition of IPT to fluoxetine). Research with mental health specialists in high income countries suggests that antidepressants and psychotherapy have equivalent short-term efficacy and that psychotherapy yields superior long-term relapse prevention. We will test the role of previously identified mechanisms in mediating remission and key moderators of treatment effect. Results of moderator and Q learning analyses will produce first and second-line non-specialist treatment algorithms."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression, Unipolar",
+        "Posttraumatic Stress Disorder",
+        "Trauma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "fluoxetine versus interpersonal psychotherapy (IPT) for treatment of Major Depressive Disorder (MDD) and/or Posttraumatic Stress Disorder (PTSD)",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "participants will be evaluated by an outcomes assessor that is not aware of which treatment the participant is receiving. This will be achieved by keeping the randomization key locked and accessible only to the study coordinator and investigators. Participants who are scheduled for assessments will be reminded not to spontaneously disclose their treatment modality to the outcomes assessor.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2162,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Interpersonal psychotherapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "IPT was developed in the 1980s by Gerald Klerman and Myrna Weissman to address interpersonal issues in depression. IPT is now considered evidence-based, first-line treatment for depression. IPT improves symptoms by addressing problems in social relationships. IPT is traditionally delivered as weekly one-hour sessions over 12 weeks, focused on one interpersonal problem area.",
+          "interventionNames": [
+            "Behavioral: Interpersonal Psychotherapy"
+          ]
+        },
+        {
+          "label": "fluoxetine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Fluoxetine is a selective serotonin reuptake inhibitor that is FDA approved for the treatment of depression. Compared to placebo, fluoxetine is more likely to produce symptom response for MDD. Despite the interim development of many other antidepressants since the development of fluoxetine, it remains a first line treatment for depression.",
+          "interventionNames": [
+            "Drug: Fluoxetine"
+          ]
+        },
+        {
+          "label": "Fluoxetine after IPT",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "participants who do not remit from MDD and PTSD after treatment with IPT may be randomized to fluoxetine.",
+          "interventionNames": [
+            "Drug: Fluoxetine"
+          ]
+        },
+        {
+          "label": "IPT after fluoxetine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "participants who do not remit from MDD and PTSD after treatment with fluoxetine may be randomized to IPT.",
+          "interventionNames": [
+            "Behavioral: Interpersonal Psychotherapy"
+          ]
+        },
+        {
+          "label": "IPT + fluoxetine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "participants who do not remit from MDD and PTSD after treatment with fluoxetine may be randomized to IPT + fluoxetine.",
+          "interventionNames": [
+            "Drug: Fluoxetine",
+            "Behavioral: Interpersonal Psychotherapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fluoxetine",
+          "description": "Fluoxetine is a selective serotonin reuptake inhibitor that is FDA approved for the treatment of depression. Compared to placebo, fluoxetine is more likely to produce symptom response for MDD. Despite the interim development of many other antidepressants since the development of fluoxetine, it remains a first line treatment for depression.",
+          "armGroupLabels": [
+            "Fluoxetine after IPT",
+            "IPT + fluoxetine",
+            "fluoxetine"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Interpersonal Psychotherapy",
+          "description": "IPT was developed in the 1980s by Gerald Klerman and Myrna Weissman to address interpersonal issues in depression. IPT is now considered evidence-based, first-line treatment for depression. IPT improves symptoms by addressing problems in social relationships. IPT is traditionally delivered as weekly one-hour sessions over 12 weeks, focused on one interpersonal problem area.",
+          "armGroupLabels": [
+            "IPT + fluoxetine",
+            "IPT after fluoxetine",
+            "Interpersonal psychotherapy"
+          ],
+          "otherNames": [
+            "IPT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Major Depression at End of Treatment",
+          "description": "Number of Participants with Major Depression. The Beck Depression Inventory-Second Edition (BDI-II) was used and a score of 19 or greater was defined as positive for major depression. BDI-II score below 19 is defined as negative for major depression. Scores range from 0 to 63 with higher total scores indicating more severe depressive symptoms.",
+          "timeFrame": "End of 1st line Treatment (up to month 6) and end of 2nd line Treatment (up to month 12)"
+        },
+        {
+          "measure": "Number of Participants With PTSD",
+          "description": "Number of Participants with PTSD. The PTSD Checklist for DSM-5 (PCL-5) was used and score of 23 or greater is defined as positive for PTSD. PCL-5 score below 23 is defined as negative for PTSD. Score range from 0 to 80 with higher total scores indicating more severe PTSD symptoms.",
+          "timeFrame": "End of 1st line Treatment (up to month 6) and end of 2nd line Treatment (up to month 12)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Kisumu County Hospital (KCH) adult primary care outpatient clinic attendees who screen positive for depression and/or PTSD\n2. Ability to attend weekly IPT sessions/fluoxetine monitoring; (3) 18 years or older\n\nExclusion Criteria:\n\n1. Cognitive dysfunction compromising ability to participate in IPT or accurately take fluoxetine (lack of orientation to person, place, time and situation)\n2. acute suicidality requiring higher level of care\n3. drug/alcohol use disorders requiring substance use treatment (AUDIT score of 8 or higher, DAST score of 3 or higher)\n4. history of mania or requiring treatment for hypomania\n5. Outside mental health treatment during the study treatment phases (any mental health treatment is allowed during follow-up phases and is recorded by study team).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Muthoni J Mathai, MDChB, MMed",
+          "affiliation": "University of Nairobi",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Susan M Meffert, MD, MPH",
+          "affiliation": "University of California, San Francisco",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Jaramogi Oginga Odinga Teaching and Referral Hospital (JOOTRH)",
+          "city": "Kisumu",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -0.10221,
+            "lon": 34.76171
+          }
+        },
+        {
+          "facility": "Kisumu County Hospital",
+          "city": "Kisumu",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -0.10221,
+            "lon": 34.76171
+          }
+        },
+        {
+          "facility": "Lumumba Health Center",
+          "city": "Kisumu",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -0.10221,
+            "lon": 34.76171
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41184028",
+          "type": "DERIVED",
+          "citation": "Mwai D, Meffert SM, Olwanda EE, Mathai MA, Ongeri L, Burger RL, Mbwayo A, Rota G, Otieno A, Cohen CR, Bukusi D, Aarons GA, Neylan TC, McCulloch CE, Jin C, Akena D, Kahonge S, Kahn JG. Productivity benefits of treatment of depression and post-traumatic stress disorder in Kenya. BMJ Glob Health. 2025 Nov 3;10(11):e018204. doi: 10.1136/bmjgh-2024-018204."
+        },
+        {
+          "pmid": "40854809",
+          "type": "DERIVED",
+          "citation": "Burger RL, Meffert SM meffert, Ongeri L, Wangia J, Wambura R, Ajore P, Rota G, Otieno A, Obura RR, Muchembre P, Bukusi D, Mbwayo A, Neylan TC, Akena D, Jin C, McCulloch C, Mathai MA. Factors associated with fluoxetine adherence among outpatients with common mental disorders in Western Kenya. BMJ Glob Health. 2025 Aug 25;10(8):e017929. doi: 10.1136/bmjgh-2024-017929."
+        },
+        {
+          "pmid": "40766223",
+          "type": "DERIVED",
+          "citation": "Olwanda E, Mwai D, Mathai M, Burger R, Ongeri L, Bukusi D, Mbwayo A, Rota G, Otieno A, Rota R, Meffert S, Kahn JG. Cost-Benefit Analysis of Interpersonal Therapy and Fluoxetine for Treating Depression and PTSD in Primary Care Settings in Kenya. Res Sq [Preprint]. 2025 Jul 28:rs.3.rs-6977800. doi: 10.21203/rs.3.rs-6977800/v1."
+        },
+        {
+          "pmid": "39557549",
+          "type": "DERIVED",
+          "citation": "Meffert S, Mathai M, Neylan T, Mwai D, Onyango DO, Rota G, Otieno A, Obura RR, Wangia J, Opiyo E, Muchembre P, Oluoch D, Wambura R, Mbwayo A, Kahn JG, Cohen CR, Bukusi D, Aarons GA, Burger RL, Jin C, McCulloch C, Kahonge S, Ongeri L. Preference of mHealth versus in-person treatment for depression and post-traumatic stress disorder in Kenya: demographic and clinical characteristics. BMJ Open. 2024 Nov 18;14(11):e083094. doi: 10.1136/bmjopen-2023-083094."
+        },
+        {
+          "pmid": "39236052",
+          "type": "DERIVED",
+          "citation": "Getahun M, Mathai MA, Rota G, Allen A, Burger RL, Opiyo E, Oluoch D, Wangia J, Wambura R, Mbwayo A, Muchembre P, Obura RR, Neylan TC, Aarons GA, Ongeri L, Meffert SM. \"The peace that I wanted, I got\": Qualitative insights from patient experiences of SMART DAPPER interventions for major depression and traumatic stress disorders in Kenya. PLOS Glob Public Health. 2024 Sep 5;4(9):e0002685. doi: 10.1371/journal.pgph.0002685. eCollection 2024."
+        },
+        {
+          "pmid": "31883526",
+          "type": "DERIVED",
+          "citation": "Levy R, Mathai M, Chatterjee P, Ongeri L, Njuguna S, Onyango D, Akena D, Rota G, Otieno A, Neylan TC, Lukwata H, Kahn JG, Cohen CR, Bukusi D, Aarons GA, Burger R, Blum K, Nahum-Shani I, McCulloch CE, Meffert SM. Implementation research for public sector mental health care scale-up (SMART-DAPPER): a sequential multiple, assignment randomized trial (SMART) of non-specialist-delivered psychotherapy and/or medication for major depressive disorder and posttraumatic stress disorder (DAPPER) integrated with outpatient care clinics at a county hospital in Kenya. BMC Psychiatry. 2019 Dec 28;19(1):424. doi: 10.1186/s12888-019-2395-x."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "NIMH Data Archive The National Institutes of Health (NIH) and NIMH have developed a federation of data repositories called the NIMH Data Archive (NDA) to store the collection of data from participants in research studies related to mental health, regardless of the source of funding. The extensive information collected by these studies, and subsequently stored in the National Database for Autism Research (NDAR), the NIH Pediatric MRI Repository (PedsMRI), the National Database for Clinical Trials Related to Mental Illness (NDCT), and the Research Domain Criteria Database (RDoCdb) provides a rare and valuable scientific resource. The NIH and the NIMH seek to encourage the use of these resources to achieve rapid scientific progress. In order to take full advantage of such resources and maximize their research value, it is important that data be made available, on appropriate terms and conditions, to the largest possible number of qualified investigators in a timely manner.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "CSR"
+      ],
+      "timeFrame": "Data will be made available to the NIMH data archive as soon as it is verified as clean and complete, with at least annual updates throughout the duration of the study. Data will be be available indefinitely or for as long as the NIMH repositories supports the electronic data storage.",
+      "accessCriteria": "The investigative team and our NIMH and GACD partners will review requests for data. Evaluation will include scientific merit of the proposal, overlap versus building upon the study goals."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "N=1682 Screened Out for =\\>1 reason/ppt\n\n* 384 Didn't return -956 MDE- \\& PTSD-\n* 179 Drug or Alcohol Use\n* 120 Suicidality\n* 100 Unwilling to ppt\n* 133 History/Current Mania\n* 82 Pregnant or Breastfeeding\n* 13 Taking FLX\n* 1 Age \\<18\n* 2 Didn't consent\n* 2 Current ppt\n* 6 Cognitive dysfunction\n\nN= 20 Eligible and Not Randomized for =\\>1 reason/ppt\n\n* 6 Declined\n* 7 Specialized or Higher level of care\n* 2 Moved out\n* 2 Pregnant or breastfeeding\n* 2 Drug or Alcohol Use\n* 1 Boarding school",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Stage 1: Interpersonal Psychotherapy",
+          "description": "IPT was developed in the 1980s by Gerald Klerman and Myrna Weissman to address interpersonal issues in depression. IPT is now considered evidence-based, first-line treatment for depression. IPT improves symptoms by addressing problems in social relationships. IPT is traditionally delivered as weekly one-hour sessions over 12 weeks, focused on one interpersonal problem area.\n\nInterpersonal Psychotherapy: IPT was developed in the 1980s by Gerald Klerman and Myrna Weissman to address interpersonal issues in depression. IPT is now considered evidence-based, first-line treatment for depression. IPT improves symptoms by addressing problems in social relationships. IPT is traditionally delivered as weekly one-hour sessions over 12 weeks, focused on one interpersonal problem area."
+        },
+        {
+          "id": "FG001",
+          "title": "Stage 1: Fluoxetine",
+          "description": "Fluoxetine is a selective serotonin reuptake inhibitor that is FDA approved for the treatment of depression. Compared to placebo, fluoxetine is more likely to produce symptom response for MDD. Despite the interim development of many other antidepressants since the development of fluoxetine, it remains a first line treatment for depression.\n\nFluoxetine: Fluoxetine is a selective serotonin reuptake inhibitor that is FDA approved for the treatment of depression. Compared to placebo, fluoxetine is more likely to produce symptom response for MDD. Despite the interim development of many other antidepressants since the development of fluoxetine, it remains a first line treatment for depression."
+        },
+        {
+          "id": "FG002",
+          "title": "Stage 2: IPT After Fluoxetine",
+          "description": "Participants who did not remit with fluoxetine and were randomized to receive second line treatment with IPT"
+        },
+        {
+          "id": "FG003",
+          "title": "Stage 2: Fluoxetine After IPT",
+          "description": "Participants who did not remit with IPT and were randomized to receive second line treatment with fluoxetine."
+        },
+        {
+          "id": "FG004",
+          "title": "Stage 2: IPT and Fluoxetine",
+          "description": "Combination treatment with both IPT and fluoxetine for participants who did not remit with IPT or fluoxetine"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Stage 1 - 1st Line Trt (IPT or FLX)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1082"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1080"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "986"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "878"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "96"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "202"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "26"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Participant withdrawal or relocated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "31"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "69"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "142"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stage 2 - 2nd Line Trt (Combo or Switch)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "68"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "104"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "160"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "77"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "109"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "51"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Participant withdrawal or relocated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "45"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "stage 2 participants do not have baseline data",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Stage 1: Interpersonal Psychotherapy (IPT)",
+          "description": "3 months of weekly IPT sessions"
+        },
+        {
+          "id": "BG001",
+          "title": "Stage 1: Fluoxetine",
+          "description": "6 months of fluoxetine. Participants began with 20mg 1 tablet per day. If symptom reduction did not occur, the dose was increased by 20mg increments each month to an upper limit of 60mg."
+        },
+        {
+          "id": "BG002",
+          "title": "Stage 2: Fluoxetine After IPT",
+          "description": "Participants who were not in remission after IPT who received second line treatment with fluoxetine"
+        },
+        {
+          "id": "BG003",
+          "title": "Stage 2: IPT After Fluoxetine",
+          "description": "Participants who were not in remission after fluoxetine who received second line treatment with IPT"
+        },
+        {
+          "id": "BG004",
+          "title": "Stage 2: Fluoxetine and IPT",
+          "description": "Participants who were not in remission after IPT or fluoxetine who received second line treatment with fluoxetine and IPT"
+        },
+        {
+          "id": "BG005",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "1082"
+            },
+            {
+              "groupId": "BG001",
+              "value": "1080"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            },
+            {
+              "groupId": "BG003",
+              "value": "0"
+            },
+            {
+              "groupId": "BG004",
+              "value": "0"
+            },
+            {
+              "groupId": "BG005",
+              "value": "2162"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36",
+                      "spread": "11.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35.3",
+                      "spread": "10.8"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "35.7",
+                      "spread": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "977"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "981"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1958"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "105"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "204"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Kenya",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2126"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Major Depression on Mini International Neuropsychiatric Interview (MINI)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1035"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1036"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2071"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PTSD (Mini International Neuropsychiatric Interview (MINI)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "555"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "563"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1118"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Major Depression adn PTSD (MINI)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "508"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "519"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1027"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Depression symptoms (BDI2)",
+          "description": "Beck Depression Inventory-Second Edition (BDI-II) score of 19 or greater is defined as positive for major depression. BDI-II score below 19 is defined as negative for major depression. Scores range from 0 to 63 with higher total scores indicating more severe depressive symptoms.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "BDI2 cutscore 19 for major depressio",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28.7",
+                      "spread": "10.3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29.1",
+                      "spread": "10.5"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "28.9",
+                      "spread": "10.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PTSD symptoms (PCL)",
+          "description": "PTSD Checklist for DSM-5 (PCL-5) score of 23 or greater is defined as positive for PTSD. PCL-5 score below 23 is defined as negative for PTSD. Score range from 0 to 80 with higher total scores indicating more severe PTSD symptoms.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "PCL-5 cutscore 23 for PTSD",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43.6",
+                      "spread": "17.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "43.3",
+                      "spread": "17.2"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "43.5",
+                      "spread": "17.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HIV co-morbidity",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "438"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "413"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "851"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Other co-morbidity (hypertension, diabetes, tuberculosis, syphilis, hypothyroidism, hyperthyroidism)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "195"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "History of Mental Health Care",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1082"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1080"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2162"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lifetime physical intimate partner violence among partnered participants",
+          "description": "The Conflict Tactics Scale (CTS2) short form is a widely used measure of intimate partner violence (IPV). We examined the subscale for physical IPV among partnered participants. Given the high prevalence of IPV in the region, its association with depression and PTSD, and promising studies showing reduction of IPV with treatment of depression and PTSD, we evaluated IPV among partnered participants baseline and follow up.",
+          "populationDescription": "Partnered participants",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "551"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "568"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1119"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "319"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "343"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "662"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With Major Depression at End of Treatment",
+          "description": "Number of Participants with Major Depression. The Beck Depression Inventory-Second Edition (BDI-II) was used and a score of 19 or greater was defined as positive for major depression. BDI-II score below 19 is defined as negative for major depression. Scores range from 0 to 63 with higher total scores indicating more severe depressive symptoms.",
+          "populationDescription": "Number of participants with Major Depression in each arm at the end of 1st line Treatment (Stage 1) and the end of 2nd line Treatment (Stage 2)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "End of 1st line Treatment (up to month 6) and end of 2nd line Treatment (up to month 12)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Stage 1: Interpersonal Psychotherapy (IPT)",
+              "description": "3 months of weekly IPT sessions"
+            },
+            {
+              "id": "OG001",
+              "title": "Stage 1: Fluoxetine",
+              "description": "6 months of fluoxetine. Participants began with 20mg 1 tablet per day. If symptom reduction did not occur, the dose was increased by 20mg increments each month to an upper limit of 60mg."
+            },
+            {
+              "id": "OG002",
+              "title": "Stage 2: Fluoxetine After IPT",
+              "description": "Participants who were not in remission after IPT who received second line treatment with fluoxetine"
+            },
+            {
+              "id": "OG003",
+              "title": "Stage 2: IPT After Fluoxetine",
+              "description": "Participants who were not in remission after fluoxetine who received second line treatment with IPT"
+            },
+            {
+              "id": "OG004",
+              "title": "Stage 2: Fluoxetine and IPT",
+              "description": "Participants who were not in remission after IPT or fluoxetine who received second line treatment with fluoxetine and IPT"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "986"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "878"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "77"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "109"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "127"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "89"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With PTSD",
+          "description": "Number of Participants with PTSD. The PTSD Checklist for DSM-5 (PCL-5) was used and score of 23 or greater is defined as positive for PTSD. PCL-5 score below 23 is defined as negative for PTSD. Score range from 0 to 80 with higher total scores indicating more severe PTSD symptoms.",
+          "populationDescription": "Number of participants with PTSD in each arm at end of 1st line Treatment (Stage 1) and end of 2nd line Treatment (Stage 2)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "End of 1st line Treatment (up to month 6) and end of 2nd line Treatment (up to month 12)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Stage 1: Interpersonal Psychotherapy (IPT)",
+              "description": "3 months of weekly IPT sessions"
+            },
+            {
+              "id": "OG001",
+              "title": "Stage 1: Fluoxetine",
+              "description": "6 months of fluoxetine. Participants began with 20mg 1 tablet per day. If symptom reduction did not occur, the dose was increased by 20mg increments each month to an upper limit of 60mg."
+            },
+            {
+              "id": "OG002",
+              "title": "Stage 2: Fluoxetine After IPT",
+              "description": "Participants who were not in remission after IPT who received second line treatment with fluoxetine"
+            },
+            {
+              "id": "OG003",
+              "title": "Stage 2: IPT After Fluoxetine",
+              "description": "IPT After Fluoxetine - Participants who were not in remission after fluoxetine who received second line treatment with IPT"
+            },
+            {
+              "id": "OG004",
+              "title": "Stage 2: Fluoxetine and IPT",
+              "description": "Participants who were not in remission after IPT or fluoxetine who received second line treatment with fluoxetine and IPT"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "986"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "878"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "77"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "109"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "173"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "108"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "30 month follow-up",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Stage 1: Interpersonal Psychotherapy (IPT)",
+          "description": "3 months of weekly Interpersonal Psychotherapy sessions",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 1082,
+          "seriousNumAffected": 37,
+          "seriousNumAtRisk": 1082,
+          "otherNumAffected": 326,
+          "otherNumAtRisk": 1082
+        },
+        {
+          "id": "EG001",
+          "title": "Stage 1: Fluoxetine",
+          "description": "6 months of fluoxetine. Participants began with 20mg 1 tablet per day. If symptom reduction did not occur, the dose was increased by 20mg increments each month to an upper limit of 60mg.",
+          "deathsNumAffected": 14,
+          "deathsNumAtRisk": 1080,
+          "seriousNumAffected": 49,
+          "seriousNumAtRisk": 1080,
+          "otherNumAffected": 139,
+          "otherNumAtRisk": 1080
+        },
+        {
+          "id": "EG002",
+          "title": "Stage 2: IPT After Fluoxetine",
+          "description": "Participants who did not remit with fluoxetine and were randomized to receive second line treatment with IPT",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 68,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 68,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 68
+        },
+        {
+          "id": "EG003",
+          "title": "Stage 2: Fluoxetine After IPT",
+          "description": "Participants who did not remit with IPT and were randomized to receive second line treatment with fluoxetine",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 104,
+          "seriousNumAffected": 6,
+          "seriousNumAtRisk": 104,
+          "otherNumAffected": 10,
+          "otherNumAtRisk": 104
+        },
+        {
+          "id": "EG004",
+          "title": "Stage 2: Fluoxetine and IPT",
+          "description": "IPT or fluoxetine participants who are not in remission at the end of first line treatment who receive IPT and fluoxetine (combination) as second line treatment",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 160,
+          "seriousNumAffected": 8,
+          "seriousNumAtRisk": 160,
+          "otherNumAffected": 16,
+          "otherNumAtRisk": 160
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Gastrointestinal distress",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "For example diarrhea, vomiting",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Ob/gyn",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Ob/gyn events",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Fatigue/Malaise",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Fatigue/Malaise",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Ear Nose and Throat (ENT)",
+          "organSystem": "Ear and labyrinth disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Ear Nose and Throat (ENT)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Abnormal laboratory result",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Abnormal laboratory results",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal (MS)",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Musculoskeletal (MS)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Other SAEs",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Other SAEs",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Pain",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Typhoid",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Injury",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Respiratory",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Malaria",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Malaria",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 4,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Dysphagia / odynophagia",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Dysphagia / odynophagia",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Cardiovascular (CV)",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Cardiovascular (CV)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Thought of self-harm or suicidal ideation",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Thought of self-harm or suicidal ideation",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Endocrine/Metabolic",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Endocrine/Metabolic",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Hemopoietic sysytem",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Hemopoietic sysytem",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "bacterial/fungal infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "bacterial/fungal infection",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Jaundice",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Jaundice",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Neurological",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Neurological",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Renal system",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Renal system",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Sexual dysfunction",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Abdominal Pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 2,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Abnormal Laboratory Results",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Thoughts of self-harm",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Burn",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Cardiovascular",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Ear Nose and Throat",
+          "organSystem": "Ear and labyrinth disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Endocrine/Metabolic",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Fatigue/Malaise",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal Distress",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 17,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Genitourinary (GU)",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 34,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Hemopoietic System",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Infection - bacterial/fungal",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Jaundice",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Malaria",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 56,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 15,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 2,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Miscellaneous",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 20,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 14,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 27,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Neurological",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "OBGYN",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 34,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Pallor",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Renal System",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Respiratory",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 25,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 5,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Sedation",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Seizure",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Sexual Disfunction",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Sweating",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Thyroid",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        },
+        {
+          "term": "Typhoid",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 1082
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1080
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 104
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 160
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Susan Meffert MD, MPH; Professor of Psychiatry; MPI",
+        "organization": "University of California San Francisco",
+        "email": "susan.meffert@ucsf.edu",
+        "phone": "4158765455"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-10-27",
+          "uploadDate": "2025-08-18T17:55",
+          "filename": "Prot_000.pdf",
+          "size": 1159408
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2021-10-27",
+          "uploadDate": "2025-11-18T14:37",
+          "filename": "SAP_001.pdf",
+          "size": 75794
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D013313",
+          "term": "Stress Disorders, Post-Traumatic"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D040921",
+          "term": "Stress Disorders, Traumatic"
+        },
+        {
+          "id": "D000068099",
+          "term": "Trauma and Stressor Related Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005473",
+          "term": "Fluoxetine"
+        },
+        {
+          "id": "D000079062",
+          "term": "Interpersonal Psychotherapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011437",
+          "term": "Propylamines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

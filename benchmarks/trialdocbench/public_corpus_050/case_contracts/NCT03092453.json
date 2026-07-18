@@ -1,0 +1,58 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03092453",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03092453",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 5,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Immune Response Measuring Increased Numbers of Peptide Specific T Cells as Calculated by the Tetramer Assay.",
+        "description": "Immune response measuring increased numbers of peptide specific T cells as calculated by the tetramer assay. The numbers of Peptide Specific T Cells are reported as the percent of CD8+ T cells that were p/HLA multimer positive for each antigen.",
+        "timeFrame": "Screening through week 21"
+      },
+      {
+        "measure": "Safety and Tolerability of the Mature Dendritic Cell Vaccine (mDC3/8 Vaccines).",
+        "description": "Safety endpoint is type and number of adverse events. Tolerability endpoint is subject's completion or withdrawal from study treatment.",
+        "timeFrame": "End of Study visit (10-28 days after last DC vaccine)"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03092453/Prot_SAP_000.pdf",
+      "sha256": "159264390686DFF4C8391E05ACC5D2235B9ECF825DFE7129F8A37AD54733064A",
+      "bytes": 728807,
+      "pages": 38,
+      "document_date": "2021-08-10",
+      "upload_date": "2024-03-11T14:10",
+      "content_signals": {
+        "protocol": true,
+        "sap": false,
+        "extracted_chars": 114300,
+        "sampled_pages": 38
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 38,
+      "content_digest": "159264390686DFF4C8391E05ACC5D2235B9ECF825DFE7129F8A37AD54733064A"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

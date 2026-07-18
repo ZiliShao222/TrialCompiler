@@ -1,0 +1,75 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03379727",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03379727",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE3"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 301,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Percentage of Patients With Adverse Events (AEs), Grade 3 & 4 AEs, Serious Adverse Events (SAEs), AEs Leading to Discontinuation, and Deaths up to 24 Months (M24).",
+        "description": "Safety of Midostaurin was represented by various types of AEs, SAEs \\& death up to M24. AE: the appearance of (or worsening of any pre-existing) undesirable sign(s), symptom(s), or medical condition(s) that occur after patient's signed informed consent has been obtained. AE grades to characterize the severity of AEs were based on the Common Terminology Criteria for AEs ver. 4.03 with Grade (Gr) 1: mild; Gr 2: moderate; Gr 3: severe; Gr 4: life-threatening; Gr 5: death related to AE. AEs not related to hematological toxicities were generally of grade 1 or 2 severity. SAE: 1 of the following: is fatal or life-threatening, results in persistent or significant disability/incapacity, constitutes a congenital anomaly/birth defect, is medically significant, i.e. an event that jeopardizes the patient or may require medical or surgical intervention to prevent 1 of the outcomes listed above, requires inpatient hospitalization or prolongation of existing hospitalization with a few exceptions.",
+        "timeFrame": "Baseline up to approximatly 24 months"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol",
+      "filename": "Prot_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03379727/Prot_000.pdf",
+      "sha256": "FCFB59DF76E499146E03487D3085E555AA85C14786145FE407EB27C8D6FC6B0D",
+      "bytes": 1312086,
+      "pages": 80,
+      "document_date": "2018-03-26",
+      "upload_date": "2022-07-08T11:39",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 95870,
+        "sampled_pages": 40
+      }
+    },
+    {
+      "roles": "sap",
+      "filename": "SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03379727/SAP_001.pdf",
+      "sha256": "935B8C33A79330B67793C7760A05134A575CD49867559D16E3C5A03A68728332",
+      "bytes": 566060,
+      "pages": 30,
+      "document_date": "2021-11-09",
+      "upload_date": "2022-07-08T11:39",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 55820,
+        "sampled_pages": 30
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_000.pdf",
+      "roles": "protocol",
+      "cost_unit": 80,
+      "content_digest": "FCFB59DF76E499146E03487D3085E555AA85C14786145FE407EB27C8D6FC6B0D"
+    },
+    {
+      "action_id": "read:SAP_001.pdf",
+      "roles": "sap",
+      "cost_unit": 30,
+      "content_digest": "935B8C33A79330B67793C7760A05134A575CD49867559D16E3C5A03A68728332"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

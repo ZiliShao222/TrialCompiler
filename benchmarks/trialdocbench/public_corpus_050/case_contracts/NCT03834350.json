@@ -1,0 +1,63 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT03834350",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT03834350",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 71,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Virtual Education Module Adherence",
+        "description": "Number of participants who completed the virtual education module at least once before the 30 day follow-up visit.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Rate of SpiroPD Device Usage for At-Home COPD Self-Management",
+        "description": "Number of participants who used the SpiroPD device to perform lung function test and keep track of medications post-discharge.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Inhaler Technique",
+        "description": "Percent of participants who misused their inhalers (≤10/12 steps correct) at baseline, post-baseline inhaler education, and at 30-day follow-up",
+        "timeFrame": "Baseline; Baseline post-education; 30-day post-discharge"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_001.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03834350/Prot_SAP_001.pdf",
+      "sha256": "DC293BD941F9533987801D4ABE33940C4B79519C646FB24FB0ACD357849F4871",
+      "bytes": 295727,
+      "pages": 8,
+      "document_date": "2019-09-27",
+      "upload_date": "2019-10-22T17:17",
+      "content_signals": {
+        "protocol": false,
+        "sap": false,
+        "extracted_chars": 27529,
+        "sampled_pages": 8
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_001.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 8,
+      "content_digest": "DC293BD941F9533987801D4ABE33940C4B79519C646FB24FB0ACD357849F4871"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

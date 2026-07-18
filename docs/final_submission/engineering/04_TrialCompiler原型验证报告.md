@@ -210,3 +210,43 @@ python scripts/score_nct04683926_benchmark.py `
 可以表述为：TrialCompiler 已搭建一个具有分阶段资料隔离、事实治理、文档依赖、增量修订、独立 benchmark 评分和机器门禁的临床文档工程原型；在 NCT04683926 公开案例和 Metformin-PAD 合成/历史重建案例上完成了声明范围内的端到端工程验证。NCT04683926 当前冻结评分为 TP=8、FP=1、FN=0、TN=2、F1=0.9412，但该指标仅适用于本案例与当前 gold/scorer 版本。
 
 不应表述为：系统已经能够自动设计临床试验、通过监管审核、替代专业人员，或已获得 98.18 分的临床质量证明。
+
+## 8. 2026-07-19：50 个真实公开 Protocol+SAP 案例扩展验证
+
+为解决“单案例结果无法代表跨研究稳健性”的暴露问题，本轮没有直接复制 NCT04683926
+的 F1，而是先建立可审计的真实公开语料底座。构建器通过 ClinicalTrials.gov API v2
+检索同时具有 Protocol 与 SAP 标记的研究，冻结 50 个唯一 NCT 案例、50 份注册快照与
+65 份官方上传 PDF 的 URL、字节数、页数和 SHA-256。入选文档均通过 PDF 头、非空页数
+和至少 100 个可提取正文字符的检查；1 个额外候选因正文不可提取被拒绝并由后续案例
+替补，因此最终数量不是“下载成功数”，而是“通过完整性门的有效案例数”。
+
+该 50 例覆盖 48 个干预性研究和 2 个观察性研究；35 例使用合并 Protocol/SAP，15 例
+使用分立文档。65 份文档合计 3,025 页，单次文档读取成本中位数为 33 页、P90 为 99
+页、最大为 241 页。这使主动取证不再只面对等成本的合成 action，而可以按真实文档
+页数比较信息增益与证据成本。50 个 case contract 均保留 enrollment 与 primary
+outcomes 注册字段，并明确 `gold_status=not_annotated`。
+
+验证过程中还修复了两个方法缺陷。第一，原构建器会在达到 50 例前并发提交全部候选，
+造成无必要下载与长尾等待；现改为分批取证、达到门槛后停止。第二，固定关键词曾被错误
+用作文档角色真值，导致官方合并 Protocol/SAP 被大量假阴性淘汰；现由 ClinicalTrials.gov
+的 `hasProtocol/hasSap` 元数据承担角色依据，正文关键词仅作为辅助审计，同时保留正文
+可提取门。最终 65 份文档中 Protocol 关键词信号为 59 份、SAP 关键词信号为 48 份；
+该差异被保留在构建报告中，不被伪装成 100% 命中。
+
+本轮验证解决的是“真实来源完整性、跨案例覆盖与取证成本契约”缺口，不是模型效果金标准。
+在独立盲标 finding、patch validity 和反事实证据依赖之前，50 例不得用于宣称准确率、
+校准效果或六臂消融效应量。六臂实验底座会拒绝未配对 arm、split 泄漏、冻结摘要漂移
+以及低于预注册样本量的结果声明；因此当前成果是把下一步实验从不可执行变为可执行且
+不可越界，而不是提前制造性能数字。
+
+复现入口：
+
+```powershell
+python scripts/build_public_protocol_sap_corpus.py --limit 50 --workers 8
+python scripts/profile_public_protocol_sap_corpus.py
+python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_builder.py tests/test_public_corpus_profile.py -q
+```
+
+对应证据位于 `benchmarks/trialdocbench/public_corpus_050/`。其中 `build_report.json` 记录
+拒绝原因和声明边界，`corpus_profile.json` 记录覆盖分布，`corpus_manifest.tsv` 与 50 个
+case contract 支持逐文件摘要复核和未来盲标。

@@ -1,0 +1,6000 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03379727",
+      "orgStudyIdInfo": {
+        "id": "CPKC412A2408"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-004440-12",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Assess the Safety and Efficacy of Midostaurin (PKC412) in Combination With Standard Chemotherapy During Induction and Consolidation Followed by 12 Months of Maintenance Monotherapy in Patients With Newly-diagnosed FMS-like Tyrosine 3 (FLT3) Kinase Receptor-mutated Acute Myeloid Leukemia.",
+      "officialTitle": "An Open-label, Multi-Center, Phase IIIb Study to Assess the Safety and Efficacy of Midostaurin (PKC412) in Patients 18 Years of Age or Older With Newly-diagnosed FLT3-mutated Acute Myeloid Leukemia Who Are Eligible for \"7+3\" or \"5+2\" Chemotherapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-02-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-07-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-07-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-12-14",
+      "studyFirstSubmitQcDate": "2017-12-19",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-20",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-07-08",
+      "resultsFirstSubmitQcDate": "2023-06-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-02-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study was to gather and evaluate additional safety and efficacy data on the combination of midostaurin and standard of care for adult patients with newly diagnosed Fms-like tyrosine kinase receptor (FLT3) mutated Acute Myeloid Leukemia (AML) who were eligible for standard induction and consolidation",
+      "detailedDescription": "This Phase IIIb study was designed as a single arm study and allowed the assessment of variation of the \"7+3\" regimen in an extended patient population compared to RATIFY (higher dose of daunorubicin (60-90 mg/m2/day), the substitution of daunorubicin by idarubicin (12mg/m2/day), and lower dose of cytarabine (100-200 mg/m2/day) and the \"5+2\" reduced dose regimen). Safety was the primary endpoint. Complete Response (CR)/Complete remission with incomplete hematological recovery (CRi) in induction, consolidation and maintenance therapy was collected as secondary endpoint.\n\nPatients who were newly diagnosed with AML, had a known FLT3 ITD (Internal tandem duplication) or TKD (Tyrosine kinase domain)(, mutation and had recently started on \"7+3\" or \"5+2\" in induction and high dose of cytarabine in consolidation were consented and screened for the clinical study.\n\n.\n\nThe protocol treatment allowed the following treatment phases:\n\n* Induction Phase: cytarabine with anthracycline (idarubicin or daunorubicin) sequentially per HCP choice, followed by midostaurin on day 8. In the first Induction phase, a bone marrow aspiration was performed in all subjects on Days 21- 28 (according to local standard of care) to determine the need for a second induction cycle. If the marrow aspirate was inadequate to make a determination, the bone marrow assessment was repeated within one week. If the Day 21-28 (according to local standard of care) bone marrow aspiration reveals ≥ 5% leukemic blasts in a cellular marrow (\\> 20%) a second induction was given. For subjects requiring a second induction, treatment began at least 3 days after completing midostaurin. Bone marrow aspiration was performed within one week after recovery of ANC ≥ 1000/μL and platelets ≥ 100,000/μL to assess for response. Subjects in CR proceeded to consolidation therapy. Subjects not achieving a marrow remission (or with persistent blasts) were to be removed from protocol therapy. Subjects with CRi proceeded to consolidation therapy as per investigator's discretion. 1 or 2 cycles of \"7+3\" or \"5+2\" regimens (switching between regimens was not allowed).\n* Consolidation Phase (for subjects in CR/CRi after consolidation therapy) (up to four cycles of cytarabine consolidation per investigator's discretion, with midostaurin given sequentially during each cycle): Based upon the superior results reported for AML subjects less than 60 years old with normal karyotypes in prospective clinical trials and RATIFY, who achieved a CR/CRi after induction received further therapy with midostaurin. Subjects received up to four cycles of consolidation therapy. Each consolidation cycle was four weeks in duration, and was to begin within two weeks following hematologic recovery (ANC ≥ 1000/μL, platelet count ≥ 100,000/μL), but not sooner than 31 days from the beginning of the previous cycle. A bone marrow aspiration was to be performed prior to the first consolidation cycle (C1D1) and later could be performed if necessary per investigator's decision at any time during Consolidation Phase.\n* Maintenance Phase (for subjects in CR/CRi after consolidation therapy): Subjects who continued in CR/CRi (by bone marrow aspiration and blood evaluation) after four cycles of consolidation therapy received midostaurin. Prior to maintenance therapy, all significant acute toxicity from consolidation therapy was to be resolved to ≤ grade 2. Subjects with CRi proceeded to maintenance therapy as per investigator's discretion and for CR subjects maintenance therapy began after hematologic recovery (ANC ≥ 1000/μL, platelet count ≥ 100,000/μL) from remission consolidation, and at least 3 days after the last dose of midostaurin during consolidation. Subjects who were unable to complete four courses of HiDAC consolidation because of toxicity could still be eligible for maintenance therapy at the discretion of the principal investigator after the last dose of consolidation after recovery from hematologic and other significant acute toxicity. A bone marrow examination was to be performed prior to the first maintenance and every 3 months during Maintenance phase. Maintenance phase was up to 12 cycles of maintenance therapy with single-agent midostaurin or until relapse, unacceptable toxicity, or death, physician's decision, subject/guardian's decision, protocol deviation, study termination by sponsor, lost to follow-up, technical problems, pregnancy, subject withdrew consent or until the end of study, whichever event occured first."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myeloid Leukemia"
+      ],
+      "keywords": [
+        "Midostaurin",
+        "PKC412",
+        "FMS-like tyrosine kinase receptor",
+        "FLT3",
+        "Acute Myeloid Leukemia",
+        "AML",
+        "7+3 chemotherapy",
+        "5+2 chemotherapy",
+        "Daunorubicin",
+        "Idarubicin",
+        "Cytarabine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 301,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Midostaurin",
+          "type": "EXPERIMENTAL",
+          "description": "Patients went through 3 phases:\n\nInduction phase - Day (D)8 to D28 in combination with standard of care (7+3 or 5+2 chemotherapy) up to 2 cycles; Consolidation phase - D8 to D28 in combination with cytarabine up to 4 cycles; Maintenance phase - D1 to D28 up to 12 cycles",
+          "interventionNames": [
+            "Drug: Midostaurin",
+            "Drug: Cytarabine",
+            "Drug: anthracycline ((daunorubicin or idarubicin): Induction Phase only"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Midostaurin",
+          "description": "Induction Phase: 50 mg (two 25 mg capsules) twice a day by mouth on days 8-28, for 1 - 2 cycles; a cycle = 28 days; Consolidation Phase: 50 mg (two 25 mg capsules) twice a day by mouth on days 8-28, for up to 4 cycles; Maintenance Phase: Continuous dosing (days 1 - 28) for up yo 12 cycles or until relapse, unacceptable toxicity, death, physician's decision, subject/guardian decision, protocol deviation, study termination by Sponsor, lost to follow-up, technical problems, pregnancy, subject withdrew consent, or until the end of study, whichever event occurred first.",
+          "armGroupLabels": [
+            "Midostaurin"
+          ],
+          "otherNames": [
+            "PKC412"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cytarabine",
+          "description": "Induction Phase (standard dose) (7 + 3 arm): 100-200 mg/m2/day by Continuous intravenous infusion (CIVI) days 1-7 (168 hours infusion); Induction Phase (5 + 2 arm): 100 mg/m2/day by CIVI days 1-5; Consolidation Phase: 1-3 g/m2 infusion over 3 hours every 12 h on days 1, 3 and 5, up to 4 cycles based on age and per investigator discretion",
+          "armGroupLabels": [
+            "Midostaurin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "anthracycline ((daunorubicin or idarubicin): Induction Phase only",
+          "description": "daunorubicin (7 + 3 arm): 60-90 mg/m2/day by IV push on days 1-3 (with standard-dose cytarabine); daunorubicin (5 + 2 arm): 60 mg/m2/day by IV push on days 1-2; idarubicin (7 + 3 arm): 12 mg/m2/day by IV push on days 1-3 (with standard-dose cytarabine); idarubicin (5 + 2 arm): 12 mg/m2/day by IV push on days 1-2",
+          "armGroupLabels": [
+            "Midostaurin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Patients With Adverse Events (AEs), Grade 3 & 4 AEs, Serious Adverse Events (SAEs), AEs Leading to Discontinuation, and Deaths up to 24 Months (M24).",
+          "description": "Safety of Midostaurin was represented by various types of AEs, SAEs \\& death up to M24. AE: the appearance of (or worsening of any pre-existing) undesirable sign(s), symptom(s), or medical condition(s) that occur after patient's signed informed consent has been obtained. AE grades to characterize the severity of AEs were based on the Common Terminology Criteria for AEs ver. 4.03 with Grade (Gr) 1: mild; Gr 2: moderate; Gr 3: severe; Gr 4: life-threatening; Gr 5: death related to AE. AEs not related to hematological toxicities were generally of grade 1 or 2 severity. SAE: 1 of the following: is fatal or life-threatening, results in persistent or significant disability/incapacity, constitutes a congenital anomaly/birth defect, is medically significant, i.e. an event that jeopardizes the patient or may require medical or surgical intervention to prevent 1 of the outcomes listed above, requires inpatient hospitalization or prolongation of existing hospitalization with a few exceptions.",
+          "timeFrame": "Baseline up to approximatly 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Patients With Complete Remission (CR) or Complete Remission With Incomplete Hematologic Recovery (CRi) as Per Local Assessment",
+          "description": "CR/CRi rate is defined as the percentage of patients with complete remission (CR) or complete remission with incomplete hematologic recovery (CRi) as per local assessment in Induction, Consolidation and Maintenance phases. CR/CRi rate was calculated based on the full analysis set (FAS).\n\nComplete remission (CR): Bone marrow blasts \\<5% with spicules; absence of blasts with Auer rods; absence of extramedullary disease; absolute neutrophil count (ANC) \\>1.0 x109/L; platelet count \\>100 x 109/L; independence of red cell transfusions.\n\nCR with incomplete recovery (CRi): All CR criteria except for residual neutropenia (\\<1.0 x109/L) or thrombocytopenia (\\<100 x 109/L)",
+          "timeFrame": "Baseline up to approximately 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients eligible for inclusion in this study have to meet all of the following criteria:\n\n1. Written informed consent must be obtained prior to any screening procedures.\n2. Patients must be 18 years of age or older at the time of signing informed consent.\n3. Patients must have a documented unequivocal diagnosis of AML according to WHO 2008 classification. A bone marrow or blood blast count of ≥ 20% is required, except for AML with t(15;17), t(8;21), inv(16) or t(16;16) where blast count may be \\<20%, and, excluding M3 (acute promyelocytic leukemia).\n4. Patients with secondary AML are eligible, e.g. patients with antecedent history of treatment for prior malignancy. AML patients with a history of antecedent treatment for myelodysplasia (MDS), e.g. azacitidine or decitabine, remain eligible for treatment on this study. These agents must have been discontinued for a period of at least 30 days or 5 half-lives of the drug (whichever is greater) before midostaurin can be administered.\n5. Patients must have started \"7+3\" or \"5+2\" first induction chemotherapy regimen.\n6. Patients must have a documented FLT3 mutation (ITD or TKD).).\n7. Patients must have an ECOG Performance Status of ≤ 2\n8. Patients requiring intrathecal chemotherapy must have a minimum washout of 48 hours prior to the first dose of midostaurin\n9. Patients must have Total Bilirubin ≤ 2.5 x ULN\n10. Patients must have Serum Creatinine ≤ 2.5 x ULN\n11. Patients must be able to communicate well with the investigator to understand and comply with the requirements of the study\n12. Women of child-bearing potential must have a negative pregnancy test before starting use of midostaurin.\n\nExclusion criteria:\n\nPatients eligible for this study must not meet any of the following criteria:\n\n1. Prior therapy for AML with the following exceptions:\n\n   1. emergency leukapheresis\n   2. emergency treatment for hyperleukocytosis with hydroxyurea for ≤ 7 days\n   3. cranial RT for CNS leukostasis (one dose only)\n   4. growth factor/cytokine support\n2. Patients with LVEF less than 45% (by echocardiogram or MUGA) or symptomatic congestive heart failure (Class III or IV) according to New York Heart Association (NYHA) classification\n3. Patients with any pulmonary infiltrate including those suspected to be of infectious origin (unless resolved to ≤ Grade 1 within screening timeframe)\n4. Patients with any uncontrolled illness, including, but not limited to, acute or chronic pancreatitis or uncontrolled infection\n5. QTc \\>470 msec on screening ECG.\n6. History of hypersensitivity to any drugs or metabolites of similar chemical classes as the study treatment.\n7. Participation in a prior investigational interventional (drug) study with administration of the investigational product within 30 days or 5 half-lives of the investigational product, whichever is longer.\n8. Pregnancy statements and contraception requirements:\n\n   Women of child-bearing potential, defined as all women physiologically capable of becoming pregnant, unless they are using highly effective methods of contraception during dosing and for at least 4 months after stopping medication. Highly effective contraception methods include:\n   * Total abstinence (when this is in line with the preferred and usual lifestyle of the subject). Periodic abstinence (e.g. calendar, ovulation, symptothermal, post-ovulation methods) and withdrawal are not acceptable methods of contraception\n   * Female sterilization (have had surgical bilateral oophorectomy with or without hysterectomy), total hysterectomy, or tubal ligation at least six weeks before taking study treatment. In case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow up hormone level assessment\n   * Male sterilization (at least 6 months prior to screening). The vasectomized male partner should be the sole partner for that subject\n   * Use of oral, injected or implanted hormonal methods of contraception or placement of an intrauterine device or intrauterine system, or other forms of hormonal contraception that have comparable efficacy (failure rate \\<1%), for example hormone vaginal ring or transdermal hormone contraception.\n\n   In case of use of oral contraception women should also add a barrier method of contraception, particularly as it is currently unknown whether midostaurin may reduce the effectiveness of hormonal contraceptives.\n\n   Sexually-active males unless they use a condom during intercourse with females of reproductive potential or pregnant women and for at least 4 months after stopping treatment to avoid conception or embryo-fetal harm.\n9. Patients enrolled in this study are not permitted to participate in additional parallel study drug or device studies.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pleven",
+          "zip": "5800",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.41791,
+            "lon": 24.61666
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sofia",
+          "zip": "1413",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sofia",
+          "zip": "1756",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Varna",
+          "zip": "9000",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.21912,
+            "lon": 27.91024
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zagreb",
+          "zip": "10000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.81444,
+            "lon": 15.97798
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Brno",
+          "zip": "625 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Prague",
+          "zip": "100 34",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tallinn",
+          "zip": "13419",
+          "country": "Estonia",
+          "geoPoint": {
+            "lat": 59.43696,
+            "lon": 24.75353
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Helsinki",
+          "zip": "FIN 00290",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Oulu",
+          "zip": "FIN-90220",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 65.01236,
+            "lon": 25.46816
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tampere",
+          "zip": "33521",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 61.49911,
+            "lon": 23.78712
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bayonne",
+          "state": "Bayonne Cedex",
+          "zip": "64109",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.49316,
+            "lon": -1.473
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint Priest En Jarez",
+          "state": "Pays de la Loire Region",
+          "zip": "42270",
+          "country": "France"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Besançon",
+          "zip": "25030",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Clamart",
+          "zip": "92141",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.80299,
+            "lon": 2.26692
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Créteil",
+          "zip": "94010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dijon",
+          "zip": "21034",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lille",
+          "zip": "59037",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lyon",
+          "zip": "69373",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Metz",
+          "zip": "57085",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.11911,
+            "lon": 6.17269
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nice",
+          "zip": "06202",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75012",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75475",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pierre-Bénite",
+          "zip": "69495",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.70359,
+            "lon": 4.82424
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Poitiers",
+          "zip": "86000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Villejuif",
+          "zip": "94800",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Budapest",
+          "zip": "1085",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Szeged",
+          "zip": "H 6725",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ancona",
+          "state": "AN",
+          "zip": "60126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.60717,
+            "lon": 13.5103
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Avellino",
+          "state": "AV",
+          "zip": "83100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.91494,
+            "lon": 14.79103
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bergamo",
+          "state": "BG",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bologna",
+          "state": "BO",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Brescia",
+          "state": "BS",
+          "zip": "25123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cuneo",
+          "state": "CN",
+          "zip": "12100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.39071,
+            "lon": 7.54828
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cosenza",
+          "state": "CS",
+          "zip": "87100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 39.2989,
+            "lon": 16.25307
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "San Giovanni Rotondo",
+          "state": "FG",
+          "zip": "71013",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.70643,
+            "lon": 15.7277
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Florence",
+          "state": "FI",
+          "zip": "50134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Genova",
+          "state": "GE",
+          "zip": "16132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lecce",
+          "state": "LE",
+          "zip": "73100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.35481,
+            "lon": 18.17244
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Latina",
+          "state": "LT",
+          "zip": "04100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.46614,
+            "lon": 12.9043
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Monza",
+          "state": "MB",
+          "zip": "20900",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Milan",
+          "state": "MI",
+          "zip": "20122",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Milan",
+          "state": "MI",
+          "zip": "20132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Milan",
+          "state": "MI",
+          "zip": "20162",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rozzano",
+          "state": "MI",
+          "zip": "20089",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Modena",
+          "state": "MO",
+          "zip": "41124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Palermo",
+          "state": "PA",
+          "zip": "90146",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Piacenza",
+          "state": "PC",
+          "zip": "29100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.05242,
+            "lon": 9.69342
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Padova",
+          "state": "PD",
+          "zip": "35128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.38225,
+            "lon": 11.14261
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pescara",
+          "state": "PE",
+          "zip": "65124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.4584,
+            "lon": 14.20283
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Perugia",
+          "state": "PG",
+          "zip": "06100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.1122,
+            "lon": 12.38878
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Parma",
+          "state": "PR",
+          "zip": "43100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.79935,
+            "lon": 10.32618
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Reggio Emilia",
+          "state": "RE",
+          "zip": "42123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.69825,
+            "lon": 10.63125
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Roma",
+          "state": "RM",
+          "zip": "00128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Roma",
+          "state": "RM",
+          "zip": "00133",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Roma",
+          "state": "RM",
+          "zip": "00161",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Roma",
+          "state": "RM",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Salerno",
+          "state": "SA",
+          "zip": "84131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.67545,
+            "lon": 14.79328
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Siena",
+          "state": "SI",
+          "zip": "53100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Torino",
+          "state": "TO",
+          "zip": "10128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Venezia",
+          "state": "VE",
+          "zip": "30174",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.42329,
+            "lon": 11.17365
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Verona",
+          "state": "VR",
+          "zip": "37126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.43854,
+            "lon": 10.9938
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Naples",
+          "zip": "80132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vilnius",
+          "zip": "LT-08661",
+          "country": "Lithuania",
+          "geoPoint": {
+            "lat": 54.68916,
+            "lon": 25.2798
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bergen",
+          "zip": "5021",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 60.39299,
+            "lon": 5.32415
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Craiova",
+          "zip": "200136",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.31667,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Iași",
+          "zip": "700483",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 47.16667,
+            "lon": 27.6
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Belgrade",
+          "zip": "11000",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 44.80401,
+            "lon": 20.46513
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bratislava",
+          "state": "Slovak Republic",
+          "zip": "833 10",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.14816,
+            "lon": 17.10674
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Banská Bystrica",
+          "zip": "975 17",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.73947,
+            "lon": 19.14932
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bratislava",
+          "zip": "85107",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.14816,
+            "lon": 17.10674
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Palma de Mallorca",
+          "state": "Balearic Islands",
+          "zip": "07120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vitoria-Gasteiz",
+          "state": "Basque Country",
+          "zip": "01009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.84998,
+            "lon": -2.67268
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08026",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pozuelo de Alarcón",
+          "state": "Madrid",
+          "zip": "28223",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.43293,
+            "lon": -3.81338
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "San Cristóbal de La Laguna",
+          "state": "Santa Cruz De Tenerife",
+          "zip": "38320",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.4853,
+            "lon": -16.32014
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Las Palmas de Gran Canaria",
+          "zip": "35010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.10178,
+            "lon": -15.41573
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "León",
+          "zip": "24080",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.60003,
+            "lon": -5.57032
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "zip": "28006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Valencia",
+          "zip": "46026",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Borås",
+          "zip": "501 82",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.72101,
+            "lon": 12.9401
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Uppsala",
+          "zip": "SE-751 85",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37581981",
+          "type": "DERIVED",
+          "citation": "Sierra J, Montesinos P, Thomas X, Griskevicius L, Cluzeau T, Caillot D, Legrand O, Minotti C, Luppi M, Farkas F, Bengoudifa BR, Gilotti G, Hodzic S, Rambaldi A, Venditti A. Midostaurin plus daunorubicin or idarubicin for young and older adults with FLT3-mutated AML: a phase 3b trial. Blood Adv. 2023 Nov 14;7(21):6441-6450. doi: 10.1182/bloodadvances.2023009847."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Plain Language Trial Summary",
+          "url": "https://www.novctrd.com/ctrdweb/patientsummary/patientsummaries?patientSummaryId=1103"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Novartis is committed to sharing access to patient-level data and supporting clinical documents from eligible studies with qualified external researchers. Requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to protect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com",
+      "url": "https://www.clinicalstudydatarequest.com"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Investigators had to obtain locally approved FMS-like tyrosine kinase 3 (FLT3) testing results prior to informed consent form signature to allow subjects to initiate Midostaurin treatment per protocol.",
+      "recruitmentDetails": "Participants took part in 88 investigative sites in 15 countries.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Midostaurin",
+          "description": "Patients went through 3 phases:\n\nInduction phase - Day (D)8 to D28 in combination with standard of care (7+3 or 5+2 chemotherapy) up to 2 cycles; Consolidation phase - D8 to D28 in combination with cytarabine up to 4 cycles; Maintenance phase - D1 to D28 up to 12 cycles"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "301"
+                }
+              ]
+            },
+            {
+              "type": "Entered Induction Phase",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "301"
+                }
+              ]
+            },
+            {
+              "type": "Entered Consolidation Phase",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "210"
+                }
+              ]
+            },
+            {
+              "type": "Entered Maintenance Phase",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "93"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "comment": "Completed = Patients who completed all 3 phases (Induction, Consolidation \\& Maintenance)",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "249"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lack of Efficacy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "73"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "32"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "Patient/guardian decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "17"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "104"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "All enrolled subjects set comprises all screened subjects who are not screening failures.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Midostaurin",
+          "description": "Patients went through 3 phases:\n\nInduction phase - Day (D)8 to D28 in combination with standard of care (7+3 or 5+2 chemotherapy) up to 2 cycles; Consolidation phase - D8 to D28 in combination with cytarabine up to 4 cycles; Maintenance phase - D1 to D28 up to 12 cycles"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "301"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "55.8",
+                      "spread": "13.82"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "160"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "141"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "225"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Missing",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Patients With Adverse Events (AEs), Grade 3 & 4 AEs, Serious Adverse Events (SAEs), AEs Leading to Discontinuation, and Deaths up to 24 Months (M24).",
+          "description": "Safety of Midostaurin was represented by various types of AEs, SAEs \\& death up to M24. AE: the appearance of (or worsening of any pre-existing) undesirable sign(s), symptom(s), or medical condition(s) that occur after patient's signed informed consent has been obtained. AE grades to characterize the severity of AEs were based on the Common Terminology Criteria for AEs ver. 4.03 with Grade (Gr) 1: mild; Gr 2: moderate; Gr 3: severe; Gr 4: life-threatening; Gr 5: death related to AE. AEs not related to hematological toxicities were generally of grade 1 or 2 severity. SAE: 1 of the following: is fatal or life-threatening, results in persistent or significant disability/incapacity, constitutes a congenital anomaly/birth defect, is medically significant, i.e. an event that jeopardizes the patient or may require medical or surgical intervention to prevent 1 of the outcomes listed above, requires inpatient hospitalization or prolongation of existing hospitalization with a few exceptions.",
+          "populationDescription": "Safety Set: The safety set comprises all subjects who received at least one dose of midostaurin",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline up to approximatly 24 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Midostaurin",
+              "description": "Patients went through 3 phases:\n\nInduction phase - Day (D)8 to D28 in combination with standard of care (7+3 or 5+2 chemotherapy) up to 2 cycles; Consolidation phase - D8 to D28 in combination with cytarabine up to 4 cycles; Maintenance phase - D1 to D28 up to 12 cycles"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "301"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Adverse events (AEs) - all grades",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "295"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade >=3 AEs",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "254"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Serious adverse events (SAEs) - all grades",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "AEs leading to discontinuation - all grades",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Deaths",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Patients With Complete Remission (CR) or Complete Remission With Incomplete Hematologic Recovery (CRi) as Per Local Assessment",
+          "description": "CR/CRi rate is defined as the percentage of patients with complete remission (CR) or complete remission with incomplete hematologic recovery (CRi) as per local assessment in Induction, Consolidation and Maintenance phases. CR/CRi rate was calculated based on the full analysis set (FAS).\n\nComplete remission (CR): Bone marrow blasts \\<5% with spicules; absence of blasts with Auer rods; absence of extramedullary disease; absolute neutrophil count (ANC) \\>1.0 x109/L; platelet count \\>100 x 109/L; independence of red cell transfusions.\n\nCR with incomplete recovery (CRi): All CR criteria except for residual neutropenia (\\<1.0 x109/L) or thrombocytopenia (\\<100 x 109/L)",
+          "populationDescription": "The full analysis set (FAS) comprises all subjects who received at least one dose of midostaurin and have a documented FLT3 mutation (ITD or TKD).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline up to approximately 24 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Midostaurin",
+              "description": "Patients went through 3 phases:\n\nInduction phase - Day (D)8 to D28 in combination with standard of care (7+3 or 5+2 chemotherapy) up to 2 cycles; Consolidation phase - D8 to D28 in combination with cytarabine up to 4 cycles; Maintenance phase - D1 to D28 up to 12 cycles"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "300"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Complete remission (CR)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "196"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete remission with incomplete recovery (CRi)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Adverse Events were reported from first dose of study treatment until end of treatment plus 30 days, up to a maximum duration of 25 months (24 months plus 1 month (30 days) post treatment).",
+      "description": "Adverse Events (AE): Any sign or symptom that occurs during treatment plus 30 days post treatment.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Induction Phase",
+          "description": "1 - 2 cycles; 28 day cycles",
+          "deathsNumAffected": 16,
+          "deathsNumAtRisk": 301,
+          "seriousNumAffected": 76,
+          "seriousNumAtRisk": 301,
+          "otherNumAffected": 253,
+          "otherNumAtRisk": 301
+        },
+        {
+          "id": "EG001",
+          "title": "Consolidation Phase",
+          "description": "up to 4 cycles; 28 day cycles",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 210,
+          "seriousNumAffected": 67,
+          "seriousNumAtRisk": 210,
+          "otherNumAffected": 179,
+          "otherNumAtRisk": 210
+        },
+        {
+          "id": "EG002",
+          "title": "Maintenance Phaase",
+          "description": "up to 12 cycles; 28 day cycles",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 93,
+          "seriousNumAffected": 7,
+          "seriousNumAtRisk": 93,
+          "otherNumAffected": 48,
+          "otherNumAtRisk": 93
+        },
+        {
+          "id": "EG003",
+          "title": "Overall",
+          "description": "Patients from all 3 Phases (Induction, Consolidation and Maintenance).",
+          "deathsNumAffected": 19,
+          "deathsNumAtRisk": 301,
+          "seriousNumAffected": 137,
+          "seriousNumAtRisk": 301,
+          "otherNumAffected": 277,
+          "otherNumAtRisk": 301
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Cytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Disseminated intravascular coagulation",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Febrile bone marrow aplasia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 26,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 32,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Leukocytosis",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Thrombocytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Atrial fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cardiac arrest",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cardiac dysfunction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cardio-respiratory arrest",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cardiopulmonary failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Myocardial infarction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pericardial effusion",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pericarditis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Stress cardiomyopathy",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Ventricular dysfunction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Ventricular fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Enteritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Enterocolitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Ileus",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Ileus paralytic",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Large intestinal obstruction",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Neutropenic colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Oesophagitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Subileus",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "General physical health deterioration",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Impaired healing",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Multiple organ dysfunction syndrome",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Autoimmune hepatitis",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cholelithiasis",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Drug-induced liver injury",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hepatitis cholestatic",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hypersensitivity",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Anal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Anorectal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Bacteraemia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Breast abscess",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Bronchopulmonary aspergillosis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Candida infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Clostridium colitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Clostridium difficile infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Conjunctivitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cytomegalovirus infection reactivation",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Device related bacteraemia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Endocarditis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Escherichia urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Febrile infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Fungal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Gastroenteritis norovirus",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hepatic candidiasis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Liver abscess",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Neutropenic sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Perineal cellulitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumocystis jirovecii pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 13,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia fungal",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia legionella",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Respiratory moniliasis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Respiratory syncytial virus infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection bacterial",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection fungal",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 14,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Septic shock",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 11,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis fungal",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Staphylococcal sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Systemic candida",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Systemic mycosis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Anaphylactic transfusion reaction",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Femur fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Subdural haematoma",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Blood bilirubin increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Electrocardiogram QT prolonged",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "SARS-CoV-2 test negative",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Acidosis",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hypernatraemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Metabolic acidosis",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal chest pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Leukaemic infiltration pulmonary",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Prostate cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Tumour associated fever",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Central nervous system lesion",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Encephalopathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Peripheral paralysis",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Device dislocation",
+          "organSystem": "Product Issues",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Acute kidney injury",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hydronephrosis",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Urinary retention",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Acute pulmonary oedema",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Acute respiratory distress syndrome",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Acute respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hypoxia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Interstitial lung disease",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Lung infiltration",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumonitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumothorax",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary mass",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary oedema",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Respiratory distress",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 7,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 301
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 34,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 36,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 52,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 67,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 44,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 88,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 33,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 50,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 12,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 70,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Thrombocytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 27,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 40,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 51,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 24,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 34,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 25,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 32,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 41,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 65,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 97,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 40,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 8,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 121,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Haemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 16,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 25,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 76,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 67,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 18,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 121,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 54,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 25,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 72,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 57,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 33,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 69,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 18,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 16,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 30,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 23,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 37,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 93,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 72,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 139,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Device related infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 17,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 19,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Oral herpes",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 16,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 27,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 17,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 32,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Electrocardiogram QT prolonged",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 19,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 24,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Platelet count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 17,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hypokalaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 45,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 19,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 58,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 16,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 20,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 27,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 17,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 24,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 47,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 59,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 16,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 20,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 9,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 27,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 16,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 16,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 29,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Erythema",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 9,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 20,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Petechiae",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 14,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 19,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 38,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 29,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 64,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 9,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 28,
+              "numAtRisk": 301
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (24.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 301
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 14,
+              "numAtRisk": 210
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 93
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 24,
+              "numAtRisk": 301
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "The terms and conditions of Novartis' agreements with its investigators may vary. However, Novartis does not prohibit any investigator from publishing. Any publications from a single-site are postponed until the publication of pooled data (i.e.,data from all sites) in clinical trial or disclosure of trial results in their entirety."
+      },
+      "pointOfContact": {
+        "title": "Study Director",
+        "organization": "Novartis Pharmaceuticals",
+        "email": "novartis.email@novartis.com",
+        "phone": "862-778-8300"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2018-03-26",
+          "uploadDate": "2022-07-08T11:39",
+          "filename": "Prot_000.pdf",
+          "size": 1312086
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2021-11-09",
+          "uploadDate": "2022-07-08T11:39",
+          "filename": "SAP_001.pdf",
+          "size": 566060
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Greece"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015470",
+          "term": "Leukemia, Myeloid, Acute"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007951",
+          "term": "Leukemia, Myeloid"
+        },
+        {
+          "id": "D007938",
+          "term": "Leukemia"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D006402",
+          "term": "Hematologic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C059539",
+          "term": "midostaurin"
+        },
+        {
+          "id": "D003561",
+          "term": "Cytarabine"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D001087",
+          "term": "Arabinonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

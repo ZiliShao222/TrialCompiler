@@ -1,0 +1,2330 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02342691",
+      "orgStudyIdInfo": {
+        "id": "16-085-E"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U01DE026934-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U01DE026934-01"
+        }
+      ],
+      "organization": {
+        "fullName": "The Forsyth Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Safety and Preliminary Efficacy of Lipoxin Analog BLXA4-ME Oral Rinse for the Treatment of Gingivitis",
+      "officialTitle": "A Phase 1 / 2 Clinical Trial to Assess the Safety and Preliminary Efficacy of Lipoxin Analog BLXA4-ME Oral Rinse for the Treatment of Gingivitis",
+      "acronym": "BLXA4"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-09-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-08-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-01-15",
+      "studyFirstSubmitQcDate": "2015-01-20",
+      "studyFirstPostDateStruct": {
+        "date": "2015-01-21",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2021-02-04",
+      "resultsFirstSubmitQcDate": "2023-11-29",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-12-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-11-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "The Forsyth Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute of Dental and Craniofacial Research (NIDCR)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective is to evaluate the safety of an investigational compound, BLXA4-ME, topically applied as a daily oral rinse in adults with gingivitis. Safety will be assessed by the incidence of adverse events, including mucosal inflammation and irritancy and findings from safety labs. Subjects will be monitored for development of periodontitis, and oral flora will be analyzed to detect an increase in opportunistic organisms.\n\nThe secondary objective is to assess preliminary efficacy of the oral rinse, by monitoring changes in the plaque index (PI), modified gingival index (MGI), bleeding on probing (BOP) and levels of interleukin -1β (IL-1β) in gingival crevicular fluid (GCF).\n\nThe study comprises three groups in a randomized, placebo-controlled double-blind clinical trial design. The treatment group (1.0 μM BLXA4-ME oral rinse) and the placebo rinse group will each include 50 subjects. The no-rinse control group will consist of 25 subjects. Subjects in the treatment and placebo rinse groups will receive oral rinse (BLXA4-ME or placebo) to be applied once daily after morning teeth brushing. Safety parameters will be assessed before and after 3, 7, 14, 21, and 28 days of treatment. Efficacy parameters will be assessed before and after 14 and 28 days of treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Gingival Inflammation"
+      ],
+      "keywords": [
+        "Safety and efficacy of BLXA4"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 127,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BLXA4-ME oral rinse",
+          "type": "EXPERIMENTAL",
+          "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution",
+          "interventionNames": [
+            "Drug: BLXA4"
+          ]
+        },
+        {
+          "label": "Placebo oral rinse",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste",
+          "interventionNames": [
+            "Drug: Placebo oral rinse"
+          ]
+        },
+        {
+          "label": "No Rinse Control",
+          "type": "NO_INTERVENTION",
+          "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BLXA4",
+          "description": "BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate.",
+          "armGroupLabels": [
+            "BLXA4-ME oral rinse"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo oral rinse",
+          "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste",
+          "armGroupLabels": [
+            "Placebo oral rinse"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Adverse Events",
+          "description": "Adverse events will be recorded throughout the study, and may include events reported by subjects or changes observed in oral cavity examinations or vital signs (assessed at baseline, Days 3, 7, 14, 21 and 28). Blood and urine will be collected for safety labs at Days 14 and 28 after product administration, and subjects will undergo close monitoring for mucosal inflammation and irritancy and development of periodontitis, using standard clinical periodontal measurements. Follow-up will also occur at 90 days to assess for adverse events.",
+          "timeFrame": "up to 90 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Mean MGI (Baseline and 28 Days)",
+          "description": "MGI is a visual index used to score gingival inflammation on a scale of 0-4. Higher scores indicate increasing levels of gingival inflammation (worse outcome).",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Change in Percent Bleeding on Probing (Baseline and 28 Days)",
+          "description": "Gingival Bleeding was assessed using the dichotomous bleeding on probing index\n\nBleeding on probing is reported as the percentage of tooth-sites that bleed on probing within a subject and higher BOP values indicate greater gingival inflammation.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Change in PI (Baseline and 28 Days)",
+          "description": "Plaque index (PI) is a visual index used to score (ranging from 0 to 5). A higher score is indicative of higher plaque build-up (worse outcome).",
+          "timeFrame": "28 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed consent form\n* Good general health as evidenced by medical history\n* Age 18 - 65\n* Must have a stable address and be available for the duration of the study\n* Must have a minimum of 20 natural teeth, excluding third molars\n* Must have a mean full mouth MGI of at least 2.0\n* Must be willing to use prescribed oral hygiene procedures and products\n* Medications for chronic conditions must be stable for at least 3 months prior to enrollment\n* Women of reproductive potential must use licensed hormonal contraception or double barrier methods\n* Men of reproductive potential must agree to use condoms\n* Liver function test (aspartate aminotransferase \\[AST\\], alanine aminotransferase \\[ALT\\], alkaline phosphatase, and total bilirubin) levels equal to or less than 1.5 times the upper limit of normal\n* Serum creatinine levels equal to or less than the upper limit of normal;\n* Subjects with complete blood count levels within 10% of the normal laboratory range and erythrocyte sedimentation rate equal to or less than 2 times the upper limit of normal.\n\nExclusion Criteria:\n\n* Presence of orthodontic appliances or removable partial dentures\n* Presence of a soft tissue tumor of the oral cavity\n* Presence of gross plaque or calculus (≥ 75% of tooth surfaces)\n* Presence of extensive restorations that could affect the marginal gingiva (at the investigators' discretion)\n* Preexisting oral pathology, including carious lesions requiring immediate treatment or ulcerations of the mucosa\n* Current participation in another clinical trial or product test\n* Pregnant or breast feeding\n* Residence in the same household as a subject currently enrolled in the study (due to potential blinding and compliance issues)\n* Concomitant endodontic therapy or periodontal therapy other than prophylaxis within the past 6 months\n* History of early onset periodontitis or acute necrotizing ulcerative gingivitis\n* Chronic disease with concomitant oral manifestations, such as autoimmune or immunosuppressive diseases (e.g., human immunodeficiency virus, severe combined immunodeficiency, neutropenia, juvenile arthritis, systemic lupus erythematosus, sickle cell anemia, Crohn's disease, rheumatoid arthritis, Sjögren's syndrome) or immunocompromised status due to cancer chemotherapy, hematopoietic stem cell or solid organ transplant, head and neck radiotherapy, splenectomy, chronic steroid usage\n* Recent history of chronic alcohol consumption of more than five 1.5-ounce servings of 80 proof distilled spirits, five 12-ounce servings of beer, or five 5 ounce servings of wine per day\n* Tobacco use (former tobacco users may be enrolled, provided they have been tobacco-free for one year or more)\n* Diabetes mellitus\n* Subjects with urinalysis results suggestive of infection (if a subject meets this criterion, he/she may be rescreened for study participation when he/she no longer meets this exclusion criterion)\n* Medical conditions that the investigator considers significant and that may interfere with the examination or the safety of the subject\n* Chronic use (2 weeks or more) of medication known to affect periodontal status within one month of enrollment (such as ≥81mg aspirin, phenytoin, calcium antagonists such as nifedipine, NSAIDs, coumarin, cyclosporine, ≥10 mg/day atorvastatin or equivalent dose of another statin \\[Subramanian et al, 2013\\]);\n* Treatment with antibiotics within one month prior to enrollment\n* Medical condition for which antibiotic treatment during the study period is likely or a condition for which antibiotic prophylaxis is recommended before dental procedures (American Heart Association guidelines of 2007 will be followed)\n* Known hypersensitivity to any component of the test or placebo products\n* Anything that, in the opinion of the investigator, would place the subject at increased risk or prevent the subject from fully complying with or completing the study -",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "The Forsyth Institute",
+          "city": "Cambridge",
+          "state": "Massachusetts",
+          "zip": "02142",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.3751,
+            "lon": -71.10561
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34589083",
+          "type": "DERIVED",
+          "citation": "Hasturk H, Schulte F, Martins M, Sherzai H, Floros C, Cugini M, Chiu CJ, Hardt M, Van Dyke T. Safety and Preliminary Efficacy of a Novel Host-Modulatory Therapy for Reducing Gingival Inflammation. Front Immunol. 2021 Sep 13;12:704163. doi: 10.3389/fimmu.2021.704163. eCollection 2021."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Per protocol, 125 subjects were planned to be included in the efficacy population who had a baseline and at least 1 post-baseline assessment of 1 or more of the secondary efficacy outcome measures. Per protocol, subjects who dropped out or withdrew prior to Day 14 were replaced in the efficacy population. Two subjects were dropped out before Day 14, thus were replaced.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "BLXA4-ME Oral Rinse",
+          "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution\n\nBLXA4: BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo Oral Rinse",
+          "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste\n\nPlacebo oral rinse: The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste"
+        },
+        {
+          "id": "FG002",
+          "title": "No Rinse Control",
+          "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG002",
+                  "comment": "Per protocol, individuals who dropped out before Day 14 were replaced. 2 subjects were replaced.",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "47"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "49"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Per Study Protocol, 125 subjects were planned with a condition that subjects who withdrew prior to the Day 14 Visit were replaced. Safety population consisted of all subjects who were randomized into a study arm completed Baseline. Two subjects were replaced; data from 127 subjects were included in the safety data analysis. The efficacy population consisted of all subjects who had a baseline and at least 1 post-baseline assessment. Data from 123 subjects were included in the efficacy analysis.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "BLXA4-ME Oral Rinse Group",
+          "description": "The treatment group received daily BLXA4-ME 1μM concentration in an oral rinse"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo Rinse Group",
+          "description": "The study group received placebo rinse similar to the rinse used by the treatment group except BLXA4-ME."
+        },
+        {
+          "id": "BG002",
+          "title": "No-rinse Control Group",
+          "description": "The study group was a control group with no-rinse."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "50"
+            },
+            {
+              "groupId": "BG001",
+              "value": "50"
+            },
+            {
+              "groupId": "BG002",
+              "value": "27"
+            },
+            {
+              "groupId": "BG003",
+              "value": "127"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "127"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "73"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "99"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "80"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "127"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Modified Gingival Index",
+          "description": "Modified Gingival Index (MGI) was used to measure level of gingival inflammation at six sites of each tooth.\n\nMGI is a visual index used to score gingival inflammation on a scale of zero to four. Higher scores indicate increasing levels of gingival inflammation.\n\nA mean MGI unit of 2 and above was used for study inclusion.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2.25",
+                      "spread": "0.141"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2.30",
+                      "spread": "0.190"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2.22",
+                      "spread": "0.174"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2.26",
+                      "spread": "0.171"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Incidence of Adverse Events",
+          "description": "Adverse events will be recorded throughout the study, and may include events reported by subjects or changes observed in oral cavity examinations or vital signs (assessed at baseline, Days 3, 7, 14, 21 and 28). Blood and urine will be collected for safety labs at Days 14 and 28 after product administration, and subjects will undergo close monitoring for mucosal inflammation and irritancy and development of periodontitis, using standard clinical periodontal measurements. Follow-up will also occur at 90 days to assess for adverse events.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "up to 90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "BLXA4-ME Oral Rinse",
+              "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution\n\nBLXA4: BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo Oral Rinse",
+              "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste\n\nPlacebo oral rinse: The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste"
+            },
+            {
+              "id": "OG002",
+              "title": "No Rinse Control",
+              "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Mean MGI (Baseline and 28 Days)",
+          "description": "MGI is a visual index used to score gingival inflammation on a scale of 0-4. Higher scores indicate increasing levels of gingival inflammation (worse outcome).",
+          "populationDescription": "The efficacy population consisted of all subjects from the safety population who had a baseline and at least 1 post-baseline assessment of 1 or more of the secondary efficacy outcome measures. Subjects who dropped out or withdrew prior to Day 14 were replaced in the efficacy population. For the efficacy evaluations, subjects were analyzed according to the treatment actually received.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "28 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "BLXA4-ME Oral Rinse",
+              "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution\n\nBLXA4: BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo Oral Rinse",
+              "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste\n\nPlacebo oral rinse: The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste"
+            },
+            {
+              "id": "OG002",
+              "title": "No Rinse Control",
+              "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "49"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.27",
+                      "spread": "0.029"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.21",
+                      "spread": "0.029"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.17",
+                      "spread": "0.038"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Percent Bleeding on Probing (Baseline and 28 Days)",
+          "description": "Gingival Bleeding was assessed using the dichotomous bleeding on probing index\n\nBleeding on probing is reported as the percentage of tooth-sites that bleed on probing within a subject and higher BOP values indicate greater gingival inflammation.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "percentage of tooth sites",
+          "timeFrame": "28 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "BLXA4-ME Oral Rinse",
+              "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution\n\nBLXA4: BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo Oral Rinse",
+              "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste\n\nPlacebo oral rinse: The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste"
+            },
+            {
+              "id": "OG002",
+              "title": "No Rinse Control",
+              "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "49"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.67",
+                      "spread": "1.59"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-12.32",
+                      "spread": "1.588"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-9.53",
+                      "spread": "2.14"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in PI (Baseline and 28 Days)",
+          "description": "Plaque index (PI) is a visual index used to score (ranging from 0 to 5). A higher score is indicative of higher plaque build-up (worse outcome).",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "28 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "BLXA4-ME Oral Rinse",
+              "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution\n\nBLXA4: BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo Oral Rinse",
+              "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste\n\nPlacebo oral rinse: The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste"
+            },
+            {
+              "id": "OG002",
+              "title": "No Rinse Control",
+              "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "26"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.08",
+                      "spread": "0.044"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.12",
+                      "spread": "0.044"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.00",
+                      "spread": "0.060"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "1",
+      "timeFrame": "3 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "BLXA4-ME Oral Rinse",
+          "description": "The topical oral rinse dosage form of BLXA4-ME (also known as ClinRinse-1) will consist of drug substance prepared at a concentration of 1.0 μM in an aqueous vehicle solution\n\nBLXA4: BLXA4-ME is a member of a new class of chemically and metabolically stable lipoxin analogs featuring a replacement of the tetraene unit of native lipoxin-A4 (LXA4) with a substituted benzo-fused ring system. The full chemical name of the BLXA4-ME drug substance is (5S, 6R, E)-methyl 5,6-dihydroxy-8-(2-((R,E)-3-hydroxyoct-1-enyl) phenyl) oct-7-enoate.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 50,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 50,
+          "otherNumAffected": 18,
+          "otherNumAtRisk": 50
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo Oral Rinse",
+          "description": "The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste\n\nPlacebo oral rinse: The placebo preparation will consist of formulated oral rinse without BLXA4-ME and will be identical to the test rinse in color, appearance and taste",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 50,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 50,
+          "otherNumAffected": 10,
+          "otherNumAtRisk": 50
+        },
+        {
+          "id": "EG002",
+          "title": "No Rinse Control",
+          "description": "The no-rinse control group will use no oral rinse, in order to assess the effect of the rinsing action independent of the active ingredients",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 27,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 27,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 27
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Adverse Drug Reaction",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Adverse reaction to pain medication after a planned surgical procedure (knee replacement)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Dry mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Sensitivity of teeth",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Aphthous stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Carbon dioxide increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "White blood cell count decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Blood alkaline phosphatase decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Blood alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Blood creatinine increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Blood urea increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Eosinophil count decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Eosinophil count increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Occult blood positive",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Protein urine present",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Red blood cell sedimentation rate increased",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Urine analysis abnormal",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Urine leukocyte esterase positive",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "White blood cells urine positive",
+          "organSystem": "Investigations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Oral disorder",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Hepatitis C",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Oral herpes",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Muscle spasms",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Osteoarthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Lip injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Road traffic accident",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Skin injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Adverse drug reaction",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Dysmenorrhoea",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Vaginal discharge",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Nasal congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Hypothyroidism",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Seasonal allergy",
+          "organSystem": "Immune system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Vitamin D deficiency",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        },
+        {
+          "term": "Urticaria",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 27
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Hatice Hasturk",
+        "organization": "Forsyth",
+        "email": "hhasturk@forsyth.org",
+        "phone": "617-892-8499"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2017-06-08",
+          "uploadDate": "2021-02-04T12:58",
+          "filename": "Prot_000.pdf",
+          "size": 1218642
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2018-05-17",
+          "uploadDate": "2021-02-04T13:01",
+          "filename": "SAP_001.pdf",
+          "size": 675455
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005891",
+          "term": "Gingivitis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D005882",
+          "term": "Gingival Diseases"
+        },
+        {
+          "id": "D010510",
+          "term": "Periodontal Diseases"
+        },
+        {
+          "id": "D009059",
+          "term": "Mouth Diseases"
+        },
+        {
+          "id": "D009057",
+          "term": "Stomatognathic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

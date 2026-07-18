@@ -1,0 +1,68 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT02749968",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT02749968",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "overall_status": "COMPLETED",
+    "enrollment": {
+      "count": 100,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Opioid Requirement at 24 Hours Post-randomization",
+        "description": "Opioid requirement (in morphine equivalents) at 24 hours post-randomization",
+        "timeFrame": "24 hours following randomization."
+      },
+      {
+        "measure": "Opioid Requirement at 48 Hours Post-randomization.",
+        "description": "Opioid requirement (in morphine equivalents) at 48 hours post-randomization",
+        "timeFrame": "48 hours following randomization."
+      },
+      {
+        "measure": "Opioid Requirement at 72 Hours Post-randomization",
+        "description": "Opioid requirement (in morphine equivalents) at 72 hours post-randomization",
+        "timeFrame": "72 hours following randomization."
+      },
+      {
+        "measure": "Opioid Requirement at 96 Hours Post-randomization",
+        "description": "Opioid requirement (in morphine equivalents) at 96 hours post-randomization",
+        "timeFrame": "96 hours following randomization."
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT02749968/Prot_SAP_000.pdf",
+      "sha256": "BD640C69121480A12274D834EC9A4F23CCA935E456949108210D6A799003D0F8",
+      "bytes": 1165817,
+      "pages": 27,
+      "document_date": "2016-10-24",
+      "upload_date": "2022-02-14T17:44",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 51007,
+        "sampled_pages": 27
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 27,
+      "content_digest": "BD640C69121480A12274D834EC9A4F23CCA935E456949108210D6A799003D0F8"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

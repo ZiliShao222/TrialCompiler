@@ -21,6 +21,12 @@ small public fixtures, and evaluation specifications in Git.
 
 ## Public-document Cases
 
+- [`trialdocbench/public_corpus_050`](trialdocbench/public_corpus_050): frozen integrity corpus of
+  50 real public ClinicalTrials.gov studies with both Protocol and SAP coverage, 65 validated PDF
+  documents, official registry snapshots, SHA-256 manifests, acquisition-cost contracts, and a
+  deterministic coverage profile. These cases are not yet independently gold-annotated and must
+  not be used for model-accuracy or six-arm effect-size claims.
+
 - [`trialdocbench/public_case_001_nct04683926`](trialdocbench/public_case_001_nct04683926):
   official Protocol, SAP, ICF, and registry data for `NCT04683926 / OMNI-PAIN-103`,
   with a reviewed 27-fact gold sheet and scope-aware consistency labels. Public

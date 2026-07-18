@@ -1,0 +1,312 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03361345",
+      "orgStudyIdInfo": {
+        "id": "1709000866"
+      },
+      "organization": {
+        "fullName": "Wayne State University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Topical 5% Tranexamic Acid as a Treatment for Postinflammatory Hyperpigmentation Due to Acne Vulgaris",
+      "officialTitle": "Topical 5% Tranexamic Acid as a Treatment for Postinflammatory Hyperpigmentation Due to Acne Vulgaris"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-05",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Lack of recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-01-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-01-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-17",
+      "studyFirstSubmitQcDate": "2017-12-01",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-05-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-05-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Steven D Daveluy",
+        "investigatorTitle": "Program Director of Wayne State University Department of Dermatology",
+        "investigatorAffiliation": "Wayne State University"
+      },
+      "leadSponsor": {
+        "name": "Wayne State University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to determine if topical tranexamic acid is capable of decreasing the pigment of the dark spots left from acne bumps. The first line medication used for this often is not tolerated well by patients, and topical tranexamic acid has minimal reported side effects thus far."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Postinflammatory Hyperpigmentation"
+      ],
+      "keywords": [
+        "Postinflammatory hyperpigmentation",
+        "Acne"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Split-face study in which topical tranexamic acid will be applied to one side of the face and the other side of the face will be the placebo/vehicle as a control.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Right Side of Face",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will apply topical tranexamic acid to the dark spots on the one side of their face.",
+          "interventionNames": [
+            "Drug: Tranexamic Acid"
+          ]
+        },
+        {
+          "label": "Left Side of Face",
+          "type": "SHAM_COMPARATOR",
+          "description": "Patients will apply the vehicle cream without any medication to the dark spots on one side of their face.",
+          "interventionNames": [
+            "Drug: Vehicle"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tranexamic Acid",
+          "description": "Topical tranexamic acid in cream form applied to dark spots on right side of face.",
+          "armGroupLabels": [
+            "Right Side of Face"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Vehicle",
+          "description": "The Vehicle is going to be a cream without any active medication that will be applied as a control substance for the topical tranexamic acid cream, and will be applied to the contralateral side of the face.",
+          "armGroupLabels": [
+            "Left Side of Face"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline Pigmentation at 4 Weeks.",
+          "description": "Patients will have their lesion pigmentation scored with the postacne hyperpigmentation index after 4 weeks.\n\nThe postacne hyperpigmentation index (PAHPI) assesses hyperpigmentation lesions after acne based on the median lesion size, the median lesion intensity, and the number of lesions present. The total score can range from 6-22 points. Subscales will measure lesion size, lesion intensity, and number of lesions. Subscales will be assigned a number based on the table in the protocol, and then added together to form the total score. Higher values indicate worse hyperpigmentation. We will measure the total decrease in the PAHPI at the follow-up visit.",
+          "timeFrame": "4 Weeks."
+        },
+        {
+          "measure": "Change from Baseline Pigmentation at 8 Weeks.",
+          "description": "Patients will have their lesion pigmentation scored with the postacne hyperpigmentation index after 8 weeks.\n\nThe postacne hyperpigmentation index (PAHPI) assesses hyperpigmentation lesions after acne based on the median lesion size, the median lesion intensity, and the number of lesions present. The total score can range from 6-22 points. Subscales will measure lesion size, lesion intensity, and number of lesions. Subscales will be assigned a number based on the table in the protocol, and then added together to form the total score. Higher values indicate worse hyperpigmentation. We will measure the total decrease in the PAHPI at the follow-up visit.",
+          "timeFrame": "8 Weeks"
+        },
+        {
+          "measure": "Change from Baseline Pigmentation at 12 Weeks.",
+          "description": "Patients will have their lesion pigmentation scored with the postacne hyperpigmentation index after 12 weeks.\n\nThe postacne hyperpigmentation index (PAHPI) assesses hyperpigmentation lesions after acne based on the median lesion size, the median lesion intensity, and the number of lesions present. The total score can range from 6-22 points. Subscales will measure lesion size, lesion intensity, and number of lesions. Subscales will be assigned a number based on the table in the protocol, and then added together to form the total score. Higher values indicate worse hyperpigmentation. We will measure the total decrease in the PAHPI at the follow-up visit.",
+          "timeFrame": "12 Weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 to 65\n* Patients with bilateral involvement of facial postinflammatory hyperpigmentation due to acne vulgaris.\n\nExclusion Criteria:\n\n* Pregnant patients or patients planning to become pregnant during the time of the study.\n* Patients with a history of use of hydroquinone, kojic acid, tretinoin, adapalene, tazarotene or azaleic acid in the previous 3 months.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Steven Daveluy",
+          "affiliation": "WSUPG Dermatology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "WSUPG Dermatology",
+          "city": "Dearborn",
+          "state": "Michigan",
+          "zip": "48124",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.32226,
+            "lon": -83.17631
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20725554",
+          "type": "BACKGROUND",
+          "citation": "Davis EC, Callender VD. Postinflammatory hyperpigmentation: a review of the epidemiology, clinical features, and treatment options in skin of color. J Clin Aesthet Dermatol. 2010 Jul;3(7):20-31."
+        },
+        {
+          "pmid": "28670354",
+          "type": "BACKGROUND",
+          "citation": "Darji K, Varade R, West D, Armbrecht ES, Guo MA. Psychosocial Impact of Postinflammatory Hyperpigmentation in Patients with Acne Vulgaris. J Clin Aesthet Dermatol. 2017 May;10(5):18-23. Epub 2017 May 1."
+        },
+        {
+          "pmid": "28748406",
+          "type": "BACKGROUND",
+          "citation": "Atefi N, Dalvand B, Ghassemi M, Mehran G, Heydarian A. Therapeutic Effects of Topical Tranexamic Acid in Comparison with Hydroquinone in Treatment of Women with Melasma. Dermatol Ther (Heidelb). 2017 Sep;7(3):417-424. doi: 10.1007/s13555-017-0195-0. Epub 2017 Jul 26."
+        },
+        {
+          "pmid": "27135282",
+          "type": "BACKGROUND",
+          "citation": "Kim SJ, Park JY, Shibata T, Fujiwara R, Kang HY. Efficacy and possible mechanisms of topical tranexamic acid in melasma. Clin Exp Dermatol. 2016 Jul;41(5):480-5. doi: 10.1111/ced.12835. Epub 2016 May 2."
+        },
+        {
+          "pmid": "22329442",
+          "type": "BACKGROUND",
+          "citation": "Na JI, Choi SY, Yang SH, Choi HR, Kang HY, Park KC. Effect of tranexamic acid on melasma: a clinical trial with histological evaluation. J Eur Acad Dermatol Venereol. 2013 Aug;27(8):1035-9. doi: 10.1111/j.1468-3083.2012.04464.x. Epub 2012 Feb 13."
+        },
+        {
+          "pmid": "25422661",
+          "type": "BACKGROUND",
+          "citation": "Ebrahimi B, Naeini FF. Topical tranexamic acid as a promising treatment for melasma. J Res Med Sci. 2014 Aug;19(8):753-7."
+        },
+        {
+          "pmid": "24176524",
+          "type": "BACKGROUND",
+          "citation": "Savory SA, Agim NG, Mao R, Peter S, Wang C, Maldonado G, Bearden Dietert J, Lieu TJ, Wang C, Pretzlaff K, Das S, Vandergriff T, Lopez IE, Litzner BR, Hynan LS, Arellano-Mendoza MI, Bergstresser PR, Pandya AG. Reliability assessment and validation of the postacne hyperpigmentation index (PAHPI), a new instrument to measure postinflammatory hyperpigmentation from acne vulgaris. J Am Acad Dermatol. 2014 Jan;70(1):108-14. doi: 10.1016/j.jaad.2013.09.017. Epub 2013 Oct 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-12-01",
+          "uploadDate": "2017-12-01T15:23",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 183349
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017495",
+          "term": "Hyperpigmentation"
+        },
+        {
+          "id": "D000152",
+          "term": "Acne Vulgaris"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010859",
+          "term": "Pigmentation Disorders"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D017486",
+          "term": "Acneiform Eruptions"
+        },
+        {
+          "id": "D012625",
+          "term": "Sebaceous Gland Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014148",
+          "term": "Tranexamic Acid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003509",
+          "term": "Cyclohexanecarboxylic Acids"
+        },
+        {
+          "id": "D000146",
+          "term": "Acids, Carbocyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

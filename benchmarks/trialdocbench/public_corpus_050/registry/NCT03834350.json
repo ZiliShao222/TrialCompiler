@@ -1,0 +1,1162 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03834350",
+      "orgStudyIdInfo": {
+        "id": "IRB18-1210"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R03HL144883",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R03HL144883"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Chicago",
+        "class": "OTHER"
+      },
+      "briefTitle": "At Home Spirometry and Video Module Education for COPD Patients",
+      "officialTitle": "BREATHES: Bringing Respiratory Education for Improved Adherence and Technique Home Through E-interventions for Self-management",
+      "acronym": "BREATHES"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-06-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-06-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-02-01",
+      "studyFirstSubmitQcDate": "2019-02-06",
+      "studyFirstPostDateStruct": {
+        "date": "2019-02-07",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-04-20",
+      "resultsFirstSubmitQcDate": "2022-07-19",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-07-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-07-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-07-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Chicago",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The central hypothesis is that patients hospitalized for COPD who subsequently complete the at-home BREATHES Program with V-TTG skill training and SpiroPD adherence support will retain increased medication knowledge, skill, self-efficacy, and adherence that otherwise decays substantially by 30 days post-discharge. To test this hypothesis, this study proposes the following specific aims:\n\nAim 1: Determine the feasibility of, adherence to, and efficacy of at-home V-TTG for ongoing inhaler skill training.\n\nHypothesis: Participants who complete both in-hospital and at-home V-TTG will have a significantly increased likelihood of demonstrating effective respiratory inhaler technique within 30 days after hospital discharge compared to in-hospital technique\n\nAim 2. Determine the feasibility of, adherence to, and efficacy of at-home SpiroPD for COPD medication adherence support.\n\nHypothesis: Participants' use of SpiroPD (PMD Healthcare) will significantly improve their COPD medication adherence.",
+      "detailedDescription": "Chronic obstructive pulmonary disease (COPD) results in nearly 750,000 hospitalizations annually and is the third leading cause of 30-day hospital readmissions in the United States.Improving the quality of care for hospitalized COPD patients has recently become a national priority through the Centers for Medicare and Medicaid Services' Hospital Readmissions Reduction Program. A key element of improving care quality is translating existing evidence into improved practice. Extensive evidence exists to support the efficacy of inhaled medications to control and reduce COPD symptoms and to improve patient outcomes. However, the real-world effectiveness of these medications is often limited due both to poor inhaler technique and to insufficient adherence to treatment plans. Most interventions for hospitalized patients with COPD focus on medication reconciliation, treatment optimization, and inhaler technique education prior to being discharged home. However, after discharge home, patients quickly lose inhaler technique skills, have difficulty adhering to complex regimens, and lack tools to aid adherence, such as lung function response to their treatment regimen. Interventions to reinforce skills and support adherence are needed across care transitions to reduce the risk of deleterious health outcomes.\n\nSimple and feasible at-home interventions to provide skills training and adherence support are needed. This novel idea is to pair at-home inhaler skill training with at-home spirometry measurements to comprehensively support both medication skill and adherence. The investigator proposes testing a novel at-home self-management support program called \"BREATHES\" (Bringing Respiratory Education for improved Adherence and Technique Home through E-interventions for Self-management) Program. BREATHES will include two main components: first, self-directed inhaler skill training sessions through the virtual Teach-To-Goal (V-TTG) intervention the investigator developed and tested during a K23 grant and, second, a handheld lung function device to provide physiologic feedback and capture medication adherence called SpiroPD. TTG is a patient-centered strategy that uses cycles of assessment and demonstration tailored to patients' self-management needs; the investigator's research shows in-person TTG is effective for teaching inhaler technique and reduces acute care utilization. Virtual-TTG delivers the key features of TTG using virtual patient-directed lessons through novel adaptive technology that provides tailored self-assessment and training. The investigator's studies demonstrate participants' willingness to use V-TTG at-home for post-discharge booster education and show that V-TTG is effective and may be non-inferior to in-person TTG in significantly reducing inhaler misuse among hospitalized patients. However, it remains unknown whether at-home V-TTG sessions will maintain self-management skills over the longer term and how direct physiologic lung monitoring support can impact medication adherence. The proposed studies will determine whether combining at-home skill training with objective measurements of lung function and adherence monitoring through the BREATHES Program improves self-management skills and medication adherence in the first 30 days after hospitalization for COPD."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COPD"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 71,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "At-Home Breathes Program",
+          "type": "OTHER",
+          "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.",
+          "interventionNames": [
+            "Other: BREATHES Program",
+            "Device: BREATHES SpiroPD or Propeller Health"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "BREATHES Program",
+          "description": "Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital. At the time of their initial study visit, study participants will be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use.",
+          "armGroupLabels": [
+            "At-Home Breathes Program"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "BREATHES SpiroPD or Propeller Health",
+          "description": "At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use.",
+          "armGroupLabels": [
+            "At-Home Breathes Program"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Virtual Education Module Adherence",
+          "description": "Number of participants who completed the virtual education module at least once before the 30 day follow-up visit.",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Rate of SpiroPD Device Usage for At-Home COPD Self-Management",
+          "description": "Number of participants who used the SpiroPD device to perform lung function test and keep track of medications post-discharge.",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Inhaler Technique",
+          "description": "Percent of participants who misused their inhalers (≤10/12 steps correct) at baseline, post-baseline inhaler education, and at 30-day follow-up",
+          "timeFrame": "Baseline; Baseline post-education; 30-day post-discharge"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Self-Efficacy for Inhalers: 5 Point Likert Scale",
+          "description": "Patient self-efficacy regarding proper inhaler technique on a 5 point Likert scale, 1 to 5 where 1 is Not Sure at All and 5 is Completely Sure. This outcome was measured at baseline just prior to VTTG inhaler education and again at baseline immediately after VTTG inhaler education. Scores of 3-5 were coded as \"confident\"; scores of 1-2 were coded as \"not confident\".",
+          "timeFrame": "Baseline Pre-VTTG (right before the lesson); Baseline Post-VTTG (immediately after baseline lesson - within 30 minutes)"
+        },
+        {
+          "measure": "Change in Symptom Burden",
+          "description": "Self reported measure using two validated surveys, The Modified Borg Dyspnea Scale (rating of shortness of breath from 0-10 where 0 is not at all and 10 is maximal) and a modified COPD Severity Tool (the possible COPD severity score range is 0 to 26, with higher scores reflecting more severe disease). These measures were assessed at baseline prior to VTTG education and again 30 days post-discharge.",
+          "timeFrame": "Baseline; 30 days post-discharge"
+        },
+        {
+          "measure": "Change in Quality of Life: The Airway Questionnaire (AQ-20)",
+          "description": "Using the validated survey, The Airway Questionnaire (AQ-20), a 20-item survey that assesses effect of current symptoms in everyday life for patients with COPD, to assess the change in quality of life from before the BREATHES program to after. The AQ-20 contains 20 items, with scores ranging from 0 to 20 (total score maximum is 20). High scores indicate poor quality of life. This measure was assessed at Baseline prior to VTTG education and again at 30 days post-discharge.",
+          "timeFrame": "Baseline; 30 days post-discharge"
+        },
+        {
+          "measure": "Use of Acute Care Services",
+          "description": "Using University of Chicago Medical Center data and chart reviews, the investigators will examine the use of acute care services within the 30 day window of participation within the study.",
+          "timeFrame": "30 day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18 years and older\n2. Physician-diagnosed COPD (prior to or during hospitalization)\n3. Owns a wifi-enabled device (desktop, laptop, tablet, smart phone, etc.)\n4. Discharged with a rescue and/or controller MDI (metered dose inhaler).\n\nExclusion Criteria:\n\n1. Currently in an intensive care unit\n2. Physician declines to provide consent\n3. Patient unable to provide consent (e.g., history of cognitive impairment, unable to understand English) or declines to provide consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Valerie G Press, MD, MPH",
+          "affiliation": "Associate Professor",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Chicago Medicine",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "There were 71 participants who were enrolled and completed informed written consent. 71 participants were also assigned to the arms of this study. However, prior to completion of the baseline visit 1 participant withdrew.70 total participants were included in our final analyses.",
+      "recruitmentDetails": "The study team enrolled hospitalized adults at an academic medical center with COPD between April 2019 and June 2021 who met the following selection criteria: age\\>18yrs, owned a wifi-enabled device, had or will have a rescue and/or controller meter dose inhaler prescribed upon discharge, had a visual acuity of at least 20/50, and received assent for approach by the treating clinician.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Breathes Program",
+          "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "71"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "70"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Breathes Program",
+          "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "70"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "63",
+                      "spread": "8.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "70"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "68"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Virtual Education Module Adherence",
+          "description": "Number of participants who completed the virtual education module at least once before the 30 day follow-up visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "30 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "At-Home Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital. At the time of their initial study visit, study participants will be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "70"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Rate of SpiroPD Device Usage for At-Home COPD Self-Management",
+          "description": "Number of participants who used the SpiroPD device to perform lung function test and keep track of medications post-discharge.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "30 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "70"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Inhaler Technique",
+          "description": "Percent of participants who misused their inhalers (≤10/12 steps correct) at baseline, post-baseline inhaler education, and at 30-day follow-up",
+          "populationDescription": "Due to participant retention, only 24 participants attended their 30-day follow up visit and were able to have their inhaler technique assessed.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline; Baseline post-education; 30-day post-discharge",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "70"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline Misuse",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline Post-education Misuse",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30d post-discharge Misuse",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Self-Efficacy for Inhalers: 5 Point Likert Scale",
+          "description": "Patient self-efficacy regarding proper inhaler technique on a 5 point Likert scale, 1 to 5 where 1 is Not Sure at All and 5 is Completely Sure. This outcome was measured at baseline just prior to VTTG inhaler education and again at baseline immediately after VTTG inhaler education. Scores of 3-5 were coded as \"confident\"; scores of 1-2 were coded as \"not confident\".",
+          "populationDescription": "Only 69 participants answered this question due to a technology error that occurred that affected only 1 participant.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline Pre-VTTG (right before the lesson); Baseline Post-VTTG (immediately after baseline lesson - within 30 minutes)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "69"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline Pre-VTTG Confident",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline Pre-VTTG not confident",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline Post-VTTG confident",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline Post-VTTG not confident",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Symptom Burden",
+          "description": "Self reported measure using two validated surveys, The Modified Borg Dyspnea Scale (rating of shortness of breath from 0-10 where 0 is not at all and 10 is maximal) and a modified COPD Severity Tool (the possible COPD severity score range is 0 to 26, with higher scores reflecting more severe disease). These measures were assessed at baseline prior to VTTG education and again 30 days post-discharge.",
+          "populationDescription": "Due to retention in the study, only 43 participants were able to be assessed at the 30d follow-up visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline; 30 days post-discharge",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "70"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline Borg Dyspnea",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.97",
+                      "spread": "2.79"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30d post-discharge Borg Dyspnea",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.28",
+                      "spread": "2.35"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline modified COPD Severity Score",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.03",
+                      "spread": "6.17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30d post-discharge modified COPD Severity Score",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.72",
+                      "spread": "6.08"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Quality of Life: The Airway Questionnaire (AQ-20)",
+          "description": "Using the validated survey, The Airway Questionnaire (AQ-20), a 20-item survey that assesses effect of current symptoms in everyday life for patients with COPD, to assess the change in quality of life from before the BREATHES program to after. The AQ-20 contains 20 items, with scores ranging from 0 to 20 (total score maximum is 20). High scores indicate poor quality of life. This measure was assessed at Baseline prior to VTTG education and again at 30 days post-discharge.",
+          "populationDescription": "Due to retention, only 43 participants attended the 30d follow-up visit and completed the AQ-20",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale (0-20)",
+          "timeFrame": "Baseline; 30 days post-discharge",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "70"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline AQ-20",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.06",
+                      "spread": "4.45"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30d post-discharge AQ-20",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.70",
+                      "spread": "4.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Use of Acute Care Services",
+          "description": "Using University of Chicago Medical Center data and chart reviews, the investigators will examine the use of acute care services within the 30 day window of participation within the study.",
+          "populationDescription": "Only 69 participants had their charts reviewed because one participant withdrew from the study after the initial study visit and therefore no additional data was pulled.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "30 day",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Breathes Program",
+              "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "69"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "30 day all admissions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30 day COPD admissions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30 day all ED visits",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30 day COPD ED visits",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30 day all ICU admissions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "30 day COPD ICU admissions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Participants were enrolled in the study for a maximum of 30 days and there were two study visits. The initial study visit was during hospitalization and noted as \"Baseline\". The follow-up study visit was 30-days post-discharge and the subject returned to the hospital to complete this visit.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Breathes Program",
+          "description": "Participants will participate in the at-home BREATHES program which will consist of a video education module and using a hand-held spirometry device, SpiroPD.\n\nBREATHES Program: Participants will complete inhaler education using the virtual education module at the baseline visit of the study. Additionally, they will be asked to complete the lesson at least once before their 30 day follow-up visit on their personal device once they have been discharged from the hospital.\n\nBREATHES SpiroPD or Propeller Health: At the time of their initial study visit, study participants may be given a SpiroPD device for use at home following instruction in the hospital or clinic. Patient adherence to daily testing over one-month will be monitored using real-time capture Wi-Fi-data from the SpiroPD data portal. A small device will be attached to track real-time medication use.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 70,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 70,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 70
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Valerie Press",
+        "organization": "University of Chicago",
+        "email": "vpress@bsd.uchicago.edu",
+        "phone": "773-702-5170"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2019-09-27",
+          "uploadDate": "2019-10-22T17:17",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 295727
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2022-06-13",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D029424",
+          "term": "Pulmonary Disease, Chronic Obstructive"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

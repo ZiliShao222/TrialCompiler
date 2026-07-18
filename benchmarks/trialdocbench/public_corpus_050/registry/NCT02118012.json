@@ -1,0 +1,1279 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02118012",
+      "orgStudyIdInfo": {
+        "id": "140084"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "14-DK-0084",
+          "type": "OTHER",
+          "domain": "NIDDK/NIH"
+        }
+      ],
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "Evaluation of Safety, Tolerability, and Antiviral Activity of Chlorcyclizine HCl in Patients With Chronic Hepatitis C",
+      "officialTitle": "Evaluation of Safety, Tolerability, and Antiviral Activity of Chlorcyclizine HCl Alone or in Combination With Ribavirin in Patients With Chronic Hepatitis C"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-09-17",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-03-20"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-03-20",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-09-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-04-16",
+      "studyFirstSubmitQcDate": "2014-04-16",
+      "studyFirstPostDateStruct": {
+        "date": "2014-04-21",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-04-27",
+      "resultsFirstSubmitQcDate": "2020-05-29",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-06-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-05-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-06-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "class": "NIH"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background:\n\n\\- Hepatitis C is a liver disease caused by the hepatitis C virus. It is the most common cause of serious liver disease in the United States. Many people have few if any symptoms. It can lead to cirrhosis, which can cause liver failure and cancer. Researchers want to study how a medicine called chlorcyclizine works in patients with hepatitis C. They want to see if it can be used to treat hepatitis C alone or when used with the standard hepatitis C treatment drug ribavirin.\n\nObjectives:\n\n\\- To see if chlorcyclizine can be used to treat hepatitis C alone or in combination with the drug ribavirin.\n\nEligibility:\n\n\\- Adults with chronic hepatitis C who either have never been treated for it or have relapsed after prior treatment.\n\nDesign:\n\n* Participants will be screened with medical history, physical exam, blood and urine tests, and a questionnaire. They will also have an ultrasound of their abdomen and electrocardiogram. Some of these tests will be repeated throughout the study.\n* Participants will spend 3 days as an inpatient to be monitored while starting study drug. They will be assigned randomly to a group and will begin taking the study drug. Blood will be taken frequently.\n* Group I will take the study drug twice a day for 28 days.\n* Group II will take the study drug twice a day and ribavirin twice a day for 28 days.\n* Participants will visit the clinic every 7 days for 28 days.\n* After participants stop taking the study drug, they will have 5 follow-up visits over 3 months.",
+      "detailedDescription": "Up to 50 patients with chronic hepatitis C, who are treatment na(SqrRoot) ve or relapsers to any interferon/ribavirin regimen will be enrolled into this pilot study evaluating chlorcyclizine HCl with or without ribavirin (RBV) as antiviral therapy. Adult patients (greater than or equal to18 years of age) with evidence of active chronic hepatitis C infection (all genotypes) with detectable HCV RNA in serum \\>10,000 IU/mL without contraindications to chlorcyclizine HCl or ribavirin or evidence/history of hepatic decompensation will be enrolled. Patients will be monitored for at least two months with regular testing for ALT and HCV RNA quantitative levels before treatment and will undergo admission to start therapy, which includes a thorough medical evaluation and timed blood sampling. Patients will be randomized to one of two treatment groups; one with chlorcyclizine HCl (75 mg twice daily) and the other with RBV+ chlorcyclizine HCl (75 mg twice daily). For all genotypes, RBV will be dosed based on weight (1000 mg daily \\<75 kg and 1200 mg daily greater than or equal to 75 kg). At each clinic visit, patients will be questioned about side effects and symptoms, undergo a focused physical examination, and have blood taken for complete blood counts, HCV RNA, PT/INR and routine liver tests (ALT, AST, alkaline phosphatase, direct and total bilirubin, and albumin). At the end of 28 days of treatment, patients will undergo a repeat thorough medical evaluation inclusive of a complete physical exam, symptom scale evaluation, complete blood counts, routine liver tests, and HCV serology panels. The primary endpoint of therapy will be a decline in quantitative HCV RNA viral levels after 28 days of treatment as compared to baseline viral titers and between groups. Several secondary endpoints will be measured, including side effects of therapy, ALT levels, quantification of chlorcyclizine HCl and its metabolites in serum, and quality of life. Therapy will be stopped for intolerance to RBV and/or chlorcyclizine HCl (which will be carefully defined)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Hepatitis C"
+      ],
+      "keywords": [
+        "Chlorcyclizine HCL",
+        "Direct Acting Antivirals",
+        "Ribavirin",
+        "Chronic Hepatitis C"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 24,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Chlorcyclizine and RBV",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Chlorcyclizine HCl and Ribavirin",
+          "interventionNames": [
+            "Drug: Chlorcyclizine HCl",
+            "Drug: Ribavirin"
+          ]
+        },
+        {
+          "label": "Chlorcyclizine HCl only",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Chlorcyclizine HCl only",
+          "interventionNames": [
+            "Drug: Chlorcyclizine HCl"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Chlorcyclizine HCl",
+          "description": "Chlorcyclizine HCl (75 mg twice daily)",
+          "armGroupLabels": [
+            "Chlorcyclizine HCl only",
+            "Chlorcyclizine and RBV"
+          ],
+          "otherNames": [
+            "CCZ"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ribavirin",
+          "description": "RBV was dosed via a weight-based regimen of 1000 mg daily\\<75 kg and 1200 mg daily ≥75 kg.",
+          "armGroupLabels": [
+            "Chlorcyclizine and RBV"
+          ],
+          "otherNames": [
+            "RBV"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Serum HCV RNA Viral Titer From Baseline to 28 Days",
+          "timeFrame": "Baseline and 28 days"
+        },
+        {
+          "measure": "Number of Participants Who Tolerated the Drug at the Prescribed Dose for the Duration of Therapy",
+          "timeFrame": "28 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Alanine Aminotransferase (ALT) Levels From Baseline to 28 Days",
+          "timeFrame": "Baseline and 28 days"
+        },
+        {
+          "measure": "Maximum Chlorcyclizine HCL Weeks 1-4",
+          "description": "Chlorcyclizine HCL concentration was measured once a week in the morning. This outcome is the maximum over the four weeks.",
+          "timeFrame": "Weeks 1-4"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "* INCLUSION CRITERIA:\n* Adults, ages 18 and above;\n* Chronic hepatitis C (HCV RNA in serum for more than 6 months);\n* HCV RNA in serum at or above 10,000 IU/mL;\n* Treatment naive patients defined as individuals whom have never undergone any form of interferon and ribavirin therapy for chronic HCV infection or relapsers defined as reappearance of HCV RNA in serum after treatment (with any form of interferon and ribavirin therapy) was discontinued and an end-of-treatment response was achieved;\n* No major contraindications to agents being used (chlorcyclizine HCl and ribavirin);\n* Females of childbearing potential must have a negative serum or urine pregnancy test result (minimum sensitivity 25 IU/L or equivalent units of HCG) within 24 hours before the first dose of study drug;\n* Women of childbearing potential and men, participants and partners, must use highly effective methods of birth control to minimize the risk of pregnancy and must follow instructions for birth control for the entire duration of the study including a minimum of 24 weeks after the last dose of ribavirin. Two forms of birth control are required from the time of screening throughout the duration of the on-treatment study period and for at least 24 weeks after the last dose of ribavirin. Examples of effective birth control include: condom with spermicide; diaphragm with spermicide; cervical cap with spermicide; female condom; intrauterine devices (IUDs); vasectomy in men;\n\nEXCLUSION CRITERIA:\n\n* Liver or any other organ transplant (including hematopoietic stem cell transplants) other than cornea and hair;\n* Current or known history of cancer (except in situ carcinoma of the cervix or adequately treated basal or squamous cell carcinoma of the skin) within 5 years prior to enrollment;\n* Documented or suspected HCC, as evidenced by previously obtained imaging studies or liver biopsy (or on a screening imaging study/liver biopsy if this was performed);\n* Evidence of decompensated liver disease including, but not limited to, bilirubin \\>4 mg/dL, albumin \\<3.0 gm/dL, prothrombin time \\>2 sec prolonged or a history or presence of ascites, bleeding varices, or hepatic encephalopathy. Patients with ALT levels \\>500 U/L will not be enrolled but may be followed until three determinations are below this level;\n* Evidence of a medical condition contributing to chronic liver disease other than chronic HCV infection (such as, but not limited to: acute hepatitis C infection, hemochromatosis, autoimmune hepatitis, metabolic liver disease, alcoholic liver disease, toxin exposures);\n* History of chronic hepatitis B virus (HBV) as documented by HBV serologies (eg, HBsAg-seropositive). Subjects with resolved HBV infection may participate (eg, HBsAb-seropositive with concurrent HBsAg-seronegative);\n* Any prior exposure to direct-acting antiviral therapies for chronic HCV infection;\n* History of HIV infection;\n* History of hemoglobinopathies (eg. thalassemia major or sickle cell anemia), diagnoses associated with an increased baseline risk for anemia (eg, spherocytosis), hemolytic anemia, or diseases in which anemia would be medically problematic, or hemophilia;\n* Confirmed, uncontrolled hypertension (any screening systolic blood pressure greater than or equal to 160 mmHg or diastolic blood pressure greater than or equal to 100 mmHg should be excluded unless discussed with the central medical monitor);\n* Any other medical and/or social reason, including active substance abuse as defined by DSM-IV, Diagnostic Criteria for Drug and Alcohol Abuse, which in the opinion of the investigator would make the candidate inappropriate for participation in this study;\n* Significant systemic or major illnesses other than liver disease, including, but not limited to, clinically significant emphysema or chronic bronchitis, symptomatic benign prostatic hypertrophy, glaucoma, gastrointestinal motility related illnesses, congestive heart failure, renal failure (eGFR \\<50 mL/min), and active coronary artery disease;\n* Significant prior history suggestive of cardiovascular instability, including but not limited to evidence of significant myocardial ischemia, unstable re-entry phenomena, other significant dysrhythmias and/or uncontrolled hypertension;\n* Inability to tolerate oral medication;\n* For relapsers: exposure to interferon based therapy with ribavirin within 12 weeks prior to screening;\n* Allergy or hypersensitivity to chlorcyclizine HCl or ribavirin;\n* Any known contraindication to ribavirin, not otherwise specified;\n* Inability to refrain from operating heavy machinery while on therapy;\n* Breastfeeding women;\n* Inability to understand or sign informed consent;\n* Active use of chlorcyclizine HCl or another piperazine class antihistamine within 6 months of enrollment;\n* Inability to abstain from piperazine class antihistamines during enrollment in the clinical trial period.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christopher Koh, M.D.",
+          "affiliation": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Institutes of Health Clinical Center, 9000 Rockville Pike",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30711416",
+          "type": "BACKGROUND",
+          "citation": "Koh C, Dubey P, Han MAT, Walter PJ, Garraffo HM, Surana P, Southall NT, Borochov N, Uprichard SL, Cotler SJ, Etzion O, Heller T, Dahari H, Liang TJ. A randomized, proof-of-concept clinical trial on repurposing chlorcyclizine for the treatment of chronic hepatitis C. Antiviral Res. 2019 Mar;163:149-155. doi: 10.1016/j.antiviral.2019.01.017. Epub 2019 Jan 31."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "NIH Clinical Center Detailed Web Page",
+          "url": "https://clinicalstudies.info.nih.gov/cgi/detail.cgi?B_2014-DK-0084.html"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Chlorcyclizine and RBV",
+          "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)"
+        },
+        {
+          "id": "FG001",
+          "title": "Chlorcyclizine HCl Only",
+          "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "Day 5",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "Day 14",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Chlorcyclizine and RBV",
+          "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)"
+        },
+        {
+          "id": "BG001",
+          "title": "Chlorcyclizine HCl Only",
+          "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "12"
+            },
+            {
+              "groupId": "BG001",
+              "value": "12"
+            },
+            {
+              "groupId": "BG002",
+              "value": "24"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "56",
+                      "lowerLimit": "47",
+                      "upperLimit": "60"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "57",
+                      "lowerLimit": "54",
+                      "upperLimit": "61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "56",
+                      "lowerLimit": "50",
+                      "upperLimit": "60"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HCV Genotype",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "1A",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "1B",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "2",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "3",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "4",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "6",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Serum HCV RNA Viral Titer From Baseline to 28 Days",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "log IU/ml",
+          "timeFrame": "Baseline and 28 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chlorcyclizine and RBV",
+              "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)"
+            },
+            {
+              "id": "OG001",
+              "title": "Chlorcyclizine HCl Only",
+              "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.46",
+                      "lowerLimit": "-0.83",
+                      "upperLimit": "-0.04"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.11",
+                      "lowerLimit": "-0.21",
+                      "upperLimit": "0.21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants Who Tolerated the Drug at the Prescribed Dose for the Duration of Therapy",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "28 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chlorcyclizine and RBV",
+              "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)"
+            },
+            {
+              "id": "OG001",
+              "title": "Chlorcyclizine HCl Only",
+              "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Alanine Aminotransferase (ALT) Levels From Baseline to 28 Days",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "U/L",
+          "timeFrame": "Baseline and 28 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chlorcyclizine and RBV",
+              "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)"
+            },
+            {
+              "id": "OG001",
+              "title": "Chlorcyclizine HCl Only",
+              "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26",
+                      "lowerLimit": "5.75",
+                      "upperLimit": "45.25"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6",
+                      "lowerLimit": "0.5",
+                      "upperLimit": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Maximum Chlorcyclizine HCL Weeks 1-4",
+          "description": "Chlorcyclizine HCL concentration was measured once a week in the morning. This outcome is the maximum over the four weeks.",
+          "populationDescription": "Concentration measurements were not available for 1 Chlorcyclizine and RBV participant and for the 2 Chlorcyclizine HCl only participants who withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "ng/ml",
+          "timeFrame": "Weeks 1-4",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chlorcyclizine and RBV",
+              "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)"
+            },
+            {
+              "id": "OG001",
+              "title": "Chlorcyclizine HCl Only",
+              "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "211",
+                      "lowerLimit": "125",
+                      "upperLimit": "240"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "251",
+                      "lowerLimit": "153",
+                      "upperLimit": "285"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "28 days",
+      "description": "Monitoring of adverse events was performed from the Common Terminology Criteria for Adverse Events (CTCAE) version 3.0 with modification for patients with liver disease.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Chlorcyclizine and RBV",
+          "description": "Chlorcyclizine HCl and Ribavirin\n\nChlorcyclizine HCL plus Ribavirin: RBV+ chlorcyclizine HCl (75 mg twice daily)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 12,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 12,
+          "otherNumAffected": 9,
+          "otherNumAtRisk": 12
+        },
+        {
+          "id": "EG001",
+          "title": "Chlorcyclizine HCl Only",
+          "description": "chlorcyclizine HCl (75 mg twice daily)\n\nChlorcyclizine HCL Only: chlorcyclizine HCl (75 mg twice daily)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 12,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 12,
+          "otherNumAffected": 10,
+          "otherNumAtRisk": 12
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Drowsiness",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dry Mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Light Headedness",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Nervousness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Inability to concentrate",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Headaches",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Numbness or Tingling",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Difficulty Urinating",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Christopher Koh, M.D.",
+        "organization": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "email": "kohchris@mail.nih.gov",
+        "phone": "(301) 443-9402"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2018-08-17",
+          "uploadDate": "2020-05-12T11:59",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1143034
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019698",
+          "term": "Hepatitis C, Chronic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006526",
+          "term": "Hepatitis C"
+        },
+        {
+          "id": "D000086982",
+          "term": "Blood-Borne Infections"
+        },
+        {
+          "id": "D003141",
+          "term": "Communicable Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D006525",
+          "term": "Hepatitis, Viral, Human"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018178",
+          "term": "Flaviviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D006521",
+          "term": "Hepatitis, Chronic"
+        },
+        {
+          "id": "D006505",
+          "term": "Hepatitis"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C084597",
+          "term": "chlorcyclizine"
+        },
+        {
+          "id": "D012254",
+          "term": "Ribavirin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

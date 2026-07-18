@@ -1,0 +1,93 @@
+{
+  "schema": "trialcompiler.public_case/v1",
+  "case_id": "NCT04050397",
+  "source_class": "real_public_clinicaltrials_gov",
+  "split": "unassigned",
+  "registry": {
+    "nct_id": "NCT04050397",
+    "study_type": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "overall_status": "UNKNOWN",
+    "enrollment": {
+      "count": 40,
+      "type": "ESTIMATED"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Daily total activity",
+        "description": "Daily activity as measured by wrist activity monitor worn by the participants at all times during the study. Measured as metabolic equivalents of task (MET) units. Range from 0.9 to 23.",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Fasting plasma total cholesterol",
+        "description": "Value measure in mmol/l",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Fasting plasma LDL cholesterol",
+        "description": "Value measure in mmol/l",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Fasting plasma HDL cholesterol",
+        "description": "Value measure in mmol/l",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Fasting plasma triglycerides",
+        "description": "Value measure in mmol/l",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Fasting plasma glucose level",
+        "description": "Value measured in mmol/l",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Blood glycated hemoglobin (HbA1C) level",
+        "description": "Value measured in mmol/mol",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Overall quality of life",
+        "description": "Score from validated survey EORTC QLQ-C30, score range from 0-100, with 100 denoting the highest quality of life",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      },
+      {
+        "measure": "Prostate cancer-specific quality of life",
+        "description": "Score from validated survey EORTC QLQ-PR25, score range from 0-100, with 100 denoting the highest quality of life",
+        "timeFrame": "At randomization and twice more at 12 week intervals"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "roles": "protocol;sap",
+      "filename": "Prot_SAP_000.pdf",
+      "official_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT04050397/Prot_SAP_000.pdf",
+      "sha256": "049A64FB943F791172DF8A8FBAA32479418440200371C8DD52C9431DEA7CA4E6",
+      "bytes": 1013152,
+      "pages": 22,
+      "document_date": "2019-07-29",
+      "upload_date": "2019-07-29T03:19",
+      "content_signals": {
+        "protocol": true,
+        "sap": true,
+        "extracted_chars": 22371,
+        "sampled_pages": 22
+      }
+    }
+  ],
+  "available_actions": [
+    {
+      "action_id": "read:Prot_SAP_000.pdf",
+      "roles": "protocol;sap",
+      "cost_unit": 22,
+      "content_digest": "049A64FB943F791172DF8A8FBAA32479418440200371C8DD52C9431DEA7CA4E6"
+    }
+  ],
+  "gold_status": "not_annotated",
+  "allowed_use": "corpus_integrity_and_future_blinded_annotation"
+}

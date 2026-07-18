@@ -1,0 +1,950 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02354118",
+      "orgStudyIdInfo": {
+        "id": "12135-12-079"
+      },
+      "organization": {
+        "fullName": "TriHealth Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Maintaining Patency in Implanted Port Catheters",
+      "officialTitle": "Maintaining Patency in Implanted Port Catheters With Saline Only Flushes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-12-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-01-29",
+      "studyFirstSubmitQcDate": "2015-01-29",
+      "studyFirstPostDateStruct": {
+        "date": "2015-02-03",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-01-24",
+      "resultsFirstSubmitQcDate": "2022-08-18",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-09-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-09-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Rachel Baker",
+        "investigatorTitle": "Nurse Researcher",
+        "investigatorAffiliation": "TriHealth Inc."
+      },
+      "leadSponsor": {
+        "name": "TriHealth Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the safest and most effective flushing solution for maintaining patency (unobstructed flow) in implanted port catheters. The complication rate in patients whose ports are flushed with saline only will be compared to the complication rate in patients whose ports are flushed with a combination of saline and heparinized saline.",
+      "detailedDescription": "The purpose of this study is to determine the safest and most effective flushing solution for maintaining patency (unobstructed flow) in implanted port catheters. The complication rate in patients whose ports are flushed with saline only will be compared to the complication rate in patients whose ports are flushed with a combination of saline and heparinized saline. These complications include partial or complete obstruction, infection of the central line, and/or the onset of heparin induced thrombocytopenia."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obstruction; Catheter, Infusion Catheter (Vascular)",
+        "Catheter; Complications (Indwelling Catheter)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 436,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months",
+          "interventionNames": [
+            "Other: Heparinized saline catheter flush"
+          ]
+        },
+        {
+          "label": "Intervention Group",
+          "type": "EXPERIMENTAL",
+          "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.",
+          "interventionNames": [
+            "Other: Saline-only catheter flush"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Heparinized saline catheter flush",
+          "description": "The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months",
+          "armGroupLabels": [
+            "Control Group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Saline-only catheter flush",
+          "description": "The intervention group will have their port catheters flushed with saline only.",
+          "armGroupLabels": [
+            "Intervention Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With First Complete Occlusion Within 1 Year",
+          "description": "Number of participants who had a first complete occlusion (Blockage) within 1 year",
+          "timeFrame": "baseline to 1 year"
+        },
+        {
+          "measure": "Number of Participants With First Partial Occlusion Within 1 Year",
+          "description": "Number of Participants with First Partial Occlusion (Blockage) within 1 year",
+          "timeFrame": "baseline to 1 year"
+        },
+        {
+          "measure": "Number of Participants With First Cathflo Administration for Occlusion (Blockage) Within 1 Year",
+          "description": "Number of Participants with First Cathflo administration for Occlusion (Blockage) within 1 year",
+          "timeFrame": "baseline to 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With First Complete or Partial Occlusion Within 1 Year",
+          "description": "Number of Participants with either a First Complete or Partial Occlusion (Blockage) within 1 year",
+          "timeFrame": "baseline to 1 year"
+        },
+        {
+          "measure": "Number of Participants With HIT Within 1 Year",
+          "description": "Heparin Induced Thrombocytopenia (HIT) as measured by a positive HIT antibody test, or any other heparin allergy, will be recorded.",
+          "timeFrame": "baseline to 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Able to read and understand English\n* Has an implanted port in place less than one (1) year\n* Evidence of a patent (unobstructed) port catheter prior to enrollment in the study\n* Is receiving active treatment (i.e., receiving a therapeutic drug through the implanted port)\n* Current treatment protocol projected to continue for a minimum of three (3) months\n* Anticipates receiving care at the identified centers for 12 months following enrollment in the study\n* Does not receive care of implanted port at any other facility\n\nExclusion Criteria:\n\n* Has documented heparin platelet antibody (i.e., could not be randomized to either group) or other allergy to heparin\n* Receiving therapeutic dose of an anticoagulant (e.g.,warfarin, heparin, enoxaparin)\n* Does not have a BioFlo port (heparinized port)\n* Does not meet one or more of the inclusion criteria",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sarah Pelgen, BSN, RN, OCN",
+          "affiliation": "TriHealth Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UC Health Barrett Infusion Center",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TriHealth Cancer Institute Good Samaritan Infusion Center at GSH",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45220",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Ambulatory Treatment Center at Bethesda North TriHealth Hospital",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TriHealth Cancer Institute Good Samaritan Infusion Center, Medicenter",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TriHealth Cancer Institute Good Samaritan Infusion Center, Cheviot",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45247",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TriHealth Cancer Institute Good Samaritan Infusion Center, Anderson",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45255",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TriHealth Cancer Institute Good Samaritan Infusion Center Butler County",
+          "city": "Hamilton",
+          "state": "Ohio",
+          "zip": "45011",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.3995,
+            "lon": -84.56134
+          }
+        },
+        {
+          "facility": "McCullough Hyde Memorial Hospital Infusion Center",
+          "city": "Oxford",
+          "state": "Ohio",
+          "zip": "45056",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.507,
+            "lon": -84.74523
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Control Group",
+          "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+        },
+        {
+          "id": "FG001",
+          "title": "Intervention Group",
+          "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "222"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "214"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "222"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "214"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Control Group",
+          "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+        },
+        {
+          "id": "BG001",
+          "title": "Intervention Group",
+          "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "222"
+            },
+            {
+              "groupId": "BG001",
+              "value": "214"
+            },
+            {
+              "groupId": "BG002",
+              "value": "436"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "222"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "214"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "436"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59.14",
+                      "spread": "12.32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "59.30",
+                      "spread": "11.61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59.22",
+                      "spread": "11.96"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "222"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "214"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "436"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "153"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "143"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "296"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "69"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "140"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "222"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "214"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "436"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "222"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "214"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "436"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With First Complete Occlusion Within 1 Year",
+          "description": "Number of participants who had a first complete occlusion (Blockage) within 1 year",
+          "populationDescription": "NOTE: 1 participant had BOTH a partial occlusion and a complete occlusion. Therefore, when adding information from Outcome Measures 1 and 2 to determine the total number of participants with either complete or partial occlusions in the \"Control Group\" is correct as 43 (i.e., (5+39 = 44) - 1 participant in both groups = 43 distinct participants)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "baseline to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control Group",
+              "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+            },
+            {
+              "id": "OG001",
+              "title": "Intervention Group",
+              "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "222"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "214"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With First Partial Occlusion Within 1 Year",
+          "description": "Number of Participants with First Partial Occlusion (Blockage) within 1 year",
+          "populationDescription": "NOTE: 1 participant had BOTH a partial occlusion and a complete occlusion. Therefore, when adding information from Outcome Measures 1 and 2 to determine the total number of participants with either complete or partial occlusions in the \"Control Group\" is correct as 43 (i.e., (5+39 = 44) - 1 participant in both groups = 43 distinct participants)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "baseline to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control Group",
+              "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+            },
+            {
+              "id": "OG001",
+              "title": "Intervention Group",
+              "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "222"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "214"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With First Cathflo Administration for Occlusion (Blockage) Within 1 Year",
+          "description": "Number of Participants with First Cathflo administration for Occlusion (Blockage) within 1 year",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "baseline to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control Group",
+              "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+            },
+            {
+              "id": "OG001",
+              "title": "Intervention Group",
+              "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "222"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "214"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With First Complete or Partial Occlusion Within 1 Year",
+          "description": "Number of Participants with either a First Complete or Partial Occlusion (Blockage) within 1 year",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "baseline to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control Group",
+              "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+            },
+            {
+              "id": "OG001",
+              "title": "Intervention Group",
+              "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "222"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "214"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With HIT Within 1 Year",
+          "description": "Heparin Induced Thrombocytopenia (HIT) as measured by a positive HIT antibody test, or any other heparin allergy, will be recorded.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "baseline to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Control Group",
+              "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months"
+            },
+            {
+              "id": "OG001",
+              "title": "Intervention Group",
+              "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "222"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "214"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "NON_INFERIORITY",
+              "nonInferiorityComment": "10% non-inferiority margin",
+              "pValue": "1.0",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "1 year",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Control Group",
+          "description": "Heparinized saline catheter flush - The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months\n\nHeparinized saline catheter flush: The control group will have their port catheters flushed with 20mL saline + 5mL heparin 100 units/mL; q 3 months",
+          "deathsNumAffected": 42,
+          "deathsNumAtRisk": 222,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 222,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 222
+        },
+        {
+          "id": "EG001",
+          "title": "Intervention Group",
+          "description": "Saline-only catheter flush - The intervention group will have their port catheters flushed with saline only.\n\nSaline-only catheter flush: The intervention group will have their port catheters flushed with saline only.",
+          "deathsNumAffected": 27,
+          "deathsNumAtRisk": 214,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 214,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 214
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Rachel Baker, Nurse Researcher",
+        "organization": "TriHealth",
+        "email": "Rachel_Baker2@trihealth.com",
+        "phone": "513-569-6191"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-01-22",
+          "uploadDate": "2022-01-24T11:35",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 297017
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001733",
+          "term": "Bites and Stings"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011041",
+          "term": "Poisoning"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

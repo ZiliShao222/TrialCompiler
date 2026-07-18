@@ -1,0 +1,4528 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02911142",
+      "orgStudyIdInfo": {
+        "id": "160171"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "16-C-0171"
+        }
+      ],
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "Lenalidomide Combined With Modified DA-EPOCH and Rituximab (EPOCH-R2) in Primary Effusion Lymphoma or KSHV-associated Large Cell Lymphoma",
+      "officialTitle": "Phase I/II Study of Lenalidomide Combined With Modified DA-EPOCH and Rituximab (EPOCH-R2) in Primary Effusion Lymphoma or KSHV-Associated Large Cell Lymphoma"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-07-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-10-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2027-10-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-09-21",
+      "studyFirstSubmitQcDate": "2016-09-21",
+      "studyFirstPostDateStruct": {
+        "date": "2016-09-22",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2025-06-10",
+      "resultsFirstSubmitQcDate": "2025-07-14",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-07-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ramya Ramaswami",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "National Cancer Institute (NCI)"
+      },
+      "leadSponsor": {
+        "name": "National Cancer Institute (NCI)",
+        "class": "NIH"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background:\n\nPrimary effusion lymphoma (PEL) is a rare disease with no standard treatment. Researchers want to see if a drug called lenalidomide along with common chemotherapy drugs may be effective in treating PEL.\n\nObjective:\n\nTo test a new treatment for PEL.\n\nEligibility:\n\nPeople ages 18 and older with PEL.\n\nDesign:\n\nParticipants will be screened with blood tests, imaging studies, a physical exam, and other tests.\n\nParticipants will have tests to evaluate their disease. These may include:\n\nBlood tests\n\nScans\n\nLumbar puncture. Fluid around the spinal cord will be removed with a needle.\n\nBone marrow removed with a needle and studied\n\nSamples of skin or lymph nodes removed\n\nFluid removed from around organs\n\nLung and eye tests\n\nTubes with cameras taking pictures of airways or digestive tract\n\nParticipants will take lenalidomide pills for 10 days. They will keep a pill diary.\n\nParticipants will have a catheter (small tube) placed in the large vein in the arm or chest.\n\nParticipants will get DA-EPOCH-R as intravenous infusions by catheter over several days. This will be repeated in 21-day cycles. Most participants will have 6 cycles.\n\nParticipants will get the drug filgrastim by injection under the skin. They will get the drug methotrexate injected into the spinal fluid.\n\nDuring the study, participants will have the following tests done at least once:\n\nMedical history\n\nPhysical exam\n\nBlood, urine, and stool tests\n\nLesions photographed and measured\n\nLumbar puncture\n\nParticipants will have follow-up visits for 5 years. They will repeat the screening tests plus have urine and stool tested.\n\nParticipants may be contacted later by phone to see how they are doing.",
+      "detailedDescription": "Background\n\n* Kaposi sarcoma herpesvirus (KSHV)-associated primary effusion lymphoma (PEL) is an aggressive B cell neoplasm with clinicopathologic and molecular profiles distinct from other AIDS-related lymphomas.\n* There are no prospective studies on these rare lymphomas. Clinical experience is limited; however, reported prognosis is poor, with median survival estimated at less than 6 months using conventional cyclophosphamide, doxorubicin, vincristine, prednisone (CHOP)-like chemotherapy.\n* Novel treatment is urgently needed for KSHV-associated lymphomas, and the therapeutic approach must take into account concurrent KSHV-associated malignancies which are commonly seen in this patient population\n* Lenalidomide, an immune-modulatory derivative of thalidomide (IMiD drug) has in vitro direct antitumor effect in KSHV-lymphomas as well as immune modulatory and anti-angiogenic effects that may be beneficial in treating PEL.\n* Rituximab, an anti-cluster of differentiation 20 (CD20) monoclonal antibody, has recently been shown to be an active agent in the management of KSHV-MCD. Although PEL is a CD20-negative tumor, advances in the understanding the biology of KSHV-infection of B-cells, the pathobiology of IL-6 syndromes in KSHV-Multicentric Castleman disease (MCD) and KSHV-non-Hodgkin lymphoma (NHL), and clinical experience using rituximab in the treatment of KSHV-MCD, support use of rituximab in the treatment of PEL, especially in patients with concurrent KSHV-MCD.\n* Modified dose-adjusted etoposide, prednisone, vincristine, cyclophosphamide, and doxorubicin (DA)-EPOCH is an anthracycline-based regimen that allows for personalization of dose-intensity showing that inclusion of etoposide and infusional administration decreases tumor cell resistance.\n* The use of DA-EPOCH in combination with rituximab for the treatment of human immunodeficiency virus (HIV) associated diffuse large B-cell lymphoma or Burkitt lymphoma has been shown to be safe and effective.\n* Given the central role of controlling HIV viremia with combination antiretroviral therapy (cART) in the management of KSHV-associated malignancies, as well as the likely contribution of uncontrolled HIV viremia to PEL pathogenesis, cART will be employed as an important part of the treatment regimen.\n\nObjectives\n\nPhase I\n\n\\- Evaluate safety and tolerability of lenalidomide in combination with DA-EPOCH-R and determine the maximum tolerated dose and/or recommended phase II dose of this regimen.\n\nPhase II\n\n\\- Evaluate overall survival in treatment-naive participants with KSHV-positive aggressive B cell lymphomas treated with lenalidomide in combination with DA-EPOCH and rituximab (DA-EPOCH-R\\^2).\n\nEligibility\n\n* Adult participants \\>= 18 years with pathology confirmed any KSHV-positive aggressive B cell lymphomas, such as primary effusion lymphoma, and KSHV-associated large cell lymphoma\n* Lymphoma that is measurable or assessable\n* Any HIV status\n* Hematologic and biochemical parameters within pre-specified limits at screening\n* Willing to use effective birth control, as defined in the full protocol\n* Neither pregnant nor breast feeding\n* Excluded if other serious co-morbid condition that would prohibit administration of planned chemotherapeutic intervention is present\n\nDesign\n\n* This is a phase I/ II study of lenalidomide in combination rituximab and modified DA-EPOCH (EPOCH-R\\^2) in participants with KSHV-positive aggressive B cell lymphomas.\n* Phase I of the study will evaluate lenalidomide 25 mg days 1-10 in combination with modified DA-EPOCH-R to determine safety and tolerability. Dose de-escalation doses of lenalidomide are 20 mg and 15 mg.\n* Participants with HIV will generally be prescribed cART.\n* In phase I, with up to 3 dose levels, 6-18 participants will be accrued (3-6 participants per level).\n* In the phase II portion of the study, 15 evaluable participants will be enrolled over 48-60 months and 12 months follow-up after the last participant has enrolled, a 1-tailed 0.10 alpha level test would have 80% power to determine if overall survival (OS) curve would demonstrate a 1-year OS consistent with 45% or better and ruling out 20% or worse."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Primary Effusion Lymphoma",
+        "B-Cell Neoplasm"
+      ],
+      "keywords": [
+        "Treatment Naive",
+        "Immune Modulatory",
+        "Chemotherapy",
+        "AIDS-Related Lymphoma",
+        "PEL"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 17,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide",
+          "type": "EXPERIMENTAL",
+          "description": "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide",
+          "interventionNames": [
+            "Drug: Lenalidomide",
+            "Drug: Rituximab",
+            "Drug: Prednisone",
+            "Drug: Etoposide",
+            "Drug: Doxorubicin",
+            "Drug: Vincristine",
+            "Drug: Cyclophosphamide",
+            "Diagnostic Test: CT of neck, chest, abdomen and pelvis",
+            "Diagnostic Test: 18FDG-PET scan",
+            "Diagnostic Test: MRI Brain",
+            "Procedure: Bone marrow biopsy",
+            "Diagnostic Test: EKG",
+            "Diagnostic Test: Echocardiogram",
+            "Diagnostic Test: Ultrasound",
+            "Diagnostic Test: Bronchoscopy",
+            "Diagnostic Test: Endoscopy",
+            "Diagnostic Test: CXR: PA/lat/decub"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Lenalidomide",
+          "description": "Lenalidomide taken orally, daily at assigned dose level on days 1 to 10, up to 25mg.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Revlimid"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rituximab",
+          "description": "During cycle 1, rituximab will be administered on day 4 prior to the start of etoposide, prednisone, vincristine, cyclophosphamide, doxorubicin (EPOCH). During cycles 2 to 6, rituximab will be administered on day 1 of each cycle.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Rituxan",
+            "Riabni",
+            "Ruxience",
+            "Truxima"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prednisone",
+          "description": "During cycle 1, Prednisone 60 mg/m\\^2 /day by mouth (PO) days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Rayos",
+            "Deltasone",
+            "Prednisone Intensol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Etoposide",
+          "description": "During cycle 1, Etoposide 50 mg/m\\^2 /day continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide 50 mg/m\\^2/day continuous intravenous infusion days 1 to 4.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Toposar",
+            "Etopophos"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Doxorubicin",
+          "description": "During cycle 1, Doxorubicin 10 mg /m\\^2/day continuous intravenous infusion days 6 to 9. During cycles 2-6, Doxorubicin continuous intravenous infusion days 1 to 4.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Lipodox",
+            "Lipodox 50",
+            "Doxil"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Vincristine",
+          "description": "During cycle 1, Vincristine 0.4 mg/m\\^2 /day continuous intravenous infusion days 6 to 9. During cycles 2-6, Vincristine continuous intravenous infusion days 1 to 4.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Oncovin",
+            "Marqibo",
+            "Vincasar PFS"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "During cycle 1, Cyclophosphamide 750 mg/m\\^2 day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 day 5.",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Cytoxan",
+            "Neosar",
+            "Endoxan"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "CT of neck, chest, abdomen and pelvis",
+          "description": "Screening",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Computed tomography of neck, chest, abdomen and pelvis"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "18FDG-PET scan",
+          "description": "Baseline",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "18 F-fluorodeoxyglucose-positron emission tomography scan"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "MRI Brain",
+          "description": "Screening",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Magnetic resonance imaging brain"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Bone marrow biopsy",
+          "description": "Baseline",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "BM biopsy"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "EKG",
+          "description": "Screening",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "electrocardiogram"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Echocardiogram",
+          "description": "Screening",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "ECHO"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Ultrasound",
+          "description": "Day 6",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "U/S"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Bronchoscopy",
+          "description": "Baseline",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Endoscopy",
+          "description": "Baseline",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "CXR: PA/lat/decub",
+          "description": "Screening",
+          "armGroupLabels": [
+            "Lenalidomide, Rituximab, Prednisone, Etoposide, Doxorubicin, Vincristine and Cyclophosphamide"
+          ],
+          "otherNames": [
+            "Chest x-ray posteroanterior, lateral, decubitus"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "(Phase I) Maximum Tolerated Dose (MTD) of Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2)",
+          "description": "The MTD is the dose level at which no more than 1 of up to 6 participants experiences dose-limiting toxicity (DLT) during the first two cycles of DA-EPOCH-R2 treatment. Association of treatment regimen with one-year overall survival.\n\nDLT is defined as any grade 4 adverse event at least possibly related to lenalidomide and not probably or definitely related to human immunodeficiency virus (HIV) or a Kaposi sarcoma-associated herpesvirus KSHV-associated malignancy resulting in a dose delay in etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R) treatment \\>2 weeks due to failure to resolve to grade 3 or lower. Any grade 3 cardiac toxicity that is at least possibly related to lenalidomide and not probably or definitely related to HIV or a Kaposi sarcoma-associated herpesvirus (KSHV)-associated malignancy resulting in a dose delay in DA-EPOCH-R treatment \\>2 weeks due to failure to resolve to grade 2 or lower.",
+          "timeFrame": "First 6 weeks of treatment (2 cycles of treatment)"
+        },
+        {
+          "measure": "(Phase II) Overall Survival in Treatment-naive Participants With Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 90% Confidence Interval",
+          "description": "Median amount of time subject survives post therapy",
+          "timeFrame": "End of follow up period (5 years)"
+        },
+        {
+          "measure": "(Phase II) Overall Survival in Treatment-naive Participants With Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 95% Confidence Interval",
+          "description": "Median amount of time subject survives post therapy.",
+          "timeFrame": "End of follow up period (5 years)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Response Rate for Primary Effusion Lymphoma Reported Using a 90% Confidence Interval",
+          "description": "Response rate is defined as the percentage of participants who have either a complete response (CR) or partial response (PR) for primary effusion lymphoma treated with etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R2) measured by the International Working Group Response Criteria for Malignant Lymphomas. Complete response (CR) is complete disappearance of all detectable evidence of disease. Partial response (PR) is at least a ≥50% decrease in the sum of the product of the diameters of up to 6 of the largest dominant nodes or nodal masses.",
+          "timeFrame": "Response rate was calculated at the end of treatment (18 weeks of treatment)"
+        },
+        {
+          "measure": "Response Rate for Primary Effusion Lymphoma Reported Using a 95% Confidence Interval",
+          "description": "Response rate is defined as the percentage of participants who have either a Complete Response (CR) or Partial Response (PR) for primary effusion lymphoma treated with etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R2) measured by the International Working Group Response Criteria for Malignant Lymphomas. Complete response (CR) is complete disappearance of all detectable evidence of disease. Partial response (PR) is at least a ≥50% decrease in the sum of the product of the diameters of up to 6 of the largest dominant nodes or nodal masses.",
+          "timeFrame": "Response rate was calculated at the end of treatment (after 18 weeks of treatment)"
+        },
+        {
+          "measure": "Progression-free Survival (PFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Using a 90% Confidence Interval",
+          "description": "PFS is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma or death, whichever occurs first, measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "timeFrame": "Over follow-up period, a median of 26 months"
+        },
+        {
+          "measure": "Progression-free Survival (PFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Using a 95% Confidence Interval",
+          "description": "PFS is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma or death, whichever occurs first, measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "timeFrame": "Over a follow-up period, a median of 26 months"
+        },
+        {
+          "measure": "Event-free Survival (EFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 90% Confidence Interval",
+          "description": "Event-Free Survival (EFS) is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma. Progressive disease was measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is the appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "timeFrame": "Over a follow-up period, a median of 26 months"
+        },
+        {
+          "measure": "Event-free Survival (EFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 95% Confidence Interval",
+          "description": "Event-Free Survival (EFS) is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma. Progressive disease was measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is the appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "timeFrame": "Over a follow-up period, a median of 26 months"
+        },
+        {
+          "measure": "Response Assessment of Kaposi Sarcoma Using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria Reported Along With a 90% Confidence Interval",
+          "description": "Response was assessed by the percentage of participants with either a partial or complete response. Response was assessed using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria. Complete Response is the absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. The absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. Partial Response is a 50% or greater decrease in the number and/or size of previously existing lesions lasting for at least 4 weeks or no new lesions occurring in previously uninvolved areas of the body.",
+          "timeFrame": "At end of treatment (after 18 weeks treatment)"
+        },
+        {
+          "measure": "Response Assessment of Kaposi Sarcoma Using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria Reported Along With a 95% Confidence Interval",
+          "description": "Response was assessed by the percentage of participants with either a partial or complete response. Response was assessed using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria. Complete Response is the absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. The absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. Partial Response is a 50% or greater decrease in the number and/or size of previously existing lesions lasting for at least 4 weeks or no new lesions occurring in previously uninvolved areas of the body.",
+          "timeFrame": "At end of treatment (after 18 weeks of treatment)"
+        },
+        {
+          "measure": "Response Rate of Participants With Active Multicentric Castleman Disease (MCD) Assessed by the National Cancer Institute (NCI) MCD Response Criteria Reported Along With a 90% Confidence Interval",
+          "description": "Response rate is calculated by the percentage of participants with either a partial or complete response. Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to MCD, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to Kaposi sarcoma-associated herpesvirus (KSHV)-MCD must improve by the minimum amounts specified to attain PR (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion).",
+          "timeFrame": "At end of treatment (after 18 weeks of treatment)"
+        },
+        {
+          "measure": "Response Rate of Participants With Active Multicentric Castleman Disease (MCD) Assessed by the National Cancer Institute (NCI) MCD Response Criteria Reported Along With a 95% Confidence Interval",
+          "description": "Response rate is calculated by the percentage of participants with either a partial or complete response. Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to MCD, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to Kaposi sarcoma-associated herpesvirus (KSHV)-MCD must improve by the minimum amounts specified to attain PR (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion).",
+          "timeFrame": "At end of treatment (after 18 weeks of treatment)"
+        },
+        {
+          "measure": "Kaposi's Sarcoma-associated Herpesvirus (KSHV)-Associated Inflammatory Cytokine Syndrome (KICS) Reported Along With a 90% Confidence Interval",
+          "description": "Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to KICS, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to KICS must improve by the minimum amounts (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion). Progressive disease (PD) is at least two indicator abnormalities must deteriorate by the minimum amounts specified below to constitute PD (e.g., C-reactive protein increase by ≥50% of baseline (or the upper limit of normal, whichever is greater); Hemoglobin decrement 2g/dL not otherwise explained; and Platelet decrement ≥25,000/mm\\^3 not otherwise explained). Stable disease (SD) is no change in signs and symptoms of KICS that meet criteria for any of CR, PR or PD.",
+          "timeFrame": "At the end of treatment (after 18 weeks of treatment)"
+        },
+        {
+          "measure": "Kaposi's Sarcoma-associated Herpesvirus (KSHV)-Associated Inflammatory Cytokine Syndrome (KICS) Reported Along With a 95% Confidence Interval",
+          "description": "Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to KICS, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to KICS must improve by the minimum amounts (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion). Progressive disease (PD) is at least two indicator abnormalities must deteriorate by the minimum amounts specified below to constitute PD (e.g., C-reactive protein increase by ≥50% of baseline (or the upper limit of normal, whichever is greater); Hemoglobin decrement 2g/dL not otherwise explained; and Platelet decrement ≥25,000/mm\\^3 not otherwise explained). Stable disease (SD) is no change in signs and symptoms of KICS that meet criteria for any of CR, PR or PD.",
+          "timeFrame": "At the end of treatment (after 18 weeks of treatment)"
+        },
+        {
+          "measure": "Pharmacokinetics of Lenalidomide in Blood",
+          "description": "Bioanalytical measurements will be conducted on an ultra-high-performance liquid chromatography (uHPLC) with tandem mass spectrometric detection to determine the concentration of lenalidomide in blood using an assay developed and validated by the National Institutes of Health (NIH) Clinical Pharmacology Program.",
+          "timeFrame": "Cycle 1 Day 1(C1D1), C1D7, C6D1 (one cycle = 21 days)"
+        },
+        {
+          "measure": "Pharmacokinetics of Lenalidomide Effusion",
+          "description": "Bioanalytical measurements will be conducted on an ultra-high-performance liquid chromatography (uHPLC) with tandem mass spectrometric detection to determine the concentration of lenalidomide in effusions using an assay developed and validated by the National Institutes of Health (NIH) Clinical Pharmacology Program.",
+          "timeFrame": "Cycle 1 Day 1(C1D1), C1D7, C6D1 (one cycle = 21 days)"
+        },
+        {
+          "measure": "Pharmacokinetics of Lenalidomide in Cerebrospinal Fluid (CSF)",
+          "description": "Bioanalytical measurements will be conducted on an ultra-high-performance liquid chromatography (uHPLC) with tandem mass spectrometric detection to determine the concentration of lenalidomide in CSF using an assay developed and validated by the National Institutes of Health (NIH) Clinical Pharmacology Program.",
+          "timeFrame": "Cycle 1 Day 1(C1D1), C1D7, C6D1 (one cycle = 21 days)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of Participants With a Dose-limiting Toxicity (DLT)",
+          "description": "DLT's as assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). DLT is defined as any grade 4 adverse event at least possibly related to lenalidomide and not probably or definitely related to human immunodeficiency virus (HIV) or a Kaposi sarcoma-associated herpesvirus (KSHV)associated malignancy resulting in a dose delay in etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R) treatment \\>2 weeks due to failure to resolve to grade 3 or lower. Any grade 3 cardiac toxicity that is at least possibly related to lenalidomide and not probably or definitely related to HIV or a KSHV-associated malignancy resulting in a dose delay in DA-EPOCH-R treatment \\>2 weeks due to failure to resolve to grade 2 or lower. DLT's were used to determine whether to stop or hold therapy in an individual participant as well as to expand individual dose levels from 3 to 6 participants.",
+          "timeFrame": "First 6 weeks (2 cycles) of treatment"
+        },
+        {
+          "measure": "Number of Participants With Serious and/or Non-serious Adverse Events Assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0)",
+          "description": "Here is the number of participants with serious and/or non-serious adverse events assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned.",
+          "timeFrame": "Median follow-up time was 26 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "* INCLUSION CRITERIA:\n* Any Kaposi sarcoma herpesvirus (KSHV)-positive aggressive B cell lymphomas, such as primary effusion lymphoma (PEL), and KSHV-associated large cell lymphoma that is pathologically confirmed by the National Cancer Institute (NCI) Laboratory of Pathology\n* Measurable or assessable lymphoma.\n* Any human immunodeficiency virus (HIV) status\n* Age 18 years or greater. Because no dosing or adverse event data are currently available on the use of lenalidomide in combination with etoposide, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (EPOCH-R) in participants \\<18 years of age, children are excluded from this study but may be eligible for future pediatric trials.\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-4.\n* Females of childbearing potential (FCBP) must have a negative serum or urine pregnancy test with a sensitivity of at least 25 mIU/mL within 14 days prior to and again within 1 day before starting lenalidomide and must either commit to continued abstinence from heterosexual intercourse or begin TWO acceptable methods of birth control, one highly effective method and one additional effective method AT THE SAME TIME, at least 28 days before she starts taking lenalidomide. Females of reproductive potential must adhere to the scheduled pregnancy testing as required in the Revlimid Risk Evaluation and Mitigation Strategy (REMS) program. Men must agree to use a latex condom during sexual contact with a FCBP even if they have had a vasectomy. All subjects must be counseled at a minimum of every 28 days about pregnancy precautions and risks of fetal exposure. Risks of Fetal Exposure, Pregnancy Testing Guidelines and Acceptable Birth Control\n* All study participants must agree to be registered into the mandatory REVLIMID REMS program, and be willing and able to comply with the requirements of the REVLIMID REMS program.\n* Able to take aspirin 81mg orally daily or if intolerant of aspirin, able to take a substitute thromboprophylaxis such as low molecular weight heparin.\n* Ability of subject to understand and the willingness to sign a written informed consent document.\n\nEXCLUSION CRITERIA:\n\n* Use of other systemic anticancer treatments or agents within the past 2 weeks. The use of rituximab for the treatment of KSHV-associated multicentric Castleman disease (MCD) or KSHV inflammatory cytokine syndrome (KICS) or the use of steroids are allowed within 2 weeks prior to start of treatment.\n* Phase I or Phase II participants who have received prior dose-adjusted EPOCH for treatment for PEL or KSHV-associated large cell lymphoma\n* Phase II participants who have received any prior curative-intent therapy for PEL or KSHV-associated large cell lymphoma. Participants who have received prior treatment as a bridge to curative-intent therapy will be considered per PI discretion.\n* Parenchymal brain involvement with lymphoma\n* History of malignant tumors other than KS or KSHV-associated MCD, unless:\n\n  * In complete remission for greater than or equal to 1 year from the time response was first documented or\n  * Completely resected basal cell carcinoma or\n  * In situ squamous cell carcinoma of the cervix or anus\n* Inadequate renal function, defined as calculated or estimated creatinine clearance \\< 60 mL/min unless lymphoma, KSHV-MCD, or KICS- related for calculation of creatinine clearance)\n* Inadequate hepatic function\n* Bilirubin (total) \\> 1.5 times the upper limit of normal; aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) \\> 3 times the upper limit of normal; EXCEPTIONS:\n\n  * Total bilirubin greater than or equal to 5 mg/dL in participants with Gilbert's syndrome as defined by \\>80% unconjugated\n  * Total bilirubin greater than or equal to 7.5 with direct fraction \\> 0.7 if participants is receiving a protease inhibitor at the time of initial evaluation\n  * Hepatic dysfunction attributed to lymphoma, KSHV-MCD, or KICS\n* Absolute neutrophil count (ANC) \\<1000/mm\\^3 and platelets \\< 75,000/mm\\^3 unless lymphoma, KSHV-MCD, or KICS- related.\n* Common Terminology Criteria for Adverse Events (CTCAE)v5.0 Grade 3-4 neuropathy\n* Ejection fraction less than 40% by echocardiography\n* Known drug-related, inherited, or acquired procoagulant disorder including prothrombin gene mutation 20210, antithrombin III deficiency, protein C deficiency, protein S deficiency and antiphospholipid syndrome but not including heterozygosity for the Factor V Leiden mutation or the presence of a lupus anticoagulant in the absence of other criteria for the antiphospholipid syndrome.\n* History of hypersensitivity reactions attributed to thalidomide, lenalidomide, or pomalidomide, including prior development of erythema nodosum if characterized by a desquamating rash while taking thalidomide, lenalidomide, or pomalidomide.\n* Breast feeding (if lactating, must agree not to breast feed while taking lenalidomide). Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with lenalidomide, breastfeeding should be discontinued if the mother is treated with lenalidomide.\n* Uncontrolled severe intercurrent illness including, but not limited to bacterial, fungal, or life-threatening viral infection; symptomatic congestive heart failure; unstable angina pectoris; cardiac arrhythmia; or psychiatric illness/social situations that would limit compliance with study requirements. Participants with severe intercurrent illnesses attributed to lymphoma, KSHV-MCD, or KICS may be eligible per principal investigators (PI's) or designees' discretion.\n* Any condition, including laboratory abnormalities, which in the opinion of the Principal Investigator or Lead Associate Investigator, would prohibit administration of planned chemotherapeutic intervention, places the subject at unacceptable risk if they were to participate in the study or confounds the ability to interpret data from the study\n* Pregnant women are excluded from this study because lenalidomide is a Category X agent with the potential for teratogenic or abortifacient effects. These potential risks may also apply to other agents used in this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ramya Ramaswami, M.D.",
+          "affiliation": "National Cancer Institute (NCI)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Institutes of Health Clinical Center",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "NIH Clinical Center Detailed Web Page",
+          "url": "https://clinicalstudies.info.nih.gov/cgi/detail.cgi?B_2016-C-0171.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All individual participant data (IPD) recorded in the medical record will be shared with intramural investigators upon request.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Clinical data available during the study and indefinitely.",
+      "accessCriteria": "Clinical data will be made available via subscription to Biomedical Translational Research Information System (BTRIS) and with the permission of the study principal investigator (PI)."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+          "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Phase I - Safety & Tolerability",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Received Specified Dose",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Underwent Screening/Staging",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Evaluated for Response",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Off Treatment",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Off Study",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Disease Progression on Study",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Did not complete last cycle of EPOCH-R2 due to progressive disease.",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phase II - Recommended Phase 2 Dose",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "Received Specified Dose",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "Evaluated for Response",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "Off Treatment",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "Off Study",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "Disease Progression on Study",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Refused further treatment",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+          "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "17"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40.53",
+                      "spread": "13.53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "(Phase I) Maximum Tolerated Dose (MTD) of Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2)",
+          "description": "The MTD is the dose level at which no more than 1 of up to 6 participants experiences dose-limiting toxicity (DLT) during the first two cycles of DA-EPOCH-R2 treatment. Association of treatment regimen with one-year overall survival.\n\nDLT is defined as any grade 4 adverse event at least possibly related to lenalidomide and not probably or definitely related to human immunodeficiency virus (HIV) or a Kaposi sarcoma-associated herpesvirus KSHV-associated malignancy resulting in a dose delay in etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R) treatment \\>2 weeks due to failure to resolve to grade 3 or lower. Any grade 3 cardiac toxicity that is at least possibly related to lenalidomide and not probably or definitely related to HIV or a Kaposi sarcoma-associated herpesvirus (KSHV)-associated malignancy resulting in a dose delay in DA-EPOCH-R treatment \\>2 weeks due to failure to resolve to grade 2 or lower.",
+          "populationDescription": "6/17 participants were analyzed because MTD was only assessed during phase I which was only 6 participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "mg/day",
+          "timeFrame": "First 6 weeks of treatment (2 cycles of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "(Phase II) Overall Survival in Treatment-naive Participants With Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 90% Confidence Interval",
+          "description": "Median amount of time subject survives post therapy",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "90% Confidence Interval",
+          "unitOfMeasure": "years",
+          "timeFrame": "End of follow up period (5 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "0.40",
+                      "upperLimit": "NA",
+                      "comment": "Median survival was not calculable because at the end of the follow-up period, more than 50% of the participants were still alive."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "(Phase II) Overall Survival in Treatment-naive Participants With Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 95% Confidence Interval",
+          "description": "Median amount of time subject survives post therapy.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "years",
+          "timeFrame": "End of follow up period (5 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "0.36",
+                      "upperLimit": "NA",
+                      "comment": "Median survival was not calculable because at the end of the follow-up period, more than 50% of the participants were still alive."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Response Rate for Primary Effusion Lymphoma Reported Using a 90% Confidence Interval",
+          "description": "Response rate is defined as the percentage of participants who have either a complete response (CR) or partial response (PR) for primary effusion lymphoma treated with etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R2) measured by the International Working Group Response Criteria for Malignant Lymphomas. Complete response (CR) is complete disappearance of all detectable evidence of disease. Partial response (PR) is at least a ≥50% decrease in the sum of the product of the diameters of up to 6 of the largest dominant nodes or nodal masses.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "90% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Response rate was calculated at the end of treatment (18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "76",
+                      "lowerLimit": "54",
+                      "upperLimit": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Response Rate for Primary Effusion Lymphoma Reported Using a 95% Confidence Interval",
+          "description": "Response rate is defined as the percentage of participants who have either a Complete Response (CR) or Partial Response (PR) for primary effusion lymphoma treated with etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R2) measured by the International Working Group Response Criteria for Malignant Lymphomas. Complete response (CR) is complete disappearance of all detectable evidence of disease. Partial response (PR) is at least a ≥50% decrease in the sum of the product of the diameters of up to 6 of the largest dominant nodes or nodal masses.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Response rate was calculated at the end of treatment (after 18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "76",
+                      "lowerLimit": "50",
+                      "upperLimit": "93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Progression-free Survival (PFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Using a 90% Confidence Interval",
+          "description": "PFS is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma or death, whichever occurs first, measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "90% Confidence Interval",
+          "unitOfMeasure": "years",
+          "timeFrame": "Over follow-up period, a median of 26 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.72",
+                      "lowerLimit": "0.37",
+                      "upperLimit": "NA",
+                      "comment": "Upper end of the confidence interval of the Kaplan-Meier survival curve was not calculable because the proportion of participants who had progressive disease was too small."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Progression-free Survival (PFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Using a 95% Confidence Interval",
+          "description": "PFS is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma or death, whichever occurs first, measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "years",
+          "timeFrame": "Over a follow-up period, a median of 26 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.72",
+                      "lowerLimit": "0.31",
+                      "upperLimit": "NA",
+                      "comment": "Upper end of the confidence interval of the Kaplan-Meier survival curve was not calculable because the proportion of participants who had progressive disease was too small."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Event-free Survival (EFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 90% Confidence Interval",
+          "description": "Event-Free Survival (EFS) is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma. Progressive disease was measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is the appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "90% Confidence Interval",
+          "unitOfMeasure": "years",
+          "timeFrame": "Over a follow-up period, a median of 26 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.72",
+                      "lowerLimit": "0.37",
+                      "upperLimit": "NA",
+                      "comment": "Upper end of the confidence interval of the Kaplan-Meier survival curve was not calculable because the proportion of participants who had progressive disease was too small."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Event-free Survival (EFS) for Primary Effusion Lymphoma Treated With Etoposide, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin, and Rituximab (DA-EPOCH-R2) Reported Along With a 95% Confidence Interval",
+          "description": "Event-Free Survival (EFS) is defined as the duration of time from start of treatment to time of progression of Kaposi sarcoma-associated herpesvirus (KSHV)-lymphoma. Progressive disease was measured by the International Working Group Response Criteria for Malignant Lymphoma. Progressive disease is the appearance of any new nodal lesion ≥1.6 cm in greatest transverse diameter (GTD) or ≥1.1 cm in short axis during or after the end of therapy, even if other lesions are decreasing in size. At least a 50% increase from the nadir in the sum of the product of the diameters (SPD) of any previously involved nodes, or in a single involved node, or in the size of other lesions (e.g., splenic or hepatic nodules).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "Over a follow-up period, a median of 26 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.72",
+                      "lowerLimit": "0.31",
+                      "upperLimit": "NA",
+                      "comment": "Upper end of the confidence interval of the Kaplan-Meier survival curve was not calculable because the proportion of participants who had progressive disease was too small."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Response Assessment of Kaposi Sarcoma Using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria Reported Along With a 90% Confidence Interval",
+          "description": "Response was assessed by the percentage of participants with either a partial or complete response. Response was assessed using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria. Complete Response is the absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. The absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. Partial Response is a 50% or greater decrease in the number and/or size of previously existing lesions lasting for at least 4 weeks or no new lesions occurring in previously uninvolved areas of the body.",
+          "populationDescription": "4/17 participants were analyzed because only 4 participants had evaluable Kaposi sarcoma.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "90% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "At end of treatment (after 18 weeks treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25",
+                      "lowerLimit": "1",
+                      "upperLimit": "75"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Response Assessment of Kaposi Sarcoma Using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria Reported Along With a 95% Confidence Interval",
+          "description": "Response was assessed by the percentage of participants with either a partial or complete response. Response was assessed using the Modified Acquired Immunodeficiency Syndrome (AIDS) Clinical Trials Criteria. Complete Response is the absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. The absence of any detectable residual disease, including tumor associated edema, persisting for at least 4 weeks. Partial Response is a 50% or greater decrease in the number and/or size of previously existing lesions lasting for at least 4 weeks or no new lesions occurring in previously uninvolved areas of the body.",
+          "populationDescription": "4/17 participants were analyzed because only 4 participants had evaluable Kaposi sarcoma.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "At end of treatment (after 18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25",
+                      "lowerLimit": "0",
+                      "upperLimit": "81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Response Rate of Participants With Active Multicentric Castleman Disease (MCD) Assessed by the National Cancer Institute (NCI) MCD Response Criteria Reported Along With a 90% Confidence Interval",
+          "description": "Response rate is calculated by the percentage of participants with either a partial or complete response. Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to MCD, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to Kaposi sarcoma-associated herpesvirus (KSHV)-MCD must improve by the minimum amounts specified to attain PR (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion).",
+          "populationDescription": "5/17 participants were analyzed because responses were only measured in participants with MCD.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "90% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "At end of treatment (after 18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60",
+                      "lowerLimit": "19",
+                      "upperLimit": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Response Rate of Participants With Active Multicentric Castleman Disease (MCD) Assessed by the National Cancer Institute (NCI) MCD Response Criteria Reported Along With a 95% Confidence Interval",
+          "description": "Response rate is calculated by the percentage of participants with either a partial or complete response. Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to MCD, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to Kaposi sarcoma-associated herpesvirus (KSHV)-MCD must improve by the minimum amounts specified to attain PR (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion).",
+          "populationDescription": "5/17 participants were analyzed because responses were only measured in participants with MCD.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "At end of treatment (after 18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60",
+                      "lowerLimit": "15",
+                      "upperLimit": "95"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Kaposi's Sarcoma-associated Herpesvirus (KSHV)-Associated Inflammatory Cytokine Syndrome (KICS) Reported Along With a 90% Confidence Interval",
+          "description": "Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to KICS, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to KICS must improve by the minimum amounts (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion). Progressive disease (PD) is at least two indicator abnormalities must deteriorate by the minimum amounts specified below to constitute PD (e.g., C-reactive protein increase by ≥50% of baseline (or the upper limit of normal, whichever is greater); Hemoglobin decrement 2g/dL not otherwise explained; and Platelet decrement ≥25,000/mm\\^3 not otherwise explained). Stable disease (SD) is no change in signs and symptoms of KICS that meet criteria for any of CR, PR or PD.",
+          "populationDescription": "This outcome was not done because the definition of KSHV-inflammatory Cytokine syndrome (KICS) has been updated to exclude participants with lymphoma and therefore, effect of the regimen on KICS cannot be performed.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "At the end of treatment (after 18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Kaposi's Sarcoma-associated Herpesvirus (KSHV)-Associated Inflammatory Cytokine Syndrome (KICS) Reported Along With a 95% Confidence Interval",
+          "description": "Complete Response (CR) is full resolution of all clinical symptoms and laboratory abnormalities (whether or not these are indicator abnormalities) probably or definitely attributable to KICS, lasting at least 3 weeks. Partial Response (PR) is at least 50% of the abnormalities probably or definitely attributed to KICS must improve by the minimum amounts (e.g., C-reactive protein reduction to ≤50% of baseline; and Hemoglobin increment 2g/dL not explained by transfusion). Progressive disease (PD) is at least two indicator abnormalities must deteriorate by the minimum amounts specified below to constitute PD (e.g., C-reactive protein increase by ≥50% of baseline (or the upper limit of normal, whichever is greater); Hemoglobin decrement 2g/dL not otherwise explained; and Platelet decrement ≥25,000/mm\\^3 not otherwise explained). Stable disease (SD) is no change in signs and symptoms of KICS that meet criteria for any of CR, PR or PD.",
+          "populationDescription": "This outcome was not done because the definition of KSHV-inflammatory Cytokine syndrome (KICS) has been updated to exclude participants with lymphoma and therefore, effect of the regimen on KICS cannot be performed.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "At the end of treatment (after 18 weeks of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacokinetics of Lenalidomide in Blood",
+          "description": "Bioanalytical measurements will be conducted on an ultra-high-performance liquid chromatography (uHPLC) with tandem mass spectrometric detection to determine the concentration of lenalidomide in blood using an assay developed and validated by the National Institutes of Health (NIH) Clinical Pharmacology Program.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2026-12",
+          "timeFrame": "Cycle 1 Day 1(C1D1), C1D7, C6D1 (one cycle = 21 days)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacokinetics of Lenalidomide Effusion",
+          "description": "Bioanalytical measurements will be conducted on an ultra-high-performance liquid chromatography (uHPLC) with tandem mass spectrometric detection to determine the concentration of lenalidomide in effusions using an assay developed and validated by the National Institutes of Health (NIH) Clinical Pharmacology Program.",
+          "populationDescription": "The objective of obtaining effusion-based PKs can only be done if effusions within a cavity are visible after treatment and safe to proceed. Safety is paramount in this Phase I study and therefore if there was no effusion and/or if it was not safe to sample based on investigator judgement, no samples could be obtained, and no PKs could be obtained to answer this objective. There is no data collected for this measure of effusion PKs.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Cycle 1 Day 1(C1D1), C1D7, C6D1 (one cycle = 21 days)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacokinetics of Lenalidomide in Cerebrospinal Fluid (CSF)",
+          "description": "Bioanalytical measurements will be conducted on an ultra-high-performance liquid chromatography (uHPLC) with tandem mass spectrometric detection to determine the concentration of lenalidomide in CSF using an assay developed and validated by the National Institutes of Health (NIH) Clinical Pharmacology Program.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2026-12",
+          "timeFrame": "Cycle 1 Day 1(C1D1), C1D7, C6D1 (one cycle = 21 days)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants With a Dose-limiting Toxicity (DLT)",
+          "description": "DLT's as assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). DLT is defined as any grade 4 adverse event at least possibly related to lenalidomide and not probably or definitely related to human immunodeficiency virus (HIV) or a Kaposi sarcoma-associated herpesvirus (KSHV)associated malignancy resulting in a dose delay in etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R) treatment \\>2 weeks due to failure to resolve to grade 3 or lower. Any grade 3 cardiac toxicity that is at least possibly related to lenalidomide and not probably or definitely related to HIV or a KSHV-associated malignancy resulting in a dose delay in DA-EPOCH-R treatment \\>2 weeks due to failure to resolve to grade 2 or lower. DLT's were used to determine whether to stop or hold therapy in an individual participant as well as to expand individual dose levels from 3 to 6 participants.",
+          "populationDescription": "6/17 participants were analyzed because dose-limiting toxicity was only performed during phase I which was only 6 participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "First 6 weeks (2 cycles) of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants With Serious and/or Non-serious Adverse Events Assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0)",
+          "description": "Here is the number of participants with serious and/or non-serious adverse events assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Median follow-up time was 26 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+              "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "All-Cause Mortality was monitored/assessed for a median or 26 months. Adverse Events was monitored/assessed from the first study treatment through 30 days after the study agent (s) was/were administered.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Lenalidomide+Etoposide Phosphate, Prednisone, Vincristine, Cyclophosphamide, Doxorubicin & Rituximab",
+          "description": "Cohort 1, Dose Level 1 - Lenalidomide 25mg by mouth (PO) was given on days 1 to 10, plus, etoposide phosphate, prednisone, vincristine, cyclophosphamide, doxorubicin, and rituximab (DA-EPOCH-R). During cycle 1, Etoposide 50mg/m\\^2/day, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin 10 mg /m\\^2/day were given as continuous intravenous infusion days 6 to 9. During cycles 2-6, Etoposide, Vincristine 0.4 mg/m\\^2 /day, and Doxorubicin were given as continuous intravenous infusion days 1 to 4. During cycles 2-6, doses of etoposide and doxorubicin were adjusted based on hematologic parameters during the previous cycle. During cycle 1, Prednisone 60 mg/m\\^2 /day PO days 6 to 10. During cycles 2-6, Prednisone 60 mg/m\\^2 /day PO days 1-5. During cycle 1, Cyclophosphamide 750 mg/m\\^2 was given on day 10. During cycles 2-6, Cyclophosphamide 750 mg/m\\^2 was given on day 5. Rituximab was administered on day 4 prior to the start of EPOCH during cycle 1 and on day 1 during cycles 2 to 6.",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 17,
+          "seriousNumAffected": 12,
+          "seriousNumAtRisk": 17,
+          "otherNumAffected": 17,
+          "otherNumAtRisk": 17
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Disease progression",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dysphagia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Enterocolitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 8,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypothermia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypoxia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Ileus",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Non-cardiac chest pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Sinus tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Sore throat",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Syncope",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Thromboembolic event",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Typhlitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Urinary retention",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract pain",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Vascular disorders - Other, DVT upper extremities, bilateral",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Vascular disorders - Other, Pulmonary emboly, LUL",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Vascular disorders - Other, Pulmonary emboly, RLL",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "White blood cell decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Activated partial thromboplastin time prolonged",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Acute kidney injury",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Adrenal insufficiency",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 23,
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 26,
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Anal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 242,
+              "numAffected": 16,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 28,
+              "numAffected": 9,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Atrial flutter",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Blood bilirubin increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 18,
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Blood lactate dehydrogenase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Blurred vision",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CD4 lymphocytes decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 43,
+              "numAffected": 15,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CPK increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Cardiac arrest",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Cardiac disorders - Other, specify: Tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Cardiac disorders - Other, specify: shock",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Chest pain - cardiac",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Cholesterol high",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Confusion",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Conjunctivitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 12,
+              "numAffected": 9,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Creatinine increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 20,
+              "numAffected": 8,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dysphagia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Dysuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Ear and labyrinth disorders - Other, specify: Ear infection",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Edema limbs",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Edema trunk",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Erectile dysfunction",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Esophagitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Eye disorders - Other, specify: Photophobia",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 33,
+              "numAffected": 13,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 8,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Gastroesophageal reflux disease",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal disorders - Other, specify: Gastric obstruction",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Body aches",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Burning top of the feet",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Facial rash",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Imbalance",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Left Knee effusion",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Nodule, right breast",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Rash forehead",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions - Other, specify: Runny nose",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Generalized muscle weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hematuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 8,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hyperhidrosis",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hyperkalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypermagnesemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypernatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hyperphosphatemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypertriglyceridemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 25,
+              "numAffected": 14,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hyperuricemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypoalbuminemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 43,
+              "numAffected": 15,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypoglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 71,
+              "numAffected": 16,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypomagnesemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 12,
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 40,
+              "numAffected": 14,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypophosphatemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Hypothyroidism",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Infections and infestations - Other, specify: CMV viremia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Infections and infestations - Other, specify: Epiglottitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Injury, poisoning and procedural complications - Other, specify: DVT-LUA axillary/basilica vein",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 306,
+              "numAffected": 17,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Malaise",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Memory impairment",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 16,
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Muscle weakness lower limb",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Nail discoloration",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 21,
+              "numAffected": 10,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 191,
+              "numAffected": 17,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Non-cardiac chest pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Oral pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 8,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Paresthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Periorbital edema",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Peripheral motor neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Peripheral sensory neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 29,
+              "numAffected": 9,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Platelet count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 174,
+              "numAffected": 17,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Pneumothorax",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Postnasal drip",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Proteinuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 9,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Renal and urinary disorders - Other, specify: Uric acid increased",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Renal and urinary disorders - Other, specify: Urine protein increased",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Respiratory, thoracic and mediastinal disorders - Other, specify: Runny nose",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Rhinorrhea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Sinus tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Skin and subcutaneous tissue disorders - Other, specify: Brittle nails",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Skin and subcutaneous tissue disorders - Other, specify: Darkening of skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Skin hyperpigmentation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Skin infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Skin ulceration",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Stridor",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Thrush",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Urinary frequency",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Vascular disorders - Other, specify: Pulmonary emboly, LUL",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Vascular disorders - Other, specify: Pulmonary emboly, RLL",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "White blood cell decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 274,
+              "numAffected": 17,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "White blood cell decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Ramya Ramaswami",
+        "organization": "National Cancer Institute",
+        "email": "ramya.ramaswami@nih.gov",
+        "phone": "240-506-1088"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2023-06-06",
+          "uploadDate": "2025-05-07T12:55",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1420770
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-08-01",
+          "uploadDate": "2025-05-07T12:55",
+          "filename": "ICF_001.pdf",
+          "size": 1068638
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-06-22",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054685",
+          "term": "Lymphoma, Primary Effusion"
+        },
+        {
+          "id": "D016393",
+          "term": "Lymphoma, B-Cell"
+        },
+        {
+          "id": "D016483",
+          "term": "Lymphoma, AIDS-Related"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008228",
+          "term": "Lymphoma, Non-Hodgkin"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077269",
+          "term": "Lenalidomide"
+        },
+        {
+          "id": "D000069283",
+          "term": "Rituximab"
+        },
+        {
+          "id": "D011241",
+          "term": "Prednisone"
+        },
+        {
+          "id": "D005047",
+          "term": "Etoposide"
+        },
+        {
+          "id": "C061400",
+          "term": "etoposide phosphate"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "C506643",
+          "term": "liposomal doxorubicin"
+        },
+        {
+          "id": "D014750",
+          "term": "Vincristine"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D004562",
+          "term": "Electrocardiography"
+        },
+        {
+          "id": "D004452",
+          "term": "Echocardiography"
+        },
+        {
+          "id": "D014463",
+          "term": "Ultrasonography"
+        },
+        {
+          "id": "D001999",
+          "term": "Bronchoscopy"
+        },
+        {
+          "id": "D004724",
+          "term": "Endoscopy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010797",
+          "term": "Phthalimides"
+        },
+        {
+          "id": "D010795",
+          "term": "Phthalic Acids"
+        },
+        {
+          "id": "D000146",
+          "term": "Acids, Carbocyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010881",
+          "term": "Piperidones"
+        },
+        {
+          "id": "D010880",
+          "term": "Piperidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D054833",
+          "term": "Isoindoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D058846",
+          "term": "Antibodies, Monoclonal, Murine-Derived"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D011244",
+          "term": "Pregnadienediols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D011034",
+          "term": "Podophyllotoxin"
+        },
+        {
+          "id": "D013764",
+          "term": "Tetrahydronaphthalenes"
+        },
+        {
+          "id": "D009281",
+          "term": "Naphthalenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D005960",
+          "term": "Glucosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D014748",
+          "term": "Vinca Alkaloids"
+        },
+        {
+          "id": "D046948",
+          "term": "Secologanin Tryptamine Alkaloids"
+        },
+        {
+          "id": "D026121",
+          "term": "Indole Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D054836",
+          "term": "Indolizidines"
+        },
+        {
+          "id": "D007212",
+          "term": "Indolizines"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D006334",
+          "term": "Heart Function Tests"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D004568",
+          "term": "Electrodiagnosis"
+        },
+        {
+          "id": "D057791",
+          "term": "Cardiac Imaging Techniques"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D003948",
+          "term": "Diagnostic Techniques, Respiratory System"
+        },
+        {
+          "id": "D003949",
+          "term": "Diagnostic Techniques, Surgical"
+        },
+        {
+          "id": "D019060",
+          "term": "Minimally Invasive Surgical Procedures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D013510",
+          "term": "Pulmonary Surgical Procedures"
+        },
+        {
+          "id": "D019616",
+          "term": "Thoracic Surgical Procedures"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

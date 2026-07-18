@@ -133,6 +133,12 @@ src/trialcompiler/       Python implementation
 tests/                   Unit, integration, workflow, and benchmark tests
 ```
 
+The benchmark tree includes a frozen 50-case public Protocol+SAP corpus under
+`benchmarks/trialdocbench/public_corpus_050/`: 50 real ClinicalTrials.gov studies, 65 validated
+PDFs, registry snapshots, content digests, active-acquisition page costs, and an explicit
+`not_annotated` claim boundary. It supports integrity and coverage regression today; accuracy and
+ablation claims remain blocked until independent blinded labels exist.
+
 For component boundaries, dependency direction, governed data flows, and the
 mapping from architecture concepts to implementation modules, see
 [`ARCHITECTURE.md`](ARCHITECTURE.md).
