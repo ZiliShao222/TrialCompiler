@@ -135,8 +135,25 @@ class ReviewWorkflowTests(unittest.TestCase):
             self.assertEqual(1, len(state["experience_cards"]))
             self.assertTrue(state["quality"]["accepted"])
             self.assertEqual("draft", state["experience_candidate"]["status"])
-            self.assertEqual(["A", "B", "C", "D", "E", "F"], [e["agent"] for e in state["trace"]])
+            self.assertEqual(
+                ["A", "B", "C", "D", "G", "E", "F"],
+                [e["agent"] for e in state["trace"]],
+            )
             self.assertIn("requires qualified human review", state["report_markdown"])
+            self.assertEqual(
+                "acquire_evidence", state["uncertainty_artifact"]["selected_action"]
+            )
+            self.assertFalse(
+                state["uncertainty_artifact"]["calibration_claim_allowed"]
+            )
+            run_paths = workflow.save_run(state, Path(temp) / "run")
+            uncertainty_path = Path(run_paths["uncertainty"])
+            self.assertTrue(uncertainty_path.exists())
+            self.assertIn(
+                '"numeric_probability_available": false',
+                uncertainty_path.read_text(encoding="utf-8"),
+            )
+            self.assertIn("Uncertainty-governed next action", state["report_markdown"])
             store.close()
 
     def test_overlapping_repairs_converge_to_explicit_decision_request(self) -> None:

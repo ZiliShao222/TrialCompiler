@@ -14,6 +14,8 @@
 
 2026-07-18 新增的不确定性实验底座已经打通一个可执行的最小闭环：有限假设 belief state → 成本感知预期信息增益选证 → 接收显式 observation → posterior 更新与实际熵下降记录 → commit/acquire/defer 决策。独立评估器可输出 Brier、ECE、risk–coverage/AURC、成对排序准确率，以及证据移除/替换的 necessity flip rate 与 contrastive sensitivity；混用 calibration/test split 时禁止给出校准声明，未知 observation 则失败关闭。仓库示例数据只用于验证计算与报告链路，不构成模型效果证据。真实结论仍需冻结数据集、真实模型轨迹、独立 calibration/test 划分和专业标注。
 
+该底座现已进入主审核链路：D 独立质量门之后由 G 不确定性治理节点生成 `uncertainty_trajectory.json`，API 与审核报告同时返回所选下一动作、证据摘要哈希、诊断估计、反事实重放说明和声明边界。新运行若缺少该产物，或在没有拟合校准器时允许 calibration claim，assurance case 将以 `uncertainty_claim_governance` 失败并阻断机器就绪结论。当前 G 节点执行的是诊断信号到治理动作的编译；真实概率仍待独立数据拟合。
+
 > 报告状态：研究原型阶段性验收；评测快照日期：2026-07-18；代码基线：`main` 分支；当前公开案例结果以 `run-deterministic-v2_score.json` 为准。本文中的历史低分仅用于展示改进前基线，不代表当前性能。
 
 ## 1. 验收结论

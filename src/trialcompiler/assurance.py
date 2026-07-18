@@ -38,6 +38,15 @@ def materialize_run_summary(
             "pending_decision_request_count": len(pending),
             "workflow_status": state.get("workflow_status", "unknown"),
             "verification": state.get("verification", {}),
+            "uncertainty": {
+                "selected_action": state.get("uncertainty_artifact", {}).get(
+                    "selected_action"
+                ),
+                "calibration_claim_allowed": state.get("uncertainty_artifact", {}).get(
+                    "calibration_claim_allowed", False
+                ),
+                "claim_note": state.get("uncertainty_artifact", {}).get("claim_note"),
+            },
             "semantic_review": {
                 "status": review.get("status", "not_run"),
                 "model": review.get("model"),
@@ -95,6 +104,7 @@ def build_assurance_case(
             "pending_decision_request_count",
             "workflow_status",
             "verification",
+            "uncertainty",
         )
         mismatch = [k for k in keys if summary.get(k) != expected.get(k)]
         add("artifact_consistency", not mismatch, "State and summary must agree.", mismatch)
@@ -155,6 +165,19 @@ def build_assurance_case(
         True,
         "Detection metrics cannot override workflow gates.",
         {"f1": (scorer_result or {}).get("f1"), "quality_accepted": quality.get("accepted")},
+    )
+    uncertainty = state.get("uncertainty_artifact", {})
+    uncertainty_ok = bool(uncertainty) and not uncertainty.get(
+        "calibration_claim_allowed", False
+    )
+    add(
+        "uncertainty_claim_governance",
+        uncertainty_ok,
+        "Every new run must record a next action without claiming unfitted calibration.",
+        {
+            "selected_action": uncertainty.get("selected_action"),
+            "claim_note": uncertainty.get("claim_note"),
+        },
     )
     bindings = {"workflow_state": _digest(state)}
     if summary is not None:

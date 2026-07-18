@@ -31,7 +31,7 @@ https://github.com/ZiliShao222/TrialCompiler
 - `src/trialcompiler/`：核心实现；
 - `tests/`：自动化测试；
 - `benchmarks/trialdocbench/`：公开和合成 benchmark；
-- `prompts/`：A-F Agent 与生成/审核提示词契约；
+- `prompts/`：A-F 专业角色与 G 不确定性治理节点所使用的生成/审核契约；
 - `schemas/`：机器可读数据契约；
 - `docs/final_submission/engineering/`：工科提交材料。
 
@@ -101,10 +101,10 @@ python -m pytest -q
 
 ```text
 Ruff: All checks passed
-Pytest: 65 passed
+Pytest: 88 passed
 ```
 
-GitHub Actions 会在推送到 `main` 和 Pull Request 时执行同样的检查。若未来新增测试，以 GitHub Actions 对相应提交的结果为准，不应把“65”视为永久固定数量。
+GitHub Actions 会在推送到 `main` 和 Pull Request 时执行同样的检查。若未来新增测试，以 GitHub Actions 对相应提交的结果为准，不应把“88”视为永久固定数量。
 
 ### 4.2 启动 API
 

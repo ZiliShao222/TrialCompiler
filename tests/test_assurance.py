@@ -16,6 +16,11 @@ def base_state():
         },
         "workflow_status": "ready_for_qualified_approval",
         "verification": {"sandbox_applied": True, "regression_free": True},
+        "uncertainty_artifact": {
+            "selected_action": "commit_candidate",
+            "calibration_claim_allowed": False,
+            "claim_note": "diagnostic_signals_only_no_fitted_calibrator",
+        },
     }
 
 
@@ -67,3 +72,15 @@ def test_missing_provenance_is_blocked():
     state = deepcopy(base_state())
     state["proposals"][0]["evidence_source_ids"] = []
     assert "proposal_provenance" in build_assurance_case(state)["failed_check_ids"]
+
+
+def test_missing_uncertainty_governance_is_blocked():
+    state = base_state()
+    state.pop("uncertainty_artifact")
+    assert "uncertainty_claim_governance" in build_assurance_case(state)["failed_check_ids"]
+
+
+def test_unfitted_calibration_claim_is_blocked():
+    state = base_state()
+    state["uncertainty_artifact"]["calibration_claim_allowed"] = True
+    assert "uncertainty_claim_governance" in build_assurance_case(state)["failed_check_ids"]

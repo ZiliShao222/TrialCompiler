@@ -155,15 +155,16 @@ Impact(f) = {所有引用 f 的章节、表格、字段和文件}
 
 ## 三、既有文档审核工作流
 
-### 3.1 A–F 角色分离
+### 3.1 A–G 角色与治理节点分离
 
-当前审核工作流将不同职责分离为六个节点：
+当前审核工作流将专业角色与不确定性治理分离为七个节点：
 
 ```text
 A Context Lock
 → B Evidence Review
 → C Repair Proposal
 → D Independent Quality Gate
+→ G Uncertainty Governance
 → E Review Packet
 → F Experience Candidate
 → qualified human approval
@@ -173,6 +174,7 @@ A Context Lock
 - **B：证据与问题识别**。合并确定性检查与受治理的语义审核结果，并只检索范围匹配、状态允许的经验。
 - **C：候选修订**。围绕已批准事实或受控候选变更生成最小修订；无事实锚点或依赖未批准事实的语义修订会被阻断。
 - **D：独立质量门**。在沙箱副本中应用候选补丁，重新运行确定性检查，识别未关闭问题和新回归。
+- **G：不确定性治理**。把 B/C/D 的诊断信号、证据来源、质量结果和决策债务编译为标准轨迹产物，选择 commit/acquire/deliberate/defer 下一动作；没有拟合校准器时数值概率保持为空，并禁止校准声明。
 - **E：审核包**。输出发现、影响范围、候选修订、来源、未决事项和责任边界。
 - **F：经验候选**。运行经验不会自动进入组织记忆，只有专业人员批准后才可复用。
 
@@ -392,7 +394,7 @@ qualified decision
 
 - Trial Fact Sheet、来源、章节和依赖图数据契约；
 - CLI、FastAPI 与飞书 Aily intake contract；
-- A–F 既有文档审核工作流；
+- A–G 文档审核与不确定性治理工作流；
 - 确定性规则与 Qwen 语义审核组合；
 - 原子修订、冲突合并、沙箱回归检查和人工决策请求；
 - 分阶段可见性的 Phase 1/Phase 2 方案生成；
@@ -406,7 +408,7 @@ qualified decision
 - 两个补充公开案例已完成小规模正例与负例检查；
 - Metformin-PAD 两阶段生成能够产出九个章节和十类关联产物；
 - 机器门能够识别样本量、estimand、终末事件和模拟监管权威化问题，并保持阻断状态；
-- 当前自动化测试为 83 passed；其中新增主动取证 belief 更新、停止策略、校准与选择性风险指标、反事实忠实性聚合及命令行实验报告测试。
+- 当前自动化测试为 88 passed；其中新增主动取证 belief 更新、停止策略、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断测试。
 
 ### 8.3 尚未完成
 
@@ -434,7 +436,8 @@ TrialCompiler 当前最有价值的技术贡献，是建立了一个诚实的控
 
 - 核心数据契约：`src/trialcompiler/models.py`
 - 文档依赖图与确定性检查：`src/trialcompiler/documents/graph.py`
-- A–F 审核代理：`src/trialcompiler/agents/review_agents.py`
+- A–F 专业审核代理：`src/trialcompiler/agents/review_agents.py`
+- G 不确定性治理与轨迹编译：`src/trialcompiler/workflows/uncertainty.py`
 - 审核工作流：`src/trialcompiler/workflows/review.py`
 - 生成包可见性隔离：`src/trialcompiler/generation/package.py`
 - Phase 1/Phase 2 生成：`src/trialcompiler/generation/workflow.py`

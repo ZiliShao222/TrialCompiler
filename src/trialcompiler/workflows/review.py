@@ -3,13 +3,15 @@
 from __future__ import annotations
 
 import json
+from dataclasses import asdict
 from pathlib import Path
 from typing import Any, TypedDict
 
 from trialcompiler.agents import ReviewAgents
 from trialcompiler.memory import SemanticElementStore
 from trialcompiler.memory.experience import ExperienceRepository
-from trialcompiler.models import TrialDocument, to_plain
+from trialcompiler.models import AgentTraceEvent, TrialDocument, to_plain
+from trialcompiler.workflows.uncertainty import build_workflow_uncertainty_artifact
 
 
 class ReviewWorkflowState(TypedDict, total=False):
@@ -37,6 +39,7 @@ class ReviewWorkflowState(TypedDict, total=False):
     round_index: int
     max_rounds: int
     trace: list[dict[str, Any]]
+    uncertainty_artifact: dict[str, Any]
 
 
 class ReviewWorkflow:
@@ -61,6 +64,7 @@ class ReviewWorkflow:
         builder.add_node("D_quality", self.agents.quality_agent)
         builder.add_node("E_reporter", self.agents.reporter_agent)
         builder.add_node("F_experience", self.agents.experience_agent)
+        builder.add_node("G_uncertainty", self._uncertainty_node)
         builder.add_edge(START, "A_context")
         builder.add_edge("A_context", "B_evidence")
         builder.add_edge("B_evidence", "C_repair")
@@ -68,11 +72,33 @@ class ReviewWorkflow:
         builder.add_conditional_edges(
             "D_quality",
             self._route_quality,
-            {"repair": "C_repair", "report": "E_reporter"},
+            {"repair": "C_repair", "report": "G_uncertainty"},
         )
+        builder.add_edge("G_uncertainty", "E_reporter")
         builder.add_edge("E_reporter", "F_experience")
         builder.add_edge("F_experience", END)
         return builder.compile()
+
+    @staticmethod
+    def _uncertainty_node(state: ReviewWorkflowState) -> dict[str, Any]:
+        artifact = build_workflow_uncertainty_artifact(state)
+        return {
+            "uncertainty_artifact": artifact,
+            "trace": state.get("trace", [])
+            + [
+                asdict(
+                    AgentTraceEvent(
+                        agent="G",
+                        action="uncertainty_governance",
+                        summary="Recorded diagnostic uncertainty and next-action policy.",
+                        metadata={
+                        "selected_action": artifact["selected_action"],
+                        "calibration_claim_allowed": False,
+                    },
+                    )
+                )
+            ],
+        }
 
     @staticmethod
     def _route_quality(state: ReviewWorkflowState) -> str:
@@ -114,6 +140,7 @@ class ReviewWorkflow:
         report_path = output / "review_report.md"
         trace_path = output / "agent_trace.jsonl"
         decision_requests_path = output / "decision_requests.json"
+        uncertainty_path = output / "uncertainty_trajectory.json"
         state_path.write_text(
             json.dumps(to_plain(state), ensure_ascii=False, indent=2), encoding="utf-8"
         )
@@ -134,9 +161,19 @@ class ReviewWorkflow:
             + "\n",
             encoding="utf-8",
         )
+        uncertainty_path.write_text(
+            json.dumps(
+                to_plain(state.get("uncertainty_artifact", {})),
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
         return {
             "state": str(state_path),
             "report": str(report_path),
             "trace": str(trace_path),
             "decision_requests": str(decision_requests_path),
+            "uncertainty": str(uncertainty_path),
         }

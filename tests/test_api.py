@@ -29,7 +29,17 @@ class ApiTests(unittest.TestCase):
                 payload = review.json()
                 self.assertTrue(payload["quality"]["accepted"])
                 self.assertEqual(len(payload["findings"]), 2)
-                self.assertEqual([event["agent"] for event in payload["trace"]], list("ABCDEF"))
+                self.assertEqual(
+                    [event["agent"] for event in payload["trace"]],
+                    ["A", "B", "C", "D", "G", "E", "F"],
+                )
+                self.assertEqual(
+                    payload["uncertainty_artifact"]["selected_action"],
+                    "acquire_evidence",
+                )
+                self.assertFalse(
+                    payload["uncertainty_artifact"]["numeric_probability_available"]
+                )
 
     def test_feishu_payload_validation_is_exposed(self):
         with tempfile.TemporaryDirectory() as temp_dir:

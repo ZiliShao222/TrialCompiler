@@ -531,6 +531,7 @@ class ReviewAgents:
                 ]
             )
         quality = state.get("quality", {})
+        uncertainty = state.get("uncertainty_artifact", {})
         lines += [
             "## Independent quality gate",
             "",
@@ -539,6 +540,14 @@ class ReviewAgents:
             "- This gate checks proposal integrity; it is not medical or regulatory approval.",
             f"- Workflow status: `{state.get('workflow_status', 'unknown')}`",
             "- Pending qualified decision requests block final document approval.",
+            "",
+            "## Uncertainty-governed next action",
+            "",
+            f"- Selected action: `{uncertainty.get('selected_action', 'unavailable')}`",
+            f"- Target: {uncertainty.get('action_target', 'unavailable')}",
+            "- Numeric calibrated probability: `not available`",
+            f"- Claim note: `{uncertainty.get('claim_note', 'unavailable')}`",
+            "- The signal is diagnostic and does not constitute clinical authority.",
             "",
         ]
         semantic = state.get("semantic_review", {})
