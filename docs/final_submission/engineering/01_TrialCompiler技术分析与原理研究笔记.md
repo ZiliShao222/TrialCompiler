@@ -411,7 +411,7 @@ qualified decision
 - 两个补充公开案例已完成小规模正例与负例检查；
 - Metformin-PAD 两阶段生成能够产出九个章节和十类关联产物；
 - 机器门能够识别样本量、estimand、终末事件和模拟监管权威化问题，并保持阻断状态；
-- 当前自动化测试为 101 passed；其中覆盖主动取证 belief 更新、允许列表与预算边界、未知 observation 失败关闭、受控工作流 observation 回环、取证后强制重审、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断。
+- 当前自动化测试为 107 passed；其中覆盖主动取证 belief 更新、允许列表与预算边界、未知 observation 失败关闭、受控工作流 observation 回环、取证后强制重审、六臂配对与 split 防泄漏、冻结数据摘要、校准与选择性风险指标、反事实忠实性聚合、命令行实验报告、工作流轨迹产物及 assurance 阻断。
 
 ### 8.3 尚未完成
 
@@ -442,6 +442,9 @@ TrialCompiler 当前最有价值的技术贡献，是建立了一个诚实的控
 - A–F 专业审核代理：`src/trialcompiler/agents/review_agents.py`
 - G 不确定性治理与轨迹编译：`src/trialcompiler/workflows/uncertainty.py`
 - H 受控 observation 适配：`src/trialcompiler/evidence/workflow_observation.py`
+- 六臂消融评价：`src/trialcompiler/evaluation/ablation.py`
+- 冻结消融运行器：`scripts/evaluate_uncertainty_ablation.py`
+- 实验预注册协议：`docs/research/uncertainty_ablation_protocol_20260719.md`
 - 审核工作流：`src/trialcompiler/workflows/review.py`
 - 生成包可见性隔离：`src/trialcompiler/generation/package.py`
 - Phase 1/Phase 2 生成：`src/trialcompiler/generation/workflow.py`

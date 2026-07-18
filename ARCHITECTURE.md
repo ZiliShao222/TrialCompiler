@@ -149,6 +149,8 @@ sources, immutable fixtures, gold findings, negative controls, and deterministic
 scoring scripts.
 
 - Public benchmark cases: `benchmarks/trialdocbench/`
+- Paired uncertainty ablations: `src/trialcompiler/evaluation/ablation.py`
+- Frozen ablation evaluator: `scripts/evaluate_uncertainty_ablation.py`
 - Benchmark and integrity tests: `tests/`
 - Reproducible build and scoring commands: `scripts/`
 - Continuous validation: `.github/workflows/ci.yml`

@@ -18,6 +18,8 @@
 
 G 选择 `acquire_evidence` 且调用方提供受治理 catalog 时，H 节点现可在硬预算内消费一项 observation，并重新进入 B/C/D/G。准入条件包括 `approved_for_research` 状态、项目与文档 ID 精确匹配、`semantic_review` 类型以及规范化 payload 的 SHA-256 一致；失败项保留机器可读拒绝原因。终态不保留原始 catalog，只记录 evidence/source ID 与 digest。该机制验证了安全回环和防篡改边界，但 catalog 仍由实验调用方准备，尚不是面向外部文献库的自主检索器。
 
+为避免先看结果再定义比较方式，仓库新增六臂配对消融评估器与预注册式协议。评估器拒绝 case 跨 calibration/test 泄漏、重复 arm-case、各臂 case 集不一致和冻结摘要漂移；只有 held-out test、A–F 六臂完整且达到预先声明的最小 case 数时，才允许 `result_claim_allowed=true`。当前尚无达到该门槛的真实六臂数据，因此新增内容属于实验基础设施，不新增任何真实性能主张。
+
 主链路现进一步支持受治理取证执行：API 可接收显式允许列表中的 evidence action 与 observation model，在最大步骤和最大成本内选择正净信息价值动作，记录来源 ID、版本、内容 SHA-256、预期/实际信息增益和 posterior。未在允许列表中的动作、重复取证、未知 observation 与预算耗尽均失败关闭。即使取证后的 belief 超过候选提交阈值，G 也只返回 `deliberate`，要求新证据重新进入 B/C/D；belief 分数不能越过独立质量门或专业决策债务。当前演示 observation 为合成数据，尚不构成真实来源取证效果。
 
 > 报告状态：研究原型阶段性验收；评测快照日期：2026-07-18；代码基线：`main` 分支；当前公开案例结果以 `run-deterministic-v2_score.json` 为准。本文中的历史低分仅用于展示改进前基线，不代表当前性能。

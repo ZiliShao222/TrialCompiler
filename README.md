@@ -73,6 +73,11 @@ python scripts/evaluate_uncertainty_experiment.py `
   data/fixtures/uncertainty_experiment_demo.json --bins 2
 ```
 
+The paired six-arm ablation evaluator rejects case leakage, unpaired arm case
+sets, digest drift, incomplete arm matrices, and results below a prespecified
+minimum case count. Its preregistration-style protocol is documented in
+[`docs/research/uncertainty_ablation_protocol_20260719.md`](docs/research/uncertainty_ablation_protocol_20260719.md).
+
 The review API also accepts an optional governed `evidence_acquisition` object.
 Only allowlisted action IDs can be fetched; each observation records a source ID,
 source version, content SHA-256, cost, posterior, and realized information gain.
