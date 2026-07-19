@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from collections import Counter, defaultdict
+from collections import defaultdict
 from pathlib import Path
 
 from docx import Document
@@ -106,8 +106,6 @@ def main() -> int:
     grouped: dict[str, list[dict[str, object]]] = defaultdict(list)
     for source in sources:
         grouped[str(source["collection"])].append(source)
-    tiers = Counter(str(source["evidence_tier"]) for source in sources)
-
     doc = Document()
     section = doc.sections[0]
     section.page_width, section.page_height = Inches(8.5), Inches(11)
@@ -128,19 +126,11 @@ def main() -> int:
     subtitle.add_run("法规 · 临床文件 · 数据标准 · AI方法 · 不确定性与可解释性 · 行业证据")
     summary = doc.add_paragraph()
     summary.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    style_run(
-        summary.add_run(
-            f"规范化来源 {len(sources)} 条  |  A={tiers['A']}  B={tiers['B']}  "
-            f"C={tiers['C']}  D={tiers['D']}  INTERNAL={tiers['INTERNAL']}"
-        ),
-        10,
-        bold=True,
-        color=DARK_BLUE,
-    )
+    style_run(summary.add_run(f"规范化来源 {len(sources)} 条  |  按主题分类并保留原始链接"), 10, bold=True, color=DARK_BLUE)
 
     doc.add_heading("引用与证据边界", level=1)
     for principle in (
-        "法规、伦理、统计与文件要求优先引用A级来源；结构与模板映射可引用A级或B级来源。",
+        "法规、伦理、统计与文件要求优先引用监管机构、国际标准组织及正式指南的原始页面。",
         "人工智能、不确定性与可解释性方法引用原始论文、会议或正式出版页面。",
         "厂商材料只支持功能和市场比较，不支持监管合规或临床有效性结论。",
         "ClinicalTrials.gov登记和公开附件在本项目评测中作为冻结正确基线；受控变异副本才是缺陷正例。",
@@ -161,10 +151,7 @@ def main() -> int:
             purpose = str(source.get("intended_use", "")).strip()
             citation.paragraph_format.keep_with_next = bool(purpose)
             style_run(citation.add_run(f"{number}. [{source['source_id']}] {source['title']}. "), 10.5, bold=True)
-            style_run(
-                citation.add_run(f"{source['organization']}, {source['year']}. 证据等级：{source['evidence_tier']}。"),
-                10.5,
-            )
+            style_run(citation.add_run(f"{source['organization']}, {source['year']}。"), 10.5)
             url = str(source.get("source_url", "")).strip()
             if url:
                 citation.add_run(" ")
