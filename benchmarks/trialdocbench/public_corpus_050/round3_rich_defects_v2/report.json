@@ -1,0 +1,314 @@
+{
+  "schema": "trialcompiler.round3_rich_seeded_defects/v2",
+  "case_count": 50,
+  "task_count": 8,
+  "tasks": [
+    "enrollment",
+    "official_title",
+    "overall_status",
+    "study_type",
+    "primary_outcome_measure",
+    "primary_outcome_timeframe",
+    "condition",
+    "arm_count"
+  ],
+  "scenario_count": 800,
+  "positive_count": 400,
+  "negative_control_count": 400,
+  "results": {
+    "all": {
+      "n": 800,
+      "tp": 400,
+      "fp": 0,
+      "fn": 0,
+      "tn": 400,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9904877056657034,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9904877056657034,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.995221123794324,
+        1.0
+      ]
+    },
+    "train": {
+      "n": 480,
+      "tp": 240,
+      "fp": 0,
+      "fn": 0,
+      "tn": 240,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9842460800584412,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9842460800584412,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9920605009127221,
+        1.0
+      ]
+    },
+    "calibration": {
+      "n": 160,
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "tn": 80,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9541818704644728,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9541818704644728,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9765538048284949,
+        1.0
+      ]
+    },
+    "test": {
+      "n": 160,
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "tn": 80,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9541818704644728,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9541818704644728,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9765538048284949,
+        1.0
+      ]
+    }
+  },
+  "results_by_task": {
+    "enrollment": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "official_title": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "overall_status": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "study_type": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "primary_outcome_measure": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "primary_outcome_timeframe": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "condition": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    },
+    "arm_count": {
+      "n": 100,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 50,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9630065017930143,
+        1.0
+      ]
+    }
+  },
+  "repair": {
+    "approved_count": 400,
+    "repair_available_count": 400,
+    "repair_closed_count": 400,
+    "repair_success_rate": 1.0,
+    "repair_success_wilson95": [
+      0.9904877056657034,
+      1.0
+    ],
+    "semantic_patch_correct_count": 400,
+    "minimal_scope_patch_count": 400,
+    "source_trace_preserved_count": 400,
+    "introduced_finding_count": 0,
+    "negative_control_changed_count": 0
+  },
+  "claim_boundary": "eight controlled propagation-defect families on 50 frozen public registry baselines"
+}

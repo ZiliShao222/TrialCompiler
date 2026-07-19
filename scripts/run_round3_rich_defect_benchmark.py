@@ -1,12 +1,17 @@
-"""Round-3 benchmark: diverse controlled stale-fact defects on 50 real public cases."""
+"""Corrected round-3 benchmark using frozen registry facts as authority."""
 
 from __future__ import annotations
 
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
 from typing import Any
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from scripts.build_and_score_public_role_gold import metrics, split_cases, wilson
 from scripts.evaluate_simulated_human_repair_loop import (
@@ -60,30 +65,32 @@ def registry_values(registry: dict[str, Any]) -> dict[str, object]:
     }
 
 
-def mutate(task: str, old: object) -> object:
-    if isinstance(old, int):
-        return old + max(1, round(max(old, 1) * 0.05))
-    value = str(old)
-    if task == "overall_status":
-        return "RECRUITING" if value != "RECRUITING" else "COMPLETED"
-    if task == "study_type":
-        return "OBSERVATIONAL" if value != "OBSERVATIONAL" else "INTERVENTIONAL"
-    if task == "primary_outcome_timeframe":
-        return f"{value} plus 1 day"
-    return f"{value} [revised]"
+def substantive_candidate(
+    task: str,
+    authoritative: object,
+    peer_values: list[tuple[str, dict[str, object]]],
+) -> tuple[object, str | None]:
+    """Use a real value from another trial; fall back only for repeated counts."""
+    for peer_case_id, values in peer_values:
+        candidate = values[task]
+        if candidate != authoritative:
+            return candidate, peer_case_id
+    if isinstance(authoritative, int):
+        return authoritative + max(1, round(max(authoritative, 1) * 0.10)), None
+    raise ValueError(f"No distinct peer value for {task}")
 
 
 def controlled_document(
     case_id: str,
     source_digest: str,
     task: str,
-    old: object,
-    new: object,
+    candidate: object,
+    authoritative: object,
     propagated: bool,
 ) -> TrialDocument:
     fact_id = f"F-{case_id}-{task.upper().replace('_', '-')}"
     source_id = f"SRC-REGISTRY-{case_id}"
-    observed = new if propagated else old
+    observed = authoritative if propagated else candidate
     unit = "participants" if task == "enrollment" else "arms" if task == "arm_count" else None
     text = f"The controlled document field value is {observed}"
     if unit:
@@ -112,8 +119,8 @@ def controlled_document(
                 {
                     "fact_id": fact_id,
                     "name": task.replace("_", " "),
-                    "value": new,
-                    "previous_value": old,
+                    "value": authoritative,
+                    "previous_value": candidate,
                     "unit": unit,
                     "status": "proposed_change",
                     "source_ids": [source_id],
@@ -138,17 +145,31 @@ def controlled_document(
 def evaluate(corpus: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     registry_paths = sorted((corpus / "registry").glob("NCT*.json"))
     splits = split_cases([path.stem for path in registry_paths])
+    frozen_values = {
+        path.stem: registry_values(json.loads(path.read_text(encoding="utf-8")))
+        for path in registry_paths
+    }
     records: list[dict[str, Any]] = []
     for path in registry_paths:
         case_id = path.stem
         raw = path.read_bytes()
         source_digest = hashlib.sha256(raw).hexdigest().upper()
-        values = registry_values(json.loads(raw))
+        values = frozen_values[case_id]
+        case_index = [item.stem for item in registry_paths].index(case_id)
+        peer_order = [
+            registry_paths[(case_index + offset) % len(registry_paths)].stem
+            for offset in range(1, len(registry_paths))
+        ]
+        peer_values = [(peer_id, frozen_values[peer_id]) for peer_id in peer_order]
         for task in TASKS:
-            old = values[task]
-            new = mutate(task, old)
+            authoritative = values[task]
+            candidate, mutation_source_case_id = substantive_candidate(
+                task, authoritative, peer_values
+            )
             for propagated, expected in ((False, True), (True, False)):
-                document = controlled_document(case_id, source_digest, task, old, new, propagated)
+                document = controlled_document(
+                    case_id, source_digest, task, candidate, authoritative, propagated
+                )
                 before_digest = document_digest(document)
                 before_findings = ClinicalDocumentGraph(document).review()
                 findings = [
@@ -174,9 +195,9 @@ def evaluate(corpus: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
                 semantic_ok = None
                 if proposals:
                     section = patched.sections[0]
-                    semantic_ok = value_present(section.text, new, document.facts[0].unit) and all(
+                    semantic_ok = value_present(section.text, authoritative, document.facts[0].unit) and all(
                         not stale_value_present(section.text, stale, current, document.facts[0].unit)
-                        for stale, current in atomic_value_changes(old, new)
+                        for stale, current in atomic_value_changes(candidate, authoritative)
                     )
                 introduced = sorted(
                     {item.finding_id for item in after_findings}
@@ -191,13 +212,16 @@ def evaluate(corpus: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
                         "expected": expected,
                         "prediction": prediction,
                         "predictions": {"trialcompiler_round3": prediction},
-                        "old_value": old,
-                        "new_value": new,
-                        "mutation_operator": "controlled_stale_value_after_approved_fact_change" if expected else None,
+                        "authoritative_value": authoritative,
+                        "candidate_value": candidate if expected else authoritative,
+                        "old_value": candidate,
+                        "new_value": authoritative,
+                        "mutation_operator": "cross_trial_same_field_transplant" if expected else None,
+                        "mutation_source_case_id": mutation_source_case_id if expected else None,
                         "negative_control_design": "same fact change correctly propagated" if not expected else None,
                         "source_digest": source_digest,
-                        "old_value_digest": digest_text(old),
-                        "new_value_digest": digest_text(new),
+                        "candidate_value_digest": digest_text(candidate if expected else authoritative),
+                        "authoritative_value_digest": digest_text(authoritative),
                         "simulated_decision": decision,
                         "repair_available": bool(proposals),
                         "repair_applied": bool(proposals),
@@ -207,14 +231,14 @@ def evaluate(corpus: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
                         "source_trace_preserved": trace_payload(document) == trace_payload(patched),
                         "negative_control_preserved": (before_digest == document_digest(patched)) if not expected else None,
                         "introduced_finding_ids": introduced,
-                        "claim_boundary": "controlled mutation on a frozen public baseline; not a naturally occurring defect",
+                        "claim_boundary": "controlled cross-trial mutation of a frozen public baseline; not a naturally occurring defect",
                     }
                 )
     positives = [item for item in records if item["expected"]]
     negatives = [item for item in records if not item["expected"]]
     repaired = [item for item in positives if item["repair_applied"]]
     report = {
-        "schema": "trialcompiler.round3_rich_seeded_defects/v1",
+        "schema": "trialcompiler.round3_rich_seeded_defects/v2",
         "case_count": len(registry_paths),
         "task_count": len(TASKS),
         "tasks": list(TASKS),
@@ -257,7 +281,7 @@ def main() -> int:
     parser.add_argument("--corpus", type=Path, default=Path("benchmarks/trialdocbench/public_corpus_050"))
     args = parser.parse_args()
     records, report = evaluate(args.corpus)
-    output = args.corpus / "round3_rich_defects"
+    output = args.corpus / "round3_rich_defects_v2"
     output.mkdir(exist_ok=True)
     (output / "records.jsonl").write_text(
         "".join(json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n" for item in records),

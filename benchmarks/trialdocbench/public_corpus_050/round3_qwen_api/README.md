@@ -1,5 +1,7 @@
 # Round 3 — Qwen API blind evaluation
 
+> **已废弃（superseded）**：本目录的v1数据把人工变异值误设为权威事实，方向与“ClinicalTrials.gov冻结原值为正确基线”的项目约定相反。结果仅保留用于审计，不得用于报告结论。修正版见相邻目录 `round3_qwen_api_v2/`。
+
 本目录保存第三轮丰富缺陷集的真实 Qwen API 评测产物。模型通过阿里云百炼 DashScope 的 OpenAI 兼容接口调用，模型名为 `qwen-plus`。运行时从仓库外部环境变量读取密钥，仓库内不保存任何凭据。
 
 ## 冻结评测设计

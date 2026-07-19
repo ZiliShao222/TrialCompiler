@@ -1,0 +1,41 @@
+{
+  "schema": "trialcompiler.round3_real_qwen_api_blind/v2",
+  "model": "qwen-plus",
+  "api": "DashScope OpenAI-compatible chat/completions",
+  "split": "test",
+  "requested_count": 160,
+  "completed_count": 160,
+  "error_count": 0,
+  "started_at": "2026-07-19T12:12:51.425987+00:00",
+  "completed_at": "2026-07-19T12:15:53.233297+00:00",
+  "wall_seconds": 181.80731,
+  "metrics": {
+    "n": 160,
+    "tp": 80,
+    "fp": 0,
+    "fn": 0,
+    "tn": 80,
+    "precision": 1.0,
+    "precision_wilson95": [
+      0.9541818704644728,
+      1.0
+    ],
+    "recall": 1.0,
+    "recall_wilson95": [
+      0.9541818704644728,
+      1.0
+    ],
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "accuracy_wilson95": [
+      0.9765538048284949,
+      1.0
+    ]
+  },
+  "replacement_correct_count": 159,
+  "mean_latency_seconds": 4.498109892499815,
+  "total_prompt_tokens": 58151,
+  "total_completion_tokens": 25254,
+  "request_id_count": 160,
+  "claim_boundary": "real qwen-plus API evidence extraction and controlled field-value consistency; not expert clinical-semantic adjudication"
+}

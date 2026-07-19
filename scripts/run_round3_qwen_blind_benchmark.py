@@ -1,4 +1,4 @@
-"""Run the frozen round-3 test split through the real DashScope Qwen API."""
+"""Run corrected round-3 evidence-extraction cases through the real Qwen API."""
 
 from __future__ import annotations
 
@@ -6,6 +6,7 @@ import argparse
 import concurrent.futures
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -22,10 +23,12 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from scripts.build_and_score_public_role_gold import metrics
+from scripts.run_round3_rich_defect_benchmark import registry_values
 
 
 SYSTEM = """You are an independent clinical-document consistency reviewer.
-Compare the supplied authoritative frozen fact with the candidate document statement.
+Use the frozen ClinicalTrials.gov registry excerpt as the authoritative evidence.
+Locate the requested target field yourself, then compare it with the candidate document statement.
 Do not assume a defect merely because this is a benchmark. A defect exists only when the
 candidate field value does not equal the authoritative value for the same field and scope.
 Return one JSON object only, with keys defect_present, observed_value,
@@ -58,34 +61,62 @@ def call_api(model: str, key: str, payload: dict[str, Any], timeout: int) -> tup
     return output, {"latency_seconds": latency, "usage": raw.get("usage", {}), "request_id": raw.get("id")}
 
 
-def blind_payload(record: dict[str, Any]) -> dict[str, Any]:
-    candidate = record["old_value"] if record["expected"] else record["new_value"]
+def blind_payload(record: dict[str, Any], registry_excerpt: dict[str, object]) -> dict[str, Any]:
+    candidate = record["candidate_value"]
     unit = " participants" if record["task"] == "enrollment" else " arms" if record["task"] == "arm_count" else ""
     return {
         "case_id": record["case_id"],
         "field_name": record["task"].replace("_", " "),
         "scope": "same trial, same field, same controlled document unit",
-        "authoritative_frozen_fact": str(record["new_value"]),
+        "frozen_registry_excerpt": registry_excerpt,
         "candidate_document_statement": f"The document field value is {candidate}{unit}.",
         "instruction": "Decide whether repair is required and give the exact authoritative replacement if required.",
     }
 
 
-def run_one(record: dict[str, Any], model: str, key: str, timeout: int) -> dict[str, Any]:
+def replacement_matches(record: dict[str, Any], replacement: str) -> bool:
+    authoritative = str(record["authoritative_value"]).strip()
+    normalized = replacement.strip()
+    if record["task"] in {"enrollment", "arm_count"}:
+        normalized = re.sub(
+            r"\s*(participants?|subjects?|patients?|arms?)\s*$",
+            "",
+            normalized,
+            flags=re.IGNORECASE,
+        )
+    if record["expected"]:
+        return normalized == authoritative
+    return normalized in {"", authoritative}
+
+
+def run_one(
+    record: dict[str, Any],
+    registry_excerpt: dict[str, object],
+    model: str,
+    key: str,
+    timeout: int,
+) -> dict[str, Any]:
     last_error = ""
     for attempt in range(3):
         try:
-            output, transport = call_api(model, key, blind_payload(record), timeout)
+            output, transport = call_api(model, key, blind_payload(record, registry_excerpt), timeout)
             predicted = bool(output["defect_present"])
             replacement = str(output.get("recommended_replacement", "")).strip()
-            replacement_correct = replacement == str(record["new_value"]) if record["expected"] else replacement in {"", str(record["new_value"])}
+            replacement_correct = replacement_matches(record, replacement)
             return {
                 "record_id": record["record_id"], "case_id": record["case_id"],
                 "split": record["split"], "task": record["task"], "expected": record["expected"],
                 "predictions": {model: predicted}, "model_output": output,
                 "replacement_correct": replacement_correct, **transport, "error": None,
             }
-        except (KeyError, ValueError, json.JSONDecodeError, urllib.error.URLError, TimeoutError) as exc:
+        except (
+            KeyError,
+            ValueError,
+            json.JSONDecodeError,
+            urllib.error.URLError,
+            TimeoutError,
+            OSError,
+        ) as exc:
             last_error = f"{type(exc).__name__}: {exc}"
             time.sleep(1.5 * (attempt + 1))
     return {
@@ -98,13 +129,14 @@ def run_one(record: dict[str, Any], model: str, key: str, timeout: int) -> dict[
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--records", type=Path, default=Path("benchmarks/trialdocbench/public_corpus_050/round3_rich_defects/records.jsonl"))
+    parser.add_argument("--records", type=Path, default=Path("benchmarks/trialdocbench/public_corpus_050/round3_rich_defects_v2/records.jsonl"))
+    parser.add_argument("--corpus", type=Path, default=Path("benchmarks/trialdocbench/public_corpus_050"))
     parser.add_argument("--model", default="qwen-plus")
     parser.add_argument("--split", default="test")
     parser.add_argument("--limit", type=int)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--timeout", type=int, default=120)
-    parser.add_argument("--output", type=Path, default=Path("benchmarks/trialdocbench/public_corpus_050/round3_qwen_api"))
+    parser.add_argument("--output", type=Path, default=Path("benchmarks/trialdocbench/public_corpus_050/round3_qwen_api_v2"))
     args = parser.parse_args()
     key = os.getenv("DASHSCOPE_API_KEY", "").strip()
     if not key:
@@ -113,14 +145,29 @@ def main() -> int:
     selected = [item for item in records if item["split"] == args.split]
     if args.limit:
         selected = selected[: args.limit]
+    evidence = {
+        item["case_id"]: registry_values(
+            json.loads(
+                (args.corpus / "registry" / f"{item['case_id']}.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+        )
+        for item in selected
+    }
     started_at = datetime.now(UTC)
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-        results = list(pool.map(lambda item: run_one(item, args.model, key, args.timeout), selected))
+        results = list(
+            pool.map(
+                lambda item: run_one(item, evidence[item["case_id"]], args.model, key, args.timeout),
+                selected,
+            )
+        )
     completed_at = datetime.now(UTC)
     valid = [item for item in results if not item["error"]]
     scored = metrics(valid, args.model) if valid else {}
     report = {
-        "schema": "trialcompiler.round3_real_qwen_api_blind/v1",
+        "schema": "trialcompiler.round3_real_qwen_api_blind/v2",
         "model": args.model,
         "api": "DashScope OpenAI-compatible chat/completions",
         "split": args.split,
@@ -134,7 +181,7 @@ def main() -> int:
         "total_prompt_tokens": sum(item["usage"].get("prompt_tokens", 0) for item in valid),
         "total_completion_tokens": sum(item["usage"].get("completion_tokens", 0) for item in valid),
         "request_id_count": sum(bool(item["request_id"]) for item in valid),
-        "claim_boundary": "real qwen-plus API blind classification of controlled field-value consistency; not expert clinical-semantic adjudication",
+        "claim_boundary": "real qwen-plus API evidence extraction and controlled field-value consistency; not expert clinical-semantic adjudication",
     }
     args.output.mkdir(parents=True, exist_ok=True)
     suffix = f"{args.split}_{len(selected):03d}"
