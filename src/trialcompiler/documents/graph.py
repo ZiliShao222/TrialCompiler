@@ -60,6 +60,23 @@ def value_present(text: str, value: object, unit: str | None = None) -> bool:
     return bool(re.search(rf"(?<!\w){re.escape(str(value))}(?!\w)", text, re.IGNORECASE))
 
 
+def stale_value_present(
+    text: str, old_value: object, new_value: object, unit: str | None = None
+) -> bool:
+    """Find a stale value without counting it only as a substring of the new value."""
+    old = str(old_value)
+    new = str(new_value)
+    searchable = text
+    if old.lower() in new.lower() and value_present(text, new_value, unit):
+        searchable = re.sub(
+            rf"(?<!\w){re.escape(new)}(?!\w)",
+            " ",
+            searchable,
+            flags=re.IGNORECASE,
+        )
+    return value_present(searchable, old_value, unit)
+
+
 @dataclass(slots=True)
 class ClinicalDocumentGraph:
     document: TrialDocument
@@ -178,7 +195,7 @@ class ClinicalDocumentGraph:
                 stale = [
                     (old, new)
                     for old, new in changes
-                    if value_present(section.text, old, fact.unit)
+                    if stale_value_present(section.text, old, new, fact.unit)
                 ]
                 if not stale:
                     continue
@@ -373,6 +390,16 @@ class ClinicalDocumentGraph:
             return ClinicalDocumentGraph._minimal_week_repair(text, fact)
         proposed = text
         for old, new in atomic_value_changes(fact.previous_value, fact.value):
+            protected: dict[str, str] = {}
+            if old.lower() in new.lower() and value_present(proposed, new, fact.unit):
+                token = "__TRIALCOMPILER_CANONICAL_VALUE__"
+                protected[token] = new
+                proposed = re.sub(
+                    rf"(?<!\w){re.escape(new)}(?!\w)",
+                    token,
+                    proposed,
+                    flags=re.IGNORECASE,
+                )
             if fact.unit and re.fullmatch(r"-?\d+(?:\.\d+)?", old):
                 normalized = fact.unit.strip().lower().rstrip("s")
                 pattern = (
@@ -382,6 +409,8 @@ class ClinicalDocumentGraph:
             else:
                 pattern = rf"(?<!\w){re.escape(old)}(?!\w)"
             proposed = re.sub(pattern, new, proposed, flags=re.IGNORECASE)
+            for token, canonical in protected.items():
+                proposed = proposed.replace(token, canonical)
         return proposed
 
     @staticmethod
