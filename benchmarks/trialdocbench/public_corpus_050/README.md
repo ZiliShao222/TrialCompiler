@@ -39,6 +39,11 @@ independent findings and patch-validity labels are produced without test leakage
   all 197 real candidates before gold adjudication.
 - `results/natural_candidate_evaluation_pre_gold.json`: coverage, escalation, evidence-locator,
   and prediction-digest results; accuracy metrics are explicitly unavailable before adjudication.
+- `results/simulated_human_repair_records.jsonl`: 200 controlled decisions covering approval,
+  rejection, supported repair, unsupported repair, sandbox application, and revalidation.
+- `results/simulated_human_repair_report.json`: aggregate repair correctness, minimal-scope,
+  provenance-preservation, negative-control, and held-out results. Decisions are simulated and
+  are not a substitute for qualified clinical authorization.
 
 ## Frozen profile (2026-07-19)
 
@@ -63,6 +68,7 @@ python -m scripts.build_and_score_seeded_defect_gold
 python scripts/mine_public_natural_defect_candidates.py
 python scripts/build_natural_defect_adjudication_set.py
 python scripts/evaluate_natural_defect_candidates.py
+python -m scripts.evaluate_simulated_human_repair_loop
 python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_profile.py -q
 ```
 

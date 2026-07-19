@@ -1,0 +1,31 @@
+{
+  "schema": "trialcompiler.simulated_human_repair_loop/v1",
+  "case_count": 50,
+  "scenario_count": 200,
+  "simulated_approved_count": 100,
+  "simulated_rejected_count": 100,
+  "auto_repair_available_count": 50,
+  "manual_edit_required_count": 50,
+  "repair_applied_count": 50,
+  "repair_closed_count": 50,
+  "semantically_correct_patch_count": 50,
+  "minimal_scope_patch_count": 50,
+  "source_trace_preserved_count": 50,
+  "new_finding_after_patch_count": 0,
+  "repair_success_rate": 1.0,
+  "repair_success_wilson95": [
+    0.9286524008666414,
+    1.0
+  ],
+  "negative_control_changed_count": 0,
+  "unexpected_change_count": 0,
+  "held_out_test": {
+    "scenario_count": 40,
+    "repair_applied_count": 10,
+    "repair_closed_count": 10,
+    "semantically_correct_patch_count": 10,
+    "minimal_scope_patch_count": 10,
+    "negative_control_changed_count": 0
+  },
+  "claim_boundary": "simulated qualified decisions on controlled defects; validates repair mechanics, not real expert authorization or natural clinical-semantic patch validity"
+}
