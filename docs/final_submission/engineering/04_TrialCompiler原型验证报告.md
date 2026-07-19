@@ -250,3 +250,22 @@ python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_builde
 对应证据位于 `benchmarks/trialdocbench/public_corpus_050/`。其中 `build_report.json` 记录
 拒绝原因和声明边界，`corpus_profile.json` 记录覆盖分布，`corpus_manifest.tsv` 与 50 个
 case contract 支持逐文件摘要复核和未来盲标。
+
+## 9. 2026-07-19：首批 130 个官方元数据金标签与 held-out 结果
+
+在来源完整性验证之后，本轮进一步完成了文档角色识别金标签。65 份 PDF 对 Protocol 与
+SAP 两种角色各建立一个二元标签，共 130 个标签；标签直接来自 ClinicalTrials.gov
+`hasProtocol/hasSap` 元数据，而不是由待评模型或文件名生成。50 个 NCT 按组冻结为
+30 个 train、10 个 calibration 和 10 个 held-out test，同一研究的文档不会跨 split。
+
+held-out test 包含 10 个案例、14 份文档和 28 个二元标签。正文语义基线得到
+Precision=82.61%、Recall=95.00%、F1=88.37%、Accuracy=82.14%；规范文件名基线在本批
+test 上得到 Precision/Recall/F1/Accuracy=100%，但 Accuracy Wilson 95% 区间仍为
+87.94%–100%；正文与文件名 OR 合并基线得到 Precision=83.33%、Recall=100%、
+F1=90.91%、Accuracy=85.71%。结果说明正文扩大触发词可以提高召回，但会把文档中提到
+另一角色的内容误判为该文档本身角色；本批官方文件名则具有非常强的规范先验。
+
+上述数字只描述公开文档角色分类，不是临床缺陷检测准确率。医学、统计与注册语义缺陷的
+50 例金标准仍需逐 finding 独立裁决；在完成该层裁决前，不把角色识别的 100% 文件名结果
+包装为 TrialCompiler 的总体成功率。完整方法和边界见
+`docs/research/public_role_gold_benchmark_20260719.md`。

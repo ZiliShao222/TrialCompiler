@@ -23,6 +23,10 @@ independent findings and patch-validity labels are produced without test leakage
 - `build_report.json`: discovery query, admitted counts, rejected candidates, and claim boundary.
 - `corpus_profile.json`: deterministic coverage profile for study type, phase, status,
   combined/separate documents, acquisition page cost, and missing registry fields.
+- `gold/document_role_labels.jsonl`: 130 official-metadata gold labels for Protocol/SAP roles,
+  grouped into 30/10/10 train/calibration/test cases without case leakage.
+- `gold/role_baseline_results.json`: text, filename, and hybrid baseline metrics with Wilson 95%
+  intervals, including held-out test results.
 
 ## Frozen profile (2026-07-19)
 
@@ -42,6 +46,7 @@ fixed English keyword list creates false negatives for combined documents and im
 ```powershell
 python scripts/build_public_protocol_sap_corpus.py --limit 50 --workers 8
 python scripts/profile_public_protocol_sap_corpus.py
+python scripts/build_and_score_public_role_gold.py
 python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_profile.py -q
 ```
 
