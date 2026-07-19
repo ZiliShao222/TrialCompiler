@@ -1,0 +1,305 @@
+{
+  "schema": "trialcompiler.seeded_defect_benchmark/v1",
+  "tasks": [
+    "canonical_trial_identifier_conflict_detection",
+    "enrollment_change_propagation_detection"
+  ],
+  "case_count": 50,
+  "label_count": 200,
+  "positive_count": 100,
+  "negative_control_count": 100,
+  "split_case_counts": {
+    "train": 30,
+    "calibration": 10,
+    "test": 10
+  },
+  "results": {
+    "all": {
+      "n": 200,
+      "tp": 100,
+      "fp": 0,
+      "fn": 0,
+      "tn": 100,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    "train": {
+      "n": 120,
+      "tp": 60,
+      "fp": 0,
+      "fn": 0,
+      "tn": 60,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.93982814785791,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.93982814785791,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    },
+    "calibration": {
+      "n": 40,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9123783988027135,
+        1.0
+      ]
+    },
+    "test": {
+      "n": 40,
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "accuracy_wilson95": [
+        0.9123783988027135,
+        1.0
+      ]
+    }
+  },
+  "results_by_task": {
+    "all": {
+      "canonical_trial_identifier_conflict_detection": {
+        "n": 100,
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "tn": 50,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.9286524008666414,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.9286524008666414,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "enrollment_change_propagation_detection": {
+        "n": 100,
+        "tp": 50,
+        "fp": 0,
+        "fn": 0,
+        "tn": 50,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.9286524008666414,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.9286524008666414,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.9630065017930143,
+          1.0
+        ]
+      }
+    },
+    "train": {
+      "canonical_trial_identifier_conflict_detection": {
+        "n": 60,
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "tn": 30,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.8864866068260312,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.8864866068260312,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.93982814785791,
+          1.0
+        ]
+      },
+      "enrollment_change_propagation_detection": {
+        "n": 60,
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "tn": 30,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.8864866068260312,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.8864866068260312,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.93982814785791,
+          1.0
+        ]
+      }
+    },
+    "calibration": {
+      "canonical_trial_identifier_conflict_detection": {
+        "n": 20,
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.8388748419471806,
+          1.0
+        ]
+      },
+      "enrollment_change_propagation_detection": {
+        "n": 20,
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.8388748419471806,
+          1.0
+        ]
+      }
+    },
+    "test": {
+      "canonical_trial_identifier_conflict_detection": {
+        "n": 20,
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.8388748419471806,
+          1.0
+        ]
+      },
+      "enrollment_change_propagation_detection": {
+        "n": 20,
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 1.0,
+        "precision_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "recall": 1.0,
+        "recall_wilson95": [
+          0.7224672001371107,
+          1.0
+        ],
+        "f1": 1.0,
+        "accuracy": 1.0,
+        "accuracy_wilson95": [
+          0.8388748419471806,
+          1.0
+        ]
+      }
+    }
+  },
+  "claim_boundary": "controlled identifier and enrollment-propagation defects on real public case contracts; not naturally occurring clinical-semantic defect accuracy"
+}

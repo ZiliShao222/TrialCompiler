@@ -64,3 +64,22 @@ python -m pytest tests/test_public_role_gold.py -q
 
 标签文件：`benchmarks/trialdocbench/public_corpus_050/gold/document_role_labels.jsonl`。
 完整结果：`benchmarks/trialdocbench/public_corpus_050/gold/role_baseline_results.json`。
+
+## 7. 50 例受控缺陷金标签补充
+
+为直接评价缺陷检测链路，本轮进一步以 50 个真实冻结 case contract 为底座构造两类可
+客观裁决的受控缺陷。第一类将每个真实 NCT ID 的末位加一，形成 canonical identifier
+冲突；匹配负对照保留正确当前 NCT，同时在 related-study citation 中放入另一 NCT，测试
+系统是否会因看到多个编号而误报。第二类使用每例真实 enrollment 作为旧值，生成至少加
+一且约增加 5% 的 proposed change；正例保留旧人数形成未传播缺陷，负对照写入新人数表示
+已正确传播。
+
+每例包含两类正例和两个负对照，因此 50 例形成 200 个平衡缺陷标签：100 个正例、100 个
+负对照。切分沿用 30/10/10 的 NCT 级冻结分组。Held-out test 包含 10 个案例和 40 个标签，
+TrialCompiler 确定性检测器得到 TP=20、FP=0、FN=0、TN=20；Precision、Recall、F1 和
+Accuracy 点估计均为 100%，Accuracy Wilson 95% 区间为 91.24%–100%。全量 200 标签同样
+全部判断正确，Accuracy Wilson 95% 区间为 98.12%–100%。
+
+该结果可以证明：在 50 个真实案例派生的受控 trial-ID 冲突和 enrollment 变更残留任务
+上，当前确定性缺陷检测链路表现稳定，并能保护带干扰项的负对照。它不能证明系统对自然
+发生的 estimand、缺失数据、多重性或医学安全性问题也达到 100%；后者仍需独立专家裁决。

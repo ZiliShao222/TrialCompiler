@@ -27,6 +27,11 @@ independent findings and patch-validity labels are produced without test leakage
   grouped into 30/10/10 train/calibration/test cases without case leakage.
 - `gold/role_baseline_results.json`: text, filename, and hybrid baseline metrics with Wilson 95%
   intervals, including held-out test results.
+- `gold/seeded_defect_labels.jsonl`: 200 balanced defect labels derived from 50 frozen real
+  cases—one identifier conflict, one enrollment-propagation defect, and matched negative controls
+  per case.
+- `gold/seeded_defect_results.json`: TrialCompiler deterministic detector results on the grouped
+  30/10/10 split, with Wilson 95% intervals and a controlled-defect claim boundary.
 
 ## Frozen profile (2026-07-19)
 
@@ -47,6 +52,7 @@ fixed English keyword list creates false negatives for combined documents and im
 python scripts/build_public_protocol_sap_corpus.py --limit 50 --workers 8
 python scripts/profile_public_protocol_sap_corpus.py
 python scripts/build_and_score_public_role_gold.py
+python -m scripts.build_and_score_seeded_defect_gold
 python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_profile.py -q
 ```
 
