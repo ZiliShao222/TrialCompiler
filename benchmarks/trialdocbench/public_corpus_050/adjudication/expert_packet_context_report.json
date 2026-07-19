@@ -1,0 +1,6 @@
+{
+  "candidate_count": 197,
+  "paired_or_registry_comparison_count": 87,
+  "single_context_only_count": 110,
+  "rule": "single-context items must not be forced into a defect/non-defect decision"
+}
