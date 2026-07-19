@@ -53,3 +53,8 @@ build/
 
 # Documents generated during rendering
 docs/_rendered/
+
+# Local submission assembly and shared-report working copies
+/report.md
+/docs/final_submission*.zip
+/TrialCompiler_工科报告_6.4至结尾_Word版.docx

@@ -61,6 +61,32 @@ The MVP includes a CLI, FastAPI service, synthetic fixtures, a Feishu Aily
 intake contract, and automated tests. It does **not** support clinical
 production use or real patient data.
 
+### Frozen validation snapshot
+
+The repository validates two complementary workflows. The A--H review workflow
+starts from existing documents: on the frozen independent set, the registration
+review agent detected 80/80 controlled field defects; 75 proposed patches passed
+strict source-and-type fidelity checks, 5 were blocked, and all 80 unchanged
+controls were preserved. The strict end-to-end repair rate is therefore 93.75%
+(Wilson 95% CI 86.19%--97.30%), not a claim of general clinical accuracy.
+
+The G1--G7 generation workflow starts from staged evidence. In the frozen
+Metformin-PAD reconstruction, Phase 1 used 8 visible inputs to produce 5 key
+questions, 5 candidate facts, 4 unresolved decisions, a synopsis, and 9 protocol
+sections. Phase 2 added 5 visible inputs and synchronized 10 associated
+artifacts. The deterministic gate found 4 blocking statistical or regulatory
+issues and compiled 4 role-assigned remediation work items; evaluator-only
+materials remained outside both generation stages.
+
+Reproduce the strict repair replay with:
+
+```powershell
+python scripts/evaluate_registered_agent_repair_loop.py
+```
+
+The case-level records and summary are frozen under
+`benchmarks/trialdocbench/public_corpus_050/registered_agent_repair_loop_v1/`.
+
 The uncertainty research harness now executes finite-belief evidence updates,
 cost-aware expected-information-gain selection, and explicit commit/acquire/defer
 stopping decisions. A separate evaluator reports Brier score, ECE,
