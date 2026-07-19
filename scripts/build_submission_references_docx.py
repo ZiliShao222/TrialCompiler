@@ -154,8 +154,8 @@ def main() -> int:
             style_run(citation.add_run(f"{source['organization']}, {source['year']}。"), 10.5)
             url = str(source.get("source_url", "")).strip()
             if url:
-                citation.add_run(" ")
-                add_hyperlink(citation, "原始来源", url)
+                citation.add_run("\n链接：")
+                add_hyperlink(citation, url, url)
             if purpose:
                 p = doc.add_paragraph()
                 p.paragraph_format.left_indent = Inches(0.28)
