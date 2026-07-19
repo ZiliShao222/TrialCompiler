@@ -675,27 +675,203 @@ $$
 
 ## 6.6 不确定性与可解释性机制
 
-TrialCompiler 将不确定性作为决策对象，而不是在界面上展示一个缺乏语义的置信度数字。
-面对候选差异时，系统维护有限假设集合，例如“真实冲突”“计划值与实际值差异”“亚组与总
-人群差异”“相关研究引用”或“证据不足”。belief state `b(h)` 表示当前证据下各假设的后验，
-其熵 `H(b)=-Σ b(h)log b(h)` 表示未决程度。
+TrialCompiler 的 AI 研究核心不是让模型为一段答案附加一个 confidence，而是研究概率型 Agent
+如何在多文档、证据不完整且来源可能冲突的环境中形成竞争假设，主动选择下一项证据，并在无法
+安全收敛时拒绝提交。系统因此把不确定性视为能够改变行动和发布状态的计算对象；可解释性则不是
+自动生成一段理由，而是要求 finding、动作和候选补丁携带可重放、可干预和可证伪的证据。
 
-系统可以选择提交、暂缓或获取新证据。对取证动作 `a`，使用预期信息增益
-`EIG(a)=H(b)-E_o[H(b|o,a)]` 衡量它可能减少的不确定性，并与读取页数、模型调用或人工时间
-等成本结合。该机制让 Agent 不只是“继续思考”，而是能够说明为什么要读取某份 SAP、注册
-字段或请求统计人员判断。
+### 6.6.1 先区分诊断信号、不确定性与授权状态
 
-评价不确定性时同时使用 Brier score、ECE、risk–coverage 曲线和 AURC。系统允许对高风险
-样本 abstain 或 defer；覆盖率下降时，已提交样本的错误风险应相应降低。解释则通过证据链和
-反事实测试验证：移除被声称为必要的证据，结论应有可观察变化；替换关键证据，风险排序或
-处置应产生方向一致的响应。necessity flip rate 和 contrastive sensitivity 用于避免系统
-生成听起来合理、但对实际决定没有作用的“装饰性解释”。
+来源冲突、证据缺失、模型分歧、影响范围未知和权限不足在界面上都可能表现为“无法确定”，但
+它们并不是同一种量。来源冲突和证据缺失是观测到的诊断信号；权限不足是治理状态；多次采样
+不一致是估计信号；只有针对明确事件、明确层级定义的分布或风险，才是不确定性估计。否则一个
+没有语义对象的“87% confidence”既不能校准，也不能决定该读取哪份文件。
 
-Brier score `N^-1 Σ(p_i-y_i)^2` 衡量概率与二元结果之间的误差；ECE 将预测分箱并比较平均
-置信度与经验准确率；risk–coverage 曲线计算不同拒答阈值下已提交样本的错误风险，AURC
-汇总整条曲线。若模型声称某证据必要，移除它后处置发生预期变化的比例构成 necessity flip
-rate；替换为对照证据后风险方向正确变化的比例构成 contrastive sensitivity。这些量共同
-评价“系统是否知道自己何时不知道”以及“解释是否真的驱动决定”。
+本项目从两个正交维度描述不确定性。第一维是性质：epistemic uncertainty 来自知识、来源或
+模型能力不足，原则上可以通过取证、验证或专家判断降低；aleatoric uncertainty 来自环境或观测
+过程本身的随机性和不可约歧义，不能承诺通过更多推理消除。第二维是位置：不确定性可以位于
+observation、belief state、next action 或 trajectory outcome。例如 OCR 对一个数值的识别风险
+属于 observation 层；两个规范事实解释的竞争属于 belief 层；下一步应读 SAP 还是注册记录属于
+action 层；整条轨迹最终能否生成通过独立复检的补丁属于 outcome 层。
+
+任何数值输出必须同时声明 target event。可接受的事件包括“该候选事实经专业裁决为真”“该
+finding 与冻结 Gold 匹配”“该补丁通过独立复检”或“该轨迹无错误提交”；不可接受的写法是脱离
+事件只报告“系统置信度”。只有估计器在独立 calibration split 上拟合或选阈值，并在未参与调参
+的 test split 上评价后，报告才允许使用 calibrated probability。模型自报概率、reviewer rule
+score 和演示数据中的手工 posterior 均不能据此冒充真实校准结果。
+
+### 6.6.2 跨文档事实调和的有限假设状态
+
+对一个候选差异，系统首先建立有限且互斥程度足够的假设集合
+$\mathcal{H}=\{h_1,\ldots,h_q\}$。例如 NCT ID 不一致可以对应：$h_1$ 当前文件身份错误，
+$h_2$ 文中是合法的相关研究引用，$h_3$ 来源范围配置错误，$h_4$ 证据不足。主要终点时间点
+不同则可能对应真实冲突、历史版本、亚组与总人群差异或计划值与实际值差异。假设必须附有支持
+证据、反对证据、可证伪条件和允许的下一动作，而不是由模型自由扩写成无限故事。
+
+在时刻 $t$，Agent 维护 belief state
+
+$$
+b_t(h)=P(H=h\mid o_{1:t},a_{1:t-1}),\qquad
+\sum_{h\in\mathcal{H}}b_t(h)=1,
+$$
+
+其熵为
+
+$$
+H(b_t)=-\sum_{h\in\mathcal{H}}b_t(h)\log b_t(h).
+$$
+
+观察 $o_{t+1}$ 到达后，系统依据显式 observation model 更新 posterior：
+
+$$
+b_{t+1}(h)=
+\frac{P(o_{t+1}\mid h,a_t)b_t(h)}
+{\sum_{h'}P(o_{t+1}\mid h',a_t)b_t(h')}.
+$$
+
+该公式要求实验明确给出 prior 和 likelihood，不能让大模型临场编造似是而非的小数。当前原型
+使用有限假设和显式 observation-to-posterior 配置验证状态更新、治理和报告链路；这证明算法
+管道可执行，不代表 posterior 已由真实临床数据拟合。
+
+### 6.6.3 不确定性估计信号及其适用边界
+
+系统可以组合多种估计信号，但不把它们互相等同。token likelihood 或 NLL 成本低，却会受到
+文本长度和措辞影响；verbalized confidence 对黑盒模型易取得，但通常过度自信；多次采样的
+self-consistency 可以发现答案不稳定，却无法发现“稳定地答错”；semantic entropy 在语义等价类
+上度量采样分散，能减少字面差异的干扰，但仍依赖多次采样和可靠的语义聚类；来源或 verifier
+分歧贴近本任务，却必须考虑多个 verifier 的相关错误，不能把多数票直接当概率。
+
+若未来训练 trajectory calibrator，可把早期风险、跨步不确定性梯度、工具失败和证据稳定性作为
+特征预测最终补丁是否正确，但必须防止数据泄漏和分布漂移。conformal 方法可以在明确的校准总体、
+exchangeability 假设、nonconformity score 和 coverage event 下提供覆盖或风险保证；如果这些
+条件没有写清，报告不能只因为使用了 conformal 一词就声称具有分布无关安全保证。
+
+对于长轨迹，还必须说明怎样聚合步骤风险。设第 $t$ 步错误概率估计为 $r_t$，可以报告终态风险
+$r_T$、平均风险 $T^{-1}\sum_t r_t$，或最弱步骤风险 $\max_t r_t$。TrialCompiler 的发布门禁优先
+使用最弱步骤和关键动作风险，因为平均值可能掩盖一次错误的来源选择、事实覆盖或高风险补丁。
+
+### 6.6.4 从被动置信度显示到主动取证
+
+Agentic UQ 的关键是让不确定性改变下一步动作。系统的动作空间包括读取指定来源、请求补充附件、
+增加语义采样或 verifier 预算、调用确定性工具、询问医学/统计/注册专家、生成候选补丁、降低主张
+具体度、defer 和 abstain。对候选取证动作 $a$，预期信息增益定义为
+
+$$
+EIG(a)=H(b_t)-\mathbb{E}_{o\sim P(o\mid a,b_t)}[H(b_{t+1}\mid a,o)].
+$$
+
+若动作成本为 $c(a)$，风险权重为 $\lambda$，则在允许动作集合 $\mathcal{A}_{safe}$ 中选择
+
+$$
+a^*=\arg\max_{a\in\mathcal{A}_{safe}}
+\{EIG(a)-\lambda c(a)\}.
+$$
+
+成本不仅是模型 token，还包括 PDF 页数、外部查询、人工分钟数、等待时间和敏感数据暴露面。
+高 EIG 但越权的动作不属于 $\mathcal{A}_{safe}$；低成本但不能区分竞争假设的重复读取也不应被
+选择。每个动作记录选择前 belief、预期收益、实际 observation、更新后 belief、实际熵下降、来源
+版本和内容摘要，使评估者能判断 Agent 是否真的因不确定性而取证。
+
+### 6.6.5 提交、继续取证、暂缓与人工转交
+
+设最高后验假设为 $h^*$，候选补丁通过独立验证的估计风险为 $R_t$，剩余预算为 $B_t$。停止策略
+不是单一 confidence 阈值，而是受硬门禁约束的选择性决策：
+
+$$
+Decision_t=
+\begin{cases}
+commit, & b_t(h^*)\ge\tau_h,\ R_t\le\tau_r,\ HardGate=1;\\
+acquire, & \max_a(EIG(a)-\lambda c(a))>0,\ B_t>0;\\
+defer, & QualifiedHumanAction\ available;\\
+abstain, & \text{otherwise}.
+\end{cases}
+$$
+
+即使 belief 越过阈值，候选结果仍必须重新进入第 6.5 节的来源、影响范围、原子补丁和沙箱复检，
+不能绕过确定性质量门。若连续若干轮没有关闭 finding、没有带来实际熵下降，或重复访问同一来源，
+系统应停止自循环并转交人工。这样“不知道”会产生明确的安全动作，而不是变成更长的自然语言
+推理。
+
+### 6.6.6 可解释性的五个层次与携证输出
+
+本项目区分五种经常被混用的概念：provenance 说明用了哪些来源；observability 记录实际执行了
+哪些动作和工具；plausibility 表示解释在人看来是否合理；faithfulness 要求解释确实反映影响决策
+的因素；causal/mechanistic explanation 则声称内部机制或结构因果关系。前两者是工程可审计性，
+并不自动证明后两者。大模型生成的流畅 rationale 或 Chain-of-Thought 也不能因为“听起来合理”
+就被视为忠实解释。
+
+TrialCompiler 因而输出 Proof-Carrying Clinical Compilation（携证临床文档编译）对象，而不是
+只输出修改后的文字。一个携证结果至少包含：可证伪主张、规范事实及版本、引用来源及定位、竞争
+假设和剩余不确定性、实际 action/tool trace、依赖影响集、候选原子补丁、补丁前置条件、沙箱复检
+结果、负对照结果、人工授权状态和未清偿的专业决策债务。该对象既可以证明“机器结果可进入合格
+人员审批”，也可以证明“当前证据不足，系统正确阻断”。
+
+解释面向角色分层呈现。医学审核者需要看到临床语义和风险证据；统计人员需要看到 estimand、
+分析集和缺失处理的逻辑；QA 需要看到来源、版本、改动范围和复检结果；系统维护者需要看到工具
+轨迹和失败代码。分层只改变呈现，不改变底层证据对象，防止为不同用户生成彼此不一致的理由。
+
+### 6.6.7 用反事实重放检验解释忠实性
+
+对黑盒模型，当前可以验证的是 behavioral counterfactual faithfulness，而不是模型内部神经机制。
+若解释声称证据 $e$ 对决定 $d$ 是必要的，则在固定模型、提示、工具和随机配置下移除 $e$ 并重放；
+决定应发生预期变化。若把 $e$ 替换为支持竞争假设 $h'$ 的对立证据，系统的 belief、动作、finding
+或补丁应向 $h'$ 方向移动。若输出不变，则该证据可能只是被展示出来，却没有真正影响决策。
+
+设 $N$ 个案例均声明某证据必要，necessity flip rate 定义为
+
+$$
+NFR=\frac{1}{N}\sum_{i=1}^{N}
+\mathbf{1}[d_i^{-e}\neq d_i].
+$$
+
+设对立证据干预后的期望方向为 $q_i$，contrastive sensitivity 定义为
+
+$$
+CS=\frac{1}{N}\sum_{i=1}^{N}
+\mathbf{1}[Direction(d_i^{e\rightarrow e'},d_i)=q_i].
+$$
+
+还应报告只保留解释证据时的 sufficiency、移除解释证据时的 comprehensiveness、随机重放下干预
+效应的 replay variance，以及解释中无法在实际 trace 或来源找到支撑的 unsupported-rationale
+rate。上述指标只能支持行为层的忠实性结论；没有结构因果模型与受控干预设计时，不声称证明了
+模型内部因果机制。
+
+### 6.6.8 校准、选择性预测与实验指标
+
+若 $p_i$ 表示目标事件成功的预测概率、$y_i\in\{0,1\}$ 为独立标签，则 Brier score 为
+
+$$
+Brier=\frac{1}{N}\sum_{i=1}^{N}(p_i-y_i)^2.
+$$
+
+ECE 将样本按置信度分箱并比较每箱平均预测与经验准确率；样本有限或分箱不稳定时，同时报告
+binning 方案、样本数和置信区间。若系统只提供风险排序而没有可靠概率，应报告 pairwise rank
+accuracy 或 rank-calibration，而不是强行计算“校准概率”。
+
+对拒答或人工升级策略，在阈值 $\tau$ 下定义 coverage 为系统自动提交的样本比例，selective risk
+为这些已提交样本中的错误率。risk–coverage 曲线展示自动化覆盖扩大时风险如何变化，AURC 汇总
+整条曲线。一个有用的不确定性机制应在降低 coverage 时优先排除高风险样本，而不是随机拒答。
+此外还需报告错误自动提交率、defer recall、每个正确闭环的证据成本、单位成本实际熵下降、取证后
+成功增益、负对照保护率和 trajectory weakest-link 校准。
+
+实验应比较 deterministic rules only、single-shot LLM、fixed RAG + LLM、fixed RAG + passive
+UQ/abstention、uncertainty-guided acquisition，以及 acquisition + counterfactual explanation gate。
+只有这种消融才能回答提升来自普通检索、被动拒答、主动取证还是解释门禁，而不能把整个系统的
+改进笼统归因于“使用了 AI”。
+
+### 6.6.9 当前实现范围与声明边界
+
+当前仓库已经具备有限假设 belief state、显式 observation-to-posterior 更新、成本感知 EIG 选证、
+commit/acquire/defer 决策、受控取证预算、轨迹记录，以及 Brier、ECE、risk–coverage/AURC、排序
+准确率、necessity flip rate 和 contrastive sensitivity 的可复现实验底座。未知 observation、
+重复访问、越权动作和预算耗尽采用失败关闭；混用 calibration/test split 时禁止产生校准声明。
+
+但当前尚未完成真实多采样模型 UQ、冻结且由专业人员裁决的独立 calibration/test 数据集、learned
+trajectory calibrator、来自真实外部工具或专家的 observation model、多轮真实来源主动取证对照
+实验，以及具备统计功效的解释忠实性 benchmark。因此现阶段可以声称“已经实现并测试 UQ/XAI
+实验与治理机制”，不能声称“真实临床文档上的概率已经校准”或“主动取证策略已经证明优于所有
+基线”。这一边界使研究亮点建立在可复现机制和明确待验证假设上，而不是把演示分数包装成临床
+有效性结论。
 
 ## 6.7 大模型与确定性规则协同
 
