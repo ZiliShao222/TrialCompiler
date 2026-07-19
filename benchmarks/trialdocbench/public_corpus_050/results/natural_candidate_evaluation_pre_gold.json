@@ -1,0 +1,36 @@
+{
+  "schema": "trialcompiler.natural_candidate_pre_gold_evaluation/v1",
+  "candidate_count": 197,
+  "case_count": 48,
+  "category_counts": {
+    "analysis_population": 30,
+    "enrollment_scope_or_state_difference": 43,
+    "estimand_intercurrent_event": 2,
+    "missing_data": 27,
+    "multiplicity": 10,
+    "primary_endpoint_time": 39,
+    "terminal_event": 41,
+    "trial_identifier_scope": 5
+  },
+  "disposition_counts": {
+    "likely_out_of_scope_reference": 1,
+    "medical_statistical_context_required": 80,
+    "potential_conflict_needs_scope_review": 4,
+    "scope_or_state_ambiguous": 43,
+    "statistical_semantics_requires_adjudication": 69
+  },
+  "auto_confirmed_defect_count": 0,
+  "qualified_review_count": 197,
+  "source_locator_complete_count": 197,
+  "source_locator_completeness": 1.0,
+  "prediction_digest": "59E16BEAEB7B6C07ABD9F0601300CC96EF4F41D3AB890F41DE94F1DC7F239FA2",
+  "prediction_freeze": "before_natural_gold_adjudication",
+  "accuracy_metrics_available": false,
+  "unavailable_metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "accuracy"
+  ],
+  "claim_boundary": "coverage, routing, and pre-gold decision behavior only; no correctness claim"
+}

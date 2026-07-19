@@ -35,6 +35,10 @@ independent findings and patch-validity labels are produced without test leakage
 - `adjudication/diverse_review_set.jsonl`: 197 case-balanced candidates mined from actual PDF
   pages across eight semantic categories. These remain explicitly non-gold until independent
   adjudication; the complete 1,393-candidate high-recall dump stays in ignored local data.
+- `results/natural_candidate_predictions_pre_gold.jsonl`: frozen TrialCompiler dispositions for
+  all 197 real candidates before gold adjudication.
+- `results/natural_candidate_evaluation_pre_gold.json`: coverage, escalation, evidence-locator,
+  and prediction-digest results; accuracy metrics are explicitly unavailable before adjudication.
 
 ## Frozen profile (2026-07-19)
 
@@ -58,6 +62,7 @@ python scripts/build_and_score_public_role_gold.py
 python -m scripts.build_and_score_seeded_defect_gold
 python scripts/mine_public_natural_defect_candidates.py
 python scripts/build_natural_defect_adjudication_set.py
+python scripts/evaluate_natural_defect_candidates.py
 python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_profile.py -q
 ```
 
