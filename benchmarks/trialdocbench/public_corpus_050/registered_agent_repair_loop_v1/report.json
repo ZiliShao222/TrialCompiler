@@ -6,14 +6,14 @@
   "negative_control_count": 80,
   "finding_created_count": 80,
   "repair_proposal_count": 80,
-  "quality_gate_pass_count": 79,
-  "quality_gate_block_count": 1,
-  "repair_applied_count": 79,
-  "finding_closed_count": 79,
-  "repair_success_rate": 0.9875,
+  "quality_gate_pass_count": 75,
+  "quality_gate_block_count": 5,
+  "repair_applied_count": 75,
+  "finding_closed_count": 75,
+  "repair_success_rate": 0.9375,
   "repair_success_wilson95": [
-    0.9325372992233133,
-    0.9977900244795476
+    0.8618985123272557,
+    0.973010624329158
   ],
   "negative_control_preserved_count": 80,
   "negative_control_changed_count": 0,

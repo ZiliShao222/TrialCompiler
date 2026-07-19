@@ -5,9 +5,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from run_round3_qwen_blind_benchmark import replacement_matches
-
-
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "benchmarks" / "trialdocbench" / "public_corpus_050"
 B_OUTPUT = CORPUS / "round3_qwen_api_v2" / "records_test_160.jsonl"
@@ -46,15 +43,32 @@ def main() -> int:
 
         # C Repair Proposal: a patch is proposed only for a supported finding.
         proposal_created = finding_created and bool(replacement)
-        sandbox_before = {"field": base["task"], "value": base["candidate_value"]}
+        sandbox_before = {
+            "field": base["task"],
+            "value": base["candidate_value"],
+            "source_digest": base["source_digest"],
+            "authoritative_value_digest": base["authoritative_value_digest"],
+        }
         sandbox_after = dict(sandbox_before)
         if proposal_created:
             sandbox_after["value"] = replacement
 
         # D Independent Quality Gate: exact frozen-source fidelity is a hard gate.
-        authoritative_match = proposal_created and replacement_matches(base, replacement)
-        minimal_scope = sandbox_before["field"] == sandbox_after["field"]
-        source_trace_preserved = bool(base.get("source_digest"))
+        # The patch value must preserve the frozen field representation exactly.
+        # Unit-appended strings such as "2 arms" are not accepted for a numeric
+        # arm_count field, even if a lenient semantic comparison would normalize them.
+        authoritative_match = proposal_created and replacement == str(
+            base["authoritative_value"]
+        ).strip()
+        changed_keys = {
+            key for key in sandbox_before if sandbox_before[key] != sandbox_after[key]
+        }
+        minimal_scope = changed_keys <= {"value"}
+        source_trace_preserved = (
+            sandbox_before["source_digest"] == sandbox_after["source_digest"]
+            and sandbox_before["authoritative_value_digest"]
+            == sandbox_after["authoritative_value_digest"]
+        )
         gate_passed = bool(authoritative_match and minimal_scope and source_trace_preserved)
         repair_applied = gate_passed
         final_unit = sandbox_after if repair_applied else sandbox_before
