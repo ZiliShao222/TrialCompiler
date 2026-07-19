@@ -32,6 +32,9 @@ independent findings and patch-validity labels are produced without test leakage
   per case.
 - `gold/seeded_defect_results.json`: TrialCompiler deterministic detector results on the grouped
   30/10/10 split, with Wilson 95% intervals and a controlled-defect claim boundary.
+- `adjudication/diverse_review_set.jsonl`: 197 case-balanced candidates mined from actual PDF
+  pages across eight semantic categories. These remain explicitly non-gold until independent
+  adjudication; the complete 1,393-candidate high-recall dump stays in ignored local data.
 
 ## Frozen profile (2026-07-19)
 
@@ -53,6 +56,8 @@ python scripts/build_public_protocol_sap_corpus.py --limit 50 --workers 8
 python scripts/profile_public_protocol_sap_corpus.py
 python scripts/build_and_score_public_role_gold.py
 python -m scripts.build_and_score_seeded_defect_gold
+python scripts/mine_public_natural_defect_candidates.py
+python scripts/build_natural_defect_adjudication_set.py
 python -m pytest tests/test_public_corpus_050.py tests/test_public_corpus_profile.py -q
 ```
 

@@ -1,0 +1,25 @@
+{
+  "schema": "trialcompiler.natural_defect_adjudication_set/v1",
+  "source_candidate_count": 1393,
+  "selected_count": 197,
+  "case_count": 48,
+  "category_counts": {
+    "analysis_population": 30,
+    "enrollment_scope_or_state_difference": 43,
+    "estimand_intercurrent_event": 2,
+    "missing_data": 27,
+    "multiplicity": 10,
+    "primary_endpoint_time": 39,
+    "terminal_event": 41,
+    "trial_identifier_scope": 5
+  },
+  "selection": "highest context-quality candidate per case and category",
+  "gold_count": 0,
+  "required_labels": [
+    "confirmed_defect",
+    "legitimate_difference",
+    "insufficient_evidence",
+    "out_of_scope_reference"
+  ],
+  "claim_boundary": "balanced real-evidence adjudication queue; not gold before review"
+}

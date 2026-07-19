@@ -40,6 +40,7 @@ tmp/
 # Local or sensitive data
 data/raw/
 data/public_case_cache/
+data/public_adjudication/
 data/interim/
 data/processed/
 data/private/
