@@ -1,0 +1,21 @@
+{
+  "schema": "trialcompiler.registered_agent_repair_loop/v1",
+  "input": "frozen B Evidence Review outputs from the registration-review agent",
+  "n": 160,
+  "controlled_defect_count": 80,
+  "negative_control_count": 80,
+  "finding_created_count": 80,
+  "repair_proposal_count": 80,
+  "quality_gate_pass_count": 79,
+  "quality_gate_block_count": 1,
+  "repair_applied_count": 79,
+  "finding_closed_count": 79,
+  "repair_success_rate": 0.9875,
+  "repair_success_wilson95": [
+    0.9325372992233133,
+    0.9977900244795476
+  ],
+  "negative_control_preserved_count": 80,
+  "negative_control_changed_count": 0,
+  "claim_boundary": "controlled registration-field repair replay; not expert approval or natural clinical-semantic repair validity"
+}
